@@ -30,6 +30,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/master-evidence-detailed.csv` — the full 15-column evidence matrix for the seven core papers
 - `data/source-caveats.csv` — source-specific inconsistencies and next verification actions
 - `data/paper-screening-register.csv` — candidate screening and verification status
+- `references/README.md` — Zotero intake, bulk bibliography export, and screening workflow for the full downloaded paper collection
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
 - `logs/` — dated decisions, actions and unresolved questions
