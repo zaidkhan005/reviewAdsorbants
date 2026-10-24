@@ -153,3 +153,40 @@ A second targeted search focused on the two thinnest technical areas from the fi
 13. **Biochar review for citation chasing:** “Removal of tetracycline from water by adsorption with biochar: A review,” Journal of Water Process Engineering (2024), DOI [10.1016/j.jwpe.2024.105215](https://doi.org/10.1016/j.jwpe.2024.105215). Use the review's bibliography to discover primary work on pristine/modified biochar, adsorption mechanisms and regeneration; cite original studies for quantitative findings. Source: [publisher record](https://www.sciencedirect.com/science/article/abs/pii/S2214714424004471).
 
 The corpus register now has 31 downloaded records plus 13 externally discovered leads (44 total candidate records). This count is not a count of included studies, verified full texts, or Q1 papers. Continue searches and citation chasing until the scope and evidence coverage are defensible, and log the search dates/queries so completeness is not claimed prematurely.
+
+
+## Reference-count strategy
+
+The supervisor's guidance is adopted as a planning benchmark, not as a universal publishing rule:
+
+- **Semester/initial complete draft:** aim for at least about **60 distinct, relevant references** as a minimum checkpoint, provided every major part of the outline is supported.
+- **Journal-submission version:** provisionally target around **120–160 distinct references**, with **~150** as a sensible working target for this broad review, unless the target journal's article type or reference limit specifies otherwise.
+- Do not pad the bibliography to hit a count. A shorter, well-supported review is better than a longer one full of redundant citations. The target may go up or down based on the final journal, word limit, systematic/narrative scope and available primary evidence.
+
+Why this is plausible but not universal:
+- Dhillon's guidance on writing a scientific review describes a typical review as having around 150–200 references: https://doi.org/10.1111/febs.16565.
+- Nature Reviews Biodiversity states a guideline of up to 150 references for its Reviews: https://www.nature.com/nrbd/content.
+- Other journals set much smaller explicit limits. For example, the Wiley author guidelines for one journal's Reviews cap references at 60: https://onlinelibrary.wiley.com/page/journal/15525279/homepage/author-guidelines.
+- Related environmental reviews vary widely: a 2024 review of biochar for antibiotic removal has 213 listed references (https://doi.org/10.1007/s11157-024-09711-5); a 2024 review on tetracycline adsorption by biochar lists 151 (https://doi.org/10.1016/j.jwpe.2024.105215); a 2024 magnetic-biochar review lists 153 (https://doi.org/10.1016/j.jenvman.2024.121872).
+
+These are examples of variation, not a rule that this manuscript must match a particular review's reference count. The eventual target journal's current author instructions and article type must be checked before submission.
+
+### Quality guardrails for the count
+1. The bibliography is the set of **distinct works cited** in the manuscript, not every result discovered or every PDF downloaded.
+2. Prioritise original papers for experimental capacities, conditions, mechanisms, regeneration and real-water findings.
+3. Use reviews to map the field and find primary papers; don't rely on review citations alone for specific experimental values.
+4. Include methods, analytical standards, regulatory/environmental context, lifecycle/cost sources only where they materially support a claim.
+5. Each core material class and cross-cutting theme should have enough evidence to permit comparison, including conflicting or null results.
+6. Check for duplicate versions (preprint vs journal article) and cite the correct version; don't count both as separate evidence when they are versions of the same work.
+7. A Q1-only criterion, if retained, is a separate eligibility check and does not replace methodological quality or relevance.
+
+### Provisional reference coverage plan
+Use this as a coverage aid, not a strict quota:
+- Introduction, occurrence/risk and treatment context.
+- The eight original material classes across the four-stage processing continuum.
+- Kinetics, isotherms, pH/speciation and adsorption mechanisms.
+- Preparation energy, chemicals, yield and cost/lifecycle evidence.
+- Regeneration, desorption, real-water matrices, fixed-bed operation and scale-up.
+- Limitations and future research.
+
+Keep a count dashboard only after the full corpus has been screened; the current 44 candidate records are a discovery inventory, not an achieved bibliography target.
