@@ -4,7 +4,7 @@ A structured workspace for the review paper on antibiotic removal by adsorption,
 
 ## Research objective
 
-Compare raw biomass, natural clays and biopolymers, biochar, and engineered/nano-carbon adsorbents using evidence on preparation requirements, adsorption performance, regeneration, real-water behaviour, practical implementation, and cost/energy burden.
+Compare raw biomass, natural clays and unmodified biopolymers, biochar, and engineered/nano-carbon adsorbents using evidence on preparation requirements, adsorption performance, mechanisms, regeneration, real-water behaviour, practical implementation, and cost/energy burden.
 
 The intended contribution is an integrated comparison—not simply a ranking by maximum adsorption capacity or removal percentage.
 
@@ -12,11 +12,11 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 
 - **GitHub** is the project log, taxonomy, screening register, evidence summaries, manuscript drafts, decisions and change history.
 - **Zotero** remains the bibliographic manager and source for citation keys and local/full-text PDFs.
-- Use original research papers to verify numerical results and experimental conditions. Reviews are primarily for field mapping and reference discovery.
-- Store DOI/landing-page links, metadata, notes and extracted evidence here. Do not commit copyrighted PDFs or private credentials.
+- Use original research papers to verify numerical results, experimental conditions, and mechanistic claims. Reviews are primarily for field mapping and reference discovery.
+- Store DOI/landing-page links, metadata, notes and extracted evidence here. Do not commit copyrighted publisher PDFs or private credentials.
 - A capacity fitted from an isotherm (`qmax`) is not the same as observed uptake. Keep the two distinct.
-- Keep adsorption separate from catalytic degradation, photocatalysis, membrane rejection and other removal mechanisms.
-- Never mark a paper “Q1 verified” without recording the ranking provider, ranking year, and subject category.
+- Keep adsorption separate from catalytic degradation, photocatalysis, membrane rejection and other removal processes.
+- Never mark a paper “Q1 verified” without recording the ranking provider, ranking year, subject category, and verification URL.
 
 ## Repository map
 
@@ -28,14 +28,19 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/master-evidence-detailed.csv` — the full 15-column evidence matrix for the seven core papers
 - `data/source-caveats.csv` — source-specific inconsistencies and next verification actions
 - `data/paper-screening-register.csv` — candidate screening and verification status
-- `manuscript/REVIEW_OUTLINE.md` — agreed manuscript structure
+- [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
+- [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
 - `logs/` — dated decisions, actions and unresolved questions
+
+## Outline decision
+
+The supplied outline is preserved separately so the original framework is not overwritten. In the working manuscript outline, adsorption kinetics/isotherms are in Section 3 and **mechanisms are promoted to standalone Section 4**; techno-economic evaluation, implementation, challenges, and conclusions are renumbered to Sections 5–8. The mechanism section includes an evidence-weighted matrix and explicit checks against conflating adsorption with catalytic degradation.
 
 ## Current status (2026-10-24)
 
 - The initial seven-paper evidence matrix is preserved here in `data/master-evidence-detailed.csv` (15 fields × 7 core papers), with source-specific verification tasks in `data/source-caveats.csv`. The formatted `.xlsx` workbook remains a separate working artifact.
-- Material-class working taxonomies have been drafted for Section 2.2 (natural clays and biopolymers), Section 2.3 (biochar) and Section 2.4 (engineered/nano-carbon adsorbents).
-- The boundary between the outline’s Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved.
+- The outline's core class list is retained: raw lignocellulosic biomass, natural clays, unmodified biopolymers, standard biochar, chemically modified biochars, atomically doped biochars, activated carbon, and nano-engineered carbons.
+- The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
 
 ## Working loop
