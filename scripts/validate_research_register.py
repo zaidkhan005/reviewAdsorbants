@@ -19,6 +19,12 @@ SCREENING_REQUIRED = [
     "Q1 category", "Q1 quartile", "Q1 verification source", "Full text checked",
     "Decision", "Notes",
 ]
+CORPUS_SCREENING_REQUIRED = [
+    "Candidate ID", "Category (preliminary)", "Paper", "Year", "Journal",
+    "DOI or URL", "Study type (preliminary)", "Relevance to continuum",
+    "Q1 quartile", "Full text checked", "Decision", "Notes",
+]
+
 EVIDENCE_REQUIRED = [
     "Paper", "Year", "DOI", "Material", "Antibiotic", "Stage",
     "Main reported evidence", "Real water", "Regeneration", "Data-quality caveat",
@@ -89,6 +95,41 @@ def validate_screening() -> int:
     return len(rows)
 
 
+def validate_corpus_screening() -> int:
+    """Validate the unified downloaded/discovered literature corpus register."""
+    path = ROOT / "data" / "corpus-screening-register.csv"
+    rows = load_csv(path, CORPUS_SCREENING_REQUIRED)
+    seen: set[str] = set()
+    for line_no, row in enumerate(rows, start=2):
+        candidate_id = (row.get("Candidate ID") or "").strip()
+        if not candidate_id:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: Candidate ID is required")
+        if candidate_id in seen:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: duplicate Candidate ID {candidate_id}")
+        seen.add(candidate_id)
+        if not (row.get("Paper") or "").strip():
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: Paper title is required")
+        validate_year(row, "Year", path, line_no)
+        link = (row.get("DOI or URL") or "").strip()
+        parsed = urlparse(link)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL must be a full http(s) URL")
+        quartile = (row.get("Q1 quartile") or "").strip().upper()
+        if quartile not in VALID_QUARTILES:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: unsupported quartile value {quartile!r}")
+        if quartile == "Q1":
+            q1_fields = ["Q1 provider", "Q1 year", "Q1 category", "Q1 verification source"]
+            missing = [key for key in q1_fields if not (row.get(key) or "").strip()]
+            if missing:
+                raise ValueError(
+                    f"{path.relative_to(ROOT)}:{line_no}: Q1 requires provider/year/category/source; missing {missing}"
+                )
+            q1_source = urlparse((row.get("Q1 verification source") or "").strip())
+            if q1_source.scheme not in {"http", "https"} or not q1_source.netloc:
+                raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: Q1 verification source must be a full URL")
+    return len(rows)
+
+
 def validate_evidence() -> int:
     path = ROOT / "data" / "master-evidence.csv"
     rows = load_csv(path, EVIDENCE_REQUIRED)
@@ -111,11 +152,12 @@ def validate_evidence() -> int:
 def main() -> int:
     try:
         screening_count = validate_screening()
+        corpus_count = validate_corpus_screening()
         evidence_count = validate_evidence()
     except (OSError, csv.Error, ValueError) as exc:
         print(f"VALIDATION FAILED: {exc}", file=sys.stderr)
         return 1
-    print(f"Validation passed: {screening_count} screening candidates; {evidence_count} core evidence records.")
+    print(f"Validation passed: {screening_count} interim candidates; {corpus_count} full-corpus/discovery records; {evidence_count} historical core evidence records.")
     print("Reminder: this validates register structure only, not scientific accuracy or Q1 status.")
     return 0
 
