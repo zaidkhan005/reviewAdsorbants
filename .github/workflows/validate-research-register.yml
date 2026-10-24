@@ -1,0 +1,30 @@
+name: Validate research registers
+
+on:
+  push:
+    paths:
+      - "data/*.csv"
+      - "scripts/validate_research_register.py"
+      - ".github/workflows/validate-research-register.yml"
+  pull_request:
+    paths:
+      - "data/*.csv"
+      - "scripts/validate_research_register.py"
+      - ".github/workflows/validate-research-register.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-registers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate CSV structure and required fields
+        run: python scripts/validate_research_register.py
