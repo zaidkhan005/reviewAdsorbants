@@ -33,6 +33,8 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
+- `data/corpus-screening-register.csv` — preliminary inventory of the 31 currently downloaded reference records; classifications and inclusion decisions are not yet verified
+- `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
 - `logs/` — dated decisions, actions and unresolved questions
@@ -44,7 +46,7 @@ The supplied outline is preserved separately so the original framework is not ov
 ## Current status (2026-10-24)
 
 - The original seven-paper matrix (`data/master-evidence-detailed.csv`) and caveats (`data/source-caveats.csv`) are preserved as historical seed records. Their values and mechanisms are **provisional until re-verified against the original full texts**. The formatted `.xlsx` workbook remains a separate working artifact.
-- Literature intake is restarting from one Zotero collection, `Antibiotic Adsorption Review — Full Corpus`, containing the original seven plus all other relevant downloads. No manual material-by-material reorganisation is required; classification happens during screening. The next intake file is `review-corpus.bib`.
+- Literature intake is restarting from one Zotero collection, `Antibiotic Adsorption Review — Full Corpus`, containing the original seven plus all other relevant downloads. No manual material-by-material reorganisation is required; classification happens during screening. The uploaded Better BibTeX export currently contains 31 downloaded records; it is a starting library, not the complete bibliography. Additional structured literature discovery is required.
 - The outline's core class list is retained: raw lignocellulosic biomass, natural clays, unmodified biopolymers, standard biochar, chemically modified biochars, atomically doped biochars, activated carbon, and nano-engineered carbons.
 - The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
