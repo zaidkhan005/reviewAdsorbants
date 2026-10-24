@@ -32,7 +32,7 @@ Revisit this gap map after reading the relevant review papers and completing ful
 
 ## Search sources
 
-Use a free-first mix and record the database/search date:
+Use a broad, university-access-aware mix and record the database/search date:
 - Open-access and institutional-access publisher pages for full text.
 - Google Scholar or the user's available scholarly search systems for discovery and citation chaining.
 - Crossref/OpenAlex for DOI and bibliographic metadata.
@@ -207,7 +207,7 @@ Eight further candidate sources were added to the unified register as DISC-014 t
 20. **Hospital wastewater adsorption review for citation chasing:** Nugraha et al., *A review of the recent advancements in adsorption technology for removing antibiotics from hospital wastewater*, Journal of Water Process Engineering (2025), DOI [10.1016/j.jwpe.2025.106960](https://doi.org/10.1016/j.jwpe.2025.106960). Use its cited studies to find hospital-water and full-scale evidence; verify those individual studies separately. Source: [publisher record](https://www.sciencedirect.com/science/article/pii/S2214714425000327).
 21. **Clay adsorption review for citation chasing:** *Comprehensive review on the adsorption of pharmaceutical products from wastewater by clay materials*, Desalination and Water Treatment (2024), DOI [10.1016/j.dwt.2024.100114](https://doi.org/10.1016/j.dwt.2024.100114). Select only antibiotic adsorption references relevant to our scope; the paper covers other pharmaceuticals too. Source: [publisher record](https://doi.org/10.1016/j.dwt.2024.100114).
 
-The current register contains 31 downloaded records plus 21 discovery leads (52 candidate records). These still need screening and, for quantitative/manuscript use, full-text verification. This pass extends the candidate pool; it does not finish the bibliography search.
+Before the fourth discovery pass was appended, the register contained 52 candidate records. That intermediate count was superseded by the nine records DISC-022 through DISC-030; see the latest count below.
 
 
 ## Fourth discovery pass — expanded database and publisher search (2026-10-24)
