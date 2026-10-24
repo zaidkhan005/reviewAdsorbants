@@ -10,7 +10,7 @@ We are restarting the literature intake and verification workflow from a single 
 
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
-| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a verified initial evidence batch | Bibliography inventory completed (31 downloaded records); external discovery started (7 added candidates); full-text evidence verification still pending |
+| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a verified initial evidence batch | Bibliography inventory completed (31 downloaded records); targeted discovery has added 21 candidate leads (52 total candidates); search remains incomplete and full-text evidence verification is pending |
 | 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | Drafting/verification still needed |
 | 3 | Finish Section 2.1 | Complete rough draft of 2.1 | Draft completeness not confirmed |
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy defined provisionally; Q1 screen and full draft remain |
