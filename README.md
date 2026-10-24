@@ -25,6 +25,8 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `docs/RESEARCH_WORKFLOW.md` — paper-to-evidence process and quality checks
 - `docs/24_DAY_PLAN.md` — original sprint plan and progress status
 - `data/master-evidence.csv` — condensed index of the initial core papers
+- `data/master-evidence-detailed.csv` — the full 15-column evidence matrix for the seven core papers
+- `data/source-caveats.csv` — source-specific inconsistencies and next verification actions
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `manuscript/REVIEW_OUTLINE.md` — agreed manuscript structure
 - `logs/` — dated decisions, actions and unresolved questions
