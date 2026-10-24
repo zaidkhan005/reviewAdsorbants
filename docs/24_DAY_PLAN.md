@@ -2,9 +2,15 @@
 
 The original sprint rule: every workday ends with a visible deliverable; do not polish sentences while a section is incomplete.
 
+## Restart checkpoint (2026-10-24)
+
+We are restarting the literature intake and verification workflow from a single Zotero collection, **Antibiotic Adsorption Review — Full Corpus**, containing all downloaded candidate papers plus the original seven. This does not replace the original outline or change the processing-and-cost continuum. It avoids manual material-by-material reorganisation: categorisation happens during screening.
+
+**Before Day 1:** export the complete collection as `review-corpus.bib` and upload it in chat. Then create the canonical corpus screening register and read the actual PDFs in small batches. The previous seven-paper evidence matrix remains available as a historical seed record, but all values and mechanisms must be rechecked against the primary papers before use. No manuscript claim is considered verified solely because it appears in the old matrix.
+
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
-| 1 | Evidence system, metadata, notes and master table | Verified core-paper records and usable evidence matrix | First-pass matrix exists; verify Zotero records/notes and flagged values |
+| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a verified initial evidence batch | Waiting for `review-corpus.bib`; prior seed matrix is provisional pending full-text re-verification |
 | 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | Drafting/verification still needed |
 | 3 | Finish Section 2.1 | Complete rough draft of 2.1 | Draft completeness not confirmed |
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy defined provisionally; Q1 screen and full draft remain |
