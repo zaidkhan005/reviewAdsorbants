@@ -97,13 +97,15 @@ Reviews are useful for mapping and citation chasing; numerical capacity/mechanis
 
 **Pass A — inventory:** audit the uploaded review-corpus.bib and make the canonical register.
 
-**Pass B — review-led search:** identify the best recent reviews covering all stages and use their references to discover primary studies that are missing from the user's downloads.
+**Pass B — review-led search:** identify recent, high-quality reviews in publisher platforms and major indexes covering all stages; use their references and citation trails to discover primary studies missing from the user's downloads.
 
-**Pass C — gap searches:** prioritize unmodified biopolymers, pristine biochar, adsorption-only atomically doped biochar, activated-carbon continuous flow, cost/energy/LCA, and real-water studies.
+**Pass C — structured database searches:** run saved, reproducible Scopus/Web of Science queries by outline section, with date ranges and document-type filters where appropriate; export results to RIS/CSV and deduplicate centrally.
 
-**Pass D — verify Q1:** check quartiles only after the candidate metadata are clean; retain exact sources and flag uncertain cases.
+**Pass D — gap searches:** prioritize unmodified biopolymers, pristine biochar, adsorption-only atomically doped biochar, activated-carbon continuous flow, cost/energy/LCA, and real-water studies.
 
-**Pass E — full-text batch reading:** read a small coherent batch, extract evidence with PDF page/table/figure references, validate values, update caveats and GitHub, then draft the corresponding manuscript passage.
+**Pass E — verify Q1:** check quartiles only after candidate metadata are clean; retain exact sources and flag uncertain cases.
+
+**Pass F — full-text batch reading:** use university access to retrieve subscription papers as needed, then read a small coherent batch, extract evidence with PDF page/table/figure references, validate values, update caveats and GitHub, then draft the corresponding manuscript passage.
 
 ## Reporting transparency
 
