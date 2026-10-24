@@ -1,0 +1,86 @@
+name: Paper candidate
+description: Record a candidate study or review for the antibiotic adsorption review.
+title: "[Paper candidate]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to register a paper for screening. Do not mark Q1 verified without a ranking source, year, subject category, quartile, and URL.
+  - type: input
+    id: paper_title
+    attributes:
+      label: Paper title
+      placeholder: Full title as published
+    validations:
+      required: true
+  - type: input
+    id: doi_url
+    attributes:
+      label: DOI or publisher URL
+      placeholder: https://doi.org/...
+    validations:
+      required: true
+  - type: input
+    id: publication_year
+    attributes:
+      label: Publication year
+      placeholder: "2025"
+    validations:
+      required: true
+  - type: input
+    id: journal
+    attributes:
+      label: Journal
+      placeholder: Journal title
+    validations:
+      required: true
+  - type: dropdown
+    id: material_category
+    attributes:
+      label: Main material category
+      options:
+        - Raw biomass/natural waste
+        - Natural clays
+        - Unmodified biopolymers
+        - Modified biopolymers
+        - Biopolymer-based composites
+        - Pristine biochar
+        - Physically activated biochar
+        - Chemically modified biochar
+        - Biochar composite/loaded
+        - Activated carbon
+        - Carbon nanotubes
+        - Graphene-based material
+        - Atomically engineered/advanced nano-carbon
+        - Other/uncertain
+    validations:
+      required: true
+  - type: dropdown
+    id: study_type
+    attributes:
+      label: Study type
+      options:
+        - Original adsorption experiment
+        - Review
+        - Adsorption plus catalytic degradation
+        - Photocatalysis/degradation (not adsorption-only)
+        - Membrane/separation
+        - Other/uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: q1_check
+    attributes:
+      label: Journal-quartile check
+      description: Record ranking provider, year, subject category, quartile, and source URL. If not checked, write PENDING.
+      placeholder: "PENDING — or provide provider/year/category/quartile/source URL"
+  - type: textarea
+    id: continuum_value
+    attributes:
+      label: Contribution to processing–cost–performance
+      description: Note preparation steps, performance evidence, reuse, real-water testing, cost/energy, and any major limitation.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Initial notes
+      description: Any key numbers, caveats or reason for screening.
