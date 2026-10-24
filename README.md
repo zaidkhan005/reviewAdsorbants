@@ -24,6 +24,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `docs/MATERIAL_TAXONOMY.md` — material classes and stage-boundary rules
 - `docs/RESEARCH_WORKFLOW.md` — paper-to-evidence process and quality checks
 - `docs/CORPUS_RESET_AND_RESTART.md` — unified full-corpus restart, including the original seven papers
+- `docs/LITERATURE_DISCOVERY_PLAN.md` — structured plan and logs for finding papers missing from the downloaded library
 - `docs/PAPER_INGESTION_AND_EXTRACTION.md` — how to obtain, read, extract, verify and record each paper's evidence
 - `docs/AUTOMATION_ROADMAP.md` — $0-first workflow; no n8n or paid automation dependency
 - `docs/24_DAY_PLAN.md` — original sprint plan and progress status
@@ -33,7 +34,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
-- `data/corpus-screening-register.csv` — preliminary inventory of the 31 currently downloaded reference records; classifications and inclusion decisions are not yet verified
+- `data/corpus-screening-register.csv` — unified screening register: 31 downloaded records plus seven externally discovered candidate leads; all still require full-text/Q1 verification as appropriate
 - `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
@@ -46,6 +47,7 @@ The supplied outline is preserved separately so the original framework is not ov
 ## Current status (2026-10-24)
 
 - The original seven-paper matrix (`data/master-evidence-detailed.csv`) and caveats (`data/source-caveats.csv`) are preserved as historical seed records. Their values and mechanisms are **provisional until re-verified against the original full texts**. The formatted `.xlsx` workbook remains a separate working artifact.
+- Initial bibliography audit: 31 records parsed; no exact duplicate DOI or normalized title was detected. Eight entries lack abstracts in the export. The Pinheiro chitosan/alginate record and Mohammed-Ridha publication year were corrected/flagged using publisher or PubMed records, and the original export should not be treated as complete evidence.
 - Literature intake is restarting from one Zotero collection, `Antibiotic Adsorption Review — Full Corpus`, containing the original seven plus all other relevant downloads. No manual material-by-material reorganisation is required; classification happens during screening. The uploaded Better BibTeX export currently contains 31 downloaded records; it is a starting library, not the complete bibliography. Additional structured literature discovery is required.
 - The outline's core class list is retained: raw lignocellulosic biomass, natural clays, unmodified biopolymers, standard biochar, chemically modified biochars, atomically doped biochars, activated carbon, and nano-engineered carbons.
 - The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
