@@ -23,6 +23,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
 - `docs/MATERIAL_TAXONOMY.md` — material classes and stage-boundary rules
 - `docs/RESEARCH_WORKFLOW.md` — paper-to-evidence process and quality checks
+- `docs/CORPUS_RESET_AND_RESTART.md` — unified full-corpus restart, including the original seven papers
 - `docs/PAPER_INGESTION_AND_EXTRACTION.md` — how to obtain, read, extract, verify and record each paper's evidence
 - `docs/AUTOMATION_ROADMAP.md` — $0-first workflow; no n8n or paid automation dependency
 - `docs/24_DAY_PLAN.md` — original sprint plan and progress status
@@ -30,7 +31,8 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/master-evidence-detailed.csv` — the full 15-column evidence matrix for the seven core papers
 - `data/source-caveats.csv` — source-specific inconsistencies and next verification actions
 - `data/paper-screening-register.csv` — candidate screening and verification status
-- `references/README.md` — Zotero intake, bulk bibliography export, and screening workflow for the full downloaded paper collection
+- `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
+- `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
 - `logs/` — dated decisions, actions and unresolved questions
@@ -41,7 +43,8 @@ The supplied outline is preserved separately so the original framework is not ov
 
 ## Current status (2026-10-24)
 
-- The initial seven-paper evidence matrix is preserved here in `data/master-evidence-detailed.csv` (15 fields × 7 core papers), with source-specific verification tasks in `data/source-caveats.csv`. The formatted `.xlsx` workbook remains a separate working artifact.
+- The original seven-paper matrix (`data/master-evidence-detailed.csv`) and caveats (`data/source-caveats.csv`) are preserved as historical seed records. Their values and mechanisms are **provisional until re-verified against the original full texts**. The formatted `.xlsx` workbook remains a separate working artifact.
+- Literature intake is restarting from one Zotero collection, `Antibiotic Adsorption Review — Full Corpus`, containing the original seven plus all other relevant downloads. No manual material-by-material reorganisation is required; classification happens during screening. The next intake file is `review-corpus.bib`.
 - The outline's core class list is retained: raw lignocellulosic biomass, natural clays, unmodified biopolymers, standard biochar, chemically modified biochars, atomically doped biochars, activated carbon, and nano-engineered carbons.
 - The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
