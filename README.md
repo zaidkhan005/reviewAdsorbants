@@ -23,6 +23,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
 - `docs/MATERIAL_TAXONOMY.md` — material classes and stage-boundary rules
 - `docs/RESEARCH_WORKFLOW.md` — paper-to-evidence process and quality checks
+- `docs/AUTOMATION_ROADMAP.md` — $0-first workflow; no n8n or paid automation dependency
 - `docs/24_DAY_PLAN.md` — original sprint plan and progress status
 - `data/master-evidence.csv` — condensed index of the initial core papers
 - `data/master-evidence-detailed.csv` — the full 15-column evidence matrix for the seven core papers
@@ -47,4 +48,4 @@ The supplied outline is preserved separately so the original framework is not ov
 
 **Discover → screen → verify journal and source → retrieve full text → extract evidence → reconcile units/conditions → draft → cite through Zotero → audit claims.**
 
-Every work session should end with a visible GitHub change or a clearly recorded blocker.
+Every work session should end with a visible GitHub change or a clearly recorded blocker. The automation plan is $0-first: no n8n, paid automation service, or paid API is a prerequisite.
