@@ -33,7 +33,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 
 ## Current status (2026-10-24)
 
-- The initial seven-paper evidence matrix exists as a local workbook; a condensed CSV index is being maintained here.
+- The initial seven-paper evidence matrix is preserved here in `data/master-evidence-detailed.csv` (15 fields × 7 core papers), with source-specific verification tasks in `data/source-caveats.csv`. The formatted `.xlsx` workbook remains a separate working artifact.
 - Material-class working taxonomies have been drafted for Section 2.2 (natural clays and biopolymers), Section 2.3 (biochar) and Section 2.4 (engineered/nano-carbon adsorbents).
 - The boundary between the outline’s Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
