@@ -12,7 +12,7 @@ The workflow should still be useful if every optional automation is turned off.
 - The validator checks required columns, unique candidate IDs, year formatting, source links, and whether a claimed `Q1` label includes a ranking provider, year, subject category, and verification URL.
 - The validator checks structure and required evidence fields. It does not independently verify journal quartiles or scientific claims.
 
-## Free-first workflow
+## $0-first automation, not free-only literature access
 
 ### 1. GitHub as the project record
 
@@ -31,19 +31,20 @@ Use the existing paper-candidate issue template rather than adding an external f
 - Initially export a `.bib` file manually into `references/` when references materially change. This is a simple, transparent step; do not build an automated sync until there is a real need.
 - Commit bibliographic metadata only where useful and permitted. Do not commit copyrighted publisher PDFs unless the licence or publisher terms permit it.
 
-### 3. Free metadata lookup
+### 3. Metadata lookup and institutional discovery
 
 - Resolve missing DOI metadata through publisher records and public metadata services such as Crossref or OpenAlex when appropriate.
 - Use public metadata to help normalize title, authors, year, journal, DOI and landing-page URL.
+- Use the user's university subscriptions for Scopus, Web of Science, and publisher platforms where available. Search source access is not limited to free databases; the no-cost constraint applies to additional software/services, not sources already covered by university access.
 - Record the source used. Metadata lookup does not verify study findings, mechanism claims, or Q1 status.
 - Respect service rate limits and terms. Do not depend on a service remaining available indefinitely.
 
 ### 4. Literature discovery and full-text verification
 
-- Use whatever free access is currently available through Consensus, SciSpace, publisher open-access pages, institutional access, and repositories.
-- Track usage limits and switch to source reading/manual metadata lookup when a free research service is capped.
+- Use university access to subscription publisher pages and databases when that yields stronger coverage or full text. Use Consensus, SciSpace, and open-access routes as supplementary options rather than the limits of the search.
+- When the assistant cannot access a logged-in university session, identify the citation and have the user download the paper through the university library and upload the PDF for analysis.
 - Use original research papers to verify experimental values and mechanisms. Reviews are useful for field mapping and reference discovery.
-- Do not use scraping to bypass paywalls or access controls.
+- Do not ask for university credentials or bypass paywalls/access controls.
 
 ## Explicitly out of scope
 
@@ -55,7 +56,7 @@ A future tool can be reconsidered only if it has a clear benefit and a confirmed
 
 ## Minimum stack
 
-**GitHub + GitHub Actions (within available free quota) + Zotero + Better BibTeX + freely available discovery/metadata sources.**
+**GitHub + GitHub Actions (within available free quota) + Zotero + Better BibTeX + university-access scholarly databases/publisher platforms.**
 
 ## Next useful steps
 
