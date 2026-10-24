@@ -2,34 +2,60 @@
 
 Zotero is the reference manager and PDF library; this folder is for citation exports and metadata snapshots, not full-text PDFs.
 
-## Next action: export the seven core papers
+## Immediate next step: inventory the full downloaded collection
 
-Create or use a Zotero collection called **Antibiotic Adsorption Review — Core 7** and place the seven initial core papers in it:
+Do not limit the first inventory to the initial seven core papers. The goal is to discover and screen all relevant papers already downloaded, then prioritise which ones deserve full-text evidence extraction.
 
-- Atta et al. (2023)
-- Alidadi et al. (2018)
-- Delmond et al. (2023)
-- Conde-Cid et al. (2021)
-- Míguez-González et al. (2023)
-- Li et al. (2019)
-- Mohammed-Ridha & Abdul-Ahad (2014; verify publication year against the original record)
+### 1. Create/confirm Zotero collections
 
-Then export that collection:
+- **Antibiotic Adsorption Review — Unscreened**: all papers downloaded that might be relevant to this review.
+- **Antibiotic Adsorption Review — Core 7**: retain the original seven seed papers as a distinct reference group.
+- Optional later: section-specific collections for raw biomass, clays/biopolymers, biochar, engineered/nano-carbon, and excluded papers.
 
-1. Install the free [Zotero Better BibTeX extension](https://retorque.re/zotero-better-bibtex/) if it is not already installed.
-2. In Zotero, right-click **Antibiotic Adsorption Review — Core 7** → **Export Collection…**.
-3. Choose **Better BibTeX** as the format and save it as `core-papers.bib`.
-4. For the first handoff, leave **Keep updated** unchecked unless you are exporting directly into a locally cloned repository folder. That option updates the local export file; it does not by itself upload changes to GitHub.
-5. Upload the exported `core-papers.bib` here in the chat for review, or upload it to this folder in the GitHub web interface.
+In Zotero, an item can belong to more than one collection. Preserve the Core 7 classification while also including these items in the Unscreened collection if they are part of the broader corpus. Do not move or delete papers just to make the inventory export work.
 
-After receiving the file, check the exported metadata for missing DOIs, duplicated records, title/year inconsistencies and citation keys before treating it as the reference snapshot.
+If PDFs are not yet in Zotero, drag them into the Unscreened collection or import them in batches. Let Zotero retrieve metadata where possible; manually inspect records with missing or incorrect titles, authors, year, journal, or DOI.
 
-## Suggested structure
+### 2. Export the broader corpus
 
-- `core-papers.bib` — stable citation export for the initial seven core papers
-- `library.bib` — optional broader bibliography export once the core workflow is working
-- `collections/` — optional section-specific exports
-- `README.md` — export procedure and notes on how files were generated
+1. Right-click **Antibiotic Adsorption Review — Unscreened** → **Export Collection…**.
+2. Choose **Better BibTeX**.
+3. Uncheck **Export Notes**, **Export Files**, and **Include Annotations** to keep the export focused on bibliographic records. Uncheck **Use Journal Abbreviation** so journal names are easier to verify. Leave **Keep updated** unchecked for this manual handoff.
+4. Save as `review-corpus.bib`.
+5. Upload that exported file into this chat for an initial metadata audit.
+
+If Better BibTeX export is unavailable, use Zotero's built-in BibTeX/RIS export. We can inspect the resulting format too.
+
+### 3. Inventory first; extract evidence second
+
+The bibliography export is an inventory, not the papers themselves. Use it to:
+- detect duplicate or near-duplicate records;
+- find missing DOIs and incomplete metadata;
+- sort papers by year, journal, and material category where the metadata permit;
+- identify records needing abstract/full-text screening.
+
+Abstracts may or may not be included in the export; we will inspect the actual file instead of assuming they are present.
+
+After the metadata pass, obtain the actual PDFs for the highest-priority papers. Keep PDFs in Zotero or another appropriately licensed location. Upload readable full texts in coherent batches for extraction, or provide DOI/landing-page links so accessible full texts can be checked. A DOI or citation alone is not proof that the full paper has been read.
+
+### 4. Use simple screening statuses
+
+Use Zotero tags or the GitHub screening register with a small set of states:
+- `SCREEN-NEW`
+- `FULLTEXT-NEEDED`
+- `FULLTEXT-RECEIVED`
+- `EVIDENCE-EXTRACTED`
+- `EVIDENCE-VERIFIED`
+- `EXCLUDED`
+
+Record why a paper is excluded (e.g. degradation-only, not an antibiotic, not an adsorption study, duplicate, outside scope). Don't label a paper Q1 verified until its provider, ranking year, category, quartile, and source URL have been checked independently.
+
+## Suggested repository files
+
+- `review-corpus.bib` — the broader set of candidate references; add to GitHub only after a quick check for sensitive fields
+- `core-papers.bib` — optional export of the original seven core papers
+- `collections/` — optional later section-specific exports
+- `README.md` — instructions and export date
 
 ## Export rules
 
@@ -40,4 +66,4 @@ After receiving the file, check the exported metadata for missing DOIs, duplicat
 5. A `.bib` export is bibliographic metadata, not a full-library backup and not a substitute for keeping the Zotero library.
 6. Avoid committing PDFs or private notes that should not be shared. The repository is private today, but it should still follow good research-data practices.
 
-No automatic Zotero-to-GitHub synchronization is configured. Begin with a manual export and upload; this is free, transparent and sufficient for the current project.
+No automatic Zotero-to-GitHub synchronization is configured. Begin with a manual export and upload; this is free, transparent and enough for now.
