@@ -23,6 +23,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
 - `docs/MATERIAL_TAXONOMY.md` — material classes and stage-boundary rules
 - `docs/RESEARCH_WORKFLOW.md` — paper-to-evidence process and quality checks
+- `docs/PAPER_INGESTION_AND_EXTRACTION.md` — how to obtain, read, extract, verify and record each paper's evidence
 - `docs/AUTOMATION_ROADMAP.md` — $0-first workflow; no n8n or paid automation dependency
 - `docs/24_DAY_PLAN.md` — original sprint plan and progress status
 - `data/master-evidence.csv` — condensed index of the initial core papers
