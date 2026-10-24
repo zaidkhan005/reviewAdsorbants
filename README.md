@@ -34,7 +34,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
-- `data/corpus-screening-register.csv` — unified screening register: 31 downloaded records plus seven externally discovered candidate leads; all still require full-text/Q1 verification as appropriate
+- `data/corpus-screening-register.csv` — unified screening register: 31 downloaded records plus 13 externally discovered candidate leads (44 total candidate records); all still require full-text/Q1 verification as appropriate
 - `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
