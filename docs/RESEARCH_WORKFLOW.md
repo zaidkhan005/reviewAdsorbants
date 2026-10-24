@@ -1,56 +1,91 @@
 # Research and evidence workflow
 
-## 1. Discover
+## Restart rule
 
-Use Consensus, publisher platforms, DOI/Crossref lookups, and other scholarly search tools to identify candidate papers. Reviews help map a field; original papers supply experimental values.
+The project is restarting literature intake and screening from one unified full corpus. Include every potentially relevant downloaded paper and the original seven seed papers. Do not require the user to sort papers into material-specific collections or add taxonomy tags before intake.
 
-## 2. Screen
+- The original outline and processing-and-cost continuum remain the manuscript's structural guide.
+- The original seven papers are part of the new corpus, not a separate privileged evidence set.
+- Existing master-evidence CSVs and caveats are retained as historical leads. Every value, mechanism and bibliographic detail must be checked against the original paper again before being treated as verified.
+- See `docs/CORPUS_RESET_AND_RESTART.md` for the agreed restart protocol.
 
-For each candidate, record:
-- material category and exact adsorbent;
-- target antibiotic(s);
-- study type and whether removal is adsorption only;
-- publication year, journal, DOI;
-- journal-quartile provider, year and category;
-- relevance to processing–cost–performance;
-- keep/exclude/pending decision and reason.
+## 1. Ingest the whole corpus
 
-## 3. Verify Q1 status
+Use one Zotero collection: **Antibiotic Adsorption Review — Full Corpus**. Add the original seven papers plus all other relevant papers already downloaded. Do not manually classify or retag them at intake.
 
-A paper is not Q1-verified until the register records the ranking source (for example, Clarivate JCR or SCImago/SJR), ranking year, subject category, quartile, and verification source URL. Do not mix ranking systems silently. “High impact factor” is not itself a quartile check.
+Export the collection once as `review-corpus.bib` using Better BibTeX. The export is reference metadata, not full-text content. The attachments in a local Zotero library do not automatically become readable in chat.
 
-## 4. Retrieve and verify full text
+## 2. Inventory and deduplicate
 
-Keep full-text PDFs in Zotero or another appropriate licensed repository. Verify bibliographic metadata against the publisher/DOI record. Use the original article’s methods, tables, figures and supplements to check numerical claims.
+From the complete export:
+- identify exact and likely duplicate records;
+- check titles, authors, year, journal and DOI/URL;
+- preserve original citation keys when possible;
+- flag records with incomplete or inconsistent metadata;
+- record what information is unavailable rather than guessing.
+
+Keep one canonical corpus screening register. The pre-existing candidate register is an interim record and will be reconciled into the full-corpus register after the new export is received.
+
+## 3. Screen without asking the user to classify papers
+
+For each candidate, determine from the accessible metadata, abstract and then full text:
+- likely material category and processing stage;
+- antibiotic(s) studied;
+- original research, review or other study type;
+- whether the reported removal is adsorption-only or includes degradation, oxidation, photocatalysis or membrane rejection;
+- relevance to the processing–cost–performance continuum;
+- full-text availability, Q1 verification status and next action.
+
+Record uncertain material categories as provisional; don't demand manual pre-sorting from the user.
+
+## 4. Obtain and verify full text
+
+Use an uploaded PDF or a legitimate, accessible full-text source identified through a DOI/publisher link. Keep full text in Zotero or another appropriately licensed location. If only an abstract is available, mark the item `FULLTEXT-NEEDED`.
+
+For values, read the original paper's methods, tables, figures, captions and supplements. Keep source page/table/figure pointers with extracted values. A citation, abstract or search snippet is not evidence that the full article was read.
 
 ## 5. Extract evidence
 
 For each exact adsorbent–antibiotic pairing, record:
-- preparation/feedstock, modification steps and relevant preparation parameters;
-- pH and antibiotic speciation;
-- initial concentration, adsorbent dose, contact time, temperature, mixing and matrix;
-- observed uptake/removal and model-fitted qmax separately;
-- kinetic and isotherm models with fit metrics;
-- mechanism: measured evidence versus author-proposed explanation;
-- desorption, regeneration cycles, real water, fixed-bed/column data;
-- costs, chemical/energy inputs, life-cycle data and scale-up evidence;
-- limitations and any internal inconsistencies.
+- preparation/feedstock, modification route and preparation parameters;
+- pH/speciation, concentration, adsorbent dose, contact time, temperature, particle size, mixing and solution matrix;
+- observed uptake/removal and model-fitted (q_{max}) separately;
+- kinetic/isotherm models and fit-quality information;
+- mechanism: direct experimental evidence versus author-proposed explanation;
+- desorption, regeneration cycles, real-water and fixed-bed/column evidence;
+- chemical/energy inputs, cost, yield, leaching, end-of-life and scale-up information;
+- limitations and conflicts among abstract, narrative, tables, figures and supplements.
 
-## 6. Draft and cite
+Use `Not reported`, `Not accessible`, or `Needs verification` where appropriate. Never invent a missing result.
 
-Draft only after evidence for the paragraph is extracted. Add citations using Zotero, then check that every numerical or mechanistic claim traces to a primary source. Keep claim wording proportional to the evidence.
+## 6. Validate each value and mechanism
 
-## 7. GitHub storage convention
+- Confirm the units and experimental conditions before comparing papers.
+- Never equate observed uptake, percentage removal and fitted (q_{max}).
+- Don't infer chemisorption solely from a pseudo-second-order fit or a unique mechanism from a model fit alone.
+- Check suspect values against the actual tables/figures and supplementary material; preserve contradictions in the caveat register.
+- Do not treat catalytic contaminant transformation as adsorption performance.
+
+## 7. Verify Q1 independently
+
+A paper is not Q1-verified until the register records the ranking source (e.g. Clarivate JCR or SCImago/SJR), ranking year, subject category, quartile and verification URL. Do not mix ranking systems silently. Impact factor and journal reputation do not themselves establish Q1 status.
+
+## 8. Draft and cite
+
+Draft only after evidence for the paragraph is extracted. Use Zotero for citation insertion and bibliography generation, then check that each numerical or mechanistic claim traces to a primary source. Preserve the original outline and continuum, including a standalone mechanisms section in the working outline.
+
+## 9. GitHub storage convention
 
 - Every session ends with a dated entry in `logs/`.
-- Update `data/paper-screening-register.csv` when a candidate changes status.
-- Update `data/master-evidence.csv` when paper evidence has been checked against the original.
+- Rebuild/reconcile the full-corpus screening register after ingesting `review-corpus.bib`.
+- Update canonical evidence tables only after checking original papers.
+- Keep the old seven-paper table and caveats as a historical seed record until each paper has been re-verified.
 - Record major scope/taxonomy decisions in `docs/MATERIAL_TAXONOMY.md` and the dated log.
 - Save manuscript drafts under `manuscript/`.
-- Prefer small, descriptive commits. Do not commit private credentials or copyrighted PDFs.
+- Do not commit copyrighted PDFs unless permitted, or private credentials/notes.
 
 ## Paper status vocabulary
 
-`DISCOVERED` → `SCREENING` → `Q1-PENDING` / `FULLTEXT-PENDING` → `EVIDENCE-VERIFIED` → `ACCEPTED` / `EXCLUDED`.
+`SCREEN-NEW` → `METADATA-CHECKED` → `FULLTEXT-NEEDED` / `FULLTEXT-RECEIVED` → `EVIDENCE-EXTRACTED` → `EVIDENCE-VERIFIED` → `ACCEPTED` / `EXCLUDED`.
 
-The Q1 decision and full-text evidence decision are independent. A relevant paper can be useful for background and still fail the Q1-only inclusion rule.
+Full-text/evidence status and quartile verification are independent. A relevant paper can be useful for background and still fail a Q1-only inclusion rule.
