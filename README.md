@@ -36,6 +36,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
 - `data/corpus-screening-register.csv` — unified screening register: 31 downloaded records plus 21 externally discovered candidate leads (52 total candidate records); all still require full-text/Q1 verification as appropriate
 - `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
+- `docs/REFERENCE_TARGET_PLAN.md` — planning funnel and coverage map for a defensible ~150-reference journal version
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
 - `logs/` — dated decisions, actions and unresolved questions
