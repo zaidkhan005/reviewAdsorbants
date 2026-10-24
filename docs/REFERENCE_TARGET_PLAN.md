@@ -32,6 +32,19 @@ These buckets are for coverage planning only. Assign each distinct work one main
 
 A paper can support multiple themes, but count each distinct DOI/work only once. If a category has few strong adsorption-only studies (especially atomically engineered biochar), report that gap honestly; do not manufacture a quota.
 
+## Search sources — university access available
+
+Do not restrict the search to open-access/free sources. The user can download most papers through university access, so prioritise coverage, relevance and study quality across:
+
+- **Scopus and Web of Science** through the university library for structured, exportable queries, de-duplication and citation chasing.
+- **Publisher platforms** (Elsevier/ScienceDirect, SpringerLink, Wiley, ACS, RSC, MDPI and other relevant publishers) for original article text, supporting information, methods and tables.
+- **Google Scholar** and cited-by/reference-list trails as supplementary discovery routes.
+- **Crossref/OpenAlex** for metadata normalization, not as a substitute for reading the paper.
+- **Consensus/SciSpace** where useful and available, with source verification against the original study.
+- **JCR/SJR** for separate journal quartile verification.
+
+I cannot automatically enter the user's institutional credentials or view a university-authenticated browser session. Where a subscription PDF is needed, identify the citation and have the user download it through the university and upload the PDF. Do not ask for passwords or bypass access restrictions.
+
 ## Search effort by outline
 
 Use the original outline and the working manuscript's separately numbered mechanisms section as the search map.
