@@ -8,13 +8,13 @@ A reference-count target is not permission to pad. If the evidence supports a sm
 
 ## Current status
 
-As of 2026-10-24, the canonical GitHub corpus register contains the 31 downloaded reference records plus 20 externally discovered leads (51 candidate records total after the first targeted discovery passes). The candidate pool is not yet fully screened, and many records will need metadata correction, relevance review, full-text reading, article-type checks, and quartile verification. The existing 51 candidates are not close to a final count of 150 accepted citations by themselves.
+As of 2026-10-24, the canonical GitHub corpus register contains the 31 downloaded reference records plus 21 externally discovered leads (52 candidate records total after the targeted discovery passes so far). The candidate pool is not yet fully screened, and many records will need metadata correction, relevance review, full-text reading, article-type checks, and quartile verification. The current 52 candidates are not close to a final count of 150 accepted citations by themselves.
 
 ## A practical acquisition funnel
 
 To end with ~150 defensible citations, build a pool of roughly **220–250 candidate references** through targeted searching and citation chasing, then screen it down. This range is a planning estimate, not a guarantee: actual acceptance may be lower or higher depending on relevance, access, evidence quality, Q1 eligibility, duplicates, and target-journal rules.
 
-From the current 51 candidate records, this implies a working goal of finding roughly **170–200 additional candidates** before final screening, while removing duplicates and correcting metadata throughout. Do not collect papers indiscriminately; every search must answer a defined gap in the outline.
+From the current 52 candidate records, this implies a working goal of finding roughly **168–198 additional candidates** before final screening, while removing duplicates and correcting metadata throughout. Do not collect papers indiscriminately; every search must answer a defined gap in the outline.
 
 ## Provisional makeup of a 150-reference bibliography
 
