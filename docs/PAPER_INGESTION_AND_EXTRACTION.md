@@ -92,6 +92,11 @@ For each evidence batch:
 
 A DOI/title is sufficient to start identifying a candidate and finding legitimate full-text options. It is not sufficient to assert that the full paper has been read. If a complete, accessible version cannot be found, leave the item in `FULLTEXT-NEEDED` and ask the user to upload a copy they can lawfully access.
 
-## 8. Journal quartiles are a separate check
+
+## 9. Supplementary information is an assistant-side lookup, not a user dependency
+
+After extracting an uploaded main-text PDF, search legitimate public routes for its supplementary files: the publisher article page, DOI-linked downloads, institutional repositories, and other lawful sources. Do not make the user responsible for supplying SI as a condition for continuing the review. If the SI cannot be accessed, proceed with the main article and mark any unresolved value, missing condition, or contradiction explicitly as `Unresolved — SI not accessible`. Do not infer missing details or silently reconcile contradictions. The main article remains a valid evidence source for the claims it directly supports.
+
+## 10. Journal quartiles are a separate check
 
 Full-text reading and Q1 status are independent. Confirm the ranking provider, year, subject category, quartile and source URL separately. Do not infer a quartile from the journal's impact factor, reputation or the paper's citation count.
