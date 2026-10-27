@@ -49,6 +49,7 @@
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Scope/ranking adjudication v1](../data/screening-decision-adjudication-v1.csv)
+- [CORP-023 published abstract check](2026-10-27-corp-023-published-abstract-check.md)
 - [Primary-study comparison matrix](../data/primary-study-comparison-matrix.csv)
 - [Quantitative-comparison readiness audit](2026-10-27-comparison-readiness-audit-01.md)
 - [Comparative evidence tables v1](../manuscript/COMPARATIVE_TABLES_V1.md)
