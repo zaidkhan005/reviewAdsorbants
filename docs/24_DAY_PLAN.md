@@ -14,7 +14,7 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
 - **Journal-quartile audit now covers all 34 unique journals** in `data/journal-quartile-audit.csv`, with results copied to the 62-row screening register. Latest available 2025 SCImago/SJR profiles were used where found; Arabian Journal of Chemistry has a historical 2024 Q1 entry but Scopus coverage was discontinued, and Iraqi Journal of Agricultural Sciences is flagged as discontinued with no current quartile assigned. Follow-up category checks now confirm Carbon Research Q1 in all three listed 2025 SJR categories and Journal of Engineering Q2 in all six listed 2025 categories. Environmental Research remains provisional for the specific 2025 Environmental Science category; Arabian Journal of Chemistry and Iraqi Journal of Agricultural Sciences retain discontinued-status caveats. Most ranking sources remain secondary profile displays rather than direct canonical SCImago pages.
-- A **provisional candidate-role audit** covers all 62 rows in `data/candidate-decision-audit.csv`; the primary-study comparison matrix has 208 target/material/stage rows, and working drafts now exist for the continuum and Section 2.1 raw biomass. Final retain/exclude decisions, normalized same-target comparisons and Zotero-formatted manuscript sections remain incomplete.
+- A **provisional candidate-role audit** covers all 62 rows in `data/candidate-decision-audit.csv`. The primary-study matrix has 208 rows and references 248 unique evidence IDs; a crosswalk audit found no duplicate or orphan IDs, and the 62 evidence IDs outside the matrix are background/review or adjacent-technology records. The new comparison-readiness audit identifies condition-matched within-study comparisons and quarantines disputed capacities. Final retain/exclude decisions, integrated comparison tables and Zotero-formatted manuscript sections remain incomplete.
 
 Current repository references:
 - [Working manuscript outline](../manuscript/REVIEW_OUTLINE.md)
@@ -23,6 +23,7 @@ Current repository references:
 - [Source-caveat register](../data/source-caveats.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Primary-study comparison matrix (v1)](../data/primary-study-comparison-matrix.csv)
+- [Quantitative-comparison readiness audit](../logs/2026-10-27-comparison-readiness-audit-01.md)
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
 - [Section 2.1 raw biomass draft v1](../manuscript/SECTION_2_1_RAW_BIOMASS_V1.md)
@@ -39,7 +40,7 @@ Current repository references:
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
 | 5 | Finish/complete Section 2.2 biopolymer evidence | Complete rough draft of 2.2 | Not complete/verified. |
 | 6 | Biochar and modified biochar | Evidence set and rough draft of 2.3 | Evidence set is growing; Q1 screen and draft remain. |
-| 7 | Synthesize processing and modification comparisons | Comparative table and draft synthesis | **Version 1 evidence matrix created:** 208 target/material/stage group rows drawn from 43 primary-study candidates. Normalization, same-target comparisons and synthesis narrative remain pending. |
+| 7 | Synthesize processing and modification comparisons | Comparative table and draft synthesis | **Matrix audit complete:** the evidence crosswalk is intact; highest-priority within-study comparisons and capacity/metric quarantine flags are documented in `logs/2026-10-27-comparison-readiness-audit-01.md`. Integrated comparison tables and broader synthesis remain pending. |
 | 8 | Engineered/nano-carbon adsorbents | Evidence set and rough draft of 2.4 | Evidence set is growing; final Q1 shortlist and draft remain. |
 | 9 | Complete Section 2 and compare material classes | Integrated classification/synthesis | Pending. |
 | 10 | Processing–cost–performance continuum | Core framework figure/table and narrative | Pending. |
@@ -65,7 +66,7 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 1. Keep `DISC-022` **deferred** until the user supplies its PDF; do not count it as screened or excluded.
 2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` if a strict Q1-only rule will determine final eligibility; use the institution's required ranking source and keep SJR/JCR and publication-year distinctions explicit.
 3. Review `data/candidate-decision-audit.csv` and convert provisional working roles into final retain / exclude / background-only decisions; it is a triage aid, not a final screening decision.
-4. Audit `data/primary-study-comparison-matrix.csv` for condition/unit consistency and identify defensible same-target/same-metric comparisons before treating values as comparative rankings.
+4. Use the comparison-readiness audit to build the first condition-matched comparison tables; do not pool observed uptake, fitted qmax, removal percentage, partition coefficients or column metrics.
 5. Draft material-class sections from those checked comparisons; use `manuscript/CONTINUUM_SYNTHESIS_V1.md` as a structural working draft, not as a final section.
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
