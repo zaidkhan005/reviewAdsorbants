@@ -9,7 +9,7 @@
 - **61 of 62** candidates have completed full-text screening. `DISC-022`, the 2022 *Journal of Hazardous Materials* critical review, is **deferred until the user supplies the full-text PDF**; it is neither screened nor excluded and is temporarily outside the active queue.
 - **64 source-caveat entries** are recorded.
 - The evidence file contains findings for distinct candidate IDs; it includes primary-study records and secondary review-derived evidence, so the record count is not a paper count or final bibliography count.
-- **Quartile verification has started** for two journals. CORP-025/iScience has a 2024 SJR Q1 first-pass entry in Multidisciplinary, but direct SCImago profile confirmation remains pending because the canonical page was inaccessible in this session. DISC-022/Journal of Hazardous Materials has a 2024 Scopus/SJR Q1 source record in Environmental Engineering, Waste Management and Disposal, Pollution and Environmental Chemistry, citing a WUR Library display of Scopus metrics. The other candidates remain pending.
+- **First-pass journal-level quartile audit completed for all 34 unique journal titles.** `data/journal-quartile-audit.csv` is the dedicated one-row-per-journal record, and the current results are populated in `data/corpus-screening-register.csv`. Latest available 2025 SJR profile data were used where found; Arabian Journal of Chemistry uses historical 2024 SJR Q1 data with a Scopus-discontinuation caveat. Iraqi Journal of Agricultural Sciences is flagged as discontinued and has no current quartile assigned. Category-level verification remains provisional for Environmental Research, Journal of Engineering and Carbon Research. Most records rely on secondary profiles displaying SJR data, so institutional Q1-only decisions should be checked against the institution's required ranking source.
 - The manuscript outline exists, but the substantive section drafts and integrated comparative evidence tables have not been verified as complete.
 
 ## Consolidation work completed
@@ -20,11 +20,12 @@
 4. Recorded a high-priority mismatch in the montmorillonite study: the methods specify 0.03 g in 50 mL while the conclusion calls the optimum dosage 0.03 g/L; if the stated 120 mg/L initial concentration and 0.03 g/50 mL refer to the headline capacity/removal, the mass-balance ceiling is 200 mg/g, inconsistent with the 500–526 mg/g statements.
 5. Checked the publisher preview/abstract and metadata for DISC-022, but did **not** mark the review full-text checked because the full text/tables were not accessible from the public pages inspected.
 6. Recorded first-pass journal-quartile source fields for iScience and Journal of Hazardous Materials while keeping quartile verification separate from full-text screening.
+7. Audited the latest available SJR metrics across all 34 unique journals; added `data/journal-quartile-audit.csv`, updated all candidate rows, and logged discontinuation/category caveats.
 
 ## Current work sequence
 
-1. Obtain legitimate access to the full text of DISC-022 and screen it; keep it FULLTEXT-NEEDED until then.
-2. Continue quartile verification for the remaining candidate journals with ranking provider, year, category, quartile and source URL recorded.
+1. Keep `DISC-022` deferred until the user supplies its full-text PDF; do not treat it as screened or excluded.
+2. Resolve the five journal-ranking exceptions listed in the quartile audit: historical/discontinued status for Arabian Journal of Chemistry, discontinued/no-current-quartile status for Iraqi Journal of Agricultural Sciences, and category-level verification for Environmental Research, Journal of Engineering and Carbon Research.
 3. Make final retain / exclude / background-only decisions after screening and ranking checks.
 4. Build comparison tables from checked primary studies, keeping observed uptake, fitted (q_{\max}), removal percentage, column metrics, regeneration and degradation distinct.
 5. Draft and cite manuscript sections from the checked comparisons.
