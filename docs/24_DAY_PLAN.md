@@ -13,7 +13,7 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 - **64 source-caveat entries** in `data/source-caveats.csv`.
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
-- **Journal-quartile verification has started**: first-pass entries are recorded for `CORP-025` (iScience; 2024 SJR Q1, Multidisciplinary; direct SCImago confirmation still pending) and `DISC-022` (Journal of Hazardous Materials; 2024 Scopus/SJR Q1 across relevant categories, source linked). Remaining candidates are still pending; this is not a full-corpus quartile audit.
+- **Journal-quartile audit now covers all 34 unique journals** in `data/journal-quartile-audit.csv`, with results copied to the 62-row screening register. Latest available 2025 SCImago/SJR profiles were used where found; Arabian Journal of Chemistry has a historical 2024 Q1 entry but Scopus coverage was discontinued, and Iraqi Journal of Agricultural Sciences is flagged as discontinued with no current quartile assigned. Category-level confirmation remains limited for Environmental Research, Journal of Engineering and Carbon Research. Secondary profile displays were used rather than direct canonical SCImago verification for every title.
 - **Final include/exclude decisions, integrated cross-paper tables and substantive manuscript section drafts remain incomplete.** The database and batch reports are evidence infrastructure, not a completed review manuscript.
 
 Current repository references:
@@ -28,7 +28,7 @@ Current repository references:
 
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
-| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 310 evidence records. The only unresolved full-text screen is `DISC-022`, deferred until the user supplies the PDF; quartile checks for the other candidate journals continue separately. |
+| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 310 evidence records. `DISC-022` remains deferred until the user supplies its PDF; journal quartiles have been first-pass audited for all 34 unique journal titles, with exceptions logged. |
 | 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | Not complete; no verified finished section draft recorded. |
 | 3 | Finish Section 2.1 | Complete rough draft of 2.1 | Not complete/verified. |
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
@@ -57,9 +57,10 @@ Current repository references:
 
 Do not continue routine batch intake unless a specific evidence gap requires a targeted source. The next workstream is:
 
-1. **Close the remaining full-text screen** (`DISC-022`). `CORP-025` has been screened from its open-access full text, with dose/capacity conflicts flagged rather than resolved.
-2. **Continue journal-quartile verification** for the remaining candidates, recording provider, ranking year, subject category, quartile and verification URL. Keep the ranking system and year consistent; do not substitute impact factor or reputation for a quartile record.
-3. **Make explicit retain / exclude / background-only decisions** after screening and quartile checks. A review may be useful for context and citation discovery without entering the primary experimental comparison.
+1. Keep `DISC-022` **deferred** until the user supplies its PDF; do not count it as screened or excluded.
+2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` (two discontinued/legacy records and three category-level caveats); verify directly with the institution's required ranking system if a Q1-only rule will determine final eligibility.
+3. Make explicit retain / exclude / background-only decisions for active screened candidates, distinguishing primary adsorption studies from secondary reviews and mixed-treatment studies.
+4. Build the integrated comparison tables from verified primary-study evidence before substantive drafting.
 4. **Build the comparative evidence tables** from verified primary studies, separating observed uptake, fitted (q_{\max}), removal percentage, column capacity, desorption and degradation.
 5. **Draft manuscript sections from those tables**, then verify each important numerical/mechanistic claim against its primary source and Zotero reference.
 
