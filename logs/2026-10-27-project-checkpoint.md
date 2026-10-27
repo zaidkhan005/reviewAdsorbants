@@ -10,7 +10,7 @@
 - **64 source-caveat entries** are recorded.
 - The evidence file contains findings for distinct candidate IDs; it includes primary-study records and secondary review-derived evidence, so the record count is not a paper count or final bibliography count.
 - **First-pass journal-level quartile audit completed for all 34 unique journal titles.** `data/journal-quartile-audit.csv` is the dedicated one-row-per-journal record, and the current results are populated in `data/corpus-screening-register.csv`. Latest available 2025 SJR profile data were used where found; Arabian Journal of Chemistry uses historical 2024 SJR Q1 data with a Scopus-discontinuation caveat. Iraqi Journal of Agricultural Sciences is flagged as discontinued and has no current quartile assigned. Category-level verification remains provisional for Environmental Research, Journal of Engineering and Carbon Research. Most records rely on secondary profiles displaying SJR data, so institutional Q1-only decisions should be checked against the institution's required ranking source.
-- The manuscript outline exists, but the substantive section drafts and integrated comparative evidence tables have not been verified as complete.
+- The manuscript outline exists. A provisional candidate-role audit and a source-linked primary-study comparison matrix v1 now exist, but final include/exclude decisions, normalized same-target comparisons and substantive section drafts remain incomplete.
 
 ## Consolidation work completed
 
@@ -21,14 +21,17 @@
 5. Checked the publisher preview/abstract and metadata for DISC-022, but did **not** mark the review full-text checked because the full text/tables were not accessible from the public pages inspected.
 6. Recorded first-pass journal-quartile source fields for iScience and Journal of Hazardous Materials while keeping quartile verification separate from full-text screening.
 7. Audited the latest available SJR metrics across all 34 unique journals; added `data/journal-quartile-audit.csv`, updated all candidate rows, and logged discontinuation/category caveats.
+8. Created `data/candidate-decision-audit.csv`, assigning a provisional working role and quantitative-use guardrail to each of 62 candidates (not final inclusion/exclusion decisions).
+9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
+10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 310 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
 
 ## Current work sequence
 
 1. Keep `DISC-022` deferred until the user supplies its full-text PDF; do not treat it as screened or excluded.
-2. Resolve the five journal-ranking exceptions listed in the quartile audit: historical/discontinued status for Arabian Journal of Chemistry, discontinued/no-current-quartile status for Iraqi Journal of Agricultural Sciences, and category-level verification for Environmental Research, Journal of Engineering and Carbon Research.
-3. Make final retain / exclude / background-only decisions after screening and ranking checks.
-4. Build comparison tables from checked primary studies, keeping observed uptake, fitted (q_{\max}), removal percentage, column metrics, regeneration and degradation distinct.
-5. Draft and cite manuscript sections from the checked comparisons.
+2. Resolve ranking exceptions against the institution's preferred source if strict Q1 eligibility is required; do not conflate 2025 SJR profile data with publication-year quartiles or JCR results.
+3. Review the provisional candidate-role audit and make final retain / exclude / background-only decisions.
+4. Normalize the primary-study comparison matrix and choose like-for-like comparisons; keep observed uptake, fitted qmax, removal percentage, column metrics, regeneration and degradation distinct.
+5. Draft and cite material-class sections from the checked comparisons.
 
 ## Key files
 
@@ -36,4 +39,9 @@
 - [Screening register](../data/corpus-screening-register.csv)
 - [Master evidence register](../data/corpus-evidence.csv)
 - [Source-caveat register](../data/source-caveats.csv)
+- [Journal-quartile audit](../data/journal-quartile-audit.csv)
+- [Candidate decision audit](../data/candidate-decision-audit.csv)
+- [Primary-study comparison matrix](../data/primary-study-comparison-matrix.csv)
+- [Quartile audit batch log](2026-10-27-q1-audit-batch-01.md)
+- [Screening and synthesis setup log](2026-10-27-screening-synthesis-batch-01.md)
 - [Screening and Q1 checkpoint](2026-10-27-screening-q1-start.md)
