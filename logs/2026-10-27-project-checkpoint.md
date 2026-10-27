@@ -62,3 +62,11 @@
 - [Continuum synthesis log](2026-10-27-continuum-synthesis-batch-01.md)
 - [Screening and synthesis setup log](2026-10-27-screening-synthesis-batch-01.md)
 - [Screening and Q1 checkpoint](2026-10-27-screening-q1-start.md)
+
+## Post-checkpoint update — targeted literature discovery pass 01 (2026-10-27)
+
+The first gap-led discovery pass is now logged at `logs/2026-10-27-targeted-discovery-pass-01.md`. Six new primary-study candidate leads (DISC-031–DISC-036) were identified after title/DOI comparison with the prior 62-row register. The canonical register, candidate-decision audit and provisional adjudication file now contain **68 rows**; the evidence register was not changed because the six new candidates have not yet had page/table/figure-level evidence extracted. The journal quartile audit now has **38 rows**; four new journal titles are explicitly marked not yet audited. The reference-acquisition tracker now contains 21 discovery/query records; per-query hit counts were not exposed by the search interface, so no returned-hit count was invented.
+
+New candidates cover (i) amoxicillin adsorption on chitosan beads, (ii) alginate/carboxymethyl-chitosan hydrogel beads for single/binary feeds, (iii) self-templated biochar from anaerobic-digestion residue, (iv) sawdust vs sawdust/plastic co-pyrolysis biochar, (v) KOH-activated biochar from antibiotic fermentation residue, and (vi) a 2026 garden-waste biochar study. These remain provisional. In the open-access fermentation-residue article DISC-035, printed qe/removal equations appear to use a reversed concentration-difference sign; this must be checked before quantitative use.
+
+Current acquisition state: 68 candidates; 61 previously completed full-text screens plus six new leads awaiting source review, with DISC-022 separately deferred. The rough 220–250 candidate-pool plan therefore now implies around **152–182 additional candidate leads** to discover before deduplication/screening; this is a planning estimate, not a bibliography count. The final cited-reference count remains unaudited. See `docs/REFERENCE_TARGET_PLAN.md`, `data/reference-acquisition-tracker.csv`, and the discovery-pass log.
