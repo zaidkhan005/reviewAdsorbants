@@ -71,7 +71,7 @@ The reported apparatus was a 13 cm column with 1.0 cm internal diameter, 4.4 cm 
 ## Items intentionally not promoted into these core tables yet
 
 - **CORP-019 (levofloxacin; Journal of Engineering):** the within-study removal values for activated carbon and barley husks (74% and 71% at equal 5 g/L dose) could serve as a low-processing comparison, but the journal is currently Q2 in the accessed 2025 SJR categories, and the fitted (q_m)/kinetic entries have mass-balance problems. Do not treat it as a current-Q1 core item or rank its suspect capacities.
-- **CORP-023 (amoxicillin, chitosan vs alginate beads):** the accessible source was a preprint version; the published version must be checked before adopting its reported observed capacities or fitted (q_{max}).
+- **CORP-023 (amoxicillin, chitosan vs alginate beads):** the published journal abstract now confirms the headline pH-4 capacities (alginate 74.2 ± 0.3 mg/g; chitosan 80.4 ± 0.2 mg/g, using 1 g adsorbent). The uploaded full text is still the preprint; fitted Langmuir values, kinetic diffusion asymptotes, methods and thermodynamic tables need checking against the published full text/supplement. The reported kinetic alginate uptake (71.3 mg/g) versus fitted Weber–Morris q∞ (136.75 ± 8.2 mg/g) remains unresolved.
 - **CORP-025, DISC-018, CORP-031, DISC-028, DISC-026, CORP-017, DISC-004, DISC-007, DISC-014 and DISC-027:** retain their independently useful qualitative/condition findings but hold the specific values listed in the [comparison-readiness audit](../logs/2026-10-27-comparison-readiness-audit-01.md) from cross-paper ranking until the source/mass-balance/endpoint issues are reconciled.
 - **DISC-022:** deferred by the user until they provide the full text; not screened or excluded.
 
