@@ -6,6 +6,15 @@ The original sprint rule remains: every workday ends with a visible deliverable;
 
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
 
+### Reference-count targets — must remain visible
+
+- Supervisor's semester publication target: **about 60 distinct, relevant works actually cited**.
+- Publisher/journal-version target: **about 150 distinct, relevant works actually cited**, subject to the final journal's instructions.
+- Current screening inventory: **62 candidates**, which does **not** prove that 60 final citations have been achieved. The final bibliography count is unaudited because a current `review-corpus.bib` export and final Zotero-formatted citations are not present in the repository.
+- The ~150 target uses a planning funnel of **220–250 candidate records**, so the current 62-row register implies a provisional need for about **158–188 additional candidates** before deduplication and final screening.
+- Completion of user-supplied PDF intake through Batch 20 is not completion of literature discovery. Find new candidates using targeted searches and citation chasing; only request/upload more PDFs when a relevant full text is inaccessible through legitimate sources.
+- Live plan: [Reference target and acquisition plan](REFERENCE_TARGET_PLAN.md); [Literature discovery plan](LITERATURE_DISCOVERY_PLAN.md).
+
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
 - **312 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not distinct papers.
 - **62 candidate/screening records** in `data/corpus-screening-register.csv`.
@@ -73,3 +82,7 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 5. Section 2.2 v1 now exists at `manuscript/SECTION_2_2_CLAYS_BIOPOLYMERS_V1.md`; continue with Section 2.3 (biochar and modified biochar) using the same evidence-first method. Treat all section drafts as working drafts until source checks, Zotero citations and editorial revision are complete.
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
+
+## Bibliography target reminder — 2026-10-27
+
+The next work sequence must keep source acquisition active alongside drafting: the approximately 60-reference semester checkpoint is not verified, and the ~150-reference journal-version target remains a goal. Do not mark either achieved until the Zotero/BibTeX inventory is deduplicated and the final manuscript's distinct in-text citations are reconciled with its bibliography. See `docs/REFERENCE_TARGET_PLAN.md` for the live dashboard and candidate-pool arithmetic.
