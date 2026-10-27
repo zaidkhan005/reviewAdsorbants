@@ -51,3 +51,5 @@ For this subsection, the brewery-residue study provides a relatively broad—but
 ## Citation conversion note
 
 All bracketed candidate identifiers in this draft are temporary internal locators. Before submission, every sentence and table row must be entered in the claim-to-source ledger, then linked to the exact Zotero item and Better BibTeX citation key. The final author–date citation must be inserted through the chosen Zotero/Better BibTeX workflow and matched to a generated bibliography entry. Citation keys and exact author–date strings have not been fabricated because the live Zotero library/export was not available for verification in this repository pass.
+
+**Deferred-item guardrail:** DISC-022 remains deferred until the user supplies its full-text PDF. This draft does not use full-text table values from DISC-022 and does not treat it as screened or excluded.
