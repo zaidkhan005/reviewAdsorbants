@@ -2,7 +2,7 @@
 
 ## Current corpus state and restart rule (2026-10-27)
 
-The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 310 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 are marked full-text checked; `DISC-022` remains `FULLTEXT-NEEDED`. Q1 verification has started but is not complete. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
+The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 310 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 have completed full-text screening. `DISC-022` is deferred until the user supplies the full-text PDF; it is not screened or excluded and is temporarily outside the active queue. Q1 verification has started but is not complete. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
 
 - The original outline and processing-and-cost continuum remain the manuscript's structural guide.
 - The original seven papers remain part of the full corpus, not a separate privileged evidence set.
