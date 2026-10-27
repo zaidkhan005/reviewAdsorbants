@@ -65,4 +65,5 @@ Do **not** use the following values to order adsorbents until the original incon
 
 - **No global adsorbent capacity ranking is defensible yet.**
 - The strongest present outputs are condition-matched *within-study* contrasts and separate panels for batch equilibrium, low-concentration real-matrix adsorption, and fixed-bed operation.
-- Next: finalize retain / exclude / background-only decisions from the candidate-decision audit, with Q1 system/year rules made explicit; then produce versioned comparison tables from the Tier A comparisons and the non-quarantined primary values.
+- First table artifact now exists at `manuscript/COMPARATIVE_TABLES_V1.md`: five panels cover TC natural-clay observed uptake and fitted capacity, a within-study carbon-processing contrast, low-concentration real-matrix `K_p`, and fixed-bed model values. It retains candidate/evidence IDs and key caveats.
+- Next: apply final retain / exclude / background-only decisions with explicit quartile-system/year rules; verify each comparison table against the source PDFs and supplements before marking it manuscript-ready.
