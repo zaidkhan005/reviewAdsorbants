@@ -14,7 +14,7 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
 - **Journal-quartile audit now covers all 34 unique journals** in `data/journal-quartile-audit.csv`, with results copied to the 62-row screening register. Latest available 2025 SCImago/SJR profiles were used where found; Arabian Journal of Chemistry has a historical 2024 Q1 entry but Scopus coverage was discontinued, and Iraqi Journal of Agricultural Sciences is flagged as discontinued with no current quartile assigned. Follow-up category checks now confirm Carbon Research Q1 in all three listed 2025 SJR categories and Journal of Engineering Q2 in all six listed 2025 categories. Environmental Research remains provisional for the specific 2025 Environmental Science category; Arabian Journal of Chemistry and Iraqi Journal of Agricultural Sciences retain discontinued-status caveats. Most ranking sources remain secondary profile displays rather than direct canonical SCImago pages.
-- A **provisional candidate-role audit** covers all 62 rows in `data/candidate-decision-audit.csv`. The primary-study matrix has 208 rows and references 248 unique evidence IDs; a crosswalk audit found no duplicate or orphan IDs, and the 62 evidence IDs outside the matrix are background/review or adjacent-technology records. The new comparison-readiness audit identifies condition-matched within-study comparisons and quarantines disputed capacities. Final retain/exclude decisions, integrated comparison tables and Zotero-formatted manuscript sections remain incomplete.
+- A **provisional candidate-role audit** covers all 62 rows in `data/candidate-decision-audit.csv`, and `data/screening-decision-adjudication-v1.csv` maps those roles into separate provisional scope and ranking-eligibility signals. It contains 62 unique rows with no blank cells; it is not a final inclusion decision, and the quartile rule still depends on ranking system/year/category. The primary-study matrix has 208 rows and references 248 unique evidence IDs; the crosswalk has no duplicate or orphan evidence IDs. The comparison-readiness audit identifies condition-matched comparisons and quarantines disputed capacities. Final inclusion/exclusion, integrated tables and Zotero-formatted manuscript sections remain incomplete.
 
 Current repository references:
 - [Working manuscript outline](../manuscript/REVIEW_OUTLINE.md)
@@ -22,6 +22,7 @@ Current repository references:
 - [Screening register](../data/corpus-screening-register.csv)
 - [Source-caveat register](../data/source-caveats.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
+- [Scope/ranking adjudication v1](../data/screening-decision-adjudication-v1.csv)
 - [Primary-study comparison matrix (v1)](../data/primary-study-comparison-matrix.csv)
 - [Quantitative-comparison readiness audit](../logs/2026-10-27-comparison-readiness-audit-01.md)
 - [Comparative evidence tables v1](../manuscript/COMPARATIVE_TABLES_V1.md)
@@ -66,7 +67,7 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 
 1. Keep `DISC-022` **deferred** until the user supplies its PDF; do not count it as screened or excluded.
 2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` if a strict Q1-only rule will determine final eligibility; use the institution's required ranking source and keep SJR/JCR and publication-year distinctions explicit.
-3. Review `data/candidate-decision-audit.csv` and convert provisional working roles into final retain / exclude / background-only decisions; it is a triage aid, not a final screening decision.
+3. Review `data/screening-decision-adjudication-v1.csv` alongside `data/candidate-decision-audit.csv`; convert provisional scope decisions into final retain / exclude / background-only decisions only after source, endpoint, and ranking-year/system rules are applied. The adjudication v1 sheet is not a final decision.
 4. Audit `manuscript/COMPARATIVE_TABLES_V1.md` against the PDFs/supplements, confirm quartile/year eligibility and dose/unit wording, then expand only with validated like-for-like comparisons. Keep observed uptake, fitted qmax, removal percentage, partition coefficients and column metrics separate.
 5. Draft material-class sections from those checked comparisons; use `manuscript/CONTINUUM_SYNTHESIS_V1.md` as a structural working draft, not as a final section.
 
