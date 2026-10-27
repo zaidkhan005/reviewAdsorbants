@@ -24,6 +24,7 @@ Current repository references:
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Primary-study comparison matrix (v1)](../data/primary-study-comparison-matrix.csv)
 - [Quantitative-comparison readiness audit](../logs/2026-10-27-comparison-readiness-audit-01.md)
+- [Comparative evidence tables v1](../manuscript/COMPARATIVE_TABLES_V1.md)
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
 - [Section 2.1 raw biomass draft v1](../manuscript/SECTION_2_1_RAW_BIOMASS_V1.md)
@@ -40,7 +41,7 @@ Current repository references:
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
 | 5 | Finish/complete Section 2.2 biopolymer evidence | Complete rough draft of 2.2 | Not complete/verified. |
 | 6 | Biochar and modified biochar | Evidence set and rough draft of 2.3 | Evidence set is growing; Q1 screen and draft remain. |
-| 7 | Synthesize processing and modification comparisons | Comparative table and draft synthesis | **Matrix audit complete:** the evidence crosswalk is intact; highest-priority within-study comparisons and capacity/metric quarantine flags are documented in `logs/2026-10-27-comparison-readiness-audit-01.md`. Integrated comparison tables and broader synthesis remain pending. |
+| 7 | Synthesize processing and modification comparisons | Comparative table and draft synthesis | **Comparison v1 created:** `manuscript/COMPARATIVE_TABLES_V1.md` contains five endpoint-separated panels. Source verification, expansion to additional valid cohorts, and integrated narrative remain pending. |
 | 8 | Engineered/nano-carbon adsorbents | Evidence set and rough draft of 2.4 | Evidence set is growing; final Q1 shortlist and draft remain. |
 | 9 | Complete Section 2 and compare material classes | Integrated classification/synthesis | Pending. |
 | 10 | Processing–cost–performance continuum | Core framework figure/table and narrative | Pending. |
@@ -66,7 +67,7 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 1. Keep `DISC-022` **deferred** until the user supplies its PDF; do not count it as screened or excluded.
 2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` if a strict Q1-only rule will determine final eligibility; use the institution's required ranking source and keep SJR/JCR and publication-year distinctions explicit.
 3. Review `data/candidate-decision-audit.csv` and convert provisional working roles into final retain / exclude / background-only decisions; it is a triage aid, not a final screening decision.
-4. Use the comparison-readiness audit to build the first condition-matched comparison tables; do not pool observed uptake, fitted qmax, removal percentage, partition coefficients or column metrics.
+4. Audit `manuscript/COMPARATIVE_TABLES_V1.md` against the PDFs/supplements, confirm quartile/year eligibility and dose/unit wording, then expand only with validated like-for-like comparisons. Keep observed uptake, fitted qmax, removal percentage, partition coefficients and column metrics separate.
 5. Draft material-class sections from those checked comparisons; use `manuscript/CONTINUUM_SYNTHESIS_V1.md` as a structural working draft, not as a final section.
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
