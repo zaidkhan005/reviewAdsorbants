@@ -112,13 +112,13 @@ Metadata-only candidates in the current register are not considered read, includ
 ### Stage A: reach the semester manuscript target (~60 works actually cited)
 
 1. **Reconcile the current library and manuscript.** Export the Zotero collection as `review-corpus.bib` using the instructions in `references/README.md`. This is a bibliography export, not a request for another PDF batch. Deduplicate DOI/title variants and map existing manuscript claims to sources. The repository currently does not contain a current `.bib` export, so the actual unique-citation count is not yet known.
-2. **Audit the current 62 candidates before searching blindly.** Finalize provisional retain / exclude / background-only roles where the evidence allows; keep the 2022 review `DISC-022` deferred until the user supplies its PDF. Do not equate 62 candidate rows with 60 accepted references.
+2. **Audit the current 62 candidates before searching blindly.** Finalize provisional retain / exclude / background-only roles where the evidence allows; keep the 2022 review `DISC-022` deferred until the user supplies its PDF. Do not equate 68 candidate rows with 60 accepted references.
 3. **Use an initial 60-reference coverage plan** (main counting role per distinct work; secondary thematic tags can overlap): 32 primary adsorption studies; 8 cross-cutting experiments (real-water matrices, regeneration, mixed feeds and columns); 7 kinetics/isotherm/speciation/mechanism foundations; 5 process-cost/energy/LCA sources; 4 occurrence/risk/treatment-context sources; and 4 high-quality reviews. This is a planning allocation, not a forced quota. If screening produces fewer than 60 genuinely useful sources, search the gaps rather than padding.
 4. **Check whether the manuscript actually cites them.** A retained paper counts toward 60 only if it is used in the manuscript to support a statement/table row. Count each distinct DOI/work once, even if it appears in several sections. Duplicate preprint/published versions count as one work unless they contain materially distinct records and there is a justified reason to cite both.
 
 ### Stage B: grow the source pool for the journal version (~150 works actually cited)
 
-Build a deduplicated pool of **220–250 candidates** and screen it down to approximately 150 relevant works actually cited. Starting from 62 rows, the current planning gap is **158–188 net-new candidate records**, before future deduplication and decisions. The funnel is a planning estimate, not an obligation to retain weak papers.
+Build a deduplicated pool of **220–250 candidates** and screen it down to approximately 150 relevant works actually cited. Starting from 68 rows, the current planning gap is **152–182 net-new candidate records**, before future deduplication and decisions. The funnel is a planning estimate, not an obligation to retain weak papers.
 
 Use these source-acquisition passes, in order:
 
