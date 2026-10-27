@@ -34,7 +34,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
-- `data/corpus-screening-register.csv` — unified screening register: 31 downloaded records plus 30 externally discovered candidate leads (61 total candidate records); all still require full-text/Q1 verification as appropriate
+- `data/corpus-screening-register.csv` — unified screening register: 68 candidate rows as of the 2026-10-27 discovery update; six newly discovered leads await source review; candidates are not automatically accepted references
 - `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
 - `docs/REFERENCE_TARGET_PLAN.md` — planning funnel and coverage map for a defensible ~150-reference journal version
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
@@ -45,7 +45,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 
 The supplied outline is preserved separately so the original framework is not overwritten. In the working manuscript outline, adsorption kinetics/isotherms are in Section 3 and **mechanisms are promoted to standalone Section 4**; techno-economic evaluation, implementation, challenges, and conclusions are renumbered to Sections 5–8. The mechanism section includes an evidence-weighted matrix and explicit checks against conflating adsorption with catalytic degradation.
 
-## Current status (2026-10-24)
+## Historical status snapshot (2026-10-24; superseded by 2026-10-27 project checkpoint)
 
 - The original seven-paper matrix (`data/master-evidence-detailed.csv`) and caveats (`data/source-caveats.csv`) are preserved as historical seed records. Their values and mechanisms are **provisional until re-verified against the original full texts**. The formatted `.xlsx` workbook remains a separate working artifact.
 - Initial bibliography audit: 31 records parsed; no exact duplicate DOI or normalized title was detected. Eight entries lack abstracts in the export. The Pinheiro chitosan/alginate record and Mohammed-Ridha publication year were corrected/flagged using publisher or PubMed records, and the original export should not be treated as complete evidence.
@@ -54,7 +54,7 @@ The supplied outline is preserved separately so the original framework is not ov
 - The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
 
-## Working loop
+## Current update (2026-10-27)\n\n- The supplied PDF intake is complete through Batch 20. Targeted literature discovery continues beyond the files already uploaded.\n- The candidate register now contains 68 rows, including six new discovery leads (DISC-031–DISC-036); their source and journal-ranking checks remain pending.\n- The journal-quartile audit now has 38 rows: 34 prior journal records and four newly encountered titles not yet audited.\n- Reference targets remain about 60 distinct works actually cited for the semester manuscript and about 150 for the journal version. Neither is confirmed achieved; final citation/bibliography reconciliation and a current `review-corpus.bib` export remain pending.\n- The claim-to-source citation ledger is now at `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md`. The biochar Section 2.3 draft is at `manuscript/SECTION_2_3_BIOCHAR_V1.md`.\n- DISC-022 remains deferred until the user supplies its full-text PDF; it is not screened or excluded.\n\n## Working loop
 
 **Discover → screen → verify journal and source → retrieve full text → extract evidence → reconcile units/conditions → draft → cite through Zotero → audit claims.**
 
