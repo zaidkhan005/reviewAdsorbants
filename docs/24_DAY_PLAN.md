@@ -7,7 +7,7 @@ The original sprint rule remains: every workday ends with a visible deliverable;
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
 
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
-- **311 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not distinct papers.
+- **312 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not distinct papers.
 - **62 candidate/screening records** in `data/corpus-screening-register.csv`.
 - **61 of 62** candidates have completed full-text screening; `DISC-022` is **deferred** until the user supplies its full-text PDF. It is not screened or excluded and is temporarily outside the active queue. `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
 - **64 source-caveat entries** in `data/source-caveats.csv`.
@@ -37,12 +37,12 @@ Current repository references:
 
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
-| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 311 evidence records. `DISC-022` remains deferred until the user supplies its PDF; journal quartiles have been first-pass audited for all 34 unique journal titles, with exceptions logged. |
+| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 312 evidence records. `DISC-022` remains deferred until the user supplies its PDF; journal quartiles have been first-pass audited for all 34 unique journal titles, with exceptions logged. |
 | 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | **Working draft v1 created** at `manuscript/SECTION_2_1_RAW_BIOMASS_V1.md` with seven source-linked candidates, metric separation and explicit data-quality caveats. Final citation formatting and editorial revision remain. |
 | 3 | Finish Section 2.1 | Complete rough draft of 2.1 | **In progress:** source-grounded rough draft exists; normalize selected comparisons and convert candidate-ID links to Zotero citations before marking complete. |
-| 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
-| 5 | Finish/complete Section 2.2 biopolymer evidence | Complete rough draft of 2.2 | Not complete/verified. |
-| 6 | Biochar and modified biochar | Evidence set and rough draft of 2.3 | Evidence set is growing; Q1 screen and draft remain. |
+| 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | **Working draft v1 created** at `manuscript/SECTION_2_2_CLAYS_BIOPOLYMERS_V1.md`; final screening/Q1 eligibility, full published-version checks and editorial revision remain. |
+| 5 | Finish/complete Section 2.2 biopolymer evidence | Complete rough draft of 2.2 | **In progress:** v1 covers unmodified beads and processed polymer composites; full published CORP-023 text/supplement and flagged quantitative caveats remain. |
+| 6 | Biochar and modified biochar | Evidence set and rough draft of 2.3 | **Next material-class draft:** use the evidence matrix and source caveats; Q1 eligibility and source checks remain separate. |
 | 7 | Synthesize processing and modification comparisons | Comparative table and draft synthesis | **Comparison v1 created:** `manuscript/COMPARATIVE_TABLES_V1.md` contains five endpoint-separated panels. Source verification, expansion to additional valid cohorts, and integrated narrative remain pending. |
 | 8 | Engineered/nano-carbon adsorbents | Evidence set and rough draft of 2.4 | Evidence set is growing; final Q1 shortlist and draft remain. |
 | 9 | Complete Section 2 and compare material classes | Integrated classification/synthesis | Pending. |
@@ -70,6 +70,6 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` if a strict Q1-only rule will determine final eligibility; use the institution's required ranking source and keep SJR/JCR and publication-year distinctions explicit.
 3. Review `data/screening-decision-adjudication-v1.csv` alongside `data/candidate-decision-audit.csv`; convert provisional scope decisions into final retain / exclude / background-only decisions only after source, endpoint, and ranking-year/system rules are applied. The adjudication v1 sheet is not a final decision.
 4. Audit `manuscript/COMPARATIVE_TABLES_V1.md` against the PDFs/supplements, confirm quartile/year eligibility and dose/unit wording, then expand only with validated like-for-like comparisons. Keep observed uptake, fitted qmax, removal percentage, partition coefficients and column metrics separate.
-5. Draft material-class sections from those checked comparisons; use `manuscript/CONTINUUM_SYNTHESIS_V1.md` as a structural working draft, not as a final section.
+5. Section 2.2 v1 now exists at `manuscript/SECTION_2_2_CLAYS_BIOPOLYMERS_V1.md`; continue with Section 2.3 (biochar and modified biochar) using the same evidence-first method. Treat all section drafts as working drafts until source checks, Zotero citations and editorial revision are complete.
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
