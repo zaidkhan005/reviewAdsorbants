@@ -22,6 +22,8 @@
 6. Recorded first-pass journal-quartile source fields for iScience and Journal of Hazardous Materials while keeping quartile verification separate from full-text screening.
 7. Audited latest available SJR metrics across all 34 unique journals and updated the dedicated audit. Follow-up checks then resolved the current-category questions for Journal of Engineering and Carbon Research, corroborated iScience, and recorded the remaining Environmental Research/discontinuation caveats.
 8. Created `data/candidate-decision-audit.csv`, assigning a provisional working role and quantitative-use guardrail to each of 62 candidates (not final inclusion/exclusion decisions).
+9. Audited the comparison-matrix crosswalk: 208 rows reference 248 unique evidence IDs, with no duplicate or orphan IDs; 62 other evidence IDs are background/review or adjacent-technology evidence outside the core matrix.
+10. Created `logs/2026-10-27-comparison-readiness-audit-01.md` with condition-matched within-study comparison candidates, separate endpoint rules and a quarantine list for capacity/model contradictions.
 9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
 10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 310 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
 11. Drafted `manuscript/CONTINUUM_SYNTHESIS_V1.md` across the eight working material classes, with source-linked examples, quality caveats and a minimum normalization schema. Checked all 29 internal candidate DOI links against the screening register; no mismatches remain.
@@ -32,7 +34,7 @@
 1. Keep `DISC-022` deferred until the user supplies its full-text PDF; do not treat it as screened or excluded.
 2. Resolve ranking exceptions against the institution's preferred source if strict Q1 eligibility is required; do not conflate 2025 SJR profile data with publication-year quartiles or JCR results.
 3. Review the provisional candidate-role audit and make final retain / exclude / background-only decisions.
-4. Normalize the primary-study comparison matrix and choose like-for-like comparisons; keep observed uptake, fitted qmax, removal percentage, column metrics, regeneration and degradation distinct.
+4. Build the first condition-matched comparison tables from the Tier A candidates in `logs/2026-10-27-comparison-readiness-audit-01.md`; keep observed uptake, fitted qmax, removal percentage, Kp, column metrics, regeneration and degradation distinct.
 5. Draft and cite material-class sections from the checked comparisons.
 
 ## Key files
@@ -44,6 +46,7 @@
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Primary-study comparison matrix](../data/primary-study-comparison-matrix.csv)
+- [Quantitative-comparison readiness audit](2026-10-27-comparison-readiness-audit-01.md)
 - [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
 - [Section 2.1 raw-biomass draft v1](../manuscript/SECTION_2_1_RAW_BIOMASS_V1.md)
 - [Section 2.1 draft log](2026-10-27-section-2-1-batch-01.md)
