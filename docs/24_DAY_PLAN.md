@@ -61,11 +61,9 @@ Current repository references:
 Do not continue routine batch intake unless a specific evidence gap requires a targeted source. The next workstream is:
 
 1. Keep `DISC-022` **deferred** until the user supplies its PDF; do not count it as screened or excluded.
-2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` (two discontinued/legacy records and three category-level caveats) if a strict Q1-only rule will determine final eligibility.
-3. Review `data/candidate-decision-audit.csv` and convert provisional working roles into final retain / exclude / background-only decisions; the audit is a triage aid, not a final screening decision.
-4. Audit `data/primary-study-comparison-matrix.csv` for condition/unit consistency and identify defensible same-target/same-metric comparisons before writing the continuum narrative.
-5. Draft material-class sections from those checked comparisons and verify important numerical/mechanistic claims against primary sources.
-4. **Build the comparative evidence tables** from verified primary studies, separating observed uptake, fitted (q_{\max}), removal percentage, column capacity, desorption and degradation.
-5. **Draft manuscript sections from those tables**, then verify each important numerical/mechanistic claim against its primary source and Zotero reference.
+2. Resolve the journal-quartile exceptions listed in `data/journal-quartile-audit.csv` if a strict Q1-only rule will determine final eligibility; use the institution's required ranking source and keep SJR/JCR and publication-year distinctions explicit.
+3. Review `data/candidate-decision-audit.csv` and convert provisional working roles into final retain / exclude / background-only decisions; it is a triage aid, not a final screening decision.
+4. Audit `data/primary-study-comparison-matrix.csv` for condition/unit consistency and identify defensible same-target/same-metric comparisons before treating values as comparative rankings.
+5. Draft material-class sections from those checked comparisons; use `manuscript/CONTINUUM_SYNTHESIS_V1.md` as a structural working draft, not as a final section.
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
