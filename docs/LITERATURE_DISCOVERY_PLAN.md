@@ -229,3 +229,11 @@ The register now contains **31 downloaded records plus 30 discovery leads (61 ca
 ### Search strategy update
 
 The user has university access and can download most subscription papers. Discovery should therefore not be constrained to free/open-access results. Use Scopus/Web of Science through the university, publisher platforms and citation indexes for broad reproducible searches; request the user to download and upload subscription full texts if the assistant cannot access the authenticated session. Do not ask for credentials or bypass access controls.
+
+## Current execution update — 2026-10-27 (discovery pass 01)
+
+The canonical candidate register now has **68 rows**, following six net-new leads discovered in the first gap-led pass (DISC-031–DISC-036). The new leads concern chitosan beads, a modified alginate/carboxymethyl-chitosan hydrogel, unactivated/self-templated biochar from biogas residue, sawdust/plastic co-pyrolysis biochar, one-step KOH-activated antibiotic-fermentation-residue biochar, and garden-waste biochar. They are discovery-stage candidates, not accepted/included references; the evidence register has not been expanded because source-location extraction and full-text checks remain pending. See `logs/2026-10-27-targeted-discovery-pass-01.md`.
+
+The first pass logged 21 exploratory/exact-title queries in `data/reference-acquisition-tracker.csv`. Search-interface output did not expose reliable per-query hit counts, so none were invented. The repository now contains 38 journal-audit rows, including four newly encountered journal titles marked not yet audited. DISC-022 remains deferred until the user supplies the full text.
+
+From the current 68 candidate rows, the 220–250 record pool remains a planning goal for the ~150-reference journal version, with approximately **152–182 more candidate records** to discover before deduplication and screening. Actual final references are distinct relevant works cited in the manuscript, not candidates or evidence rows. Next, screen accessible full texts and verify source locations for DISC-032, DISC-035 and DISC-036 before conducting further broad searches.
