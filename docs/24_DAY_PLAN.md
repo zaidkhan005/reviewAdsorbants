@@ -10,15 +10,15 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 
 - Supervisor's semester publication target: **about 60 distinct, relevant works actually cited**.
 - Publisher/journal-version target: **about 150 distinct, relevant works actually cited**, subject to the final journal's instructions.
-- Current screening inventory: **62 candidates**, which does **not** prove that 60 final citations have been achieved. The final bibliography count is unaudited because a current `review-corpus.bib` export and final Zotero-formatted citations are not present in the repository.
+- Current screening inventory: **68 candidates**, which does **not** prove that 60 final citations have been achieved. The final bibliography count is unaudited because a current `review-corpus.bib` export and final Zotero-formatted citations are not present in the repository.
 - The ~150 target uses a planning funnel of **220–250 candidate records**, so the current 62-row register implies a provisional need for about **158–188 additional candidates** before deduplication and final screening.
 - Completion of user-supplied PDF intake through Batch 20 is not completion of literature discovery. Find new candidates using targeted searches and citation chasing; only request/upload more PDFs when a relevant full text is inaccessible through legitimate sources.
 - Live plan: [Reference target and acquisition plan](REFERENCE_TARGET_PLAN.md); [Literature discovery plan](LITERATURE_DISCOVERY_PLAN.md).
 
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
 - **312 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not distinct papers.
-- **62 candidate/screening records** in `data/corpus-screening-register.csv`.
-- **61 of 62** candidates have completed full-text screening; `DISC-022` is **deferred** until the user supplies its full-text PDF. It is not screened or excluded and is temporarily outside the active queue. `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
+- **68 candidate/screening records** in `data/corpus-screening-register.csv` after the 2026-10-27 targeted discovery pass.
+- **61 of 68** candidate rows had completed full-text screening at the prior checkpoint; six new leads from discovery pass 01 are not yet full-text screened and `DISC-022` is **deferred** until the user supplies its full-text PDF. It is not screened or excluded and is temporarily outside the active queue. `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
 - **64 source-caveat entries** in `data/source-caveats.csv`.
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
