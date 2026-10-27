@@ -4,7 +4,7 @@
 
 - Completed intake of the PDFs supplied through **Batch 20**; no further user-held PDF batch is assumed.
 - **20 batch evidence notes** are documented for the supplied PDFs; missing session logs for Batches 13–20 were added to the logs directory.
-- **311 source-linked evidence records** are in `data/corpus-evidence.csv` (305 from batch intake, five CORP-025 full-text audit records, plus one published-abstract check for CORP-023).
+- **312 source-linked evidence records** are in `data/corpus-evidence.csv` (305 from batch intake, five CORP-025 full-text audit records, one published-abstract check for CORP-023, and one subsequent source/caption audit record).
 - **62 candidate/screening rows** are in `data/corpus-screening-register.csv`.
 - **61 of 62** candidates have completed full-text screening. `DISC-022`, the 2022 *Journal of Hazardous Materials* critical review, is **deferred until the user supplies the full-text PDF**; it is neither screened nor excluded and is temporarily outside the active queue.
 - **64 source-caveat entries** are recorded.
@@ -28,7 +28,7 @@
 12. Created and validated `data/screening-decision-adjudication-v1.csv`: 62 unique candidate IDs, 18 columns, no blanks. It separates provisional scope decisions from ranking eligibility and preserves `DISC-022` as deferred/not screened/not excluded.
 13. Cross-checked CORP-023's published journal abstract: its headline pH-4 capacities match the uploaded preprint (alginate 74.2±0.3 mg/g; chitosan 80.4±0.2 mg/g), while detailed published methods/tables remain unverified. Added `EV-AUD-006` and a dedicated source log.
 9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
-10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 311 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
+10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 312 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
 11. Drafted `manuscript/CONTINUUM_SYNTHESIS_V1.md` across the eight working material classes, with source-linked examples, quality caveats and a minimum normalization schema. Checked all 29 internal candidate DOI links against the screening register; no mismatches remain.
 12. Drafted `manuscript/SECTION_2_1_RAW_BIOMASS_V1.md` for seven candidate studies (CORP-004, -005, -006, -010, -016, -017 and -019), including a small source-linked comparison table and explicit capacity/mass-balance caveats. Validated 16 in-text DOI links against the register; no mismatches remain.
 
@@ -38,7 +38,7 @@
 2. Resolve ranking exceptions against the institution's preferred source if strict Q1 eligibility is required; do not conflate 2025 SJR profile data with publication-year quartiles or JCR results.
 3. Review `data/screening-decision-adjudication-v1.csv` and the candidate-role audit to make final retain / exclude / background-only decisions, with source/endpoint checks and the required ranking system/year/category kept explicit.
 4. Recheck `manuscript/COMPARATIVE_TABLES_V1.md` against the source PDFs/supplements, apply the agreed ranking-year/category rule, and expand the tables only with validated like-for-like data; keep observed uptake, fitted qmax, removal percentage, Kp, column metrics, regeneration and degradation distinct.
-5. Draft and cite material-class sections from the checked comparisons.
+5. Section 2.2 natural-clays/biopolymers v1 is now available at `manuscript/SECTION_2_2_CLAYS_BIOPOLYMERS_V1.md`; continue with Section 2.3 (biochar/modified biochar) using the checked evidence and comparison matrix. Treat all drafts as provisional until source checks, Zotero citation insertion and editorial revision are complete.
 
 ## Key files
 
@@ -55,6 +55,8 @@
 - [Comparative evidence tables v1](../manuscript/COMPARATIVE_TABLES_V1.md)
 - [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
 - [Section 2.1 raw-biomass draft v1](../manuscript/SECTION_2_1_RAW_BIOMASS_V1.md)
+- [Section 2.2 natural clays and biopolymers draft v1](../manuscript/SECTION_2_2_CLAYS_BIOPOLYMERS_V1.md)
+- [Section 2.2 draft log](2026-10-27-section-2-2-batch-01.md)
 - [Section 2.1 draft log](2026-10-27-section-2-1-batch-01.md)
 - [Quartile audit batch log](2026-10-27-q1-audit-batch-01.md)
 - [Continuum synthesis log](2026-10-27-continuum-synthesis-batch-01.md)
