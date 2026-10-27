@@ -25,6 +25,7 @@
 9. Audited the comparison-matrix crosswalk: 208 rows reference 248 unique evidence IDs, with no duplicate or orphan IDs; 62 other evidence IDs are background/review or adjacent-technology evidence outside the core matrix.
 10. Created `logs/2026-10-27-comparison-readiness-audit-01.md` with condition-matched within-study comparison candidates, separate endpoint rules and a quarantine list for capacity/model contradictions.
 11. Created `manuscript/COMPARATIVE_TABLES_V1.md` with five endpoint-separated comparison panels and source/evidence IDs. These remain working tables pending source-PDF recheck, citation formatting and final quartile/inclusion decisions.
+12. Created and validated `data/screening-decision-adjudication-v1.csv`: 62 unique candidate IDs, 18 columns, no blanks. It separates provisional scope decisions from ranking eligibility and preserves `DISC-022` as deferred/not screened/not excluded.
 9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
 10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 310 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
 11. Drafted `manuscript/CONTINUUM_SYNTHESIS_V1.md` across the eight working material classes, with source-linked examples, quality caveats and a minimum normalization schema. Checked all 29 internal candidate DOI links against the screening register; no mismatches remain.
@@ -34,7 +35,7 @@
 
 1. Keep `DISC-022` deferred until the user supplies its full-text PDF; do not treat it as screened or excluded.
 2. Resolve ranking exceptions against the institution's preferred source if strict Q1 eligibility is required; do not conflate 2025 SJR profile data with publication-year quartiles or JCR results.
-3. Review the provisional candidate-role audit and make final retain / exclude / background-only decisions.
+3. Review `data/screening-decision-adjudication-v1.csv` and the candidate-role audit to make final retain / exclude / background-only decisions, with source/endpoint checks and the required ranking system/year/category kept explicit.
 4. Recheck `manuscript/COMPARATIVE_TABLES_V1.md` against the source PDFs/supplements, apply the agreed ranking-year/category rule, and expand the tables only with validated like-for-like data; keep observed uptake, fitted qmax, removal percentage, Kp, column metrics, regeneration and degradation distinct.
 5. Draft and cite material-class sections from the checked comparisons.
 
@@ -46,6 +47,7 @@
 - [Source-caveat register](../data/source-caveats.csv)
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
+- [Scope/ranking adjudication v1](../data/screening-decision-adjudication-v1.csv)
 - [Primary-study comparison matrix](../data/primary-study-comparison-matrix.csv)
 - [Quantitative-comparison readiness audit](2026-10-27-comparison-readiness-audit-01.md)
 - [Comparative evidence tables v1](../manuscript/COMPARATIVE_TABLES_V1.md)
