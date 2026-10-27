@@ -7,7 +7,7 @@ The original sprint rule remains: every workday ends with a visible deliverable;
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
 
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
-- **310 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not 305 distinct papers.
+- **310 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not distinct papers.
 - **62 candidate/screening records** in `data/corpus-screening-register.csv`.
 - **61 of 62** candidates have completed full-text screening; `DISC-022` is **deferred** until the user supplies its full-text PDF. It is not screened or excluded and is temporarily outside the active queue. `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
 - **64 source-caveat entries** in `data/source-caveats.csv`.
