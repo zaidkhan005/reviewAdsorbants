@@ -1,13 +1,14 @@
 # Research and evidence workflow
 
-## Restart rule
+## Current corpus state and restart rule (2026-10-27)
 
-The project is restarting literature intake and screening from one unified full corpus. Include every potentially relevant downloaded paper and the original seven seed papers. Do not require the user to sort papers into material-specific collections or add taxonomy tags before intake.
+The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 310 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 are marked full-text checked; `DISC-022` remains `FULLTEXT-NEEDED`. Q1 verification has started but is not complete. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
 
 - The original outline and processing-and-cost continuum remain the manuscript's structural guide.
-- The original seven papers are part of the new corpus, not a separate privileged evidence set.
-- Existing master-evidence CSVs and caveats are retained as historical leads. Every value, mechanism and bibliographic detail must be checked against the original paper again before being treated as verified.
-- See `docs/CORPUS_RESET_AND_RESTART.md` for the agreed restart protocol.
+- The original seven papers remain part of the full corpus, not a separate privileged evidence set.
+- Every value, mechanism and bibliographic detail must be checked against its original source before it is treated as verified; review-derived values must remain distinguishable from primary-study results.
+- Do not assume additional user-held PDFs remain to be uploaded. Further literature discovery should be targeted to gaps revealed by screening and synthesis.
+- See `docs/CORPUS_RESET_AND_RESTART.md` for the historical restart protocol.
 
 ## 1. Ingest the whole corpus
 
@@ -24,7 +25,7 @@ From the complete export:
 - flag records with incomplete or inconsistent metadata;
 - record what information is unavailable rather than guessing.
 
-Keep one canonical corpus screening register. The pre-existing candidate register is an interim record and will be reconciled into the full-corpus register after the new export is received.
+Keep one canonical corpus screening register: `data/corpus-screening-register.csv`. The updated Better BibTeX export was reconciled on 2026-10-25; the 62-row register is now the working canonical register, not an interim record. Its rows are candidates, not automatic final inclusions.
 
 ## 3. Screen without asking the user to classify papers
 
@@ -77,7 +78,7 @@ Draft only after evidence for the paragraph is extracted. Use Zotero for citatio
 ## 9. GitHub storage convention
 
 - Every session ends with a dated entry in `logs/`.
-- Rebuild/reconcile the full-corpus screening register after ingesting `review-corpus.bib`.
+- Reconcile the canonical screening register only when the Zotero corpus changes; the current 62-row register has already been reconciled against the updated export dated 2026-10-25.
 - Update canonical evidence tables only after checking original papers.
 - Keep the old seven-paper table and caveats as a historical seed record until each paper has been re-verified.
 - Record major scope/taxonomy decisions in `docs/MATERIAL_TAXONOMY.md` and the dated log.
