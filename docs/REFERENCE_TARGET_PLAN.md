@@ -106,3 +106,53 @@ Metadata-only candidates in the current register are not considered read, includ
 - **M4 — Verified evidence:** re-read the original seven and each retained study; validate capacities, conditions, mechanisms and practical claims.
 - **M5 — ~150-reference draft:** target around 150 distinct citations distributed across the outline. Only count references that are actually cited and support a claim.
 - **M6 — Target-journal adaptation:** check the actual journal's word/reference limits and adjust the final number without weakening evidence quality.
+
+## Execution plan — how the two targets will be reached
+
+### Stage A: reach the semester manuscript target (~60 works actually cited)
+
+1. **Reconcile the current library and manuscript.** Export the Zotero collection as `review-corpus.bib` using the instructions in `references/README.md`. This is a bibliography export, not a request for another PDF batch. Deduplicate DOI/title variants and map existing manuscript claims to sources. The repository currently does not contain a current `.bib` export, so the actual unique-citation count is not yet known.
+2. **Audit the current 62 candidates before searching blindly.** Finalize provisional retain / exclude / background-only roles where the evidence allows; keep the 2022 review `DISC-022` deferred until the user supplies its PDF. Do not equate 62 candidate rows with 60 accepted references.
+3. **Use an initial 60-reference coverage plan** (main counting role per distinct work; secondary thematic tags can overlap): 32 primary adsorption studies; 8 cross-cutting experiments (real-water matrices, regeneration, mixed feeds and columns); 7 kinetics/isotherm/speciation/mechanism foundations; 5 process-cost/energy/LCA sources; 4 occurrence/risk/treatment-context sources; and 4 high-quality reviews. This is a planning allocation, not a forced quota. If screening produces fewer than 60 genuinely useful sources, search the gaps rather than padding.
+4. **Check whether the manuscript actually cites them.** A retained paper counts toward 60 only if it is used in the manuscript to support a statement/table row. Count each distinct DOI/work once, even if it appears in several sections. Duplicate preprint/published versions count as one work unless they contain materially distinct records and there is a justified reason to cite both.
+
+### Stage B: grow the source pool for the journal version (~150 works actually cited)
+
+Build a deduplicated pool of **220–250 candidates** and screen it down to approximately 150 relevant works actually cited. Starting from 62 rows, the current planning gap is **158–188 net-new candidate records**, before future deduplication and decisions. The funnel is a planning estimate, not an obligation to retain weak papers.
+
+Use these source-acquisition passes, in order:
+
+1. **Material-class gaps:** targeted primary-study searches for raw/minimally processed biomass; natural clays; unmodified biopolymers; standard biochar; chemically modified biochar; adsorption-only doped/engineered biochar; commercial and waste-derived activated carbon; and CNT/GO/rGO. Current planning coverage within the 80 primary-study target is: raw biomass 8, natural clays 8, unmodified biopolymers 6, standard biochar 8, modified biochar 14, doped/engineered biochar 8, activated carbon 14, and nano-engineered carbons 14. These are provisional coverage aims, not minimum quotas; mark a genuine evidence gap instead of padding a thin class.
+2. **Application evidence:** searches focused on real wastewater (and its pretreatment), low-concentration feeds, multi-antibiotic competition, natural organic matter/ions, regeneration/desorption, fixed-bed breakthrough, long runs, spent media and leaching.
+3. **Mechanism and model validity:** primary studies with spectroscopy/controls, pH/speciation, cation exchange, surface charge, pore characterization, mass-transfer evidence, kinetic/isotherm fit-quality and experimental-versus-model cross-checks.
+4. **Processing and sustainability:** preparation yield, pyrolysis/activation energy, acid/base/solvent inputs, wash water and neutralisation, normalized cost per treated volume or mass removed, regeneration energy, LCA boundary, residual waste and end-of-life.
+5. **Context and field mapping:** reliable sources for antibiotic occurrence, environmental risk, treatment limitations and recent reviews. Use reviews to locate original studies; do not cite review tables as the original source for a specific measured capacity.
+6. **Backward/forward citation chasing:** follow references and cited-by trails from the strongest directly relevant reviews and primary studies to discover seminal and newer papers missed by keyword searches. Deduplicate every lead before it increases the net candidate count.
+
+### Search cadence and screening funnel
+
+- For each material class or cross-cutting gap, run 3–6 focused search strings combining target antibiotic names/synonyms with `adsorption`/`sorption`, material/processing route, and a useful operating dimension (real wastewater, low concentration, regeneration, column, cost/LCA).
+- Search Scopus/Web of Science through university access when available; complement with publisher pages, Google Scholar/cited-by trails, Crossref/OpenAlex metadata, and legitimate open repositories. Record database, exact query, date, filters, returned hits and net-new deduplicated candidates.
+- Add candidates in documented search passes, then screen title/abstract and metadata first. Obtain/read full text only for relevant candidates. Subscription PDFs that cannot be accessed legitimately from the available session can be downloaded by the user through university access later; do not request the user's credentials.
+- Keep the journal ranking system, year and category as separate metadata. Apply the final Q1 rule only after the required provider/year/category is agreed; do not use an unverified current SJR flag as a substitute for a publication-year JCR/SJR decision.
+- Keep a running unique-work count by DOI/normalized title, candidate role, material class, source status, and whether it is actually cited in the current manuscript. Reconcile it to the Zotero export and final manuscript before claiming either target is met.
+
+### Central target for the journal version
+
+| Main counting role (mutually exclusive for counting) | Target distinct works |
+|---|---:|
+| Primary adsorption studies across eight material classes | 80 |
+| Cross-cutting application evidence (matrix, regeneration, mixture, column) | 18 |
+| Mechanism, kinetics, isotherm and speciation foundations | 17 |
+| Processing, cost, energy, LCA and end-of-life | 12 |
+| Occurrence, risk, wastewater treatment and policy/context | 11 |
+| High-quality reviews for synthesis and citation discovery | 12 |
+| **Total** | **150** |
+
+These counts assign each work one main role solely to prevent double-counting. The paper can have multiple topical tags. The eventual target journal's instructions may change the final reference limit; evidence quality and relevance take precedence over the target count.
+
+### Definition of done for each target
+
+- **~60 semester target:** at least 60 distinct relevant works are cited in the semester manuscript; every citation matches a real Zotero item; no candidate-ID DOI placeholder remains where a formal citation is required; cited works map to claims/evidence; the bibliography and in-text citations reconcile.
+- **~150 journal target:** the expanded manuscript has around 150 distinct relevant works actually cited across the outline, the source pool and screening decisions are documented, every experimental value uses an original-source citation, and the target journal's current rules and the agreed Q1 policy have been checked.
+- **Neither target is complete** merely because the candidate register, evidence table or Zotero library reaches that number. The count is the distinct works actually cited in the current manuscript version.
