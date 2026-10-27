@@ -4,7 +4,7 @@
 
 - Completed intake of the PDFs supplied through **Batch 20**; no further user-held PDF batch is assumed.
 - **20 batch evidence notes** are documented for the supplied PDFs; missing session logs for Batches 13–20 were added to the logs directory.
-- **310 source-linked evidence records** are in `data/corpus-evidence.csv` (305 from batch intake plus five records from the subsequent full-text audit of CORP-025).
+- **311 source-linked evidence records** are in `data/corpus-evidence.csv` (305 from batch intake, five CORP-025 full-text audit records, plus one published-abstract check for CORP-023).
 - **62 candidate/screening rows** are in `data/corpus-screening-register.csv`.
 - **61 of 62** candidates have completed full-text screening. `DISC-022`, the 2022 *Journal of Hazardous Materials* critical review, is **deferred until the user supplies the full-text PDF**; it is neither screened nor excluded and is temporarily outside the active queue.
 - **64 source-caveat entries** are recorded.
@@ -22,12 +22,13 @@
 6. Recorded first-pass journal-quartile source fields for iScience and Journal of Hazardous Materials while keeping quartile verification separate from full-text screening.
 7. Audited latest available SJR metrics across all 34 unique journals and updated the dedicated audit. Follow-up checks then resolved the current-category questions for Journal of Engineering and Carbon Research, corroborated iScience, and recorded the remaining Environmental Research/discontinuation caveats.
 8. Created `data/candidate-decision-audit.csv`, assigning a provisional working role and quantitative-use guardrail to each of 62 candidates (not final inclusion/exclusion decisions).
-9. Audited the comparison-matrix crosswalk: 208 rows reference 248 unique evidence IDs, with no duplicate or orphan IDs; 62 other evidence IDs are background/review or adjacent-technology evidence outside the core matrix.
+9. Audited the comparison-matrix crosswalk: 208 rows reference 249 unique evidence IDs, with no duplicate or orphan IDs; 62 other evidence IDs are background/review or adjacent-technology evidence outside the core matrix.
 10. Created `logs/2026-10-27-comparison-readiness-audit-01.md` with condition-matched within-study comparison candidates, separate endpoint rules and a quarantine list for capacity/model contradictions.
 11. Created `manuscript/COMPARATIVE_TABLES_V1.md` with five endpoint-separated comparison panels and source/evidence IDs. These remain working tables pending source-PDF recheck, citation formatting and final quartile/inclusion decisions.
 12. Created and validated `data/screening-decision-adjudication-v1.csv`: 62 unique candidate IDs, 18 columns, no blanks. It separates provisional scope decisions from ranking eligibility and preserves `DISC-022` as deferred/not screened/not excluded.
+13. Cross-checked CORP-023's published journal abstract: its headline pH-4 capacities match the uploaded preprint (alginate 74.2±0.3 mg/g; chitosan 80.4±0.2 mg/g), while detailed published methods/tables remain unverified. Added `EV-AUD-006` and a dedicated source log.
 9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
-10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 310 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
+10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 311 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
 11. Drafted `manuscript/CONTINUUM_SYNTHESIS_V1.md` across the eight working material classes, with source-linked examples, quality caveats and a minimum normalization schema. Checked all 29 internal candidate DOI links against the screening register; no mismatches remain.
 12. Drafted `manuscript/SECTION_2_1_RAW_BIOMASS_V1.md` for seven candidate studies (CORP-004, -005, -006, -010, -016, -017 and -019), including a small source-linked comparison table and explicit capacity/mass-balance caveats. Validated 16 in-text DOI links against the register; no mismatches remain.
 
