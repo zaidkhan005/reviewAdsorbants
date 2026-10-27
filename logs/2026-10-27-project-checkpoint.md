@@ -6,7 +6,7 @@
 - **20 batch evidence notes** are documented for the supplied PDFs; missing session logs for Batches 13–20 were added to the logs directory.
 - **310 source-linked evidence records** are in `data/corpus-evidence.csv` (305 from batch intake plus five records from the subsequent full-text audit of CORP-025).
 - **62 candidate/screening rows** are in `data/corpus-screening-register.csv`.
-- **61 of 62** records are marked full-text checked. One remains pending: `DISC-022`, the 2022 *Journal of Hazardous Materials* critical review.
+- **61 of 62** candidates have completed full-text screening. `DISC-022`, the 2022 *Journal of Hazardous Materials* critical review, is **deferred until the user supplies the full-text PDF**; it is neither screened nor excluded and is temporarily outside the active queue.
 - **64 source-caveat entries** are recorded.
 - The evidence file contains findings for distinct candidate IDs; it includes primary-study records and secondary review-derived evidence, so the record count is not a paper count or final bibliography count.
 - **Quartile verification has started** for two journals. CORP-025/iScience has a 2024 SJR Q1 first-pass entry in Multidisciplinary, but direct SCImago profile confirmation remains pending because the canonical page was inaccessible in this session. DISC-022/Journal of Hazardous Materials has a 2024 Scopus/SJR Q1 source record in Environmental Engineering, Waste Management and Disposal, Pollution and Environmental Chemistry, citing a WUR Library display of Scopus metrics. The other candidates remain pending.
