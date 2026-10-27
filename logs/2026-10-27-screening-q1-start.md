@@ -10,13 +10,13 @@ The open-access article was reviewed from PubMed Central (PMCID PMC10865401): ht
 - High-priority caveat: methods say 0.03 g clay in 50 mL (0.6 g/L), but the conclusion says optimum dosage 0.03 g/L. If C0=120 mg/L and 0.03 g in 50 mL apply to the >90%/526 mg/g statement, the mass-balance ceiling is 200 mg/g. Concentration/dose labels need reconciliation; the capacity is not used as a verified comparative benchmark.
 - Simulated aqueous tests; no demonstrated real wastewater, column, repeated regeneration, cost, or LCA in the accessible main article.
 
-## DISC-022 — full-text screen remains pending
+## DISC-022 — deferred until user provides full text
 
 Public metadata and publisher preview were checked:
 - Publisher preview: https://www.sciencedirect.com/science/article/pii/S0304389421029150
 - PubMed record: https://pubmed.ncbi.nlm.nih.gov/34891019/
 
-The abstract identifies a broad review of biochar, biopolymers, CNTs, clays, MOFs, microalgae, adsorption mechanisms, isotherms/kinetics, regeneration, cost and future directions. Complete text/tables were not accessible from the public pages inspected in this session. Status remains FULLTEXT-NEEDED; detailed tables have not been extracted as if read.
+The abstract identifies a broad review of biochar, biopolymers, CNTs, clays, MOFs, microalgae, adsorption mechanisms, isotherms/kinetics, regeneration, cost and future directions. Complete text/tables were not accessible from the public pages inspected in this session. Per the user's instruction on 2026-10-27, this candidate is deferred until they provide the full-text PDF. Detailed tables have not been extracted as if read; it is neither screened nor excluded and is temporarily outside the active queue.
 
 ## First-pass quartile entries
 
@@ -39,7 +39,7 @@ The indexed iScience profile reports SCImago SJR Q1 for 2024 in Multidisciplinar
 
 ## Next actions
 
-1. Obtain a legitimate full-text copy of the DISC-022 review and screen it.
-2. Continue Q1 verification for remaining candidate journals.
+1. Continue Q1 verification for remaining candidate journals.
+2. Keep DISC-022 deferred until the user supplies the PDF; then screen its full text and tables.
 3. Reconcile the nano-montmorillonite dose/capacity issue before any performance ranking.
-4. Make retain/exclude/background-only decisions, build comparative evidence tables, then draft the manuscript.
+4. Make retain/exclude/background-only decisions for active candidates, build comparative evidence tables, then draft the manuscript.
