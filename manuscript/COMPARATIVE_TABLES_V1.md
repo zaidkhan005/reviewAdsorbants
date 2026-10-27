@@ -39,7 +39,7 @@ Source: Nguyen et al. (2023), *Phosphoric Acid-Activated Biochar Derived from Su
 | Ciprofloxacin (CIP) | 80.8 | 361.6 | 4.48× |
 | Sulfamethoxazole (SMX) | 129.1 | 251.3 | 1.95× |
 
-*Ratios are arithmetic calculations from the reported fitted values, not independently measured performance indices.* The same record reports 298 K, 10 mM NaNO₃ and concentration series of 1–20 mg/L for TC/CIP/SMX. The extracted method description lists PSF at 25 mg/L; verify the exact adsorbent-dose wording in the source before final publication. These values support a within-study processing contrast, not a general claim that activation always improves performance or lowers cost. Ibuprofen is excluded from this antibiotic-only table because it is not an antibiotic.
+*Ratios are arithmetic calculations from the reported fitted values, not independently measured performance indices.* The uploaded full text (`che mod bio 1.pdf`) gives `[PSF] = 25 mg/L`, 10 mM NaNO₃, 298 K and 40 mL in the Figure 2 caption; the main text says kinetic experiments used (C_0=20) mg/L at pH 7 and equilibrium was reached around 6 h. **Source caveat:** the Figure 2 caption appears to mismatch its panel-condition labels: a 1–20 mg/L series at fixed 6 h is assigned to panel (a), although (a) is identified as kinetic; the fixed 20 mg/L / varying-time condition is assigned to panel (b), although (b) is identified as isotherm. Table 2 fitted values are retained as reported, but do not silently infer the exact panel conditions from the caption. These values support a within-study processing contrast, not a general claim that activation always improves performance or lowers cost. Ibuprofen is excluded from this antibiotic-only table because it is not an antibiotic.
 
 ## Table 4. Low-concentration adsorption in a real chlorinated hospital-wastewater background
 
@@ -88,4 +88,4 @@ The published abstract states that 1 g of adsorbent was used for the headline ca
 
 ## Current use and next work
 
-These tables are a v1 evidence artifact, not final publication tables. Before final use: apply publication-year/category quartile rules; confirm source wording for the SF-600/PSF dose; check each cited PDF/table and supplement where noted; use Zotero-formatted citations; and adjudicate final retain/exclude/background-only status. Do not generate an overall material ranking from these tables.
+These tables are a v1 evidence artifact, not final publication tables. Before final use: apply publication-year/category quartile rules; preserve the SF-600/PSF Figure 2 caption mismatch and consult supplementary information if available; check each cited PDF/table and supplement where noted; use Zotero-formatted citations; and adjudicate final retain/exclude/background-only status. Do not generate an overall material ranking from these tables.
