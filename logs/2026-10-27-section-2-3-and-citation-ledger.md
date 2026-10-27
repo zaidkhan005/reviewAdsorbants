@@ -29,3 +29,6 @@ The ledger uses pending fields for Zotero item matching, Better BibTeX keys and 
 3. Recheck source figures and supplements for held metrics, especially DISC-028, and use a transparent “not accessible” status when supplements are unavailable.
 4. Continue a sentence/table-row claim audit for earlier Sections 2.1 and 2.2, then run final citation and bibliography consistency checks.
 5. Keep DISC-022 deferred and outside the active queue until the full-text PDF is provided by the user.
+
+## Deferred source
+DISC-022 remains deferred, not screened and not excluded, until the user supplies the full-text PDF. No active request for a new PDF batch was made.
