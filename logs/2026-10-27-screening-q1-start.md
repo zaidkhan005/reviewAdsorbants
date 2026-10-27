@@ -41,7 +41,7 @@ The screening register now carries ranking metadata for all 62 candidate rows, c
 ## Updated corpus state
 
 - Candidate/screening rows: 62 (unchanged)
-- Evidence records: 310 (305 prior + 5 newly added)
+- Evidence records: 311 (305 batch-intake records + 5 CORP-025 audit records + 1 CORP-023 published-abstract audit record)
 - Full-text checked: 61 / 62
 - Full-text pending: 1 (DISC-022)
 - Source caveats: 64 (62 prior + 2 new)
