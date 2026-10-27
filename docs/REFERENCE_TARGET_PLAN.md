@@ -8,7 +8,7 @@ A reference-count target is not permission to pad. If the evidence supports a sm
 
 ## Current status
 
-As of 2026-10-27, the canonical `data/corpus-screening-register.csv` contains **62 candidate rows**. The master evidence file has records for 59 distinct candidate IDs, but it mixes primary-study and review/background evidence and therefore is not a bibliography count. The latest checkpoint says 61/62 candidates completed full-text screening; `DISC-022` is deferred, not screened or excluded. Final retain/exclude decisions and journal-eligibility rules remain provisional. The `references/` folder currently contains export instructions, not a current `review-corpus.bib` file, and manuscript citation conversion is pending. Therefore, **the number of distinct works actually cited in the final bibliography has not yet been audited**; do not report either reference target as achieved from the candidate count alone.
+As of 2026-10-27, the canonical `data/corpus-screening-register.csv` contains **68 candidate rows**. The master evidence file has records for 59 distinct candidate IDs, but it mixes primary-study and review/background evidence and therefore is not a bibliography count. The previous screening checkpoint had 61/62 candidates full-text screened. After the first documented discovery pass, the register now has 68 rows: those 61 prior full-text screens remain, `DISC-022` remains deferred/not screened/not excluded, and six new candidates are at discovery stage awaiting full-text/source review. Final retain/exclude decisions and journal-eligibility rules remain provisional. The `references/` folder currently contains export instructions, not a current `review-corpus.bib` file, and manuscript citation conversion is pending. Therefore, **the number of distinct works actually cited in the final bibliography has not yet been audited**; do not report either reference target as achieved from the candidate count alone.
 
 ## Live reference-count dashboard — 2026-10-27
 
@@ -16,11 +16,11 @@ As of 2026-10-27, the canonical `data/corpus-screening-register.csv` contains **
 |---|---:|---|
 | Semester manuscript target | **~60 distinct cited works** | Target from the supervisor; not confirmed as met because the final in-text citation/bibliography count has not been generated. |
 | Publisher/journal-version target | **~150 distinct cited works** | Working target, subject to the eventual journal's article type and author instructions. |
-| Current screening inventory | **62 candidates** | Candidate rows are not the same as accepted papers or cited bibliography entries. |
+| Current screening inventory | **68 candidates** | Candidate rows are not the same as accepted papers or cited bibliography entries. |
 | Evidence register coverage | **59 distinct candidate IDs** | Includes primary studies and review/background evidence; not a unique accepted-paper count. |
 | Final bibliography count | **Not audited** | No current `review-corpus.bib` export is stored in `references/`, and in-text citation conversion is pending. |
 | Candidate-pool planning range for the ~150-reference version | **220–250 records** | Planning funnel to allow for duplicates, exclusions, inaccessible full texts, ranking rules and evidence quality. |
-| Additional candidates needed to reach that pool | **~158–188** | Approximation from 62 current candidate rows; re-count after each deduplication/search pass. |
+| Additional candidates needed to reach that pool | **~152–182** | Approximation from 68 current candidate rows; re-count after each deduplication/search pass. |
 
 The 60-reference checkpoint and the 150-reference journal target must be tracked as **distinct works actually cited**, not as PDFs uploaded, candidates screened, evidence rows, or papers mentioned only inside other reviews. A source may be discovered or extracted and still not belong in the final bibliography if it is irrelevant, duplicative or unsupported.
 
@@ -28,7 +28,7 @@ The 60-reference checkpoint and the 150-reference journal target must be tracked
 
 To end with ~150 defensible citations, build a pool of roughly **220–250 candidate references** through targeted searching and citation chasing, then screen it down. This range is a planning estimate, not a guarantee: actual acceptance may be lower or higher depending on relevance, access, evidence quality, Q1 eligibility, duplicates, and target-journal rules.
 
-From the current 62 candidate rows, this implies a working goal of finding roughly **158–188 additional candidate records** to reach the 220–250 pool before final screening, while removing duplicates and correcting metadata throughout. Do not collect papers indiscriminately; every search must answer a defined gap in the outline.
+From the current 68 candidate rows, this implies a working goal of finding roughly **152–182 additional candidate records** to reach the 220–250 pool before final screening, while removing duplicates and correcting metadata throughout. Do not collect papers indiscriminately; every search must answer a defined gap in the outline.
 
 ## Provisional makeup of a 150-reference bibliography
 
