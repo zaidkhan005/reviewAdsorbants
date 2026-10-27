@@ -9,11 +9,11 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
 - **305 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not 305 distinct papers.
 - **62 candidate/screening records** in `data/corpus-screening-register.csv`.
-- **60 of 62** records marked as full-text checked; **2 remain pending**: `CORP-025` (nano-clay/montmorillonite for tetracycline) and `DISC-022` (critical review on adsorptive antibiotic removal).
+- **61 of 62** records marked as full-text checked; **1 remains pending**: `DISC-022` (critical review on adsorptive antibiotic removal). `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
 - **62 source-caveat entries** in `data/source-caveats.csv`.
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
-- **Journal-quartile verification is not complete**: 61 candidates have Q1 status pending, and no relevant candidate has a recorded, verified Q1 entry containing provider, ranking year, subject category, quartile and verification URL.
+- **Journal-quartile verification has started**: first-pass entries are recorded for `CORP-025` (iScience; 2024 SJR Q1, Multidisciplinary; direct SCImago confirmation still pending) and `DISC-022` (Journal of Hazardous Materials; 2024 Scopus/SJR Q1 across relevant categories, source linked). Remaining candidates are still pending; this is not a full-corpus quartile audit.
 - **Final include/exclude decisions, integrated cross-paper tables and substantive manuscript section drafts remain incomplete.** The database and batch reports are evidence infrastructure, not a completed review manuscript.
 
 Current repository references:
@@ -57,8 +57,8 @@ Current repository references:
 
 Do not continue routine batch intake unless a specific evidence gap requires a targeted source. The next workstream is:
 
-1. **Close the two remaining full-text screens** (`CORP-025` and `DISC-022`), keeping their roles and source limits explicit.
-2. **Start journal-quartile verification** and record provider, ranking year, subject category, quartile and verification URL for each candidate. Keep the ranking system and year consistent; do not substitute impact factor or reputation for a quartile record.
+1. **Close the remaining full-text screen** (`DISC-022`). `CORP-025` has been screened from its open-access full text, with dose/capacity conflicts flagged rather than resolved.
+2. **Continue journal-quartile verification** for the remaining candidates, recording provider, ranking year, subject category, quartile and verification URL. Keep the ranking system and year consistent; do not substitute impact factor or reputation for a quartile record.
 3. **Make explicit retain / exclude / background-only decisions** after screening and quartile checks. A review may be useful for context and citation discovery without entering the primary experimental comparison.
 4. **Build the comparative evidence tables** from verified primary studies, separating observed uptake, fitted (q_{\max}), removal percentage, column capacity, desorption and degradation.
 5. **Draft manuscript sections from those tables**, then verify each important numerical/mechanistic claim against its primary source and Zotero reference.
