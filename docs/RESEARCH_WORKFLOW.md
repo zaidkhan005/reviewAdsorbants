@@ -2,7 +2,7 @@
 
 ## Current corpus state and restart rule (2026-10-27)
 
-The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 311 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 have completed full-text screening. `DISC-022` is deferred until the user supplies the full-text PDF; it is not screened or excluded and is temporarily outside the active queue. The first-pass journal-level quartile audit covers all 34 unique journal titles in `data/journal-quartile-audit.csv`; latest available 2025 SJR profiles were used where found, with historical/discontinued and category-level caveats explicitly recorded. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
+The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 68 candidate/screening rows, 311 source-linked evidence findings, and 64 source-caveat entries. Of the 68 candidate rows, 61 had completed full-text screening at the previous checkpoint; six new discovery leads are awaiting source review and `DISC-022` remains deferred. `DISC-022` is deferred until the user supplies the full-text PDF; it is not screened or excluded and is temporarily outside the active queue. The journal-level quartile audit has 38 rows after the latest pass; 34 existing journal titles were audited previously, and four newly encountered titles remain marked not yet audited in `data/journal-quartile-audit.csv`; latest available 2025 SJR profiles were used where found, with historical/discontinued and category-level caveats explicitly recorded. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
 
 - The original outline and processing-and-cost continuum remain the manuscript's structural guide.
 - The original seven papers remain part of the full corpus, not a separate privileged evidence set.
@@ -14,7 +14,7 @@ The unified-corpus restart and the intake of the supplied PDFs through Batch 20 
 
 The supervisor's planning targets are approximately **60 distinct relevant works actually cited** for the semester publication and approximately **150 distinct relevant works actually cited** for the publisher/journal version, subject to the eventual journal's current instructions. Track these separately from PDF batches, candidate rows, full-text screens and evidence records.
 
-As of 2026-10-27, the screening register contains 62 candidates, but the final number of accepted/cited works is **not audited**. The repository's `references/` directory contains export instructions but no current `review-corpus.bib` export. Do not claim the 60 target is met just because there are 62 candidates, and do not treat the 150 target as complete. See `docs/REFERENCE_TARGET_PLAN.md` and `docs/LITERATURE_DISCOVERY_PLAN.md`.
+As of 2026-10-27, the screening register contains 68 candidates, but the final number of accepted/cited works is **not audited**. The repository's `references/` directory contains export instructions but no current `review-corpus.bib` export. Do not claim the 60 target is met just because there are 62 candidates, and do not treat the 150 target as complete. See `docs/REFERENCE_TARGET_PLAN.md` and `docs/LITERATURE_DISCOVERY_PLAN.md`.
 
 Literature discovery continues after intake of the user's existing PDFs through Batch 20. Use targeted gap searches and citation chasing; request a user-supplied full text only when an important candidate cannot be accessed legitimately through available sources. Do not pad counts with duplicate versions, irrelevant studies, or unverified citations.
 
@@ -33,7 +33,7 @@ From the complete export:
 - flag records with incomplete or inconsistent metadata;
 - record what information is unavailable rather than guessing.
 
-Keep one canonical corpus screening register: `data/corpus-screening-register.csv`. The updated Better BibTeX export was reconciled on 2026-10-25; the 62-row register is now the working canonical register, not an interim record. Its rows are candidates, not automatic final inclusions.
+Keep one canonical corpus screening register: `data/corpus-screening-register.csv`. The updated Better BibTeX export was reconciled on 2026-10-25; the 68-row register is now the working canonical register, not an interim record. Its rows are candidates, not automatic final inclusions.
 
 ## 3. Screen without asking the user to classify papers
 
@@ -88,7 +88,7 @@ Draft only after evidence for the paragraph is extracted. Use Zotero for citatio
 ## 9. GitHub storage convention
 
 - Every session ends with a dated entry in `logs/`.
-- Reconcile the canonical screening register only when the Zotero corpus changes; the current 62-row register has already been reconciled against the updated export dated 2026-10-25.
+- Reconcile the canonical screening register only when the Zotero corpus changes; the current 68-row register has already been reconciled against the updated export dated 2026-10-25.
 - Update canonical evidence tables only after checking original papers.
 - Keep the old seven-paper table and caveats as a historical seed record until each paper has been re-verified.
 - Record major scope/taxonomy decisions in `docs/MATERIAL_TAXONOMY.md` and the dated log.
