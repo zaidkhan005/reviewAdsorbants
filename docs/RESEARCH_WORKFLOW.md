@@ -2,7 +2,7 @@
 
 ## Current corpus state and restart rule (2026-10-27)
 
-The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 310 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 have completed full-text screening. `DISC-022` is deferred until the user supplies the full-text PDF; it is not screened or excluded and is temporarily outside the active queue. Q1 verification has started but is not complete. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
+The unified-corpus restart and the intake of the supplied PDFs through Batch 20 are complete. The current canonical records are 62 candidate/screening rows, 310 source-linked evidence findings, and 64 source-caveat entries. Of the 62 candidates, 61 have completed full-text screening. `DISC-022` is deferred until the user supplies the full-text PDF; it is not screened or excluded and is temporarily outside the active queue. The first-pass journal-level quartile audit covers all 34 unique journal titles in `data/journal-quartile-audit.csv`; latest available 2025 SJR profiles were used where found, with historical/discontinued and category-level caveats explicitly recorded. The evidence table contains findings from primary studies and reviews, so it is not a paper count or accepted bibliography.
 
 - The original outline and processing-and-cost continuum remain the manuscript's structural guide.
 - The original seven papers remain part of the full corpus, not a separate privileged evidence set.
@@ -69,7 +69,9 @@ Use `Not reported`, `Not accessible`, or `Needs verification` where appropriate.
 
 ## 7. Verify Q1 independently
 
-A paper is not Q1-verified until the register records the ranking source (e.g. Clarivate JCR or SCImago/SJR), ranking year, subject category, quartile and verification URL. Do not mix ranking systems silently. Impact factor and journal reputation do not themselves establish Q1 status.
+A paper's journal ranking record must state the ranking system, ranking year, subject category, quartile and verification URL. SJR and Clarivate/JCR are distinct systems and can return different quartiles for the same journal. Use the latest available SJR year (2025 where located) for the current journal profile, but do not imply that this was the journal's quartile in the paper's publication year. Where only a secondary profile was accessible, label the result provisional until checked against the ranking source required by the institution. Impact factor and journal reputation do not themselves establish Q1 status.
+
+Current audit details are in `data/journal-quartile-audit.csv` and `logs/2026-10-27-q1-audit-batch-01.md`. Two journals in the corpus have a current-source-list discontinuation flag (Arabian Journal of Chemistry and Iraqi Journal of Agricultural Sciences); the latter is not assigned a current quartile. Category-level confirmation remains pending for Environmental Research, Journal of Engineering and Carbon Research.
 
 ## 8. Draft and cite
 
