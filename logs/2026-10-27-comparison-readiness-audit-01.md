@@ -6,8 +6,8 @@ This audit checks whether the source-linked evidence can be turned into defensib
 
 ## Structural cross-check
 
-- `data/corpus-evidence.csv`: **310 unique evidence IDs**.
-- `data/primary-study-comparison-matrix.csv`: **208 rows** containing **248 unique evidence IDs**; there are no duplicate or orphan evidence IDs in the matrix crosswalk.
+- `data/corpus-evidence.csv`: **311 unique evidence IDs**.
+- `data/primary-study-comparison-matrix.csv`: **208 rows** containing **249 unique evidence IDs**; there are no duplicate or orphan evidence IDs in the matrix crosswalk.
 - The **62 evidence IDs outside the primary-study matrix** map to review/background evidence (61 entries) and one adjacent technology record. They are not missing primary-study rows; they are intentionally outside the core adsorption-capacity matrix.
 - The matrix represents 43 candidate IDs. Its columns are a working comparison surface, while the evidence register remains the fuller source-linked record; metric interpretation and caveats should be checked against the evidence row and source location before a manuscript table is assembled.
 
@@ -25,7 +25,7 @@ These can support careful, condition-matched statements because the material var
 | **DISC-008 — single-solute vs binary CIP/Cu²⁺ tests** (`EV-B01-002`, `EV-B01-004`) | Within-study evidence for the effect of a metal co-contaminant on CIP equilibrium fitting. | Single-solute and binary-system values must remain separate; same nominal dose (0.2 g/L) and pH (6.0 ± 0.2), but a binary mixture changes the adsorption system. This is a competition result, not an across-paper capacity ranking. |
 | **CORP-027 — low-concentration adsorption in chlorinated hospital wastewater** (`EV-B08-008`, `EV-B08-009`) | Compare single vs mixed-feed linear partition coefficients and competition in the *same* real-wastewater background. | Values are (K_p) (L/g) at μg/L levels, not (q_{max}) in mg/g. Keep the real matrix, dose and mixture with each value; do not place these in the same capacity ranking as high-mg/L batch studies. |
 | **DISC-025 — multi-antibiotic fixed-bed tests** (`EV-B07-014`–`EV-B07-016`) | Compare breakthrough, flow-rate and matrix effects within this one column study. | Keep the Thomas/other model-derived dynamic values, observed saturation (q_s), breakthrough times and treated volumes distinct. The buffer vs filtered/autoclaved wastewater comparison is meaningful within-study; do not rank its μmol/g dynamic parameters against batch mg/g (q_{max}). |
-| **CORP-023 — separate chitosan vs alginate beads for amoxicillin** (`EV-B20-005`, `EV-B20-007`) | Potential within-study comparison of observed capacities and fitted isotherms for separate bead types. | The uploaded full text was a preprint version; confirm against the published version before final citation. Preserve pH 4, 300 mg/L context and the finding that alginate beads reportedly dissolved above pH 6. The Langmuir values are fitted, even though the authors say Freundlich generally fit better. |
+| **CORP-023 — separate chitosan vs alginate beads for amoxicillin** (`EV-B20-005`, `EV-B20-007`) | Potential within-study comparison of observed capacities and fitted isotherms for separate bead types. | The published abstract now confirms the headline pH-4 capacities (80.4±0.2 mg/g chitosan; 74.2±0.3 mg/g alginate). The uploaded full text is still the preprint; detailed Langmuir values, kinetic diffusion asymptotes, methods and thermodynamic tables need checking against the published full text/supplement. Preserve the 300 mg/L context and the finding that alginate beads reportedly dissolved above pH 6. The Langmuir values are fitted, even though the authors say Freundlich generally fit better. |
 
 ### Tier B — cross-study cohorts exist, but no pooled ranking is justified
 
