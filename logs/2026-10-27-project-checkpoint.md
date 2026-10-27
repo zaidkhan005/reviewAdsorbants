@@ -10,7 +10,7 @@
 - **64 source-caveat entries** are recorded.
 - The evidence file contains findings for distinct candidate IDs; it includes primary-study records and secondary review-derived evidence, so the record count is not a paper count or final bibliography count.
 - **First-pass journal-level quartile audit completed for all 34 unique journal titles.** `data/journal-quartile-audit.csv` is the dedicated one-row-per-journal record, and the current results are populated in `data/corpus-screening-register.csv`. Latest available 2025 SJR profile data were used where found; Arabian Journal of Chemistry uses historical 2024 SJR Q1 data with a Scopus-discontinuation caveat. Iraqi Journal of Agricultural Sciences is flagged as discontinued and has no current quartile assigned. Category-level verification remains provisional for Environmental Research, Journal of Engineering and Carbon Research. Most records rely on secondary profiles displaying SJR data, so institutional Q1-only decisions should be checked against the institution's required ranking source.
-- The manuscript outline exists. A provisional candidate-role audit and a source-linked primary-study comparison matrix v1 now exist, but final include/exclude decisions, normalized same-target comparisons and substantive section drafts remain incomplete.
+- The manuscript outline exists. A provisional candidate-role audit, source-linked primary-study comparison matrix v1, and working continuum synthesis draft v1 now exist. Final include/exclude decisions, normalized same-target comparisons and substantive material-class section drafts remain incomplete.
 
 ## Consolidation work completed
 
@@ -24,6 +24,7 @@
 8. Created `data/candidate-decision-audit.csv`, assigning a provisional working role and quantitative-use guardrail to each of 62 candidates (not final inclusion/exclusion decisions).
 9. Created `data/primary-study-comparison-matrix.csv`, with 208 target/material/stage groupings from source-linked evidence for 43 primary-study candidates. The matrix separates observed outcomes, model-derived capacities, kinetics, matrices, regeneration, continuous-flow, cost/LCA and mechanisms while retaining evidence IDs and source locations.
 10. Validated CSV structure and counts: 62 candidate rows with consistent fields, 34 journal audit entries, 310 evidence records with no duplicate evidence IDs, and 64 source caveats. DISC-022 remains deferred and un-screened.
+11. Drafted `manuscript/CONTINUUM_SYNTHESIS_V1.md` across the eight working material classes, with source-linked examples, quality caveats and a minimum normalization schema. Checked all 29 internal candidate DOI links against the screening register; no mismatches remain.
 
 ## Current work sequence
 
@@ -42,6 +43,8 @@
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Primary-study comparison matrix](../data/primary-study-comparison-matrix.csv)
+- [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
 - [Quartile audit batch log](2026-10-27-q1-audit-batch-01.md)
+- [Continuum synthesis log](2026-10-27-continuum-synthesis-batch-01.md)
 - [Screening and synthesis setup log](2026-10-27-screening-synthesis-batch-01.md)
 - [Screening and Q1 checkpoint](2026-10-27-screening-q1-start.md)
