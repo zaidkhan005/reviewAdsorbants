@@ -59,3 +59,11 @@ The supplied outline is preserved separately so the original framework is not ov
 **Discover → screen → verify journal and source → retrieve full text → extract evidence → reconcile units/conditions → draft → cite through Zotero → audit claims.**
 
 Every work session should end with a visible GitHub change or a clearly recorded blocker. The automation plan is $0-first: no n8n, paid automation service, or paid API is a prerequisite.
+
+
+## Download-ready literature pool (2026-10-27)
+
+- **[Download the 250-record planned literature pool (CSV)](data/planned-download-pool.csv)** — current register inventory plus 183 new DOI-linked discovery leads. The file separates already represented items from new downloads, includes DOI/PMC/PubMed links, and marks screening/quartile status.
+- **[How to use the pool](docs/PLANNED_DOWNLOAD_POOL_GUIDE.md)** — batches, access notes, and how the pool relates to the final 60/150 cited-work targets.
+
+The pool is not a final bibliography. New leads require full-text screening; Q1 status must be audited separately. DISC-022 remains deferred until the user supplies the PDF.
