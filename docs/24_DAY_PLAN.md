@@ -14,7 +14,7 @@ The intake stage has advanced substantially beyond the earlier 2026-10-24 checkp
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
 - **Journal-quartile audit now covers all 34 unique journals** in `data/journal-quartile-audit.csv`, with results copied to the 62-row screening register. Latest available 2025 SCImago/SJR profiles were used where found; Arabian Journal of Chemistry has a historical 2024 Q1 entry but Scopus coverage was discontinued, and Iraqi Journal of Agricultural Sciences is flagged as discontinued with no current quartile assigned. Category-level confirmation remains limited for Environmental Research, Journal of Engineering and Carbon Research. Secondary profile displays were used rather than direct canonical SCImago verification for every title.
-- A **provisional candidate-role audit** now covers all 62 rows in `data/candidate-decision-audit.csv`; it separates primary-study candidates, background-only reviews, adjacent technology, deferred and out-of-scope records. **Final retain/exclude decisions, normalized cross-paper comparisons and substantive manuscript section drafts remain incomplete.** The new comparison matrix is a structured extraction workspace, not a completed review manuscript.
+- A **provisional candidate-role audit** covers all 62 rows in `data/candidate-decision-audit.csv`; the primary-study comparison matrix has 208 target/material/stage rows, and working drafts now exist for the continuum and Section 2.1 raw biomass. Final retain/exclude decisions, normalized same-target comparisons and Zotero-formatted manuscript sections remain incomplete.
 
 Current repository references:
 - [Working manuscript outline](../manuscript/REVIEW_OUTLINE.md)
@@ -24,6 +24,8 @@ Current repository references:
 - [Candidate decision audit](../data/candidate-decision-audit.csv)
 - [Primary-study comparison matrix (v1)](../data/primary-study-comparison-matrix.csv)
 - [Journal-quartile audit](../data/journal-quartile-audit.csv)
+- [Continuum synthesis draft v1](../manuscript/CONTINUUM_SYNTHESIS_V1.md)
+- [Section 2.1 raw biomass draft v1](../manuscript/SECTION_2_1_RAW_BIOMASS_V1.md)
 - [Research workflow](RESEARCH_WORKFLOW.md)
 - [Current project checkpoint log](../logs/2026-10-27-project-checkpoint.md)
 
@@ -32,8 +34,8 @@ Current repository references:
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
 | 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 310 evidence records. `DISC-022` remains deferred until the user supplies its PDF; journal quartiles have been first-pass audited for all 34 unique journal titles, with exceptions logged. |
-| 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | Not complete; no verified finished section draft recorded. |
-| 3 | Finish Section 2.1 | Complete rough draft of 2.1 | Not complete/verified. |
+| 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | **Working draft v1 created** at `manuscript/SECTION_2_1_RAW_BIOMASS_V1.md` with seven source-linked candidates, metric separation and explicit data-quality caveats. Final citation formatting and editorial revision remain. |
+| 3 | Finish Section 2.1 | Complete rough draft of 2.1 | **In progress:** source-grounded rough draft exists; normalize selected comparisons and convert candidate-ID links to Zotero citations before marking complete. |
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
 | 5 | Finish/complete Section 2.2 biopolymer evidence | Complete rough draft of 2.2 | Not complete/verified. |
 | 6 | Biochar and modified biochar | Evidence set and rough draft of 2.3 | Evidence set is growing; Q1 screen and draft remain. |
