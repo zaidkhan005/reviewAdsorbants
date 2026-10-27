@@ -10,6 +10,14 @@ The unified-corpus restart and the intake of the supplied PDFs through Batch 20 
 - Do not assume additional user-held PDFs remain to be uploaded. Further literature discovery should be targeted to gaps revealed by screening and synthesis.
 - See `docs/CORPUS_RESET_AND_RESTART.md` for the historical restart protocol.
 
+## Bibliography targets — mandatory project constraint
+
+The supervisor's planning targets are approximately **60 distinct relevant works actually cited** for the semester publication and approximately **150 distinct relevant works actually cited** for the publisher/journal version, subject to the eventual journal's current instructions. Track these separately from PDF batches, candidate rows, full-text screens and evidence records.
+
+As of 2026-10-27, the screening register contains 62 candidates, but the final number of accepted/cited works is **not audited**. The repository's `references/` directory contains export instructions but no current `review-corpus.bib` export. Do not claim the 60 target is met just because there are 62 candidates, and do not treat the 150 target as complete. See `docs/REFERENCE_TARGET_PLAN.md` and `docs/LITERATURE_DISCOVERY_PLAN.md`.
+
+Literature discovery continues after intake of the user's existing PDFs through Batch 20. Use targeted gap searches and citation chasing; request a user-supplied full text only when an important candidate cannot be accessed legitimately through available sources. Do not pad counts with duplicate versions, irrelevant studies, or unverified citations.
+
 ## 1. Ingest the whole corpus
 
 Use one Zotero collection: **Antibiotic Adsorption Review — Full Corpus**. Add the original seven papers plus all other relevant papers already downloaded. Do not manually classify or retag them at intake.
