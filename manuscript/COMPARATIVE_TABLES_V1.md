@@ -68,10 +68,21 @@ Source: Sousa et al. (2026), *Fixed-bed adsorption of antibiotics using a brewer
 
 The reported apparatus was a 13 cm column with 1.0 cm internal diameter, 4.4 cm bed depth and approximately 2 g biosorbent, operated at 25 °C and pH 8 with 20 μmol/L feed. The paper separately reports buffered-water versus filtered/autoclaved wastewater comparisons and several other fitted/experimental dynamic measures. Those must remain separate fields: (q_{TH}), model-derived (q_Y), experimental (q_s), breakthrough time and treated volume are not interchangeable. Supplementary LCA details were not in the supplied main-text PDF; process-impact claims need the full inventory/model boundaries.
 
+## Table 6. Separate unmodified biopolymer beads for amoxicillin — published-abstract values only
+
+Source: Pinheiro et al. (2024), *Adsorption of amoxicillin by chitosan and alginate biopolymers composite beads*, Environmental Science and Pollution Research 31(54), 62930–62949, DOI [10.1007/s11356-024-35293-4](https://doi.org/10.1007/s11356-024-35293-4). Published abstract: [PubMed](https://pubmed.ncbi.nlm.nih.gov/39466532/). Evidence: `EV-AUD-006` (headline-only published-version cross-check; detailed full-text extraction in `EV-B20-005`–`EV-B20-007` came from the uploaded preprint).
+
+| Adsorbent form | Reported headline capacity (mg/g) | Optimum pH | Published abstract notes |
+|---|---:|---:|---|
+| Chitosan beads | 80.4 ± 0.2 | 4 | Authors say internal diffusion governs uptake. |
+| Alginate beads | 74.2 ± 0.3 | 4 | Authors say external diffusion governs uptake. |
+
+The published abstract states that 1 g of adsorbent was used for the headline capacities. These are **abstract-level reported capacities**, not a full re-extraction of the published tables. The uploaded preprint's more detailed method describes 300 mg/L amoxicillin for pH optimization; treat that specific method condition as preprint-derived until it is confirmed in the published methods. The materials are two separately prepared bead types, not a mixed chitosan–alginate composite. The preprint's kinetic value for alginate (71.3 mg/g) and fitted Weber–Morris asymptote (136.75 ± 8.2 mg/g) remain discrepant and are not included in this table. Journal quartile eligibility remains a separate question: the repository records a 2025 SJR Q1 signal in Pollution, but the publication-year/provider rule has not been finalized.
+
 ## Items intentionally not promoted into these core tables yet
 
 - **CORP-019 (levofloxacin; Journal of Engineering):** the within-study removal values for activated carbon and barley husks (74% and 71% at equal 5 g/L dose) could serve as a low-processing comparison, but the journal is currently Q2 in the accessed 2025 SJR categories, and the fitted (q_m)/kinetic entries have mass-balance problems. Do not treat it as a current-Q1 core item or rank its suspect capacities.
-- **CORP-023 (amoxicillin, chitosan vs alginate beads):** the published journal abstract now confirms the headline pH-4 capacities (alginate 74.2 ± 0.3 mg/g; chitosan 80.4 ± 0.2 mg/g, using 1 g adsorbent). The uploaded full text is still the preprint; fitted Langmuir values, kinetic diffusion asymptotes, methods and thermodynamic tables need checking against the published full text/supplement. The reported kinetic alginate uptake (71.3 mg/g) versus fitted Weber–Morris q∞ (136.75 ± 8.2 mg/g) remains unresolved.
+- **CORP-023 (amoxicillin, chitosan vs alginate beads):** headline capacities now appear in Table 6 based on the published abstract. The uploaded full text is still the preprint; fitted Langmuir values, kinetic diffusion asymptotes, methods and thermodynamic tables need checking against the published full text/supplement. The reported kinetic alginate uptake (71.3 mg/g) versus fitted Weber–Morris q∞ (136.75 ± 8.2 mg/g) remains unresolved.
 - **CORP-025, DISC-018, CORP-031, DISC-028, DISC-026, CORP-017, DISC-004, DISC-007, DISC-014 and DISC-027:** retain their independently useful qualitative/condition findings but hold the specific values listed in the [comparison-readiness audit](../logs/2026-10-27-comparison-readiness-audit-01.md) from cross-paper ranking until the source/mass-balance/endpoint issues are reconciled.
 - **DISC-022:** deferred by the user until they provide the full text; not screened or excluded.
 
