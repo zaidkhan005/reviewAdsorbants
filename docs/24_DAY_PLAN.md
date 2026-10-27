@@ -7,10 +7,10 @@ The original sprint rule remains: every workday ends with a visible deliverable;
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
 
 - **20 documented PDF-processing batches**, with detailed extraction notes through Batch 20.
-- **305 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not 305 distinct papers.
+- **310 source-linked evidence records** in `data/corpus-evidence.csv`. These are findings, not 305 distinct papers.
 - **62 candidate/screening records** in `data/corpus-screening-register.csv`.
-- **61 of 62** records marked as full-text checked; **1 remains pending**: `DISC-022` (critical review on adsorptive antibiotic removal). `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
-- **62 source-caveat entries** in `data/source-caveats.csv`.
+- **61 of 62** candidates have completed full-text screening; `DISC-022` is **deferred** until the user supplies its full-text PDF. It is not screened or excluded and is temporarily outside the active queue. `CORP-025` was screened using its open-access PubMed Central full text; a dose/capacity inconsistency is recorded.
+- **64 source-caveat entries** in `data/source-caveats.csv`.
 - The evidence CSV contains records for **59 distinct candidate IDs**; evidence records include primary studies and reviews, so this does not equal the final bibliography.
 - The downloaded-PDF intake is complete for the files supplied through Batch 20. Do not assume additional user-held PDFs remain to be uploaded.
 - **Journal-quartile verification has started**: first-pass entries are recorded for `CORP-025` (iScience; 2024 SJR Q1, Multidisciplinary; direct SCImago confirmation still pending) and `DISC-022` (Journal of Hazardous Materials; 2024 Scopus/SJR Q1 across relevant categories, source linked). Remaining candidates are still pending; this is not a full-corpus quartile audit.
@@ -28,7 +28,7 @@ Current repository references:
 
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
-| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 305 evidence records. Two full-text screens and bibliographic/Q1 checks remain. |
+| 1 | Full-corpus intake, reference deduplication, and evidence system | Unified screening register plus a source-linked evidence record | **Substantially complete for supplied corpus:** 62 candidates, 20 batch reports, 310 evidence records. The only unresolved full-text screen is `DISC-022`, deferred until the user supplies the PDF; quartile checks for the other candidate journals continue separately. |
 | 2 | Section 2.1 raw biomass literature | Evidence-screened subsection draft | Not complete; no verified finished section draft recorded. |
 | 3 | Finish Section 2.1 | Complete rough draft of 2.1 | Not complete/verified. |
 | 4 | Section 2.2: natural clays & biopolymers | 8–15 screened papers, evidence notes and rough draft | Taxonomy and evidence exist; final screening/Q1 check and full draft remain. |
