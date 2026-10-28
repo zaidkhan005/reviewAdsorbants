@@ -8,23 +8,26 @@
 
 The user plans to split newly downloaded papers across several branched chats, usually three PDFs per chat. A branch does not automatically receive the later conversation, uploaded PDFs, or uncommitted work from sibling branches. Each chat must therefore use a unique batch ID and write additive, batch-specific outputs. The master evidence/screening CSVs are merged centrally after the individual batches are completed so parallel branches cannot silently overwrite each other's changes.
 
-## Batch IDs and expected files
+## Batch IDs, unique namespaces, and expected files
 
-Use `BATCH-01` through `BATCH-10` for the first wave of ten concurrent chats. Each branch should be titled “PDF Upload 01”, “PDF Upload 02”, etc. Three PDFs per branch is the working default. When the first wave is consolidated, start the next wave with `BATCH-11` through `BATCH-20`, then continue sequentially. Do not assume 30 papers is the total. The tracker currently reserves 100 batches (300 paper slots); append more rows as needed after BATCH-100.
+The tracker is `data/new-paper-upload-batch-tracker.csv`. **Do not edit that shared tracker from each branched chat.** The central/master chat updates it during consolidation and assigns the numeric tracking slot after the branch outputs have been collected.
 
-The tracker is `data/new-paper-upload-batch-tracker.csv`. **Do not edit that shared tracker from each branched chat.** The central/master chat updates it during consolidation.
+**Critical concurrency rule:** numeric slots such as `BATCH-01` through `BATCH-100` are central tracking labels; they are not a safe shared filename namespace while multiple chats are active. The generic paths `data/batch-extractions/batch-01-evidence.csv` and `...-screening.csv` are already occupied by a separate upload set, as are multiple following numeric batch paths. Never overwrite an existing path just because another branch used the same number.
 
-Each branch should create its own unique outputs after the PDFs are uploaded:
+Before creating outputs, inspect the current repository tree and look for the DOI/title in the master register, all existing staging CSVs, and batch notes. Create a **source-specific unique upload-set ID** for this branch. Prefer a deterministic code from the papers' DOI suffixes, for example `cs-200608028-2022134426-2025144252`, or another unique date-scoped identifier that includes distinct paper identifiers. Use the same unique code in every file path. If the path already exists or contains different papers, do not update or reuse it; choose another unique source-specific code.
 
-- Batch note: `logs/2026-10-28-batch-01-upload.md` (change the batch number for each branch).
-- Evidence staging CSV: `data/batch-extractions/batch-01-evidence.csv`.
-- Screening staging CSV: `data/batch-extractions/batch-01-screening.csv`.
+Use these staging paths, replacing `<unique-set-id>` with the branch's confirmed unique code:
+- Evidence: `data/batch-extractions/<unique-set-id>-evidence.csv`
+- Screening: `data/batch-extractions/<unique-set-id>-screening.csv`
+- Batch note: `logs/2026-10-28-<unique-set-id>-intake.md` (use the actual current date in the filename).
 
-Keep the staging CSV column headers identical to the master tables:
+The tracker currently reserves 100 numeric batches (300 paper slots), but the candidate pool can grow beyond 300. If needed, add more numeric tracker slots **during central consolidation**; do not recycle a set ID or a batch-note path. Ten chats can be active in each wave; once consolidated, free the slots and continue with as many later waves as required.
+
+Keep staging CSV column headers identical to the current master tables:
 - Evidence: `data/corpus-evidence.csv` header.
 - Screening: `data/corpus-screening-register.csv` header.
 
-The branch must fetch the current header before creating each staging file. Do not write to `data/corpus-evidence.csv`, `data/corpus-screening-register.csv`, `data/candidate-decision-audit.csv`, `data/screening-decision-adjudication-v1.csv`, or `data/journal-quartile-audit.csv` from a batch branch. Those shared files are updated by the central chat during consolidation.
+The branch must fetch the current headers before creating each staging file. Do not write to `data/corpus-evidence.csv`, `data/corpus-screening-register.csv`, `data/candidate-decision-audit.csv`, `data/screening-decision-adjudication-v1.csv`, `data/journal-quartile-audit.csv`, or the shared tracker from a batch branch. These are updated by the central chat during consolidation.
 
 ## Required processing for each uploaded PDF
 
@@ -40,9 +43,9 @@ The branch must fetch the current header before creating each staging file. Do n
 
 ## Batch-specific starter message
 
-Copy this into each new branch after assigning the right batch number:
+Copy this into each new branch after identifying a **unique source-specific upload-set ID**. Do not reuse `BATCH-01` or a generic path if that path exists elsewhere in GitHub.
 
-> This is **BATCH-XX** for the ongoing Antibiotic Adsorption Review project. I am uploading up to three newly downloaded papers. First read `docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md`, `data/new-paper-upload-batch-tracker.csv`, `data/planned-download-pool.csv`, and the current GitHub screening/evidence register headers. GitHub is the source of truth; do not restart completed work. Identify each uploaded PDF by filename, title, DOI and existing pool/candidate ID; deduplicate against the latest repository and other logged batches. Fully inspect the PDFs, make provisional scope decisions, and create source-pinned evidence rows with original page/table/figure/equation locations and caveats. Create only the unique batch note and staging CSVs assigned to BATCH-XX. Do not edit the shared master evidence, screening, adjudication, quartile or tracker files from this branch; these will be merged centrally. Do not invent data or Zotero citation keys, do not mark new papers Q1 without a separate audit, and preserve DISC-022 as deferred until I provide its full text. End with an exact receipt and unresolved-items list.
+> This branch's unique upload-set ID is **<unique-set-id>**. I am uploading up to three newly downloaded papers. First read `docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md`, `data/new-paper-upload-batch-tracker.csv`, `data/planned-download-pool.csv`, and the current GitHub screening/evidence register headers. GitHub is the source of truth; do not restart completed work. Identify each PDF by filename, title, DOI, and pool/candidate ID; deduplicate against the latest master tables and every existing staging file/log. Fully inspect the PDFs, make provisional scope decisions, and create source-pinned evidence rows with original page/table/figure/equation locations and caveats. Write only to these unique paths: `data/batch-extractions/<unique-set-id>-evidence.csv`, `data/batch-extractions/<unique-set-id>-screening.csv`, and `logs/YYYY-MM-DD-<unique-set-id>-intake.md`. If any path already exists or contains different papers, do not overwrite it; choose another source-specific ID. Do not edit the shared master evidence, screening, adjudication, quartile or tracker files from this branch; these will be merged centrally. Do not invent data or Zotero citation keys, do not mark new papers Q1 without a separate audit, and preserve DISC-022 as deferred until its full text is supplied. End with an exact receipt and unresolved-items list.
 
 ## Central consolidation
 
