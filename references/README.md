@@ -45,6 +45,7 @@ No automatic Zotero-to-GitHub synchronisation is configured or required. Manual 
 
 ## Latest Better BibTeX export audit
 
-- [2026-10-29 export audit](BBT_EXPORT_AUDIT_2026-10-29.md) — the uploaded `full ++.bib` was audited: 164 entries, 159 unique DOI values, two duplicate DOI/title groups, and four records/version issues requiring Zotero cleanup. The claim ledger has been populated with the three verified DOI-to-key mappings used by its nine seed claims.
+- [2026-10-29 export audit](BBT_EXPORT_AUDIT_2026-10-29.md)
+- [100-candidate DOI-to-key crosswalk](bibtex_candidate_key_crosswalk_2026-10-29.csv) — exact DOI matches, duplicate-key ambiguities, title-only matches and candidates not represented in this export. — the uploaded `full ++.bib` was audited: 164 entries, 159 unique DOI values, two duplicate DOI/title groups, and four records/version issues requiring Zotero cleanup. The claim ledger has been populated with the three verified DOI-to-key mappings used by its nine seed claims.
 - Downloadable parsed reference inventory audit: keep the local file `bibtex_reference_inventory_audit.csv` as a working QA artifact; it is not a substitute for the Better BibTeX export.
 - After resolving duplicate Zotero items and metadata gaps, re-export the collection and refresh claim-to-key mappings. The target journal citation style remains to be chosen; final in-text citations and bibliography must be rendered through Zotero or the selected citation processor rather than typed by hand.
