@@ -36,7 +36,7 @@ I also compared the 100 candidate rows in `data/corpus-screening-register.csv` w
 - **4** candidates have a title-level match but not a valid one-to-one DOI match: one is represented only by a preprint, and three records lack required DOI/year/journal/author metadata.
 - **7** candidates are not represented by DOI or exact-title match in this export: **DISC-022 and DISC-031–DISC-036**. This is a bibliography-inventory result only; it does not alter the screening status. In particular, DISC-022 remains deferred, not screened or excluded.
 
-A machine-readable 100-row crosswalk was generated as a working audit artifact: [`bibtex_candidate_key_crosswalk_2026-10-29.csv`](../data/batch-extractions/bibtex_candidate_key_crosswalk_2026-10-29.csv) if committed to the repository; until then, use the downloadable audit CSV generated with this review. The crosswalk status records the DOI/key linkage, not whether a paper qualifies for inclusion or the Q1 rule.
+The full 100-row machine-readable crosswalk is committed at [`references/bibtex_candidate_key_crosswalk_2026-10-29.csv`](bibtex_candidate_key_crosswalk_2026-10-29.csv). The crosswalk status records DOI/key linkage only; it does not determine scientific inclusion or Q1 eligibility.
 
 ## Duplicate records requiring Zotero cleanup
 
