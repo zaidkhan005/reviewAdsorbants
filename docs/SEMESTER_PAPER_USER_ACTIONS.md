@@ -1,53 +1,31 @@
-# Exact user actions needed — semester paper
+# User action tracker — semester paper
 
-**Current state:** Scope remains approved: selected graphene-based adsorbents and selected graphene-bearing composites for ciprofloxacin (CIP) and tetracycline (TC). Target bibliography is approximately 50 distinct works, subject to evidence quality. This is a short list of missing primary-source files, not a request to restart downloading the whole corpus.
+**Status as of 29 October 2026: NO ACTION REQUIRED FROM THE USER RIGHT NOW.**
 
-## Action 1 — Download the DDMGO dual-antibiotic paper
+The user has stated that they are not downloading any more papers for the time being. The research workflow must continue using existing Library PDFs, existing repository records and accessible indexed primary-source text. Do not ask for more PDF uploads or downloads unless the user later explicitly reopens that option.
 
-**Paper:** Li et al. (2018), “Performance of magnetic graphene oxide/diethylenetriaminepentaacetic acid nanocomposite for the tetracycline and ciprofloxacin adsorption in single and binary systems.”
+## Current project state
 
-- DOI: https://doi.org/10.1016/j.jcis.2018.03.003
-- Publisher: Journal of Colloid and Interface Science, volume 521, pages 150–159.
-- Suggested filename: `SEM-006_Li2018_DDMGO_CIP_TC.pdf`
-- Why this exact paper is needed: it directly studies both target antibiotics on the same selected magnetic graphene composite, in single-antibiotic and mixed-antibiotic systems. The institution-hosted copy is text-indexed, but direct PDF retrieval timed out and the browser could not render its page images. Its numeric result tables and figures therefore remain incompletely verified.
+- Approved material scope: graphene-based adsorbents (GO/rGO and selected functionalized derivatives) plus selected graphene-bearing composites.
+- Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC).
+- Current candidate register: 37 records.
+- Current evidence extraction: 13 study records after extracting two additional full-text articles already present in the Library.
+- Candidate register, evidence CSV, evidence notes and search log are the source of truth for this semester-paper thread.
+- The broader antibiotic adsorption review remains separate and must not be overwritten.
 
-## Action 2 — Download the groundwater PRB paper
+## What the assistant will do without more uploads
 
-**Paper:** Zhao et al. (2018), “Sodium alginate/graphene oxide hydrogel beads as permeable reactive barrier material for the remediation of ciprofloxacin-contaminated groundwater.”
+1. Continue extracting studies from PDFs already in the user's Library and already supplied to the broader project.
+2. Use source-indexed text/abstracts only where full text is not directly accessible, and label them clearly as incomplete.
+3. Preserve metric distinctions (fitted qmax, measured qe, removal percentage, model-predicted qe, column capacity) and record source page/table/figure when possible.
+4. Continue candidate deduplication and eligibility screening, excluding off-scope material families and off-target antibiotics from core performance comparisons.
+5. Develop source-backed comparison tables and the manuscript's synthesis/figure plan, while explicitly flagging claims that cannot be supported by the available sources.
+6. Avoid stating that the approximately 50-reference target is satisfied until distinct eligible citations have been checked.
 
-- DOI: https://doi.org/10.1016/j.chemosphere.2018.02.157
-- Publisher: Chemosphere, volume 200, pages 612–620.
-- Suggested filename: `SEM-037_Zhao2018_GSA_PRB_CIP.pdf`
-- Why this exact paper is needed: its abstract reports flow-through column/permeable-reactive-barrier tests and says barrier lifetime and cost were calculated. We need the original column and economic sections, including the actual cost/lifetime values and assumptions.
+## Only if the user later volunteers more files
 
-## How to download both papers
+The two previously identified gaps remain:
+- SEM-006: Li et al. (2018), DTPA-functionalized magnetic GO for CIP and TC, DOI 10.1016/j.jcis.2018.03.003.
+- SEM-037: Zhao et al. (2018), GO–alginate hydrogel beads for CIP-contaminated groundwater, DOI 10.1016/j.chemosphere.2018.02.157.
 
-1. Open the AMU Library/e-resources portal and sign in with the university access method available to you.
-2. Open each DOI link above. If direct publisher access is blocked, navigate to the publisher from the university library search page or search the exact paper title while logged in.
-3. Download the publisher's full article PDF—not just the abstract, citation export, or first page. Check that the first page has the matching title and author list and that the file opens.
-4. Download any article-specific supplementary information only if the publisher lists it alongside the article. Keep the supplementary file separate from the main PDF.
-5. Save the files using the exact suggested names above (or leave a clear title if your device makes renaming awkward).
-6. Upload both PDFs to this conversation in one message. You do not need to extract values, annotate, rename tables, or write a summary; that analysis is my task.
-
-## If an access problem occurs
-
-If you try a DOI and cannot obtain the full text, reply with just:
-- `ACCESS BLOCKED — SEM-006`, or
-- `ACCESS BLOCKED — SEM-037`
-
-Tell me whether the publisher page opened but the PDF was paywalled, or the DOI/page itself did not work. Do not spend time chasing unofficial download sites or buying either paper.
-
-## What is not needed from you right now
-
-- Do not upload another bulk batch of all 37 candidates.
-- Do not manually build or edit the evidence table.
-- Do not provide journal quartiles or cost estimates.
-- Do not change the scope, select a different antibiotic, or start drafting from unverified capacities.
-
-## What I will do after these files arrive
-
-1. Inspect the whole paper and the relevant tables/figures.
-2. Extract measured uptake, fitted isotherm and kinetic parameters, exact conditions, single/binary competition, regeneration-cycle retention, and source page/table/figure for each number.
-3. For the PRB paper, extract column geometry, flow/influent conditions, lifetime assumptions, actual reported cost and its system boundary.
-4. Correct the CSV/evidence notes only where the primary sources support it; keep unresolved contradictions explicitly flagged.
-5. Tell you the next exact user action, or say clearly that nothing else is needed from you at that stage.
+These are not current requests. The workflow is proceeding without them, and no action is needed from the user now.
