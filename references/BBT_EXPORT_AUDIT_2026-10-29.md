@@ -45,6 +45,10 @@ The full 100-row machine-readable crosswalk is committed at [`references/bibtex_
 
 **Action:** merge duplicate Zotero items after checking that attachments, notes and annotations are preserved. Then re-export Better BibTeX and refresh any ledger keys that change. Do not manually strip the `a/b` suffixes.
 
+## Additional DOI-matched year conflict
+
+- **CORP-019 — levofloxacin on barley husks and eggshells:** the DOI matches, but the export key `mohammed-ridhaAdsorptionLevofloxacineAntibacterial2023` and exported year say 2023. The journal's own record states the article was published on 1 December 2014 in *Journal of Engineering*, volume 20, issue 12, pages 88–104. Correct the year in Zotero, then re-export Better BibTeX; the generated key may change. [Journal record](https://joe.uobaghdad.edu.iq/index.php/main/article/view/2591/version/2126).
+
 ## Incomplete or inconsistent records
 
 ### 1. Chlortetracycline / kaolin–alginate beads — metadata missing
