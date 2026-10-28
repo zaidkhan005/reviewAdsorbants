@@ -2,34 +2,27 @@
 
 ## Scope and outcome
 
-## Important coverage correction — all bibliography entries are not processed
+## Full-bibliography processing coverage — updated 2026-10-29
 
-The previous DOI-to-key crosswalk compared the export only against the **100-row project screening register** and the nine existing Section 2.3 claim-ledger rows. It did **not** mean that the full 164-entry bibliography had undergone screening or evidence extraction.
+The initial DOI-to-key crosswalk compared the export with the 100-row project screening register and the nine existing Section 2.3 claim-ledger rows. That was **not** a screening or extraction audit of all 164 bibliography entries. The full inventory is recorded in [`bibtex_full_corpus_processing_queue_2026-10-29.csv`](bibtex_full_corpus_processing_queue_2026-10-29.csv).
 
-A second, entry-by-entry inventory was therefore added: [`bibtex_full_corpus_processing_queue_2026-10-29.csv`](bibtex_full_corpus_processing_queue_2026-10-29.csv). It compares every exported key against the live candidate register and master evidence rows.
+A first processing wave has now registered **11 previously unregistered papers** as candidates `DISC-069`–`DISC-079` and added **16 provisional online-source evidence rows** to the master evidence file. These provisional rows are visibly flagged for original-PDF page/table/figure and SI verification.
 
-| Status across all 164 BibTeX entries | Entry count | Meaning |
+| Current status across all 164 BibTeX entries | Entry count | Meaning |
 |---|---:|---|
-| Registered; evidence rows already present | 90 | Some structured evidence exists for the candidate; this does not prove all claims/metrics in the paper have been extracted or checked |
-| Registered; evidence present but duplicate BibTeX item | 4 | These are the two duplicate DOI/title groups (two records each); merge only after preserving attachments/notes |
-| Not in screening register or evidence | 69 | The item has not yet been registered/screened in this project workflow; it requires triage, not automatic inclusion |
-| Registered but likely scope false-positive | 1 | CORP-062 is about proximity to protected areas/community adaptation, not antibiotic adsorption. Adjudicate the existing candidate record; do not spend extraction effort unless a documented scope rationale is found |
+| Previously registered; evidence rows already present | 90 | Some structured evidence exists, but this does not prove all useful claims/metrics have been extracted or verified |
+| Existing registered duplicate BibTeX records with evidence | 4 | Two DOI/title pairs with duplicate Zotero entries; preserve attachments/notes before merging |
+| Newly registered with provisional online-source evidence rows | 5 | DISC-069, 071, 072, 077 and 079; PDF pagination/SI checks remain pending |
+| Newly registered; title/abstract screen only, evidence extraction pending | 6 | DISC-070, 073–076 and 078; full-text evidence extraction still required |
+| Still not in screening register or evidence corpus | 58 | Needs title/abstract screening; bibliography presence alone is not inclusion |
+| Registered but likely scope false-positive | 1 | CORP-062 concerns protected-area proximity/community adaptation, not antibiotic adsorption; adjudicate before spending extraction effort |
 | **Total exported entries** | **164** | |
 
-The 69 unregistered entries receive a **title-only triage signal**, not a final screening decision: **56 potential core adsorption/material papers** are the highest-priority screening queue; **9 contextual/mechanistic sorption papers** need a scope check first; and **4 likely reviews/background sources** should be used for citation discovery, not as primary quantitative evidence. The title signal must be confirmed with abstract/full text. Do not infer inclusion or exclusion from a BibTeX record or title alone.
+The remaining 58 unregistered entries have a provisional title-only triage signal: **45 potential core adsorption/material papers**, **9 contextual/mechanistic sorption papers**, and **4 likely review/background sources**. These are prioritization labels only. Title and abstract screening may change them; no final inclusion or exclusion may be inferred from a BibTeX record or title.
 
-One registered paper, CORP-023, is represented in the export by a preprint DOI while the project evidence is attached to its published-version candidate record; the queue therefore counts evidence by linked candidate ID rather than incorrectly declaring the paper unextracted because the DOI/version differs. CORP-019 also has a year mismatch that must be fixed in Zotero and re-exported.
+The five newly extracted papers do **not** count as final page-verified extraction: accessible publisher full-text HTML or indexed excerpts were used where available, with the original PDF page locator explicitly left pending. The six abstract-only records still need full-text extraction. CORP-023 is represented in the export by a preprint DOI while the registered published-version candidate already has evidence; count evidence by the linked candidate, not by the preprint DOI alone. CORP-019 has a separate year conflict that must be corrected in Zotero.
 
-
-
-Audited the uploaded `full ++.bib` export (SHA-256: `e8275eb705f3e1d3c85ba0acdc6caeda37f8ffe6c1ea5000f69c1d72c85f16ec`) against the live claim-to-source ledger and checked selected metadata gaps against publisher/index records.
-
-- 164 BibTeX entries: 163 `@article`, 1 `@misc`.
-- 164 distinct citation keys; no duplicate key strings.
-- 161 entries have a DOI; these resolve to 159 unique DOI values.
-- Two duplicate DOI/title groups are present. In both groups, the only differing BibTeX field is the local Zotero attachment path (`file`), which means they appear to be duplicate reference records carrying separate attachment paths. Do not delete or merge until Zotero's notes, attachments and annotations have been checked.
-- Three records have no DOI; two lack year, journal and DOI; one has year and journal but no DOI.
-- One `@misc` entry is a Research Square preprint for an article that also appears in the corpus as a published journal article; prefer the published version for ordinary manuscript citation, after checking that it is the same work.
+The structured corpus currently contains **111 candidate records** and **505 evidence rows**, including the 16 provisional rows from this first wave. The full step-by-step note is [`evidence/2026-10-29-bibtex-initial-screening.md`](../evidence/2026-10-29-bibtex-initial-screening.md).
 
 ## Claim-ledger DOI matches
 
@@ -49,16 +42,16 @@ The Better BibTeX export gives 2026. The publisher's ScienceDirect record lists 
 
 ## Screening-register DOI crosswalk
 
-I also compared the 100 candidate rows in `data/corpus-screening-register.csv` with the uploaded export:
+I compared the initial 100-candidate register with the export, then appended the 11 newly registered DOI matches in the first processing wave. The updated crosswalk now contains 111 candidate rows:
 
-- **87** candidates have exactly one DOI match and one exported citation key.
-- **2** candidates have matching DOI but two duplicate BibTeX entries, so the citation key remains ambiguous until those duplicate Zotero items are merged.
-- **4** candidates have a title-level match but not a valid one-to-one DOI match: one is represented only by a preprint, and three records lack required DOI/year/journal/author metadata.
-- **7** candidates are not represented by DOI or exact-title match in this export: **DISC-022 and DISC-031–DISC-036**. This is a bibliography-inventory result only; it does not alter the screening status. In particular, DISC-022 remains deferred, not screened or excluded.
+- **97** candidates have exactly one DOI match and one exported citation key (86 initial exact matches plus 11 new registrations).
+- **2** existing candidates match DOI but have duplicate BibTeX entries, so their key remains ambiguous until duplicate Zotero items are merged.
+- **4** candidates have a title-level or version/metadata problem: one is represented only by a preprint, two records have incomplete metadata, and one record lacks its DOI.
+- **7** candidates remain absent by DOI or exact-title match in this export: **DISC-022 and DISC-031–DISC-036**. This is a bibliography-inventory result only; it does not alter the screening status. In particular, DISC-022 remains deferred, not screened or excluded.
 
-Year audit: **90** candidate register years align with the matched export year, **1** DOI-matched record conflicts, and **9** rows have no reliable year comparison because the export record is incomplete or no item was found. The conflict is CORP-019 and is detailed below.
+Year audit: **101** candidate years match the export year, **1** DOI-matched record conflicts, and **9** rows have no reliable year comparison because the export record is incomplete or no item was found. The conflict is CORP-019 and is detailed below.
 
-The full 100-row machine-readable crosswalk is committed at [`references/bibtex_candidate_key_crosswalk_2026-10-29.csv`](bibtex_candidate_key_crosswalk_2026-10-29.csv). The crosswalk status records DOI/key linkage only; it does not determine scientific inclusion or Q1 eligibility.
+The full 111-row machine-readable crosswalk is committed at [`references/bibtex_candidate_key_crosswalk_2026-10-29.csv`](bibtex_candidate_key_crosswalk_2026-10-29.csv). The crosswalk status records DOI/key linkage only; it does not determine scientific inclusion or Q1 eligibility.
 
 ## Duplicate records requiring Zotero cleanup
 
