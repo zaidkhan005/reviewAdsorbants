@@ -27,6 +27,17 @@ The nine seed rows in `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md` reduce to 
 
 The Better BibTeX export gives 2026. The publisher's ScienceDirect record lists the article in *Journal of Water Process Engineering*, volume 81, January 2026, article 109355, with DOI `10.1016/j.jwpe.2025.109355`. Therefore the 2026 publication year is supported; the year embedded in the DOI string is not the citation year. [Publisher record](https://www.sciencedirect.com/science/article/pii/S2214714425024286).
 
+## Screening-register DOI crosswalk
+
+I also compared the 100 candidate rows in `data/corpus-screening-register.csv` with the uploaded export:
+
+- **87** candidates have exactly one DOI match and one exported citation key.
+- **2** candidates have matching DOI but two duplicate BibTeX entries, so the citation key remains ambiguous until those duplicate Zotero items are merged.
+- **4** candidates have a title-level match but not a valid one-to-one DOI match: one is represented only by a preprint, and three records lack required DOI/year/journal/author metadata.
+- **7** candidates are not represented by DOI or exact-title match in this export: **DISC-022 and DISC-031–DISC-036**. This is a bibliography-inventory result only; it does not alter the screening status. In particular, DISC-022 remains deferred, not screened or excluded.
+
+A machine-readable 100-row crosswalk was generated as a working audit artifact: [`bibtex_candidate_key_crosswalk_2026-10-29.csv`](../data/batch-extractions/bibtex_candidate_key_crosswalk_2026-10-29.csv) if committed to the repository; until then, use the downloadable audit CSV generated with this review. The crosswalk status records the DOI/key linkage, not whether a paper qualifies for inclusion or the Q1 rule.
+
 ## Duplicate records requiring Zotero cleanup
 
 1. DOI `10.1016/j.envres.2021.111091`: keys `ashiqCarbonbasedAdsorbentsFluoroquinolone2021a` and `ashiqCarbonbasedAdsorbentsFluoroquinolone2021b`. Title: “Carbon-Based Adsorbents for Fluoroquinolone Removal from Water and Wastewater: A Critical Review.” The exported bibliographic fields are identical; only the file paths differ.
