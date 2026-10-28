@@ -63,3 +63,15 @@ Searches located studies in PubMed/PMC, RSC Publishing, Frontiers, and ScienceDi
 - EDTA-functionalized magnetic GO for TC (2026): https://www.sciencedirect.com/science/article/pii/S1944398626002638
 
 This log is a dated record of the discovery pass. Repeat and broaden database searches (e.g. Scopus, Web of Science, PubMed, Google Scholar or institutional databases available to the authors) before describing the search as systematic or complete.
+
+## 6. Expanded second-pass discovery (same date)
+
+A second focused search pass added these further primary-study candidates to the register:
+- GO/calcium-alginate composite fibers for ciprofloxacin (2013; DOI 10.1016/j.cej.2013.06.072): https://www.sciencedirect.com/science/article/abs/pii/S1385894713008450
+- Magnetic chitosan-grafted GO composite for ciprofloxacin (2016; DOI 10.1016/j.molliq.2016.07.037): https://www.sciencedirect.com/science/article/abs/pii/S0167732215312848
+- Sodium-alginate/GO composite beads for ciprofloxacin (2016; DOI 10.1016/j.jcis.2016.08.068): https://pubmed.ncbi.nlm.nih.gov/27614043/
+- Polyacrylamide-functionalized GO/alginate beads for ciprofloxacin (2022; DOI 10.3390/toxics10020077): https://www.mdpi.com/2305-6304/10/2/77
+- GO/PVA/calcium-alginate composite beads for ciprofloxacin (2026; DOI 10.1039/D6RA00494F): https://pubs.rsc.org/en/content/articlehtml/2026/ra/d6ra00494f
+- Direct GO adsorption work on tetracycline-class antibiotics (2012; DOI 10.1016/j.jcis.2011.11.015): https://www.sciencedirect.com/science/article/pii/S0021979711013919
+
+These additions broaden both dates and composite architectures while staying inside the two selected material families. They are still candidate records, not accepted-paper counts. The candidate register currently includes primary-study leads, near-misses/metadata gaps, and one context review; duplicate discovery aliases are explicitly marked and must not count as additional references. No numeric literature-coverage claim should be made until DOI-level deduplication and title/abstract/full-text eligibility decisions are complete.
