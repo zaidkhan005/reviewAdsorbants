@@ -166,3 +166,30 @@ The abstract confirms the GSA hydrogel beads were evaluated for ciprofloxacin-co
 
 Earlier wording suggested a confirmed Freundlich/Langmuir inconsistency. This was too strong based on the verified abstract alone and is now corrected: the full text must be checked to establish how the 100 mg/g value is defined. Do not call it Langmuir qmax without source-table support.
 
+
+
+## Fifth evidence batch — extracting existing Library PDFs (29 October 2026)
+
+No new download or upload was requested. Instead, two PDFs already in the user's Library were fully inspected:
+- `graphene 1.pdf`: Shah et al., ACS Omega 2025, sulfonated graphene oxide (SGO) for ciprofloxacin; DOI 10.1021/acsomega.4c11231.
+- `graphene 2.pdf`: Li et al., Process Safety and Environmental Protection 2025, phosphorus-doped/TETA-modified GO hydrogel (PGOT@GEL) for CIP, gatifloxacin and Cu2+; DOI 10.1016/j.psep.2025.107659.
+
+### EV-SEM-012 — SGO for CIP
+
+The full article was read from the Library copy. It reports a Langmuir (q_m=1000.00) μmol/g, equivalent to 331.35 mg/g, with R²=0.9998 at 25°C. Table 1 reports experimental (q_e=237.12) μmol/g at initial CIP 50 μmol/L; the same nominal condition is reported as 96.53% removal in the text. Given 50 mL solution and 0.2 g/L SGO (0.01 g), 237.12 μmol/g implies ~94.85% removal by mass balance. This is recorded as a source consistency flag, not silently corrected.
+
+Preparation uses 3.0 g graphite, a 9:1 mix of 18.4 M H2SO4 and 14.6 M H3PO4, 18.0 g KMnO4, 24 h stirring, H2O2 quench, sequential washes with 7.7 M HCl/water/ethanol/diethyl ether and drying at 60°C. The nominally high capacity should be viewed against these uncosted synthesis inputs. Regeneration uses 1 M HCl in DMF, 99.14% release within 240 min, washing to neutral pH and 100°C drying, followed by five-cycle reuse with >95.78% initial capacity retained. No monetary cost/energy inventory or yield is supplied.
+
+This study is especially useful for the mechanism/performance table: pH optimum 4, cation-salt inhibition, FTIR/SEM/EDX and DFT interpretation. It is also a strong case study for showing why a reported “cost-effective” adsorbent may still lack a quantified process-cost case.
+
+### EV-SEM-013 — PGOT@GEL for CIP (2025)
+
+The full article was read from the Library copy. Material construction involves GO preparation, hypophosphorous-acid P doping, TETA grafting using EDC/NHS, β-cyclodextrin acrylation, then copolymerization with AMPS to form a hydrogel. The authors report a Langmuir (q_{max}=821.24) mg/g (R²=0.9908) and a separate RSM validation at CIP 296.52 mg/L, pH 6.70, adsorbent dosage 5.08 mg and 298.88 K, with measured uptake (q_e=807.54) mg/g versus model prediction 800.60 mg/g. A separate pH test gives (q_e=192.24) mg/g and 96.12% removal at pH 7. Equilibrium is reached around 120 min; seven-cycle removal reportedly retains about 90.53% of the initial value after methanol regeneration for 12 h/cycle.
+
+**Critical interpretation:** The fitted qmax and RSM-verified uptake are different outputs and need their own rows in comparative tables. The article calls the matrix experiment “real water samples” in its text, while the Fig. 12 caption labels it “simulated real wastewater”; the available supplementary information is not included in the Library file. Treat as a matrix-ambiguity flag, not definitive true-wastewater validation.
+
+**Cost finding:** Despite a large reported qmax and reuse, no numerical whole-process cost is supplied. The synthesis uses multiple reagents, surface-modification stages and polymerization. It is a valuable high-performance contrast, but cost potential remains unproven.
+
+### Scope/evidence consequence
+
+These two existing PDFs bring the evidence extraction table to 13 study records. They are not new user downloads and have been linked to existing candidate IDs SEM-016 and SEM-032. The remaining gaps on DDMGO and PRB are retained in the evidence as unresolved access/table-audit limitations; the project will proceed without asking the user for more PDFs.
