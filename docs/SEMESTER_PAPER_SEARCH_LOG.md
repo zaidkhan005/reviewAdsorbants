@@ -136,3 +136,13 @@ These are three more provisional evidence records, bringing the core evidence ex
 - **PRB hydrogel study (SEM-037 / EV-SEM-011):** verified abstract confirms groundwater/column application and that PRB lifetime and cost were calculated. The 100 mg/g maximum at pH 7 is reported, but its model-parameter definition and the economic assumptions need full-text table-level extraction. Corrected an earlier overstatement about a confirmed Freundlich/Langmuir contradiction; the verified abstract alone does not establish that contradiction.
 - **User action now required for the two highest-value gaps:** obtain original publisher PDFs through AMU institutional access for Li et al. (2018), DOI 10.1016/j.jcis.2018.03.003, and Zhao et al. (2018), DOI 10.1016/j.chemosphere.2018.02.157. Save as `SEM-006_Li2018_DDMGO_CIP_TC.pdf` and `SEM-037_Zhao2018_GSA_PRB_CIP.pdf`, then upload them to the current conversation. No other bulk download is needed for this step.
 
+
+
+## 13. Fifth evidence batch from existing Library papers — 29 October 2026
+
+No new files were requested from the user. Full-text extraction was completed from two existing Library PDFs:
+
+- **SEM-016 / EV-SEM-012:** Shah et al. (2025), sulfonated GO for CIP, DOI 10.1021/acsomega.4c11231. Extracted the synthesis route, Table 1 kinetic data, Table 2 isotherms, fitted Langmuir qmax (1000 μmol/g = 331.35 mg/g), observed qe, pH/salt effects, and acid-DMF desorption/five-cycle reuse. A mass-balance consistency flag remains between reported qe=237.12 μmol/g and 96.53% removal at the same nominal conditions.
+- **SEM-032 / EV-SEM-013:** Li et al. (2025), PGOT@GEL for CIP, DOI 10.1016/j.psep.2025.107659. Extracted all major synthesis steps; Langmuir fitted qmax=821.24 mg/g (R²=.9908), a separate RSM validation qe=807.54 mg/g at C0 296.52 mg/L, pH 6.70, dose 5.08 mg and 298.88 K; pH-test qe=192.24 mg/g at 96.12% removal; ~120-minute equilibrium and seven-cycle retention ~90.53% after 12 h methanol treatment each cycle. The “real water” versus “simulated real wastewater” wording is flagged.
+- Both sources lack quantified whole-process cost inventories. Preparation reagent/energy burdens and regeneration chemistry are recorded, so the manuscript can compare reported performance with process complexity without inventing monetary costs.
+- No qmax ranking is generated because the conditions and metrics differ. Existing open access files make meaningful progress possible without any new user uploads.
