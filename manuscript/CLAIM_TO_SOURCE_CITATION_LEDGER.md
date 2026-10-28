@@ -2,7 +2,7 @@
 
 **Purpose:** Keep every manuscript claim traceable from its location in prose or a table to a repository evidence ID, the original source location, the exact Zotero item / Better BibTeX citation key, and the final in-text citation and bibliography entry.
 
-**Status:** Ledger schema created; sample rows populated from the current Section 2.3 biochar working draft. Zotero citation keys and final author–date strings are intentionally marked **PENDING — verify in Zotero/Better BibTeX**. Do not invent a key based on a candidate ID or guess author-name formatting. Candidate DOI links in manuscript drafts remain temporary research locators.
+**Status (updated 2026-10-29):** The uploaded Better BibTeX export has been matched by DOI/title to the three sources represented in these nine seed claims, and their actual exported citation keys are now recorded below. Final in-text citations and the bibliography remain pending because the target journal/style has not yet been selected and citation insertion must be done through Zotero (or the chosen citation processor). Keys for any other claims must be matched to the actual export; never infer a key from a candidate ID or guess author-name formatting. Candidate DOI links in manuscript drafts remain temporary research locators.
 
 ## Required workflow
 
