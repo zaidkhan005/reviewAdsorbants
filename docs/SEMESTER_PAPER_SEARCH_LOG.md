@@ -106,3 +106,14 @@ A first source-grounded extraction has been created under `evidence/semester-pap
 Candidate status updates were made only for SEM-001, SEM-004, SEM-006, SEM-007, SEM-010, SEM-015, SEM-017 and SEM-018. They remain provisional; one record (SEM-006, DDMGO for both target antibiotics) is explicitly abstract-only. The GO–ZnAlNi LDH study has a capacity/endpoint inconsistency that must be reconciled before using a capacity value. No Q1/quartile claims or quantified low-cost conclusions were added.
 
 The evidence extraction is not complete for the corpus. The remaining candidate list still needs DOI deduplication and full-text screening; the approximately 50-reference goal is not being treated as a quota.
+
+
+## 10. Second evidence-audit batch — 29 October 2026
+
+Follow-up primary-source audit completed for the CMC-functionalized magnetic GO TC paper and the GO–ZnAlNi LDH CIP paper; the dual-antibiotic DDMGO paper remains gated on full numerical table access.
+
+- **SEM-018 / EV-SEM-007:** RSC full text now audited in detail. The 96.04% result is at C0=2 mg/L, 0.1 g/L sorbent dose, pH 5, 25°C and 25 min. Derived qe by mass balance is 19.208 mg/g. The highlighted 54.73 mg/g Langmuir q_m is the *linear* fit at 50°C; at 50°C the nonlinear fit returns 48.4744 mg/g, while the 25°C linear fit is 45.5581 mg/g. Methanol is used for regeneration; about 96% removal initially and 92% after 10 cycles are reported. The article gives extensive preparation detail but no quantified synthesis-cost inventory.
+- **SEM-015 / EV-SEM-005:** the full article’s own adsorption-capacity equation enables an explicit consistency check. With C0=1 mg/L, sorbent 10 mg/L and 84.84% removal, implied qe is 84.84 mg/g, whereas the narrative gives 97.43 mg/g and abstract/Table 3 give 106.97/106.9 mg/g. Dose-series pairs do not reconcile either. The study remains eligible for qualitative/method discussion and the condition-specific removal result, but its capacity value is blocked from quantitative ranking until reconciled. Five-cycle removal falls from 80.4% to 27%.
+- **SEM-006 / EV-SEM-008:** a university-hosted copy of the Li et al. (2018) DDMGO paper was found, but browser retrieval timed out. The primary abstract is reliable for broad design/mechanism statements, not numeric performance. Secondary review figures (TC 294.12 mg/g; CIP 111.73 mg/g) have been logged as leads only; primary PDF access and exact conditions are still required.
+
+No final qmax ranking has been produced. Quartile checks, cost comparisons and the approximately 50-reference feasibility count remain outstanding.
