@@ -36,6 +36,8 @@ I also compared the 100 candidate rows in `data/corpus-screening-register.csv` w
 - **4** candidates have a title-level match but not a valid one-to-one DOI match: one is represented only by a preprint, and three records lack required DOI/year/journal/author metadata.
 - **7** candidates are not represented by DOI or exact-title match in this export: **DISC-022 and DISC-031–DISC-036**. This is a bibliography-inventory result only; it does not alter the screening status. In particular, DISC-022 remains deferred, not screened or excluded.
 
+Year audit: **90** candidate register years align with the matched export year, **1** DOI-matched record conflicts, and **9** rows have no reliable year comparison because the export record is incomplete or no item was found. The conflict is CORP-019 and is detailed below.
+
 The full 100-row machine-readable crosswalk is committed at [`references/bibtex_candidate_key_crosswalk_2026-10-29.csv`](bibtex_candidate_key_crosswalk_2026-10-29.csv). The crosswalk status records DOI/key linkage only; it does not determine scientific inclusion or Q1 eligibility.
 
 ## Duplicate records requiring Zotero cleanup
