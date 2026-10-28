@@ -92,3 +92,33 @@
 - Reconcile the GO–ZnAlNi LDH capacity inconsistency against the article’s figures and equations.
 - Continue screening the remaining candidate register; do not infer that 8 records equals 8 final eligible references.
 - Add full-text source-page citations to the eventual manuscript and keep the evidence database as the traceable source of truth.
+
+
+## Superseding audit corrections — 29 October 2026
+
+This section supersedes earlier shorter summaries for EV-SEM-005, EV-SEM-007 and EV-SEM-008 above.
+
+### EV-SEM-007 — CMC-functionalized magnetic GO: detailed conditions and model temperatures
+
+The full open-access RSC article is available at [DOI 10.1039/D5RA06621B](https://doi.org/10.1039/D5RA06621B). Base-condition tests use C0(TC)=2 mg/L, 2 mg sorbent in 20 mL (0.1 g/L), pH 5, 25°C, 250 rpm and 25 min. At the reported 96.04% removal, the mass-balance-derived uptake is 19.208 mg/g; this is calculated from the reported removal and dose and is not a directly quoted observed qe.
+
+The reported Langmuir capacities depend on fitting method and temperature. Linear Langmuir qm: 45.5581 mg/g (25°C), 51.4933 mg/g (40°C), 54.7346 mg/g (50°C). Nonlinear Langmuir qm: 44.0051, 48.6490 and 48.4744 mg/g at those temperatures. The article’s 54.73 mg/g headline value corresponds to the linear fit at 50°C, not to the 25°C optimum-removal test. Model-fitted qe values (around 19.35–19.50 mg/g) also remain model estimates.
+
+The regeneration method is magnetic separation followed by methanol treatment. The article reports reuse through ten cycles and a reduction in removal from about 96% to 92%. A quantified cost inventory is absent. Preparation inputs documented in Methods include aqua-regia cleaning of graphite recovered from spent lithium-ion batteries; modified-Hummers oxidation with concentrated H2SO4/H3PO4, KMnO4 and H2O2; HCl, water and ethanol washing; 80 mg GO plus 80 mg CMC; 2.781 g FeSO4·7H2O and 7.998 g Fe2(SO4)3·7H2O; 2.0 M NaOH to about pH 11; 85°C stirring for 2 h; and vacuum drying at 60°C for 18 h. These burdens should be recorded as preparation inputs, not converted into a monetary cost without prices/yield/system boundary.
+
+### EV-SEM-005 — GO–ZnAlNi LDH: capacity claims fail a mass-balance consistency check
+
+The primary article is available at [DOI 10.3389/fnano.2025.1578620](https://doi.org/10.3389/fnano.2025.1578620). Its Methods give q=(C0−Ct)V/W. At C0=1 mg/L and dose=10 mg/L, 84.84% removal implies qe=84.84 mg/g, if those reported values refer to the same experiment and dose basis.
+
+Yet the article’s narrative reports 97.43 mg/g with the 84.84% removal condition, while its abstract and Table 3 state 106.97/106.9 mg/g. Other dose-series pairs are also inconsistent with the equation: 64% removal at 7.5 mg/L dose implies about 85.33 mg/g, not 88.89 mg/g; 73.86% removal at 12 mg/L dose implies about 61.55 mg/g, not 77.95 mg/g. The article’s Table 2 reports Freundlich and Temkin parameters; it does not provide a clear, verified Langmuir qm in that table.
+
+**Decision:** Keep 84.84% removal at C0=1 mg/L, dose=10 mg/L, pH 7 and 60 min as a reported condition-specific outcome. Mark capacity unresolved and do not publish a single authoritative capacity value until the source data/calculation is reconciled. The study’s five-cycle removal reportedly declines from 80.4% to 27%, which should be reported alongside any reuse claim.
+
+The methods also document reagent-intensive processing: Zn/Al/Ni nitrate precursors, 3.4 M NaOH, modified-Hummers GO, one-hour ultrasonication, hydrothermal aging at 120°C for 16 h, water/ethanol washing, and drying at 70°C. The article itself notes that techno-economic and life-cycle evaluation is needed to substantiate economic claims.
+
+### EV-SEM-008 — DTPA-functionalized magnetic GO: distinguish secondary leads from primary evidence
+
+A university-hosted PDF of Li et al. (2018), DOI [10.1016/j.jcis.2018.03.003](https://doi.org/10.1016/j.jcis.2018.03.003), was located, but the browser retrieval timed out and the numerical results tables could not be verified in this extraction session. The primary abstract confirms TC and CIP were tested separately and in binary systems; it reports Freundlich fits, pseudo-second-order kinetics, different thermodynamic signs for TC versus CIP, stronger competition effects on TC, and good reusability.
+
+Secondary reviews report DDMGO capacities of 294.12 mg/g for TC and 111.73 mg/g for CIP. One secondary table lists a 50 mg/L adsorbate concentration and 1440 min contact time, but its adsorbent-dose notation is ambiguous. These are **retrieval clues only**. They must not enter the final primary-study evidence table until checked against Li et al.’s original tables/figures and exact conditions. The immediate action is to retrieve the full paper through university library access or an author copy.
+
