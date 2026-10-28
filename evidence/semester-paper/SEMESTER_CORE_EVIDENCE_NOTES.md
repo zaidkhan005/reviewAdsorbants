@@ -144,3 +144,25 @@ The indexed abstract reports a maximum capacity of 555.56 mg/g, with Langmuir is
 
 The primary abstract reports GSA hydrogel beads used as permeable reactive barrier backfill for ciprofloxacin-contaminated groundwater, maximum capacity 100 mg/g at pH 7, pseudo-second-order kinetics, and flow-through column tests varying flow rate, influent concentration and ionic strength. The abstract says PRB lifetime and cost were calculated, making this a high-priority source for the practical-feasibility section. It also contains a model-description conflict: the abstract says the isotherm follows Freundlich but attributes the 100 mg/g maximum capacity to Langmuir. The source full text must resolve this; cost values, column parameters, lifetime assumptions and model table must be extracted before use.
 
+
+
+## Fourth evidence update — primary indexed full text for DDMGO and PRB (29 October 2026)
+
+### EV-SEM-008 / SEM-006 — Li et al. (2018), DDMGO for both TC and CIP
+
+The institutional PDF search index exposed substantial primary-text content at [the Hunan University-hosted PDF](https://ee.hnu.edu.cn/__local/7/00/07/132E7D46F401B025BF92B18714F_758970B3_2B3DCB.pdf). Direct browser retrieval timed out and the screenshot tool could not resolve the PDF as an application/pdf resource, so the text is extracted from search-indexed primary content rather than visual page-image review. This constraint is important: numeric tables/figures are not considered fully audited.
+
+**Confirmed primary methods:** 25 mL conical flasks, 150 rpm, about 2.28 mg DDMGO per reaction; pH experiments at 50 mg/L and 30°C; kinetics at 50 mg/L, 30°C and 0–1560 min; isotherms over initial concentrations 0–500 mg/L at pH 3.0 and 293/303/313 K; NaCl effects 0–0.5 M; foreign ions K+, Mg2+, Cl−, SO4²− at 0–0.1 M; binary competition tests with 50 mg/L target plus 0–20 mg/L co-antibiotic; four successive adsorption/desorption cycles using 0.01 M NaOH. Equilibrium tests used approximately 24 h at 30°C and pH 3.
+
+**Confirmed kinetic observations:** CIP sorption reached equilibrium after about one hour, whereas TC continued increasing until roughly 24 h. The paper explicitly says the 294.12 mg/g (TC) and 111.73 mg/g (CIP) values are (q_e) calculated from the pseudo-second-order equation and closer to experimental values. They are therefore kinetic-model-fitted (q_e), **not Langmuir (q_{max})**. The equilibrium data are described as fitting Freundlich better. The exact measured experimental (q_e), kinetic R²/rate constants, isotherm parameters, binary-competition effect sizes and cycle-by-cycle regeneration retention still need transcription from the actual tables/figures.
+
+**Additional material characterization:** DDMGO BET surface area 176 m²/g, mean pore diameter 3.8 nm and pore volume 0.24 cm³/g; indexed FTIR text indicates DTPA amino groups react with GO carboxyl groups to form amide bonds. Magnetic separation is supported by Fe3O4 characterization. Cost was not quantified. Preparation uses GO oxidation, Fe3O4 functionalization and DTPA coupling (EDC/NHS listed among reagents); no total cost/energy inventory is available.
+
+### EV-SEM-011 / SEM-037 — Zhao et al. (2018), GO–alginate hydrogel beads as a PRB
+
+**Primary sources:** [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/29510369/), [publisher indexed article](https://www.sciencedirect.com/science/article/pii/S0045653518303692), DOI 10.1016/j.chemosphere.2018.02.157.
+
+The abstract confirms the GSA hydrogel beads were evaluated for ciprofloxacin-contaminated groundwater, in batch and flow-through columns; kinetic data were described by pseudo-second-order, equilibrium data by Freundlich, and reported capacity was 100 mg/g at pH 7.0. The paper explicitly says PRB lifetime and cost were calculated. The actual cost value, lifetime, currency/year, system boundary, column dimensions/flow rates and hydrogeological assumptions were not retrieved in this pass.
+
+Earlier wording suggested a confirmed Freundlich/Langmuir inconsistency. This was too strong based on the verified abstract alone and is now corrected: the full text must be checked to establish how the 100 mg/g value is defined. Do not call it Langmuir qmax without source-table support.
+
