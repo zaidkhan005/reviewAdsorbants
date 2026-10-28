@@ -95,3 +95,14 @@ The search was rerun with new queries focused on 2025–2026 graphene oxide, red
 - A 2025 SnO₂/rGO tetracycline paper is framed primarily around photodegradation under visible light; exclude it from core adsorption evidence unless the paper supplies an adsorption-only endpoint/control that can be separated.
 - The newly surfaced 2026 papers are useful for a current literature map, but online abstract snippets alone cannot support full evidence extraction or a verified cost comparison.
 - Search coverage remains exploratory and not systematic/exhaustive. The next stage is DOI-level deduplication and primary full-text eligibility screening, not counting all search hits as included studies.
+
+
+## 9. First evidence-extraction batch — 28 October 2026
+
+A first source-grounded extraction has been created under `evidence/semester-paper/`:
+- `SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: eight study records, including seven with some full-text/indexed full-text extraction and one abstract-only record requiring the full text.
+- `SEMESTER_CORE_EVIDENCE_NOTES.md`: study-by-study source notes, exact conditions, model-versus-observed distinctions, preparation steps and caveats.
+
+Candidate status updates were made only for SEM-001, SEM-004, SEM-006, SEM-007, SEM-010, SEM-015, SEM-017 and SEM-018. They remain provisional; one record (SEM-006, DDMGO for both target antibiotics) is explicitly abstract-only. The GO–ZnAlNi LDH study has a capacity/endpoint inconsistency that must be reconciled before using a capacity value. No Q1/quartile claims or quantified low-cost conclusions were added.
+
+The evidence extraction is not complete for the corpus. The remaining candidate list still needs DOI deduplication and full-text screening; the approximately 50-reference goal is not being treated as a quota.
