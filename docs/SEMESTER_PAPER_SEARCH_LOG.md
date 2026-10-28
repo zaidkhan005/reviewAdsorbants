@@ -117,3 +117,14 @@ Follow-up primary-source audit completed for the CMC-functionalized magnetic GO 
 - **SEM-006 / EV-SEM-008:** a university-hosted copy of the Li et al. (2018) DDMGO paper was found, but browser retrieval timed out. The primary abstract is reliable for broad design/mechanism statements, not numeric performance. Secondary review figures (TC 294.12 mg/g; CIP 111.73 mg/g) have been logged as leads only; primary PDF access and exact conditions are still required.
 
 No final qmax ranking has been produced. Quartile checks, cost comparisons and the approximately 50-reference feasibility count remain outstanding.
+
+
+## 11. Third evidence batch — 29 October 2026
+
+Added three new study records to the evidence table and updated candidate status:
+
+- **SEM-009 / EV-SEM-009:** 2024 GO/CIP study in aqueous medium and fresh synthetic urine; author-reported capacities 354.24 and 291.39 mg/g at pH 5 and 6, respectively. Detailed conditions and parameter definitions remain to be verified.
+- **SEM-011 / EV-SEM-010:** 2023 magnetic guar-gum/GO composite for CIP; reported maximum capacity 555.56 mg/g, Langmuir and pseudo-second-order fits. Exact test conditions/cost/reuse details remain to be checked. Conflicting nearby snippets were not misattributed.
+- **SEM-037 / EV-SEM-011:** newly registered 2018 sodium alginate/GO hydrogel-bead PRB study for ciprofloxacin-contaminated groundwater. This is a priority because it includes flow-through column work and explicitly reports calculating PRB lifetime and cost. Resolve the abstract's Freundlich/Langmuir wording and extract exact economic assumptions from full text.
+
+These are three more provisional evidence records, bringing the core evidence extraction table to 11 rows. This is not the number of final included papers; candidate full-text eligibility screening, cost analysis and quartile verification remain in progress.
