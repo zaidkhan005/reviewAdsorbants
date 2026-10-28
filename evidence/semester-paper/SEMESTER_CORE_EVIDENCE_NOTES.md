@@ -122,3 +122,25 @@ A university-hosted PDF of Li et al. (2018), DOI [10.1016/j.jcis.2018.03.003](ht
 
 Secondary reviews report DDMGO capacities of 294.12 mg/g for TC and 111.73 mg/g for CIP. One secondary table lists a 50 mg/L adsorbate concentration and 1440 min contact time, but its adsorbent-dose notation is ambiguous. These are **retrieval clues only**. They must not enter the final primary-study evidence table until checked against Li et al.’s original tables/figures and exact conditions. The immediate action is to retrieve the full paper through university library access or an author copy.
 
+
+
+## Third evidence batch — new CIP anchors and a cost-relevant column study (29 October 2026)
+
+### EV-SEM-009 — GO for CIP in aqueous medium and fresh synthetic urine (2024)
+
+**Primary source:** Bruckmann et al., DOI [10.1016/j.cej.2024.150484](https://doi.org/10.1016/j.cej.2024.150484); [publisher record](https://www.sciencedirect.com/science/article/pii/S1385894724019715).
+
+Indexed primary text reports maximum capacities of 354.24 mg/g in aqueous medium at pH 5 and 291.39 mg/g in fresh synthetic urine at pH 6. The study analyzes conventional adsorption models and statistical-physics models and concludes that general-order kinetics describe the kinetic data well. The exact initial concentration, GO dose, contact time and precise capacity-model definition for these headline values still need table-level verification. Fresh synthetic urine must not be described as real urine or wastewater.
+
+### EV-SEM-010 — magnetic guar-gum/GO composite for CIP (2023)
+
+**Primary source:** DOI [10.1016/j.jece.2023.110766](https://doi.org/10.1016/j.jece.2023.110766); [publisher record](https://www.sciencedirect.com/science/article/pii/S2213343723015051).
+
+The indexed abstract reports a maximum capacity of 555.56 mg/g, with Langmuir isotherm and pseudo-second-order kinetic fits. It describes a two-step synthesis using improved-Hummers GO and then a magnetic guar-gum/GO nanocomposite via co-precipitation. Exact C0, adsorbent dose, model R², cycle number and regeneration retention remain to be verified. A nearby result snippet described 67.6% removal for CSN@GO, which is not the same material name; that percentage is deliberately not assigned to mGG/GO NC.
+
+### EV-SEM-011 — sodium alginate/GO hydrogel beads for PRB application (2018)
+
+**Primary source:** Zhao et al., DOI [10.1016/j.chemosphere.2018.02.157](https://doi.org/10.1016/j.chemosphere.2018.02.157); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/29510369/).
+
+The primary abstract reports GSA hydrogel beads used as permeable reactive barrier backfill for ciprofloxacin-contaminated groundwater, maximum capacity 100 mg/g at pH 7, pseudo-second-order kinetics, and flow-through column tests varying flow rate, influent concentration and ionic strength. The abstract says PRB lifetime and cost were calculated, making this a high-priority source for the practical-feasibility section. It also contains a model-description conflict: the abstract says the isotherm follows Freundlich but attributes the 100 mg/g maximum capacity to Langmuir. The source full text must resolve this; cost values, column parameters, lifetime assumptions and model table must be extracted before use.
+
