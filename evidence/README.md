@@ -4,6 +4,9 @@ This directory contains human-readable, source-linked extraction notes for the r
 
 ## Latest upload batch
 
+- [2026-10-29 — First processing wave from the full BibTeX](2026-10-29-bibtex-initial-screening.md) — DISC-069–DISC-079; 16 provisional evidence rows; PDF-page/SI checks still pending.
+
+
 - [2026-10-28 — Upload batches: DISC-037–DISC-068, 177 source-linked evidence rows](2026-10-28-upload-batches.md)
 
 ## Previous PDF batches
