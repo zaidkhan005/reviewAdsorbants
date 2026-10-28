@@ -75,3 +75,23 @@ A second focused search pass added these further primary-study candidates to the
 - Direct GO adsorption work on tetracycline-class antibiotics (2012; DOI 10.1016/j.jcis.2011.11.015): https://www.sciencedirect.com/science/article/pii/S0021979711013919
 
 These additions broaden both dates and composite architectures while staying inside the two selected material families. They are still candidate records, not accepted-paper counts. The candidate register now contains distinct study records after merging the known sulfonated-GO duplicate, plus metadata-gap leads and one context review; unresolved records need a final DOI/title deduplication pass. No numeric literature-coverage claim should be made until DOI-level deduplication and title/abstract/full-text eligibility decisions are complete.
+
+
+## 7. Rerun of focused search — additional records (28 October 2026)
+
+The search was rerun with new queries focused on 2025–2026 graphene oxide, reduced graphene oxide, magnetic graphene composites, and tetracycline/CIP adsorption. It added the following leads to the candidate register; they are discovery results, not final inclusion decisions:
+
+- **SEM-030:** 2026 GO–[Ni(DMG)]n composite for CIP (DOI 10.1016/j.jwpe.2026.110335). The publisher summary reports 117–159 mg/g capacity values, but the full text must establish whether these are fitted or experimentally observed.
+- **SEM-031:** 2026 sulfonated GO in multi-antibiotic fluoroquinolone mixtures including CIP (DOI 10.1016/j.rineng.2026.110064). Retain only if CIP-specific values are separable by mixture condition.
+- **SEM-032:** 2025 three-dimensional GO-based hydrogel for CIP, gatifloxacin and Cu²⁺ (DOI 10.1016/j.psep.2025.107659). Separate CIP single-solute from co-adsorption results.
+- **SEM-033:** 2026 Fe₃O₄/rGO study of tetracycline hydrochloride and ofloxacin under a rotating magnetic field (DOI 10.1016/j.seppur.2025.136049). Check the contribution and operating burden of the magnetic-field configuration.
+- **SEM-034:** 2024 GO-supported Co–Fe magnetic nanocomposite for four tetracyclines, including TC (DOI 10.1039/D3RA07597D). Keep each tetracycline molecule distinct.
+- **SEM-035:** 2025 modified GO study on “tetracycline antibiotics” (DOI 10.16796/j.cnki.1000-3770.2025.09.007). Exact target species and full-text detail need verification.
+- **SEM-036:** 2025 “graphene oxide-like carbon nanosheets” for CIP (DOI 10.1038/s41598-025-19686-0). This is a material-boundary case; verify that it truly fits the selected graphene-based family rather than assuming the title term “GO-like” is equivalent to GO/rGO.
+
+## 8. Rerun cautions and exclusions surfaced
+
+- A 2026 corn-cob-derived GO short communication concerns dispersive solid-phase extraction for analytical determination of CIP. It may be useful contextual literature but should not automatically count as water-treatment removal evidence because its purpose and operating context are analytical preconcentration.
+- A 2025 SnO₂/rGO tetracycline paper is framed primarily around photodegradation under visible light; exclude it from core adsorption evidence unless the paper supplies an adsorption-only endpoint/control that can be separated.
+- The newly surfaced 2026 papers are useful for a current literature map, but online abstract snippets alone cannot support full evidence extraction or a verified cost comparison.
+- Search coverage remains exploratory and not systematic/exhaustive. The next stage is DOI-level deduplication and primary full-text eligibility screening, not counting all search hits as included studies.
