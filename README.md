@@ -75,3 +75,8 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 
 **Batching clarification (2026-10-28):** The ten-chat limit means up to ten upload chats at once, not 30 papers total. Process batches in successive waves, consolidating each wave before reusing the ten chat slots. The tracker now reserves 100 sequential batches (300 paper slots) and can be extended further.
+
+
+## Semester paper scope (proposal only, 2026-10-28)
+
+A narrowed semester-paper proposal targeting about 50 distinct cited works is recorded at [docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md](docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md). It recommends waste-derived engineered carbonaceous adsorbents for ciprofloxacin, with a critical processing–performance–practicality focus. This proposal is not final; new PDF upload waves are paused while the topic is agreed. The broader journal review remains separate.
