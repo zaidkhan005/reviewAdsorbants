@@ -128,3 +128,11 @@ Added three new study records to the evidence table and updated candidate status
 - **SEM-037 / EV-SEM-011:** newly registered 2018 sodium alginate/GO hydrogel-bead PRB study for ciprofloxacin-contaminated groundwater. This is a priority because it includes flow-through column work and explicitly reports calculating PRB lifetime and cost. Resolve the abstract's Freundlich/Langmuir wording and extract exact economic assumptions from full text.
 
 These are three more provisional evidence records, bringing the core evidence extraction table to 11 rows. This is not the number of final included papers; candidate full-text eligibility screening, cost analysis and quartile verification remain in progress.
+
+
+## 12. Fourth evidence update — primary indexed full-text extraction (29 October 2026)
+
+- **DDMGO dual-antibiotic study (SEM-006 / EV-SEM-008):** institutional PDF search indexing provides detailed experimental methods. The values 294.12 mg/g for TC and 111.73 mg/g for CIP are explicitly the pseudo-second-order model-calculated qe values, not isotherm qmax. Primary conditions and four 0.01 M NaOH desorption cycles are now recorded. Browser PDF retrieval timed out and PDF screenshot rendering was unavailable, so direct table/figure verification remains incomplete.
+- **PRB hydrogel study (SEM-037 / EV-SEM-011):** verified abstract confirms groundwater/column application and that PRB lifetime and cost were calculated. The 100 mg/g maximum at pH 7 is reported, but its model-parameter definition and the economic assumptions need full-text table-level extraction. Corrected an earlier overstatement about a confirmed Freundlich/Langmuir contradiction; the verified abstract alone does not establish that contradiction.
+- **User action now required for the two highest-value gaps:** obtain original publisher PDFs through AMU institutional access for Li et al. (2018), DOI 10.1016/j.jcis.2018.03.003, and Zhao et al. (2018), DOI 10.1016/j.chemosphere.2018.02.157. Save as `SEM-006_Li2018_DDMGO_CIP_TC.pdf` and `SEM-037_Zhao2018_GSA_PRB_CIP.pdf`, then upload them to the current conversation. No other bulk download is needed for this step.
+
