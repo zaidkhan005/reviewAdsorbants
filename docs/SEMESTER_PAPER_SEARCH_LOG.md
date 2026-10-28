@@ -28,11 +28,11 @@ Searches located studies in PubMed/PMC, RSC Publishing, Frontiers, and ScienceDi
 - Family A is represented by graphene oxide and reduced graphene oxide studies that investigate CIP and/or TC.
 - Family B is represented by magnetic GO/rGO, graphene–alginate/cellulose/polymer composites, and a GO–layered-double-hydroxide composite.
 - New candidate leads from 2025–2026 exist, including functionalized magnetic graphene-oxide materials for TC; these need the same full-text scrutiny as older work.
-- The candidate register currently separates **provisional in-scope leads**, **needs clarification**, **context-only reviews**, and **discovery leads requiring exact metadata**. None should be treated as finally included solely on title/abstract evidence.
+- The candidate register separates **provisional in-scope leads**, **needs clarification**, **context-only reviews**, and **discovery leads requiring exact metadata**. Known duplicates are merged; records with unresolved metadata may still represent duplicates and must be verified. None should be treated as finally included solely on title/abstract evidence.
 
 ## 3. Screening warnings
 
-1. Do not count candidate rows as distinct references until DOI/title deduplication is complete. For example, the pool's sulfonated-GO lead duplicates a primary citation found in the search results.
+1. Candidate rows represent distinct study records after merging known DOI/title duplicates. The planned-pool sulfonated-GO lead POOL-024 is merged into the verified sulfonated-GO record, not counted as another study. DOI and title matching must still be completed for records whose metadata remain unresolved.
 2. Tetracycline-family drugs must not be silently pooled. A paper on oxytetracycline, chlortetracycline, or doxycycline is not automatically a TC study.
 3. Papers using ultrasound, oxidants, photocatalysis, Fenton-like processes, or other coupled pathways need an adsorption-specific endpoint before inclusion.
 4. A theoretical or DFT-only paper can support a mechanism discussion but should not substitute for measured aqueous adsorption-performance data in the main performance table.
@@ -74,4 +74,4 @@ A second focused search pass added these further primary-study candidates to the
 - GO/PVA/calcium-alginate composite beads for ciprofloxacin (2026; DOI 10.1039/D6RA00494F): https://pubs.rsc.org/en/content/articlehtml/2026/ra/d6ra00494f
 - Direct GO adsorption work on tetracycline-class antibiotics (2012; DOI 10.1016/j.jcis.2011.11.015): https://www.sciencedirect.com/science/article/pii/S0021979711013919
 
-These additions broaden both dates and composite architectures while staying inside the two selected material families. They are still candidate records, not accepted-paper counts. The candidate register currently includes primary-study leads, near-misses/metadata gaps, and one context review; duplicate discovery aliases are explicitly marked and must not count as additional references. No numeric literature-coverage claim should be made until DOI-level deduplication and title/abstract/full-text eligibility decisions are complete.
+These additions broaden both dates and composite architectures while staying inside the two selected material families. They are still candidate records, not accepted-paper counts. The candidate register now contains distinct study records after merging the known sulfonated-GO duplicate, plus metadata-gap leads and one context review; unresolved records need a final DOI/title deduplication pass. No numeric literature-coverage claim should be made until DOI-level deduplication and title/abstract/full-text eligibility decisions are complete.
