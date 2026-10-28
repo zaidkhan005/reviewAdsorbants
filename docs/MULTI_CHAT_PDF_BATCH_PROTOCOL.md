@@ -10,7 +10,7 @@ The user plans to split newly downloaded papers across several branched chats, u
 
 ## Batch IDs and expected files
 
-Use `BATCH-01` through `BATCH-10` for the first ten chats. Each branch should be titled “PDF Upload 01”, “PDF Upload 02”, etc. Three PDFs per branch is the working default. If the user has fewer than 30 papers, leave unused slots empty; if they have more, assign new unique IDs after checking the tracker.
+Use `BATCH-01` through `BATCH-10` for the first wave of ten concurrent chats. Each branch should be titled “PDF Upload 01”, “PDF Upload 02”, etc. Three PDFs per branch is the working default. When the first wave is consolidated, start the next wave with `BATCH-11` through `BATCH-20`, then continue sequentially. Do not assume 30 papers is the total. The tracker currently reserves 100 batches (300 paper slots); append more rows as needed after BATCH-100.
 
 The tracker is `data/new-paper-upload-batch-tracker.csv`. **Do not edit that shared tracker from each branched chat.** The central/master chat updates it during consolidation.
 
@@ -46,7 +46,7 @@ Copy this into each new branch after assigning the right batch number:
 
 ## Central consolidation
 
-After the branches finish, the central/master chat must:
+After each wave of up to ten branches finishes, the central/master chat must:
 
 1. Fetch all batch notes and staging CSVs from GitHub and validate their schemas.
 2. Deduplicate candidates against the 68-row current register and across new batches using DOI plus title, respecting the existing DISC-022 deferral.
@@ -62,3 +62,10 @@ After the branches finish, the central/master chat must:
 - No paper is accepted solely because it appears in the planned download pool.
 - No candidate, evidence ID, source pinpoint, numerical result, quartile, or citation key may be invented.
 - `DISC-022` stays deferred until the user supplies its full text.
+
+
+## Concurrency vs. total volume (important)
+
+The user may have **any number of downloaded papers**. The operating limit is **10 active branched chats at once**, not 10 batches or 30 papers total. Each active chat receives up to three PDFs. Therefore, one wave of 10 chats can process up to 30 papers; once that wave has finished and its outputs have been consolidated, reuse the freed chat slots for the next wave with new, never-reused batch IDs. Repeat for as many waves as necessary.
+
+The tracker currently reserves `BATCH-01` through `BATCH-100` (300 paper slots) to make this convenient. If the corpus exceeds 300 papers, append further batches using `BATCH-101`, `BATCH-102`, etc.; never recycle an existing batch ID or filename. The maximum number of concurrent chats remains 10, even though the tracker can list many future batches.
