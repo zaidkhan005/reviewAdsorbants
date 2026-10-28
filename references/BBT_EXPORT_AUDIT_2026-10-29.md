@@ -2,6 +2,26 @@
 
 ## Scope and outcome
 
+## Important coverage correction — all bibliography entries are not processed
+
+The previous DOI-to-key crosswalk compared the export only against the **100-row project screening register** and the nine existing Section 2.3 claim-ledger rows. It did **not** mean that the full 164-entry bibliography had undergone screening or evidence extraction.
+
+A second, entry-by-entry inventory was therefore added: [`bibtex_full_corpus_processing_queue_2026-10-29.csv`](bibtex_full_corpus_processing_queue_2026-10-29.csv). It compares every exported key against the live candidate register and master evidence rows.
+
+| Status across all 164 BibTeX entries | Entry count | Meaning |
+|---|---:|---|
+| Registered; evidence rows already present | 90 | Some structured evidence exists for the candidate; this does not prove all claims/metrics in the paper have been extracted or checked |
+| Registered; evidence present but duplicate BibTeX item | 4 | These are the two duplicate DOI/title groups (two records each); merge only after preserving attachments/notes |
+| Not in screening register or evidence | 69 | The item has not yet been registered/screened in this project workflow; it requires triage, not automatic inclusion |
+| Registered but likely scope false-positive | 1 | CORP-062 is about proximity to protected areas/community adaptation, not antibiotic adsorption. Adjudicate the existing candidate record; do not spend extraction effort unless a documented scope rationale is found |
+| **Total exported entries** | **164** | |
+
+The 69 unregistered entries receive a **title-only triage signal**, not a final screening decision: **56 potential core adsorption/material papers** are the highest-priority screening queue; **9 contextual/mechanistic sorption papers** need a scope check first; and **4 likely reviews/background sources** should be used for citation discovery, not as primary quantitative evidence. The title signal must be confirmed with abstract/full text. Do not infer inclusion or exclusion from a BibTeX record or title alone.
+
+One registered paper, CORP-023, is represented in the export by a preprint DOI while the project evidence is attached to its published-version candidate record; the queue therefore counts evidence by linked candidate ID rather than incorrectly declaring the paper unextracted because the DOI/version differs. CORP-019 also has a year mismatch that must be fixed in Zotero and re-exported.
+
+
+
 Audited the uploaded `full ++.bib` export (SHA-256: `e8275eb705f3e1d3c85ba0acdc6caeda37f8ffe6c1ea5000f69c1d72c85f16ec`) against the live claim-to-source ledger and checked selected metadata gaps against publisher/index records.
 
 - 164 BibTeX entries: 163 `@article`, 1 `@misc`.
