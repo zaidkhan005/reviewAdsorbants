@@ -1,118 +1,144 @@
-# Semester paper scope proposal — antibiotic adsorption
+# Semester paper scope — approved working scope
 
-**Status:** Proposal only; scope is not locked until the user approves it.  
-**Date:** 2026-10-28  
-**Current priority:** Semester manuscript, approximately 50 distinct cited works. New PDF uploads are paused while the scope is narrowed. The broader 150-reference journal review remains a separate project and should not be overwritten.
+**Status:** Scope approved by the user; bibliographic screening and eligibility decisions are still in progress.  
+**Scope locked:** 2026-10-28  
+**Priority:** Semester manuscript with approximately 50 distinct cited works. New bulk PDF-upload waves remain paused while targeted searching and screening proceed.  
+**Project boundary:** This document governs the semester paper only. The broader antibiotic-adsorption review, its original outline, evidence corpus, journal-quartile audit, and unresolved items remain separate and must not be overwritten.
 
-## 1. Recommended working title
+## 1. Working title
 
-**Low-Cost Waste-Derived Carbonaceous Adsorbents for Ciprofloxacin Removal from Aqueous Media: A Critical Review of Processing, Performance, and Practical Feasibility**
+**Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**
 
-This improves the supplied draft title “Low cost adsorbant for the removal of antibiotics from the aqueous medium” by using the standard spelling **adsorbent**, naming one target compound (ciprofloxacin, CIP) rather than all antibiotics, defining the material family as waste-derived carbonaceous adsorbents rather than the vague phrase “non-natural adsorbents,” and making the review's added value a critical examination of whether the materials are genuinely low-cost and practically usable.
+Use *adsorbent* (not “adsorbant”). This title frames low cost as something to assess—not a claim already proved. “Green,” “sustainable,” or “waste-derived” is not the defining theme. Such materials can appear when they fit the selected graphene-based classes, but they receive no automatic priority.
 
-## 2. Why this scope is recommended
+## 2. Central question
 
-### Repository coverage check
-The 250-row planned pool currently has 32 titles matching ciprofloxacin (9 represented as existing-register entries and 23 new discovery leads); 15 of these rows are carbon-related by title/preliminary class. A separate targeted search pass returned 101 DOI-distinct records across four searches. A preliminary title/abstract filter identified 69 records matching CIP plus biochar/activated-carbon terms; 12 were already represented in the planned pool, leaving **57 net-new potential leads** for further screening. These are metadata/abstract-level discovery counts, not full-text inclusion decisions, accepted references, or proof of Q1 status. The majority have not been manually assessed in full text.
+**How do selected graphene-based adsorbents and graphene-bearing composites remove ciprofloxacin (CIP) and tetracycline (TC) from aqueous media, and what evidence supports their practical and low-cost potential when preparation, adsorption performance, recovery, regeneration, and limitations are considered together?**
 
-This means a focused CIP paper looks feasible for a 50-reference semester manuscript without relying on another bulk PDF upload wave. The leads should now be screened only after the scope is approved.
+### Supporting questions
 
-### Current review landscape and overlap risk
-A generic summary of CIP adsorption would overlap with the 2024 review “Towards sorptive eradication of pharmaceutical micro-pollutant ciprofloxacin from aquatic environment” (DOI: 10.1016/j.scitotenv.2024.170723), which reviews many adsorbents, mechanisms, reuse and cost assessment. A 2025 review specifically discusses pyrolyzed/co-pyrolyzed biomass-derived biochar for CIP (DOI: 10.1016/j.jaap.2024.106884). The semester paper should therefore not claim that CIP adsorption or biochar-based CIP removal has never been reviewed.
+1. How do graphene oxide (GO), reduced graphene oxide (rGO), and selected surface-functionalized derivatives differ in adsorption behaviour for CIP and TC?
+2. What additional benefit—if any—does magnetic functionalization or immobilization into a composite provide, particularly for recovery, reuse, and handling?
+3. How do pH/speciation, concentration, dose, contact time, competing solutes, and water matrix affect reported results?
+4. Which mechanisms are directly supported by characterization and experiments, and which are hypotheses based on model fits or indirect evidence?
+5. Do papers quantify material and preparation costs, chemical inputs, energy, yield, washing, recovery and regeneration—or merely describe an adsorbent as “low-cost”?
 
-The proposed distinction is a tightly scoped, evidence-audited comparison of **waste-derived carbon materials** with explicit attention to actual preparation burden, dose and concentration context, real-water performance, regeneration, continuous-flow evidence, and what is or is not documented about cost. Recent CIP biochar studies continue to appear, including a 2026 engineered water-hyacinth biochar study (DOI: 10.1038/s41598-026-60443-8), so a cutoff-date-aware search is needed.
+## 3. Material scope: two selected families only
 
-A tetracycline-only biochar paper is also possible, but dedicated reviews already include “Removal of tetracycline from water by adsorption with biochar” (2024; DOI: 10.1016/j.jwpe.2024.105215), a 2026 review of biomass-derived activated carbon and biochar for tetracycline, and a 2026 review of modified biochars across tetracyclines, sulfonamides and fluoroquinolones. A broad TC/biochar summary would therefore have a higher overlap risk unless its question were narrowed even further.
+### Family A — Graphene-based adsorbents
 
-## 3. Proposed scope boundaries
+Include selected primary studies on:
+- Graphene oxide (GO).
+- Reduced graphene oxide (rGO).
+- Surface-functionalized GO/rGO, such as sulfonated or other chemically functionalized derivatives, when the target-antibiotic adsorption result is extractable.
 
-### In scope — core material family
-1. **Waste-derived pristine/standard biochar:** biomass or waste feedstock thermally converted without deliberate post-production activation or chemical functionalization.
-2. **Modified/activated waste-derived biochar:** acid/base/salt activation, physical activation, or selected magnetic/metal/heteroatom modification, but only where the measured CIP adsorption result can be separated from catalytic degradation.
-3. **Waste-derived activated carbon:** biomass/agro-industrial or other waste-derived activated carbon, including comparisons with commercial powdered/granular activated carbon where helpful.
-4. **Selected carbon-based waste-derived hybrids:** include only if their processing inputs, material identity and CIP adsorption endpoint are sufficiently documented to assess the low-cost claim.
+### Family B — Selected graphene-bearing composites
 
-Keep feedstock and processing route as separate fields. Biochar, activated biochar, and activated carbon are not interchangeable material labels.
+Include selected studies on:
+- Magnetic GO/rGO composites (for example, graphene oxide combined with iron-oxide nanoparticles).
+- Chemically functionalized magnetic graphene composites.
+- Selected graphene–polymer/cellulose or immobilized graphene composites.
+- Selected graphene–metal-oxide composites when adsorption can be separated from any catalytic or oxidative removal.
 
-### In scope — target compound
-- Ciprofloxacin (CIP) is the sole target antibiotic for the main evidence tables and comparisons.
-- A study that tests CIP alongside another antibiotic or metal may be included only when its CIP-specific result and conditions are separable.
-- Other fluoroquinolones (such as norfloxacin, ofloxacin or levofloxacin) may appear in a short contextual discussion, but their capacities/removal rates will not be pooled with CIP or treated as CIP data.
+These are not blanket inclusions. A study must have a clear material identity and report a separable adsorption result for CIP and/or TC. Include a composite because it answers the review question—not just because it is novel.
 
-### Out of core scope
-- Natural clays and mineral sorbents as the main adsorbent class.
-- Raw biomass that has not been converted into a carbonaceous adsorbent.
-- Unmodified biopolymers and polymer-only adsorbents.
-- CNTs, graphene/GO, MOFs and other high-processing nanomaterials as core low-cost candidates. They may be mentioned briefly as benchmarks or contrasting engineered materials, but they should not be called low-cost without actual cost/process evidence.
-- Papers in which CIP disappearance is predominantly photocatalysis, oxidation, Fenton-like reactions, biodegradation, membrane rejection or another mechanism and no adsorption-specific result can be isolated.
-- Papers on another antibiotic only, or mixed-antibiotic results where the CIP-specific endpoint cannot be extracted.
+### Exclusions from the core material scope
 
-## 4. Review question and objectives
+- Carbon nanotubes (CNTs) as a standalone class.
+- Standalone conventional activated carbon or granular/powdered activated carbon; these may appear only as clearly labelled benchmarks when a study also reports a separable graphene result.
+- Standalone biochar, activated biochar, magnetic biochar, or other carbonaceous material without a graphene component.
+- Standalone chitosan/alginate/polymer adsorbents without a graphene component.
+- Natural clays, unmodified biomass, and unrelated composites such as standalone MOFs or mineral sorbents.
+- Papers that only discuss a material in a review, with no eligible primary result for the extraction table.
 
-**Primary question:** Under what conditions can waste-derived biochar and activated carbon be considered genuinely low-cost and practically useful adsorbents for ciprofloxacin removal from aqueous media?
+The word “non-conventional” is a scope descriptor, not an eligibility shortcut. Apply the material criteria above explicitly.
 
-Supporting questions:
-1. How do feedstock choice, pyrolysis, activation and modification change preparation burden and reported CIP adsorption?
-2. What conditions underpin each result: initial concentration, pH, dose, contact time, matrix, single-/multi-solute design and endpoint?
-3. What evidence is available for real water/wastewater, columns, breakthrough, regeneration, sorbent recovery, leaching and spent-adsorbent management?
-4. Do papers quantify cost, yield, reagents, energy, washing/neutralization or life-cycle impacts—or only describe the material as “cheap,” “green” or “sustainable”?
-5. Which studies are genuinely comparable, and which numerical comparisons should be withheld because their conditions or metrics differ?
+## 4. Antibiotic scope
 
-## 5. Non-negotiable evidence rules
+- **Ciprofloxacin (CIP)** and **tetracycline (TC)** are the two target antibiotics.
+- Include a paper studying additional antibiotics only when the CIP- or TC-specific adsorption data and conditions are separable.
+- Do not pool ciprofloxacin data with norfloxacin/ofloxacin, or tetracycline data with doxycycline/oxytetracycline/chlortetracycline.
+- Other antibiotics may be named briefly for context where scientifically useful, but their data do not enter the core comparative tables.
+- Binary/multicomponent tests are useful when results for CIP and/or TC are individually identifiable; record whether results came from single-solute or mixed-solute tests.
 
-- Keep Langmuir/Freundlich fitted values (e.g. qmax) separate from observed equilibrium uptake (qe), removal percentage, distribution coefficients, Dose75%, and fixed-bed model parameters.
-- Do not compare capacities or removal percentages as a universal ranking across different initial concentrations, adsorbent doses, pH, contact times or water matrices.
-- Distinguish synthetic water from natural water, spiked real wastewater and untreated native wastewater.
-- Keep adsorption separate from chemical/photocatalytic degradation. For mixed pathways, record the adsorption-specific measurement and the separate degradation contribution where reported.
-- Treat “low cost” as a hypothesis. Record any monetary value, currency/year, system boundary, reagent consumption, energy, yield, washing water, regeneration inputs and waste handling. If no cost is calculated, mark cost evidence as absent rather than infer it from a waste feedstock.
-- Preserve contradictions in the source; do not silently fix equations or conflicting tables/abstracts.
-- Journal quartile screening is a separate field. Verify the agreed provider/system, publication year and subject category; do not assume Q1 from journal reputation. If Q1-only inclusion is an explicit supervisor rule, implement it as an eligibility filter after the ranking audit.
-- Use original research for quantitative claims. Use reviews for search mapping and citation chasing, then inspect the primary paper before citing a reported value.
-- The final bibliography count is distinct works actually cited in the manuscript, not downloaded PDFs, candidate rows or evidence rows.
+## 5. Meaning of “low-cost potential”
 
-## 6. Planned 50-reference architecture
+Do not equate “made from waste,” “green,” high adsorption capacity, or a high removal percentage with low cost. Examine the evidence actually reported:
+- Precursor and reagent costs, chemical quantities, synthesis/functionalization steps, energy, product yield, washing and neutralization.
+- Solvents and desorption/regeneration inputs; cycle-to-cycle performance.
+- Magnetic separation or immobilization benefits alongside the extra synthesis and material inputs.
+- Any reported USD/kg or other price, with currency/year and system boundary.
+- Real-water performance, competing matrices, leaching, material stability, spent-adsorbent handling and scale-up constraints.
 
-These are target roles, not quotas to pad. Each unique work counts once in the bibliography, even if it supports multiple sections.
+If no defensible cost inventory or comparable cost metric is reported, record **cost evidence not reported**. Discuss processing burdens and cost uncertainties without inventing prices or asserting that the material is already low-cost.
 
-| Main role for a distinct reference | Target | Content |
-|---|---:|---|
-| Core original CIP adsorption studies on waste-derived biochar/activated carbon | 28 | Raw/pristine chars, activated chars, waste-derived AC and documented carbonaceous hybrids; exact CIP endpoints |
-| Application-focused original studies not already counted above | 7 | Real-water matrices, competition, fixed-bed/columns, breakthrough, regeneration or reuse |
-| Cost, processing, energy, LCA, leaching and spent-sorbent management | 5 | Quantified costs where available; chemistry/energy/wash burdens; practical end-of-life |
-| CIP speciation, pH/surface-charge, adsorption mechanisms and model-method foundations | 4 | Directly supports interpretation; do not rely on a kinetic fit alone as proof of mechanism |
-| Environmental occurrence and water-treatment context | 3 | Focused background and treatment rationale |
-| Recent high-quality reviews for scope/context/citation chasing | 3 | Include the 2024 CIP review and 2025 CIP-biochar review for positioning, not as primary data |
-| **Target total** | **50** | Approximately 45–55 distinct cited works acceptable, depending on the evidence and supervisor's requirement |
+## 6. Eligibility and evidence rules
 
-Some sources may cover several of these themes. The table assigns each a primary counting role only to help avoid accidental overcounting. If screening finds fewer than about 28 credible primary sources inside the narrow scope, return to the scope gate and consider widening only to **fluoroquinolones** (CIP, norfloxacin, ofloxacin, levofloxacin) while keeping all results antibiotic-specific. Do not broaden material classes and antibiotic classes at the same time.
+A candidate is provisionally eligible only when it:
+1. Is an original research study (reviews support context and citation chasing, not primary performance values).
+2. Uses a Family A or Family B material.
+3. Tests CIP and/or TC in an aqueous system and gives a target-specific result.
+4. Reports enough experimental conditions to interpret the adsorption result.
+5. Measures adsorption or permits its adsorption contribution to be separated from degradation or another removal process.
 
-## 7. Draft semester manuscript structure
+Exclude or isolate papers where CIP/TC disappearance is primarily due to photocatalysis, oxidation, Fenton-like reactions, sonochemical degradation, biodegradation, or another process and no adsorption-specific result can be extracted.
 
-1. **Introduction:** CIP in water and wastewater, why adsorption is considered, the cost-versus-practicality problem, review question and scope.
-2. **Scope and evidence method:** databases, search strings, date, duplicate handling, inclusion/exclusion rules and data extraction.
-3. **Waste-derived carbon adsorbent classes and processing routes:** standard biochar, activated/modified biochar, waste-derived activated carbon; feedstock, yield, heating, reagents and washing.
-4. **CIP adsorption performance under stated conditions:** batch equilibrium and kinetics; separate qmax, observed qe and removal percentage.
-5. **Solution chemistry and mechanisms:** pH/speciation, surface charge, ionic strength/DOM, competing solutes; evidence versus author interpretation.
-6. **Practical feasibility:** real water, columns, regeneration, recovery/separation, leaching, spent adsorbent and energy.
-7. **Is the low-cost claim substantiated?** Compare reported cost and process inputs; distinguish quantified evidence, proxy indicators and unsupported assertions.
-8. **Conclusions and research priorities:** defensible findings, limitations in the evidence base, and specific next experiments needed.
+For every numerical value, capture citation/DOI, source location (page/table/figure/equation), target antibiotic, material identity, pH, initial concentration, dose, contact time, solution matrix, endpoint and units. Preserve contradictions in the paper and flag missing conditions rather than silently reconciling them.
 
-## 8. Next work sequence (no paper-upload wave yet)
+### Non-negotiable quantitative distinctions
 
-1. Confirm or adjust the proposed scope/title.
-2. Run a reproducible, focused search for CIP + waste-derived biochar/activated carbon and deduplicate by DOI/title. The current targeted search found 57 additional potential records outside the existing planned pool; each still needs screening.
-3. Screen title/abstract, then use publisher/institutional access for papers that pass; do not ask for PDFs until the title/abstract screen identifies what is genuinely needed.
-4. Make the source-pinned evidence extraction table for the semester paper, prioritizing observed conditions, real water, regeneration, column use and any cost data.
-5. Audit journal-year/category rules only after the eligible candidate set is established.
-6. Draft section-by-section against evidence IDs; then convert references through Zotero/Better BibTeX and reconcile every in-text citation to the bibliography.
+- Keep fitted isotherm parameters (including Langmuir qmax) separate from observed equilibrium uptake (qe), time-specific qt, removal percentage, and column/breakthrough capacities.
+- Do not create a universal ranking of capacities from studies with different concentrations, doses, pH, contact time, or water matrices.
+- Distinguish synthetic water, spiked real water, synthetic urine, and real wastewater.
+- A pseudo-second-order kinetic fit alone does not prove chemisorption. Do not treat a good fit as direct mechanism evidence.
+- Separate single-solute from binary/multicomponent results.
+- Track journal, publication year, and verified ranking/quartile separately; do not infer Q1 status from reputation. Apply a Q1-only rule only if explicitly confirmed as a requirement for this semester submission.
 
-## 9. Discovery links and positioning sources
+## 7. Intended manuscript structure
 
-- 2024 broad CIP sorption review: https://doi.org/10.1016/j.scitotenv.2024.170723
-- 2025 review on pyrolyzed/co-pyrolyzed biomass-derived biochar for CIP: https://doi.org/10.1016/j.jaap.2024.106884
-- 2026 engineered water-hyacinth biochar for CIP adsorption: https://doi.org/10.1038/s41598-026-60443-8
-- Alternative TC/biochar review (2024): https://doi.org/10.1016/j.jwpe.2024.105215
-- Alternative biomass-derived activated carbon/biochar for TC review (2026): https://doi.org/10.1021/acsomega.6c00799
-- Modified-biochar review across TCs, sulfonamides and fluoroquinolones (2026): https://doi.org/10.1039/d6ra06945b
+1. **Introduction:** CIP and TC in aqueous media; adsorption rationale; why high performance does not automatically mean practical affordability; objective and gap.
+2. **Scope and evidence method:** databases/search platforms, full search strings, search date, deduplication, inclusion/exclusion rules and extraction method.
+3. **Material design and preparation:** GO/rGO, surface functionalization, magnetic/metal-oxide composites, and selected immobilized graphene composites; preparation burden as well as structural properties.
+4. **CIP and TC adsorption performance:** compare within appropriate conditions, keeping fitted capacities and observed endpoints distinct.
+5. **Solution chemistry and adsorption mechanisms:** pH/speciation, surface charge, ionic strength, competing solutes, interaction mechanisms and strength of evidence.
+6. **Recovery, regeneration and water-matrix performance:** magnetic separation/immobilization, desorption, reuse cycles, real-water evidence, leaching and practical limitations.
+7. **Assessing low-cost potential:** reported cost evidence, processing inputs, recovery/regeneration burden, and gaps that prevent reliable cost comparison.
+8. **Conclusions and research priorities:** evidence-supported conclusions, limitations, and the experiments/cost data needed next.
 
-**This document records a recommended scope, not a final scope decision.** No existing manuscript, master evidence table, broad journal-version outline, or DISC-022 status has been changed by this proposal.
+## 8. Tables and figures are core deliverables
+
+Use the supplied reference review as a guide to the *role* and density of visual synthesis, not as text or figure material to copy. The working plan is **5–6 substantive tables and 3–4 original figures**, subject to what the evidence supports.
+
+### Candidate tables
+1. Target antibiotic properties/speciation relevant to adsorption (with source citations).
+2. Study-by-study core data for graphene-based GO/rGO adsorbents.
+3. Study-by-study core data for magnetic/functionalized/immobilized graphene composites.
+4. Cross-study operating conditions and performance, with comparability limitations explicit.
+5. Evidence-weighted mechanism matrix: proposed mechanism, supporting experiment, and strength/limitations of evidence.
+6. Practical-feasibility matrix: preparation, chemical/energy burden, recovery, regeneration, water matrix, leaching, and cost evidence.
+
+### Candidate original figures
+1. Scope/material taxonomy and the two included families.
+2. Generalized preparation/functionalization pathways, only with source-supported steps.
+3. Schematic of possible interactions between CIP/TC and graphene surfaces/composites, labelled as hypotheses unless supported by primary evidence.
+4. Performance–preparation–recovery–cost framework showing trade-offs, not an unsupported single-number “winner.”
+
+No figure should be a collage of copied paper figures. Use original, source-cited schematics and evidence-driven diagrams. Place tables/figures at the end only if the target journal or department template requires it.
+
+## 9. Reference target
+
+Aim for approximately **50 distinct works actually cited** (roughly 45–55 is an initial planning range, not a padding quota). An initial role map is:
+- Around 25–30 core original adsorption studies across the two material families and two antibiotics.
+- Additional original studies supporting recovery, regeneration, competing-solute behaviour, water-matrix applicability and preparation trade-offs.
+- A small set of method/mechanism/antibiotic-speciation sources.
+- A few recent reviews used to map the field and position the contribution, while numeric values are traced to original studies.
+
+These roles overlap; one work counts only once in the bibliography. If strict screening yields too few eligible primary studies, do not fill the gap with unrelated adsorbents. Reassess scope feasibility before expanding, and change only one dimension at a time (material family or antibiotic boundary), with an explicit decision recorded.
+
+## 10. Immediate next sequence
+
+1. Run a targeted search for graphene/GO/rGO and selected graphene composites with CIP and TC.
+2. Deduplicate candidates by DOI/title and classify by material family, target antibiotic, study type, adsorption-only status, full-text availability and source quality.
+3. Screen titles/abstracts, then full texts for promising candidates; existing pool tags are discovery leads, not accepted inclusions.
+4. Build the evidence tables from primary studies, then decide which comparisons and original figures the evidence can genuinely support.
+5. Check the distinct-reference count against the approximately 50 target without padding.
