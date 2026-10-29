@@ -9,7 +9,7 @@
 |---|---:|---|
 | Semester candidate register | 44 rows | Includes one duplicate alias row |
 | Unique DOI-defined studies | 43 | SEM-026 is canonical for Fei et al. (2016); SEM-041 is its alias |
-| Semester evidence CSV | 31 rows / 31 unique evidence IDs | Source-linked evidence records, not 31 validated or accepted studies |
+| Semester evidence CSV | 33 rows / 33 unique evidence IDs | Source-linked evidence records, not 33 validated or accepted studies |
 | Semester crosswalk | 44 rows | One row per retained register identifier, including the alias |
 | Broad candidate register | 111 rows | Separate full-review workstream |
 | Broad evidence CSV | 505 rows | Separate full-review evidence stream |
@@ -95,3 +95,8 @@ The register remains 44 rows / 43 DOI-defined studies (SEM-041 is a retained ali
 ## Latest primary-publisher preview checks — SEM-014 and SEM-030
 
 The dedicated evidence CSV now has **31 unique rows**. SEM-014 (GO·Fe₃O₄ for TC) reports 531.93 mg/g at C₀=1000 mg/L, 50 mg dose, pH 7 and 293 K; solution volume and whether the reported capacity is observed or fitted are not visible in the preview. DFT values are not experimental adsorption metrics. SEM-030 (GO–[Ni(DMG)]ₙ for CIP) reports Langmuir-comparison qmax 117–159 mg/g and PSO k=0.0005–0.0009 g/(mg·min), but says Freundlich/Temkin fit the isotherms better; exact conditions, ratios, reuse and cost are not accessible in the abstract. Both rows remain provisional and cannot be ranked as validated capacities.
+
+
+## Further source checks — SEM-012 and SEM-025 (29 October 2026)
+
+The dedicated evidence CSV now contains **33 unique records**. SEM-012’s primary publisher text reports 96.39% CIP removal at 15 mg/L, 0.55 g composite in 15 mL (=36.7 g/L), pH 7, 33 min and ultrasonic-bath conditions; source-derived matrix results are ~90–94% removal in tap, river, lake and wastewater. A mass-balance calculation implies qe≈0.394 mg/g at the stated optimum, but that is derived rather than directly reported. Ultrasound power/energy and numerical isotherm parameters are unavailable, so this case needs a distinct ultrasound-assisted operating label. SEM-025’s abstract-level preview reports fitted Langmuir qₘ=282.9 mg/g, PSO kinetics and ~72% of initial capacity after four uses, but exact feed/dose/temperature and cost are not accessible. These remain provisional source records, not validated rankings.
