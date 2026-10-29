@@ -152,3 +152,7 @@ No new user files are needed. Next highest-value task is metric/provenance QA ac
 ## Citation-key linkage status — 29 October 2026
 
 The three available BibTeX exports were checked against the semester candidate register. Six distinct works have exact DOI/key matches: SEM-016, SEM-020, SEM-032, SEM-038, SEM-039 and SEM-040. SEM-016/032/038 keys appear across all three exports; SEM-020/039/040 appear only in `full ++.bib`. No additional exact candidate title matches were found in the target-term title scan. Other candidates are not yet citation-ready from these files, but may exist in Zotero or another export; do not infer absence from one export alone. SEM-041 remains a duplicate alias of SEM-026.
+
+## Narrative drafting checkpoint — 29 October 2026
+
+Created `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` (six subsections; 14k+ characters). It uses six keys verified by exact DOI matches across the available BibTeX exports and explicitly flags nine unresolved citation-key positions. Candidate register remains 44 rows, dedicated evidence CSV 37 rows, condition-labelled comparison 18 rows, shortlist 44 rows, readiness audit 37 rows, and citation linkage audit 44 rows. No user download/upload is required. The next best step is to resolve citation links for selected, evidence-ready studies and then draft methods/search and introduction—not add more candidates.
