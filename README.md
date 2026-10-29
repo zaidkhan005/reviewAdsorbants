@@ -53,6 +53,11 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 37 dedicated evidence records.
 
+## Citation readiness
+
+- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage across the three existing BibTeX exports.
+- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains the six verified key matches and how to handle unmatched candidates safely.
+
 ## Repository map
 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
