@@ -408,3 +408,29 @@ The article calls the composite low-cost because of component sources and reusab
 **Recovery and remaining limits:** The paper describes magnetic separation, methanol treatment, distilled-water washing, drying at 50°C, and up to eight regeneration rounds; a reported efficiency drop from ~95% to ~90% is not completely pinned to TC-only cycle-by-cycle values in this extraction. No real-water testing or quantified cost data were reported. Cost claims should not be inferred merely from the waste-derived graphite feedstock.
 
 **Source pins:** Scheme 1; §3.1 characterization; §§3.2.2–3.2.7 adsorption/pH/concentration/kinetics/isotherms/reuse; Table 2 and Fig. 9.
+
+
+## EV-SEM-028 — EDTA-functionalized magnetic GO / tetracycline (mGO/EDTA, 2026)
+
+**Primary source:** *EDTA-functionalized magnetic graphene oxide for rapid and efficient removal of tetracycline from aqueous media*, DOI [10.1016/j.dwt.2026.101889](https://doi.org/10.1016/j.dwt.2026.101889); [ScienceDirect primary article](https://www.sciencedirect.com/science/article/pii/S1944398626002638).
+
+**Preparation:** GO was prepared from 3 g spent-dry-cell graphite with 360 mL concentrated H₂SO₄, 40 mL H₃PO₄, 18 g KMnO₄, 3 mL 30% H₂O₂, 30% HCl and ethanol. Magnetic GO was made by dispersing 0.08 g GO in 50 mL water (35-min sonication), combining with Fe₂(SO₄)₃·7H₂O (7.998 g) and FeSO₄·7H₂O (2.781 g) in 100 mL water (35-min sonication), mixing at 50°C/30 min, precipitating at pH≈11 with 2 M NaOH, stirring 80°C/2 h, washing and vacuum drying at 60°C/18 h. mGO/EDTA then used 0.50 g mGO in 20 mL 10% aqueous acetic acid, mixed with 3 g EDTA in 50 mL methanol for 24 h at room temperature; magnetic isolation, water/ethanol washes and drying at 50°C. No cost/yield/energy inventory.
+
+**Optimized batch result:** Total 20 mL TC solution (18 mL water + 2 mL stock), C₀=0.2 mg/L, dose=0.10 g/L (=0.002 g adsorbent), pH 5, contact time 5 min, 25°C, 250 rpm. Removal is 93.23%. The initial TC mass is 0.2 mg/L × 0.020 L = 0.004 mg; removed mass is 0.004 × 0.9323 = 0.0037292 mg; division by 0.002 g adsorbent implies **qₑ≈1.8646 mg/g** under the listed conditions.
+
+**Important kinetic inconsistency:** The article's best-R² pseudo-second-order fit reports qₑ=0.01937 mg/g (R²=1), about **96× lower** than mass-balance-implied qₑ≈1.865 mg/g. Its pseudo-first-order fit reports qₑ=3.65672 mg/g (R²=.62776), while Elovich α=2.88×10⁷⁴ in the printed units is also extreme. Do not quote the R²=1 fitted qₑ as a physically validated uptake value; record the source model output and the mass-balance flag side by side.
+
+**Isotherms:** Freundlich is the best reported fit at 25°C (n=1.97, K_F=13.27, R²=.94957). The Langmuir fitted q_max=31.32 mg/g at 25°C has only R²=.69125; it declines to 28.22 mg/g at 35°C (R²=.4795) and 10.79 mg/g at 45°C (R²=.98312). Keep these fitted parameters separate from the specific low-C₀ removal test. Eight adsorption–desorption cycles are reported with removal decreasing from ~94% to 90.50%; spent material was magnetically recovered, washed three times with methanol under ultrasonication, and dried at 60°C.
+
+**Cost:** No monetized cost, yield, energy, solvent-recovery balance, or cost per mass of TC removed. The dry-cell feedstock is not proof of low cost: the recipe still uses strong acids/oxidants, iron salts, NaOH, EDTA, acetic acid, methanol, extensive washing, sonication and drying.
+
+**Source pins:** Methods §2; results §§3.1–3.2; Tables 1–5 (isotherm, kinetics and thermodynamics). Exact printed page pins not independently captured from the browser view.
+
+
+## EV-SEM-029 — GO/calcium-alginate composite fibers / ciprofloxacin (Wu et al., 2013)
+
+**Primary source:** Wu et al., *Adsorption of ciprofloxacin onto biocomposite fibers of graphene oxide/calcium alginate*, *Chemical Engineering Journal* 230 (2013), 389–395, DOI [10.1016/j.cej.2013.06.072](https://doi.org/10.1016/j.cej.2013.06.072); [ScienceDirect abstract](https://www.sciencedirect.com/science/article/abs/pii/S1385894713008450).
+
+**Accessible primary-source statements:** GO/CA fibers were prepared by wet spinning; GO loading varied from 0 to 6 wt%. The abstract reports optimum pH 5.9 and equilibrium contact time 24 h. Removal percentage reached 78.9% at 2 g/L adsorbent dose and 6 wt% GO loading. At equilibrium CIP concentration 60 mg/L, reported adsorption capacity rose from 18.45 mg/g at 0 wt% GO to 39.06 mg/g at 6 wt% GO.
+
+**Model and limits:** Freundlich was reported to fit isotherm data well, and pseudo-second-order was reported for kinetics, but numeric Freundlich parameters, kinetic qe/k₂, exact wet-spinning ingredient quantities, and regeneration details were not present in the accessible abstract/section snippets. Do not call 39.06 mg/g a fitted q_max; it is the source-reported capacity at the specified equilibrium concentration. The reported 78.9% removal is at 2 g/L dose and 6 wt% GO, while the exact paired starting concentration is not available in the snippet, so don't merge it with the 60 mg/L equilibrium-capacity point without verifying the primary table. No specific cost/yield/energy inventory or multicycle reuse result was accessible.
