@@ -9,8 +9,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
-- Candidate register: 44 semester candidates.
-- Dedicated semester evidence CSV: 24 records.
+- Candidate register: **44 semester candidates**.
+- Dedicated semester evidence CSV: **24 evidence records**.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
 - Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
