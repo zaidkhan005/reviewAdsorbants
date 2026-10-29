@@ -7,7 +7,7 @@
 
 ## 1. Where we are
 
-The candidate register has 44 study records. The core evidence CSV has 24 dedicated semester evidence records; relevant evidence already extracted in the broad corpus is cross-referenced via `data/semester-main-corpus-crosswalk.csv` rather than duplicated. These are evidence records, not 24 final accepted studies: some are full-text extracted; others rely on indexed text or abstracts and still lack table-level verification.
+The candidate register has 44 study records. The core evidence CSV has 37 dedicated semester evidence records; relevant evidence already extracted in the broad corpus is cross-referenced via `data/semester-main-corpus-crosswalk.csv` rather than duplicated. These are evidence records, not 37 final accepted studies: some are full-text extracted; others rely on indexed text or abstracts and still lack table-level verification.
 
 Two of the newest fully extracted papers were already available in the user's Library, and a further in-scope N-rGO paper is already fully extracted in the broad corpus:
 - Shah et al. (2025), sulfonated graphene oxide (SGO) for CIP, DOI [10.1021/acsomega.4c11231](https://doi.org/10.1021/acsomega.4c11231).
@@ -148,7 +148,7 @@ The earlier suggested downloads for SEM-006 and SEM-037 are no longer user actio
 
 Three more on-scope candidate records now have source-linked evidence: SEM-020 (CIP on graphene, abstract-level), SEM-039 (TC on a CNF/GO aerogel), and SEM-040 (TC on graphene in a mixed seven-antibiotic solution at 200 µg/L per drug). The evidence matrix keeps the abstract-level row provisional, records Yao et al.'s q_m and kinetic q_e separately, and does not infer a precise TC percentage from Peng et al.'s figure-only range. The core performance table should remain condition-aware; these are not a universal rank list.
 
-Historical snapshot before the later abstract-screening waves: 40 candidate rows and 16 dedicated evidence rows. Current state is 44 register rows, 43 unique DOI-defined works, and 24 evidence rows. The ~50 distinct cited-work target is still open.
+Historical snapshot before the later abstract-screening waves: 40 candidate rows and 16 dedicated evidence rows. Current state is 44 register rows, 43 distinct studies after excluding the SEM-041 alias (42 valid DOI strings; SEM-021 DOI pending), and 37 evidence rows. The ~50 distinct cited-work target is still open.
 
 
 ## Abstract-level source wave — 29 October 2026
