@@ -8,6 +8,10 @@ The detailed checkpoint and sprint table below are a dated 2026-10-27 snapshot, 
 
 The narrow semester paper is a separate workstream: 44 candidate rows (43 distinct studies after the SEM-041 alias), 37 dedicated evidence records, the locked graphene/CIP/TC scope and an approximately 50-work actual-citation target. The user has paused downloads; do not follow old snapshot instructions to ask them for another PDF. Continue with existing Library files, current evidence and legitimate accessible sources.
 
+## Citation-linkage checkpoint overlay (2026-10-30)
+
+The current semester manuscript contains 15 distinct citation keys, all reconciled to the curated 15-entry bibliography and the user's latest 173-entry Better BibTeX export. Nine previously unresolved keys were replaced with verified export keys. This does **not** mean the approximate 50-work cited-reference target is complete: many candidate papers still lack verified citation keys, and SEM-001/SEM-015 are examples checked against but absent from the latest export. The 164-entry broad processing queue below remains a dated 2026-10-29 snapshot and has not been conflated with the separate semester citation additions.
+
 ## Historical restart checkpoint (2026-10-27; superseded by live status overlay)
 
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
