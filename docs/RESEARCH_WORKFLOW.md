@@ -4,7 +4,7 @@
 
 The numbers in the 2026-10-27 checkpoint below are historical. Current live files contain 111 candidate records in `data/corpus-screening-register.csv`, 505 evidence rows in `data/corpus-evidence.csv`, and 41 journal records in `data/journal-quartile-audit.csv`. The processed Better BibTeX queue contains 164 entries; 58 are not yet in the screening register, and final paper eligibility and citation status are not complete. The 208-row primary-study comparison matrix covers 43 candidate IDs and is a focused subset, not the full corpus.
 
-A separate approved semester paper is tracked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`, `data/semester-paper-candidate-register.csv` (44 candidates), `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv` (23 dedicated records), and `data/semester-main-corpus-crosswalk.csv`. Its scope is graphene-based adsorbents/composites for CIP and TC; do not merge its ~50 actual-citation target with the broad-review ~60/~150 targets. The user has paused new downloads; proceed with available files and accessible sources.
+A separate approved semester paper is tracked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`, `data/semester-paper-candidate-register.csv` (44 candidates), `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv` (24 dedicated records), and `data/semester-main-corpus-crosswalk.csv`. Its scope is graphene-based adsorbents/composites for CIP and TC; do not merge its ~50 actual-citation target with the broad-review ~60/~150 targets. The user has paused new downloads; proceed with available files and accessible sources.
 
 
 ## Historical corpus checkpoint and restart rule (2026-10-27; superseded by live status overlay)
