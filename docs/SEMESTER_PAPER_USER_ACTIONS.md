@@ -85,3 +85,11 @@ Four new evidence records are committed: EV-SEM-034 (MGO/TC-HCl; numeric capacit
 - `data/semester-condition-labelled-comparison.csv`: first 18-row CIP/TC comparison table with target conditions, observed endpoints, fitted endpoints, reuse, cost and data-quality restrictions.
 
 **No action needed from you right now.** No new downloads/uploads are requested.
+
+## Citation-key audit — 29 October 2026
+
+- `data/semester-bibtex-citation-linkage-audit.csv` now maps all 44 candidate rows to key status across the three available BibTeX exports.
+- Six distinct works have verified keys: SEM-016, SEM-020, SEM-032, SEM-038, SEM-039, SEM-040. Three keys appear in all three exports; three appear only in `full ++.bib`.
+- The other candidate records are not yet linked to a key by the inspected exports; this is not proof that they are absent from Zotero. Do not invent citation keys.
+
+**No action needed from you right now.** The next work is to convert the selected, evidence-backed claims into citation-ready prose using the keys that are verified and a clearly tracked list of references whose keys still need reconciliation.
