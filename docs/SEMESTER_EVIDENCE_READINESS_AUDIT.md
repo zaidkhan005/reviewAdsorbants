@@ -9,7 +9,7 @@
 |---|---:|---|
 | Semester candidate register | 44 rows | Includes one duplicate alias row |
 | Unique DOI-defined studies | 43 | SEM-026 is canonical for Fei et al. (2016); SEM-041 is its alias |
-| Semester evidence CSV | 27 rows / 27 unique evidence IDs | Source-linked evidence records, not 27 validated or accepted studies |
+| Semester evidence CSV | 29 rows / 29 unique evidence IDs | Source-linked evidence records, not 29 validated or accepted studies |
 | Semester crosswalk | 44 rows | One row per retained register identifier, including the alias |
 | Broad candidate register | 111 rows | Separate full-review workstream |
 | Broad evidence CSV | 505 rows | Separate full-review evidence stream |
@@ -58,7 +58,7 @@
 
 ## Next execution sequence
 
-1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition. SEM-042’s accepted-manuscript text has now been audited; its 100-g/column-geometry anomaly is confirmed and dynamic q₀/τ values are quarantined. SEM-027, SEM-029 and SEM-034 have also been extracted from open full text as EV-SEM-025–EV-SEM-027.
+1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition. SEM-042’s accepted-manuscript text has now been audited; its 100-g/column-geometry anomaly is confirmed and dynamic q₀/τ values are quarantined. SEM-027, SEM-029 and SEM-034 have also been extracted from open full text as EV-SEM-025–EV-SEM-027. SEM-019 and SEM-028 have since been added as EV-SEM-028–EV-SEM-029.
 2. Keep low-cost claims evidence-based. No study should be called demonstrably low-cost when whole-process synthesis, yield, energy, recovery and cost denominator are missing. Preparation and regeneration burdens are proxies, not monetary estimates.
 3. Build comparisons around evidence class: batch results, mixed-solute tests, water-matrix tests and continuous-flow/column evidence. Put qmax/qm in a fitted-capacity column; do not merge it with observed qe, kinetic-model qe or removal percentage.
 4. Complete final inclusion only after target-drug, material-family, article type, source status and journal/year/category ranking checks. The approximately 50-work citation target remains open and is counted as distinct works actually cited, not candidate rows.
@@ -80,3 +80,13 @@ The semester evidence CSV now contains **27 unique evidence IDs**. Three further
 - **SEM-034 / EV-SEM-027 — Hossain et al. (2024), GO/Co–Fe magnetic nanocomposite for TC.** At C₀=.2 mg/L, dose=.15 g/L, pH 7, 30 s and 25°C, removal is 94.1% in the abstract/body but 93.94% elsewhere. Langmuir qₘ=64.10 mg/g is fitted at 50°C, not the same condition. CTC/OTC/DTC are kept separate; no cost or real-water test was reported.
 
 These papers provide usable source-derived evidence, but none supports an unconditional cost or capacity ranking. Candidate register remains 44 rows / 43 DOI-defined works (SEM-041 is the SEM-026 alias). The ~50 actually-cited-work target remains open.
+
+
+## Follow-on extraction — SEM-019 and SEM-028 (29 October 2026)
+
+The evidence CSV now has **29 unique records**.
+
+- **SEM-019 / EV-SEM-028 — EDTA-functionalized magnetic GO for TC:** 93.23% removal at C₀=0.2 mg/L, 20 mL, dose 0.10 g/L, pH 5, 5 min and 25°C. Mass-balance qₑ≈1.865 mg/g, while the source reports PSO fitted qₑ=0.01937 mg/g (R²=1), about 96× lower. Keep the discrepancy explicit and quarantine the kinetic-model qₑ; Langmuir qmax=31.32 mg/g at 25°C has weak R²=.691, while Freundlich fits better. Eight-cycle removal declines ~94%→90.50%; no quantified cost.
+- **SEM-028 / EV-SEM-029 — GO/calcium-alginate fibers for CIP:** abstract/snippets report 78.9% removal at 2 g/L and 6 wt% GO, optimum pH 5.9 and 24 h equilibrium, plus observed capacity 18.45→39.06 mg/g as GO loading increases 0→6 wt% at equilibrium C=60 mg/L. Exact paired conditions, numeric fitted parameters, full spinning recipe and cost/reuse data were not accessible.
+
+The register remains 44 rows / 43 DOI-defined studies (SEM-041 is a retained alias of SEM-026). These additions do not expand the approved scope; they fill evidence gaps in already registered candidates.
