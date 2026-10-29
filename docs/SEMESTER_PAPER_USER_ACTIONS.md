@@ -9,8 +9,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
-- Candidate register: **44 rows, 43 unique DOI-defined works**; SEM-041 is a duplicate alias of SEM-026.
-- Dedicated semester evidence CSV: **31 evidence records**.
+- Candidate register: **44 rows, 43 distinct candidate studies after excluding the SEM-041 duplicate alias; 42 have valid DOI strings and SEM-021 still needs DOI verification**; SEM-041 is a duplicate alias of SEM-026.
+- Dedicated semester evidence CSV: **37 unique evidence records**.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
 - Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
@@ -56,7 +56,7 @@ SEM-042’s accepted-manuscript methods, isotherm text and dynamic tables have b
 
 ## New full-text additions — EV-SEM-025–027 (29 October 2026)
 
-The new evidence rows are committed and linked to candidate IDs. The candidate register remains 44 rows / 43 DOI-defined works; the evidence CSV now has 27 unique records. A separate crosswalk refresh was committed for SEM-027, SEM-029, SEM-034 and SEM-042. None of the new source gaps require user files. Continue with primary-source validation and condition-matched synthesis; do not ask the user for downloads.
+The new evidence rows are committed and linked to candidate IDs. The candidate register remains 44 rows / 43 distinct studies after excluding the SEM-041 alias (42 verified DOI strings; SEM-021 DOI pending); the evidence CSV now has 27 unique records. A separate crosswalk refresh was committed for SEM-027, SEM-029, SEM-034 and SEM-042. None of the new source gaps require user files. Continue with primary-source validation and condition-matched synthesis; do not ask the user for downloads.
 
 
 ## Two more existing-source extracts (29 October 2026)
