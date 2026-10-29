@@ -338,3 +338,17 @@ The public author-uploaded full text of Shaha et al. (2026), Results in Engineer
 Primary-source link: https://doi.org/10.1016/j.rineng.2026.110064
 Public full-text article record: https://www.researchgate.net/publication/402064345_Kinetic_Isotherm_and_Thermodynamic_Analysis_of_the_Simultaneous_Adsorption_of_Ciprofloxacin_Moxifloxacin_Levofloxacin_and_Sparfloxacin_onto_Sulfonated_Graphene_Oxide_in_Binary_Ternary_and_Quaternary_A
 
+
+
+## Follow-up source check — SEM-033 / EV-SEM-037 (29 October 2026)
+
+The rotating-field Fe3O4/rGO study was rechecked using the official ScienceDirect abstract and selected indexed article-preview content. ResearchGate indicates no full-text access, and the inspected Library search did not reveal its PDF/supplement.
+
+- Abstract-level conditions: 30 mg/L pollutant, 1.0 g/L dose, 2 A excitation current; optimum pH 5 for TCH and pH 7 for OFL; material surface area 95.12 m²/g; >96% removal for both antibiotics; >87% efficiency after four cycles.
+- The publisher preview includes a qualitative RMF-present vs absent comparison for three material variants and says all variants adsorbed more under RMF, with CP-Fe3O4/rGO best. The prior note claiming the field-free comparator was unavailable is corrected. Quantitative effect sizes are still not extracted.
+- Full matrix composition, field frequency/strength, voltage/power, energy per volume, numerical q_max/q_e, detailed cycle protocol and full article/SI tables remain unavailable. Keep the material as provisional configuration evidence and do not infer energy efficiency or low-cost superiority.
+- Updated manuscript §3.3; EV-SEM-037 in the readiness and condition-labelled tables; RD-013 in the claim-audit; SEM-033 in the crosswalk; and the narrative audit report.
+
+Primary publisher source: https://www.sciencedirect.com/science/article/pii/S1383586625046465
+ResearchGate accessibility record: https://www.researchgate.net/publication/397666081_Rotating_magnetic_field-enhanced_adsorption_of_tetracycline_hydrochloride_and_ofloxacin_using_Fe3O4reduced_graphene_oxide_composites
+
