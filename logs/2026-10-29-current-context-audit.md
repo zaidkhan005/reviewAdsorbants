@@ -413,3 +413,14 @@ The actual Library file `/full ++.bib` was located and materialized for a direct
 The other nine have complete records in `references/semester-manuscript-cited-references.bib`, but use project-local citation keys not verified as live Better BibTeX keys. To make that gap actionable without importing the six records already present in the export, created `references/zotero-import-batch-missing-nine-2026-10-29.bib` with only those nine entries. The linkage audit rows are updated to point to this batch.
 
 **Next action:** before importing, search Zotero by DOI for duplicates (the checked export may be older than the live Zotero library). Import only missing items, generate a fresh Better BibTeX export, then map the newly generated citation keys back into the manuscript. Until that re-export exists, the current standalone manuscript bibliography is citation-complete locally but not fully synchronized to the user's Zotero/Better BibTeX keyspace.
+
+## Final synchronization after citation batch creation (29 October 2026)
+
+The manuscript §3.6 citation-readiness note and claim-audit row RD-018 were updated after the import-batch creation. A fresh repository fetch confirms: 14 citation commands cover 15 distinct unique keys; the local standalone bibliography has 15 entries; every manuscript key resolves locally; there are no orphan entries or `CITATION KEY PENDING` placeholders. The import file contains exactly nine unique entries, all of them already represented by project-local entries in the standalone bibliography. Six references remain exact DOI/key matches in full ++.bib; the nine missing-export items remain not synchronized until a fresh Zotero/Better BibTeX export is checked.
+
+Validated links:
+- `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md`
+- `references/semester-manuscript-cited-references.bib`
+- `references/zotero-import-batch-missing-nine-2026-10-29.bib`
+- `data/semester-bibtex-citation-linkage-audit.csv`
+- `data/semester-results-discussion-claim-evidence-audit.csv`
