@@ -93,3 +93,9 @@ Four new evidence records are committed: EV-SEM-034 (MGO/TC-HCl; numeric capacit
 - The other candidate records are not yet linked to a key by the inspected exports; this is not proof that they are absent from Zotero. Do not invent citation keys.
 
 **No action needed from you right now.** The next work is to convert the selected, evidence-backed claims into citation-ready prose using the keys that are verified and a clearly tracked list of references whose keys still need reconciliation.
+
+## Results and discussion draft — 29 October 2026
+
+Created `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md`, a six-subsection working draft covering condition-dependent adsorption performance, fitted-versus-observed metrics, composite/recovery burdens, multi-solute/flow-through distinctions, cost-evidence limitations and data-quality caveats. It uses only the six Better BibTeX keys verified by exact DOI matching and leaves nine explicit citation-key-pending markers for unresolved source keys. It is a working draft, not final submission prose.
+
+**No action needed from you right now.**
