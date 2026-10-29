@@ -461,3 +461,11 @@ Validated links:
 - The same source reports 97.43 mg/g alongside 84.84% removal in §3.2.1; Table 1 has pseudo-first-order fitted q_e=106.96 mg/g (R²=0.949), abstract text gives 106.97 mg/g, and Table 3 lists 106.9 mg/g for the headline condition. The 106.96/106.9 values exceed the ceiling if they share the stated conditions. Preserve the discrepancy; no source correction or raw-data explanation was found. Table 2 reports Freundlich R²=0.95 as the better isotherm fit, while the authors say Langmuir does not fit significantly.
 - Reuse removal falls from 80.4% in cycle 1 to 27% in cycle 5. The paper also says real-water/scale-up work and techno-economic/life-cycle assessment are still needed. The study does not demonstrate real-wastewater treatment or provide a comparable cost inventory.
 - Updated the core evidence CSV, readiness audit, inclusion shortlist, candidate register, condition-labelled comparison and core notes. Capacity fields remain on hold; the condition-labelled removal endpoint is permitted with the explicit caveat. SEM-015 is absent by DOI from the latest 173-entry Better BibTeX export and remains not citation-ready.
+
+## Duplicate-DOI group review — 2026-10-30
+
+- Inspected the two repeated DOI groups in the user's 173-entry export at entry level.
+- DOI `10.1016/j.envres.2021.111091`: keys `ashiqCarbonbasedAdsorbentsFluoroquinolone2021a` and `ashiqCarbonbasedAdsorbentsFluoroquinolone2021b`; visible citation metadata match, but PDF attachment paths differ (`RK5GGKHE` vs `Z78VWDL6`).
+- DOI `10.1016/j.ijbiomac.2024.133382`: keys `rostamiSurfaceModifiedChitosan2024a` and `rostamiSurfaceModifiedChitosan2024b`; visible citation metadata match, but PDF attachment paths differ (`NXCTLSHY` vs `4S8REVCG`).
+- Recorded the pairs in `references/BBT_EXPORT_AUDIT_2026-10-29.md`. No automatic deletion or merge was performed. Compare Zotero notes, tags, child notes, annotations, PDFs and collection membership manually before any merge.
+- These duplicate groups do not overlap the current 15 citation keys of the semester manuscript and do not invalidate its citation linkage. The older 164-entry broad-review processing queue is a dated snapshot; it was not mixed with the separate semester-paper reference workstream.
