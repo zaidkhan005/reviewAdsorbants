@@ -362,3 +362,14 @@ Updated: data/semester-evidence-readiness-audit.csv (EV-SEM-014); data/semester-
 
 Sources: https://www.tandfonline.com/doi/full/10.1080/09593330.2015.1054316 ; https://pubmed.ncbi.nlm.nih.gov/26050736/
 
+
+## Follow-up source check — SEM-037 / EV-SEM-011 (29 October 2026)
+
+The sodium alginate/graphene oxide hydrogel-bead PRB study was checked against the PubMed abstract and indexed ScienceDirect full-text excerpts. The complete PDF/table-level extraction remains inaccessible in the inspected Library/public routes.
+
+- Accessible source text confirms batch and flow-through column experiments; flow rate, influent CIP concentration and ionic strength were varied; a two-site chemical non-equilibrium model was used to design the PRB based on local hydrogeology.
+- The source reports approximately 72 h equilibrium and 100 mg/g at pH 7. An internal source inconsistency is documented: the abstract says the isotherm follows Freundlich, while the indexed conclusion labels 100 mg/g a Langmuir-model maximum.
+- The abstract says PRB lifetime and cost were calculated. Numerical lifetime/cost results, assumptions and supporting tables are not accessible in the indexed excerpts. The manuscript acknowledges the existence of the analysis but does not quote unverified outputs.
+- Updated the evidence-readiness row EV-SEM-011, claim-audit row RD-015, added a condition-labelled comparison row, updated the SEM-037 crosswalk, and revised manuscript §3.4 and the claim-audit report.
+
+Sources: https://pubmed.ncbi.nlm.nih.gov/29510369/ ; https://www.sciencedirect.com/science/article/pii/S0045653518303692
