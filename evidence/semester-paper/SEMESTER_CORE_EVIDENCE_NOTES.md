@@ -218,11 +218,18 @@ Preparation is chemically intensive (strong acid/oxidant treatment, extensive wa
 
 **Primary source:** Yao et al., *3D assembly based on 2D structure of cellulose nanofibril/graphene oxide hybrid aerogel for adsorptive removal of antibiotics in water*, DOI [10.1038/srep45914](https://doi.org/10.1038/srep45914); [open publisher full text](https://www.nature.com/articles/srep45914).
 
-**Extracted:** The CNF/GO composite uses freeze-drying to create an interconnected 3D porous aerogel. The paper reports TC removal of 82.1% in its across-antibiotic comparison, fitted Langmuir q_m=454.5 mg/g, and pseudo-second-order model-derived q_e=84.8 mg/g. These are three separate endpoints. The batch method describes 8 mg aerogel in 40 mL solution, 160 rpm, 25°C and overnight incubation over 1–100 mg/L; some TC factor tests have different conditions, so do not assume these general conditions apply to every figure. The study used 5 wt.% NaOH for 5 h for desorption and reports ten cycles; TC removal was 78.9% after reuse versus 82.1% in the initial comparison (3.2 percentage points absolute, about 3.9% relative decline).
+**Preparation method confirmed from the publisher text:** 80 mg CNF + 100 mg GO are dispersed in 100 mL deionized water, then ultrasonicated for 30 min using a 60 kHz, 25-mm titanium horn in an ice bath (0.5 s on/off duty cycle; stated 1000 W output). The dispersion is frozen at −30°C for >5 h and vacuum freeze-dried for 48 h at −55°C and 80 mTorr. The upstream CNF and GO synthesis methods are citations to other papers and are not costed here. This is a concrete example where an apparently simple material has a substantial drying/energy step.
 
-**Cost/feasibility:** No cost per gram, cost per treated volume, yield, GO input cost, freeze-drying energy or NaOH use per cycle was quantified. The author's statement that the material is economical is not a cost analysis.
+**Condition-specific adsorption evidence:** The publisher methods describe a general batch setup of 8 mg aerogel in 40 mL, 160 rpm, 25°C overnight, concentrations spanning 1–100 mg/L, with pH 2–12 adjustments. The TC factor tests do not all share those conditions: pH uses 20 mg/L TC, 4 mg sorbent and 24 h; temperature is tested at 25/35/45°C for 8 h; dosage at 0.25–2 g/L for 24 h; initial TC concentration at 20–160 mg/L for 24 h. Figure 7 reports 82.1% TC removal, but does not explicitly restate its exact feed concentration in the caption/text. Do not attach one C0 value to the 82.1% point unless the figure is visually checked.
 
-**Audit points:** Check the figure-specific conditions for Fig. 7 and pinpoint the kinetic/isotherm tables before formal use. Do not report q_m=454.5 mg/g as observed uptake. The accessible source is publisher HTML; PDF pagination is not independently confirmed.
+**Do not collapse these three endpoints:** The pseudo-second-order model-derived (q_e) is 84.8 mg/g (R²≈0.99 compared with PFO R²≈0.83). The Langmuir theoretical/fitted (q_m) appears as 454.6 mg/g in abstract/Results text and as 454.5 mg/g in the conclusion; preserve the small source-reported rounding difference rather than silently choosing one. The removal result is 82.1%. The model-fit preference itself is not proof of chemisorption.
+
+**Regeneration:** The aerogel is soaked in 5 wt.% NaOH for 5 h, washed, then vacuum freeze-dried before reuse. After ten cycles, TC removal is 78.9% compared with 82.1% in the initial across-antibiotic comparison. That is a 3.2-percentage-point absolute decrease, approximately 3.9% relative to the initial percentage.
+
+**Cost/feasibility:** The paper does not quantify cost per gram, cost per treated volume, product yield, energy, GO purchase/production cost, upstream CNF/GO costs, freeze-drying electricity or caustic consumption/waste per cycle. Thus the description “economical” is qualitative, not a demonstrated cost calculation.
+
+**Source pin:** Publisher HTML lines 230–233 (preparation), 240–249 (batch method), 266–271 (factor tests/regeneration), 141–151 (Fig. 7 removal), 152–175 (kinetic/isotherm results), 213–221 (reuse). PDF/printed page numbering was not independently checked.
+
 
 ## EV-SEM-016 — Graphene at low antibiotic concentrations / TC (Peng et al., 2016)
 
