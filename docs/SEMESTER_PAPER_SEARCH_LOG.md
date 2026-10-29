@@ -160,15 +160,29 @@ Live count checks from current files:
 - `data/journal-quartile-audit.csv`: 41 journal entries.
 - `references/bibtex_full_corpus_processing_queue_2026-10-29.csv`: 164 exported records in the processing queue, including 58 not yet registered in the candidate register and 16 provisional online/indexed evidence rows added in the initial wave.
 - `data/primary-study-comparison-matrix.csv`: the existing 208-row/43-candidate subset is a focused comparison matrix, not a complete projection of all 505 evidence rows.
-- Semester `data/semester-paper-candidate-register.csv`: 38 records after adding the in-scope N-rGO/TC study already represented in the broad corpus.
-- Semester `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: 13 dedicated semester evidence records. Existing broad-corpus evidence is cross-referenced instead of duplicated.
+- Semester `data/semester-paper-candidate-register.csv`: 40 records after adding existing-source candidates for graphene/CIP (abstract-level) and graphene/TC (open publisher full text).
+- Semester `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: 16 dedicated semester evidence records. Existing broad-corpus evidence is cross-referenced instead of duplicated.
 
 New crosswalk: `data/semester-main-corpus-crosswalk.csv`. It maps each semester candidate to any exact-DOI/title match in the broad register and the current Better BibTeX processing queue, and identifies reusable main-corpus evidence IDs. Confirmed overlaps are:
 - SEM-016 ↔ CORP-024 (sulfonated GO for CIP; EV-B14-011–EV-B14-015).
 - SEM-032 ↔ CORP-015 (PGOT@GEL hydrogel for CIP; EV-B15-008–EV-B15-013).
 - SEM-038 ↔ CORP-031 (N-rGO for trace antibiotics including TC; EV-B10-004–EV-B10-009). Its fitted capacities remain quantitatively flagged due to a mass-balance/unit concern.
-- SEM-020 has a title-only match to a BibTeX queue record for the 2015 graphene/GAC CIP study; metadata is still to be verified. GAC is only a benchmark, not a core material family.
+- SEM-020 ↔ queue key `zhuCiprofloxacinAdsorptionGraphene2015a` (exact DOI now verified; source data remain abstract-level). GAC is only a benchmark, not a core material family.
+- SEM-039 ↔ queue key `yao3DAssemblyBased2017` (CNF/GO aerogel for TC; open publisher HTML reviewed).
+- SEM-040 ↔ queue key `pengAdsorptionAntibioticsGraphene2016` (graphene for TC at 200 µg/L per drug in a mixed solution; open publisher HTML reviewed).
 
 A missing crosswalk match does not prove a PDF is absent from the Library or that the study is irrelevant; it means only that the current master screening register/BibTeX queue has no exact DOI/title match. Crosswalk status is bibliographic plumbing, not a final eligibility decision.
 
 **User-download pause:** The earlier notes asking for PDFs for SEM-006 and SEM-037 are superseded by the user's explicit instruction not to download any more papers for now. Those records have been changed to “proceed with accessible indexed/abstract text; mark unavailable quantitative details.” No new download/upload request is active.
+
+
+## 15. Existing-source review wave — graphene/CIP and graphene/TC (29 October 2026)
+
+No user download was requested. The review used publisher full-text HTML for two open-access studies and a publisher abstract for one study with full-text conditions not accessible in the current Library view.
+
+### Added candidates and evidence
+- **SEM-020 / EV-SEM-014 — Zhu et al. (2015), graphene vs GAC for ciprofloxacin**, DOI 10.1080/09593330.2015.1054316. Publisher abstract metadata is now verified: *Environmental Technology*, 36(24), 3094–3102; published online 16 June 2015. The abstract reports graphene equilibration within about 3 min and a fitted Langmuir q_max of 323 mg/g, plus pH/speciation, ionic strength, NOM and water-source effects. This remains abstract-level evidence until the article's full tables/figures are accessible. GAC is a benchmark only.
+- **SEM-039 / EV-SEM-015 — Yao et al. (2017), CNF/GO hybrid aerogel for TC and other antibiotics**, DOI 10.1038/srep45914. Open publisher text reports 82.1% TC removal in the across-antibiotic comparison, fitted Langmuir q_m=454.5 mg/g and model-derived kinetic q_e=84.8 mg/g. The values are separated in the extraction row. Ten-cycle regeneration uses 5 wt.% NaOH for 5 h; TC removal is reported as 78.9% after reuse. Preparation and regeneration cost inventories were not reported.
+- **SEM-040 / EV-SEM-016 — Peng et al. (2016), graphene at environmental/low antibiotic concentrations**, DOI 10.1038/srep31920. Open publisher text reports TC reaching graphene adsorption equilibrium in about 2.5 h from a seven-antibiotic mixture at 200 µg/L per antibiotic. Graphene removal across all seven antibiotics ranged 89.3–100%, but an exact TC percent is figure-based and was not inferred. The study's biochar results are excluded from the core semester matrix, and its kinetic q_e values are not q_max.
+
+The semester register now has 40 candidates and the dedicated evidence CSV has 16 records. The master-corpus crosswalk maps SEM-020, SEM-039 and SEM-040 to the existing Better BibTeX queue without duplicating evidence into the broad master corpus. Quartile information remains unchecked for these semester candidates. The reference target (~50 distinct works actually cited) is still not demonstrated.
