@@ -9,7 +9,7 @@
 |---|---:|---|
 | Semester candidate register | 44 rows | Includes one duplicate alias row |
 | Unique DOI-defined studies | 43 | SEM-026 is canonical for Fei et al. (2016); SEM-041 is its alias |
-| Semester evidence CSV | 29 rows / 29 unique evidence IDs | Source-linked evidence records, not 29 validated or accepted studies |
+| Semester evidence CSV | 31 rows / 31 unique evidence IDs | Source-linked evidence records, not 31 validated or accepted studies |
 | Semester crosswalk | 44 rows | One row per retained register identifier, including the alias |
 | Broad candidate register | 111 rows | Separate full-review workstream |
 | Broad evidence CSV | 505 rows | Separate full-review evidence stream |
@@ -58,7 +58,7 @@
 
 ## Next execution sequence
 
-1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition. SEM-042’s accepted-manuscript text has now been audited; its 100-g/column-geometry anomaly is confirmed and dynamic q₀/τ values are quarantined. SEM-027, SEM-029 and SEM-034 have also been extracted from open full text as EV-SEM-025–EV-SEM-027. SEM-019 and SEM-028 have since been added as EV-SEM-028–EV-SEM-029.
+1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition. SEM-042’s accepted-manuscript text has now been audited; its 100-g/column-geometry anomaly is confirmed and dynamic q₀/τ values are quarantined. SEM-027, SEM-029 and SEM-034 have also been extracted from open full text as EV-SEM-025–EV-SEM-027. SEM-019 and SEM-028 have since been added as EV-SEM-028–EV-SEM-029; SEM-014 and SEM-030 are now represented by EV-SEM-030–EV-SEM-031.
 2. Keep low-cost claims evidence-based. No study should be called demonstrably low-cost when whole-process synthesis, yield, energy, recovery and cost denominator are missing. Preparation and regeneration burdens are proxies, not monetary estimates.
 3. Build comparisons around evidence class: batch results, mixed-solute tests, water-matrix tests and continuous-flow/column evidence. Put qmax/qm in a fitted-capacity column; do not merge it with observed qe, kinetic-model qe or removal percentage.
 4. Complete final inclusion only after target-drug, material-family, article type, source status and journal/year/category ranking checks. The approximately 50-work citation target remains open and is counted as distinct works actually cited, not candidate rows.
@@ -90,3 +90,8 @@ The evidence CSV now has **29 unique records**.
 - **SEM-028 / EV-SEM-029 — GO/calcium-alginate fibers for CIP:** abstract/snippets report 78.9% removal at 2 g/L and 6 wt% GO, optimum pH 5.9 and 24 h equilibrium, plus observed capacity 18.45→39.06 mg/g as GO loading increases 0→6 wt% at equilibrium C=60 mg/L. Exact paired conditions, numeric fitted parameters, full spinning recipe and cost/reuse data were not accessible.
 
 The register remains 44 rows / 43 DOI-defined studies (SEM-041 is a retained alias of SEM-026). These additions do not expand the approved scope; they fill evidence gaps in already registered candidates.
+
+
+## Latest primary-publisher preview checks — SEM-014 and SEM-030
+
+The dedicated evidence CSV now has **31 unique rows**. SEM-014 (GO·Fe₃O₄ for TC) reports 531.93 mg/g at C₀=1000 mg/L, 50 mg dose, pH 7 and 293 K; solution volume and whether the reported capacity is observed or fitted are not visible in the preview. DFT values are not experimental adsorption metrics. SEM-030 (GO–[Ni(DMG)]ₙ for CIP) reports Langmuir-comparison qmax 117–159 mg/g and PSO k=0.0005–0.0009 g/(mg·min), but says Freundlich/Temkin fit the isotherms better; exact conditions, ratios, reuse and cost are not accessible in the abstract. Both rows remain provisional and cannot be ranked as validated capacities.
