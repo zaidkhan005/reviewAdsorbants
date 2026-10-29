@@ -172,3 +172,17 @@ The repo was re-fetched and count-checked for the next execution step. Use these
 - **Working Results & Discussion:** `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` exists (six subsections). It is a source-cautious draft, not submission-ready; claims still need resolved citation keys and final source-pin review.
 - **Next step:** citation-key reconciliation for the selected evidence-ready studies and the nine pending markers, then draft Methods/Search and Introduction around the stable included-study set. Do not add more candidates before this pass is complete unless a real citation/evidence gap is identified.
 - **User action:** none. The user's pause on further downloads/uploads remains active.
+
+
+## Citation-key reconciliation follow-up — Library search and export inventory check (29 October 2026)
+
+This follow-up completes the next bounded check after the initial nine-marker reconciliation. It does not overwrite the existing manuscript draft or infer new keys.
+
+- Re-read the three existing Library Better BibTeX exports: `full ++.bib` (164 entries), `Antibiotic Adsorption Review new — Full Corpus.bib` (61 entries), and `Antibiotic Adsorption Review — Full Corpus.bib` (31 entries).
+- Re-ran programmatic DOI and exact-title searches across all three raw exports. The nine pending candidate records (SEM-004, SEM-010, SEM-017, SEM-018, SEM-029, SEM-031, SEM-033, SEM-034, and SEM-037) have no DOI or exact-title match in those export files. A nearest-title check did not identify a plausible alternate keyed record.
+- Checked the existing Library search surface using the target DOIs and titles. Some search hits are other papers whose reference lists cite a target article; that is not evidence that the cited article has a Zotero item or a Better BibTeX key in the current exports.
+- No connected Zotero or Better BibTeX tool is exposed in this session, so a fresh live export cannot be generated from the underlying Zotero collection here. This means the result is **unresolved in the available exports**, not proof the items are absent from the user's Zotero library.
+- Updated `data/semester-bibtex-citation-linkage-audit.csv` for the nine pending rows to distinguish the live-library access limitation and state the exact missing input: an existing Zotero item's generated key or a fresh Better BibTeX export of the user's existing collection. No additional paper PDF is required.
+- Preserved the six previously verified keys and left all nine manuscript markers unchanged. `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` was not edited. No screening decisions, evidence records, study counts, or scientific claims were changed.
+
+**Gate:** do not invent citation keys. When a key-bearing export of the existing Zotero items becomes available, reconcile only these nine DOI-to-key mappings first; otherwise keep them explicitly pending. Do not broaden the literature search or start a manuscript rewrite in this step.
