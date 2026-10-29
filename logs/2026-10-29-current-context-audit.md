@@ -26,7 +26,7 @@ This audit records the repository structure, live data state, governing scope de
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
 | Semester candidate register | 44 | Candidate screening records across prior targeted searches and existing-source review; not accepted citations |
-| Semester dedicated evidence CSV | 29 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester dedicated evidence CSV | 31 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -129,3 +129,10 @@ Current direct count: 44 candidate-register rows, 43 DOI-defined works (SEM-041 
 - SEM-019 / EV-SEM-028: the 2026 EDTA-mGO/TC paper reports 93.23% removal under the stated low-concentration optimum. Mass balance implies qₑ≈1.865 mg/g; its PSO fit reports qₑ=0.01937 mg/g at R²=1. This roughly 96× contradiction is preserved and prevents treating the fit as validated uptake. Freundlich fits better than Langmuir at 25°C; eight-cycle removal falls from ~94% to 90.50%; no quantified cost.
 - SEM-028 / EV-SEM-029: 2013 GO/calcium-alginate fibers. Accessible primary abstract/snippets report 78.9% removal at 2 g/L and 6 wt% GO; capacity rises from 18.45 to 39.06 mg/g with GO loading from 0% to 6% at equilibrium C=60 mg/L. No numeric fitted parameters, full recipe, reuse or cost was accessible.
 - Semester count now 44 register rows / 43 DOI-defined studies, 29 unique dedicated evidence rows, 44 crosswalk identifiers. Download/upload pause unchanged; no user action requested.
+
+
+## Additional primary-publisher checks — SEM-014 / SEM-030 (29 October 2026)
+
+- SEM-014 / EV-SEM-030: magnetic GO·Fe₃O₄ for TC; abstract says C₀=1000 mg/L, 50 mg material, pH 7 and 293 K, headline maximum capacity 531.93 mg/g. Solution volume and measured/fitted definition are missing from accessible preview; DFT outputs (−3.86 eV binding energy; 14.99 μB spin polarization; 0.22 eV HOMO–LUMO gap) are computational, not adsorption-capacity metrics. No cycle-level reuse/cost details.
+- SEM-030 / EV-SEM-031: GO–[Ni(DMG)]ₙ for CIP; one-pot GO/ethanol + Ni(II) + DMG, 24 h at room temperature; Langmuir-comparison capacity 117–159 mg/g, pH 2–7 removal trend, PSO k=0.0005–0.0009 g/(mg·min). Freundlich/Temkin are reported as better isotherm fits. Exact feed/dose/formulation-specific metrics, reuse, matrix and cost are unavailable in the abstract.
+- Current counts: 44 candidate-register rows, 43 DOI-defined works, 31 unique semester evidence rows, 44 crosswalk rows. These counts are inventory, not final included/cited works.
