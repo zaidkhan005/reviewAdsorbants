@@ -311,3 +311,15 @@ At the reported validation (q_e) and adsorbent mass, approximately 4.1023 mg CIP
 - Updated `data/semester-results-discussion-claim-evidence-audit.csv` and `evidence/2026-10-29-semester-results-discussion-claim-audit.md` to reflect the corrected findings.
 
 **Outstanding:** PGOT@GEL still requires the Supporting Materials for an independent volume/mass-balance check. No new PDFs were requested or uploaded; the audit used existing Library copies and publisher text.
+
+
+### Final synchronization after source-page verification (29 October 2026)
+
+The corrected source-range interpretation was also propagated to the rest of the project tables so later synthesis does not resurrect the superseded claim.
+
+- Updated `data/semester-condition-labelled-comparison.csv` for EV-SEM-012 to state the separate 10–100 μmol/L kinetic/concentration range and the 50–1000 μmol/L isotherm range explicitly.
+- Updated `data/primary-study-comparison-matrix.csv` for CORP-024 (SGO) and CORP-031 (N-rGO), preserving source-page pins and conditional interpretation. The SGO mechanism entry is now in the mechanism column rather than the cost column; its cost field correctly states that comparable cost/LCA data are absent.
+- Updated the broad-corpus EV-B14-015 caveat to avoid describing (q_m) as invalid merely because the independent kinetic series ended at 100 μmol/L. It remains a fitted parameter, not an observed uptake; the real qe/removal and Table 1/reuse discrepancies remain.
+- Rechecked the current manuscript, its 15-entry local bibliography, the 18-row claim audit, the 37-row semester readiness audit, the 505-row broad evidence register, the 64-row source-caveat register and both comparison matrices. The manuscript has 15 unique cited keys, every key has a bibliography entry, and no citation-key placeholder remains.
+
+The only unresolved primary-source check among the three priority claim groups is the PGOT@GEL validation solution volume, which is referred to in the article's Supporting Materials but absent from the available main PDF. No extra PDF was requested or uploaded.
