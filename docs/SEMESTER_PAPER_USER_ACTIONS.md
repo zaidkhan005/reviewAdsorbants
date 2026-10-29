@@ -82,6 +82,6 @@ Four new evidence records are committed: EV-SEM-034 (MGO/TC-HCl; numeric capacit
 
 - `data/semester-evidence-readiness-audit.csv`: 37-row evidence QA matrix.
 - `data/semester-study-inclusion-shortlist.csv`: 44-row candidate disposition matrix; SEM-041 is a duplicate alias and SEM-013 is theory-only.
-- `data/semester-condition-labelled-comparison.csv`: first 16-row CIP/TC comparison table with target conditions, observed endpoints, fitted endpoints, reuse, cost and data-quality restrictions.
+- `data/semester-condition-labelled-comparison.csv`: first 18-row CIP/TC comparison table with target conditions, observed endpoints, fitted endpoints, reuse, cost and data-quality restrictions.
 
 **No action needed from you right now.** No new downloads/uploads are requested.
