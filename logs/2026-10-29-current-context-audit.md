@@ -383,3 +383,18 @@ Official open-access publisher HTML for both Scientific Reports papers was reche
 - Updated readiness rows EV-SEM-015/016, claim audit RD-010/011, condition comparison rows, SEM-039/040 crosswalks, manuscript §3.3 and the narrative audit report. No new PDF intake was requested.
 
 Source pages: https://www.nature.com/articles/srep45914 ; https://www.nature.com/articles/srep31920
+
+## Follow-up full-text source audit — SEM-034 / EV-SEM-027 (29 October 2026)
+
+Direct RSC full-text retrieval succeeded for Hossain et al., RSC Advances 14 (2024), 1431–1444, DOI 10.1039/d3ra07597d. It supplies exact source locations for the previously noted GO/Co–Fe claim:
+
+- Abstract and §3.2.2/Fig. 5(b): TC removal 94.1%.
+- §3.2.4/Fig. 5(d): TC removal 93.91%.
+- §4 Conclusion: TC removal 93.94%.
+- §2.6: methods/ranges; reported optimum TC removal condition C0=0.2 mg/L, dose 0.15 g/L, pH7, room temperature (~25°C), 250rpm and 30s.
+- Table 2: Langmuir-fitted TC q_m=60.24/62.50/64.10 mg/g at 30/40/50°C respectively.
+- §3.2.7/Fig.9: up to eight reuse rounds with methanol/water rinse, drying at 50°C, and efficiency reported declining from 95% to 90%.
+
+The three removal percentages are a genuine internal inconsistency; they are now all preserved with separate source locations. No normalized cost estimate or real-water trial was found in the full text sections inspected. The readiness table, RD-012, condition-labelled comparison, SEM-034 crosswalk and manuscript were updated.
+
+Source: https://pubs.rsc.org/ra/article/14/2/1431/825803/Ultrafast-and-simultaneous-removal-of-four
