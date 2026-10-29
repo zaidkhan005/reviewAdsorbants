@@ -1,5 +1,10 @@
 # Full-corpus restart protocol
 
+## Current status note (2026-10-29)
+
+This is a historical restart protocol, not a request to repeat intake. The broad corpus restart and supplied-PDF intake through Batch 20 were completed; current live records now show 111 broad candidates and 505 evidence rows. The user has paused further downloads/uploads. Use the current README/audit log and do not restart or request files already supplied.
+
+
 ## Decision
 
 Restart the literature workflow from one unified corpus, including the original seven seed papers and all other relevant papers already downloaded. Do not require the user to classify every paper into a material section, rebuild Zotero tags, or manually reorganize the library before screening begins.
