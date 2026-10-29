@@ -160,8 +160,8 @@ Live count checks from current files:
 - `data/journal-quartile-audit.csv`: 41 journal entries.
 - `references/bibtex_full_corpus_processing_queue_2026-10-29.csv`: 164 exported records in the processing queue, including 58 not yet registered in the candidate register and 16 provisional online/indexed evidence rows added in the initial wave.
 - `data/primary-study-comparison-matrix.csv`: the existing 208-row/43-candidate subset is a focused comparison matrix, not a complete projection of all 505 evidence rows.
-- Semester `data/semester-paper-candidate-register.csv`: 40 records after adding existing-source candidates for graphene/CIP (abstract-level) and graphene/TC (open publisher full text).
-- Semester `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: 16 dedicated semester evidence records. Existing broad-corpus evidence is cross-referenced instead of duplicated.
+- Semester `data/semester-paper-candidate-register.csv`: 40 records; three additional candidates in the existing register have now been abstract-screened and source-linked.
+- Semester `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: 19 dedicated semester evidence records. Existing broad-corpus evidence is cross-referenced instead of duplicated.
 
 New crosswalk: `data/semester-main-corpus-crosswalk.csv`. It maps each semester candidate to any exact-DOI/title match in the broad register and the current Better BibTeX processing queue, and identifies reusable main-corpus evidence IDs. Confirmed overlaps are:
 - SEM-016 ↔ CORP-024 (sulfonated GO for CIP; EV-B14-011–EV-B14-015).
@@ -186,3 +186,14 @@ No user download was requested. The review used publisher full-text HTML for two
 - **SEM-040 / EV-SEM-016 — Peng et al. (2016), graphene at environmental/low antibiotic concentrations**, DOI 10.1038/srep31920. Open publisher text reports TC reaching graphene adsorption equilibrium in about 2.5 h from a seven-antibiotic mixture at 200 µg/L per antibiotic. Graphene removal across all seven antibiotics ranged 89.3–100%, but an exact TC percent is figure-based and was not inferred. The study's biochar results are excluded from the core semester matrix, and its kinetic q_e values are not q_max.
 
 The semester register now has 40 candidates and the dedicated evidence CSV has 16 records. The master-corpus crosswalk maps SEM-020, SEM-039 and SEM-040 to the existing Better BibTeX queue without duplicating evidence into the broad master corpus. Quartile information remains unchecked for these semester candidates. The reference target (~50 distinct works actually cited) is still not demonstrated.
+
+
+## 16. Third abstract-level source check — GO nanosheets and magnetic GO sponge (29 October 2026)
+
+Three existing register records were checked against accessible publisher/PubMed primary-source abstracts; no user download was requested:
+
+- **SEM-002 / EV-SEM-017 — Rostamian & Behnejad (2018), GO nanosheets tested on CIP, TC and doxycycline**, DOI 10.1016/j.ecoenv.2017.08.019. The accessible publisher summary reports CIP model-derived capacity up to 173.4 mg/g and model-specific behaviour; a numeric TC value was not available in the abstract excerpt and remains unfilled. The paper's multi-drug and model outputs are kept separate.
+- **SEM-003 / EV-SEM-018 — Yadav et al. (2018), GO for CIP/norfloxacin/ofloxacin**, DOI 10.1007/s11356-017-0596-8. The abstract confirms a modified Hummers–Offeman GO route and a strong pH effect but no quantitative CIP-specific capacity was extracted; no number was guessed.
+- **SEM-005 / EV-SEM-019 — magnetic GO sponge for TC**, DOI 10.1016/j.matchemphys.2017.05.042. Publisher abstract reports a 473 mg/g adsorption-capacity figure, about 50% higher than GO in the authors' comparison, but the accessible excerpt does not establish the precise fitted-versus-measured endpoint. It remains out of capacity rankings until table-level validation is possible.
+
+The semester register remains at **40 candidates**, and the dedicated extraction CSV now has **19 evidence rows**. These new rows are explicitly abstract-level and should not be represented as full-text extraction. Quartile audit remains pending for these three records.
