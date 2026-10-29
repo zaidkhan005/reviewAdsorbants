@@ -235,3 +235,22 @@ The nine previously pending citation positions are now linked to DOI-checked bib
 - The audit still leaves the `Verified Better BibTeX key` field blank for the nine newly created records. When synchronizing with Zotero, import/verify those DOI records and use the keys from a subsequent actual Better BibTeX export if the generated keys differ. Until then, the repository-local bibliography is the source of truth for the manuscript's 15 cited works.
 
 **Scope boundary:** This work resolves key-to-entry linkage for the current draft. It is not the final journal-style bibliography rendering, a full manuscript scientific audit, a quartile audit, or a fresh export from live Zotero.
+
+
+## Publisher metadata verification follow-up — manuscript-local bibliography (29 October 2026)
+
+After replacing the nine citation placeholders, the nine new bibliography records were cross-checked against publisher or indexed publication records for title, DOI, authors, publication year, and available volume/issue/page metadata. Publisher/indexed records consulted include:
+
+- SEM-004, DOI 10.1039/C7RA11964J: RSC Publishing and PubMed verify title, authors Haotian Zhu, Tao Chen, Jingquan Liu and Da Li, volume 8, issue 5, pages 2616–2621 (2018).
+- SEM-010, DOI 10.1016/j.heliyon.2024.e33317: ScienceDirect and PubMed verify title, five authors, Heliyon 10(12), article e33317 (2024).
+- SEM-017, DOI 10.1039/D5RA00877H: RSC Publishing and PubMed verify the title, eleven authors, RSC Advances 15(27), pages 22138–22153 (2025).
+- SEM-018, DOI 10.1039/D5RA06621B: RSC Publishing and PubMed verify the title, six authors, RSC Advances 15(42), pages 35219–35232 (2025).
+- SEM-029, DOI 10.1039/D6RA00494F: RSC Publishing and PubMed verify the title, three authors, RSC Advances 16(17), pages 15225–15241 (2026).
+- SEM-031, DOI 10.1016/j.rineng.2026.110064: the publisher-indexed ScienceDirect record verifies title, journal, volume 30, month June 2026, and article number 110064; the indexed article copy lists the four authors used in the BibTeX entry.
+- SEM-033, DOI 10.1016/j.seppur.2025.136049: ScienceDirect verifies title, authors, Separation and Purification Technology volume 382, and article number 136049 (published 26 February 2026).
+- SEM-034, DOI 10.1039/D3RA07597D: RSC Publishing verifies title, five authors, RSC Advances 14(2), pages 1431–1444 (2024).
+- SEM-037, DOI 10.1016/j.chemosphere.2018.02.157: PubMed verifies title, five authors, Chemosphere volume 200, pages 612–620 (2018).
+
+The issue numbers for SEM-017, SEM-018, and SEM-029 are now included in the local BibTeX file. The other six bibliography entries retain the exported metadata and keys as captured from the supplied BibTeX files. DOI links and publication metadata are not substitutes for the source evidence: the Results & Discussion claim-to-evidence audit remains the next step.
+
+**Post-update integrity gate:** re-fetch the bibliography, manuscript and citation audit after each file update. Require every cited key to match one bibliography entry, no pending placeholders, 15 distinct entries/DOIs, and separate identification of project-local versus exported Better BibTeX keys.
