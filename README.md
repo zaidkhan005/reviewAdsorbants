@@ -33,9 +33,9 @@ This repository now contains **two related but separate workstreams**. Do not co
 ### Semester paper — approved separate scope
 - Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
-- `data/semester-paper-candidate-register.csv`: **38 candidate records**.
-- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **13 dedicated evidence records**. Reused master-corpus evidence is cross-referenced, not duplicated.
-- `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 has a title-only BibTeX queue match.
+- `data/semester-paper-candidate-register.csv`: **40 candidate records**.
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **16 dedicated evidence records**. Reused master-corpus evidence is cross-referenced, not duplicated.
+- `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 now has an exact-DOI BibTeX queue match; SEM-039 and SEM-040 also have source-linked evidence.
 - Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
 - The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
 
