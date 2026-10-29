@@ -204,3 +204,32 @@ The full repository review identified one additional directly in-scope paper alr
 **Data-quality hold:** The primary evidence records flag a mass-balance/unit concern. The paper reports kinetic qe values 80.58–90.21 mg/g across the six antibiotics and a fitted Langmuir q_m of 662.25 mg/g for TC, despite a trace-concentration setup where the illustrative stated feed/dose combination implies a loading ceiling near 80 mg/g. Keep the reported values and condition labels for audit, but do not rank or reproduce the q_m as validated capacity until concentration/dose units and calculations can be reconciled.
 
 Preparation is chemically intensive (strong acid/oxidant treatment, extensive washing/ultrasonication and 180°C/24 h autoclave processing); the existing source record reports no quantified yield, chemical recovery, energy or cost/LCA. This is useful both for adsorption-mechanism evidence and for the review's distinction between high fitted capacity and demonstrated low-cost potential.
+
+
+## EV-SEM-014 — Graphene versus GAC / CIP (Zhu et al., 2015)
+
+**Primary source:** Zhu et al., *Ciprofloxacin adsorption on graphene and granular activated carbon: kinetics, isotherms, and effects of solution chemistry*, DOI [10.1080/09593330.2015.1054316](https://doi.org/10.1080/09593330.2015.1054316); [publisher full-text page](https://www.tandfonline.com/doi/full/10.1080/09593330.2015.1054316).
+
+**Accessible evidence used:** The publisher abstract states that graphene reached equilibrium in about 3 min and reports a Langmuir-fitted maximum capacity of 323 mg/g. It also describes pH/speciation effects, ionic strength of 0.01–0.5 mol/L, NOM at 5 mg/L, and river-water/drinking-water tests, with less adverse effect on graphene than on GAC under the tested conditions.
+
+**Status and limitation:** The full Methods/tables/figures and supplementary material are not available in the current Library view, so this is an abstract-level extraction—not a completed paper audit. Keep 323 mg/g separate as a fitted qmax, and do not use it in a final numerical ranking until conditions and isotherm range are verified. GAC is only a clearly labelled benchmark, not part of the semester paper's core material scope. No new download request is active.
+
+## EV-SEM-015 — CNF/GO aerogel / TC (Yao et al., 2017)
+
+**Primary source:** Yao et al., *3D assembly based on 2D structure of cellulose nanofibril/graphene oxide hybrid aerogel for adsorptive removal of antibiotics in water*, DOI [10.1038/srep45914](https://doi.org/10.1038/srep45914); [open publisher full text](https://www.nature.com/articles/srep45914).
+
+**Extracted:** The CNF/GO composite uses freeze-drying to create an interconnected 3D porous aerogel. The paper reports TC removal of 82.1% in its across-antibiotic comparison, fitted Langmuir q_m=454.5 mg/g, and pseudo-second-order model-derived q_e=84.8 mg/g. These are three separate endpoints. The batch method describes 8 mg aerogel in 40 mL solution, 160 rpm, 25°C and overnight incubation over 1–100 mg/L; some TC factor tests have different conditions, so do not assume these general conditions apply to every figure. The study used 5 wt.% NaOH for 5 h for desorption and reports ten cycles; TC removal was 78.9% after reuse versus 82.1% in the initial comparison (3.2 percentage points absolute, about 3.9% relative decline).
+
+**Cost/feasibility:** No cost per gram, cost per treated volume, yield, GO input cost, freeze-drying energy or NaOH use per cycle was quantified. The author's statement that the material is economical is not a cost analysis.
+
+**Audit points:** Check the figure-specific conditions for Fig. 7 and pinpoint the kinetic/isotherm tables before formal use. Do not report q_m=454.5 mg/g as observed uptake. The accessible source is publisher HTML; PDF pagination is not independently confirmed.
+
+## EV-SEM-016 — Graphene at low antibiotic concentrations / TC (Peng et al., 2016)
+
+**Primary source:** Peng et al., *Adsorption of antibiotics on graphene and biochar in aqueous solutions induced by π–π interactions*, DOI [10.1038/srep31920](https://doi.org/10.1038/srep31920); [open publisher full text](https://www.nature.com/articles/srep31920).
+
+**Extracted:** The paper tests seven antibiotics, including TC, in a mixed solution at 200 ng/mL per antibiotic (200 µg/L), using 100 mg sorbent in 100 mL, pH 7, 298 K and 120 rpm. Graphene is one of the sorbents; the bamboo and coconut-shell biochar results must not enter the core graphene comparison. The publisher text reports that TC approached graphene adsorption equilibrium in about 2.5 h, and gives a range of 89.3–100% removal across the seven antibiotics for graphene at equilibrium. The exact TC percentage is figure-based and should not be guessed from the range. The study reports kinetic-model fits in µg/g, not a conventional Langmuir q_max in the text reviewed.
+
+**Mechanism and cost caveats:** The authors emphasize π–π interactions, with fluorescence quenching of FITC (a structural surrogate) and DFT calculations. These are supportive but do not prove π–π interaction is the sole mechanism for TC. No quantified graphene production/purchase cost, yield, process-energy inventory or multicycle regeneration result was identified in the source sections reviewed.
+
+**Audit points:** Treat this as mixed-solute, low-concentration evidence rather than a single-solute TC isotherm or real untreated wastewater. The exact TC endpoint and supplementary kinetic-table entries remain figure/SI checks; PDF page pins were not independently verified.
