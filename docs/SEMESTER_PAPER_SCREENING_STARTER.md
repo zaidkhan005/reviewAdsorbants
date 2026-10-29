@@ -1,5 +1,10 @@
 # Semester-paper targeted screening starter
 
+## Current status note (2026-10-29)
+
+This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 38 candidates, 13 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
+
+
 **Date opened:** 2026-10-28  
 **Purpose:** Implement the user-approved scope recorded in `SEMESTER_PAPER_SCOPE_PROPOSAL.md`. This is a discovery/screening aid, not a list of accepted papers.
 
