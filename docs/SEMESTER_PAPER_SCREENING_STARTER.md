@@ -2,7 +2,7 @@
 
 ## Current status note (2026-10-29)
 
-This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 38 candidates, 13 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
+This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 40 candidates, 16 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
 
 
 **Date opened:** 2026-10-28  
@@ -74,3 +74,8 @@ Search records should retain query, database/index, date searched, DOI, publicat
 Use one of: **Include**, **Exclude**, **Await full text**, **Needs clarification**, **Context only**. Every Exclude decision must carry a reason. A candidate that is on-theme but lacks separable adsorption evidence is not automatically included.
 
 The next deliverable should be a deduplicated candidate register and a first-pass eligibility table—not a polished narrative or an unsupported performance ranking.
+
+
+## Existing-source additions — 29 October 2026
+
+SEM-039 (Yao et al., 2017, CNF/GO aerogel for TC) and SEM-040 (Peng et al., 2016, graphene for TC in a mixed low-concentration system) now have evidence rows EV-SEM-015–EV-SEM-016. SEM-020 (graphene vs GAC for CIP) is metadata-verified and has provisional abstract-level evidence EV-SEM-014. These are working evidence records, not final accepted/ranked studies.
