@@ -1,5 +1,10 @@
 # Planned literature download pool — 27 October 2026
 
+## Current status note (2026-10-29)
+
+This file is a discovery/screening pool, not a list of items the user must download now. The user has paused new downloads/uploads. Continue from existing Library PDFs, current registers and legitimate accessible source text; revisit user download requests only if the user explicitly reopens them.
+
+
 ## What this file is
 
 `data/planned-download-pool.csv` contains **250 planning-pool records**: 67 existing, relevant/pending records taken from the current screening register, plus 183 newly surfaced discovery leads. The only existing-register row deliberately left out is `CORP-062`, which is already marked as unrelated/out of scope. This is a *discovery and download plan*, not a final bibliography or 250 accepted papers.
