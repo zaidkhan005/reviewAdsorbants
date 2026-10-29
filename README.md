@@ -18,6 +18,35 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - Keep adsorption separate from catalytic degradation, photocatalysis, membrane rejection and other removal processes.
 - Never mark a paper “Q1 verified” without recording the ranking provider, ranking year, subject category, and verification URL.
 
+## Live repository status (2026-10-29)
+
+This repository now contains **two related but separate workstreams**. Do not combine their candidate counts, reference targets, evidence rows, or manuscript scopes.
+
+### Broad antibiotic-adsorption review
+- `data/corpus-screening-register.csv`: **111 unique candidate records**.
+- `data/corpus-evidence.csv`: **505 unique evidence rows**. These are evidence findings, not papers or accepted references; provisional and staged rows remain visibly flagged.
+- `data/journal-quartile-audit.csv`: **41 journal records**.
+- The 2026-10-29 Better BibTeX processing queue has **164 entries**. The current audit reports 58 entries not yet in the screening register, 11 newly registered candidates DISC-069–DISC-079, and 16 provisional online/indexed evidence rows. None of these counts proves final inclusion or Q1 eligibility.
+- `data/primary-study-comparison-matrix.csv` is a focused 208-row subset covering 43 candidate IDs; it is not a completed matrix for all 505 evidence rows.
+- The broad review remains structured around the original processing–cost–performance continuum across eight material classes. `DISC-022` remains deferred in the historic broad-review register, not screened or excluded.
+
+### Semester paper — approved separate scope
+- Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
+- Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
+- `data/semester-paper-candidate-register.csv`: **38 candidate records**.
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **13 dedicated evidence records**. Reused master-corpus evidence is cross-referenced, not duplicated.
+- `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 has a title-only BibTeX queue match.
+- Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
+- The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
+
+### Non-negotiable controls
+- Keep broad and semester workstreams separate and preserve the original broad-review manuscript.
+- Do not count candidates/evidence rows as accepted references.
+- Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
+- Treat cost as unproven when no comparable process-cost inventory is reported.
+- Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
+- Citation insertion and final bibliography reconciliation remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
+
 ## Repository map
 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
@@ -34,7 +63,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - `data/paper-screening-register.csv` — candidate screening and verification status
 - `references/README.md` — single-collection Zotero intake and full-corpus bibliography export instructions
 - `data/corpus-screening-template.csv` — blank screening schema for the unified corpus
-- `data/corpus-screening-register.csv` — unified screening register: 68 candidate rows as of the 2026-10-27 discovery update; six newly discovered leads await source review; candidates are not automatically accepted references
+- `data/corpus-screening-register.csv` — live unified screening register; 111 candidate rows as of 2026-10-29; candidates are not automatically accepted references
 - `docs/LITERATURE_DISCOVERY_PLAN.md` — how we will find missing literature to complete the bibliography against the original outline
 - `docs/REFERENCE_TARGET_PLAN.md` — planning funnel and coverage map for a defensible ~150-reference journal version
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
@@ -45,7 +74,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 
 The supplied outline is preserved separately so the original framework is not overwritten. In the working manuscript outline, adsorption kinetics/isotherms are in Section 3 and **mechanisms are promoted to standalone Section 4**; techno-economic evaluation, implementation, challenges, and conclusions are renumbered to Sections 5–8. The mechanism section includes an evidence-weighted matrix and explicit checks against conflating adsorption with catalytic degradation.
 
-## Historical status snapshot (2026-10-24; superseded by 2026-10-27 project checkpoint)
+## Historical status snapshot (2026-10-24; superseded by the 2026-10-27 checkpoint and 2026-10-29 live status above)
 
 - The original seven-paper matrix (`data/master-evidence-detailed.csv`) and caveats (`data/source-caveats.csv`) are preserved as historical seed records. Their values and mechanisms are **provisional until re-verified against the original full texts**. The formatted `.xlsx` workbook remains a separate working artifact.
 - Initial bibliography audit: 31 records parsed; no exact duplicate DOI or normalized title was detected. Eight entries lack abstracts in the export. The Pinheiro chitosan/alginate record and Mohammed-Ridha publication year were corrected/flagged using publisher or PubMed records, and the original export should not be treated as complete evidence.
@@ -54,7 +83,11 @@ The supplied outline is preserved separately so the original framework is not ov
 - The boundary between the outline's Stage 2 and the current Zotero tag `STAGE-2-MODIFIED` remains unresolved; keep material category and processing route explicit in evidence records.
 - Q1 status for several recent candidate papers has not been fully verified; candidates must not be treated as accepted until checked.
 
-## Current update (2026-10-27)\n\n- The supplied PDF intake is complete through Batch 20. Targeted literature discovery continues beyond the files already uploaded.\n- The candidate register now contains 68 rows, including six new discovery leads (DISC-031–DISC-036); their source and journal-ranking checks remain pending.\n- The journal-quartile audit now has 38 rows: 34 prior journal records and four newly encountered titles not yet audited.\n- Reference targets remain about 60 distinct works actually cited for the semester manuscript and about 150 for the journal version. Neither is confirmed achieved; final citation/bibliography reconciliation and a current `review-corpus.bib` export remain pending.\n- The claim-to-source citation ledger is now at `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md`. The biochar Section 2.3 draft is at `manuscript/SECTION_2_3_BIOCHAR_V1.md`.\n- DISC-022 remains deferred until the user supplies its full-text PDF; it is not screened or excluded.\n\n## Working loop
+## Historical update snapshot (2026-10-27; superseded by live status above)
+
+The following dated status was accurate at the time of the 2026-10-27 checkpoint. For current counts, use the live status section at the top of this README and the 2026-10-29 context-audit log.
+
+## Working loop
 
 **Discover → screen → verify journal and source → retrieve full text → extract evidence → reconcile units/conditions → draft → cite through Zotero → audit claims.**
 
@@ -77,6 +110,10 @@ For newly downloaded papers being uploaded in batches of three across branched c
 **Batching clarification (2026-10-28):** The ten-chat limit means up to ten upload chats at once, not 30 papers total. Process batches in successive waves, consolidating each wave before reusing the ten chat slots. The tracker now reserves 100 sequential batches (300 paper slots) and can be extended further.
 
 
-## Semester paper scope (proposal only, 2026-10-28)
+## Approved semester paper scope (2026-10-28; separate workstream)
 
-A narrowed semester-paper proposal targeting about 50 distinct cited works is recorded at [docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md](docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md). It recommends waste-derived engineered carbonaceous adsorbents for ciprofloxacin, with a critical processing–performance–practicality focus. This proposal is not final; new PDF upload waves are paused while the topic is agreed. The broader journal review remains separate.
+**Working title:** *Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media.*
+
+The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
+
+The semester candidate register has 38 records, with 13 dedicated evidence records and reusable master-corpus evidence linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
