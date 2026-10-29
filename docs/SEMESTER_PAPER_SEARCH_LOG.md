@@ -282,3 +282,14 @@ Primary source: [RSC Advances open article](https://pubs.rsc.org/en/content/arti
 - Preparation uses waste dry-cell graphite but still involves Aqua Regia, modified-Hummers acids/oxidants and Co/Fe salts, pH adjustment and drying; waste origin does not establish low cost.
 
 The dedicated semester evidence table now contains **27 unique evidence rows**. Candidate register remains 44 rows / 43 DOI-defined works because SEM-041 is an alias of SEM-026.
+
+
+## 27. Full-source audit — SEM-019 and SEM-028 (29 October 2026)
+
+### SEM-019 / EV-SEM-028: EDTA-functionalized magnetic GO for tetracycline (2026)
+Source: [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S1944398626002638), DOI 10.1016/j.dwt.2026.101889. The source gives optimized removal 93.23% at C₀=0.2 mg/L, volume 20 mL, dose 0.10 g/L (=0.002 g), pH 5, 5 min, 25°C and 250 rpm. Mass balance implies qₑ≈1.8646 mg/g, but the paper’s best-R² PSO fitted qₑ is only 0.01937 mg/g (R²=1), a ~96-fold discrepancy. Retain both values and quarantine the model qₑ from performance ranking. Freundlich fits better than Langmuir at 25°C; Langmuir qmax=31.32 mg/g has R²=.69125. The source reports eight reuse cycles, removal ~94% to 90.50%. No quantified cost/yield/energy; synthesis is reagent/solvent intensive.
+
+### SEM-028 / EV-SEM-029: GO/calcium-alginate fibers for ciprofloxacin (2013)
+Source: [ScienceDirect abstract/section snippets](https://www.sciencedirect.com/science/article/abs/pii/S1385894713008450), DOI 10.1016/j.cej.2013.06.072. Source reports wet-spun fibers, GO loading up to 6 wt%, optimum pH 5.9, equilibrium time 24 h, 78.9% removal at dose 2 g/L / 6 wt% GO, and capacity rising from 18.45 mg/g (0% GO) to 39.06 mg/g (6 wt% GO) at equilibrium CIP concentration 60 mg/L. Freundlich isotherm and PSO kinetics are described, but numeric fit parameters, full spinning recipe, regeneration and cost are not available in the accessed snippets. Keep removal and equilibrium-capacity results separate until condition/table alignment is verified.
+
+The dedicated evidence file now contains **29 unique evidence records**. These two source checks do not change the candidate count (44 rows; 43 DOI-defined studies with SEM-041 as an alias).
