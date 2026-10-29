@@ -373,3 +373,13 @@ The sodium alginate/graphene oxide hydrogel-bead PRB study was checked against t
 - Updated the evidence-readiness row EV-SEM-011, claim-audit row RD-015, added a condition-labelled comparison row, updated the SEM-037 crosswalk, and revised manuscript §3.4 and the claim-audit report.
 
 Sources: https://pubmed.ncbi.nlm.nih.gov/29510369/ ; https://www.sciencedirect.com/science/article/pii/S0045653518303692
+
+## Follow-up full-text audit — SEM-039/EV-SEM-015 and SEM-040/EV-SEM-016 (29 October 2026)
+
+Official open-access publisher HTML for both Scientific Reports papers was rechecked.
+
+- CNF/GO aerogel (DOI 10.1038/srep45914): Fig. 7/text verifies TC removal=82.1% in the 21-antibiotic screen; Fig. 13/text gives TC removal=78.9% after ten cycles. General methods specify 8 mg in 40 mL, 160 rpm and 25 °C overnight, with C0 1–100 mg/L and pH adjusted 2–12, but Fig. 7's caption does not give a single C0/pH/dose. Table 1 PSO fitted qe=84.8 mg/g; Table 2/Fig. 9 Langmuir fitted qm=454.6 mg/g, rounded to 454.5 in the conclusion; regeneration uses 5 wt.% NaOH for 5 h and wash/freeze-drying.
+- Seven-antibiotic graphene (DOI 10.1038/srep31920): Experimental design specifies seven-drug mixture at 200 ng/mL each (200 μg/L), 100 mg sorbent/100 mL (1 g/L), pH 7, 298 K, 120 rpm. Results/Fig. 2 text reports graphene TC equilibrium at ~2.5 h; 89.3–100% is a range across all seven drugs, not the TC-specific value. Mean qe=190.3 μg/g for graphene is also across the seven drugs. Exact TC removal remains figure-only and is not guessed.
+- Updated readiness rows EV-SEM-015/016, claim audit RD-010/011, condition comparison rows, SEM-039/040 crosswalks, manuscript §3.3 and the narrative audit report. No new PDF intake was requested.
+
+Source pages: https://www.nature.com/articles/srep45914 ; https://www.nature.com/articles/srep31920
