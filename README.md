@@ -99,12 +99,12 @@ Every work session should end with a visible GitHub change or a clearly recorded
 - **[Download the 250-record planned literature pool (CSV)](data/planned-download-pool.csv)** — current register inventory plus 183 new DOI-linked discovery leads. The file separates already represented items from new downloads, includes DOI/PMC/PubMed links, and marks screening/quartile status.
 - **[How to use the pool](docs/PLANNED_DOWNLOAD_POOL_GUIDE.md)** — batches, access notes, and how the pool relates to the final 60/150 cited-work targets.
 
-The pool is not a final bibliography. New leads require full-text screening; Q1 status must be audited separately. DISC-022 remains deferred until the user supplies the PDF.
+The pool is not a final bibliography. New leads require full-text screening; Q1 status must be audited separately. Historical note: DISC-022 was deferred at the 2026-10-27 pool snapshot. The user has since paused further downloads; no PDF request is active.
 
 
 ## Multi-chat PDF upload workflow (2026-10-28)
 
-For newly downloaded papers being uploaded in batches of three across branched chats, use [`docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md`](docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md) and track the first ten batches in [`data/new-paper-upload-batch-tracker.csv`](data/new-paper-upload-batch-tracker.csv). Each branch writes unique batch-specific staging files; the central chat consolidates these into master evidence and screening data to avoid parallel overwrites. GitHub remains the source of truth, and `DISC-022` remains deferred until the user supplies the full text.
+For newly downloaded papers being uploaded in batches of three across branched chats, use [`docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md`](docs/MULTI_CHAT_PDF_BATCH_PROTOCOL.md) and track the first ten batches in [`data/new-paper-upload-batch-tracker.csv`](data/new-paper-upload-batch-tracker.csv). Each branch writes unique batch-specific staging files; the central chat consolidates these into master evidence and screening data to avoid parallel overwrites. GitHub remains the source of truth, and `DISC-022` was deferred in the historical 2026-10-28 batch-protocol snapshot. The user has since paused further downloads; no full-text request is active.
 
 
 **Batching clarification (2026-10-28):** The ten-chat limit means up to ten upload chats at once, not 30 papers total. Process batches in successive waves, consolidating each wave before reusing the ten chat slots. The tracker now reserves 100 sequential batches (300 paper slots) and can be extended further.
@@ -116,4 +116,4 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has 44 records, with 24 dedicated evidence records and reusable master-corpus evidence linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
+The semester candidate register has 44 rows representing 43 unique DOI-defined works (SEM-041 is a duplicate alias of SEM-026), with 24 dedicated evidence records and reusable master-corpus evidence linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
