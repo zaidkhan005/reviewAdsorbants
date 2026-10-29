@@ -10,7 +10,7 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
 - Candidate register: 44 semester candidates.
-- Dedicated semester evidence CSV: 23 records.
+- Dedicated semester evidence CSV: 24 records.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
 - Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
@@ -27,6 +27,9 @@ The user has explicitly said they are not downloading any more papers for the ti
 
 - Added existing-source candidates: SEM-041 (GO–alginate gel/aerogel, CIP), SEM-042 (chitin/nGO continuous-flow, CIP), SEM-043 (GO for CIP/SMX, with SMX excluded from target metrics), and SEM-044 (MgO/chitosan/GO for CIP/NOR, with NOR separate). Evidence IDs EV-SEM-020–EV-SEM-023 preserve the abstract/table-access limitations.
   
+- SEM-024 (Gao et al., 2012, GO for TC) now has EV-SEM-024 from the primary PubMed abstract. The 313 mg/g qmax and kinetic constant are abstract-level; full conditions and cost/regeneration are unavailable.
+- SEM-001's full PLOS text is re-audited; the temperature-specific Langmuir values (322.43, 101.87 and 73.53 mg/g at 298, 303 and 308 K, respectively) are recorded with a consistency caveat, not used as an unqualified temperature trend.
+
 ## Known limitations, not user requests
 
 - SEM-020 has publisher-abstract-only evidence for the 323 mg/g fitted Langmuir value; full-text conditions/table/figure validation remains pending. Keep it out of final quantitative ranking.
