@@ -318,3 +318,12 @@ Primary ScienceDirect/RiE source was queried beyond the abstract. GO preparation
 Primary publisher abstract preview confirms fitted Langmuir qₘ=282.9 mg/g, PSO kinetics, Freundlich/Langmuir equilibrium fits, ~72% of initial adsorption capacity remaining after four uses, sensitivity to pH 7/9 and suppression by Na⁺ (200 mM) and Ca²⁺ (10 mM). Full experiment conditions, fit statistics, composite formulation ratio, reuse eluent and cost table are not accessible in preview. This stays abstract-level and qₘ is not treated as observed qe.
 
 The semester evidence CSV now has **33 unique rows**, and the candidate register remains 44 rows / 43 DOI-defined studies.
+
+## 17. Existing-source review wave — four studies (29 October 2026)
+
+- EV-SEM-034 / SEM-008: magnetic GO; primary abstract supports TC-HCl/OTC pH optimum at 3.3, CTC alkaline preference, PSO/Freundlich. Numeric TC-HCl capacity remains secondary-review-only until primary table verification.
+- EV-SEM-035 / SEM-013: DFT-only rGO/CIP/TC; classify as mechanism/theory context and exclude from empirical capacity tables.
+- EV-SEM-036 / SEM-031: open-access SGO multi-FQ mixtures. Langmuir q_m values 370.37/357.14/333.33 mg/g are mixture-level; DMF + 1 M HCl regeneration and >92% after five cycles. Cost inventory absent.
+- EV-SEM-037 / SEM-033: rotating-field Fe3O4/rGO; >96% TCH removal at 2 A and >87% retained after four cycles. Power/field-free controls are not exposed in abstract.
+
+Current counts after the wave: 44 candidate-register rows, 37 dedicated evidence rows, and 44 crosswalk rows. SEM-041 is a duplicate alias of SEM-026; SEM-021's DOI metadata remains unresolved. No new user download/upload is required.
