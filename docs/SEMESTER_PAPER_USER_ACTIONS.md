@@ -77,3 +77,11 @@ The new evidence rows are committed and linked to candidate IDs. The candidate r
 Four new evidence records are committed: EV-SEM-034 (MGO/TC-HCl; numeric capacity only in secondary source so far), EV-SEM-035 (theoretical DFT-only rGO/CIP/TC), EV-SEM-036 (multi-FQ SGO; mixture-level q_m), and EV-SEM-037 (rotating-field Fe3O4/rGO; energy data absent). The dedicated evidence CSV now has 37 unique rows.
 
 **No action needed from you right now.** No more PDFs are requested. Continue with existing files and accessible primary sources.
+
+## Latest deliverables — 29 October 2026
+
+- `data/semester-evidence-readiness-audit.csv`: 37-row evidence QA matrix.
+- `data/semester-study-inclusion-shortlist.csv`: 44-row candidate disposition matrix; SEM-041 is a duplicate alias and SEM-013 is theory-only.
+- `data/semester-condition-labelled-comparison.csv`: first 16-row CIP/TC comparison table with target conditions, observed endpoints, fitted endpoints, reuse, cost and data-quality restrictions.
+
+**No action needed from you right now.** No new downloads/uploads are requested.
