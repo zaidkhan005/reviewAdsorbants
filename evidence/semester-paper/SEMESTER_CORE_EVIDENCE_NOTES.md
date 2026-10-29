@@ -288,3 +288,24 @@ The abstract reports maximum sorption capacities of 379 mg/g for CIP and 240 mg/
 
 The abstract describes hydrothermally synthesized MgO/chitosan/GO nanosheets, BET area 294 m²/g and characteristic pore size ~15 Å. It reports a Langmuir model and a maximum capacity of 1111 mg/g for CIP (with 1000 mg/g for NOR as a separate target) and kinetic equilibrium for CIP after >120 min. These remain abstract-reported fitted/model values, not observed qe; the unusually high CIP value needs table-level verification before ranking. The authors describe the material as economical, but the abstract provides no cost inventory, process yield or energy data. NOR is not merged into the CIP value.
 
+
+
+## Full-text re-audit of EV-SEM-001 — Ghadim et al. (2013), GO for TC
+
+**Primary full text:** [PLOS ONE article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0079254), DOI 10.1371/journal.pone.0079254.
+
+The full HTML Methods and Results were rechecked. The study used improved-Hummers GO. Its *general* adsorption experiment describes 20 mg/L GO with 25 mL TC solution (6–180 mg/L), adjusted to pH 6–7 and incubated overnight. Separate pH tests use 2 mL GO suspension at 20 mg/L plus 4 mL TC (10–100 mg/L), pH 2–10, overnight. Kinetic tests use 2 mL GO (20 mg/L) plus 4 mL TC (6–180 mg/L) at pH 3.6, sampled every 15 min. The isotherm section also uses 6–180 mg/L TC, 20 mg/L GO, pH 3.6, with temperature sets; Fig. 6/Table 2 label 298, 303 and 308 K.
+
+The paper reports fitted Langmuir q_max values of **322.43 mg/g at 298 K, 101.87 mg/g at 303 K and 73.53 mg/g at 308 K**. The abstract rounds the first to 323 mg/g. This unusually large decline with a 5–10 K change is what the article reports, but it should not be used to claim a well-established temperature trend until Table 2 and the source's multiple temperature series have been visually reconciled. The authors report a D–R mean adsorption energy of 1.83 kJ/mol at 298 K (1.69 at 303 K; 1.4 at 308 K) and say TC adsorption is favored at pH 7 within the pH study; fitted q_max and percent removal remain different endpoints.
+
+The authors propose π–π/cation–π interactions and report a molecular-dynamics simulation. These are interpretations supported by spectral and modeled evidence; they do not quantify each interaction contribution. TC release was examined, including high release at some pH values, but that is not proof of reliable repeated-cycle regeneration. No cost/yield/energy inventory is reported.
+
+**Table-use decision:** retain the reported 298 K q_max with the exact source and temperature, flag the temperature-series anomaly, do not rank it directly against unrelated studies without condition caveats, and keep regeneration and cost evidence as “not established.”
+
+## EV-SEM-024 — Graphene oxide for tetracycline / Gao et al. (2012)
+
+**Primary source:** Gao et al., *Adsorption and removal of tetracycline antibiotics from aqueous solution by graphene oxide*, *Journal of Colloid and Interface Science* 368(1), 540–546 (2012), DOI [10.1016/j.jcis.2011.11.015](https://doi.org/10.1016/j.jcis.2011.11.015); [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/22138269/).
+
+The primary abstract reports that TC adsorption onto GO follows Langmuir and Temkin isotherms, with a theoretical Langmuir maximum of **313 mg/g**, described as close to measured data. The abstract reports pseudo-second-order kinetics with k=0.065 g mg−1 h−1, and says TC capacity declines as pH or Na+ concentration increases. It also discusses oxytetracycline and doxycycline isotherms; these are separate antibiotics, not pooled with TC in this review.
+
+The accessible abstract does not supply the complete initial concentration, dose, solution volume, time, temperature, or isotherm-table conditions; nor does it establish multi-cycle regeneration or a quantitative preparation cost. This record is therefore a **primary-source abstract extraction**, not a full-text extraction. Keep 313 mg/g as a model-reported maximum, not measured q_e, and do not treat it as directly comparable to Ghadim et al.'s 298 K q_max without aligned conditions and full table checks.
