@@ -97,3 +97,8 @@ The semester candidate register now contains 44 records and the dedicated eviden
 - SEM-001 / EV-SEM-001 was checked against PLOS full text. The reported fitted Langmuir capacities are 322.43 mg/g at 298 K, 101.87 at 303 K and 73.53 at 308 K; the size of this change remains a source-consistency caveat.
 - SEM-015 / EV-SEM-005 was checked against the full Frontiers article. Use 84.84% removal only for 1 mg/L CIP, 10 mg/L composite, pH 7 and 60 min. The paper's equation implies q_e≈84.84 mg/g, while the kinetic table gives model-fitted q_e≈106.96 mg/g; the capacity figures remain quarantined. Preparation involves modified-Hummers GO, metal salts, concentrated NaOH, 120°C/16 h hydrothermal processing, washing and drying. Reported removal falls from 80.4% in cycle 1 to 27% by cycle 5.
 - The user has paused new downloads. No user action is required at this stage.
+
+
+## CNF/GO publisher-text re-audit — 29 October 2026
+
+The full publisher text for Yao et al. (2017; DOI 10.1038/srep45914) was checked at preparation, experiment, results and reuse sections. This updates SEM-039 / EV-SEM-015 with exact CNF/GO input masses, ultrasonication settings, freeze and freeze-drying conditions, condition-separated TC tests, explicit Fig. 7 removal (82.1%), q_e=84.8 mg/g, q_m source discrepancy (454.6 mg/g abstract/Results vs 454.5 mg/g conclusion), and 5 wt.% NaOH × 5 h regeneration followed by wash/freeze-dry across ten cycles. TC removal after ten cycles is 78.9%. No process-cost inventory is reported. The cross-study table will label the exact Fig. 7 feed concentration as unspecified rather than assigning the general range or factor-test C0 to that point.
