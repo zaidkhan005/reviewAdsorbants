@@ -33,7 +33,7 @@ The user has explicitly said they are not downloading any more papers for the ti
 ## Known limitations, not user requests
 
 - SEM-020 has publisher-abstract-only evidence for the 323 mg/g fitted Langmuir value; full-text conditions/table/figure validation remains pending. Keep it out of final quantitative ranking.
-- SEM-039 has publisher HTML reviewed, but figure-specific conditions and exact PDF page pins for Fig. 7/Table 1/Table 2 remain to be audited; no cost inventory is reported.
+- SEM-039 now has a method-level publisher-text audit: preparation, general batch conditions, ten-cycle NaOH regeneration and the q_e/q_m/removal distinctions are documented. The exact Fig. 7 feed concentration is not specified in the caption, PDF pagination is not verified, and no cost inventory is reported.
 - SEM-040 has publisher HTML reviewed; the exact TC removal percentage is figure-based and was not guessed. The experiment is a mixed-antibiotic test, not a single-solute TC isotherm.
 
 - SEM-006, the DTPA-functionalized magnetic GO study for CIP and TC, has indexed primary methods/text but not a complete verifiable numeric table/figure audit in this session.
