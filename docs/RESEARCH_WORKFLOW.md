@@ -4,7 +4,7 @@
 
 The numbers in the 2026-10-27 checkpoint below are historical. Current live files contain 111 candidate records in `data/corpus-screening-register.csv`, 505 evidence rows in `data/corpus-evidence.csv`, and 41 journal records in `data/journal-quartile-audit.csv`. The processed Better BibTeX queue contains 164 entries; 58 are not yet in the screening register, and final paper eligibility and citation status are not complete. The 208-row primary-study comparison matrix covers 43 candidate IDs and is a focused subset, not the full corpus.
 
-A separate approved semester paper is tracked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`, `data/semester-paper-candidate-register.csv` (38 candidates), `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv` (13 dedicated records), and `data/semester-main-corpus-crosswalk.csv`. Its scope is graphene-based adsorbents/composites for CIP and TC; do not merge its ~50 actual-citation target with the broad-review ~60/~150 targets. The user has paused new downloads; proceed with available files and accessible sources.
+A separate approved semester paper is tracked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`, `data/semester-paper-candidate-register.csv` (40 candidates), `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv` (16 dedicated records), and `data/semester-main-corpus-crosswalk.csv`. Its scope is graphene-based adsorbents/composites for CIP and TC; do not merge its ~50 actual-citation target with the broad-review ~60/~150 targets. The user has paused new downloads; proceed with available files and accessible sources.
 
 
 ## Historical corpus checkpoint and restart rule (2026-10-27; superseded by live status overlay)
@@ -95,7 +95,7 @@ Draft only after evidence for the paragraph is extracted. Use Zotero for citatio
 ## 9. GitHub storage convention
 
 - Every session ends with a dated entry in `logs/`.
-- Reconcile the canonical screening register only when the Zotero corpus changes; the current 68-row register has already been reconciled against the updated export dated 2026-10-25.
+- Reconcile the canonical screening register only when the Zotero corpus changes. **Historical note:** the register was 68 rows on 2026-10-25; the current 111-row register and 164-entry Better BibTeX processing queue are described in the live overlay at the top of this document.
 - Update canonical evidence tables only after checking original papers.
 - Keep the old seven-paper table and caveats as a historical seed record until each paper has been re-verified.
 - Record major scope/taxonomy decisions in `docs/MATERIAL_TAXONOMY.md` and the dated log.
