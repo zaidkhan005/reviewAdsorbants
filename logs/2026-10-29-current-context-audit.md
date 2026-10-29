@@ -274,3 +274,40 @@ Completed a claim-group audit against the existing semester condition-labelled c
 - The 15-key manuscript-local bibliography is internally consistent; nine project-local keys still need synchronization/verification against live Zotero/Better BibTeX before final citation-style rendering.
 
 **Current disposition:** Internal citation linkage and draft-level claim consistency are improved. The work is still not submission-ready because source pinpoint verification, unresolved data arithmetic/conditions and final citation-manager synchronization remain. Do not start another bulk PDF upload or broaden candidate screening for this task.
+
+
+## Follow-up source-pin verification for high-impact numeric claims — 29 October 2026
+
+The three priority claims were checked against the full source PDFs already in the Library. Their relevant table/figure pages were visually inspected; the source of truth remains the primary PDF plus the evidence data files.
+
+### SGO/CIP: correct the earlier, inapplicable loading-ceiling warning
+- **Methods and equations:** printed p. 40819; the article defines (q_e=V(C_0-C_e)/m) and removal ((C_0-C_e)/C_0 × 100%), and specifies the 50 mL solution/10 mg SGO setup.
+- **Table 1 and Fig. 7:** printed p. 40822. Table 1 gives (q_{e(exp)}=237.12 μmol/g) for the 50 μmol/L kinetic/concentration condition at 25 °C. The prose reports 96.53% removal for the same nominal 25 °C condition.
+- **Fig. 10:** printed p. 40824, explicitly labels the isotherm concentration range as 50–1000 μmol/L at SGO 0.2 g/L and pH 4.
+- **Table 2:** printed p. 40825, reports fitted Langmuir (q_m=1000 μmol/g) at 25, 30, 35 and 40 °C (R²=0.9998).
+
+**Correction:** the previous audit inferred a 500 μmol/g feed-mass ceiling from the separate 10–100 μmol/L kinetic series and applied it to the isotherm fit. That was not a valid cross-series inference. The isotherm series reaches 1000 μmol/L, so the earlier ceiling statement is removed from the manuscript, claim audit, narrative audit and source-caveat register. Keep (q_m=1000 μmol/g) as a fitted parameter, not as an observed uptake. The genuine discrepancy remains: (q_e=237.12 μmol/g), C0=50 μmol/L and dose 0.2 g/L imply about 94.85% removal by the paper's own mass-balance equation, while the text reports 96.53%. The reuse section also reports 239.39 μmol/g as the direct/initial uptake at the 50 μmol/L condition, versus 237.12 in Table 1; both values are preserved as a separate minor source discrepancy.
+
+### N-rGO/trace antibiotics: distinguish a conditional qe bound from fitted q_m
+- **Methods §2.3:** printed p. 1300; the article describes 80 mL of antibiotic solution combined with 20 mL N-rGO dispersion at 0.5 mg/L, and states concentration/dose ranges.
+- **Fig. 2a and Table 1:** printed p. 1302; nominal C0=10 μg/L and observed (q_e) values 80.58–90.21 mg/g.
+- **Fig. 2b and Table 2:** printed pp. 1302–1303; Table 2 includes fitted Langmuir (q_m=662.25) mg/g for TC and 1265.82 mg/g for clindamycin.
+
+The volume/C0 basis is not clarified: if 10 μg/L refers to the original 80 mL before N-rGO dispersion is added, the mass-balance ceiling is about 80 mg/g; if it refers to the final 100 mL mixture, it is about 100 mg/g. Accordingly, the top observed (q_e) values are not categorically labelled impossible. The much larger (q_m) values remain model-fitted values with a major trace-concentration/dose-basis concern and stay excluded from quantitative cross-study ranking until the isotherm concentration, dose, volume and fit inputs are reconciled. `data/corpus-evidence.csv` and `data/source-caveats.csv` now reflect this conditional interpretation.
+
+### PGOT@GEL/CIP: source pin located, volume still unavailable
+- **Methods §2.6:** printed p. 3, says full adsorption-test detail is in Supporting Materials.
+- **Langmuir discussion:** printed p. 8, reports (q_{max}=821.24) mg/g.
+- **RSM §3.3.6:** printed p. 9, reports predicted (q_e=800.60) mg/g and validation (q_e=807.54) mg/g at C0=296.52 mg/L, pH 6.70, dose 5.08 mg and 298.88 K.
+- **Figure 12 and caption:** printed pp. 10–11; the caption identifies the application matrix as simulated real wastewater, which should not be rewritten as native real wastewater without clarification.
+
+At the reported validation (q_e) and adsorbent mass, approximately 4.1023 mg CIP is adsorbed; at C0=296.52 mg/L, an initial solution volume of at least approximately 13.84 mL is required for the simple feed-mass balance to be feasible. The main article does not state the volume. The available project files and the retrieved publisher page did not expose the cited Supporting Materials file, so the volume check remains incomplete and the (q_e) is not declared wrong.
+
+### Repository updates completed
+- Revised the Results & Discussion manuscript to correct the SGO caveat and add source-page pins and an N-rGO conditional mass-balance caveat.
+- Updated `data/semester-evidence-readiness-audit.csv` for EV-SEM-012 and EV-SEM-013 with page/table/figure pins and next QA actions.
+- Updated `data/corpus-evidence.csv` for EV-B10-005/006 (N-rGO) and EV-B14-012 (SGO) to correct concentration-range interpretations and record exact source pins.
+- Updated `data/source-caveats.csv` for the SGO and N-rGO entries.
+- Updated `data/semester-results-discussion-claim-evidence-audit.csv` and `evidence/2026-10-29-semester-results-discussion-claim-audit.md` to reflect the corrected findings.
+
+**Outstanding:** PGOT@GEL still requires the Supporting Materials for an independent volume/mass-balance check. No new PDFs were requested or uploaded; the audit used existing Library copies and publisher text.
