@@ -9,7 +9,7 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
-- Candidate register: **44 semester candidates**.
+- Candidate register: **44 rows, 43 unique DOI-defined works**; SEM-041 is a duplicate alias of SEM-026.
 - Dedicated semester evidence CSV: **24 evidence records**.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
@@ -25,7 +25,7 @@ The user has explicitly said they are not downloading any more papers for the ti
 4. Deduplicate candidates and link reused master evidence through the crosswalk rather than creating duplicate evidence rows.
 5. Build the source-backed comparisons and original table/figure plan, and continue the citation/provenance audit.
 
-- Added existing-source candidates: SEM-041 (GO–alginate gel/aerogel, CIP), SEM-042 (chitin/nGO continuous-flow, CIP), SEM-043 (GO for CIP/SMX, with SMX excluded from target metrics), and SEM-044 (MgO/chitosan/GO for CIP/NOR, with NOR separate). Evidence IDs EV-SEM-020–EV-SEM-023 preserve the abstract/table-access limitations.
+- Current GO–alginate study is canonicalized as SEM-026 with evidence EV-SEM-020; SEM-041 is a retained duplicate alias and must not be counted twice. SEM-042 (chitin/nGO continuous-flow CIP), SEM-043 (GO for CIP/SMX, SMX separate), and SEM-044 (MgO/chitosan/GO for CIP/NOR, NOR separate) remain distinct records with EV-SEM-021–EV-SEM-023.
   
 - SEM-024 (Gao et al., 2012, GO for TC) now has EV-SEM-024 from the primary PubMed abstract. The 313 mg/g qmax and kinetic constant are abstract-level; full conditions and cost/regeneration are unavailable.
 - SEM-001's full PLOS text is re-audited; the temperature-specific Langmuir values (322.43, 101.87 and 73.53 mg/g at 298, 303 and 308 K, respectively) are recorded with a consistency caveat, not used as an unqualified temperature trend.
@@ -39,3 +39,10 @@ The user has explicitly said they are not downloading any more papers for the ti
 - SEM-006, the DTPA-functionalized magnetic GO study for CIP and TC, has indexed primary methods/text but not a complete verifiable numeric table/figure audit in this session.
 - SEM-037, the GO–alginate hydrogel-bead permeable reactive barrier study for CIP groundwater, has accessible abstract/indexed details, but the actual cost/lifetime values and complete column conditions remain unavailable.
 - Those limitations remain recorded. The workflow proceeds with other evidence; neither item is a current request for the user.
+
+
+## Recent integrity work (29 October 2026)
+
+- Duplicate DOI 10.1016/j.jcis.2016.08.068 has been resolved in project data: SEM-026 is canonical, EV-SEM-020 is linked to SEM-026, and SEM-041 is an alias for traceability only.
+- EV-SEM-010 and EV-SEM-013 had fields misassigned against the CSV headers. The rows have been corrected; do not reuse their prior shifted fields from any old export.
+- No user action is required. The user has paused new downloads/uploads.
