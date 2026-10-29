@@ -9,10 +9,11 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
-- Candidate register: 38 semester candidates.
-- Dedicated semester evidence CSV: 13 records.
+- Candidate register: 40 semester candidates.
+- Dedicated semester evidence CSV: 16 records.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
+- Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
 - Reference target: approximately 50 distinct works actually cited, subject to screening and the strength of evidence; this count is not yet established.
 - The broad review remains separate and retains its original processing–cost–performance continuum and material classes.
 
@@ -25,6 +26,10 @@ The user has explicitly said they are not downloading any more papers for the ti
 5. Build the source-backed comparisons and original table/figure plan, and continue the citation/provenance audit.
 
 ## Known limitations, not user requests
+
+- SEM-020 has publisher-abstract-only evidence for the 323 mg/g fitted Langmuir value; full-text conditions/table/figure validation remains pending. Keep it out of final quantitative ranking.
+- SEM-039 has publisher HTML reviewed, but figure-specific conditions and exact PDF page pins for Fig. 7/Table 1/Table 2 remain to be audited; no cost inventory is reported.
+- SEM-040 has publisher HTML reviewed; the exact TC removal percentage is figure-based and was not guessed. The experiment is a mixed-antibiotic test, not a single-solute TC isotherm.
 
 - SEM-006, the DTPA-functionalized magnetic GO study for CIP and TC, has indexed primary methods/text but not a complete verifiable numeric table/figure audit in this session.
 - SEM-037, the GO–alginate hydrogel-bead permeable reactive barrier study for CIP groundwater, has accessible abstract/indexed details, but the actual cost/lifetime values and complete column conditions remain unavailable.
