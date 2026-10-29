@@ -136,3 +136,15 @@ Current direct count: 44 candidate-register rows, 43 DOI-defined works (SEM-041 
 - SEM-014 / EV-SEM-030: magnetic GO·Fe₃O₄ for TC; abstract says C₀=1000 mg/L, 50 mg material, pH 7 and 293 K, headline maximum capacity 531.93 mg/g. Solution volume and measured/fitted definition are missing from accessible preview; DFT outputs (−3.86 eV binding energy; 14.99 μB spin polarization; 0.22 eV HOMO–LUMO gap) are computational, not adsorption-capacity metrics. No cycle-level reuse/cost details.
 - SEM-030 / EV-SEM-031: GO–[Ni(DMG)]ₙ for CIP; one-pot GO/ethanol + Ni(II) + DMG, 24 h at room temperature; Langmuir-comparison capacity 117–159 mg/g, pH 2–7 removal trend, PSO k=0.0005–0.0009 g/(mg·min). Freundlich/Temkin are reported as better isotherm fits. Exact feed/dose/formulation-specific metrics, reuse, matrix and cost are unavailable in the abstract.
 - Current counts: 44 candidate-register rows, 43 DOI-defined works, 31 unique semester evidence rows, 44 crosswalk rows. These counts are inventory, not final included/cited works.
+
+## Follow-on evidence wave — 29 October 2026
+
+Latest dedicated semester evidence count is 37 unique rows; candidate register remains 44 rows, with SEM-041 an alias of SEM-026 and SEM-021 missing verified DOI metadata. The crosswalk has 44 rows.
+
+New records:
+- EV-SEM-034 / SEM-008: MGO for TC-HCl/OTC/CTC; primary abstract only, capacity metric held because the numeric TC-HCl value comes from a secondary review.
+- EV-SEM-035 / SEM-013: DFT-only; mechanism context, not measured adsorption performance.
+- EV-SEM-036 / SEM-031: SGO in binary/ternary/quaternary fluoroquinolone mixtures; mixture-level q_m and DMF/1 M HCl regeneration.
+- EV-SEM-037 / SEM-033: rotating-field Fe3O4/rGO for TCH; high removal but no electrical energy or field-free comparator.
+
+No new user files are needed. Next highest-value task is metric/provenance QA across the 37 evidence rows, followed by the included-study shortlist and citation-key reconciliation.
