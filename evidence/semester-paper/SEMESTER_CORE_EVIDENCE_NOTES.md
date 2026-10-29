@@ -396,6 +396,21 @@ The article calls the composite low-cost because of component sources and reusab
 
 **Source pins:** Methods §§2.2–2.4; §3.2/Table 1 and §3.10/Tables 2–3 (isotherm fits); §3.11/Table 4 (kinetics); §3.12/Table 5 (thermodynamics); §3.13 (cost/reuse claims).
 
+**Focused mass-balance and cost-basis audit (30 October 2026):**
+
+The open-access full text is accessible from the [RSC article](https://pubs.rsc.org/en/content/articlehtml/2026/ra/d6ra00494f) and its [PMC full-text record](https://pmc.ncbi.nlm.nih.gov/articles/PMC12999272/). Section 3.6.2 states that 0.5 g of beads was added to 50 mL at 298 K for 150 min and reports 89.82% removal at C₀=40 mg/L. Using those same reported conditions:
+
+- Initial CIP mass = 40 mg/L × 0.050 L = 2.0 mg.
+- CIP removed = 2.0 mg × 0.8982 = 1.7964 mg.
+- Derived qₑ = 1.7964 mg / 0.5 g = **3.5928 mg/g**.
+- Feed-mass ceiling = 2.0 mg / 0.5 g = **4.0 mg/g**.
+
+This endpoint passes the simple mass-balance check. qₑ=3.5928 mg/g is a calculation from removal and stated conditions, not a source-tabulated observed qₑ. The separately reported maximum observed qₑ=7.15 mg/g belongs to the 20–100 mg/L concentration sweep and must not be paired with the 89.82% result. At C₀=100 mg/L, 50 mL and 0.5 g, the feed ceiling would be 10 mg/g. The nonlinear Langmuir qₘ=10.14 mg/g is 0.14 mg/g (1.4%) above that ceiling; because qₘ is a fitted asymptote rather than observed uptake, record this as a marginal fit/extrapolation concern, not a confirmed impossible experimental value. Linear Langmuir qₘ=8.210 mg/g is a separate fitted output. Linear/nonlinear D–R values remain strongly discordant, and the linear pseudo-first-order k₁ is negative.
+
+Section 3.13 estimates the bead material at $10–30/kg but uses 0.1 g beads/L for its operational-cost scenario. Elsewhere, 0.5 g in 50 mL is described as the optimum, equivalent to 10 g/L: **100× the cost-section dose**. For a 100 L comparison, these loadings imply 10 g versus 1 kg beads; applying the paper's own estimated bead price alone gives $0.10–0.30 versus $10–30, before GO synthesis reagents, washing, drying, regeneration or waste treatment. This calculation illustrates the dose-basis sensitivity and does not independently estimate total process cost. The paper's <$1/kg CIP-removed lifecycle claim remains unreproducible because the cost worksheet, consistent loading basis and explicit removed-CIP denominator are not supplied. Preserve the paper's 50/55 mL method inconsistency rather than guessing a correction. No real wastewater trial, quantified energy inventory or material yield is reported.
+
+**Evidence-use rule:** condition-specific removal may be retained with the calculated qₑ label and source conditions; keep measured/derived qₑ, kinetic-fit qₑ and isotherm qₘ separate. Do not treat this paper as a validated low-cost winner.
+
 
 ## EV-SEM-027 — GO/Co–Fe magnetic nanocomposite for tetracycline (Hossain et al., 2024)
 
