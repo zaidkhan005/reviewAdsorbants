@@ -42,7 +42,7 @@ This table is deliberately not a ranking. The values come from different concent
 | Rostamian & Behnejad (2018), GO nanosheets | CIP + TC | Abstract reports CIP maximum capacity up to 173.4 mg/g from the fitted Sips model; TC-specific numeric capacity not available in the accessible abstract | One primary study spans both target antibiotics, with pH around 6–7 and contact-time region 100–200 min described as favorable | Abstract-level only; do not infer a TC capacity or treat CIP qmax as measured qe; no quantified cost/reuse extraction |
 | Yadav et al. (2018), GO for fluoroquinolones | CIP (plus NOR/OFL separately) | Abstract confirms pH effect and best-fit models but gives no numeric CIP capacity/removal | Qualitative condition/mechanism context only | Abstract-level; figure correction later replaced original Figs. 10–13, so figure-based claims require the corrected figures |
 | Magnetic GO sponge (2017) | TC | Abstract reports an adsorption-capacity figure of 473 mg/g and ~50% higher uptake than GO, but the precise fitted-versus-observed endpoint is not clear from the accessible excerpt | Potentially high-performing magnetic graphene composite | Keep 473 mg/g out of ranking until the primary table establishes metric and conditions; lyophilization and full cost/reuse burden unquantified |
-| GO–sodium alginate hydrogel/aerogel (Fei et al., 2016) | CIP | Primary abstract reports ~7–9× capacity increase vs alginate-only gel and good Langmuir fit; a secondary source lists q_m=86.12 mg/g | Immobilized GO addresses handling, but gel form and capacity definition matter | q_m is not primary-table verified in this extraction; no cost inventory or confirmed multi-cycle reuse |
+| GO–sodium alginate hydrogel/aerogel (Fei et al., 2016; canonical SEM-026, SEM-041 alias) | CIP | Primary abstract reports ~7–9× capacity increase vs alginate-only gel and good Langmuir fit; a secondary source lists q_m=86.12 mg/g | Immobilized GO addresses handling, but gel form and capacity definition matter | q_m is not primary-table verified in this extraction; no cost inventory or confirmed multi-cycle reuse |
 | Chitin/nGO hybrid (González et al., 2018) | CIP | Batch isotherm and continuous-flow column work; real-water samples spiked with CIP; 0.1 M NaOH regeneration | Valuable process/application evidence beyond batch-only tests | Indexed “100 g” sorbent quantity conflicts with tiny column geometry; no exact column capacity is reported here until this inconsistency is checked |
 | GO sheets (Chen et al., 2015) | CIP (SMX separate) | Abstract reports maximum sorption capacities 379 mg/g for CIP and 240 mg/g for SMX; low-pH CIP sorption destabilized the GO suspension | Directly supports importance of ionic strength, pH and colloidal stability | Abstract-level model value only; keep SMX separate and do not present the maximum as observed qe |
 | MgO/chitosan/GO nanosheets (Nazraz et al., 2019) | CIP (NOR separate) | Abstract reports Langmuir maximum capacity 1111 mg/g for CIP and kinetic equilibrium after >120 min | High-capacity graphene-bearing composite lead with mesoporous structure | Abstract-only, unusually high fitted capacity; verify primary table before ranking. No cost inventory or regeneration-cycle result in the abstract |
@@ -138,14 +138,14 @@ The earlier suggested downloads for SEM-006 and SEM-037 are no longer user actio
 
 Three more on-scope candidate records now have source-linked evidence: SEM-020 (CIP on graphene, abstract-level), SEM-039 (TC on a CNF/GO aerogel), and SEM-040 (TC on graphene in a mixed seven-antibiotic solution at 200 µg/L per drug). The evidence matrix keeps the abstract-level row provisional, records Yao et al.'s q_m and kinetic q_e separately, and does not infer a precise TC percentage from Peng et al.'s figure-only range. The core performance table should remain condition-aware; these are not a universal rank list.
 
-The semester register now has 40 candidates and 16 dedicated evidence rows, while reusable broad-corpus evidence remains cross-referenced rather than duplicated. The ~50 distinct cited-work target is still open.
+Historical snapshot before the later abstract-screening waves: 40 candidate rows and 16 dedicated evidence rows. Current state is 44 register rows, 43 unique DOI-defined works, and 24 evidence rows. The ~50 distinct cited-work target is still open.
 
 
 ## Abstract-level source wave — 29 October 2026
 
 Three already-registered candidates now have primary-source abstract evidence: SEM-002 (GO nanosheets for CIP and TC), SEM-003 (GO for CIP among fluoroquinolones), and SEM-005 (magnetic GO sponge for TC). The rows add study coverage but deliberately do not claim full-text extraction: SEM-002's numeric TC capacity and SEM-003's numeric CIP results remain unavailable from the abstract text; SEM-005's reported 473 mg/g remains metric-unresolved. These values should stay out of any cross-study numerical ranking until the source tables/conditions can be verified.
 
-The semester candidate register remains at 40 records and the dedicated evidence file is now at 19 rows. No new user download is requested.
+Historical snapshot during the third abstract-level source check: 40 candidate rows and 19 evidence rows. Later source waves increased the live counts; no new user download is requested.
 
 
 ## Follow-on source wave — 29 October 2026
@@ -166,3 +166,8 @@ The open publisher text resolves the practical and modeling details but not the 
 ## Source-level process refinement — CNF/GO aerogel (SEM-039)
 
 The publisher Methods now support explicit synthesis burdens: 80 mg CNF + 100 mg GO in 100 mL water; 30 min sonication at 60 kHz (stated 1000 W output) in an ice bath; freezing at −30°C for >5 h; vacuum freeze-drying 48 h at −55°C/80 mTorr. Regeneration uses 5 wt.% NaOH for 5 h, then washing and another freeze-dry. The model-derived kinetic q_e (84.8 mg/g), Langmuir q_m (454.6 in abstract/Results; 454.5 in conclusion) and removal (82.1%) remain separate outputs. Ten-cycle TC removal is 78.9%. This is useful for the preparation–performance–recovery comparison, but the paper lacks a quantified process-cost inventory and the exact Fig. 7 feed concentration remains unspecified in the caption.
+
+
+## Data-integrity correction — 29 October 2026
+
+The current candidate register has 44 rows but only 43 distinct DOI-defined works because SEM-026 and SEM-041 are duplicate records for Fei et al. (2016). SEM-026 is now canonical; SEM-041 is an alias and must not be counted as a second cited work. EV-SEM-020 is assigned to SEM-026. The schema audit also remapped EV-SEM-010 and EV-SEM-013 to the correct evidence columns, ensuring mechanistic interpretation, regeneration, cost, source location, source URL, extraction status and caveats appear under their intended headings. Numeric capacity values remain provisional as described in those records.
