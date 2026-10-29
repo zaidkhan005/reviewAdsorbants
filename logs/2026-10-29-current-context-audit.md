@@ -352,3 +352,13 @@ The rotating-field Fe3O4/rGO study was rechecked using the official ScienceDirec
 Primary publisher source: https://www.sciencedirect.com/science/article/pii/S1383586625046465
 ResearchGate accessibility record: https://www.researchgate.net/publication/397666081_Rotating_magnetic_field-enhanced_adsorption_of_tetracycline_hydrochloride_and_ofloxacin_using_Fe3O4reduced_graphene_oxide_composites
 
+
+
+## Follow-up abstract cross-check — SEM-020 / EV-SEM-014 (29 October 2026)
+
+The graphene-vs-GAC ciprofloxacin benchmark was rechecked against the official Taylor & Francis publisher abstract and PubMed (PMID 26050736). Both abstracts support the claims that graphene reached equilibrium within ~3 minutes and had a reported Langmuir-fitted q_max of 323 mg/g; they also describe less adverse effects than GAC from ionic strength 0.01–0.5 mol/L, NOM 5 mg/L and river/drinking-water sources. The reported value is still abstract-only because feed concentration, dose, temperature, exact pH/range, isotherm concentration range and numerical effect sizes remain unavailable. The publisher lists supplemental data, but the full article/SI could not be retrieved in this pass or located by Library search; ResearchGate also reports no full text. The manuscript now preserves the separation/recovery caveat and avoids a condition-matched numerical ranking.
+
+Updated: data/semester-evidence-readiness-audit.csv (EV-SEM-014); data/semester-results-discussion-claim-evidence-audit.csv (RD-009); data/semester-condition-labelled-comparison.csv (new provisional EV-SEM-014 row); data/semester-main-corpus-crosswalk.csv (SEM-020); manuscript §3.2; narrative audit report.
+
+Sources: https://www.tandfonline.com/doi/full/10.1080/09593330.2015.1054316 ; https://pubmed.ncbi.nlm.nih.gov/26050736/
+
