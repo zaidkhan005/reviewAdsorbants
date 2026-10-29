@@ -443,3 +443,28 @@ The accessible primary *Materials Chemistry and Physics* preview confirms the ma
 
 ### EV-SEM-023 — MgO/chitosan/GO nanosheets for CIP (CIP separate from NOR)
 The primary Springer abstract for DOI [10.1007/s00604-019-3563-x](https://doi.org/10.1007/s00604-019-3563-x) confirms hydrothermal MgO/chitosan/GO nanosheets, BET surface area 294 m²/g and typical pore size about 15 Å. The abstract reports Langmuir maximum capacities of 1111 mg/g for CIP and 1000 mg/g for norfloxacin; these are reported model-capacity claims, not observed qe at a stated C₀. PSO kinetics and equilibrium times >120 min (CIP) / >150 min (NOR) are stated. No dose, C₀ range, pH, fit statistics, table values, regeneration or quantified cost are available in the accessible abstract. The unusually high 1111 mg/g stays provisional and out of an unqualified ranking until conditions/tables can be verified. The author’s “economical” wording is not cost evidence.
+
+
+## EV-SEM-030 — GO·Fe₃O₄ / tetracycline (DFT plus experiment; 2022)
+
+**Primary source:** *A DFT theoretical and experimental study about tetracycline adsorption onto magnetic graphene oxide*, DOI [10.1016/j.molliq.2022.118837](https://doi.org/10.1016/j.molliq.2022.118837); [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S0167732222003749).
+
+**Accessible experimental condition:** Abstract reports TC initial concentration 1000 mg/L, adsorbent mass 50 mg, pH 7 and 293 K. It calls the maximum adsorption capacity 531.93 mg/g. **The accessible source does not expose solution volume or define whether the 531.93 mg/g is measured qₑ or a fitted qmax**, and no isotherm fit statistics, contact time, reuse-cycle values, or cost are available in the preview. Do not calculate mass-balance uptake, relabel the metric, or rank it as validated without the complete primary table.
+
+**Preparation:** GO·Fe₃O₄ magnetic composite produced by co-precipitation, controlling magnetite incorporation on GO; exact amounts, pH sequence, washes, drying and yield are not visible in the accessed text.
+
+**Computational outputs are separate:** the paper’s DFT conclusion reports binding energy −3.86 eV, spin polarization 14.99 μB, and HOMO–LUMO gap 0.22 eV for configuration 1. These are electronic structure values, not experimental sorption outcomes or kinetic/isotherm parameters.
+
+**Reuse/cost:** The publisher highlight calls the material reusable/easy to operate, but exact cycle counts and retained capacity are not available in the accessible preview. No real-water data or quantified cost/energy/yield was found.
+
+
+
+## EV-SEM-031 — GO–[Ni(DMG)]ₙ / ciprofloxacin (2026)
+
+**Primary source:** *Tailored graphene oxide – [Ni(DMG)]n composites for enhanced adsorption of ciprofloxacin: Kinetic, Isothermal, and pH-dependent behavior*, DOI [10.1016/j.jwpe.2026.110335](https://doi.org/10.1016/j.jwpe.2026.110335); [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2214714426008937).
+
+**Preparation excerpt:** One-pot reaction of ethanol-dispersed GO suspension, Ni(II) ions and dimethylglyoxime (DMG), with 24 h stirring at room temperature. The accessible abstract does not give the GO:Ni:DMG quantities/ratios, work-up, product yield, or reagent recovery.
+
+**Performance/model excerpt:** The abstract reports Langmuir-comparison maximum capacities of 117–159 mg CIP/g across formulations and high removal across pH 2–7. However, it explicitly says Freundlich and Temkin provided better agreement with the isotherm data; Langmuir was additionally used to compare maximum capacities because its R² values were considered reasonably high. PSO gives the best kinetic fit, k=0.0005–0.0009 g/(mg·min). Exact initial concentration, dose, solution volume, temperature, time series, qmax per formulation and fit statistics are not available in the accessible excerpt. Do not call 117–159 mg/g measured qe or describe Langmuir as the best-fit model.
+
+**Practical evidence:** No regeneration/reuse data, real-water tests, quantified process cost, energy, yield or cost per mass of CIP removed were exposed in the source excerpt. Ni(II) and DMG are relevant formulation inputs, but the accessible source does not allow a cost calculation.
