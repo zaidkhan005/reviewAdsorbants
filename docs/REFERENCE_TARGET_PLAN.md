@@ -5,7 +5,7 @@
 - Broad corpus: 111 candidate records, 505 evidence rows, 41 journal-audit records, and 164 entries in the current Better BibTeX processing queue. The 505 rows are findings, not studies or accepted citations, and some evidence remains provisional/staged.
 - The 250-row planned discovery pool in `data/planned-download-pool.csv` already exists. Do not calculate a current discovery deficit by simply subtracting the 111-row register from 250; the pool and register have different composition and need DOI/title crosswalking.
 - Broad-review targets remain about **60 distinct works actually cited** for the semester version and **150 actually cited** for the journal version; the final bibliography count is not audited.
-- Separate semester paper: approximately **50 distinct works actually cited**, locked to selected graphene-based adsorbents/composites for CIP and TC. Its register has 38 candidates and its dedicated evidence CSV has 13 rows. Do not merge its reference target into the broad-review targets.
+- Separate semester paper: approximately **50 distinct works actually cited**, locked to selected graphene-based adsorbents/composites for CIP and TC. Its register has 40 candidates and its dedicated evidence CSV has 16 rows. Do not merge its reference target into the broad-review targets.
 - No new download/upload is being requested from the user. Continue using existing files, evidence and legitimate accessible source text.
 
 
