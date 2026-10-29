@@ -329,3 +329,8 @@ The detailed results report pseudo-first-order R²=0.949, Elovich R²=0.945 and 
 **Preparation burden now verified from the Methods:** modified-Hummers GO; 500 mg GO; 1 h ultrasonication; Zn/Al/Ni nitrate salts, carbonate and concentrated 3.4 M NaOH to pH 10; hydrothermal treatment at 120°C for 16 h; filtering, water/ethanol washing to neutral and oven drying at 70°C. These are concrete cost/process variables, but no monetary cost, product yield or energy inventory is reported.
 
 **Table decision:** include the 84.84% removal result only with its stated conditions; quarantine reported capacities; use the five-cycle decline as a practical limitation; do not repeat the authors' positive reusability characterization without the numerical decline.
+
+
+## Schema and duplicate-record audit — 29 October 2026
+
+The integrity review found that EV-SEM-010 and EV-SEM-013 had their final columns misassigned: narrative intended for mechanism/reuse/cost/source/caveat fields had drifted into adjacent columns. Those rows have now been remapped to the declared 20-column schema. The empty caveat cells are filled. A duplicate DOI was found for Fei et al. (2016), 10.1016/j.jcis.2016.08.068, in SEM-026 and SEM-041. SEM-026 is now the canonical candidate and EV-SEM-020 is linked to it; SEM-041 remains as a traceable alias, not a second bibliography item. The register therefore has 44 rows but **43 unique DOI-defined works**.
