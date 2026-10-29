@@ -197,3 +197,8 @@ SEM-029 now has open-source primary extraction in EV-SEM-026. Its fitted qₘ an
 ## Follow-on source audit — SEM-019 and SEM-028 (29 October 2026)
 
 The full primary source for mGO/EDTA (SEM-019) reports 93.23% TC removal at C₀=0.2 mg/L and dose=0.10 g/L in 5 min at pH 5/25°C. This implies qₑ≈1.865 mg/g by mass balance, yet the paper’s best-fit PSO model gives qₑ=0.01937 mg/g with R²=1—an approximately 96-fold difference. Keep this as a data-quality issue rather than a ranking value. SEM-028 has accessible primary abstract data: GO/CA fibers at 6 wt% GO show 78.9% removal at 2 g/L and source-reported uptake 39.06 mg/g at equilibrium concentration 60 mg/L, but full method/table details are not accessible, so the results remain snippet-level and condition-separated.
+
+
+## Source-preview refinements — SEM-005 and SEM-044 (29 October 2026)
+
+The MGOS/TC preview now confirms Fe₃O₄:GO ratio 1:40 and density 4.6 mg/cm³, but not whether 473 mg/g is observed qe or fitted qmax, nor experimental conditions/reuse/cost. The MgO/chitosan/GO CIP/NOR study’s primary abstract confirms Langmuir qmax claims of 1111 mg/g CIP and 1000 mg/g NOR, but the full conditions and fitted statistics are inaccessible; the claim remains provisional. These entries help map the evidence gaps but must not be used as definitive capacity ranks.
