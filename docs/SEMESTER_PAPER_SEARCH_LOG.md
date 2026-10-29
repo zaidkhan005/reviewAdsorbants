@@ -209,3 +209,13 @@ No additional user download was requested. Four more on-scope primary-source rec
 - **SEM-044 / EV-SEM-023 — Nazraz et al. (2019), MgO/chitosan/GO for CIP and NOR**, DOI 10.1007/s00604-019-3563-x. Abstract reports a Langmuir capacity of 1111 mg/g for CIP and >120 min to kinetic equilibrium, with no comparable cost inventory. The high capacity remains unranked pending primary-table confirmation.
 
 The live semester register now contains 44 candidates and the dedicated evidence CSV 23 records. These are still provisional study-screening/evidence rows, not a final inclusion list or 23 validated quantitative studies. No user download/upload is requested.
+
+
+## 18. Full-text audit of existing GO/TC study and abstract evidence for 2012 GO/TC — 29 October 2026
+
+No user download requested. The existing full-text web article for SEM-001 was checked section by section, and existing candidate SEM-024 was converted into a source-linked abstract-level evidence row.
+
+- **SEM-001 / EV-SEM-001 — Ghadim et al. (2013), GO for TC**, DOI 10.1371/journal.pone.0079254. Full Methods/Results confirm improved-Hummers GO; separate general/pH/kinetic/isotherm conditions; kinetic tests at pH 3.6; and Langmuir q_max values of 322.43 mg/g at 298 K, 101.87 mg/g at 303 K and 73.53 mg/g at 308 K. The unusually large temperature-dependent change is now explicit as a source consistency/comparability caveat. Abstract-rounded 323 mg/g remains only a rounded version of the 298 K fit.
+- **SEM-024 / EV-SEM-024 — Gao et al. (2012), GO for TC**, DOI 10.1016/j.jcis.2011.11.015. PubMed primary abstract reports Langmuir/Temkin fits, Langmuir q_max=313 mg/g described as close to measured data, pseudo-second-order kinetic k=0.065 g mg−1 h−1, and decreased adsorption with increased pH or Na+ concentration. Oxytetracycline and doxycycline are discussed separately and do not enter the TC comparison. Dose, C0, pH, time and temperature details are not available in the abstract extraction.
+
+The register remains **44 candidates**; the dedicated evidence CSV is now **24 records**. These are not equivalent to 24 fully audited studies: SEM-024 is abstract-only, and SEM-001 has a temperature/table consistency warning that must remain visible.
