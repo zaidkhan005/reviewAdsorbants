@@ -233,3 +233,32 @@ Preparation is chemically intensive (strong acid/oxidant treatment, extensive wa
 **Mechanism and cost caveats:** The authors emphasize π–π interactions, with fluorescence quenching of FITC (a structural surrogate) and DFT calculations. These are supportive but do not prove π–π interaction is the sole mechanism for TC. No quantified graphene production/purchase cost, yield, process-energy inventory or multicycle regeneration result was identified in the source sections reviewed.
 
 **Audit points:** Treat this as mixed-solute, low-concentration evidence rather than a single-solute TC isotherm or real untreated wastewater. The exact TC endpoint and supplementary kinetic-table entries remain figure/SI checks; PDF page pins were not independently verified.
+
+
+## EV-SEM-017 — Graphene oxide nanosheets / CIP and TC (Rostamian & Behnejad, 2018)
+
+**Primary source:** Rostamian & Behnejad, *A comprehensive adsorption study and modeling of antibiotics as a pharmaceutical waste by graphene oxide nanosheets*, DOI [10.1016/j.ecoenv.2017.08.019](https://doi.org/10.1016/j.ecoenv.2017.08.019); [publisher record](https://www.sciencedirect.com/science/article/pii/S0147651317305158) and [PubMed record](https://pubmed.ncbi.nlm.nih.gov/28841526/).
+
+**Accessible evidence:** The abstract confirms that GO nanosheets were tested on CIP, tetracycline (TCN/TC) and doxycycline, with initial concentration, pH, temperature and contact time varied. It describes pH around 6–7 and 100–200 min as the optimum region, with lower reported capacity at higher temperature (25–45°C). The publisher highlight reports CIP capacity up to 173.4 mg/g, with the paper's modeling summary identifying Sips-derived capacity and a CIP > doxycycline > TC ordering at a common temperature. A numeric TC-specific capacity was not present in the accessible abstract excerpt, so it remains blank in the evidence table.
+
+**Model/mechanism caveats:** Hill and Toth reportedly described the equilibrium data well; kinetic fits varied by target (Elovich for CIP, pseudo-second-order for TC/doxycycline). The paper deduces π–π and cation–π interactions through analysis; do not state that these uniquely prove molecular mechanism. No regeneration or quantified cost inventory was found in accessible abstract-level material.
+
+**Status:** Abstract-level primary-source extraction only; do not treat 173.4 mg/g as a measured qe, and do not extrapolate its fit/model to the unreported TC numerical value. No user download request is active.
+
+## EV-SEM-018 — Graphene oxide / fluoroquinolones including CIP (Yadav et al., 2018)
+
+**Primary source:** Yadav et al., *Removal of fluoroquinolone from aqueous solution using graphene oxide: experimental and computational elucidation*, DOI [10.1007/s11356-017-0596-8](https://doi.org/10.1007/s11356-017-0596-8); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/29147984/).
+
+**Accessible evidence:** The abstract says oxygen-functionalized graphene oxide was prepared by a modified Hummers–Offeman method, and adsorption was studied for CIP, norfloxacin and ofloxacin. It states that solution pH influenced adsorption more strongly than initial concentration, contact time or adsorbent dosage. No numeric CIP-specific capacity/removal or complete conditions were provided in the abstract used here.
+
+**Status:** Qualitative abstract-level primary-source evidence only. Keep CIP separate from norfloxacin/ofloxacin, and don't use this record to support a numerical capacity ranking unless the relevant primary table/figure is accessible. No quantified process cost or verified regeneration information was available from the abstract; no new download is requested.
+
+## EV-SEM-019 — Magnetic graphene oxide sponge / TC (2017)
+
+**Primary source:** *Adsorption behaviors of tetracycline on magnetic graphene oxide sponge*, DOI [10.1016/j.matchemphys.2017.05.042](https://doi.org/10.1016/j.matchemphys.2017.05.042); [publisher record](https://www.sciencedirect.com/science/article/pii/S025405841730411X).
+
+**Accessible evidence:** The publisher abstract says magnetic graphene oxide sponge (MGOS) was prepared by lyophilizing a dispersion of Fe₃O₄ nanoparticles and GO. It reports an adsorption capacity of 473 mg/g for TC, about 50% higher than GO in the authors' comparison; uptake was described as moderately fast, the pseudo-second-order model as a suitable kinetic fit, pH as having mild influence, and ionic strength as having little impact. Thermodynamic analysis was described as endothermic with an entropy-increase driving force.
+
+**Metric/cost caveat:** The accessible abstract calls 473 mg/g an “adsorption capacity” without establishing in the excerpt whether this is a fitted qmax or a measured endpoint. Do not normalize/rank it as qmax until the full table and conditions are checked. Lyophilization is an explicit process step, but no quantified yield, energy, cost, Fe₃O₄ input burden or multicycle regeneration details were extracted from the abstract.
+
+**Status:** Abstract-level primary-source extraction, provisional. No user download request is active.
