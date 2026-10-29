@@ -323,3 +323,18 @@ The corrected source-range interpretation was also propagated to the rest of the
 - Rechecked the current manuscript, its 15-entry local bibliography, the 18-row claim audit, the 37-row semester readiness audit, the 505-row broad evidence register, the 64-row source-caveat register and both comparison matrices. The manuscript has 15 unique cited keys, every key has a bibliography entry, and no citation-key placeholder remains.
 
 The only unresolved primary-source check among the three priority claim groups is the PGOT@GEL validation solution volume, which is referred to in the article's Supporting Materials but absent from the available main PDF. No extra PDF was requested or uploaded.
+
+
+## Follow-up source-pin audit — SEM-031 / EV-SEM-036 (29 October 2026)
+
+The public author-uploaded full text of Shaha et al. (2026), Results in Engineering 30, article 110064, DOI 10.1016/j.rineng.2026.110064, was retrieved from the ResearchGate article page and checked. This closes an abstract-only source-pin gap, but reveals a material applicability conflict.
+
+- §2.4 (printed p. 3) states the batch methods and mixed-solution ranges. The isotherm set used SGO 0.2 g/L, pH 5, and a reported mixed-solution range of 18.24–371.64 mg/L; Fig. 3 p. 5, Fig. 4 p. 6, and Fig. 6 p. 9 provide condition-labelled results.
+- Table 3 (printed p. 10) reports fitted Langmuir q_m values at 25 °C of 370.37, 357.14, and 333.33 mg/g for binary, ternary, and quaternary mixed systems. These are mixture-system fitted results, not isolated-CIP capacities.
+- Fig. 12 (printed p. 13) and the text report >97% desorption using 1 mol/L HCl in DMF and >92% of initial performance retained after five cycles; solvent/acid recovery, spent-liquid handling, and a normalized cost inventory are not reported in the extracted evidence.
+- **Important source contradiction:** while the abstract says the material is effective for treating real wastewater, §3.12 (printed p. 14) explicitly acknowledges that real-wastewater samples were not tested. Ionic-strength effects and continuous-flow/long-term stability are also not examined. This claim is corrected in the manuscript and audits; do not repeat the abstract wording as observed validation.
+- Updated the semester evidence-readiness table (EV-SEM-036), condition-labelled comparison (EV-SEM-036), claim audit (RD-014), SEM-031 main-corpus crosswalk, manuscript §3.4, and narrative claim-audit report.
+
+Primary-source link: https://doi.org/10.1016/j.rineng.2026.110064
+Public full-text article record: https://www.researchgate.net/publication/402064345_Kinetic_Isotherm_and_Thermodynamic_Analysis_of_the_Simultaneous_Adsorption_of_Ciprofloxacin_Moxifloxacin_Levofloxacin_and_Sparfloxacin_onto_Sulfonated_Graphene_Oxide_in_Binary_Ternary_and_Quaternary_A
+
