@@ -216,3 +216,14 @@ The magnetic GO/TC DFT-plus-experiment study reports 531.93 mg/g at C₀=1000 mg
 ## Primary-source update — SEM-012 and SEM-025 (29 October 2026)
 
 The Fe₃O₄/GO CIP paper reports 96.39% removal at a stated dose of 0.55 g in 15 mL (36.7 g/L) with an ultrasonic bath, and spiked water removals around 90–94%; a mass-balance check implies qe≈0.394 mg/g for the stated optimum, but this is calculated rather than reported. No ultrasound energy or numeric model parameters were accessible. The magnetic chitosan-GO CIP paper reports qₘ=282.9 mg/g and ~72% retained capacity after four uses in its abstract preview, but exact conditions and cost details remain unavailable. Both are kept distinct from condition-matched full-text comparisons.
+
+## Evidence-completion wave — four source checks (29 October 2026)
+
+| Candidate / study | Valid use in synthesis | Important restriction |
+|---|---|---|
+| SEM-008 / MGO for TC-HCl (EV-SEM-034) | pH/speciation, reported PSO/Freundlich model choice and magnetic recoverability | Primary abstract does not disclose numeric capacity; 141.44 mg/g is secondary-review-only until verified against the primary table |
+| SEM-031 / SGO in multi-FQ mixtures (EV-SEM-036) | Mixture-level fitted q_m trend and five-cycle solvent/acid regeneration | 370.37/357.14/333.33 mg/g are binary/ternary/quaternary system parameters, not isolated CIP capacities |
+| SEM-033 / rotating-field Fe3O4/rGO (EV-SEM-037) | High TCH removal under a specified coupled-field operating condition and four-cycle retention | No q_max/q_e, power consumption or field-free matched baseline; not evidence of low cost by itself |
+| SEM-013 / rGO/CIP/TC DFT (EV-SEM-035) | Molecular mechanism/theory subsection only | No experiment, aqueous removal or adsorption-capacity metric; exclude from empirical performance comparison |
+
+The candidate register contains 44 rows, with SEM-041 retained as an alias of SEM-026 and SEM-021 still lacking verified DOI metadata. The dedicated evidence CSV now contains 37 unique records. Evidence rows are not accepted references; abstract-level and theoretical rows must stay labelled. The target of about 50 distinct cited works remains unverified.
