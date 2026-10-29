@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
-- Citation insertion and final bibliography reconciliation remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
+- The current semester draft’s 15 in-text citation keys and 15-entry cited-reference subset were reconciled against the latest 173-entry export on 2026-10-30. Reaching the approximately 50-work cited-reference target, resolving remaining candidate-level key gaps, and final style-rendered bibliography/claim audit remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
 
 ## Current semester-paper working files
 
