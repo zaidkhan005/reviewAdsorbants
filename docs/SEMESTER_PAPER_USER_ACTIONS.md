@@ -70,4 +70,10 @@ The new evidence rows are committed and linked to candidate IDs. The candidate r
 
 - **EV-SEM-030 / SEM-014:** magnetic GO·Fe₃O₄/TC publisher preview reports 531.93 mg/g at C₀=1000 mg/L and 50 mg adsorbent but no solution volume or observed-vs-fitted definition. Keep the endpoint unresolved; DFT outputs remain separate.
 - **EV-SEM-031 / SEM-030:** GO–[Ni(DMG)]ₙ/CIP abstract reports Langmuir-comparison qmax 117–159 mg/g, high removal at pH 2–7, and PSO k=0.0005–0.0009. Freundlich/Temkin are said to fit isotherms better. Exact conditions/cost/reuse are unavailable.
-- Dedicated evidence CSV now holds **31 unique rows**. No new user download/upload is required.
+- Dedicated evidence CSV now holds **37 unique rows**. No new user download/upload is required.
+
+## Latest source check — 29 October 2026
+
+Four new evidence records are committed: EV-SEM-034 (MGO/TC-HCl; numeric capacity only in secondary source so far), EV-SEM-035 (theoretical DFT-only rGO/CIP/TC), EV-SEM-036 (multi-FQ SGO; mixture-level q_m), and EV-SEM-037 (rotating-field Fe3O4/rGO; energy data absent). The dedicated evidence CSV now has 37 unique rows.
+
+**No action needed from you right now.** No more PDFs are requested. Continue with existing files and accessible primary sources.
