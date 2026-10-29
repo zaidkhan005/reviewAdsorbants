@@ -374,3 +374,37 @@ The article calls the composite low-cost because of component sources and reusab
 
 **Mechanism, recovery and cost:** Authors discuss Ca²⁺ “egg-box” alginate crosslinking and PAM amide groups as contributors to CIP interaction, with FE-SEM/SEM-EDS/FTIR/TGA for characterization. These techniques do not quantify mechanism shares. No multicycle regeneration result, product yield, quantified process cost, or energy inventory was identified. The article's modeled qₘ is modest relative to some other fitted values, but cross-study ranking would still be inappropriate without aligned dose, concentration, matrix and metric.
 
+
+
+## EV-SEM-026 — GO/PVA/calcium-alginate beads for CIP (Hossain et al., 2026)
+
+**Primary source:** Hossain, Karim & Dipti, *Removal of ciprofloxacin from aqueous solutions using GO/PVA/calcium alginate composite beads as an absorbent*, *RSC Advances* (2026), DOI [10.1039/d6ra00494f](https://doi.org/10.1039/d6ra00494f); [open publisher text](https://pubs.rsc.org/en/content/articlehtml/2026/ra/d6ra00494f).
+
+**Synthesis (Methods §§2.2–2.3):** Modified-Hummers GO synthesis uses a 9:1 H₂SO₄:H₃PO₄ mixture (170.2 mL/19.4 mL for the stated 200 mL mixture), 1 g graphite and 9.8 g KMnO₄; 90°C for 90 min; then water reaction, H₂O₂/water quench, 20% HCl treatment, centrifugation, repeated washing to neutral and ~36 h oven drying at 100°C. Bead formulations tested 0.5 or 1.0 g GO in 100 mL water (sonicate 60 min); add 5 g PVA and dissolve at 85°C; add 5 g sodium alginate at 65°C; sonicate 3 h and degas; dropwise bead formation into 5% boric acid + 5% CaCl₂ bath using a peristaltic pump (15 rpm, 1 mm tubing), then soak 12 h. Several strong acids/oxidants/salts, heating, sonication, washing and long drying are involved.
+
+**Batch data and model outputs:** Experimental ranges include CIP 20–100 mg/L, pH 4–10, bead mass 0.1–0.5 g, contact 30–180 min and 30–70°C; 50 mL solution, 200 rpm; some parameter tests use C₀=40 mg/L. The paper reports observed qe=7.15 mg/g as its maximum over concentration tests, and removal around 89.82% / 89.92% under different sections/tests; do not assign both to one condition without checking the exact figure/table. Linear Langmuir qₘ=8.210 mg/g (R²=0.9588); nonlinear Langmuir qₘ=10.14 mg/g (R²=0.9715). These are fitted values, not the observed qe. Nonlinear kinetic fits give model-derived qe=3.3675 mg/g for PFO (R²=0.9979; k₁=0.028±0.001 min⁻¹) and 4.45827 mg/g for PSO (R²=0.9941). Linear PFO gives k₁=−0.00018 min⁻¹, an anomalous negative rate constant. The two D–R versions diverge sharply: linear fit qₘ=0.00013811 mg/g and E=11,800 kJ/mol; nonlinear fit qₘ=5.7715 mg/g and E=0.1984 kJ/mol. Preserve these as source-table outputs and do not endorse the D–R results as physically comparable.
+
+**Thermodynamics:** At 0.5/1/2 mg/L CIP and 303–343 K, the article reports ΔH°=−66.9 kJ/mol, ΔS°=−177.4 J/(mol·K), and ΔG° values −13.74, −10.44, −9.434, −8.855 and −5.857 kJ/mol at 303, 313, 323, 333 and 343 K. The temperature tests and thermodynamic values are not evidence of practical low-energy operation; tested optima are condition-dependent.
+
+**Regeneration and source-reported cost (Section 3.13):** The paper claims 4–5 reuse cycles with <25% capacity loss using 0.1 M HCl or NaOH; this is an author-reported claim, not a fully verified cycle-by-cycle curve in this extraction. It estimates ingredient prices and bead cost at $10–30/kg, desorption solution <$0.5/L, operational cost $0.1–0.5/kg wastewater per cycle, and lifecycle cost <$1/kg CIP removed over five cycles.
+
+**Critical cost-basis mismatch:** Section 3.13 bases operation on 0.1 g beads/L. Elsewhere the article gives an experimental range of 0.1–0.5 g beads per 50 mL and says 0.5 g is optimal, equivalent to 10 g/L. These stated doses differ by a factor of 100. The claimed lifecycle cost per kg CIP removed therefore cannot be independently reproduced from the presented assumptions without a consistent treatment scenario, verified cycle data, and a traceable mass-of-CIP denominator. Report the dollar figures as author estimates—not validated lifecycle cost.
+
+**Other caveats:** Section 2.4 mentions 55 mL contact volume while other experimental sections describe 50 mL and a 50 mL tube; preserve the inconsistency. The article uses synthetic solution tests only; real wastewater/industrial water tests are not reported. No numerical process-energy consumption or product yield is given.
+
+**Source pins:** Methods §§2.2–2.4; §3.2/Table 1 and §3.10/Tables 2–3 (isotherm fits); §3.11/Table 4 (kinetics); §3.12/Table 5 (thermodynamics); §3.13 (cost/reuse claims).
+
+
+## EV-SEM-027 — GO/Co–Fe magnetic nanocomposite for tetracycline (Hossain et al., 2024)
+
+**Primary source:** Hossain et al., *Ultrafast and simultaneous removal of four tetracyclines from aqueous solutions using waste material-derived graphene oxide-supported cobalt–iron magnetic nanocomposites*, DOI [10.1039/d3ra07597d](https://doi.org/10.1039/d3ra07597d); [open RSC full text](https://pubs.rsc.org/en/content/articlehtml/2024/ra/d3ra07597d).
+
+**Synthesis:** Graphite recovered from waste dry cells was cleaned, treated with Aqua Regia, washed and dried at 60°C for 24 h. GO synthesis used a modified-Hummers route with 240 mL H₂SO₄ + 28 mL H₃PO₄, 2 g graphite and 6 g KMnO₄; 50°C for 2 h; water/H₂O₂ quench; centrifugation, 30% HCl purification, repeated washing and drying at 45°C for 24 h. GO/Co–Fe was made using Co(NO₃)₂·6H₂O, FeSO₄·7H₂O and Fe₂(SO₄)₃·nH₂O at 1:1:2 molar ratio; stir 40°C for 25 min, add 100 mg GO, adjust pH to ~10, heat 85°C for 1 h, wash and dry at 60°C for 24 h. Waste-cell origin does not itself establish low cost; no quantified yield/energy/reagent-recovery/cost inventory was reported.
+
+**TC-specific adsorption:** At C₀=0.2 mg/L (200 ppb), GO/Co–Fe dose 0.15 g/L, pH 7, 30 s, 250 rpm and 25°C, the paper reports TC removal as 94.1% in abstract/body and 93.94% in a concentration section. Keep both values with a source consistency flag rather than choosing one. The experiment is a low-concentration synthetic-water test, not a real-water test. pH was tested from 2 to 10, with maximum removal around pH 7; initial concentration range 0.2–2.0 mg/L.
+
+**Capacity/model outputs:** Table 2 gives Langmuir fitted qₘ for TC=64.10 mg/g at 50°C. CTC, OTC and DTC have separate fitted qₘ values (71.43, 72.46 and 99.01 mg/g) and must not be pooled with TC. The reported PSO fit has R²=0.999; a model-fitted qe was not captured in the accessible extraction. Do not compare the fitted qₘ at 50°C directly to the TC removal % at 25°C.
+
+**Recovery and remaining limits:** The paper describes magnetic separation, methanol treatment, distilled-water washing, drying at 50°C, and up to eight regeneration rounds; a reported efficiency drop from ~95% to ~90% is not completely pinned to TC-only cycle-by-cycle values in this extraction. No real-water testing or quantified cost data were reported. Cost claims should not be inferred merely from the waste-derived graphite feedstock.
+
+**Source pins:** Scheme 1; §3.1 characterization; §§3.2.2–3.2.7 adsorption/pH/concentration/kinetics/isotherms/reuse; Table 2 and Fig. 9.
