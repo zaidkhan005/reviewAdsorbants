@@ -148,3 +148,7 @@ New records:
 - EV-SEM-037 / SEM-033: rotating-field Fe3O4/rGO for TCH; high removal but no electrical energy or field-free comparator.
 
 No new user files are needed. Next highest-value task is metric/provenance QA across the 37 evidence rows, followed by the included-study shortlist and citation-key reconciliation.
+
+## Citation-key linkage status — 29 October 2026
+
+The three available BibTeX exports were checked against the semester candidate register. Six distinct works have exact DOI/key matches: SEM-016, SEM-020, SEM-032, SEM-038, SEM-039 and SEM-040. SEM-016/032/038 keys appear across all three exports; SEM-020/039/040 appear only in `full ++.bib`. No additional exact candidate title matches were found in the target-term title scan. Other candidates are not yet citation-ready from these files, but may exist in Zotero or another export; do not infer absence from one export alone. SEM-041 remains a duplicate alias of SEM-026.
