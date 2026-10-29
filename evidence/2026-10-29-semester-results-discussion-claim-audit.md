@@ -130,3 +130,16 @@ Sources:
 - Seven-antibiotic graphene: https://www.nature.com/articles/srep31920
 
 **Disposition:** the conditions reported for the seven-antibiotic test are source-pinned; its exact TC percentage remains unquoted because the searchable article text only gives the across-drug range. The CNF/GO 82.1% figure value is verified, but its own figure caption does not specify a single operating condition; keep it out of condition-matched ranking.
+
+## Full-text source-pin follow-up — SEM-034 / EV-SEM-027 (29 October 2026)
+
+The open-access RSC Advances primary article for DOI 10.1039/d3ra07597d was checked directly via the Royal Society of Chemistry full-text HTML.
+
+- **Removal discrepancy:** abstract and §3.2.2/Fig. 5(b) state TC removal 94.1%; §3.2.4/Fig. 5(d) gives 93.91%; §4 Conclusion gives 93.94%. This is a three-value source inconsistency; retain each value with its location rather than treating it as just two values.
+- **Conditions and isotherm:** §2.6 describes the adsorption parameter ranges. The best stated TC removal condition is C0=0.2 mg/L, dose 0.15 g/L, pH 7, room temperature (~25°C), 250 rpm and 30 s. Table 2, captioned 'Parameters derived from isotherm models', reports Langmuir-fitted q_m for TC as 60.24 mg/g at 30°C, 62.50 mg/g at 40°C and 64.10 mg/g at 50°C. Do not associate the 50°C q_m with the room-temperature removal value.
+- **Reuse and process burden:** §3.2.7/Fig. 9 reports up to eight rounds, with efficiency dropping from 95% to 90%; regeneration uses magnetic separation, methanol, water rinse and drying at 50°C. The full text contains no numerical cost estimate or normalized cost denominator and no real-water testing identified in the queried sections.
+- **Repository updates:** EV-SEM-027, RD-012, the condition-labelled comparison, SEM-034 crosswalk and manuscript §3.3 now show exact section/figure/table pins and the three-value inconsistency.
+
+Primary source: https://pubs.rsc.org/ra/article/14/2/1431/825803/Ultrafast-and-simultaneous-removal-of-four
+
+**Disposition:** Exact source-pin task complete. Keep the data as a short-contact synthetic-water TC case; preserve all three reported removal values, keep fitted q_m distinct by temperature, and do not claim demonstrated real-water treatment or normalized cost feasibility.
