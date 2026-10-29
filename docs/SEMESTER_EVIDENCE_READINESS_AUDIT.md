@@ -58,9 +58,14 @@
 
 ## Next execution sequence
 
-1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-042’s column mass/unit anomaly, SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition.
+1. Prioritize primary-source data validation rather than more broad searches. Next high-value details are SEM-026’s primary isotherm table, SEM-043’s exact condition/fitted metric, SEM-044’s unusually high reported CIP capacity, and SEM-005’s 473 mg/g metric definition. SEM-042’s accepted-manuscript text has now been audited; its 100-g/column-geometry anomaly is confirmed and dynamic q₀/τ values are quarantined.
 2. Keep low-cost claims evidence-based. No study should be called demonstrably low-cost when whole-process synthesis, yield, energy, recovery and cost denominator are missing. Preparation and regeneration burdens are proxies, not monetary estimates.
 3. Build comparisons around evidence class: batch results, mixed-solute tests, water-matrix tests and continuous-flow/column evidence. Put qmax/qm in a fitted-capacity column; do not merge it with observed qe, kinetic-model qe or removal percentage.
 4. Complete final inclusion only after target-drug, material-family, article type, source status and journal/year/category ranking checks. The approximately 50-work citation target remains open and is counted as distinct works actually cited, not candidate rows.
 
 **User action required: none.** The user has paused new downloads/uploads. Continue with existing Library files and accessible publisher/abstract sources.
+
+
+## Follow-on validation — SEM-042 accepted-manuscript column audit (29 October 2026)
+
+The accepted manuscript reports batch Sips fit as best and Langmuir qₘ=73±3 mg/g for Chi:nGO versus 282±11 mg/g for pure nGO. Table 1/2 include Thomas q₀ and Yoon–Nelson τ results across flow/pH/salinity/hardness and CIP-spiked real waters. However, Methods says 100 g packed into a 1.0-cm-ID column with a 1.5-cm bed (1.178 cm³), an impossible ~84.9 g/cm³ implied density. Do not use dynamic q₀/τ to rank performance until the amount is corrected by a reliable source. The manuscript’s qualitative low-cost claim remains unquantified.
