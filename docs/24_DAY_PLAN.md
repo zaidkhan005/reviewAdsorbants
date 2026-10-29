@@ -6,7 +6,7 @@ The original sprint rule remains: every workday ends with a visible deliverable;
 
 The detailed checkpoint and sprint table below are a dated 2026-10-27 snapshot, not current counts. Current live state is recorded in [the repository context audit](../logs/2026-10-29-current-context-audit.md): the broad corpus has 111 candidate records, 505 evidence rows, and 41 journal audit entries; the Better BibTeX queue has 164 entries. The focused primary-study comparison matrix still covers 43 candidate IDs, and no final accepted/cited count has been verified.
 
-The narrow semester paper is a separate workstream: 40 candidates, 16 dedicated evidence records, the locked graphene/CIP/TC scope and an approximately 50-work actual-citation target. The user has paused downloads; do not follow old snapshot instructions to ask them for another PDF. Continue with existing Library files, current evidence and legitimate accessible sources.
+The narrow semester paper is a separate workstream: 44 candidates, 23 dedicated evidence records, the locked graphene/CIP/TC scope and an approximately 50-work actual-citation target. The user has paused downloads; do not follow old snapshot instructions to ask them for another PDF. Continue with existing Library files, current evidence and legitimate accessible sources.
 
 ## Historical restart checkpoint (2026-10-27; superseded by live status overlay)
 
