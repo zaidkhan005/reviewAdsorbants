@@ -236,3 +236,15 @@ No new user download was requested. The open Scientific Reports article was chec
 ## 22. Evidence schema integrity and duplicate DOI resolution — 29 October 2026
 
 A validation pass over the current semester evidence CSV found a column alignment problem in EV-SEM-010 (mGG/GO for CIP) and EV-SEM-013 (PGOT@GEL for CIP). The extracted mechanism, recovery, cost, source URL and caveat content did not match the 20-column header order. These rows have been explicitly corrected in place; empty caveat cells now contain the required limitations. The same pass found one duplicate DOI/title pair: SEM-026 and SEM-041 both represent Fei et al. (2016), DOI 10.1016/j.jcis.2016.08.068. SEM-026 is canonical; EV-SEM-020 now points to SEM-026; SEM-041 is retained as a duplicate alias purely for traceability. Raw register rows remain 44, but distinct DOI-defined works are 43. This stops duplicate counting without deleting prior identifiers.
+
+
+## 23. Full accepted-manuscript audit — SEM-042 / Chi:nGO continuous-flow CIP (29 October 2026)
+
+Source: [CONICET-hosted accepted manuscript PDF](https://ri.conicet.gov.ar/bitstream/11336/87000/11/CONICET_Digital_Nro.b2e52671-05bf-40a5-9fe0-525a5cfb6f21_J.pdf), DOI 10.1016/j.carbpol.2018.02.021. Primary source Methods, results and Tables 1–2 were text-audited.
+
+- Batch: 10 mg Chi:nGO in 2 mL CIP, pH 6.30, 25°C, 120 rpm, initial concentration 4–850 mg/L. Sips is the best reported model; Langmuir fitted qₘ=73±3 mg/g for 3:1 Chi:nGO and 282±11 mg/g for pure nGO.
+- Dynamic model values reported in Table 1: Thomas q₀ for flow 1/2/4 mL/min = 53±1/90±1/91±4 mg/g; pH 4/9 = 72±3/24±2 mg/g; Na⁺ 50/100 mg/L = 92±1/110±1 mg/g; hardness 50/200 mg/L as CaCO₃ = 64±1/84±1 mg/g. Corresponding Yoon–Nelson τ values (flow 1/2/4) = 153±3/128±1/65±3 min; pH 4/9 = 207±7/69±6 min; Na⁺ 50/100 = 263±3/315±2 min; hardness 50/200 = 182±3/241±3 min.
+- Spiked real-water Table 2: Buenos Aires tap water q₀=49±4 mg/g and τ=154±5 min; Chascomús well water 26.4±0.8 mg/g and 76±2 min; Macachín well water 23.6±0.7 mg/g and 67±2 min.
+- **Critical integrity hold:** accepted-manuscript §2.4.2 explicitly says 100 g Chi:nGO packed into a 1-cm-ID column with a 1.5-cm bed. Geometric bed volume is π(0.5 cm)²×1.5 cm=1.178 cm³; implied bulk density ≈84.9 g/cm³, impossible. The source line is preserved; no guessed correction. Quarantine every dynamic q₀/τ figure from final numeric ranking pending a verified intended mass. Batch isotherm qₘ is analytically separate but remain cautious about the paper's dynamic application conclusions.
+- The article’s real-water tests used CIP-spiked tap/well water. No monetized cost, yield, reagent/energy inventory, pressure-drop estimate, eluent-volume accounting or cost-per-treated-volume reported. Author “low-cost” wording remains qualitative.
+- Browser screenshot generation for the PDF/table failed with cache errors; manuscript text and table data were accessible. Visual table layout is not claimed to be verified.
