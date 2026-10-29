@@ -262,3 +262,29 @@ Preparation is chemically intensive (strong acid/oxidant treatment, extensive wa
 **Metric/cost caveat:** The accessible abstract calls 473 mg/g an “adsorption capacity” without establishing in the excerpt whether this is a fitted qmax or a measured endpoint. Do not normalize/rank it as qmax until the full table and conditions are checked. Lyophilization is an explicit process step, but no quantified yield, energy, cost, Fe₃O₄ input burden or multicycle regeneration details were extracted from the abstract.
 
 **Status:** Abstract-level primary-source extraction, provisional. No user download request is active.
+
+
+## EV-SEM-020 — GO–sodium alginate hydrogel/aerogel for CIP (Fei et al., 2016)
+
+**Primary source:** Fei et al., *Adsorptive removal of ciprofloxacin by sodium alginate/graphene oxide composite beads from aqueous solution*, DOI [10.1016/j.jcis.2016.08.068](https://doi.org/10.1016/j.jcis.2016.08.068); [publisher abstract and article preview](https://www.sciencedirect.com/science/article/abs/pii/S0021979716306312).
+
+The primary abstract says GO was encapsulated in sodium alginate to form hydrogel and aerogel adsorbents; incorporating GO increased the adsorption capacity of SA composite gels roughly 7–9 times, Langmuir fitted the isotherm data well, and GO-SA aerogel showed relatively low sensitivity to pH and ionic-strength changes. The synthesis preview describes ultrasound dispersion of GO, mixing with alginate and CaCl2 hardening. A secondary comparison table reports q_m=86.12 mg/g for GO-SA at pH 4 and 25°C, but I did not verify the exact primary table or whether this number refers to a particular gel form. It is therefore a secondary-source cross-check, not a primary-verified quantitative value. No quantitative cost or multi-cycle regeneration inventory was extracted.
+
+## EV-SEM-021 — Chitin/nGO continuous-flow composite for CIP (González et al., 2018)
+
+**Primary source:** González et al., *Continuous flow adsorption of ciprofloxacin by using a nanostructured chitin/graphene oxide hybrid material*, DOI [10.1016/j.carbpol.2018.02.021](https://doi.org/10.1016/j.carbpol.2018.02.021); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/29525158/) and the [accepted manuscript](https://ri.conicet.gov.ar/bitstream/11336/87000/11/CONICET_Digital_Nro.b2e52671-05bf-40a5-9fe0-525a5cfb6f21_J.pdf).
+
+The accessible text describes batch isotherms with 10 mg Chi:nGO powder in 2 mL CIP solution, pH 6.30, 25°C, 120 rpm and C0=4–850 mg/L, plus continuous-flow column tests varying flow rate, pH, Na+ concentration and water hardness. CIP-spiked real-water samples were tested. CIP was eluted at column exhaustion with 0.1 M NaOH followed by water; the authors describe reuse after alkaline regeneration. Sips is reported as a better isotherm description. A method-text line states “100 grams” of sorbent in a very small column (1-cm internal diameter, 1.5-cm bed height), which is physically inconsistent; do not repeat that mass without checking the page image. No numeric capacity or cost figure is added from this source excerpt.
+
+## EV-SEM-022 — GO for CIP (with SMX as a separate co-target; Chen et al., 2015)
+
+**Primary source:** Chen et al., *Removal of sulfamethoxazole and ciprofloxacin from aqueous solutions by graphene oxide*, DOI [10.1016/j.jhazmat.2014.03.063](https://doi.org/10.1016/j.jhazmat.2014.03.063); [primary abstract](https://pubmed.ncbi.nlm.nih.gov/24755346/).
+
+The abstract reports maximum sorption capacities of 379 mg/g for CIP and 240 mg/g for SMX. It attributes CIP sorption mainly to electrostatic attraction, describes lower sorption with added NaCl/CaCl2 and reports that CIP sorption at pH 2 destabilized GO suspension and caused aggregation. The 379 mg/g number is retained as an abstract-reported model/source value, not observed qe; the full fitted model/conditions are not verified from the abstract. SMX is kept separate and does not enter the CIP/TC core comparison. No quantified GO cost or multi-cycle regeneration result was extracted.
+
+## EV-SEM-023 — MgO/chitosan/GO nanocomposite for CIP (Nazraz et al., 2019)
+
+**Primary source:** Nazraz et al., *Chitosan-based sorbent for efficient removal and extraction of ciprofloxacin and norfloxacin from aqueous solutions*, DOI [10.1007/s00604-019-3563-x](https://doi.org/10.1007/s00604-019-3563-x); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/31222415/).
+
+The abstract describes hydrothermally synthesized MgO/chitosan/GO nanosheets, BET area 294 m²/g and characteristic pore size ~15 Å. It reports a Langmuir model and a maximum capacity of 1111 mg/g for CIP (with 1000 mg/g for NOR as a separate target) and kinetic equilibrium for CIP after >120 min. These remain abstract-reported fitted/model values, not observed qe; the unusually high CIP value needs table-level verification before ranking. The authors describe the material as economical, but the abstract provides no cost inventory, process yield or energy data. NOR is not merged into the CIP value.
+
