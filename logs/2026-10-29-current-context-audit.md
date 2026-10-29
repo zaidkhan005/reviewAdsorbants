@@ -424,3 +424,12 @@ Validated links:
 - `references/zotero-import-batch-missing-nine-2026-10-29.bib`
 - `data/semester-bibtex-citation-linkage-audit.csv`
 - `data/semester-results-discussion-claim-evidence-audit.csv`
+
+## Recheck of the user-provided full++ BibTeX attachment
+
+- On 2026-10-29, the user re-attached `full ++=.bib` as `full ++=.bib`.
+- The attached file was byte-for-byte identical to the previously materialized `/full ++.bib` export: SHA-256 `e8275eb705f3e1d3c85ba0acdc6caeda37f8ffe6c1ea5000f69c1d72c85f16ec`, 337,912 bytes.
+- Parsed integrity: 164 entries, 164 unique citation keys, no duplicate keys; 161 entries contain a DOI.
+- The six previously matched semester-manuscript keys remain present. None of the nine DOI-checked records in `references/zotero-import-batch-missing-nine-2026-10-29.bib` is present by DOI or project-local key in this export.
+- This attachment therefore does not establish that those nine records were imported into the live Zotero library or that Better BibTeX was re-exported after import. Keep the synchronization status **pending**; do not relabel the project-local keys as Zotero-generated keys.
+- Next checkpoint: import/check the nine DOI records in Zotero (avoiding duplicates), then provide a genuinely new Better BibTeX export. Reconcile its generated keys against the manuscript and retain the current 15-entry local bibliography until the fresh export is verified.
