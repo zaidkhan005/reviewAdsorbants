@@ -58,6 +58,10 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage across the three existing BibTeX exports.
 - `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains the six verified key matches and how to handle unmatched candidates safely.
 
+## Current manuscript draft
+
+- `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` — first source-cautious results/discussion draft using verified citation keys and explicit citation-key-pending markers.
+
 ## Repository map
 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
