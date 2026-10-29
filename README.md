@@ -49,6 +49,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Current semester-paper working files
 
+- `data/semester-condition-labelled-comparison.csv` — a first condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 37 dedicated evidence records.
 
