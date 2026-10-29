@@ -46,3 +46,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Duplicate DOI 10.1016/j.jcis.2016.08.068 has been resolved in project data: SEM-026 is canonical, EV-SEM-020 is linked to SEM-026, and SEM-041 is an alias for traceability only.
 - EV-SEM-010 and EV-SEM-013 had fields misassigned against the CSV headers. The rows have been corrected; do not reuse their prior shifted fields from any old export.
 - No user action is required. The user has paused new downloads/uploads.
+
+
+## SEM-042 source-validation update (29 October 2026)
+
+SEM-042’s accepted-manuscript methods, isotherm text and dynamic tables have been reviewed from an accessible CONICET-hosted PDF. The repository evidence row records the details. A 100-g column charge conflicts with the stated 1.0-cm-ID × 1.5-cm bed volume (1.178 cm³; implied density ~84.9 g/cm³). That source value was not silently corrected; dynamic columns and all Thomas q₀/Yoon–Nelson τ figures are quarantined from final ranking pending a reliable correction. No new file/download is needed from the user.
