@@ -293,3 +293,10 @@ Source: [ScienceDirect article](https://www.sciencedirect.com/science/article/pi
 Source: [ScienceDirect abstract/section snippets](https://www.sciencedirect.com/science/article/abs/pii/S1385894713008450), DOI 10.1016/j.cej.2013.06.072. Source reports wet-spun fibers, GO loading up to 6 wt%, optimum pH 5.9, equilibrium time 24 h, 78.9% removal at dose 2 g/L / 6 wt% GO, and capacity rising from 18.45 mg/g (0% GO) to 39.06 mg/g (6 wt% GO) at equilibrium CIP concentration 60 mg/L. Freundlich isotherm and PSO kinetics are described, but numeric fit parameters, full spinning recipe, regeneration and cost are not available in the accessed snippets. Keep removal and equilibrium-capacity results separate until condition/table alignment is verified.
 
 The dedicated evidence file now contains **29 unique evidence records**. These two source checks do not change the candidate count (44 rows; 43 DOI-defined studies with SEM-041 as an alias).
+
+
+## 28. Source-preview re-audit — SEM-005 and SEM-044 (29 October 2026)
+
+- **SEM-005 / EV-SEM-019:** the ScienceDirect primary preview confirms GO/Fe₃O₄ mass ratio 40:1 (GO:Fe₃O₄), i.e. Fe₃O₄:GO=1:40, and MGOS density 4.6 mg/cm³. Headline TC capacity 473 mg/g remains metric-unresolved. Exact conditions, isotherm/kinetic fit coefficients, reuse and cost are not available from the preview.
+- **SEM-044 / EV-SEM-023:** the primary Springer abstract confirms MgO/chitosan/GO nanosheets (BET 294 m²/g, pore size ~15 Å), Langmuir qmax claims of 1111 mg/g CIP and 1000 mg/g NOR, PSO model description, and equilibration >120 min for CIP / >150 min for NOR. These very high fitted capacities lack accessible C₀/dose/pH/fit-statistic tables and therefore remain provisional. CIP and NOR remain separate; no quantified cost/reuse was available.
+- The semester register remains 44 rows (43 DOI-defined works); the evidence table remains 29 records. No new user file/download needed.
