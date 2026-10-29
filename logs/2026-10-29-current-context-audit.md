@@ -25,8 +25,8 @@ This audit records the repository structure, live data state, governing scope de
 | Journal quartile audit | 41 | Journal-level records; not final per-paper Q1 eligibility |
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
-| Semester candidate register | 38 | 37 prior targeted candidates plus one existing master-corpus candidate cross-referenced for TC |
-| Semester dedicated evidence CSV | 13 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester candidate register | 40 | 37 prior targeted candidates plus one existing master-corpus candidate cross-referenced for TC |
+| Semester dedicated evidence CSV | 16 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -42,7 +42,7 @@ The current primary-study matrix has 208 rows for 43 candidates; the 2026-10-28 
 
 Include selected GO/rGO and functionalized graphene adsorbents and selected graphene-bearing composites only when the target-specific adsorption contribution is extractable. Core targets are CIP and TC; related antibiotics are not pooled with them. Green/waste-derived is not the defining theme. Low-cost is a claim to assess, not assume. The initial plan calls for about 50 distinct cited works, subject to eligibility and evidence quality.
 
-The current dedicated extraction CSV has 13 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
+The current dedicated extraction CSV has 16 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
 
 `data/semester-main-corpus-crosswalk.csv` now has one row per 38 semester candidate. It records exact DOI/title matches to the broad register and Better BibTeX queue, reused evidence IDs, and unlinked candidates. It shows three broad-register overlaps and one queue-only title match (SEM-020 to the graphene/GAC CIP paper); 34 semester candidates have no exact DOI/title match in those two registries. This does not prove a paper is absent from the Library or ineligible; it flags a crosswalk/screening task only.
 
@@ -68,3 +68,11 @@ The current dedicated extraction CSV has 13 records. Two already extracted full-
 3. Make only condition-valid performance comparisons; quarantine N-rGO fitted capacities and other mass-balance-inconsistent values until reconciled.
 4. Refresh the broad-review data crosswalk for 58 unregistered BibTeX records after the semester shortlist is made stable; do not conflate that broad task with the semester paper.
 5. Keep the paper’s substantive tables and original figure set evidence-driven. Draft final claims only after each relevant table row can point to primary evidence and caveats.
+
+
+## Follow-on source review — 29 October 2026
+
+- Updated SEM-020 with verified publication metadata (Zhu et al., 2015, *Environmental Technology*, DOI 10.1080/09593330.2015.1054316) and added provisional abstract-level evidence EV-SEM-014; it remains out of final numerical ranking pending full-text condition verification.
+- Added SEM-039/EV-SEM-015 for Yao et al. (2017), CNF/GO aerogel for TC; fitted q_m, model-fitted kinetic q_e, removal percentage and ten-cycle reuse are explicitly separated.
+- Added SEM-040/EV-SEM-016 for Peng et al. (2016), graphene and TC in a seven-antibiotic mixed solution at 200 µg/L per antibiotic. The exact TC removal percentage was not inferred from the figure-based range. Biochar values remain outside the semester paper's core matrix.
+- Semester register: 40 records; dedicated evidence CSV: 16 rows. The updated crosswalk points all three updated/new candidate records to the current Better BibTeX inventory without copying evidence into the broad master corpus. No user download/upload action is active.
