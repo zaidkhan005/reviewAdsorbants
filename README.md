@@ -47,6 +47,11 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
 - Citation insertion and final bibliography reconciliation remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
 
+## Current semester-paper working files
+
+- `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
+- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 37 dedicated evidence records.
+
 ## Repository map
 
 - `docs/PROJECT_CHARTER.md` — scope, contribution and research questions
