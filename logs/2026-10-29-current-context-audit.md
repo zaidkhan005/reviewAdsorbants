@@ -25,8 +25,8 @@ This audit records the repository structure, live data state, governing scope de
 | Journal quartile audit | 41 | Journal-level records; not final per-paper Q1 eligibility |
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
-| Semester candidate register | 40 | 37 prior targeted candidates plus one existing master-corpus candidate cross-referenced for TC |
-| Semester dedicated evidence CSV | 16 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester candidate register | 44 | 37 prior targeted candidates plus one existing master-corpus candidate cross-referenced for TC |
+| Semester dedicated evidence CSV | 23 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -42,7 +42,7 @@ The current primary-study matrix has 208 rows for 43 candidates; the 2026-10-28 
 
 Include selected GO/rGO and functionalized graphene adsorbents and selected graphene-bearing composites only when the target-specific adsorption contribution is extractable. Core targets are CIP and TC; related antibiotics are not pooled with them. Green/waste-derived is not the defining theme. Low-cost is a claim to assess, not assume. The initial plan calls for about 50 distinct cited works, subject to eligibility and evidence quality.
 
-The current dedicated extraction CSV has 16 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
+The current dedicated extraction CSV has 23 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
 
 `data/semester-main-corpus-crosswalk.csv` now has one row per 38 semester candidate. It records exact DOI/title matches to the broad register and Better BibTeX queue, reused evidence IDs, and unlinked candidates. It shows three broad-register overlaps and one queue-only title match (SEM-020 to the graphene/GAC CIP paper); 34 semester candidates have no exact DOI/title match in those two registries. This does not prove a paper is absent from the Library or ineligible; it flags a crosswalk/screening task only.
 
@@ -76,3 +76,8 @@ The current dedicated extraction CSV has 16 records. Two already extracted full-
 - Added SEM-039/EV-SEM-015 for Yao et al. (2017), CNF/GO aerogel for TC; fitted q_m, model-fitted kinetic q_e, removal percentage and ten-cycle reuse are explicitly separated.
 - Added SEM-040/EV-SEM-016 for Peng et al. (2016), graphene and TC in a seven-antibiotic mixed solution at 200 µg/L per antibiotic. The exact TC removal percentage was not inferred from the figure-based range. Biochar values remain outside the semester paper's core matrix.
 - Semester register: 40 records; dedicated evidence CSV: 16 rows. The updated crosswalk points all three updated/new candidate records to the current Better BibTeX inventory without copying evidence into the broad master corpus. No user download/upload action is active.
+
+
+## Fourth follow-on source wave — 29 October 2026
+
+The semester candidate register now contains 44 records and the dedicated evidence table contains 23 rows. The latest four candidates are SEM-041 (GO/sodium alginate for CIP), SEM-042 (chitin/nGO with continuous flow and CIP-spiked real-water tests), SEM-043 (GO for CIP; SMX separate), and SEM-044 (MgO/chitosan/GO for CIP; NOR separate). Their evidence IDs are EV-SEM-020–EV-SEM-023. No broad-corpus rows were duplicated based on the current DOI cross-check. The new figures remain provisional: the GO–alginate numeric q_m is only secondarily cross-checked, the Chi:nGO indexed column mass is implausible, the GO/CIP abstract capacity lacks full condition verification, and the MgO/chitosan/GO capacity remains abstract-only.
