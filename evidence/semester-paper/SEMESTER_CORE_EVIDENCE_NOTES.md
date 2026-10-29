@@ -468,3 +468,26 @@ The primary Springer abstract for DOI [10.1007/s00604-019-3563-x](https://doi.or
 **Performance/model excerpt:** The abstract reports Langmuir-comparison maximum capacities of 117–159 mg CIP/g across formulations and high removal across pH 2–7. However, it explicitly says Freundlich and Temkin provided better agreement with the isotherm data; Langmuir was additionally used to compare maximum capacities because its R² values were considered reasonably high. PSO gives the best kinetic fit, k=0.0005–0.0009 g/(mg·min). Exact initial concentration, dose, solution volume, temperature, time series, qmax per formulation and fit statistics are not available in the accessible excerpt. Do not call 117–159 mg/g measured qe or describe Langmuir as the best-fit model.
 
 **Practical evidence:** No regeneration/reuse data, real-water tests, quantified process cost, energy, yield or cost per mass of CIP removed were exposed in the source excerpt. Ni(II) and DMG are relevant formulation inputs, but the accessible source does not allow a cost calculation.
+
+
+## EV-SEM-032 — Fe₃O₄/GO / ciprofloxacin with ultrasonic treatment (2023)
+
+**Primary source:** *Removal of ciprofloxacin and cephalexin antibiotics in water environment by magnetic graphene oxide nanocomposites; optimization using response surface methodology*, DOI [10.1016/j.rineng.2023.101507](https://doi.org/10.1016/j.rineng.2023.101507).
+
+**Preparation:** Hummers GO recipe: 46 mL concentrated H₂SO₄ + 2 g graphite; add 6 g KMnO₄ below 15°C; stir 60 min at 40°C; slowly add ~92 mL water and 7 mL 30% H₂O₂; centrifuge 2500 rpm/30 min; wash with 150 mL 5% HCl, water, and dry at room temperature. Fe₃O₄ prepared from 2.15 g FeCl₂·4H₂O and 5.84 g FeCl₃·6H₂O in 100 mL water at 80°C under nitrogen; add 10 mL 25% ammonia over 20 min; magnetic recovery, triple wash and dry 60°C/12 h. Composite recipe uses 0.03 g GO in 30 mL water (ultrasound) and 0.08 g Fe₃O₄ pre-treated/dispersed in 80 mL 1 M HNO₃ using ultrasound; magnetic separation/decanting, then combine and stir 5 h; magnetically recover, wash and dry 60°C/12 h.
+
+**CIP result:** At C₀=15 mg/L, 0.55 g composite in 15 mL, pH 7, 33 min, laboratory temperature and ultrasonic bath, reported removal is 96.39%. The stated mass/dose equates to 36.7 g/L adsorbent, unusually high. If the stated C₀, volume, dose and removal are used together, mass balance implies qₑ≈0.394 mg/g (15 mg/L × 0.015 L × 0.9639 / 0.55 g). This is a calculation from the source’s reported conditions, not a source-reported qₑ or q_max.
+
+**Regeneration and matrix:** Regeneration reportedly used 2 mL methanol and 10 mL DI water; stable removal for at least seven adsorption–desorption cycles is claimed. CIP removal in tap, river, lake and wastewater samples was 94.12±2.2%, 91.66±1.8%, 90.65±3.1% and 89.96±2.3%, respectively. Exact water-spike/concentration details need fuller table pinning.
+
+**Practical caveats:** Ultrasonic bath is mentioned for the adsorption protocol but exact power/frequency/energy is absent. Do not treat this as conventional non-sonicated batch adsorption without an operating-condition note. The accessible text did not provide numerical isotherm/kinetic fit parameters or a cost/yield/energy inventory; no ultrasound-induced degradation data was found, but the ultrasound-assisted nature means transformation should not be ruled out beyond what the source shows.
+
+
+
+## EV-SEM-033 — Magnetic chitosan-grafted graphene oxide / ciprofloxacin (2016)
+
+**Primary source:** *Removal of ciprofloxacin from aqueous solution by a magnetic chitosan grafted graphene oxide composite*, DOI [10.1016/j.molliq.2016.07.037](https://doi.org/10.1016/j.molliq.2016.07.037); [ScienceDirect abstract preview](https://www.sciencedirect.com/science/article/abs/pii/S0167732215312848).
+
+**Accessible findings:** The preview reports a Langmuir fitted maximum capacity qₘ=282.9 mg/g, pseudo-second-order kinetic behavior, and Freundlich and Langmuir isotherms describing equilibrium data. The composite retained about 72% of initial adsorption capacity after four uses. Adsorption was reduced at pH 7 and 9; Na⁺ at 200 mM and Ca²⁺ at 10 mM significantly reduced CIP adsorption.
+
+**Limits:** The accessible preview does not provide exact preparation ratios, C₀, dose, solution volume, contact time, temperature, fit statistics, regeneration eluent, cycle-by-cycle capacity, or quantified cost/yield/energy. Treat 282.9 mg/g as model-fitted qₘ, not observed qe, and do not rank it against condition-specific measured uptakes until the full condition set is verified.
