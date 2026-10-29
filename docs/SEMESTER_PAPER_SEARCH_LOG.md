@@ -261,3 +261,24 @@ Primary open-access article: [Choi & Choi (2022), *Toxics* 10(2), 77](https://ww
 - No regeneration, quantified monetary cost, product yield, or process-energy inventory was reported. This supports only a fitted-capacity/thermodynamics entry, not a measured-removal or low-cost performance claim.
 
 The semester dedicated evidence CSV now contains **25 unique evidence records**. The paper remains provisional, and its fitted capacity should be compared only under explicit, aligned conditions.
+
+
+## 25. Primary full-text audit — SEM-029 / GO–PVA–calcium alginate beads for CIP (29 October 2026)
+
+Primary source: [RSC Advances open article](https://pubs.rsc.org/en/content/articlehtml/2026/ra/d6ra00494f), DOI 10.1039/d6ra00494f. EV-SEM-026 records the full synthesis, conditions, fitted models, source cost estimates, and conflicts.
+
+- Synthesis is chemically and energy intensive: modified-Hummers GO (acids/KMnO₄/H₂O₂/HCl, 90°C reaction, ~36 h drying at 100°C), 5 g PVA, 5 g alginate, 3 h sonication and 12 h boric-acid/CaCl₂ curing.
+- Author reports observed maximum qe=7.15 mg/g and removal around 89.82/89.92% from different experiments. Fitted qₘ: linear Langmuir 8.210 mg/g vs nonlinear Langmuir 10.14 mg/g; nonlinear PSO fitted qe=4.45827 mg/g. D–R linear/nonlinear outputs are strongly discordant, and the linear PFO rate constant is negative.
+- Cost claim: $10–30/kg beads and lifecycle <$1/kg CPX removed. However, cost section assumes 0.1 g beads/L while experimental section states optimum 0.5 g per 50 mL (=10 g/L), a 100× dose mismatch. Treat all monetary values as author estimates not validated lifecycle accounting. Also preserve the 50 mL tube/55 mL contact-volume source inconsistency.
+- No true-water testing, quantified energy or yield reported. The paper’s fitted/isotherm and observed results remain condition-dependent, not a universal performance rank.
+
+## 26. Primary full-text audit — SEM-034 / GO/Co–Fe nanocomposite for TC (29 October 2026)
+
+Primary source: [RSC Advances open article](https://pubs.rsc.org/en/content/articlehtml/2024/ra/d3ra07597d), DOI 10.1039/d3ra07597d. EV-SEM-027 records the TC-specific values and source locations.
+
+- At C₀=0.2 mg/L, dose 0.15 g/L, pH 7, 30 s, 250 rpm and 25°C, TC removal is given as 94.1% in abstract/body but 93.94% in a concentration section. Preserve the difference.
+- Langmuir fitted qₘ for TC=64.10 mg/g at 50°C; do not compare it directly with the 25°C low-concentration removal result or merge TC with CTC/OTC/DTC fitted values.
+- Eight regeneration rounds are reported with an efficiency change around 95% to 90%, but exact TC-only cycle values are not fully pinned in this extraction. No real-water test or quantified cost/yield/energy inventory reported.
+- Preparation uses waste dry-cell graphite but still involves Aqua Regia, modified-Hummers acids/oxidants and Co/Fe salts, pH adjustment and drying; waste origin does not establish low cost.
+
+The dedicated semester evidence table now contains **27 unique evidence rows**. Candidate register remains 44 rows / 43 DOI-defined works because SEM-041 is an alias of SEM-026.
