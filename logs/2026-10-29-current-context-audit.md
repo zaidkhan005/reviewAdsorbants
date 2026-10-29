@@ -25,8 +25,8 @@ This audit records the repository structure, live data state, governing scope de
 | Journal quartile audit | 41 | Journal-level records; not final per-paper Q1 eligibility |
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
-| Semester candidate register | 44 | 37 prior targeted candidates plus one existing master-corpus candidate cross-referenced for TC |
-| Semester dedicated evidence CSV | 23 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester candidate register | 44 | Candidate screening records across prior targeted searches and existing-source review; not accepted citations |
+| Semester dedicated evidence CSV | 24 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -81,3 +81,10 @@ The current dedicated extraction CSV has 23 records. Two already extracted full-
 ## Fourth follow-on source wave — 29 October 2026
 
 The semester candidate register now contains 44 records and the dedicated evidence table contains 23 rows. The latest four candidates are SEM-041 (GO/sodium alginate for CIP), SEM-042 (chitin/nGO with continuous flow and CIP-spiked real-water tests), SEM-043 (GO for CIP; SMX separate), and SEM-044 (MgO/chitosan/GO for CIP; NOR separate). Their evidence IDs are EV-SEM-020–EV-SEM-023. No broad-corpus rows were duplicated based on the current DOI cross-check. The new figures remain provisional: the GO–alginate numeric q_m is only secondarily cross-checked, the Chi:nGO indexed column mass is implausible, the GO/CIP abstract capacity lacks full condition verification, and the MgO/chitosan/GO capacity remains abstract-only.
+
+
+## Fifth source-review follow-on — 29 October 2026
+
+- Updated SEM-024 / EV-SEM-024 for Gao et al. (2012), GO adsorption of tetracycline. The primary PubMed abstract reports Langmuir q_max=313 mg/g (described as close to measured data), pseudo-second-order kinetics with k=0.065 g mg−1 h−1 and lower capacity with increasing pH or Na+. The full experimental conditions and primary tables are not accessible in the current Library view; this remains abstract-level.
+- Re-audited SEM-001 / EV-SEM-001 against the open PLOS full text. The reported fitted q_max declines from 322.43 mg/g at 298 K to 101.87 mg/g at 303 K and 73.53 mg/g at 308 K. This large change is now flagged for a table/condition consistency check; the manuscript should not use it as an unqualified temperature trend.
+- The semester evidence CSV now contains 24 records. The semester candidate register remains 44. No new user download/upload is requested.
