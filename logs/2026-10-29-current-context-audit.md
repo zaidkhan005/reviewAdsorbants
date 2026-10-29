@@ -398,3 +398,18 @@ Direct RSC full-text retrieval succeeded for Hossain et al., RSC Advances 14 (20
 The three removal percentages are a genuine internal inconsistency; they are now all preserved with separate source locations. No normalized cost estimate or real-water trial was found in the full text sections inspected. The readiness table, RD-012, condition-labelled comparison, SEM-034 crosswalk and manuscript were updated.
 
 Source: https://pubs.rsc.org/ra/article/14/2/1431/825803/Ultrafast-and-simultaneous-removal-of-four
+
+## Citation-key reconciliation follow-up — 29 October 2026
+
+The actual Library file `/full ++.bib` was located and materialized for a direct check. It contains 164 BibTeX entries, 164 unique keys and no duplicate keys. Comparing the 15 distinct citation keys in `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` against the DOI/key fields in `full ++.bib` gives six exact DOI/key matches and nine cited references whose DOI/title is absent from that export. The six matching records are:
+
+- `liThreedimensionalGrapheneOxidebased2025`
+- `shahaExploringAdsorptionEfficiency2025`
+- `zhangAdsorptionCharacteristicsNrGO2022`
+- `zhuCiprofloxacinAdsorptionGraphene2015a`
+- `yao3DAssemblyBased2017`
+- `pengAdsorptionAntibioticsGraphene2016`
+
+The other nine have complete records in `references/semester-manuscript-cited-references.bib`, but use project-local citation keys not verified as live Better BibTeX keys. To make that gap actionable without importing the six records already present in the export, created `references/zotero-import-batch-missing-nine-2026-10-29.bib` with only those nine entries. The linkage audit rows are updated to point to this batch.
+
+**Next action:** before importing, search Zotero by DOI for duplicates (the checked export may be older than the live Zotero library). Import only missing items, generate a fresh Better BibTeX export, then map the newly generated citation keys back into the manuscript. Until that re-export exists, the current standalone manuscript bibliography is citation-complete locally but not fully synchronized to the user's Zotero/Better BibTeX keyspace.
