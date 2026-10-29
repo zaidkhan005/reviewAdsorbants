@@ -433,3 +433,14 @@ Validated links:
 - The six previously matched semester-manuscript keys remain present. None of the nine DOI-checked records in `references/zotero-import-batch-missing-nine-2026-10-29.bib` is present by DOI or project-local key in this export.
 - This attachment therefore does not establish that those nine records were imported into the live Zotero library or that Better BibTeX was re-exported after import. Keep the synchronization status **pending**; do not relabel the project-local keys as Zotero-generated keys.
 - Next checkpoint: import/check the nine DOI records in Zotero (avoiding duplicates), then provide a genuinely new Better BibTeX export. Reconcile its generated keys against the manuscript and retain the current 15-entry local bibliography until the fresh export is verified.
+
+
+## Fresh Better BibTeX export recheck — 2026-10-30
+
+- The user provided `full ++ check again.bib`, SHA-256 `bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`, 355,012 bytes.
+- Parsed integrity: 173 entries, 173 unique citation keys, no duplicate keys; 170 entries contain a DOI and 168 unique DOI strings. Two duplicate DOI groups appear elsewhere in the export (`10.1016/j.envres.2021.111091` and `10.1016/j.ijbiomac.2024.133382`); neither overlaps the 15-record semester manuscript citation set.
+- All six keys previously matched from the older export remain present. Each of the nine formerly unresolved manuscript references now appears exactly once by DOI in the new export. The verified Better BibTeX keys are: `zhuAdsorptionTetracyclineAntibiotics2018`, `yasminEfficientRemovalCiprofloxacin2024`, `dangIntegrationMagneticGraphene2025`, `dipannitaCarboxymethylcelluloseFunctionalizedMagnetic2025`, `hossainRemovalCiprofloxacinAqueous2026`, `shahaKineticIsothermThermodynamic2026`, `dingRotatingMagneticFieldenhanced2026`, `hossainUltrafastSimultaneousRemoval2024`, and `zhaoSodiumAlginateGraphene2018`.
+- Updated `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` and `references/semester-manuscript-cited-references.bib` to use the verified keys. The 15 distinct citation keys in the manuscript now resolve against the user-supplied new export and the curated 15-entry cited-reference bibliography.
+- Updated `data/semester-bibtex-citation-linkage-audit.csv` for all nine records; the final column now records the latest current citation key, no longer a project-local placeholder.
+- Updated RD-018 in `data/semester-results-discussion-claim-evidence-audit.csv`. The nine-record import batch remains as historical provenance and has been labeled superseded for citation-linking.
+- This completes the citation-key linkage checkpoint. It does not change or elevate scientific evidence readiness, resolve the PGOT@GEL Supporting Information gap, or make the manuscript submission-ready. The two duplicate DOI groups outside the cited set remain separate corpus-cleanup items.
