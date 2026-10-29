@@ -491,3 +491,50 @@ The primary Springer abstract for DOI [10.1007/s00604-019-3563-x](https://doi.or
 **Accessible findings:** The preview reports a Langmuir fitted maximum capacity qₘ=282.9 mg/g, pseudo-second-order kinetic behavior, and Freundlich and Langmuir isotherms describing equilibrium data. The composite retained about 72% of initial adsorption capacity after four uses. Adsorption was reduced at pH 7 and 9; Na⁺ at 200 mM and Ca²⁺ at 10 mM significantly reduced CIP adsorption.
 
 **Limits:** The accessible preview does not provide exact preparation ratios, C₀, dose, solution volume, contact time, temperature, fit statistics, regeneration eluent, cycle-by-cycle capacity, or quantified cost/yield/energy. Treat 282.9 mg/g as model-fitted qₘ, not observed qe, and do not rank it against condition-specific measured uptakes until the full condition set is verified.
+
+## EV-SEM-034 — Magnetic GO for tetracycline hydrochloride (2019)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/abs/pii/S0169433219300455 (DOI 10.1016/j.apsusc.2019.01.036).
+
+The publisher abstract identifies MGO, examines pH and temperature effects, and reports PSO kinetics plus a Freundlich isotherm. TC-HCl and OTC adsorption are strongest at pH 3.3; CTC behaves differently and performs better under alkaline conditions. The accessible synthesis snippet states expandable GO was prepared by a modified Hummers route and 100 mg GO dispersed in 30 mL NMP by ultrasonication. The abstract does not state numeric capacity, feed/dose conditions, yield or a cost inventory. The often quoted 141.44 mg/g for TC-HCl is found in a separate secondary review, not verified in the primary table; keep it out of quantitative ranking.
+
+## EV-SEM-035 — DFT-only rGO/CIP/TC study (2024)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/abs/pii/S0301010424000363 (DOI 10.1016/j.chemphys.2024.112207).
+
+This study uses Gaussian 09, PBEPBE/6-31G(d,p), and AIM/NBO calculations for TC and CIP on pristine and Ca2+-supported rGO models. Its reported adsorption-energy range (−8.0 to −19.9 kcal/mol) and proposed hydrogen-bond/Ca···O interactions are molecular-model outputs. No physical sorbent was manufactured or tested in water; there is no measured q_e, q_max, removal, regeneration, or process-cost data. Retain only as theory/mechanism context, never as an empirical performance-table entry.
+
+## EV-SEM-036 — Sulfonated GO in multi-fluoroquinolone mixtures (2026)
+
+Primary open-access source: https://www.sciencedirect.com/science/article/pii/S2590123026011011 (DOI 10.1016/j.rineng.2026.110064).
+
+The abstract describes equimolar binary (CIP + moxifloxacin), ternary (+ levofloxacin), and quaternary (+ sparfloxacin) systems. Langmuir-model capacities at 25°C are reported as 370.37, 357.14 and 333.33 mg/g for the three mixtures; these are mixture-level fitted capacities, not verified single-CIP q_max values. DMF containing 1 mol/L HCl reportedly desorbed >97% of antibiotics; >92% of initial performance remained after five cycles. No complete preparation or process-cost inventory is available in the abstract. DMF and strong-acid regeneration require solvent/acid handling and recovery.
+
+## EV-SEM-037 — Rotating-field Fe3O4/rGO for tetracycline hydrochloride (2026)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/pii/S1383586625046465 (DOI 10.1016/j.seppur.2025.136049).
+
+The abstract reports a co-precipitated Fe3O4/rGO composite (95.12 m²/g) operated with a rotating magnetic field. For TCH, the reported optimum uses C0=30 mg/L, dose=1.0 g/L, pH 5 and 2 A excitation current, with >96% removal and >87% efficiency after four cycles. The abstract gives no numeric q_max or observed q_e; power draw, frequency, matched field-free controls, regeneration recipe and specific matrix details are not available. A current of 2 A alone is not energy consumption and does not establish low-cost performance.
+## EV-SEM-034 — Magnetic GO for tetracycline hydrochloride (2019)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/abs/pii/S0169433219300455 (DOI 10.1016/j.apsusc.2019.01.036).
+
+The publisher abstract identifies MGO, examines pH and temperature effects, and reports PSO kinetics plus a Freundlich isotherm. TC-HCl and OTC adsorption are strongest at pH 3.3; CTC behaves differently and performs better under alkaline conditions. The accessible synthesis snippet states expandable GO was prepared by a modified Hummers route and 100 mg GO dispersed in 30 mL NMP by ultrasonication. The abstract does not state numeric capacity, feed/dose conditions, yield or a cost inventory. The often quoted 141.44 mg/g for TC-HCl is found in a separate secondary review, not verified in the primary table; keep it out of quantitative ranking.
+
+## EV-SEM-035 — DFT-only rGO/CIP/TC study (2024)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/abs/pii/S0301010424000363 (DOI 10.1016/j.chemphys.2024.112207).
+
+This study uses Gaussian 09, PBEPBE/6-31G(d,p), and AIM/NBO calculations for TC and CIP on pristine and Ca2+-supported rGO models. Its reported adsorption-energy range (−8.0 to −19.9 kcal/mol) and proposed hydrogen-bond/Ca···O interactions are molecular-model outputs. No physical sorbent was manufactured or tested in water; there is no measured q_e, q_max, removal, regeneration, or process-cost data. Retain only as theory/mechanism context, never as an empirical performance-table entry.
+
+## EV-SEM-036 — Sulfonated GO in multi-fluoroquinolone mixtures (2026)
+
+Primary open-access source: https://www.sciencedirect.com/science/article/pii/S2590123026011011 (DOI 10.1016/j.rineng.2026.110064).
+
+The abstract describes equimolar binary (CIP + moxifloxacin), ternary (+ levofloxacin), and quaternary (+ sparfloxacin) systems. Langmuir-model capacities at 25°C are reported as 370.37, 357.14 and 333.33 mg/g for the three mixtures; these are mixture-level fitted capacities, not verified single-CIP q_max values. DMF containing 1 mol/L HCl reportedly desorbed >97% of antibiotics; >92% of initial performance remained after five cycles. No complete preparation or process-cost inventory is available in the abstract. DMF and strong-acid regeneration require solvent/acid handling and recovery.
+
+## EV-SEM-037 — Rotating-field Fe3O4/rGO for tetracycline hydrochloride (2026)
+
+Primary publisher source: https://www.sciencedirect.com/science/article/pii/S1383586625046465 (DOI 10.1016/j.seppur.2025.136049).
+
+The abstract reports a co-precipitated Fe3O4/rGO composite (95.12 m²/g) operated with a rotating magnetic field. For TCH, the reported optimum uses C0=30 mg/L, dose=1.0 g/L, pH 5 and 2 A excitation current, with >96% removal and >87% efficiency after four cycles. The abstract gives no numeric q_max or observed q_e; power draw, frequency, matched field-free controls, regeneration recipe and specific matrix details are not available. A current of 2 A alone is not energy consumption and does not establish low-cost performance.
