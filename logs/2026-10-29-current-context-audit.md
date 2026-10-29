@@ -262,7 +262,7 @@ Completed a claim-group audit against the existing semester condition-labelled c
 
 ### Main findings and edits
 - The manuscript's condition-specific values for EV-SEM-002, 004, 006, 007, 011, 012, 013, 014, 015, 016, 026, 027, 036 and 037 align with the values currently transcribed into the repository's comparison/readiness records. This is an internal evidence-table cross-check; it is not a new full page-by-page extraction of each primary source.
-- Strengthened the Shaha/SGO-CIP caveat: besides the reported 96.53% vs mass-balance ~94.85% mismatch, fitted qmax=1000 µmol/g is an extrapolated parameter above the ~500 µmol/g feed-mass ceiling implied by the stated 100 µmol/L upper feed and 0.2 g/L dose. No reported value was silently changed.
+- **Superseded correction (29 October 2026, later source-pin audit):** an earlier note incorrectly applied the 100 µmol/L kinetic-series ceiling (~500 µmol/g) to the fitted Langmuir parameter. Figure 10's separate isotherm range is 50–1000 µmol/L (printed p. 40824), so that ceiling objection is invalid and has been removed from the manuscript and current audit/caveat tables. The real qe/removal discrepancy (237.12 μmol/g / ~94.85% by mass balance versus text-reported 96.53%) remains.
 - Added that the GO/calcium-alginate fiber's separate 56.8% pH-test maximum used 50 mg/L TC.
 - Clarified the PRB paper's abstract-level 100 mg/g statement as a reported maximum capacity at pH 7 whose exact capacity definition is unclear given the abstract's Freundlich fit.
 - Added the 50 mL/55 mL method-volume inconsistency to the GO/PVA/calcium-alginate cost caveat alongside the already documented 100-fold dose-basis discrepancy.
