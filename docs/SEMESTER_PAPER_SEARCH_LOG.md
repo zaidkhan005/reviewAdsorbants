@@ -197,3 +197,15 @@ Three existing register records were checked against accessible publisher/PubMed
 - **SEM-005 / EV-SEM-019 — magnetic GO sponge for TC**, DOI 10.1016/j.matchemphys.2017.05.042. Publisher abstract reports a 473 mg/g adsorption-capacity figure, about 50% higher than GO in the authors' comparison, but the accessible excerpt does not establish the precise fitted-versus-measured endpoint. It remains out of capacity rankings until table-level validation is possible.
 
 The semester register remains at **40 candidates**, and the dedicated extraction CSV now has **19 evidence rows**. These new rows are explicitly abstract-level and should not be represented as full-text extraction. Quartile audit remains pending for these three records.
+
+
+## 17. Fourth follow-on source wave — GO/polymer composites and GO for CIP (29 October 2026)
+
+No additional user download was requested. Four more on-scope primary-source records were extracted from accessible publisher/PubMed abstracts or indexed article text:
+
+- **SEM-041 / EV-SEM-020 — Fei et al. (2016), GO–sodium alginate hydrogel/aerogel for CIP**, DOI 10.1016/j.jcis.2016.08.068. Primary abstract reports a ~7–9× capacity increase after GO addition and good Langmuir fit; q_m=86.12 mg/g appears in a secondary comparison table but is explicitly not primary-table verified.
+- **SEM-042 / EV-SEM-021 — González et al. (2018), chitin/nGO continuous-flow CIP removal**, DOI 10.1016/j.carbpol.2018.02.021. The source describes batch isotherms, flow/chemistry tests, CIP-spiked real-water samples, and 0.1 M NaOH regeneration. An implausible “100 grams” sorbent-mass line in the indexed method text is quarantined pending visual check; no numeric column capacity was guessed.
+- **SEM-043 / EV-SEM-022 — Chen et al. (2015), GO for CIP and SMX**, DOI 10.1016/j.jhazmat.2014.03.063. Abstract reports 379 mg/g for CIP and 240 mg/g for SMX; only CIP is eligible for the core target comparison, and the abstract-reported maximum is not treated as observed qe.
+- **SEM-044 / EV-SEM-023 — Nazraz et al. (2019), MgO/chitosan/GO for CIP and NOR**, DOI 10.1007/s00604-019-3563-x. Abstract reports a Langmuir capacity of 1111 mg/g for CIP and >120 min to kinetic equilibrium, with no comparable cost inventory. The high capacity remains unranked pending primary-table confirmation.
+
+The live semester register now contains 44 candidates and the dedicated evidence CSV 23 records. These are still provisional study-screening/evidence rows, not a final inclusion list or 23 validated quantitative studies. No user download/upload is requested.
