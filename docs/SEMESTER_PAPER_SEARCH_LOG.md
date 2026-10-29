@@ -248,3 +248,16 @@ Source: [CONICET-hosted accepted manuscript PDF](https://ri.conicet.gov.ar/bitst
 - **Critical integrity hold:** accepted-manuscript §2.4.2 explicitly says 100 g Chi:nGO packed into a 1-cm-ID column with a 1.5-cm bed. Geometric bed volume is π(0.5 cm)²×1.5 cm=1.178 cm³; implied bulk density ≈84.9 g/cm³, impossible. The source line is preserved; no guessed correction. Quarantine every dynamic q₀/τ figure from final numeric ranking pending a verified intended mass. Batch isotherm qₘ is analytically separate but remain cautious about the paper's dynamic application conclusions.
 - The article’s real-water tests used CIP-spiked tap/well water. No monetized cost, yield, reagent/energy inventory, pressure-drop estimate, eluent-volume accounting or cost-per-treated-volume reported. Author “low-cost” wording remains qualitative.
 - Browser screenshot generation for the PDF/table failed with cache errors; manuscript text and table data were accessible. Visual table layout is not claimed to be verified.
+
+
+## 24. Full-text extraction — SEM-027 / GO/Ca-alginate–PAM beads for CIP (29 October 2026)
+
+Primary open-access article: [Choi & Choi (2022), *Toxics* 10(2), 77](https://www.mdpi.com/2305-6304/10/2/77), DOI 10.3390/toxics10020077. Register updated and dedicated evidence row EV-SEM-025 added.
+
+- Synthesis: 0.1 g GO/100 mL water sonicated; 0.6 g sodium alginate and 1.0 g PAM; 80°C for 4 h, cool to 30°C; pump into 10 g/L CaCl₂·2H₂O at 2 mL/min; crosslink/stabilize 24 h; wash 3× and dry 80°C.
+- Batch isotherms: CIP 1–50 ppm, 0.05 g adsorbent, stated 55 mL, 250 rpm, 24 h, room temperature. Source says 50 mL conical tube yet 55 mL contact solution; this is recorded as an unresolved method inconsistency.
+- Table 1: Langmuir fitted qₘ=6.846 mg/g (b=0.132 L/mg, R²=0.991, χ²=0.037); Freundlich R²=0.932; Temkin R²=0.966. No observed qₑ/removal percentage was located in the accessible text, so none is inferred.
+- Thermodynamics: at 0.5/1/2 ppm and 10/25/40°C, qₑ increased with temperature; positive ΔH (10.7/4.4/7.2 kJ/mol) and negative ΔG values are preserved in EV-SEM-025/notes.
+- No regeneration, quantified monetary cost, product yield, or process-energy inventory was reported. This supports only a fitted-capacity/thermodynamics entry, not a measured-removal or low-cost performance claim.
+
+The semester dedicated evidence CSV now contains **25 unique evidence records**. The paper remains provisional, and its fitted capacity should be compared only under explicit, aligned conditions.
