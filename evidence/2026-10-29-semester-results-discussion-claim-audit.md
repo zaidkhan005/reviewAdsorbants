@@ -49,3 +49,17 @@ The machine-readable audit is in [`data/semester-results-discussion-claim-eviden
 - `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md`
 
 **Disposition:** The draft has a consistent citation-to-bibliography map and a more explicit set of caveats, but it remains a working draft. Its next scientific step is targeted source-pin completion for the highest-impact numeric claims, not broadening the reference pool or silently recalculating conflicting paper values.
+
+
+## Full-text follow-up audit — SEM-031 / EV-SEM-036 (29 October 2026)
+
+The author-uploaded full text of Shaha et al. (2026), Results in Engineering 30, 110064, DOI 10.1016/j.rineng.2026.110064, was found on the public ResearchGate article record and checked against the existing abstract-level claim.
+
+- **Methods and range:** §2.4, printed p. 3, describes 50 mL batch tests and the concentration/dose/pH/temperature ranges. The isotherm comparison uses SGO 0.2 g/L at pH 5 and mixed-solution concentrations up to 371.64 mg/L; Fig. 3 (printed p. 5) provides the representative 25 °C kinetic setup; Fig. 4 (p. 6) gives the separate factor/range tests; Fig. 6 (p. 9) labels the isotherm series.
+- **Fitted capacities:** Table 3 (printed p. 10) reports 25 °C Langmuir-fitted q_m values of 370.37, 357.14 and 333.33 mg/g for binary, ternary and quaternary mixture systems. These are system-level fitted parameters calculated for mixed antibiotic solutions, not isolated-CIP q_max values and not an environmental-trace benchmark.
+- **Recovery and reuse:** Fig. 12 (printed p. 13) provides the mixed-system uptake across reuse. The article reports >97% desorption using 1 mol/L HCl in DMF and >92% initial performance retained after five adsorption–desorption cycles. The chemical recovery/disposal burden and cost are not quantified.
+- **Applicability contradiction:** the abstract states that SGO is effective for treating real wastewater, but §3.12 (printed p. 14) explicitly lists lack of testing with real wastewater samples as a limitation. The manuscript is now corrected to say the study used synthetic multicomponent aqueous solutions and does **not** establish real-wastewater performance. The same section notes that ionic-strength effects and continuous-flow/long-term stability were not examined.
+- **Repository changes:** updated EV-SEM-036 in the evidence-readiness table and condition-labelled comparison, updated claim audit row RD-014, updated the SEM-031 main-corpus crosswalk, and revised §3.4 of the manuscript with table/figure/printed-page pins.
+
+**Disposition:** The source-pin gap for this study is resolved, but applicability remains limited. Retain only in the multicomponent synthetic-solution subsection; do not pool the mixture-level fitted q_m values with single-solute CIP capacities or label the study as real-wastewater-tested.
+
