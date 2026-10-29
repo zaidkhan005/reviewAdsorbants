@@ -193,3 +193,14 @@ The full article was read from the Library copy. Material construction involves 
 ### Scope/evidence consequence
 
 These two existing PDFs bring the evidence extraction table to 13 study records. They are not new user downloads and have been linked to existing candidate IDs SEM-016 and SEM-032. The remaining gaps on DDMGO and PRB are retained in the evidence as unresolved access/table-audit limitations; the project will proceed without asking the user for more PDFs.
+
+
+## Cross-repository linkage — no duplicate evidence row created (29 October 2026)
+
+The full repository review identified one additional directly in-scope paper already extracted in the broad corpus: Zhang & Wu (2022), “Adsorption Characteristics of N-rGO for Multiple Representative Trace Antibiotics in Water” (DOI 10.1002/jeq2.20415). It is now registered as SEM-038 and cross-referenced to broad-corpus candidate CORP-031. Reuse the original evidence IDs EV-B10-004–EV-B10-009 rather than copying them into a second extraction table.
+
+**CIP/TC eligibility:** Tetracycline is one of the six target antibiotics, and N-rGO is a graphene-derived material within the approved semester scope. The article is listed as Q2 in five 2025 SJR categories in the broad audit; the semester scope does not impose a universal Q1-only rule unless the requirement is explicitly confirmed.
+
+**Data-quality hold:** The primary evidence records flag a mass-balance/unit concern. The paper reports kinetic qe values 80.58–90.21 mg/g across the six antibiotics and a fitted Langmuir q_m of 662.25 mg/g for TC, despite a trace-concentration setup where the illustrative stated feed/dose combination implies a loading ceiling near 80 mg/g. Keep the reported values and condition labels for audit, but do not rank or reproduce the q_m as validated capacity until concentration/dose units and calculations can be reconciled.
+
+Preparation is chemically intensive (strong acid/oxidant treatment, extensive washing/ultrasonication and 180°C/24 h autoclave processing); the existing source record reports no quantified yield, chemical recovery, energy or cost/LCA. This is useful both for adsorption-mechanism evidence and for the review's distinction between high fitted capacity and demonstrated low-cost potential.
