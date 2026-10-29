@@ -56,6 +56,6 @@
 
 ## Scope note
 
-This ledger is a working control document, not proof that citations are already final. The Zotero library itself is not embedded in GitHub, and this pass did not have a verified current Better BibTeX export to read stable citation keys from. Citation conversion remains pending until the actual Zotero records/export and target style are available.
+This ledger is a working control document, not proof that citations are already final. The 2026-10-29 Better BibTeX export has been inventoried in `references/bibtex_full_corpus_processing_queue_2026-10-29.csv`, and the nine seed claims are matched to three exported keys as recorded above. The Zotero library itself is not embedded in GitHub; duplicate Zotero entries still need safe cleanup, the final target citation style has not been selected, and final style-rendered citations/bibliography remain pending. Recheck keys after any Zotero merges.
 
 **Deferred-item guardrail:** DISC-022 stays deferred, not screened or excluded, until the user supplies its full-text PDF.
