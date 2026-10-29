@@ -7,11 +7,12 @@
 
 ## 1. Where we are
 
-The candidate register has 37 study records. The core evidence CSV has 13 evidence records. These are *evidence records*, not 13 final accepted studies: some are full-text extracted; others rely on indexed text or abstracts and still lack table-level verification.
+The candidate register has 38 study records. The core evidence CSV has 13 dedicated semester evidence records; relevant evidence already extracted in the broad corpus is cross-referenced via `data/semester-main-corpus-crosswalk.csv` rather than duplicated. These are *evidence records*, not 13 final accepted studies: some are full-text extracted; others rely on indexed text or abstracts and still lack table-level verification.
 
-Two of the newest fully extracted papers were already available in the user's Library:
+Two of the newest fully extracted papers were already available in the user's Library, and a further in-scope N-rGO paper is already fully extracted in the broad corpus:
 - Shah et al. (2025), sulfonated graphene oxide (SGO) for CIP, DOI [10.1021/acsomega.4c11231](https://doi.org/10.1021/acsomega.4c11231).
 - Li et al. (2025), PGOT@GEL graphene-oxide-based hydrogel for CIP, DOI [10.1016/j.psep.2025.107659](https://doi.org/10.1016/j.psep.2025.107659).
+- Zhang & Wu (2022), nitrogen-doped reduced graphene oxide (N-rGO) for six trace antibiotics including TC, DOI [10.1002/jeq2.20415](https://doi.org/10.1002/jeq2.20415); its existing evidence IDs are EV-B10-004–EV-B10-009 under broad candidate CORP-031. A mass-balance/unit discrepancy means its fitted capacities are not safe to rank as validated performance.
 
 No new download is required from the user. The DDMGO dual-antibiotic paper and the groundwater PRB study remain less completely verified, but the project proceeds without them.
 
@@ -31,6 +32,7 @@ This table is deliberately not a ranking. The values come from different concent
 | Magnetic GO/fibrillated-cellulose composite (2025) | TC | Sips fitted (q_m=130.11) mg/g; measured (q_e=93.36\pm3.85) mg/g at 0.50 g/L dose and (C_0=70) mg/L | Sips (q_m), Langmuir (q_m), kinetic-model (q_e), and measured (q_e) must stay separate | Strong-acid cellulose hydrolysis and 48 h lyophilization; five-cycle removal falls from 88.33% to 75.38% |
 | CMC-functionalized magnetic GO (2025) | TC | Linear Langmuir (q_m=54.73) mg/g at 50°C; 96.04% removal at (C_0=2) mg/L, dose 0.1 g/L, pH 5, 25°C and 25 min | The 54.73 mg/g value is a *fitted value at 50°C*; mass-balance-derived uptake for the 25°C removal test is about 19.21 mg/g | Methanol regeneration; ~96% to ~92% removal over ten cycles; extensive synthesis but no whole-process cost calculation |
 | PGOT@GEL engineered GO hydrogel (Li et al., 2025) | CIP | Langmuir fitted (q_{max}=821.24) mg/g (R²=0.9908); separate RSM validation measured (q_e=807.54) mg/g at (C_0=296.52) mg/L, pH 6.70, dose 5.08 mg and 298.88 K; separate pH-test (q_e=192.24) mg/g with 96.12% removal at pH 7 | These are three different outputs/conditions and should not be collapsed into one “capacity” | Multi-step P-doping/TETA/β-CD/AMPS hydrogel synthesis; methanol soaking for 12 h/cycle; seven-cycle retention ~90.53%; main text and Fig. 12 caption differ on whether water samples are real or simulated |
+| N-rGO (Zhang & Wu, 2022; existing broad-corpus evidence CORP-031) | TC (among six antibiotics) | Kinetic-table qe range 80.58–90.21 mg/g across tested antibiotics; fitted Langmuir q_m for TC 662.25 mg/g; TC described as fastest to adsorb (within ~30 min); up to eight cycles, capacity decline no more than ~25% as reported | A relevant graphene-derived, trace-antibiotic study with matrix-interference and reuse evidence, already in the main corpus | The source's trace-feed/dose details imply an illustrative mass-balance ceiling around 80 mg/g, while some reported kinetic qe and fitted q_m are higher; keep the paper in qualitative synthesis but quarantine its capacity values pending unit/mass-balance reconciliation. Preparation uses strong chemistry and 180°C/24 h autoclaving; no cost inventory reported |
 | GO/alginate PRB hydrogel beads (Zhao et al., 2018) | CIP | Abstract reports 100 mg/g at pH 7 and ~72 h equilibrium; flow-through PRB/column study | Potential application-focused evidence, distinct from a batch-only test | Full cost/lifetime and column details unavailable in the current extraction; the exact capacity-model definition must be checked against full tables |
 
 **Use rule:** No universal capacity ranking should be published from this table. Even apparently similar values can refer to fitted (q_{max}), model-derived (q_e), measured batch uptake, or a selected optimized condition.
@@ -108,3 +110,10 @@ The final manuscript's numbering/placement must follow the AMU department or tar
 5. Build the comparison tables and figures only after the evidence categories and metric labels are stable.
 
 **No action is required from the user right now.** The workflow will continue using the files and sources already available.
+
+
+## Corpus cross-reference added after repository audit
+
+The approved semester scope now includes one additional existing study as SEM-038, cross-linked to CORP-031 rather than re-extracted into duplicate evidence rows. Its TC results are directly on-scope, but its reported capacity values have an unresolved dose/concentration mass-balance concern. Include it in evidence-coverage and mechanism discussion; keep numerical q_m out of ranking until reconciled.
+
+The earlier suggested downloads for SEM-006 and SEM-037 are no longer user actions. Their source-access gaps remain documented, and the review proceeds with existing evidence.
