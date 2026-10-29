@@ -131,7 +131,7 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has 44 rows representing 43 unique DOI-defined works (SEM-041 is a duplicate alias of SEM-026), with 37 dedicated evidence records and reusable master-corpus evidence linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
+The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 37 unique records, and reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
 
 
 Current semester-paper evidence register: **37 unique evidence rows** (29 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
