@@ -1,5 +1,14 @@
 # Reference target and acquisition plan
 
+## Live status overlay (2026-10-29)
+
+- Broad corpus: 111 candidate records, 505 evidence rows, 41 journal-audit records, and 164 entries in the current Better BibTeX processing queue. The 505 rows are findings, not studies or accepted citations, and some evidence remains provisional/staged.
+- The 250-row planned discovery pool in `data/planned-download-pool.csv` already exists. Do not calculate a current discovery deficit by simply subtracting the 111-row register from 250; the pool and register have different composition and need DOI/title crosswalking.
+- Broad-review targets remain about **60 distinct works actually cited** for the semester version and **150 actually cited** for the journal version; the final bibliography count is not audited.
+- Separate semester paper: approximately **50 distinct works actually cited**, locked to selected graphene-based adsorbents/composites for CIP and TC. Its register has 38 candidates and its dedicated evidence CSV has 13 rows. Do not merge its reference target into the broad-review targets.
+- No new download/upload is being requested from the user. Continue using existing files, evidence and legitimate accessible source text.
+
+
 ## Objective
 
 The user's supervisor suggested about 60 references for a semester publication and around 150 for the journal version. For the current broad review, use **~150 distinct, relevant works actually cited** as a provisional journal-manuscript target—not a universal publisher requirement. Check the eventual target journal's current author instructions and review-article type before submission.
@@ -10,17 +19,17 @@ A reference-count target is not permission to pad. If the evidence supports a sm
 
 As of 2026-10-27, the canonical `data/corpus-screening-register.csv` contains **68 candidate rows**. The master evidence file has records for 59 distinct candidate IDs, but it mixes primary-study and review/background evidence and therefore is not a bibliography count. The previous screening checkpoint had 61/62 candidates full-text screened. After the first documented discovery pass, the register now has 68 rows: those 61 prior full-text screens remain, `DISC-022` remains deferred/not screened/not excluded, and six new candidates are at discovery stage awaiting full-text/source review. Final retain/exclude decisions and journal-eligibility rules remain provisional. The `references/` folder currently contains export instructions, not a current `review-corpus.bib` file, and manuscript citation conversion is pending. Therefore, **the number of distinct works actually cited in the final bibliography has not yet been audited**; do not report either reference target as achieved from the candidate count alone.
 
-## Live reference-count dashboard — 2026-10-27
+## Historical reference-count dashboard — 2026-10-27 (superseded by live status overlay)
 
 | Measure | Current status | Interpretation |
 |---|---:|---|
 | Semester manuscript target | **~60 distinct cited works** | Target from the supervisor; not confirmed as met because the final in-text citation/bibliography count has not been generated. |
 | Publisher/journal-version target | **~150 distinct cited works** | Working target, subject to the eventual journal's article type and author instructions. |
-| Current screening inventory | **68 candidates** | Candidate rows are not the same as accepted papers or cited bibliography entries. |
+| Historical screening inventory at 2026-10-27 checkpoint | **68 candidates** | Accurate for that dated snapshot; current register has 111 candidates. Candidate rows are not accepted papers or cited bibliography entries. |
 | Evidence register coverage | **59 distinct candidate IDs** | Includes primary studies and review/background evidence; not a unique accepted-paper count. |
 | Final bibliography count | **Not audited** | No current `review-corpus.bib` export is stored in `references/`, and in-text citation conversion is pending. |
 | Candidate-pool planning range for the ~150-reference version | **220–250 records** | Planning funnel to allow for duplicates, exclusions, inaccessible full texts, ranking rules and evidence quality. |
-| Additional candidates needed to reach that pool | **~152–182** | Approximation from 68 current candidate rows; re-count after each deduplication/search pass. |
+| Historical estimate of candidate gap | **~152–182** | Estimate made from the 68-row register on 2026-10-27; not a live count and not recalculated by subtracting current register rows from pool size. |
 
 The 60-reference checkpoint and the 150-reference journal target must be tracked as **distinct works actually cited**, not as PDFs uploaded, candidates screened, evidence rows, or papers mentioned only inside other reviews. A source may be discovered or extracted and still not belong in the final bibliography if it is irrelevant, duplicative or unsupported.
 
@@ -28,7 +37,7 @@ The 60-reference checkpoint and the 150-reference journal target must be tracked
 
 To end with ~150 defensible citations, build a pool of roughly **220–250 candidate references** through targeted searching and citation chasing, then screen it down. This range is a planning estimate, not a guarantee: actual acceptance may be lower or higher depending on relevance, access, evidence quality, Q1 eligibility, duplicates, and target-journal rules.
 
-From the current 68 candidate rows, this implies a working goal of finding roughly **152–182 additional candidate records** to reach the 220–250 pool before final screening, while removing duplicates and correcting metadata throughout. Do not collect papers indiscriminately; every search must answer a defined gap in the outline.
+At the 2026-10-27 checkpoint, the 68-row register led to the historical estimate of **152–182 additional candidate records** to reach the 220–250 pool. That estimate is superseded by the populated 250-row pool and later intake; reconcile pool/register DOI/title matches rather than using simple subtraction. Every search must answer a defined gap in the outline.
 
 ## Provisional makeup of a 150-reference bibliography
 
@@ -112,13 +121,13 @@ Metadata-only candidates in the current register are not considered read, includ
 ### Stage A: reach the semester manuscript target (~60 works actually cited)
 
 1. **Reconcile the current library and manuscript.** Export the Zotero collection as `review-corpus.bib` using the instructions in `references/README.md`. This is a bibliography export, not a request for another PDF batch. Deduplicate DOI/title variants and map existing manuscript claims to sources. The repository currently does not contain a current `.bib` export, so the actual unique-citation count is not yet known.
-2. **Audit the current 68 candidates before searching blindly.** Finalize provisional retain / exclude / background-only roles where the evidence allows; keep the 2022 review `DISC-022` deferred until the user supplies its PDF. Do not equate 68 candidate rows with 60 accepted references.
+2. **Historical step (2026-10-27): audit the then-current 68 candidates.** That checkpoint is now superseded by the 111-row register and current crosswalk work. `DISC-022` remains deferred in the broad review, but the user has paused downloads; do not ask for that PDF while the pause is active. Candidate rows are not accepted references.
 3. **Use an initial 60-reference coverage plan** (main counting role per distinct work; secondary thematic tags can overlap): 32 primary adsorption studies; 8 cross-cutting experiments (real-water matrices, regeneration, mixed feeds and columns); 7 kinetics/isotherm/speciation/mechanism foundations; 5 process-cost/energy/LCA sources; 4 occurrence/risk/treatment-context sources; and 4 high-quality reviews. This is a planning allocation, not a forced quota. If screening produces fewer than 60 genuinely useful sources, search the gaps rather than padding.
 4. **Check whether the manuscript actually cites them.** A retained paper counts toward 60 only if it is used in the manuscript to support a statement/table row. Count each distinct DOI/work once, even if it appears in several sections. Duplicate preprint/published versions count as one work unless they contain materially distinct records and there is a justified reason to cite both.
 
 ### Stage B: grow the source pool for the journal version (~150 works actually cited)
 
-Build a deduplicated pool of **220–250 candidates** and screen it down to approximately 150 relevant works actually cited. Starting from 68 rows, the current planning gap is **152–182 net-new candidate records**, before future deduplication and decisions. The funnel is a planning estimate, not an obligation to retain weak papers.
+Build and reconcile a deduplicated pool of **220–250 candidates** and screen it down to approximately 150 relevant works actually cited. The 250-row planned pool is present; use the crosswalk and screening decisions to resolve overlap rather than treating the historical 152–182 figure as a current net-new target. The funnel is a planning estimate, not an obligation to retain weak papers.
 
 Use these source-acquisition passes, in order:
 
@@ -159,4 +168,4 @@ These counts assign each work one main role solely to prevent double-counting. T
 
 ## Planned download pool created (2026-10-27)
 
-A 250-record planning pool is now available at [`data/planned-download-pool.csv`](../data/planned-download-pool.csv), with usage notes in [`docs/PLANNED_DOWNLOAD_POOL_GUIDE.md`](PLANNED_DOWNLOAD_POOL_GUIDE.md). It combines 67 relevant/pending existing-register records and 183 newly surfaced leads. The existing register still contains 68 rows; `CORP-062` remains in the register for audit but is excluded from this target pool because it is unrelated. `DISC-022` remains deferred pending the user's full-text PDF. The 183 new rows were selected from DOI/title-deduplicated discovery results and remain discovery leads only: full-text scope, article type, exact publication metadata and journal quartile are not yet fully verified. Material-class labels use title-first provisional classification and must be reviewed during screening. This pool is a route to the 220–250 candidate-pool target, not proof that the 60-reference semester or 150-reference publisher/journal citation target has been achieved.
+A 250-record planning pool is available at [`data/planned-download-pool.csv`](../data/planned-download-pool.csv), with usage notes in [`docs/PLANNED_DOWNLOAD_POOL_GUIDE.md`](PLANNED_DOWNLOAD_POOL_GUIDE.md). When it was created on 2026-10-27, it combined 67 then-relevant/pending register records and 183 newly surfaced leads; the live broad register now has 111 rows. `CORP-062` remains in the register for audit but is excluded from that target pool as unrelated. `DISC-022` remains deferred in the broad review, and the user's download pause is active. The 183 leads are not accepted studies: full-text scope, article type, metadata and journal quartile may still need verification. The pool is a discovery aid, not proof of the 60/150 citation targets.
