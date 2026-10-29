@@ -227,3 +227,10 @@ The Fe₃O₄/GO CIP paper reports 96.39% removal at a stated dose of 0.55 g in 
 | SEM-013 / rGO/CIP/TC DFT (EV-SEM-035) | Molecular mechanism/theory subsection only | No experiment, aqueous removal or adsorption-capacity metric; exclude from empirical performance comparison |
 
 The candidate register contains 44 rows, with SEM-041 retained as an alias of SEM-026 and SEM-021 still lacking verified DOI metadata. The dedicated evidence CSV now contains 37 unique records. Evidence rows are not accepted references; abstract-level and theoretical rows must stay labelled. The target of about 50 distinct cited works remains unverified.
+## Evidence readiness audit — 29 October 2026
+
+A row-by-row QA matrix now exists at [data/semester-evidence-readiness-audit.csv](../data/semester-evidence-readiness-audit.csv). It separates source-access level, experimental versus theoretical evidence, observed endpoints, fitted parameters, known numerical contradictions, cost status, regeneration evidence, and the permitted way each study may be used in the manuscript.
+
+Initial audit readout: the 37 records are heterogeneous. Several are primary full-text/table-backed studies, others are publisher-abstract or indexed-fragment claims, and EV-SEM-035 is DFT-only theory. Capacity/uptake flags remain on the GO–LDH condition, SGO nominal qe/removal pair, MGO/EDTA mass-balance pair, GO/PVA/alginate dose-cost calculation, accepted-manuscript chitin/nGO column mass, and several abstract-only headline capacities. No cross-study capacity leaderboard should be drafted before these caveats are carried into each row.
+
+Cost evidence remains the weakest common dimension: most studies lack a comparable full-process cost boundary, energy/yield inputs and a cost-per-treated-volume or cost-per-mass-removed denominator. Where a paper asserts 'low-cost', the manuscript should describe that as the authors' claim unless it is supported by a quantified inventory.
