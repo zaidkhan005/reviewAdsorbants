@@ -156,3 +156,19 @@ The three available BibTeX exports were checked against the semester candidate r
 ## Narrative drafting checkpoint — 29 October 2026
 
 Created `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` (six subsections; 14k+ characters). It uses six keys verified by exact DOI matches across the available BibTeX exports and explicitly flags nine unresolved citation-key positions. Candidate register remains 44 rows, dedicated evidence CSV 37 rows, condition-labelled comparison 18 rows, shortlist 44 rows, readiness audit 37 rows, and citation linkage audit 44 rows. No user download/upload is required. The next best step is to resolve citation links for selected, evidence-ready studies and then draft methods/search and introduction—not add more candidates.
+
+
+## Latest live-state reconciliation — 29 October 2026 (supersedes earlier counts in this log)
+
+The repo was re-fetched and count-checked for the next execution step. Use these as current live values; earlier counts of 24, 27, 29 or 31 dedicated evidence rows below describe earlier same-day checkpoints and are not current.
+
+- **Candidate register:** 44 rows. SEM-041 is a duplicate alias of SEM-026 (DOI 10.1016/j.jcis.2016.08.068), leaving **43 distinct candidate studies**. SEM-021 still has the placeholder “DOI to verify”; the other 42 distinct records have valid DOI strings. Do not call all 43 “DOI-defined” until SEM-021's DOI is verified.
+- **Dedicated evidence CSV:** 37 rows with 37 unique evidence IDs (EV-SEM-001–EV-SEM-037). Every evidence row points to a candidate in the register; no duplicate evidence IDs or orphan candidate links were found in the current validation.
+- **Readiness audit:** 37 rows; matches the evidence CSV count.
+- **Condition-labelled comparison:** 18 selected rows; not a comprehensive view of all evidence.
+- **Inclusion shortlist:** 44 rows, covering the 44 register entries; SEM-041 remains excluded from distinct-work/citation counts.
+- **Main-corpus crosswalk:** 44 rows. SEM-038 uses existing broad-corpus evidence EV-B10-004–EV-B10-009 instead of duplicating it in the semester evidence CSV.
+- **Citation-key linkage audit:** 44 rows. Six candidates currently have exact DOI-to-Better BibTeX key matches in the inspected exports; the results-and-discussion draft contains nine explicit citation-key-pending markers. The remaining keys must be checked against the actual available exports/Zotero, never guessed.
+- **Working Results & Discussion:** `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` exists (six subsections). It is a source-cautious draft, not submission-ready; claims still need resolved citation keys and final source-pin review.
+- **Next step:** citation-key reconciliation for the selected evidence-ready studies and the nine pending markers, then draft Methods/Search and Introduction around the stable included-study set. Do not add more candidates before this pass is complete unless a real citation/evidence gap is identified.
+- **User action:** none. The user's pause on further downloads/uploads remains active.
