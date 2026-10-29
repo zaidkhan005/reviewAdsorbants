@@ -4,7 +4,7 @@
 
 The 2026-10-27 execution update below is historical. The live broad corpus now has 111 candidate rows, 505 source-linked evidence rows, 41 journal audit records and a 164-entry Better BibTeX processing queue; 58 queue entries are not yet in the candidate register. The 250-row planned-download pool exists, so current work is crosswalking, screening and evidence verification—not blindly requesting more downloads.
 
-The separate semester paper has an approved graphene/CIP/TC scope, 40 candidate records, 16 dedicated evidence records, a master-corpus crosswalk and an approximately 50-works actual-citation target. The user has paused new downloads/uploads. Use existing Library files and accessible indexed/full-text sources; flag incomplete tables rather than filling gaps by guesswork.
+The separate semester paper has an approved graphene/CIP/TC scope, 44 candidate records, 23 dedicated evidence records, a master-corpus crosswalk and an approximately 50-works actual-citation target. The user has paused new downloads/uploads. Use existing Library files and accessible indexed/full-text sources; flag incomplete tables rather than filling gaps by guesswork.
 
 
 ## Boundary condition
