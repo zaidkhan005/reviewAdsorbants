@@ -4,7 +4,7 @@
 
 The 2026-10-27 execution update below is historical. The live broad corpus now has 111 candidate rows, 505 source-linked evidence rows, 41 journal audit records and a 164-entry Better BibTeX processing queue; 58 queue entries are not yet in the candidate register. The 250-row planned-download pool exists, so current work is crosswalking, screening and evidence verification—not blindly requesting more downloads.
 
-The separate semester paper has an approved graphene/CIP/TC scope, 38 candidate records, 13 dedicated evidence records, a master-corpus crosswalk and an approximately 50-works actual-citation target. The user has paused new downloads/uploads. Use existing Library files and accessible indexed/full-text sources; flag incomplete tables rather than filling gaps by guesswork.
+The separate semester paper has an approved graphene/CIP/TC scope, 40 candidate records, 16 dedicated evidence records, a master-corpus crosswalk and an approximately 50-works actual-citation target. The user has paused new downloads/uploads. Use existing Library files and accessible indexed/full-text sources; flag incomplete tables rather than filling gaps by guesswork.
 
 
 ## Boundary condition
@@ -241,6 +241,6 @@ The user has university access and can download most subscription papers. Discov
 
 The canonical candidate register now has **68 rows**, following six net-new leads discovered in the first gap-led pass (DISC-031–DISC-036). The new leads concern chitosan beads, a modified alginate/carboxymethyl-chitosan hydrogel, unactivated/self-templated biochar from biogas residue, sawdust/plastic co-pyrolysis biochar, one-step KOH-activated antibiotic-fermentation-residue biochar, and garden-waste biochar. They are discovery-stage candidates, not accepted/included references; the evidence register has not been expanded because source-location extraction and full-text checks remain pending. See `logs/2026-10-27-targeted-discovery-pass-01.md`.
 
-The first pass logged 21 exploratory/exact-title queries in `data/reference-acquisition-tracker.csv`. Search-interface output did not expose reliable per-query hit counts, so none were invented. The repository now contains 38 journal-audit rows, including four newly encountered journal titles marked not yet audited. DISC-022 remains deferred until the user supplies the full text.
+The first pass logged 21 exploratory/exact-title queries in `data/reference-acquisition-tracker.csv`. Search-interface output did not expose reliable per-query hit counts, so none were invented. Historical note for the 2026-10-24/27 discovery update: the repository then contained 38 journal-audit rows, including four newly encountered journal titles marked not yet audited. The current 2026-10-29 audit contains 41 journal records. DISC-022 remains deferred until the user supplies the full text.
 
 At the 2026-10-27 checkpoint, the 68-row register implied a historical estimate of **152–182 additional candidates** before deduplication. That estimate is no longer live: the 250-row pool is populated, the register has 111 rows, and the current BibTeX queue contains 58 entries not yet registered. Use DOI/title crosswalking and evidence gaps to decide screening order. Actual references are distinct relevant works cited, not candidates/evidence rows. The user has paused downloads; work from accessible records and sources.
