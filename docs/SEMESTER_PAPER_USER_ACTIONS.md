@@ -10,10 +10,11 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
 - Candidate register: **44 rows, 43 unique DOI-defined works**; SEM-041 is a duplicate alias of SEM-026.
-- Dedicated semester evidence CSV: **24 evidence records**.
+- Dedicated semester evidence CSV: **27 evidence records**.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
 - Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
+- Additional full-text evidence: EV-SEM-025/SEM-027 (GO/Ca-alginate–PAM beads, fitted qₘ=6.846 mg/g, no direct qe/reuse extracted, 50 mL vs 55 mL method flag); EV-SEM-026/SEM-029 (GO/PVA/alginate CIP beads, 7.15 mg/g observed qe max, conflicting model outputs and 100× experimental-vs-cost dose basis); EV-SEM-027/SEM-034 (GO/Co–Fe TC, 94.1% vs 93.94% removal discrepancy, fitted qₘ=64.10 mg/g at 50°C, no quantitative cost).
 - Reference target: approximately 50 distinct works actually cited, subject to screening and the strength of evidence; this count is not yet established.
 - The broad review remains separate and retains its original processing–cost–performance continuum and material classes.
 
@@ -51,3 +52,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 ## SEM-042 source-validation update (29 October 2026)
 
 SEM-042’s accepted-manuscript methods, isotherm text and dynamic tables have been reviewed from an accessible CONICET-hosted PDF. The repository evidence row records the details. A 100-g column charge conflicts with the stated 1.0-cm-ID × 1.5-cm bed volume (1.178 cm³; implied density ~84.9 g/cm³). That source value was not silently corrected; dynamic columns and all Thomas q₀/Yoon–Nelson τ figures are quarantined from final ranking pending a reliable correction. No new file/download is needed from the user.
+
+
+## New full-text additions — EV-SEM-025–027 (29 October 2026)
+
+The new evidence rows are committed and linked to candidate IDs. The candidate register remains 44 rows / 43 DOI-defined works; the evidence CSV now has 27 unique records. A separate crosswalk refresh was committed for SEM-027, SEM-029, SEM-034 and SEM-042. None of the new source gaps require user files. Continue with primary-source validation and condition-matched synthesis; do not ask the user for downloads.
