@@ -186,3 +186,17 @@ This follow-up completes the next bounded check after the initial nine-marker re
 - Preserved the six previously verified keys and left all nine manuscript markers unchanged. `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` was not edited. No screening decisions, evidence records, study counts, or scientific claims were changed.
 
 **Gate:** do not invent citation keys. When a key-bearing export of the existing Zotero items becomes available, reconcile only these nine DOI-to-key mappings first; otherwise keep them explicitly pending. Do not broaden the literature search or start a manuscript rewrite in this step.
+
+
+## Extended citation-key coverage check — repository queues and full Library inventory (29 October 2026)
+
+A second coverage pass checked whether any of the nine unresolved semester citations were present indirectly in repository-generated inventories or in a differently titled/versioned bibliography record. This was a metadata/key linkage check only; it did not change study eligibility or evidence interpretation.
+
+- Reconfirmed the three actual Library BibTeX exports: `full ++.bib` (164 parsed entries), `Antibiotic Adsorption Review new — Full Corpus.bib` (61 entries), and `Antibiotic Adsorption Review — Full Corpus.bib` (31 entries). A recursive Library listing filtered for BibTeX files returned these three exports only.
+- Rechecked the corresponding 164-row `bibtex_reference_inventory_audit.csv` inventories and the Library-held candidate/key crosswalk snapshot. No target DOI or candidate-ID record appeared there.
+- Rechecked repository `references/bibtex_full_corpus_processing_queue_2026-10-29.csv` (164 entries) and `references/bibtex_candidate_key_crosswalk_2026-10-29.csv` (111 candidates): **zero exact DOI matches** for SEM-004, SEM-010, SEM-017, SEM-018, SEM-029, SEM-031, SEM-033, SEM-034, and SEM-037.
+- Rechecked `data/semester-main-corpus-crosswalk.csv` (44 semester candidates). All nine target rows are present, retain their evidence IDs, and explicitly state that there is no exact DOI/title match in the current main register or Better BibTeX queue.
+- Programmatic normalized-title similarity checks against the 256 export-entry instances did not identify a defensible alternate item. The nearest title was still a different article; similarity is not evidence for assigning its key.
+- The previous six exact DOI-to-key links remain the only verified key mappings for this draft. The manuscript `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` remains unchanged, with the nine placeholders intact.
+
+**Disposition:** The unresolved state is now corroborated across the Library exports, the export-derived inventory audit, the repository processing queue and candidate/key crosswalk, and the semester-specific main-corpus crosswalk. This still does **not** prove the items are absent from Zotero itself; direct Zotero/Better BibTeX access is unavailable here. To resolve these nine mappings without guessing, the needed evidence is the actual generated key for each existing Zotero item or a fresh Better BibTeX export of those existing items. No additional article PDF or repeat upload of the already inspected exports is needed.
