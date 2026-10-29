@@ -97,3 +97,15 @@ Export key: `pinheiroAdsorptionAmoxicillinChitosan2024` is a `@misc` record with
 5. Audit the rendered manuscript: every factual claim has direct source support, every in-text citation resolves to one correct bibliography entry, each cited entry appears in the bibliography, and temporary candidate-ID/DOI hyperlinks are not standing in for formal citations.
 
 The uploaded `.bib` file itself is not stored in GitHub. The key audit above records the results needed for the repository workflow; keep licensed full-text PDFs in Zotero or another appropriate storage location.
+
+
+## Addendum — latest exported BibTeX integrity check (2026-10-30)
+
+The user-supplied `full ++ check again.bib` contains 173 entries with 173 unique keys. There are 170 DOI fields and 168 unique DOI values, with **two duplicate-DOI groups** confirmed. The keys and visible metadata are otherwise distinct where present; these four records should be manually checked in Zotero before merging/deleting because the export shows different PDF attachment paths.
+
+| DOI | Exported keys | Matching visible metadata | PDF attachment paths |
+|---|---|---|---|
+| `10.1016/j.envres.2021.111091` | `ashiqCarbonbasedAdsorbentsFluoroquinolone2021a`; `ashiqCarbonbasedAdsorbentsFluoroquinolone2021b` | Same title, authors, year (2021), journal, volume/pages, and abstract: *Carbon-Based Adsorbents for Fluoroquinolone Removal from Water and Wastewater: A Critical Review*. | `.../RK5GGKHE/Ashiq et al. - 2021 - Carbon-based adsorbents for fluoroquinolone removal from water and wastewater A critical review.pdf`; `.../Z78VWDL6/Ashiq et al. - 2021 - Carbon-based adsorbents for fluoroquinolone removal from water and wastewater A critical review.pdf` |
+| `10.1016/j.ijbiomac.2024.133382` | `rostamiSurfaceModifiedChitosan2024a`; `rostamiSurfaceModifiedChitosan2024b` | Same title, authors, year (2024), journal, volume/pages, and abstract: *Surface Modified of Chitosan by TiO2@MWCNT Nanohybrid for the Efficient Removal of Organic Dyes and Antibiotics*. | `.../NXCTLSHY/Rostami et al. - 2024 - Surface modified of chitosan by TiO2@MWCNT nanohybrid for the efficient removal of organic dyes and.pdf`; `.../4S8REVCG/Rostami et al. - 2024 - Surface modified of chitosan by TiO2@MWCNT nanohybrid for the efficient removal of organic dyes and.pdf` |
+
+**Disposition:** These look like duplicate Zotero records by DOI and visible bibliographic metadata, but no merge/delete was performed. Compare attached PDFs, notes, tags, child notes, annotations and collection membership in Zotero; choose a master item and preserve unique content before merging. Neither DOI is in the current semester manuscript's 15 cited works. This new 173-entry export is a newer snapshot; the existing broad-review processing queue remains a dated 164-entry snapshot and has not been silently mixed with the separate semester-paper candidate register.
