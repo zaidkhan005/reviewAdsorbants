@@ -2,7 +2,13 @@
 
 The original sprint rule remains: every workday ends with a visible deliverable; do not polish sentences while a section is incomplete. This plan tracks completed artifacts—not work that merely appears in a conversation.
 
-## Current restart checkpoint (2026-10-27)
+## Live status overlay (2026-10-29)
+
+The detailed checkpoint and sprint table below are a dated 2026-10-27 snapshot, not current counts. Current live state is recorded in [the repository context audit](../logs/2026-10-29-current-context-audit.md): the broad corpus has 111 candidate records, 505 evidence rows, and 41 journal audit entries; the Better BibTeX queue has 164 entries. The focused primary-study comparison matrix still covers 43 candidate IDs, and no final accepted/cited count has been verified.
+
+The narrow semester paper is a separate workstream: 38 candidates, 13 dedicated evidence records, the locked graphene/CIP/TC scope and an approximately 50-work actual-citation target. The user has paused downloads; do not follow old snapshot instructions to ask them for another PDF. Continue with existing Library files, current evidence and legitimate accessible sources.
+
+## Historical restart checkpoint (2026-10-27; superseded by live status overlay)
 
 The intake stage has advanced substantially beyond the earlier 2026-10-24 checkpoint.
 
@@ -42,7 +48,7 @@ Current repository references:
 - [Research workflow](RESEARCH_WORKFLOW.md)
 - [Current project checkpoint log](../logs/2026-10-27-project-checkpoint.md)
 
-## Sprint status table
+## Sprint status table — historical snapshot (2026-10-27; see live status overlay above)
 
 | Day | Planned work | End-of-day deliverable | Status in this workspace |
 |---|---|---|---|
@@ -71,7 +77,7 @@ Current repository references:
 | 23 | Scientific editing | Revised complete manuscript | Pending. |
 | 24 | Final quality assurance | Submission-ready manuscript package | Pending. |
 
-## Next execution sequence after intake
+## Historical next-execution sequence from 2026-10-27 (superseded; follow live status overlay and current audit)
 
 Do not continue routine batch intake unless a specific evidence gap requires a targeted source. The next workstream is:
 
@@ -83,6 +89,6 @@ Do not continue routine batch intake unless a specific evidence gap requires a t
 
 This is a planning record, not a claim that prior deliverables are fully finished. Mark a section complete only when the actual draft/artifact has been checked.
 
-## Bibliography target reminder — 2026-10-27
+## Historical bibliography target reminder — 2026-10-27 (targets remain in force; counts below are historical)
 
 The next work sequence must keep source acquisition active alongside drafting: the approximately 60-reference semester checkpoint is not verified, and the ~150-reference journal-version target remains a goal. Do not mark either achieved until the Zotero/BibTeX inventory is deduplicated and the final manuscript's distinct in-text citations are reconciled with its bibliography. See `docs/REFERENCE_TARGET_PLAN.md` for the live dashboard and candidate-pool arithmetic.
