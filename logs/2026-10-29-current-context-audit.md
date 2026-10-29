@@ -42,7 +42,7 @@ The current primary-study matrix has 208 rows for 43 candidates; the 2026-10-28 
 
 Include selected GO/rGO and functionalized graphene adsorbents and selected graphene-bearing composites only when the target-specific adsorption contribution is extractable. Core targets are CIP and TC; related antibiotics are not pooled with them. Green/waste-derived is not the defining theme. Low-cost is a claim to assess, not assume. The initial plan calls for about 50 distinct cited works, subject to eligibility and evidence quality.
 
-The current dedicated extraction CSV has 23 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
+The current dedicated extraction CSV has 24 records. Two already extracted full-text papers in the Library are the 2025 SGO/CIP study (SEM-016/CORP-024) and the 2025 PGOT@GEL/CIP study (SEM-032/CORP-015). A third in-scope item already has main-corpus evidence: Zhang & Wu (2022), N-rGO with tetracycline among six antibiotics (SEM-038/CORP-031), linked to EV-B10-004–EV-B10-009. Those existing evidence rows were cross-referenced rather than duplicated.
 
 `data/semester-main-corpus-crosswalk.csv` now has one row per 38 semester candidate. It records exact DOI/title matches to the broad register and Better BibTeX queue, reused evidence IDs, and unlinked candidates. It shows three broad-register overlaps and one queue-only title match (SEM-020 to the graphene/GAC CIP paper); 34 semester candidates have no exact DOI/title match in those two registries. This does not prove a paper is absent from the Library or ineligible; it flags a crosswalk/screening task only.
 
@@ -80,7 +80,7 @@ The current dedicated extraction CSV has 23 records. Two already extracted full-
 
 ## Fourth follow-on source wave — 29 October 2026
 
-The semester candidate register now contains 44 records and the dedicated evidence table contains 23 rows. The latest four candidates are SEM-041 (GO/sodium alginate for CIP), SEM-042 (chitin/nGO with continuous flow and CIP-spiked real-water tests), SEM-043 (GO for CIP; SMX separate), and SEM-044 (MgO/chitosan/GO for CIP; NOR separate). Their evidence IDs are EV-SEM-020–EV-SEM-023. No broad-corpus rows were duplicated based on the current DOI cross-check. The new figures remain provisional: the GO–alginate numeric q_m is only secondarily cross-checked, the Chi:nGO indexed column mass is implausible, the GO/CIP abstract capacity lacks full condition verification, and the MgO/chitosan/GO capacity remains abstract-only.
+The semester candidate register now contains 44 records and the dedicated evidence table contains 24 rows. The latest four candidates are SEM-041 (GO/sodium alginate for CIP), SEM-042 (chitin/nGO with continuous flow and CIP-spiked real-water tests), SEM-043 (GO for CIP; SMX separate), and SEM-044 (MgO/chitosan/GO for CIP; NOR separate). Their evidence IDs are EV-SEM-020–EV-SEM-023. No broad-corpus rows were duplicated based on the current DOI cross-check. The new figures remain provisional: the GO–alginate numeric q_m is only secondarily cross-checked, the Chi:nGO indexed column mass is implausible, the GO/CIP abstract capacity lacks full condition verification, and the MgO/chitosan/GO capacity remains abstract-only.
 
 
 ## Fifth source-review follow-on — 29 October 2026
@@ -88,3 +88,12 @@ The semester candidate register now contains 44 records and the dedicated eviden
 - Updated SEM-024 / EV-SEM-024 for Gao et al. (2012), GO adsorption of tetracycline. The primary PubMed abstract reports Langmuir q_max=313 mg/g (described as close to measured data), pseudo-second-order kinetics with k=0.065 g mg−1 h−1 and lower capacity with increasing pH or Na+. The full experimental conditions and primary tables are not accessible in the current Library view; this remains abstract-level.
 - Re-audited SEM-001 / EV-SEM-001 against the open PLOS full text. The reported fitted q_max declines from 322.43 mg/g at 298 K to 101.87 mg/g at 303 K and 73.53 mg/g at 308 K. This large change is now flagged for a table/condition consistency check; the manuscript should not use it as an unqualified temperature trend.
 - The semester evidence CSV now contains 24 records. The semester candidate register remains 44. No new user download/upload is requested.
+
+  
+## Fifth source-review follow-on — GO/TC and GO–LDH audit — 29 October 2026
+
+- Semester candidate register: **44 unique records**. Dedicated semester evidence CSV: **24 unique records**. Crosswalk: **44 rows**. Integrity validation found no duplicate IDs and no evidence rows linked to a missing candidate.
+- SEM-024 / EV-SEM-024 records primary PubMed abstract evidence for Gao et al. (2012), GO for tetracycline: Langmuir q_max=313 mg/g, pseudo-second-order k=0.065 g mg−1 h−1, and lower reported capacity with increasing pH or Na+ concentration. Full conditions and tables are not currently accessible.
+- SEM-001 / EV-SEM-001 was checked against PLOS full text. The reported fitted Langmuir capacities are 322.43 mg/g at 298 K, 101.87 at 303 K and 73.53 at 308 K; the size of this change remains a source-consistency caveat.
+- SEM-015 / EV-SEM-005 was checked against the full Frontiers article. Use 84.84% removal only for 1 mg/L CIP, 10 mg/L composite, pH 7 and 60 min. The paper's equation implies q_e≈84.84 mg/g, while the kinetic table gives model-fitted q_e≈106.96 mg/g; the capacity figures remain quarantined. Preparation involves modified-Hummers GO, metal salts, concentrated NaOH, 120°C/16 h hydrothermal processing, washing and drying. Reported removal falls from 80.4% in cycle 1 to 27% by cycle 5.
+- The user has paused new downloads. No user action is required at this stage.
