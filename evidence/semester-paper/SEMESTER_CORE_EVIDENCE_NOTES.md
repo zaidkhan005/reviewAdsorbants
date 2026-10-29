@@ -358,3 +358,19 @@ For CIP-spiked real waters, tabled Thomas q₀ is Buenos Aires tap water 49±4 m
 The article calls the composite low-cost because of component sources and reusability, but supplies no monetized cost per g, treated volume, CIP removed or column lifetime; no product yield, Hummers reagent inventory, methanol/CaCl₂ budget, sonication/heating energy, pressure drop, eluent consumption or waste-treatment inventory. The precise synthesis steps help classify process burdens, but **do not establish low cost**.
 
 **Source pins:** accepted manuscript PDF DOI 10.1016/j.carbpol.2018.02.021: Methods §2.2 at printed pp. 4–5 / text lines 156–181; batch/column Methods §§2.4.1–2.4.2 at pp. 6–7 / lines 218–249; batch model results at pp. 13–14 / lines 438–474; dynamic interpretation pp. 15–18 / lines 476–563; Tables 1–2 pp. 27–28 / lines 783–818. Browser text for tables was accessible; screenshot-rendered layout was not due browser cache failure, so visual table layout is not claimed as checked.
+
+
+## EV-SEM-025 — GO/Ca-alginate–polyacrylamide beads for CIP (Choi & Choi, 2022)
+
+**Primary source:** Choi & Choi, *Polyacrylamide Functionalized Graphene Oxide/Alginate Beads for Removing Ciprofloxacin Antibiotics*, *Toxics* 10(2), 77 (2022), DOI [10.3390/toxics10020077](https://doi.org/10.3390/toxics10020077); [open full text](https://www.mdpi.com/2305-6304/10/2/77).
+
+**Preparation (Methods §2.2):** 0.1 g GO dispersed in 100 mL ultrapure water by sonication; add 0.6 g sodium alginate and stir; slowly add 1.0 g PAM; heat at 80°C for 4 h; cool to 30°C; pump the solution at 2 mL/min into 10 g/L CaCl₂·2H₂O solution; stir 24 h at room temperature to stabilize beads; wash three times and dry at 80°C. These are process inputs, not an economic cost estimate.
+
+**Isotherms (Methods §2.4; Results §3.2, Table 1):** duplicate batch adsorption, initial CIP 1–50 ppm, 0.05 g beads, stated 55 mL contact volume, 250 rpm, 24 h at room temperature. The residual concentration was measured at 270 nm following centrifugation and 0.20 μm filtration. Langmuir: fitted qₘ=6.846 mg/g, b=0.132 L/mg, R²=0.991, χ²=0.037. Freundlich: K_F=1.260 (mg/g)(L/mg)^(1/n), n=2.372, R²=0.932, χ²=0.282. Temkin: B=1954.69 L/mg, K_T=2.074 L/g, R²=0.966, χ²=0.142. The Langmuir qₘ is a fitted parameter; the accessible text did not provide a specific measured equilibrium qₑ/removal percentage to quote.
+
+**Method consistency flag:** the paper says the experiments used a 50 mL conical tube but reports 55 mL contact solution. Preserve both source values and flag them; do not silently reduce the solution volume or compute a derived qₑ from these values.
+
+**Temperature/thermodynamics (Results §3.3, Fig. 5 and Table 3):** tests used 0.5, 1 and 2 ppm CIP at 10, 25 and 40°C. The paper reports qₑ rising with temperature at all three starting concentrations. For 0.5 ppm: ΔH=10.7 kJ/mol, ΔS=0.056 kJ/(mol·K), ΔG=−5.29, −6.13 and −6.98 kJ/mol at 283, 298 and 313 K. For 1 ppm: ΔH=4.4, ΔS=0.035, ΔG=−5.57, −6.10 and −6.63 kJ/mol. For 2 ppm: ΔH=7.2, ΔS=0.044, ΔG=−5.25, −5.91 and −6.57 kJ/mol. This supports the paper's thermodynamic analysis, not an observed removal/capacity comparison across studies.
+
+**Mechanism, recovery and cost:** Authors discuss Ca²⁺ “egg-box” alginate crosslinking and PAM amide groups as contributors to CIP interaction, with FE-SEM/SEM-EDS/FTIR/TGA for characterization. These techniques do not quantify mechanism shares. No multicycle regeneration result, product yield, quantified process cost, or energy inventory was identified. The article's modeled qₘ is modest relative to some other fitted values, but cross-study ranking would still be inappropriate without aligned dose, concentration, matrix and metric.
+
