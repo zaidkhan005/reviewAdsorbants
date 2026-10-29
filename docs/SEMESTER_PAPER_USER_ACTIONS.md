@@ -2,30 +2,30 @@
 
 **Status as of 29 October 2026: NO ACTION REQUIRED FROM THE USER RIGHT NOW.**
 
-The user has stated that they are not downloading any more papers for the time being. The research workflow must continue using existing Library PDFs, existing repository records and accessible indexed primary-source text. Do not ask for more PDF uploads or downloads unless the user later explicitly reopens that option.
+The user has explicitly said they are not downloading any more papers for the time being. The work must proceed from existing Library PDFs, the repository's 505 source-linked broad-corpus evidence rows and legitimate accessible source text. Do not ask for new downloads or uploads unless the user later reopens that option.
 
-## Current project state
+## Current semester-paper state
 
-- Approved material scope: graphene-based adsorbents (GO/rGO and selected functionalized derivatives) plus selected graphene-bearing composites.
-- Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC).
-- Current candidate register: 37 records.
-- Current evidence extraction: 13 study records after extracting two additional full-text articles already present in the Library.
-- Candidate register, evidence CSV, evidence notes and search log are the source of truth for this semester-paper thread.
-- The broader antibiotic adsorption review remains separate and must not be overwritten.
+- Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
+- Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
+- Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
+- Candidate register: 38 semester candidates.
+- Dedicated semester evidence CSV: 13 records.
+- Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
+- Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
+- Reference target: approximately 50 distinct works actually cited, subject to screening and the strength of evidence; this count is not yet established.
+- The broad review remains separate and retains its original processing–cost–performance continuum and material classes.
 
-## What the assistant will do without more uploads
+## Work that will continue without new files
 
-1. Continue extracting studies from PDFs already in the user's Library and already supplied to the broader project.
-2. Use source-indexed text/abstracts only where full text is not directly accessible, and label them clearly as incomplete.
-3. Preserve metric distinctions (fitted qmax, measured qe, removal percentage, model-predicted qe, column capacity) and record source page/table/figure when possible.
-4. Continue candidate deduplication and eligibility screening, excluding off-scope material families and off-target antibiotics from core performance comparisons.
-5. Develop source-backed comparison tables and the manuscript's synthesis/figure plan, while explicitly flagging claims that cannot be supported by the available sources.
-6. Avoid stating that the approximately 50-reference target is satisfied until distinct eligible citations have been checked.
+1. Review existing accessible Library PDFs and the existing corpus records for any in-scope graphene/CIP/TC studies not yet incorporated.
+2. Use indexed or abstract-only text when that is all that is available, label its limits, and do not present unavailable table values as fully verified.
+3. Keep fitted qmax, measured qe, model-fitted qe, removal %, and column metrics separate; preserve mass-balance and source inconsistencies.
+4. Deduplicate candidates and link reused master evidence through the crosswalk rather than creating duplicate evidence rows.
+5. Build the source-backed comparisons and original table/figure plan, and continue the citation/provenance audit.
 
-## Only if the user later volunteers more files
+## Known limitations, not user requests
 
-The two previously identified gaps remain:
-- SEM-006: Li et al. (2018), DTPA-functionalized magnetic GO for CIP and TC, DOI 10.1016/j.jcis.2018.03.003.
-- SEM-037: Zhao et al. (2018), GO–alginate hydrogel beads for CIP-contaminated groundwater, DOI 10.1016/j.chemosphere.2018.02.157.
-
-These are not current requests. The workflow is proceeding without them, and no action is needed from the user now.
+- SEM-006, the DTPA-functionalized magnetic GO study for CIP and TC, has indexed primary methods/text but not a complete verifiable numeric table/figure audit in this session.
+- SEM-037, the GO–alginate hydrogel-bead permeable reactive barrier study for CIP groundwater, has accessible abstract/indexed details, but the actual cost/lifetime values and complete column conditions remain unavailable.
+- Those limitations remain recorded. The workflow proceeds with other evidence; neither item is a current request for the user.
