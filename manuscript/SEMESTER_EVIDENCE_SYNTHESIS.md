@@ -252,3 +252,7 @@ Cost finding from the current evidence: only a small minority of the 37 extracte
 ## Citation readiness and next drafting gate — 29 October 2026
 
 The citation-linkage audit found six candidate studies with exact DOI-to-Better BibTeX key matches across the available exports: SEM-016, SEM-020, SEM-032, SEM-038, SEM-039 and SEM-040. The three stable keys present in all three exports are `shahaExploringAdsorptionEfficiency2025`, `liThreedimensionalGrapheneOxidebased2025`, and `zhangAdsorptionCharacteristicsNrGO2022`. SEM-020, SEM-039 and SEM-040 have exact DOI matches only in `full ++.bib`. The remaining candidate works need a Zotero/export match before citation keys can be inserted; do not guess them. The citation key audit does not imply the three master/semester crosslinked records are three additional unique studies or that the target bibliography count is met.
+
+## Results and discussion draft started — 29 October 2026
+
+The first source-cautious narrative draft is now saved at [SEMESTER_RESULTS_AND_DISCUSSION_V1.md](SEMESTER_RESULTS_AND_DISCUSSION_V1.md). It turns the extracted evidence into six connected discussion subsections while preserving measured qe, fitted qmax/qm, kinetic-model qe, removal percentages and flow-through metrics as separate endpoints. Six confirmed citation keys are used; nine citations remain explicitly pending rather than guessed. The next manuscript step is to resolve the remaining citation keys for the selected studies, then draft the methods/search and introduction around the stable included-study set.
