@@ -9,8 +9,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 - Approved title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Approved materials: selected graphene-based adsorbents (GO/rGO and functionalized forms) plus selected graphene-bearing composites; not every graphene composite automatically qualifies.
 - Target antibiotics: ciprofloxacin (CIP) and tetracycline (TC), keeping related antibiotics distinct.
-- Candidate register: 40 semester candidates.
-- Dedicated semester evidence CSV: 16 records.
+- Candidate register: 44 semester candidates.
+- Dedicated semester evidence CSV: 23 records.
 - Main-corpus crosswalk: `data/semester-main-corpus-crosswalk.csv`, linking semester candidates to broad-corpus candidates, already extracted evidence IDs and Better BibTeX inventory matches.
 - Reused broad evidence: SEM-016 ↔ CORP-024; SEM-032 ↔ CORP-015; SEM-038 ↔ CORP-031. Evidence is cross-referenced instead of duplicated.
 - Added existing-source candidates: SEM-020 (CIP on graphene; abstract-level), SEM-039 (TC on CNF/GO aerogel; publisher full text), and SEM-040 (TC on graphene in a mixed low-concentration system; publisher full text). Evidence IDs EV-SEM-014–EV-SEM-016 preserve source-status and metric caveats.
@@ -25,6 +25,8 @@ The user has explicitly said they are not downloading any more papers for the ti
 4. Deduplicate candidates and link reused master evidence through the crosswalk rather than creating duplicate evidence rows.
 5. Build the source-backed comparisons and original table/figure plan, and continue the citation/provenance audit.
 
+- Added existing-source candidates: SEM-041 (GO–alginate gel/aerogel, CIP), SEM-042 (chitin/nGO continuous-flow, CIP), SEM-043 (GO for CIP/SMX, with SMX excluded from target metrics), and SEM-044 (MgO/chitosan/GO for CIP/NOR, with NOR separate). Evidence IDs EV-SEM-020–EV-SEM-023 preserve the abstract/table-access limitations.
+  
 ## Known limitations, not user requests
 
 - SEM-020 has publisher-abstract-only evidence for the 323 mg/g fitted Langmuir value; full-text conditions/table/figure validation remains pending. Keep it out of final quantitative ranking.
