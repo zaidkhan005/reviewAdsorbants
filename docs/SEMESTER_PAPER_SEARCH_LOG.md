@@ -146,3 +146,29 @@ No new files were requested from the user. Full-text extraction was completed fr
 - **SEM-032 / EV-SEM-013:** Li et al. (2025), PGOT@GEL for CIP, DOI 10.1016/j.psep.2025.107659. Extracted all major synthesis steps; Langmuir fitted qmax=821.24 mg/g (R²=.9908), a separate RSM validation qe=807.54 mg/g at C0 296.52 mg/L, pH 6.70, dose 5.08 mg and 298.88 K; pH-test qe=192.24 mg/g at 96.12% removal; ~120-minute equilibrium and seven-cycle retention ~90.53% after 12 h methanol treatment each cycle. The “real water” versus “simulated real wastewater” wording is flagged.
 - Both sources lack quantified whole-process cost inventories. Preparation reagent/energy burdens and regeneration chemistry are recorded, so the manuscript can compare reported performance with process complexity without inventing monetary costs.
 - No qmax ranking is generated because the conditions and metrics differ. Existing open access files make meaningful progress possible without any new user uploads.
+
+
+## 14. Full-repository reconciliation and scope crosswalk — 29 October 2026
+
+The live repository was reviewed as a whole before further semester-paper work. It contains two separate workstreams and they must remain separate:
+- **Broad review:** the original processing–cost–performance continuum over eight material classes; the full corpus, batch evidence, source-caveat register, quartile audit, broad manuscript drafts, and Zotero/BibTeX pipeline.
+- **Semester paper:** the locked narrower scope in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`: selected graphene-based adsorbents and graphene-bearing composites for ciprofloxacin (CIP) and tetracycline (TC), with “low-cost potential” assessed rather than presumed. Green/waste-derived status is not a defining theme.
+
+Live count checks from current files:
+- Broad `data/corpus-screening-register.csv`: 111 unique candidate records.
+- Broad `data/corpus-evidence.csv`: 505 unique evidence rows; this is not 505 papers and includes provisional/staged records.
+- `data/journal-quartile-audit.csv`: 41 journal entries.
+- `references/bibtex_full_corpus_processing_queue_2026-10-29.csv`: 164 exported records in the processing queue, including 58 not yet registered in the candidate register and 16 provisional online/indexed evidence rows added in the initial wave.
+- `data/primary-study-comparison-matrix.csv`: the existing 208-row/43-candidate subset is a focused comparison matrix, not a complete projection of all 505 evidence rows.
+- Semester `data/semester-paper-candidate-register.csv`: 38 records after adding the in-scope N-rGO/TC study already represented in the broad corpus.
+- Semester `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: 13 dedicated semester evidence records. Existing broad-corpus evidence is cross-referenced instead of duplicated.
+
+New crosswalk: `data/semester-main-corpus-crosswalk.csv`. It maps each semester candidate to any exact-DOI/title match in the broad register and the current Better BibTeX processing queue, and identifies reusable main-corpus evidence IDs. Confirmed overlaps are:
+- SEM-016 ↔ CORP-024 (sulfonated GO for CIP; EV-B14-011–EV-B14-015).
+- SEM-032 ↔ CORP-015 (PGOT@GEL hydrogel for CIP; EV-B15-008–EV-B15-013).
+- SEM-038 ↔ CORP-031 (N-rGO for trace antibiotics including TC; EV-B10-004–EV-B10-009). Its fitted capacities remain quantitatively flagged due to a mass-balance/unit concern.
+- SEM-020 has a title-only match to a BibTeX queue record for the 2015 graphene/GAC CIP study; metadata is still to be verified. GAC is only a benchmark, not a core material family.
+
+A missing crosswalk match does not prove a PDF is absent from the Library or that the study is irrelevant; it means only that the current master screening register/BibTeX queue has no exact DOI/title match. Crosswalk status is bibliographic plumbing, not a final eligibility decision.
+
+**User-download pause:** The earlier notes asking for PDFs for SEM-006 and SEM-037 are superseded by the user's explicit instruction not to download any more papers for now. Those records have been changed to “proceed with accessible indexed/abstract text; mark unavailable quantitative details.” No new download/upload request is active.
