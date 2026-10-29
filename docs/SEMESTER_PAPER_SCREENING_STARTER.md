@@ -2,7 +2,7 @@
 
 ## Current status note (2026-10-29)
 
-This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 44 candidates, 24 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
+This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 44 candidate rows (43 distinct studies after excluding the SEM-041 alias), 37 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
 
 
 **Date opened:** 2026-10-28  
