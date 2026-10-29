@@ -2,7 +2,7 @@
 
 ## Current status note (2026-10-29)
 
-This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 44 candidates, 23 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
+This is an initial discovery starter, not a reset of the project. The approved scope is now locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`; current register is 44 candidates, 24 dedicated evidence records, and `data/semester-main-corpus-crosswalk.csv` links reusable broad-corpus evidence. The user has paused new downloads/uploads. Continue from existing files and mark inaccessible details as unresolved.
 
 
 **Date opened:** 2026-10-28  
@@ -84,3 +84,8 @@ SEM-039 (Yao et al., 2017, CNF/GO aerogel for TC) and SEM-040 (Peng et al., 2016
 ## Existing-source additions — 29 October 2026 (continued)
 
 SEM-041–SEM-044 added four GO-based CIP/composite primary-source leads with evidence EV-SEM-020–EV-SEM-023. Numeric limitations are recorded in the evidence file; no additional download is requested.
+
+
+## GO/TC source audit — 29 October 2026 (continued)
+
+SEM-024 / EV-SEM-024 records Gao et al. (2012) from the primary PubMed abstract. SEM-001 / EV-SEM-001 has a full-text condition and temperature-value caveat logged. The current CSV counts are 44 candidates and 24 dedicated evidence rows; these are screening/evidence records, not accepted final references.
