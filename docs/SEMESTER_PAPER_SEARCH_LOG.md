@@ -219,3 +219,10 @@ No user download requested. The existing full-text web article for SEM-001 was c
 - **SEM-024 / EV-SEM-024 — Gao et al. (2012), GO for TC**, DOI 10.1016/j.jcis.2011.11.015. PubMed primary abstract reports Langmuir/Temkin fits, Langmuir q_max=313 mg/g described as close to measured data, pseudo-second-order kinetic k=0.065 g mg−1 h−1, and decreased adsorption with increased pH or Na+ concentration. Oxytetracycline and doxycycline are discussed separately and do not enter the TC comparison. Dose, C0, pH, time and temperature details are not available in the abstract extraction.
 
 The register remains **44 candidates**; the dedicated evidence CSV is now **24 records**. These are not equivalent to 24 fully audited studies: SEM-024 is abstract-only, and SEM-001 has a temperature/table consistency warning that must remain visible.
+
+
+## 19. Full-text re-audit — SEM-015 / GO–ZnAlNi-LDH for CIP (29 October 2026)
+
+The full Frontiers article was checked directly. Methods list 20 mL batch volume, CIP 0.225–10 mg/L, dose 1–12 mg/L, pH 3–11, 0–4 h, 180 rpm; the 1 mg/L CIP + 10 mg/L adsorbent + pH 7 + 60 min condition reports 84.84% removal. Applying the article's equation gives q_e≈84.84 mg/g for that condition, while its abstract/Table 1 report model-fitted q_e≈106.96–106.97 mg/g. The paper does not reconcile the discrepancy, so capacities remain quarantined.
+
+Full-text results clarify kinetic fits (pseudo-first-order R²=0.949, Elovich 0.945, intraparticle diffusion 0.88; pseudo-second-order poor in the detailed section), best isotherm Freundlich (R²=0.95) rather than Langmuir, and removal declines from 80.4% in cycle 1 to 27% at cycle 5. Verified preparation burdens include modified-Hummers GO, 500 mg GO, 1 h ultrasonication, metal nitrates/carbonate, 3.4 M NaOH, 120°C/16 h hydrothermal treatment, water/ethanol washing and 70°C drying. No comparable monetary cost inventory reported.
