@@ -334,3 +334,27 @@ The detailed results report pseudo-first-order R²=0.949, Elovich R²=0.945 and 
 ## Schema and duplicate-record audit — 29 October 2026
 
 The integrity review found that EV-SEM-010 and EV-SEM-013 had their final columns misassigned: narrative intended for mechanism/reuse/cost/source/caveat fields had drifted into adjacent columns. Those rows have now been remapped to the declared 20-column schema. The empty caveat cells are filled. A duplicate DOI was found for Fei et al. (2016), 10.1016/j.jcis.2016.08.068, in SEM-026 and SEM-041. SEM-026 is now the canonical candidate and EV-SEM-020 is linked to it; SEM-041 remains as a traceable alias, not a second bibliography item. The register therefore has 44 rows but **43 unique DOI-defined works**.
+
+
+## EV-SEM-021 — full accepted-manuscript audit (González et al., 2018; SEM-042)
+
+**Primary source:** [accepted manuscript PDF](https://ri.conicet.gov.ar/bitstream/11336/87000/11/CONICET_Digital_Nro.b2e52671-05bf-40a5-9fe0-525a5cfb6f21_J.pdf), DOI [10.1016/j.carbpol.2018.02.021](https://doi.org/10.1016/j.carbpol.2018.02.021).
+
+### Preparation and batch test
+The manuscript’s Methods §2.2 says nGO was prepared by Hummers’ method, exfoliated by 35 kHz sonication for 30 min in 0.4 M citrate buffer at pH 4.20, centrifuged, washed with water and methanol, and dried at 60°C. The chitin suspension used 42.5 g CaCl₂·2H₂O in 50 mL methanol, refluxed 30 min at 82°C; 1 g chitin was added and refluxed 2 h at 90°C. A 10 g aliquot of chitin suspension containing 120 mg pure chitin was combined with 40 mg nGO (Chi:nGO=3:1), wet-spun into methanol at −10 to −8°C, washed repeatedly with methanol and ultrapure water, dried at 60°C to constant weight, then ground/sieved to 35 mesh. These are real preparation inputs, but the GO upstream cost and complete reagent/energy/yield inventory are not provided.
+
+Batch isotherms used 10 mg Chi:nGO in 2 mL CIP solution, pH 6.30, 25°C, 120 rpm and C₀ 4–850 mg/L; qe was calculated by mass balance. Five nonlinear models were tested; Sips was reported as the best fit, with heterogeneity parameter nₛ=0.38±0.09. The Langmuir model-specific qₘ was 282±11 mg/g for pure nGO and 73±3 mg/g for Chi:nGO 3:1. Those are fitted capacities, not observed qe and not interchangeable with column capacities.
+
+### Dynamic column and real-water findings
+The accepted manuscript’s column method explicitly says “One hundred grams” of Chi:nGO 3:1 were packed in a 1.0-cm internal-diameter, 10-cm-high glass column with a 1.5-cm bed height. It states the column was preconditioned with ultrapure water, 0.1 M HCl, water, 0.1 M NaOH and water; CIP was eluted with 0.1 M NaOH followed by water until baseline.
+
+**Critical source inconsistency:** A 1.0-cm-ID × 1.5-cm-bed geometry has volume π(0.5 cm)²(1.5 cm)=1.178 cm³. The literal 100-g charge implies approximately 84.9 g/cm³, physically impossible for this composite. Do not silently “correct” this to 100 mg. The same mass is a dependency for the dynamic Thomas q₀ results, so those column q₀/τ values must be quarantined from final numeric rankings until the intended mass is resolved.
+
+The text/table reports Thomas q₀ for flow rates 1/2/4 mL/min at pH 6.3 as 53±1/90±1/91±4 mg/g; at pH 4/9 (1 mL/min), 72±3/24±2 mg/g; at Na⁺ 50/100 mg/L, 92±1/110±1 mg/g; and hardness 50/200 mg/L as CaCO₃, 64±1/84±1 mg/g. Yoon–Nelson τ (50% breakthrough) for flow 1/2/4 mL/min was 153±3/128±1/65±3 min; for pH 4/9, 207±7/69±6 min; for Na⁺ 50/100 mg/L, 263±3/315±2 min; and hardness 50/200 mg/L, 182±3/241±3 min. These are model-derived dynamic values, and they remain on hold because of the mass anomaly.
+
+For CIP-spiked real waters, tabled Thomas q₀ is Buenos Aires tap water 49±4 mg/g, Chascomús well water 26.4±0.8 mg/g, and Macachín well water 23.6±0.7 mg/g; τ is 154±5, 76±2 and 67±2 min respectively. Authors report that Chascomús and Macachín water had less than half the τ of ultrapure water/Buenos Aires. These were spiked water tests, not untreated CIP-contaminated water. Keep the real-water distinction explicit; the modelled q₀ figures also share the suspect packed-mass dependency.
+
+### What it adds to the cost/performance assessment
+The article calls the composite low-cost because of component sources and reusability, but supplies no monetized cost per g, treated volume, CIP removed or column lifetime; no product yield, Hummers reagent inventory, methanol/CaCl₂ budget, sonication/heating energy, pressure drop, eluent consumption or waste-treatment inventory. The precise synthesis steps help classify process burdens, but **do not establish low cost**.
+
+**Source pins:** accepted manuscript PDF DOI 10.1016/j.carbpol.2018.02.021: Methods §2.2 at printed pp. 4–5 / text lines 156–181; batch/column Methods §§2.4.1–2.4.2 at pp. 6–7 / lines 218–249; batch model results at pp. 13–14 / lines 438–474; dynamic interpretation pp. 15–18 / lines 476–563; Tables 1–2 pp. 27–28 / lines 783–818. Browser text for tables was accessible; screenshot-rendered layout was not due browser cache failure, so visual table layout is not claimed as checked.
