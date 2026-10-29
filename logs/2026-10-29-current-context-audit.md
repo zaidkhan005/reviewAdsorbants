@@ -26,7 +26,7 @@ This audit records the repository structure, live data state, governing scope de
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
 | Semester candidate register | 44 | Candidate screening records across prior targeted searches and existing-source review; not accepted citations |
-| Semester dedicated evidence CSV | 24 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester dedicated evidence CSV | 27 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -87,7 +87,7 @@ The semester candidate register now contains 44 records and the dedicated eviden
 
 - Updated SEM-024 / EV-SEM-024 for Gao et al. (2012), GO adsorption of tetracycline. The primary PubMed abstract reports Langmuir q_max=313 mg/g (described as close to measured data), pseudo-second-order kinetics with k=0.065 g mg−1 h−1 and lower capacity with increasing pH or Na+. The full experimental conditions and primary tables are not accessible in the current Library view; this remains abstract-level.
 - Re-audited SEM-001 / EV-SEM-001 against the open PLOS full text. The reported fitted q_max declines from 322.43 mg/g at 298 K to 101.87 mg/g at 303 K and 73.53 mg/g at 308 K. This large change is now flagged for a table/condition consistency check; the manuscript should not use it as an unqualified temperature trend.
-- The semester evidence CSV now contains 24 records. The semester candidate register remains 44. No new user download/upload is requested.
+- The semester evidence CSV now contains 27 records. The semester candidate register remains 44. No new user download/upload is requested.
 
   
 ## Fifth source-review follow-on — GO/TC and GO–LDH audit — 29 October 2026
@@ -112,3 +112,13 @@ Current integrity checks: 44 candidate-register rows; **43 unique DOI-defined wo
 ## SEM-042 accepted-manuscript source audit — 29 October 2026
 
 Primary text source: [CONICET-hosted accepted manuscript](https://ri.conicet.gov.ar/bitstream/11336/87000/11/CONICET_Digital_Nro.b2e52671-05bf-40a5-9fe0-525a5cfb6f21_J.pdf), DOI 10.1016/j.carbpol.2018.02.021. The candidate and EV-SEM-021 were updated with preparation, batch and dynamic details. Key batch finding: best overall fit Sips; Langmuir qₘ=73±3 mg/g for Chi:nGO 3:1 versus 282±11 mg/g pure nGO. Dynamic tables list Thomas q₀ and Yoon–Nelson τ, including spiked water results for Buenos Aires, Chascomús and Macachín, but the source literally states 100 g is in a 1-cm-ID, 1.5-cm-bed column. The 1.178-cm³ geometric volume implies ~84.9 g/cm³, physically impossible. No correction was guessed: dynamic values remain quarantined. Source claims “low-cost,” but quantified process-cost evidence is absent. PDF screenshot rendering failed (cache miss), so text/table values were accessed but table appearance not visually checked.
+
+
+## Follow-on full-text extractions — 29 October 2026
+
+The latest three source-based extracts are:
+- **EV-SEM-025 / SEM-027** (Choi & Choi 2022, GO/Ca-alginate–PAM for CIP): fitted Langmuir qₘ 6.846 mg/g; no explicit measured qe/removal or multicycle reuse was identified. Methods state 55 mL in a 50 mL tube.
+- **EV-SEM-026 / SEM-029** (Hossain et al. 2026, GO/PVA/calcium-alginate beads for CIP): observed qe maximum 7.15 mg/g; fitted linear/nonlinear Langmuir qₘ 8.210/10.14 mg/g; modelled PSO qe 4.458 mg/g. Source reports conflicting D–R fits, negative linear PFO k₁, 50 mL/55 mL method inconsistency and a 100× discrepancy between dose basis in the cost calculation (0.1 g/L) and experimental optimum (0.5 g/50 mL = 10 g/L). The claimed < $1/kg CIP removed should be called an author estimate, not validated lifecycle cost.
+- **EV-SEM-027 / SEM-034** (Hossain et al. 2024, GO/Co–Fe for TC): TC removal 94.1% in abstract/body but 93.94% elsewhere at C₀=.2 mg/L, dose=.15 g/L, pH 7, 30 s, 25°C; fitted Langmuir qₘ=64.10 mg/g at 50°C. Four tetracycline species stay separate, and the paper has no real-water/cost inventory.
+
+Current direct count: 44 candidate-register rows, 43 DOI-defined works (SEM-041 remains duplicate alias), 27 unique evidence IDs, 44 crosswalk rows. No download/upload action is required. The next high-value review focus is primary data validation of SEM-005, SEM-026, SEM-043 and SEM-044, as well as the no-evidence candidates whose target and material identity can be confirmed from already accessible primary pages.
