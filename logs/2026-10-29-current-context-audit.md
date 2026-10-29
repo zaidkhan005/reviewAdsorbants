@@ -26,7 +26,7 @@ This audit records the repository structure, live data state, governing scope de
 | Better BibTeX processing queue | 164 | Exported citation entries; audit reports 58 not yet in the screening register |
 | Primary-study comparison matrix | 208 rows; 43 candidate IDs | Deliberately focused subset; not the whole 505-row evidence register |
 | Semester candidate register | 44 | Candidate screening records across prior targeted searches and existing-source review; not accepted citations |
-| Semester dedicated evidence CSV | 27 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
+| Semester dedicated evidence CSV | 29 | Dedicated extraction rows; the broad evidence is cross-referenced rather than copied |
 
 ## Separate workstreams
 
@@ -122,3 +122,10 @@ The latest three source-based extracts are:
 - **EV-SEM-027 / SEM-034** (Hossain et al. 2024, GO/Co–Fe for TC): TC removal 94.1% in abstract/body but 93.94% elsewhere at C₀=.2 mg/L, dose=.15 g/L, pH 7, 30 s, 25°C; fitted Langmuir qₘ=64.10 mg/g at 50°C. Four tetracycline species stay separate, and the paper has no real-water/cost inventory.
 
 Current direct count: 44 candidate-register rows, 43 DOI-defined works (SEM-041 remains duplicate alias), 27 unique evidence IDs, 44 crosswalk rows. No download/upload action is required. The next high-value review focus is primary data validation of SEM-005, SEM-026, SEM-043 and SEM-044, as well as the no-evidence candidates whose target and material identity can be confirmed from already accessible primary pages.
+
+
+## Follow-on source checks — SEM-019 and SEM-028 (29 October 2026)
+
+- SEM-019 / EV-SEM-028: the 2026 EDTA-mGO/TC paper reports 93.23% removal under the stated low-concentration optimum. Mass balance implies qₑ≈1.865 mg/g; its PSO fit reports qₑ=0.01937 mg/g at R²=1. This roughly 96× contradiction is preserved and prevents treating the fit as validated uptake. Freundlich fits better than Langmuir at 25°C; eight-cycle removal falls from ~94% to 90.50%; no quantified cost.
+- SEM-028 / EV-SEM-029: 2013 GO/calcium-alginate fibers. Accessible primary abstract/snippets report 78.9% removal at 2 g/L and 6 wt% GO; capacity rises from 18.45 to 39.06 mg/g with GO loading from 0% to 6% at equilibrium C=60 mg/L. No numeric fitted parameters, full recipe, reuse or cost was accessible.
+- Semester count now 44 register rows / 43 DOI-defined studies, 29 unique dedicated evidence rows, 44 crosswalk identifiers. Download/upload pause unchanged; no user action requested.
