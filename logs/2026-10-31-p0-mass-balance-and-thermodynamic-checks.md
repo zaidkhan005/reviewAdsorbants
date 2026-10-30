@@ -173,3 +173,26 @@ Visual inspection confirms:
 After visually inspecting the original PDFs, the Adu-Poku mass-balance allegation was withdrawn: the Figure 12 kinetic dose is not stated, and a plausible 10 mg / 50 mL / 50 mg/L condition permits 250 mg/g. The 245.9 mg/g result remains condition-incomplete, not proven impossible. The N-rGO concentration basis also remains ambiguous rather than a proven violation and has been downgraded from P0 to P1.
 
 The current priority distribution is **5 P0, 9 P1 and 5 P2**. The P0 list now comprises Kar thermodynamics, Jiao OTC uptake, Adu-Poku concentration/kinetic-condition conflict, Mohammed-Ridha kinetic mass-balance discrepancy, and García-Criado narrative/table capacity mismatch. The detailed register is authoritative.
+
+
+## P0 source-verification completion — Kar et al. (2025), DISC-024 (2026-10-31 continuation)
+
+The original uploaded PDF was re-opened from the Library attachment `1-s2.0-S2772416625000786-main.pdf`. Text extraction was used only to locate the passages; the original rendered PDF pages were inspected for the displayed equations, dose panels, thermodynamic plot and Table 4.
+
+### Thermodynamic equations and table
+- Methods PDF p. 5 define ΔG° = −RT ln K_C and define K_C = C_a/C_e. The same page explicitly gives ΔG° = ΔH° − TΔS°, with ΔH° in kJ/mol and ΔS° in kJ/(mol K); PDF p. 6 repeats the latter equation.
+- Table 4, PDF p. 11, prints ΔG° values −3825, −3879, −3916, −3970, −4032 and −4089 under a **kJ/mol** header for 288, 293, 298, 303, 308 and 313 K. It reports ΔH° = −0.735 and ΔS° = −0.107 with R² = 0.992. Fig. 9(a), same PDF page, displays a ΔG axis around −3800 to −4100 and is therefore consistent with the table's plotted magnitude, not with a kJ-to-J unit correction.
+- Recalculation from the table's own ΔH°/ΔS° values gives ΔG° = +30.081 kJ/mol at 288 K and +32.756 kJ/mol at 313 K. These are opposite in sign and more than two orders of magnitude different from the printed table values. Interpreting the tabulated ΔG numbers as J/mol does not reconcile the set with the stated ΔH°/ΔS° pair.
+- The Methods also define K_C = (C_i-C_e)/C_e, with concentrations in mg/L. This is a dimensionless ratio as written, but the paper does not demonstrate a standard-state conversion or explain the thermodynamic convention. The main-paper evidence therefore does not allow a defensible reconstruction of standard thermodynamic quantities from the concentration ratio. Do not infer a corrected ΔG° from the graph or the tabulated regression.
+- Fig. 9(a) plots ln K_C against 1/T and reports the fitted line visually; however, the article does not provide the six underlying K_C observations or a calculation worksheet in the main PDF. The displayed regression and Table 4 do not provide a reproducible independent route to recover valid thermodynamic parameters.
+
+### Protocol and other interpretation checks
+- Abstract PDF p. 1 states dose range 0.2–1 g/L. Methods PDF p. 5 state 0.45–1.5 g/L. Results PDF p. 8 and p. 9 discuss a dose sweep from 0.2 to 1.1 g/L and say maximum removal occurs at 2 g/L. The pH, time and temperature panels use 2 g/L in their inset conditions. This conflict is confirmed, not resolved.
+- The article's 96.5% ENF removal is author-reported at pH 6, C0 = 10 mg/L, 2 g/L dose, 24 h and 25 °C (PDF pp. 8–9 and conclusion). Keep it as a condition-labelled result with the dose protocol inconsistency.
+- The methods say the 30 mL solution portion was put into a 100 mL flask, but do not explicitly reconcile every figure's stated dose with a weighed sorbent mass. This does not justify inventing a corrected dose.
+- Thermodynamic spontaneity and exothermicity claims are quarantined. The negative ΔH°/ΔS° values cannot be combined with the Table 4 ΔG° sequence; do not carry these claims forward. A PSO fit (R² ≈ 0.999) and reported E_a = 61.1 kJ/mol do not independently establish chemisorption or fix the thermodynamic inconsistency.
+
+### Disposition
+GAP-001 is **resolved for manuscript use** as an unusable/quarantined thermodynamic parameter set, not as a corrected numeric result. The original source discrepancy remains documented; no table value has been silently altered. EV-B08-004 retains the source-reported values only in its audit description and explicitly excludes them from manuscript thermodynamic conclusions. The remaining condition-labelled removal result can be used with the dose discrepancy attached.
+
+Source pinpoints: original PDF pp. 1, 5–6, 8–11; Methods Eqs. (2)–(5); Fig. 6 dose/pH/time/temperature insets; Fig. 9(a); Table 4.
