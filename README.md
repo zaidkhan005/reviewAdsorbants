@@ -168,7 +168,7 @@ Current semester-paper evidence register: **46 active unique evidence rows** aft
 
 - The Zotero DOI intake queue now contains21 unique original-study DOIs. Twenty-one DOIs are now in the queue; the 31 October five-export check found no exact matches for the new candidate DOIs. Search Zotero by DOI before metadata addition. SEM-047/SEM-048 remain abstract/preview-level candidates.
 
-- SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI is absent from the five mounted BibTeX exports; it is now in the expanded Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
+- SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI and normalized title are absent from the latest complete 173-entry My Library export; it remains in the Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
 
 - A 31 October broad-corpus cross-check found no additional unregistered empirical graphene/CIP/TC study; three existing primary overlaps are already mapped to SEM-038, SEM-016 and SEM-032. Review-only matches were not counted as primary studies.
 
@@ -191,4 +191,4 @@ Current semester-paper evidence register: **46 active unique evidence rows** aft
 
 - SEM-050 is the strongest current cost-evidence candidate, but its USD 2.5–6.8/m² estimate is for active-layer material only; its 0.02–0.08 kg CO2-eq/m³ figure is a throughput-normalized footprint, not financial treatment cost. Full module and life-cycle boundaries remain incomplete.
 
-- SEM-051 / EV-SEM-047: 2026 citric-acid-crosslinked CMC/GO beads for TC. Publisher-indexed article text supports preliminary extraction of the reported 94.93% removal at the stated batch conditions, fitted Langmuir qmax values, three-cycle desorption figures and an author-estimated USD1.95/g-TC using fitted qmax. This is not a complete full-text/table audit; the cost denominator and input assumptions are insufficiently documented for direct comparison with SEM-050 or a full treatment-cost claim. DOI absent from five mounted BibTeX exports; no key assigned.
+- SEM-051 / EV-SEM-047: 2026 citric-acid-crosslinked CMC/GO beads for TC. Publisher-indexed article text supports preliminary extraction of the reported 94.93% removal at the stated batch conditions, fitted Langmuir qmax values, three-cycle desorption figures and an author-estimated USD1.95/g-TC using fitted qmax. This is not a complete full-text/table audit; the cost denominator and input assumptions are insufficiently documented for direct comparison with SEM-050 or a full treatment-cost claim. DOI and normalized title are absent from the latest complete 173-entry My Library export; no key assigned.
