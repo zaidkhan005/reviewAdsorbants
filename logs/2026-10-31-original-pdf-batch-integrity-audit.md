@@ -246,3 +246,36 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Yang remains secondary-only; adsorption and catalytic degradation are not merged.
 - Yin is a primary adjacent membrane-rejection study, not an adsorption-capacity paper. Rejection %, permeability and electro-cleaning results are excluded from mg/g adsorption rankings.
 - The five-row allocation is intentional (3/1/1), not evidence of incomplete extraction. No missing master evidence row or source-pinpoint defect identified.
+
+
+## Scientific evidence-gap triage — first pass
+
+A ranked register has been created at `data/original-corpus-scientific-gap-register.csv`. It records 19 issues, with P0 items capable of changing quantitative conclusions and P1 items to resolve when the corresponding claim is used.
+
+### Priority 0 — resolve before quantitative synthesis
+1. **Kar et al. (2025), DISC-024:** impossible ΔG arithmetic/unit values and inconsistent dose ranges.
+2. **Jiao et al. (2024), DISC-010:** reported OTC uptake appears above the feed/dose mass-balance ceiling; table/body and SI-dependent protocol.
+3. **Adu-Poku et al. (2024), DISC-026:** abstract versus Methods/Results initial-concentration conflict and kinetic mass-balance issue.
+4. **Mohammed-Ridha & Abdul-Ahad, CORP-019:** fitted capacity/kinetic values exceed simple mass-balance ceilings; PDF publication imprint is 2014, not the uploaded filename's 2023.
+5. **García-Criado et al. (2025), DISC-018:** narrative qmax above 200,000 mg/g conflicts with table and observed uptake around 1–1.6 mg/g; concentration/unit issues.
+6. **Zhang & Wu (2022), CORP-031:** N-rGO dose/feed-volume basis and very large fitted Langmuir values require mass-balance reconstruction.
+
+### Priority 1 — resolve if the claim is used
+- **Gopal & Mukherjee (2024), DISC-006:** reported residual NOR may fall below the stated UV–vis LOQ.
+- **Du et al. (2025), DISC-017:** distinguish target-specific CIP removal from COD/TOC proxies; reconcile observed/fitted values.
+- **Li et al. (2026), DISC-012:** abstract versus main-text pore-volume discrepancy; retain severe six-cycle decline.
+- **Liang et al. (2024), DISC-030:** missing SI and no complete yield/cost/leaching/LCA inventory.
+- **Pinheiro et al. (2024), CORP-023:** uploaded preprint and later journal version have not been fully reconciled.
+- **Kar et al. (2025), DISC-024:** author's INR 239.22/kg and 16.7× cost claim need boundary/yield reconstruction.
+- **Maged et al. (2020), DISC-014:** fixed-bed three-cycle sum conflicts with conclusion (187.11 vs 178.11 mg/g).
+- **Liu et al. (2025), DISC-007:** electricity-cost unit printed as US$/g is anomalous; four-cycle cost is not full TEA/LCA.
+
+### Priority 2 — optional source strengthening or editorial boundary
+- Hacıosmanoğlu review SI, Sompornpailin microbial/ARG SI, Wang high-feed transferability, and other secondary-source primary-paper tracing are optional unless a specific manuscript claim depends on them.
+- Yin et al. is adjacent membrane rejection, not adsorption-capacity evidence. CORP-062 remains excluded as unrelated.
+
+### Synthesis rules
+- A source inconsistency may be retained as a caveat when no reliable correction is possible; it must not be silently normalized.
+- Cost estimates are not comparable TEA/LCA unless system boundary, yield, reagent/energy/water inputs, denominator, currency/year, regeneration and spent-media management are defined.
+- Do not mix fitted qmax, measured qe, removal percentage, fixed-bed qbed/qtotal and membrane rejection into one capacity ranking.
+- The next execution sequence should start with the six P0 items.
