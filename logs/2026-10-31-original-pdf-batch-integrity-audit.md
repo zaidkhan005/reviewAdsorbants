@@ -279,3 +279,14 @@ A ranked register has been created at `data/original-corpus-scientific-gap-regis
 - Cost estimates are not comparable TEA/LCA unless system boundary, yield, reagent/energy/water inputs, denominator, currency/year, regeneration and spent-media management are defined.
 - Do not mix fitted qmax, measured qe, removal percentage, fixed-bed qbed/qtotal and membrane rejection into one capacity ranking.
 - The next execution sequence should start with the six P0 items.
+
+
+## Primary-PDF verification of the first two P0 cases
+
+The original Kar (2025) and Jiao (2024) PDFs were retrieved from the Library, rendered and visually checked. The evidence caveats and scientific gap register were updated from the original page images.
+
+- **Kar, DOI 10.1016/j.hazadv.2025.100666:** Table 4/Fig. 9 on PDF p. 11 confirm ΔG° −3825 to −4089 under a kJ/mol axis/header. Methods pp. 4–5 define the Gibbs equations and units. The reported ΔH°/ΔS° imply +30.081 to +32.756 kJ/mol across the tabulated temperature interval, so the printed thermodynamic set is inconsistent. No corrected value was inferred.
+- **Jiao, DOI 10.1016/j.biortech.2024.130394:** Fig. 4a on PDF p. 5 states C0 = 4 mg/L and dose = 0.5 g/L, but selectivity uptake is 11.97 mg/g (mass-balance ceiling 8 mg/g). Fig. 3a/Table 1 on PDF p. 4 state C0 = 2 mg/L and dose = 0.5 g/L, while the text/Table 1 report experimental/fitted kinetic qe around 12.07/10.84/12.55 mg/g (ceiling 4 mg/g). The adjacent prose also switches between mg/g and mg/L. Both reported uptake groups are now quarantined pending author clarification.
+- The separate 67.89 mg/g Langmuir parameter in Jiao is from its 1–200 mg/L isotherm experiment, not the selectivity/kinetic conditions; it remains a model-fit result, not an observed low-feed uptake.
+
+Detailed calculations and source-page references are in `logs/2026-10-31-p0-mass-balance-and-thermodynamic-checks.md`. Updated records: `data/corpus-evidence.csv` and `data/original-corpus-scientific-gap-register.csv`.
