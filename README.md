@@ -168,3 +168,8 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI is absent from the five mounted BibTeX exports; it is now in the expanded Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
 
 - A 31 October broad-corpus cross-check found no additional unregistered empirical graphene/CIP/TC study; three existing primary overlaps are already mapped to SEM-038, SEM-016 and SEM-032. Review-only matches were not counted as primary studies.
+
+## Core study comparison table
+
+- `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md` — 15-study comparison of target/material, operating context, observed endpoint, fitted parameter, recovery and evidence caveat. The SEM-038 N-rGO row is explicitly cross-referenced to master records EV-B10-004–EV-B10-009, not duplicated.
+- `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (27 rows, including the SEM-038 master-evidence cross-reference).
