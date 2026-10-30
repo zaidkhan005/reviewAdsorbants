@@ -380,3 +380,30 @@ Updated current counts: 47 candidate-register rows (46 DOI-defined after excludi
 The exact DOI strings for SEM-045 (10.1039/d6ra02920e), SEM-046 (10.4314/bcse.v40i5.15) and SEM-047 (10.1016/j.ijbiomac.2026.153894) were checked against all five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries). None had an exact DOI match in those five files. This is an export-level negative match only; it does not establish absence from Zotero collections that were not exported. Linkage and crosswalk rows are updated accordingly, with no Better BibTeX keys assigned. Search Zotero by DOI before adding any metadata, then provide a fresh export for key reconciliation.
 
 The updated intake queue therefore contains 16 unique DOI records: the original 13 and the three supplementary 2026 studies. SEM-045/046 are full-text audited; SEM-047 remains abstract-level and is classified P2 pending full-text access.
+
+## 34. Targeted 2026 GO/coordination-composite search and queue reconciliation — 31 October 2026
+
+A further targeted search on 31 October 2026 used the following formulations:
+
+- `2026 graphene oxide adsorption ciprofloxacin water adsorbent magnetic composite`
+- `2026 tetracycline adsorption graphene oxide composite magnetic MOF water adsorption`
+- `2025 graphene oxide reduced graphene oxide ciprofloxacin tetracycline adsorption aqueous primary study`
+
+### SEM-030 / EV-SEM-031 — GO/[Ni(DMG)]n composite for CIP (2026)
+
+- Ceylan & Hızal, *Journal of Water Process Engineering* 89 (July 2026), article 110335, DOI 10.1016/j.jwpe.2026.110335. Primary publisher record: https://www.sciencedirect.com/science/article/pii/S2214714426008937.
+- The study evaluates one-pot GO/[Ni(dimethylglyoxime)]n coordination composites for CIP adsorption. Three formulations are reported. The abstract highlights high removal across pH 2–7 and gives a comparative Langmuir q_max range of 117–159 mg/g; it explicitly says Freundlich and Temkin fit the isotherm data better. PSO rate constants are 0.0005–0.0009 g/(mg·min). Exact formulation-to-q_max mapping, feed concentration, dose, volume, temperature, numerical removal and observed q_e are not accessible in the publisher preview.
+- Characterization reported includes FTIR, SEM, PXRD, BET/N2, zeta potential and potentiometric titration. Surface areas for A/B/C are 0.43/0.73/2.40 m²/g. No real-water, regeneration or quantified cost/energy evidence was identified in the preview.
+- Retain as provisional P2/abstract-level evidence, not a condition-matched capacity comparison. DOI was absent from all five mounted Library BibTeX exports checked 31 October; no key assigned.
+
+### SEM-013 / EV-SEM-035 — rGO/CIP/TC intermolecular interaction study (2024)
+
+- DOI 10.1016/j.chemphys.2024.112207, *Chemical Physics*, publisher preview: https://www.sciencedirect.com/science/article/pii/S0301010424000363.
+- This is theory-only molecular surface modelling (Gaussian 09, PBEPBE/6-31G(d,p), AIM/NBO) of CIP and TC on pristine and Ca²⁺-supported rGO models. The publisher describes calculated hydrogen-bond and Ca···O electrostatic stabilization and theoretical adsorption-energy ranges, but there is no physical sorbent preparation, aqueous batch experiment, measured qe, removal percentage or empirical capacity.
+- Keep strictly in a clearly labelled molecular-mechanism/theory context; exclude from empirical adsorption tables and low-cost process comparisons. The DOI was absent from all five mounted BibTeX exports checked 31 October; do not add to the primary-study DOI intake queue unless the user elects to cite it as a theory reference.
+
+### Exclusions and near-matches
+
+- Fe3O4@SiO2@UiO-66 for TC (DOI 10.1002/aoc.70599) is a magnetic MOF but contains no graphene; exclude from the locked Family A/B scope.
+- The previously registered SEM-047 remains a potentially valuable GO/NH2-UiO-66/alginate TC study, but abstract-only with full methods/tables access-gated. It is now consistently P2, not P1.
+- Three new candidate DOI links have now been checked against the five mounted BibTeX exports on 31 October (SEM-045/046/047); no exact matches. SEM-030's DOI was also checked and absent. The queue now contains 17 unique DOIs (original 13 + three supplementary studies + SEM-030). This does not rule out Zotero records in unexported collections.
