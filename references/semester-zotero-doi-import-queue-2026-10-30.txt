@@ -1,8 +1,9 @@
 # Zotero DOI intake queue — semester graphene/CIP/TC manuscript
 # Prepared 30 October 2026 and reconciled against the semester candidate register on 31 October 2026.
 # The queue contains 21 unique DOI entries. All 21 DOI strings were searched by exact DOI across the five mounted Library Better BibTeX exports (173, 164, 164, 61 and 31 entries) on 31 October 2026; none had an exact match in those exports.
-# This does not rule out existing Zotero records in collections not represented by the five exports. Search Zotero itself by DOI before adding any metadata.
-# This queue is metadata intake only. No PDF download or upload is requested.
+# The user subsequently supplied the latest complete My Library export, `full ++ check again(1).bib` (173 entries). Exact DOI and normalized-title searches found no match for any of the 21 queued studies. Add metadata only for candidates selected for the manuscript; do not import all candidates automatically.
+# Latest full-library check: 21/21 DOIs and normalized titles absent from the 173-entry My Library export uploaded 31 October 2026.
+# This queue is metadata intake only. Do not add every record automatically; select candidates based on the manuscript's evidence needs. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
 10.1080/16583655.2026.2613597 # SEM-051 — citric-acid-crosslinked CMC/GO beads for TC; author USD1.95/g-TC cost uses fitted qmax; condition/functional-unit caveats; 3-cycle NaOH desorption
