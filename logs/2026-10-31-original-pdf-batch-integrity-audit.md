@@ -369,3 +369,15 @@ The original *Carbon Research* PDF (`s44246-023-00094-w.pdf`, DOI 10.1007/s44246
 - Thermodynamic parameters are in SI Table S4; the SI was not included with the uploaded PDF and was not independently retrieved in this pass.
 
 **Disposition:** GAP-010 is partially resolved. The main-PDF capacity and kinetic conditions are now reconciled; the fitted qmax is explicitly extrapolative, and the kinetic graph is mass-balance-consistent. SI Tables S1/S3/S4 and a process inventory remain open. Updated `EV-B20-004` and `GAP-010`.
+
+
+## P1 source verification — Kar et al. (2025), DISC-024 cost basis
+
+The original PDF Table 5 and synthesis Methods were visually checked (PDF pp. 4 and 12).
+
+- **Synthesis recipe (§2.2, PDF p. 4):** 33.372 g carbonized wood-apple shell is activated with 50 mL of 85% (w/v) H3PO4 at 35 °C for 24 h, then washed to neutral pH and dried at 100 °C for 3 h. Carbonization is described at 250 °C for 3 h.
+- **Cost table (Table 5, PDF p. 12):** INR 239.22/kg ACNB; itemized inputs include 1.5 kg H3PO4 (INR 97.50), carbonization electricity at 2 kW × 30 min (INR 8.57), hot-air oven drying at 1 kW × 12 h (INR 102.84), another 1 h drying (INR 8.57), and 10% overhead.
+- The table does not disclose product yield or a scaling bridge from the 33.372 g precursor/50 mL acid recipe to 1 kg ACNB. The acid mass and energy run-times do not transparently match the described synthesis (3 h carbonization and 3 h final drying). The INR 239.22/kg estimate therefore cannot be reproduced from the stated process as presented.
+- The paper compares four-use treatment cost as 16.7× lower than commercial activated charcoal. This is not a harmonized system-cost comparison: ethanol desorption, centrifugation/washing, spent-media solidification with lime/water/cement, landfill, effluent handling, replacement frequency and leachate risks are not transparently incorporated into a common functional boundary.
+
+**Disposition:** GAP-012 remains P1. Retain INR 239.22/kg only as the authors' preliminary estimate; do not call it validated production cost or repeat the 16.7× claim as an apples-to-apples TEA result. Updated `EV-B08-006` and `GAP-012`.
