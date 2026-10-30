@@ -179,6 +179,8 @@ Final bibliography rendering should follow the required university or journal st
 
 ## 4. Mechanistic interpretation: multiple interactions are plausible, but rarely isolated
 
+The evidence-weighted conceptual interaction map is shown in [Figure 3](SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md). Its arrows denote candidate influences; the relative contribution of each interaction remains material- and condition-dependent.
+
 The cited studies support a recurring set of candidate interactions between CIP/TC and graphenic surfaces: π–π interactions with sp² carbon domains, electrostatic attraction or repulsion that changes with pH and antibiotic speciation, hydrogen bonding involving oxygen- or nitrogen-containing surface groups, and transport into accessible pores or interlayer regions. These mechanisms are not mutually exclusive. More importantly, the strength of the evidence differs among papers. Spectral shifts, pH/ionic-strength response, microscopy, model fits and density-functional calculations each answer different questions; none alone demonstrates that a single interaction controls the whole adsorption process. The source-by-source evidence grade and permitted inference are summarized in the [mechanism-evidence matrix](../data/semester-mechanism-evidence-matrix.csv).
 
 ### 4.1. π–π interactions and graphenic aromatic domains
