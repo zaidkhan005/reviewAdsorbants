@@ -59,3 +59,20 @@ These four contextual entries are now appended to `references/semester-manuscrip
 A separate source-quality shortlist and DOI queue have been created for 13 additional semester candidates (SEM-001, 006, 007, 009, 011, 012, 015, 019, 025, 027, 028, 042 and 043). A direct DOI scan of all five available Library exports on 30 October 2026 found **no exact DOI match for any of the thirteen**. No BBT key has been invented. Use the DOI queue to search Zotero and import metadata only where missing; then export a fresh Better BibTeX file and update actual keys from that export before citing any of them.
 
 The claim-to-evidence matrix now includes CLM-16–CLM-19 for the four contextual sources, with explicit labels preventing their use as core empirical performance records. The introduction also marks the final reproducible search-method details as pending: exact search platforms, dates, strings, date limits, deduplication and screening flow must be reconciled before describing the work as a completed systematic review.
+
+
+## 2026-10-31 expanded DOI queue audit — 21 records
+
+The DOI intake queue now contains **21 distinct semester-candidate DOIs**: SEM-001, SEM-006, SEM-007, SEM-009, SEM-011, SEM-012, SEM-015, SEM-019, SEM-025, SEM-027, SEM-028, SEM-030, SEM-042, SEM-043, and SEM-045–SEM-051.
+
+On 31 October 2026, all 21 DOI strings were searched by exact DOI across the five mounted Library Better BibTeX exports:
+
+- `full ++ check again.bib` — 173 entries
+- `full ++.bib` — 164 entries
+- `full ++=.bib` — 164 entries
+- `Antibiotic Adsorption Review new — Full Corpus.bib` — 61 entries
+- `Antibiotic Adsorption Review — Full Corpus.bib` — 31 entries
+
+**No exact DOI match was found for any of the 21 queued records.** This result does not establish that the records are absent from Zotero: items in collections not represented by these five exports may still exist. Search Zotero itself by exact DOI before adding metadata, to avoid duplicates. If an item is absent, add/verify metadata, export a fresh Better BibTeX file and use only the generated key. Do not guess or manually construct citekeys.
+
+The candidate-level linkage audit, main-corpus crosswalk and remaining-work register now carry the 31 October result for all 21 queued candidate IDs. The current manuscript's 19 existing cited works and their verified keys were not changed. Candidate/evidence records in the queue are not automatically eligible for citation and do not count toward the approximately 50-works-cited target until selected and actually cited.
