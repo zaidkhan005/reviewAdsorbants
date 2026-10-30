@@ -25,7 +25,7 @@ Do not count evidence rows, candidate IDs, distinct studies, comparison rows and
 | Existing Results & Discussion draft | V1, sections 3.1–3.6 | Evidence-led working draft; explicitly not submission-ready |
 | Citations in that draft | 15 | Their citation keys were reconciled against the user-supplied 173-entry export in the existing citation checkpoint |
 
-The 38 evidence rows do not mean 38 fully verified empirical papers. They include different source access levels, provisional empirical entries, condition-specific caveats and the theory-only SEM-013 record.
+The 39 evidence rows do not mean 39 fully verified empirical papers. They include different source access levels, provisional empirical entries, condition-specific caveats and the theory-only SEM-013 record.
 
 ## The five candidates without a dedicated semester extraction row
 
@@ -44,7 +44,7 @@ Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Character
 ## Existing evidence needing attention
 
 - **39/44 candidates** already have dedicated semester extraction and readiness rows.
-- **17 evidence records** are still at publisher-abstract, indexed-snippet or preview access level. One of these is SEM-013, which is theory-only; the other 16 are provisional empirical candidates, including SEM-021 (EV-SEM-038). The candidate-level CSV specifies which records need source strengthening and which metrics must remain held.
+- **17 evidence records** are still at publisher-abstract, indexed-snippet or preview access level. One of these is SEM-013, which is theory-only; the other 16 are provisional empirical candidates, including SEM-021 (EV-SEM-038). SEM-023 (EV-SEM-039) is now a full-text proceedings extraction with its own data-quality restrictions. The candidate-level CSV specifies which records need source strengthening and which metrics must remain held.
 - Other extracted candidates have primary full text or accepted-manuscript text, but still carry targeted caveats: missing conditions, uncertain figure readings, fitted-vs-observed metric separation, source-internal discrepancies, impossible column mass, or absent supplementary tables. Do not reopen completed extraction wholesale; follow the row-specific next action.
 - The condition-labelled comparison has **24 entries**. Expand it only where the source provides enough conditions and metric identity. Do not force every candidate into it, and do not make an unqualified capacity leaderboard.
 - The claim-evidence audit has **22 claims**. It must be reconciled against the final text after synthesis; do not treat the count as 22 studies.
@@ -67,10 +67,10 @@ The inspected manuscript artifact is `manuscript/SEMESTER_RESULTS_AND_DISCUSSION
 
 ## Recommended remaining sequence
 
-1. **Close the four candidate decisions:** SEM-021 (metadata/identity), SEM-036 (material classification), SEM-035 (target/species and paper identity), and SEM-023 (publication type and primary-data eligibility). Do not create evidence rows unless a distinct eligible primary study is verified.
-2. **Strengthen source-level evidence:** work through the 15 provisional empirical abstract/indexed/preview candidates where full primary text can be accessed. Keep SEM-013 in a theory-only lane.
+1. **Close the two unresolved candidate decisions:** SEM-035 (target/species and bibliographic identity) and SEM-036 (material classification). SEM-021 and SEM-023 now have evidence rows and verified source identities; they remain subject to source-level caveats.
+2. **Strengthen source-level evidence:** work through the 16 provisional empirical abstract/indexed/preview candidates where full primary text can be accessed. Keep SEM-013 in a theory-only lane.
 3. **Complete the journal-ranking audit:** verify journal, category, year and database for candidates being considered for inclusion; only apply a Q1 cutoff if it is a confirmed requirement.
-4. **Harmonize comparison data:** expand the 23-row condition-labelled table only with condition-complete, metric-defined evidence; preserve separate observed (q_e), fitted kinetic (q_e), fitted (q_{max}/q_m), removal and column metrics.
+4. **Harmonize comparison data:** expand the 24-row condition-labelled table only with condition-complete, metric-defined evidence; preserve separate observed (q_e), fitted kinetic (q_e), fitted (q_{max}/q_m), removal and column metrics.
 5. **Finalize manuscript synthesis:** integrate the strongest, scope-eligible studies into Results & Discussion, audit every numerical/interpretive claim against its source, and preserve known inconsistencies.
 6. **Close citation and submission QA:** reconcile keys only for selected cited studies, validate every in-text citation against the final bibliography, and apply the required institutional/journal style.
 
