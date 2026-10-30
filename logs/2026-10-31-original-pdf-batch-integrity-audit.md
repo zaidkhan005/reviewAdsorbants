@@ -123,3 +123,17 @@ No further evidence-cell repairs were made in this pass.
 - No missing master evidence row or further correction identified.
 
 These are targeted note-to-register checks, not an independent second full-text reading of all 60 PDFs. All unresolved source disagreements and version limitations remain visible rather than being silently harmonized.
+
+
+### Batch 06 — primary study and two reviews correctly separated
+- The 17 EV-B06 rows divide into Zhu et al. primary fermentation-residue biochar (7 rows), Yan et al. tetracycline/biochar review (4 rows), and Zango et al. systematic review (6 rows).
+- Zhu's main-text observations are separated from fitted qmax values and missing SI fit tables. The printed qe/removal equation sign error, missing SI optimization/kinetic/isotherm parameters, high mg/L concentrations, and ambiguity in the five-cycle reuse table remain explicit.
+- Both reviews' compiled values and source counts are labelled secondary. Zango's 5,601→3,054→632→359→305/162 flow discrepancy and non-parenthesized displayed search logic remain flagged; its historical prices are not treated as current comparable quotations.
+- The structured rows cover the main study and the review synthesis; no missing master evidence row or source-pinpoint defect identified.
+
+### Batch 10 — trace-level graphene-derived study and raw biomass study reconciled
+- The 15 EV-B10 rows divide into Jiao et al. (2025) review (3 rows), Zhang & Wu (2022) N-rGO primary study (6 rows), and Atta et al. (2023) raw rice-husk/LEV primary study (6 rows).
+- N-rGO is correctly classified as graphene-derived engineered carbon, not biochar. The 80 mL antibiotic feed + 20 mL N-rGO dispersion basis is retained with the qe mass-balance ambiguity; large Langmuir q_m values are model fits and held out of capacity ranking pending concentration/dose reconciliation. Eight-cycle reuse and humic-acid/ion effects are separately represented.
+- Atta et al.'s 2.47 mg/g fitted qmax is kept separate from percentage removal and the 5–120 g/L dose range; high dose is a practical limitation, not hidden behind the headline 99% removal.
+- Jiao et al.'s co-removal review remains review-only; its compilation is not added as new primary experimental measurements.
+- No missing master evidence row or source-pinpoint defect identified.
