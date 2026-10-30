@@ -252,15 +252,15 @@ These are targeted note-to-register checks, not an independent second full-text 
 
 A ranked register has been created at `data/original-corpus-scientific-gap-register.csv`. It records 19 issues, with P0 items capable of changing quantitative conclusions and P1 items to resolve when the corresponding claim is used.
 
-### Priority 0 — resolve before quantitative synthesis
-1. **Kar et al. (2025), DISC-024:** impossible ΔG arithmetic/unit values and inconsistent dose ranges.
-2. **Jiao et al. (2024), DISC-010:** reported OTC uptake appears above the feed/dose mass-balance ceiling; table/body and SI-dependent protocol.
-3. **Adu-Poku et al. (2024), DISC-026:** abstract versus Methods/Results initial-concentration conflict and kinetic mass-balance issue.
-4. **Mohammed-Ridha & Abdul-Ahad, CORP-019:** fitted capacity/kinetic values exceed simple mass-balance ceilings; PDF publication imprint is 2014, not the uploaded filename's 2023.
-5. **García-Criado et al. (2025), DISC-018:** narrative qmax above 200,000 mg/g conflicts with table and observed uptake around 1–1.6 mg/g; concentration/unit issues.
-6. **Zhang & Wu (2022), CORP-031:** N-rGO dose/feed-volume basis and very large fitted Langmuir values require mass-balance reconstruction.
+### Priority 0 — resolve before quantitative synthesis (5 items)
+1. **Kar et al. (2025), DISC-024:** original Table 4/Fig. 9 thermodynamic arithmetic and units are inconsistent; dose ranges also conflict.
+2. **Jiao et al. (2024), DISC-010:** two low-concentration OTC uptake results exceed mass-balance ceilings from the figure captions.
+3. **Adu-Poku et al. (2024), DISC-026:** abstract/Methods (0.5–2.5 mg/L) conflict with Results/Fig. 10 (20–70 mg/L); Figure 12 kinetic conditions are incomplete. The 245.9 mg/g result is not proven to violate mass balance.
+4. **Mohammed-Ridha & Abdul-Ahad, CORP-019:** Table 3 kinetic fitted qe values exceed the ceiling from the stated 1 L / 150 mg/L / 30.722 g kinetic design. PDF imprint is December 2014, not the uploaded filename's 2023.
+5. **García-Criado et al. (2025), DISC-018:** narrative qmax above 200,000 mg/g conflicts with Table 2 (86.1–1000 mg/g); Freundlich is reported as the better fit. Keep kinetic qe and isotherm metrics separate.
 
-### Priority 1 — resolve if the claim is used
+### Priority 1 — resolve if the claim is used (9 items)
+- **Zhang & Wu (2022), CORP-031:** N-rGO concentration/volume basis is ambiguous; no proven mass-balance violation. Large Langmuir q_m values remain fitted, not measured.
 - **Gopal & Mukherjee (2024), DISC-006:** reported residual NOR may fall below the stated UV–vis LOQ.
 - **Du et al. (2025), DISC-017:** distinguish target-specific CIP removal from COD/TOC proxies; reconcile observed/fitted values.
 - **Li et al. (2026), DISC-012:** abstract versus main-text pore-volume discrepancy; retain severe six-cycle decline.
@@ -290,3 +290,17 @@ The original Kar (2025) and Jiao (2024) PDFs were retrieved from the Library, re
 - The separate 67.89 mg/g Langmuir parameter in Jiao is from its 1–200 mg/L isotherm experiment, not the selectivity/kinetic conditions; it remains a model-fit result, not an observed low-feed uptake.
 
 Detailed calculations and source-page references are in `logs/2026-10-31-p0-mass-balance-and-thermodynamic-checks.md`. Updated records: `data/corpus-evidence.csv` and `data/original-corpus-scientific-gap-register.csv`.
+
+
+## Updated P0/P1 source-verification result — all six candidates examined
+
+The six initial candidates were located in Library, rendered and visually checked. Five remain P0; the N-rGO item is now P1 because its two plausible concentration-volume interpretations yield ceilings of 80 and 100 mg/g and the reported qe range (80.58–90.21 mg/g) falls between them. There is no basis to label that a proven violation.
+
+- **Kar:** confirmed thermodynamic table/unit contradiction; detailed arithmetic in the P0 calculation report.
+- **Jiao:** confirmed mass-balance contradictions in both Fig. 4a selectivity result and Fig. 3a kinetic result.
+- **Adu-Poku:** confirmed abstract/Methods versus Results concentration-window conflict; withdraw the earlier conditional mass-balance allegation because Figure 12's exact dose is missing.
+- **Mohammed-Ridha:** confirmed Table 3 fitted qe mismatch against its explicitly stated kinetic setup; fitted isotherm q_m is a separate, weakly supported metric.
+- **García-Criado:** confirmed the >200,000 mg/g narrative value is unsupported by Table 2; Table 2 fitted q_max, Fig. 6 isotherm points and Table 1 kinetic qe are different measures.
+- **Zhang & Wu:** confirmed experimental values and dosing text, but the initial concentration before/after adding sorbent dispersion is ambiguous.
+
+The master evidence caveats, scientific gap register, and P0 calculation report were corrected to reflect these distinctions. Current triage counts: **5 P0 / 9 P1 / 5 P2**. The gap register is the canonical task list.
