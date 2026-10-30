@@ -20,6 +20,7 @@ This directory contains human-readable, source-linked extraction notes for the r
 
 ## Scientific evidence gaps
 
+- [2026-10-31 — P0 mass-balance and thermodynamic checks](../logs/2026-10-31-p0-mass-balance-and-thermodynamic-checks.md) — original-PDF visual verification of Kar Table 4/Fig. 9 and Jiao Figs. 3–4/Tables 1–2; exact condition-specific mass-balance calculations.
 - [Prioritized original-corpus scientific gap register](../data/original-corpus-scientific-gap-register.csv) — 19 ranked issues, separating quantitative/mass-balance blockers from optional SI and editorial boundaries.
 
 ## Previous PDF batches
