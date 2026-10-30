@@ -34,7 +34,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
 - `data/semester-paper-candidate-register.csv`: **44 candidate records**.
-- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **40 unique dedicated evidence records** (checked 2026-10-30). Reused master-corpus evidence remains cross-referenced, not duplicated.
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **39 active unique dedicated evidence records** (checked 2026-10-30 after consolidating the duplicate SEM-037 PRB entry into EV-SEM-040). Reused master-corpus evidence remains cross-referenced, not duplicated.
 - `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 now has an exact-DOI BibTeX queue match; SEM-039 and SEM-040 also have source-linked evidence.
 - Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
 - The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
-- The current semester draft’s 15 in-text citation keys and 15-entry cited-reference subset were reconciled against the latest 173-entry export on 2026-10-30. Reaching the approximately 50-work cited-reference target, resolving remaining candidate-level key gaps, and final style-rendered bibliography/claim audit remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
+- The current semester draft’s 15 in-text citation keys and 15-entry cited-reference subset were reconciled against the latest 173-entry export on 2026-10-30. The initial claim-to-evidence audit is now logged and maps all 15 cited works to source/evidence records. Reaching the approximately 50-work cited-reference target, expanding the manuscript and running the final post-expansion claim/style audit remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
 
 ## Current semester-paper working files
 
