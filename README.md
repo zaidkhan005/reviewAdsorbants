@@ -52,7 +52,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `data/semester-remaining-work-register.csv` — 51-row candidate-specific remaining-work register, reconciled on 31 October 2026; see [the continuation reconciliation log](logs/2026-10-31-continuation-register-reconciliation.md).
 - `logs/2026-10-31-manuscript-status-reconciliation.md` — reconciles the manuscript/README counts, 21-DOI citation-audit note and the remaining SEM-035 source-access status.
 - `data/journal-quartile-audit.csv` — shared journal metadata for the broader review only. Journal quartiles are not used in semester-paper screening; see [the scope clarification](logs/2026-10-31-semester-quartile-out-of-scope.md).
-- `data/semester-condition-labelled-comparison.csv` — a 29-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
+- `data/semester-condition-labelled-comparison.csv` — a 30-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for 47 rows: 46 dedicated evidence records plus one SEM-038 cross-reference to existing master-corpus evidence.
 
@@ -176,7 +176,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 ## Core study comparison table
 
 - `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md` — 15-study comparison of target/material, operating context, observed endpoint, fitted parameter, recovery and evidence caveat. The SEM-038 N-rGO row is explicitly cross-referenced to master records EV-B10-004–EV-B10-009, not duplicated.
-- `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (29 rows, including the SEM-038 master-evidence cross-reference).
+- `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (30 rows, including the SEM-038 master-evidence cross-reference).
 - `manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md` — editable Mermaid source for the original scope/material-taxonomy figure, based on the approved scope proposal.
 - `manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md` — editable Mermaid source for the original preparation–adsorption–recovery–cost-boundary schematic.
 - `manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md` — editable Mermaid source for the conceptual CIP/TC–graphenic-surface interaction map, with evidence and inference limits.
