@@ -381,3 +381,15 @@ The original PDF Table 5 and synthesis Methods were visually checked (PDF pp. 4 
 - The paper compares four-use treatment cost as 16.7× lower than commercial activated charcoal. This is not a harmonized system-cost comparison: ethanol desorption, centrifugation/washing, spent-media solidification with lime/water/cement, landfill, effluent handling, replacement frequency and leachate risks are not transparently incorporated into a common functional boundary.
 
 **Disposition:** GAP-012 remains P1. Retain INR 239.22/kg only as the authors' preliminary estimate; do not call it validated production cost or repeat the 16.7× claim as an apples-to-apples TEA result. Updated `EV-B08-006` and `GAP-012`.
+
+
+## P1 source verification — Maged et al. (2020), DISC-014
+
+The original Springer PDF (`s11356-020-09267-1.pdf`, DOI 10.1007/s11356-020-09267-1) was rendered and Table 6 (PDF p. 13) and the conclusion (PDF p. 14) visually checked.
+
+- Table 6 reports column-regeneration qbed = 97.12, 61.85 and 28.14 mg/g for cycles 1–3; total = **187.11 mg/g**. Corresponding qtotal values are 4.86, 3.09 and 1.41 mg, summing to 9.36 mg, with 50 mg initial bed.
+- Arithmetic check: 97.12 + 61.85 + 28.14 = 187.11 mg/g. Also 9.36 mg / 0.050 g = 187.2 mg/g, consistent within rounding.
+- The conclusion instead states cumulative capacity **178.11 mg/g**, which is 9 mg/g lower and conflicts with the table and qtotal/bed-mass calculation. The table-supported total is used; the conclusion value is flagged as an apparent transcription/arithmetic error.
+- The cycle-wise qbed falls from 97.12 to 61.85 to 28.14 mg/g. The third cycle retains only about 29% of first-cycle capacity; do not describe the regeneration as high or stable reuse.
+
+**Disposition:** GAP-013 is resolved for manuscript use: cite Table 6's 187.11 mg/g cumulative value, flag the conclusion's 178.11 mg/g, and report the cycle-wise decline. Updated `EV-B19-006` and `GAP-013`.
