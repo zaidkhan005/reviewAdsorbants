@@ -18,6 +18,10 @@ This directory contains human-readable, source-linked extraction notes for the r
 - [2026-10-31 — original PDF batch integrity audit](../logs/2026-10-31-original-pdf-batch-integrity-audit.md) — confirms the original Batches 01–20 notes, repairs five malformed evidence rows and verifies the complete 60-paper attachment-to-evidence mapping.
 - [Original PDF batch attachment crosswalk](../data/original-pdf-batch-attachment-crosswalk.csv) — 60 uploaded-paper records mapped to Library filenames, DOI, candidate IDs, source-batch evidence IDs and extraction notes.
 
+## Scientific evidence gaps
+
+- [Prioritized original-corpus scientific gap register](../data/original-corpus-scientific-gap-register.csv) — 19 ranked issues, separating quantitative/mass-balance blockers from optional SI and editorial boundaries.
+
 ## Previous PDF batches
 
 - [2026-10-25-batch-01](2026-10-25-batch-01.md)
