@@ -159,3 +159,6 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - SEM-045 / EV-SEM-041: 2026 magnetic GO-supported Co-MOF for tetracycline; full RSC/PMC text audited, kinetic qe mass-balance flag and 10-cycle methanol regeneration.
 - SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; AJOL primary PDF text extracted, pharmaceutical-effluent testing, qe and real-sample arithmetic conflicts.
 - Both are in the candidate/evidence pool and expanded 15-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
+
+
+- SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
