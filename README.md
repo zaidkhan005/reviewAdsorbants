@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Semester paper: journal quartiles are explicitly out of scope. Do not audit, rank, prioritise, include or exclude SEM candidates by SJR/JCR/CiteScore quartile. The shared journal-ranking audit is not an eligibility input for this workstream. Broad-review ranking rules remain separate.
-- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register has 51 rows representing 50 DOI-defined studies after excluding the SEM-041 alias of SEM-026. The dedicated evidence extraction has 46 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 21 unique records. All 21 DOI strings were searched across the five mounted BibTeX exports on 31 October 2026 and no exact matches were found. This does not rule out Zotero items in unexported collections; search Zotero by DOI before adding metadata. No new citekeys are guessed. The approximately 50-work target and final integrated style/claim audit remain pending.
+- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register has 51 rows representing 50 DOI-defined studies after excluding the SEM-041 alias of SEM-026. The dedicated evidence extraction has 46 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 21 unique records. The latest complete My Library export (173 entries) was also checked by exact DOI and normalized title: none of the 21 queue records matched, while all 19 existing manuscript citation keys were present. Add metadata only for candidates selected for citation; do not guess keys. The approximately 50-work target and final integrated style/claim audit remain pending.
 
 ## Current semester-paper working files
 
@@ -58,8 +58,8 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Citation readiness
 
-- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level citation-key linkage; all 21 DOIs in the intake queue were checked against five mounted Better BibTeX exports on 31 October 2026, with no exact matches. See the expanded [citation-linkage audit](docs/SEMESTER_CITATION_LINKAGE_AUDIT.md).
-- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely. The 31 October 2026 addendum reconciles all 21 queued DOIs against the five available BibTeX exports; Zotero collections not represented by those exports still require an in-library DOI search.
+- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level citation-key linkage; all 21 DOI-queue records were checked by DOI and normalized title against the latest complete 173-entry My Library export, with no matches. All 19 existing manuscript keys were confirmed present. See the expanded [citation-linkage audit](docs/SEMESTER_CITATION_LINKAGE_AUDIT.md).
+- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely, including the latest complete My Library export check.
 
 ## 2026-10-30 continuation closeout
 
