@@ -17,44 +17,43 @@ Do not count evidence rows, candidate IDs, distinct studies, comparison rows and
 |---|---:|---|
 | Candidate records | 44 | IDs SEM-001 through SEM-044 |
 | Distinct study candidates | 43 | One record, SEM-041, is a duplicate alias of SEM-026 |
-| Dedicated semester evidence-extraction rows | 38 | One row each for the current 38 extracted candidate IDs |
-| Evidence-readiness rows | 38 | Matched to the 38 extraction rows |
-| Candidates without a dedicated semester extraction row | 6 | See breakdown below; several deliberately do not need a new row |
-| Condition-labelled comparison rows | 23 | Condition/metric comparison entries, not all 44 candidates |
+| Dedicated semester evidence-extraction rows | 39 | One row each for the current 39 extracted candidate IDs |
+| Evidence-readiness rows | 39 | Matched to the 39 extraction rows |
+| Candidates without a dedicated semester extraction row | 5 | See breakdown below; several deliberately do not need a new row |
+| Condition-labelled comparison rows | 24 | Condition/metric comparison entries, not all 44 candidates |
 | Results/discussion claim-evidence audits | 22 | RD-001 through RD-022; these are claims, not 22 unique papers |
 | Existing Results & Discussion draft | V1, sections 3.1–3.6 | Evidence-led working draft; explicitly not submission-ready |
 | Citations in that draft | 15 | Their citation keys were reconciled against the user-supplied 173-entry export in the existing citation checkpoint |
 
 The 38 evidence rows do not mean 38 fully verified empirical papers. They include different source access levels, provisional empirical entries, condition-specific caveats and the theory-only SEM-013 record.
 
-## The six candidates without a dedicated semester extraction row
+## The five candidates without a dedicated semester extraction row
 
 | Candidate | Current decision | Further work |
 |---|---|---|
 | SEM-022 | Review article; background/context only | No empirical extraction row required. Use only to trace original primary papers; do not count it as a primary study. |
-| SEM-023 | Low-priority candidate; publication type/study detail unclear | Verify whether it is a full primary journal article or proceedings record, and whether target-specific original data exist. Include only if source evidence warrants it. |
 | SEM-035 | Needs clarification | Resolve tetracycline species, bibliographic identity and primary experimental method before deciding inclusion. |
 | SEM-036 | Material identity unresolved | Check characterization to decide whether “graphene-oxide-like carbon nanosheets” meet the review's defined graphene-based scope. Waste origin alone is not sufficient. |
 | SEM-038 | Reuses existing broad-corpus evidence | Link EV-B10-004–EV-B10-009 via `data/semester-main-corpus-crosswalk.csv`; do not create duplicate semester evidence rows. Preserve the dose/concentration mass-balance warning. |
 | SEM-041 | Duplicate alias of SEM-026 | No further study extraction. Keep alias for traceability only; cite/count the canonical study once. |
 
-Therefore there are **three genuinely open candidate identity/scope items** (SEM-023, SEM-035, SEM-036). SEM-021's identity is resolved and it now has an abstract-level evidence row; its remaining full-text parameter validation is tracked as source-strengthening work, not metadata resolution.
+Therefore there are **two genuinely open candidate identity/scope items** (SEM-035 and SEM-036). SEM-023's identity and proceedings publication type are resolved; its full-text evidence is extracted and its numerical claims are held under explicit source-quality caveats. SEM-021's identity is resolved and it now has an abstract-level evidence row; its remaining full-text parameter validation is tracked as source-strengthening work, not metadata resolution.
 
 Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water” lead. **EV-SEM-035** is an evidence ID attached to candidate **SEM-013**, the 2024 theoretical DFT paper. These identifiers refer to different records.
 
 ## Existing evidence needing attention
 
-- **38/44 candidates** already have dedicated semester extraction and readiness rows.
+- **39/44 candidates** already have dedicated semester extraction and readiness rows.
 - **17 evidence records** are still at publisher-abstract, indexed-snippet or preview access level. One of these is SEM-013, which is theory-only; the other 16 are provisional empirical candidates, including SEM-021 (EV-SEM-038). The candidate-level CSV specifies which records need source strengthening and which metrics must remain held.
 - Other extracted candidates have primary full text or accepted-manuscript text, but still carry targeted caveats: missing conditions, uncertain figure readings, fitted-vs-observed metric separation, source-internal discrepancies, impossible column mass, or absent supplementary tables. Do not reopen completed extraction wholesale; follow the row-specific next action.
-- The condition-labelled comparison has **23 entries**. Expand it only where the source provides enough conditions and metric identity. Do not force every candidate into it, and do not make an unqualified capacity leaderboard.
+- The condition-labelled comparison has **24 entries**. Expand it only where the source provides enough conditions and metric identity. Do not force every candidate into it, and do not make an unqualified capacity leaderboard.
 - The claim-evidence audit has **22 claims**. It must be reconciled against the final text after synthesis; do not treat the count as 22 studies.
 
 ## Journal quartile / ranking work
 
 Current candidate-register status:
 - 42 candidate records explicitly say quartile not checked for this semester screen.
-- SEM-021's identity/DOI is now verified, but its journal quartile remains unchecked like the other candidate records.
+- SEM-021 and SEM-023 have verified identity; both still lack a semester-specific journal-quartile audit.
 - SEM-038 has an existing main-corpus signal of Q2 across five 2025 SJR categories, but publication-year/category and JCR eligibility have not been re-audited for this semester paper.
 - SEM-041 is a duplicate alias; ranking should be assigned once to canonical SEM-026.
 
