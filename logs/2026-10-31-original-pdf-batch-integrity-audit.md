@@ -342,3 +342,16 @@ The original ACS Omega PDF (`ao5c07456.pdf`, DOI 10.1021/acsomega.5c07456) was r
 - Official ACS SI listing confirms Fig. S8 contains cycle-wise regeneration data, but the direct SI PDF was not retrieved in this pass; the main-text endpoint values are already stated in the article.
 
 **Disposition:** GAP-009 remains P1. The gap register and master evidence now preserve the abstract/main-text pore-volume discrepancy, use the detailed value conditionally, and classify the regeneration decline as a substantial performance weakness. Updated `EV-B09-016`, `EV-B09-022` and `GAP-009`.
+
+
+## P1 source/version verification — Pinheiro et al. (2024), CORP-023
+
+The uploaded file `unm bio 1.pdf` is the Research Square v1 preprint (DOI 10.21203/rs.3.rs-4331760/v1). The later peer-reviewed article is *Environmental Science and Pollution Research* 31(54), 62930–62949, DOI 10.1007/s11356-024-35293-4 (published 28 October 2024). The uploaded preprint was rendered and checked; the official Springer published abstract and PubMed record were independently checked.
+
+- **Headline capacity:** published abstract confirms pH 4 and 74.2 ± 0.3 mg/g for alginate, 80.4 ± 0.2 mg/g for chitosan, using 1 g adsorbent. These match the preprint's Table 1 headline values.
+- **Material distinction:** chitosan and alginate were made as separate bead types, not a single mixed chitosan–alginate composite.
+- **Diffusion mechanism changed between versions:** preprint Results/Conclusion (PDF pp. 10 and 14) assign external-film diffusion to chitosan and intraparticle diffusion to alginate. The published abstract reverses this: external diffusion for alginate and internal diffusion for chitosan. Do not cite the preprint's mechanism assignment as the published result.
+- **Preprint-only numerical concerns:** text reports kinetic uptake 78.6 mg/g for chitosan and 71.3 mg/g for alginate; Table 2 gives fitted Weber–Morris q∞ = 136.75 ± 8.2 mg/g for alginate. Tables 3–4 contain preprint-only isotherm/thermodynamic values. These have not been confirmed in the published full text.
+- The official Springer page is a subscription preview in this pass; complete published methods, Tables 2–4 and SI were not accessible. No claim is made that these details were retained or changed in peer review.
+
+**Disposition:** GAP-011 is partially reconciled. The journal abstract supports only the headline pH-4 capacities and the published-version diffusion assignment. Detailed preprint models, kinetic parameters, thermodynamics and conditions remain version-qualified. The screening register now identifies the published DOI for citation while retaining the preprint DOI as provenance.
