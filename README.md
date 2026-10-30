@@ -18,7 +18,7 @@ The intended contribution is an integrated comparison—not simply a ranking by 
 - Keep adsorption separate from catalytic degradation, photocatalysis, membrane rejection and other removal processes.
 - Never mark a paper “Q1 verified” without recording the ranking provider, ranking year, subject category, and verification URL.
 
-## Live repository status (2026-10-29)
+## Repository status baseline (2026-10-29; continuation audited through 2026-10-30)
 
 This repository now contains **two related but separate workstreams**. Do not combine their candidate counts, reference targets, evidence rows, or manuscript scopes.
 
@@ -34,7 +34,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
 - `data/semester-paper-candidate-register.csv`: **44 candidate records**.
-- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **31 dedicated evidence records**. Reused master-corpus evidence is cross-referenced, not duplicated.
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **40 unique dedicated evidence records** (checked 2026-10-30). Reused master-corpus evidence remains cross-referenced, not duplicated. Reused master-corpus evidence is cross-referenced, not duplicated.
 - `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 now has an exact-DOI BibTeX queue match; SEM-039 and SEM-040 also have source-linked evidence.
 - Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
 - The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
@@ -49,14 +49,22 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Current semester-paper working files
 
-- `data/semester-condition-labelled-comparison.csv` — a first condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
+- `data/semester-condition-labelled-comparison.csv` — a 26-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
-- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 37 dedicated evidence records.
+- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 40 dedicated evidence records.
 
 ## Citation readiness
 
 - `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage across the three existing BibTeX exports.
-- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains the six verified key matches and how to handle unmatched candidates safely.
+- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely. The 2026-10-30 continuation additionally checks five available BibTeX exports.
+
+## 2026-10-30 continuation closeout
+
+- SEM-042: accepted-manuscript column mass remains physically impossible (100 g in approximately 1.178 cm³); continuous-flow metrics remain quarantined, while batch evidence is retained cautiously.
+- SEM-043: publisher-preview claims are separated from detailed Methods/Table 1 values extracted from a non-publisher mirror; a condition-labelled CIP/GO baseline is now present.
+- SEM-044: publisher abstract and figure previews support the reported Langmuir-fit and qualitative pH findings; the 1111 mg/g CIP qmax remains excluded from condition-matched ranking because operating conditions and full tables are inaccessible.
+- No exact DOI or normalized-title match for SEM-042, SEM-043 or SEM-044 was found in any of five available Library BibTeX exports (173, 164, 164, 61 and 31 entries). These candidates are not citation-ready; no keys were guessed.
+- See [the 30 October closeout log](logs/2026-10-30-sem-042-044-and-citation-closeout.md) for source decisions, counts and repository updates.
 
 ## Current manuscript draft
 
@@ -131,7 +139,7 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 37 unique records, and reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
+The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 40 unique records (verified 2026-10-30); reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
 
 
-Current semester-paper evidence register: **37 unique evidence rows** (29 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
+Current semester-paper evidence register: **40 unique evidence rows** (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
