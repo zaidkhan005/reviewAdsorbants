@@ -190,7 +190,9 @@ Indexed primary text reports maximum capacities of 354.24 mg/g in aqueous medium
 **Cost and applicability:** No normalized cost per kg of sorbent, cost per mass of CIP removed, synthesis yield, reagent-recovery inventory or energy inventory was found. The process uses concentrated sulfuric acid, KMnO₄, iron salts, ammonia, multiple washes and drying; magnetic separation is an operational advantage but not evidence of low total cost. Do not infer real-wastewater validation from the publisher abstract's broad wastewater framing.
 
 **Evidence-use rule:** Do not describe 555.56 mg/g as observed uptake; it is Langmuir-fitted (q_{max}). Keep it out of condition-matched ranking until the exact isotherm dose and fit-form statistics can be verified from an official or author-hosted full text. Preserve the unresolved 0.5 vs 5 g/L dosage statements and the prose/table (R^2) difference without inventing corrections.
-### EV-SEM-011 — sodium alginate/GO hydrogel beads for PRB application (Zhao et al., 2018; publisher-preview audit 30 October 2026)
+### EV-SEM-011 — HISTORICAL / SUPERSEDED duplicate (Zhao et al., 2018; see canonical EV-SEM-040)
+
+**Record status:** This earlier extraction was duplicated by the later EV-SEM-040 record. On 30 October 2026, the source-level details were consolidated into EV-SEM-040; EV-SEM-011 has been removed from the active evidence CSV and readiness audit. Retain this note only as historical provenance; do not cite or count EV-SEM-011 as an active evidence record.
 
 **Primary article:** Pingping Zhao, Fei Yu, Ruoyu Wang, Yao Ma and Yanqing Wu, “Sodium alginate/graphene oxide hydrogel beads as permeable reactive barrier material for the remediation of ciprofloxacin-contaminated groundwater,” *Chemosphere* 200 (June 2018), 612–620. DOI [10.1016/j.chemosphere.2018.02.157](https://doi.org/10.1016/j.chemosphere.2018.02.157). [Official ScienceDirect article preview](https://www.sciencedirect.com/science/article/abs/pii/S0045653518303692); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/29510369/). Publisher abstract and section snippets (Materials and reagents, Characterisation of GSA, Conclusions) were reviewed; full Methods, column tables and cost/lifetime calculations require institutional access/purchase and were not accessed.
 
@@ -217,13 +219,13 @@ The institutional PDF search index exposed substantial primary-text content at [
 
 **Additional material characterization:** DDMGO BET surface area 176 m²/g, mean pore diameter 3.8 nm and pore volume 0.24 cm³/g; indexed FTIR text indicates DTPA amino groups react with GO carboxyl groups to form amide bonds. Magnetic separation is supported by Fe3O4 characterization. Cost was not quantified. Preparation uses GO oxidation, Fe3O4 functionalization and DTPA coupling (EDC/NHS listed among reagents); no total cost/energy inventory is available.
 
-### EV-SEM-011 / SEM-037 — Zhao et al. (2018), GO–alginate hydrogel beads as a PRB
+### Historical extraction note — EV-SEM-011 / SEM-037 (superseded by canonical EV-SEM-040)
 
 **Primary sources:** [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/29510369/), [publisher indexed article](https://www.sciencedirect.com/science/article/pii/S0045653518303692), DOI 10.1016/j.chemosphere.2018.02.157.
 
 The abstract confirms the GSA hydrogel beads were evaluated for ciprofloxacin-contaminated groundwater, in batch and flow-through columns; kinetic data were described by pseudo-second-order, equilibrium data by Freundlich, and reported capacity was 100 mg/g at pH 7.0. The paper explicitly says PRB lifetime and cost were calculated. The actual cost value, lifetime, currency/year, system boundary, column dimensions/flow rates and hydrogeological assumptions were not retrieved in this pass.
 
-Earlier wording suggested a confirmed Freundlich/Langmuir inconsistency. This was too strong based on the verified abstract alone and is now corrected: the full text must be checked to establish how the 100 mg/g value is defined. Do not call it Langmuir qmax without source-table support.
+This 29 October note predates the 30 October check of the indexed ScienceDirect Conclusion snippet. The later snippet explicitly attributes the same 100 mg/g maximum to the Langmuir model after stating that the isotherm follows Freundlich. Preserve that source-internal conflict as recorded in canonical EV-SEM-040; do not call 100 mg/g a verified Langmuir qmax.
 
 
 
@@ -730,7 +732,7 @@ The approved semester scope includes GO, rGO, surface-functionalized GO/rGO, and
 
 **Material and application:** Sodium alginate/graphene oxide hydrogel beads (GSA) were synthesized as permeable reactive barrier (PRB) backfill for remediation of ciprofloxacin (CPX)-contaminated groundwater. This is a graphene-bearing biopolymer hydrogel composite, not a standalone GO powder. The abstract confirms synthesis and PRB testing, but the exact GO:alginate ratio, crosslinking/bath recipe, bead size, washing/drying, product yield and material characterization values remain unavailable in the retrieved record.
 
-**Batch adsorption:** Abstract reports pseudo-second-order kinetics and a Freundlich isotherm, with a maximum adsorption capacity of 100 mg/g at pH 7.0. The abstract does not clearly label 100 mg/g as an observed qₑ or as a fitted Langmuir qmax; do not relabel it as Langmuir qmax. An indexed ScienceDirect conclusion snippet reports adsorption equilibrium time of 72 h. Adsorption was sensitive to contact time, initial CPX concentration and ionic strength, but was not pH-sensitive. Exact C₀, dose, solution volume, temperature, agitation, concentration ranges, Freundlich constants and fit statistics are not available in the accessible record.
+**Batch adsorption:** Abstract reports pseudo-second-order kinetics and a Freundlich isotherm, with a maximum adsorption capacity of 100 mg/g at pH 7.0. The indexed ScienceDirect conclusion repeats the Freundlich attribution, then says 'According to the Langmuir model' the maximum capacity is 100 mg/g at pH 7.0. This source-internal model-label conflict is not resolvable from the abstract/preview. Report 100 mg/g as a source-reported maximum with model attribution unresolved, not as a verified Langmuir qmax or observed qe. The conclusion also reports adsorption equilibrium time of 72 h. Adsorption was sensitive to contact time, initial CPX concentration and ionic strength, but was not pH-sensitive. Exact C₀, dose, solution volume, temperature, agitation, concentration ranges, Freundlich constants and fit statistics are not available in the accessible record.
 
 **Column and PRB modelling:** The article reports flow-through column experiments assessing flow rate, influent CPX concentration and ionic strength, interpreted with a chemical non-equilibrium two-site model. A PRB design was developed based on hydrogeological conditions and water-matrix properties. Do not invent column dimensions, pore-water velocity, breakthrough curves, residence time or model parameters: these are not exposed in the sources retrieved in this audit. The work is a laboratory column/model study, not proof of field installation or real aquifer deployment.
 
