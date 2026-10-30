@@ -37,7 +37,7 @@ The 39 evidence rows do not mean 39 fully verified empirical papers. They includ
 | SEM-038 | Reuses existing broad-corpus evidence | Link EV-B10-004–EV-B10-009 via `data/semester-main-corpus-crosswalk.csv`; do not create duplicate semester evidence rows. Preserve the dose/concentration mass-balance warning. |
 | SEM-041 | Duplicate alias of SEM-026 | No further study extraction. Keep alias for traceability only; cite/count the canonical study once. |
 
-Therefore there is **one genuinely open candidate material-scope item** (SEM-036). SEM-035's bibliographic identity, GO–chitosan material class and TC/CTC target species are now resolved from the official issue TOC and an indexed abstract listing; primary full-text verification remains outstanding, so no evidence row was added. SEM-023's identity and proceedings publication type are resolved; its full-text evidence is extracted and its numerical claims are held under explicit source-quality caveats. SEM-021's identity is resolved and it now has an abstract-level evidence row; its remaining full-text parameter validation is tracked as source-strengthening work, not metadata resolution.
+There are **no remaining candidate identity/scope decisions** in this group. SEM-035's bibliographic identity, GO–chitosan material class and TC/CTC target species are resolved; its primary full-text verification remains a source-strengthening task. SEM-036 is now excluded from the core: its primary text identifies onion-peel-derived GO-like CNSs, not demonstrated GO/rGO or a selected graphene-bearing composite. SEM-023's identity and proceedings publication type are resolved; its full-text evidence is extracted and its numerical claims are held under explicit source-quality caveats. SEM-021's identity is resolved and it now has an abstract-level evidence row; its remaining full-text parameter validation is tracked as source-strengthening work, not metadata resolution.
 
 Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water” lead. **EV-SEM-035** is an evidence ID attached to candidate **SEM-013**, the 2024 theoretical DFT paper. These identifiers refer to different records.
 
@@ -67,7 +67,7 @@ The inspected manuscript artifact is `manuscript/SEMESTER_RESULTS_AND_DISCUSSION
 
 ## Recommended remaining sequence
 
-1. **Close the remaining candidate material-scope decision:** SEM-036 (determine whether onion-peel-derived graphene-oxide-like carbon nanosheets meet the review's graphene-based definition). SEM-035's identity/species are resolved; obtain its primary full text before any evidence-row extraction.
+1. **Complete SEM-035 source strengthening:** obtain/translate its primary full text before any evidence-row extraction. SEM-036 is closed as an out-of-scope near-miss under the approved GO/rGO and selected-composite definition.
 2. **Strengthen source-level evidence:** work through the 16 provisional empirical abstract/indexed/preview candidates where full primary text can be accessed. Keep SEM-013 in a theory-only lane.
 3. **Complete the journal-ranking audit:** verify journal, category, year and database for candidates being considered for inclusion; only apply a Q1 cutoff if it is a confirmed requirement.
 4. **Harmonize comparison data:** expand the 24-row condition-labelled table only with condition-complete, metric-defined evidence; preserve separate observed (q_e), fitted kinetic (q_e), fitted (q_{max}/q_m), removal and column metrics.
