@@ -160,6 +160,8 @@ Flow-through evidence should also be reported separately from batch adsorption. 
 
 ## 3.5. “Low-cost potential” remains a hypothesis until costs are normalized
 
+The process boundary used for the low-cost assessment is shown in [Figure 2](SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md). It consolidates alternative preparation, treatment, recovery and regeneration operations reported across the studies; it is not a single standardized synthesis or treatment protocol.
+
 The evidence reviewed here is substantially stronger on laboratory adsorption results than on comparative economics. Most studies do not report a full-process cost inventory containing adsorbent yield, reagent quantities and prices, energy, washing, drying, regeneration, solvent recovery, residual handling and a denominator such as cost per volume treated or mass of CIP/TC removed. The preparation and recovery burden can also be substantial. Across the studies cited here, examples include strong-acid/oxidant routes for functionalized graphene oxide, freeze-drying, regeneration with 5 wt.% NaOH, methanol treatment, DMF containing 1 mol/L HCl, a 10 g/L dose in one GO/PVA/calcium-alginate removal test, and rotating-magnetic-field operation for which power and energy per treated volume are not reported. These examples show why synthesis yield, reagents, washing, drying, regeneration, solvent recovery, residual handling and operating energy must be included in a normalized cost boundary rather than assumed away. \cite{shahaExploringAdsorptionEfficiency2025,yao3DAssemblyBased2017,hossainUltrafastSimultaneousRemoval2024,shahaKineticIsothermThermodynamic2026,hossainRemovalCiprofloxacinAqueous2026,dingRotatingMagneticFieldenhanced2026}
 
 One GO/PVA/calcium-alginate bead paper reports a cost estimate, but its cost calculation assumes 0.1 g/L while an experimental 0.5 g per 50 mL condition corresponds to 10 g/L—a 100-fold difference in dose. The method also alternates between 50 mL and 55 mL wording. Its cost conclusion is therefore not independently reproducible from the available extraction. \cite{hossainRemovalCiprofloxacinAqueous2026} [evidence: EV-SEM-026]
@@ -208,8 +210,6 @@ Kinetic and isotherm fits are descriptive models, not direct molecular evidence.
 ## 5. Practical feasibility: recovery advantages do not yet establish low total cost
 
 The evaluation logic used in this section is summarized in [Figure 4](SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md). The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
-
-The system boundary used to interpret preparation, separation and regeneration trade-offs is summarized in [Figure 2](SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md). It is a cross-study process map rather than a claim that every composite follows the same synthesis or regeneration route.
 
 The practical comparison is not simply magnetic versus non-magnetic. It is the balance between adsorbent manufacture, form factor, recovery, regeneration, matrix tolerance and the treatment of spent media or regenerant. The [practical-feasibility matrix](../data/semester-practical-feasibility-matrix.csv) separates what each cited study actually demonstrates from what remains uncosted or unverified.
 
