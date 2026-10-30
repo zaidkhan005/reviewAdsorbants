@@ -767,3 +767,16 @@ Primary source: AJOL PDF text, DOI 10.4314/bcse.v40i5.15. Modified-Hummers GO pl
 **Corrigendum:** Publisher corrigendum DOI10.1016/j.ijbiomac.2026.154444 directly refers to original DOI10.1016/j.ijbiomac.2026.153894. It says an erroneous Funding statement should be removed and that study results/conclusions are unchanged. PubMed's ErratumFor relation incorrectly points to DOI10.1016/j.ijbiomac.2026.154185 (PMID42636937), which is an unrelated polysaccharide-film paper. The ScienceDirect corrigendum page is authoritative for its relationship to the original adsorption study. Cite the original paper, and note the correction only if relevant to funding/declarations.
 
 **Use:** Provisional/abstract-level P2; not suitable for capacity ranking or detailed synthesis comparisons until the full text and supporting information are available. Search Zotero by original DOI and reconcile the actual Better BibTeX key before citation.
+
+---
+
+## SEM-050 supplementary cost-boundary audit — 31 October 2026
+
+**Study:** Lemaoui et al. (2026), GO–TOPO:LevA deep-eutectic-solvent membrane adsorber for tetracycline; DOI 10.1007/s42114-026-01808-5. Official Springer open-access article and supplementary materials were inspected; a targeted source query of Section 3.6 was used to separate the financial estimate from the carbon-footprint calculation.
+
+- Active-layer composition: approximately 46.8 wt.% GO and 53.2 wt.% TOPO:levulinic-acid DES; loading approximately 124 g/m².
+- Active-layer material estimate: USD 2.5–6.8/m², calculated from bulk-material price assumptions (GO USD 20–100/kg, levulinic acid approximately USD 2/kg, TOPO approximately USD 20/kg) and experimental composition/loading. The cited price sources/year/currency details are not fully specified in the accessible cost discussion.
+- Cradle-to-gate active-layer footprint: 14–59 kg CO₂-eq/m². The paper converts this to 0.02–0.08 kg CO₂-eq/m³ using a two-year service-life assumption and approximately 800 m³ treated per m² active layer (50 LMH throughput assumption). This is an environmental footprint normalization, not financial cost per cubic metre.
+- Regeneration: 0.1 M NaOH; estimated additional 1–3 g CO₂-eq/m³ for typical micropollutant polishing regimes.
+- Not reported: product yield; detailed process energy; financial cost per m³; financial cost per mass TET removed; complete membrane-module costs; full end-of-life/transport/module assembly impacts. The stated boundary is the active layer based on GO, LevA, TOPO and NaOH production, not a complete system LCA or TEA.
+- Accordingly, this is the strongest present example of a quantified active-layer material-price and carbon-footprint estimate, but it must not be described as a complete low-cost treatment result. The separate batch Figure 1b qe=22.7±0.6 mg/g still lacks a fully pinned C0/V/m denominator; SI A.4 baseline is 10 mg adsorbent in 10 mL at 10 mg/L (10 mg total feed), whose ceiling is 10 mg/g. Do not attach the qe=22.7 value to that baseline unless the source confirms another run condition.
