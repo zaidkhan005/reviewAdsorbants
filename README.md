@@ -162,3 +162,5 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 
 
 - SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
+
+- DOI intake queue currently contains 16 unique records; the three supplementary 2026 DOIs were checked against the five mounted BibTeX exports on 31 October and had no exact matches. SEM-047 remains P2/abstract-only.
