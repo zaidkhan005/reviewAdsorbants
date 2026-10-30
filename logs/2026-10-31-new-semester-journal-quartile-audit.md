@@ -39,3 +39,8 @@ Audited the journals attached to SEM-045–SEM-051 using the latest ranking edit
 - `data/journal-quartile-audit.csv`: Nanomaterials row updated; four missing journal rows added.
 - `data/semester-paper-candidate-register.csv`: SEM-045–SEM-051 ranking fields populated.
 - `data/semester-remaining-work-register.csv`: matching ranking-status fields updated.
+
+
+## Scope correction — 31 October 2026
+
+This journal-quartile audit was initiated before the user clarified that journal quartiles must be ignored for the semester paper. **It is not an active semester-paper task and must not influence SEM-001–SEM-051 eligibility, ranking, prioritisation, comparison-table inclusion or manuscript citation selection.** The 2025 ranking details remain only as shared reference metadata in the repository-wide journal audit; they are not a semester-paper requirement. The candidate and remaining-work registers have been reset to `Not applicable` for every semester candidate. Do not repeat or extend this quartile work for the semester manuscript.
