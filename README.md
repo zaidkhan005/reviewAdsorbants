@@ -34,7 +34,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
 - `data/semester-paper-candidate-register.csv`: **44 candidate records**.
-- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **39 active unique dedicated evidence records** (checked 2026-10-30 after consolidating the duplicate SEM-037 PRB entry into EV-SEM-040). Reused master-corpus evidence remains cross-referenced, not duplicated.
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **45 active dedicated evidence records** (latest check 31 October 2026). Reused master-corpus evidence remains cross-referenced, not duplicated.
 - `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 now has an exact-DOI BibTeX queue match; SEM-039 and SEM-040 also have source-linked evidence.
 - Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
 - The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
-- The Results/Discussion draft’s 15 citation keys remain reconciled against the 173-entry export. A separate Introduction/Scope draft adds four contextual sources with exact keys already present in that export; the curated working bibliography now has 19 entries across both files. The claim-to-evidence matrix maps 15 empirical study claims plus four contextual sources. Thirteen additional eligible candidates have a DOI intake queue, but none was present by DOI/title in the five exports checked and none has a verified key yet. The approximately 50-work target and final integrated style/claim audit remain pending.
+- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register now has 50 rows representing 49 DOI-defined studies after excluding the known SEM-041 alias of SEM-026. The dedicated evidence extraction has 45 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 20 unique original-study records: 17 were checked against the five mounted BibTeX exports on 31 October and had no match, while SEM-048/049/050 were added after that check and still require Zotero lookup. No new citekeys are guessed. The approximately 50-work target and final integrated style/claim audit remain pending.
 
 ## Current semester-paper working files
 
@@ -142,7 +142,7 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 39 active unique records after the SEM-037 duplicate was consolidated into EV-SEM-040 (verified 2026-10-30); reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
+The semester candidate register has **50 rows representing 49 DOI-defined studies**, after excluding SEM-041 as a duplicate alias of SEM-026. The dedicated evidence CSV has **45 active evidence records**; reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. Zotero metadata reconciliation and a fresh Better BibTeX export remain the next citation-workflow dependency.
 
 
 Current semester-paper evidence register: **39 active unique evidence rows** after consolidation of the duplicate SEM-037 PRB record into EV-SEM-040 (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
@@ -158,12 +158,12 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 
 - SEM-045 / EV-SEM-041: 2026 magnetic GO-supported Co-MOF for tetracycline; full RSC/PMC text audited, kinetic qe mass-balance flag and 10-cycle methanol regeneration.
 - SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; AJOL primary PDF text extracted, pharmaceutical-effluent testing, qe and real-sample arithmetic conflicts.
-- Both are in the candidate/evidence pool and expanded 16-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
+- Both are in the candidate/evidence pool and expanded 20-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
 
 
 - SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
 
-- DOI intake queue currently contains 16 unique records; the three supplementary 2026 DOIs were checked against the five mounted BibTeX exports on 31 October and had no exact matches. SEM-047 remains P2/abstract-only.
+- The Zotero DOI intake queue now contains20 unique original-study DOIs. Seventeen were checked against the five mounted BibTeX exports on31October and had no exact matches; SEM-048/049/050 were added after the historical check and still require Zotero lookup. SEM-047/SEM-048 remain abstract/preview-level candidates.
 
 - SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI is absent from the five mounted BibTeX exports; it is now in the expanded Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
 
@@ -177,3 +177,11 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - `manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md` — editable Mermaid source for the original preparation–adsorption–recovery–cost-boundary schematic.
 - `manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md` — editable Mermaid source for the conceptual CIP/TC–graphenic-surface interaction map, with evidence and inference limits.
 - `manuscript/SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md` — editable Mermaid source for the evidence-based performance–preparation–recovery–cost assessment framework.
+
+
+## Additional studies screened — 31 October 2026
+
+- **SEM-048 / EV-SEM-044:** rGO/Pr6O11 for CIP; publisher-preview evidence only. The reported Langmuir q_m is fitted, not observed uptake.
+- **SEM-049 / EV-SEM-045:** Alg-Cu@GO@MOF-525 for TC; full open-access article. High reported capacity endpoints require reconciliation of conflicting dose and concentration details.
+- **SEM-050 / EV-SEM-046:** GO–TOPO:LevA DES membrane for TET; full article and supplements reviewed. It provides the strongest current active-layer cost/carbon, membrane, leaching and spiked-municipal-water evidence, but the batch qe denominator and life-cycle boundary remain caveated.
+- A 2026 citric-acid-crosslinked CMC/GO bead paper (DOI 10.1080/16583655.2026.2613597) remains on hold: the exact target is relevant, but the full text could not be retrieved and no detailed evidence was extracted.
