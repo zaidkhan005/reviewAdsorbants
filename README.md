@@ -185,3 +185,5 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - **SEM-049 / EV-SEM-045:** Alg-Cu@GO@MOF-525 for TC; full open-access article. High reported capacity endpoints require reconciliation of conflicting dose and concentration details.
 - **SEM-050 / EV-SEM-046:** GO–TOPO:LevA DES membrane for TET; full article and supplements reviewed. It provides the strongest current active-layer cost/carbon, membrane, leaching and spiked-municipal-water evidence, but the batch qe denominator and life-cycle boundary remain caveated.
 - A 2026 citric-acid-crosslinked CMC/GO bead paper (DOI 10.1080/16583655.2026.2613597) remains on hold: the exact target is relevant, but the full text could not be retrieved and no detailed evidence was extracted.
+
+- SEM-050 is the strongest current cost-evidence candidate, but its USD 2.5–6.8/m² estimate is for active-layer material only; its 0.02–0.08 kg CO2-eq/m³ figure is a throughput-normalized footprint, not financial treatment cost. Full module and life-cycle boundaries remain incomplete.
