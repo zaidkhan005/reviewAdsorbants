@@ -317,3 +317,16 @@ The original RSC PDF (`d4ra01971g.pdf`) and official RSC supplementary informati
 - The Scenedesmus sp. assay reports 77% viability for treated NOR solution versus 36% for untreated control. That is a specific reduced-toxicity bioassay, not proof that all intermediates are harmless.
 
 **Disposition:** GAP-007 remains P1 and is now source-verified. Keep the 86.06% value as author-reported combined removal with LOQ and dose-basis caveats; do not describe it as a validated adsorption-only benchmark. Keep Table 1 kinetic fitted qe out of capacity ranking pending clarification. Updated `EV-B14-002`, `EV-B14-003`, `EV-B14-005` and `GAP-007` in the master evidence/gap registers.
+
+
+## P1 source verification — Du et al. (2025), DISC-017
+
+The original Elsevier PDF (`1-s2.0-S0926669025001955-main.pdf`) was retrieved from the Library and rendered for visual checking of Table 3, Fig. 5 and the real-wastewater section.
+
+- **Preparation:** PDF p. 2 states 10 g cotton husk was mixed with 15 mL of 10–40% H3PO4, stirred 15 min, pyrolysed 120 min at 300–700 °C under N2 (0.1 L/min; 5 °C/min), washed repeatedly to neutral pH, dried at 80 °C and ground. Selected PCH uses 30% acid and 600 °C. The main paper does not report product yield or a closed acid/washwater balance.
+- **Kinetics:** PDF pp. 3–6 / Table 1 and Fig. 4: 10 mg PCH in 100 mL (0.1 g/L), C0=30/60/120 mg/L; measured Qexp=281.4/410.4/599.8 mg/g and PSO fitted qtheo=279.2/407.2/592.2 mg/g. Preserve this distinction.
+- **Isotherm:** Table 3 on PDF p. 7 reports measured Qexp=524.1/572.8/621.4 mg/g at 288/298/308 K; Langmuir fitted Qm=496.4/523.0/572.8 mg/g. The abstract's “572.8 mg/g at 25 °C” is Table 3's measured Qexp at 298 K, not the fitted Langmuir Qm at 25 °C. Measured Qexp exceeds the fitted Langmuir asymptote by about 5.6–9.5% across the table. This is retained as a source-model discrepancy rather than silently changing the metric.
+- **Real wastewater:** §3.7 on PDF p. 9 treats real pharmaceutical secondary effluent with 1 g/L PCH at 120 rpm for 2 h, without pH adjustment. EEM fluorescence and color declined; CODCr fell 486.45→50.14 mg/L and TOC 71.63→21.33 mg/L. No target-specific CIP influent/effluent concentration is reported for this real-effluent experiment. It is therefore evidence of bulk organic-load/color improvement, not quantified real-water CIP removal.
+- **Cost:** the main paper reports PCH preparation cost US$3.98/kg and treatment estimate US$7.64/kg CIP, but points to SI Table S4. The SI was not included with the supplied PDF and has not been independently audited. No yield or complete acid/washwater/energy/labour/scale/regeneration/spent-media/LCA boundary is established from the main text.
+
+**Disposition:** GAP-008 remains P1. The real-water endpoint is now classified as a COD/TOC/EEM proxy, not target-specific CIP removal. Qexp and Langmuir Qm are separately represented; the US$3.98/kg figure remains a narrow author-reported estimate. Updated `EV-B04-004`, `EV-B04-006`, `EV-B04-008` and `GAP-008`.
