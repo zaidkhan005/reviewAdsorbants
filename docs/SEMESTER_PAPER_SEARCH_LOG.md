@@ -465,3 +465,12 @@ The three new candidate DOI strings were searched across all five available moun
 - SEM-050: 10.1007/s42114-026-01808-5 — no exact DOI match in any of the five files.
 
 This is a negative match in the five exported files, not proof that Zotero has no record in any unexported collection. Updated crosswalk, shortlist and citation-linkage rows to show the five-export search and left all three Better BibTeX keys blank. The queue contains **20 unique DOI records** with no duplicates. SEM-048 remains abstract/preview-only; SEM-049 and SEM-050 have primary full text, with the source-specific caveats in EV-SEM-045/046 and their shortlist rows.
+
+### SEM-050 financial vs environmental-cost boundary clarified — 31 October 2026
+
+A targeted query of Section 3.6 in the official Springer full text confirms the following distinction:
+- USD 2.5–6.8/m² is a material-price estimate for the **active layer** (using GO USD 20–100/kg, LevA ~USD 2/kg, TOPO ~USD 20/kg; full price-year/source currency details are not specified).
+- 14–59 kg CO2-eq/m² is the cradle-to-gate active-layer environmental footprint; conversion to 0.02–0.08 kg CO2-eq/m³ assumes a 2-year service life and ~800 m³/m² throughput at 50 LMH.
+- NaOH regeneration contributes 1–3 g CO2-eq/m³.
+- The article does **not** provide financial cost per treated m³ or per mass of TET removed, nor a full module/full lifecycle TEA/LCA; product yield and detailed synthesis energy are absent.
+This is a useful quantified active-layer economics example, but cannot be presented as proof that the whole treatment system is low-cost. The unresolved batch qe=22.7 mg/g denominator remains quarantined.
