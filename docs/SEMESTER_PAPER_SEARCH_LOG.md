@@ -486,3 +486,9 @@ Saheed et al. (2026), *Journal of Taibah University for Science* 20(1), article 
 - Three-cycle desorption: water60.35→52.95%,0.1M HCl58.35→51.80%,1M NaOH92.90→83.90%; desorption efficiency is not capacity retention.
 - Section3.7 reports author-estimated USD1.95/g TC removed from chemical purchase+energy costs under Malaysian tariff; formula uses q=277.78mg/g (linear qmax). Table8 itemized values, price year and sensitivity are not visible. The example says1g TC removed from1L while tested feeds span50–250mg/L and the200mg/L test has0.2g TC/L; denominator requires reconciliation. The 94.93% time-study point at200mg/L,20mL,20mg bead,pH4,120min implies derived qe≈189.86mg/g, separate from fitted qmax. No actual wastewater or financial cost per m3.
 - DOI checked against all five mounted Library BibTeX exports on31Oct2026; no exact match; no key assigned.
+
+## 39. Duplicate-row cleanup and current register totals — 31 October 2026
+
+The connector write batches partially persisted SEM-051 twice in the candidate register and EV-SEM-047 twice in the evidence extraction CSV. The duplicate rows were byte-identical; one copy of each was removed. The shortlist, crosswalk, linkage audit, mechanism matrix, feasibility matrix and condition-labelled comparison each contain a single SEM-051 row.
+
+Post-cleanup expected totals: 51 candidate-register rows (50 DOI-defined after SEM-041 alias removal); 46 active dedicated semester evidence records; 21 unique DOI records in the Zotero intake queue. SEM-051 is present in the candidate/evidence records but not cited in the unified manuscript until its actual Zotero Better BibTeX key is verified.
