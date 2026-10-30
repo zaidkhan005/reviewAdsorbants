@@ -164,3 +164,5 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
 
 - DOI intake queue currently contains 16 unique records; the three supplementary 2026 DOIs were checked against the five mounted BibTeX exports on 31 October and had no exact matches. SEM-047 remains P2/abstract-only.
+
+- SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI is absent from the five mounted BibTeX exports; it is now in the expanded Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
