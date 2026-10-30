@@ -1,7 +1,7 @@
 # Zotero DOI intake queue — semester graphene/CIP/TC manuscript
-# Prepared 30 October 2026 from the existing semester candidate register and evidence audits.
-# The 17 DOI entries that were in the queue on 31 October 2026 were searched by exact DOI across the five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries); none had an exact match in those exports.
-# Three newer DOIs (SEM-048/049/050) were added after that historical five-export check and have not yet been checked against those exports. Search Zotero by DOI before adding any metadata.
+# Prepared 30 October 2026 and reconciled against the semester candidate register on 31 October 2026.
+# The queue contains 21 unique DOI entries. All 21 DOI strings were searched by exact DOI across the five mounted Library Better BibTeX exports (173, 164, 164, 61 and 31 entries) on 31 October 2026; none had an exact match in those exports.
+# This does not rule out existing Zotero records in collections not represented by the five exports. Search Zotero itself by DOI before adding any metadata.
 # This queue is metadata intake only. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
