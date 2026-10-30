@@ -142,10 +142,10 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has **50 rows representing 49 DOI-defined studies**, after excluding SEM-041 as a duplicate alias of SEM-026. The dedicated evidence CSV has **45 active evidence records**; reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. Zotero metadata reconciliation and a fresh Better BibTeX export remain the next citation-workflow dependency.
+The semester candidate register has **51 rows representing 50 DOI-defined studies**, after excluding SEM-041 as a duplicate alias of SEM-026. The dedicated evidence CSV has **46 active evidence records**; reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. Zotero metadata reconciliation and a fresh Better BibTeX export remain the next citation-workflow dependency.
 
 
-Current semester-paper evidence register: **39 active unique evidence rows** after consolidation of the duplicate SEM-037 PRB record into EV-SEM-040 (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
+Current semester-paper evidence register: **46 active unique evidence rows** after consolidation of the duplicate SEM-037 PRB record into EV-SEM-040 (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
 
 ## Semester manuscript — unified working draft
 
@@ -158,12 +158,12 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 
 - SEM-045 / EV-SEM-041: 2026 magnetic GO-supported Co-MOF for tetracycline; full RSC/PMC text audited, kinetic qe mass-balance flag and 10-cycle methanol regeneration.
 - SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; AJOL primary PDF text extracted, pharmaceutical-effluent testing, qe and real-sample arithmetic conflicts.
-- Both are in the candidate/evidence pool and expanded 20-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
+- Both are in the candidate/evidence pool and expanded 21-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
 
 
 - SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
 
-- The Zotero DOI intake queue now contains20 unique original-study DOIs. Seventeen were checked against the five mounted BibTeX exports on31October and had no exact matches; SEM-048/049/050 were added after the historical check and still require Zotero lookup. SEM-047/SEM-048 remain abstract/preview-level candidates.
+- The Zotero DOI intake queue now contains21 unique original-study DOIs. Twenty-one DOIs are now in the queue; the 31 October five-export check found no exact matches for the new candidate DOIs. Search Zotero by DOI before metadata addition. SEM-047/SEM-048 remain abstract/preview-level candidates.
 
 - SEM-030 / EV-SEM-031: GO/[Ni(DMG)]n for CIP (2026) is an existing registered abstract-level P2 candidate. Its DOI is absent from the five mounted BibTeX exports; it is now in the expanded Zotero intake queue. The 2024 rGO/CIP/TC DFT study SEM-013 remains theory-only, not empirical adsorption evidence.
 
