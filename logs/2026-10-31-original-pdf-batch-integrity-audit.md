@@ -98,3 +98,28 @@ A further field-level audit of the 305 EV-B01–EV-B20 rows, after the five repa
 - No further malformed row was identified. Two domain labels flagged by a simple unit-text heuristic (“High-concentration capacity” and “HWW adsorption case-study map”) were examined and are normal labels, not misplaced data.
 
 No further evidence-cell repairs were made in this pass.
+
+
+## Targeted extraction-note ↔ master-evidence reconciliation
+
+### Batch 14 — complete representation, source caveats preserved
+- The 15 EV-B14 rows map to all three uploaded papers: Gopal & Mukherjee (5 rows), Delmond et al. (5 rows), and Shaha et al. (5 rows).
+- The source notes' key limits are carried into the master records: Gopal dose/LOD/LOQ inconsistencies and adsorption-plus-transformation boundary; Delmond's 12,179.5 mg/g fitted qmax remains quarantined against observed ≈2.8–4 mg/g uptake; Shaha's observed qe is distinguished from its 1000 µmol/g fitted qmax and the isotherm concentration window is separately recorded.
+- The longer source location in EV-B14-012 is intentional: it lists multiple printed page/table/figure locations, not a shifted field.
+- No missing master evidence row or further correction identified.
+
+### Batch 15 — complete representation, high-priority caveats preserved
+- The 13 EV-B15 rows map to Li et al. (2019) (3 rows), Adu-Poku et al. (2024) (4 rows), and Li et al. (2025) (6 rows).
+- Li et al. (2019): TMP is retained as the antibiotic endpoint and DCF remains explicitly non-antibiotic; the rendered-table µg units and low-concentration observed qe are distinguished from fitted isotherm Qm.
+- Adu-Poku et al. (2024): the abstract 0.5–2.5 mg/L versus Methods/Results 20–70 mg/L conflict and the kinetic qe mass-balance inconsistency are represented in the structured rows. DISC-026 is the correct candidate ID.
+- Li et al. (2025): the multi-step PGOT@GEL processing burden, high-concentration optimization, fitted qmax, binary CIP–Cu²⁺ effects, water-matrix results and seven-cycle performance are represented with separate metrics and limitations.
+- No missing master evidence row or further correction identified.
+
+### Batch 20 — complete representation; version comparison remains open
+- The 11 EV-B20 rows map to Liang et al. (2024) (4 rows), Pinheiro et al. (uploaded preprint v1; 3 rows), and Sousa et al. (2025) review (4 rows).
+- Liang et al.: reported removal, fitted qmax, four-cycle decline, magnetic recovery and the metal-salt/autoclave processing burden are represented separately. The missing SI table remains a source limitation.
+- Pinheiro et al.: the crosswalk records the uploaded Research Square DOI 10.21203/rs.3.rs-4331760/v1, while candidate CORP-023 retains the subsequent published DOI 10.1007/s11356-024-35293-4. The batch note and screening record correctly say the uploaded preprint was reviewed and the published abstract/headline capacities were cross-checked, but the published full methods/tables/supplement were not fully assessed. Keep all detailed kinetic/isotherm results as preprint-version evidence until this comparison is completed.
+- Sousa et al. remains review-level evidence; compiled values are not treated as independent primary observations.
+- No missing master evidence row or further correction identified.
+
+These are targeted note-to-register checks, not an independent second full-text reading of all 60 PDFs. All unresolved source disagreements and version limitations remain visible rather than being silently harmonized.
