@@ -31,3 +31,16 @@ Official publisher record: https://www.scljs1975.com/EN/10.16796/j.cnki.1000-377
 ## Next action
 
 Continue with candidate-specific scientific/source QA that can be performed from existing primary or indexed sources. SEM-035 can be advanced only when its full text/tables are accessible; otherwise retain its current caveat and do not repeat unsuccessful retrieval attempts.
+
+
+## Additional citation-linkage register reconciliation (31 October 2026)
+
+After reconciling the manuscript and DOI queue, the expanded 21-DOI check was propagated to:
+
+- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md`
+- `data/semester-bibtex-citation-linkage-audit.csv`
+- `data/semester-main-corpus-crosswalk.csv`
+- `data/semester-remaining-work-register.csv`
+- The README citation-readiness summary
+
+Validation found all 21 queued candidate IDs in each of the three CSV registers, with no incorrect row widths and the same 31 October check date. All 21 remain without a verified key in the five mounted exports. The 19 already-cited manuscript works and their citation keys remain unchanged; Zotero in-library searches are still required because unexported collections may contain existing records.
