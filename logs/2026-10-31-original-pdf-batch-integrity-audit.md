@@ -180,3 +180,17 @@ These are targeted note-to-register checks, not an independent second full-text 
 - García-Criado's abstract/method concentration mismatch, likely kinetic unit typo, >200,000 mg/g narrative qmax versus Table 2 and experimental qe ~1–1.6 mg/g, possible degradation at extreme pH, and spiked-matrix design remain explicit. Implausible qmax values are held out of quantitative rankings.
 - Li's abstract pore-volume discrepancy (276 cm³/g vs detailed main text 0.2951 cm³/g) is retained with the detailed main-text value and the abstract error flagged; 155–400 mg/g Langmuir Qm remains fitted; six-cycle removal loss to 40.6% is correctly characterized as a major regeneration weakness.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 11 — three primary adsorption studies reconciled
+- The 18 EV-B11 rows map to Kurczewska & Cegłowski (2025) halloysite/MIP alginate beads (6), Guesmi et al. (2025) magnetic Se-MOF/chitosan-alginate beads (5), and Nguyen et al. (2023) phosphoric-acid-activated sunflower-husk biochar (7).
+- Kurczewska's observed-versus-fitted capacities, the 277.6 mg/g reported uptake above the stated 250 mg/g feed ceiling, high-concentration spiked-water tests, soil results and five-cycle retention are kept distinct.
+- Guesmi's BBD “Yield (mmol/g)” label versus elsewhere-reported mg/g capacity, paper's “recovery” term for spiked wastewater, five-cycle decline, and absence of Se/Fe leaching/toxicity or process-cost evidence remain explicit. The repaired EV-B11-011 now correctly labels the regeneration domain.
+- Nguyen's ibuprofen comparator is not counted as an antibiotic; fitted Langmuir q_m, fitted kinetic q_e and measured removal remain separate. No product yield, full cost or deployment evidence is inferred from waste feedstock origin.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 13 — two reviews and one primary adsorption/desorption study reconciled
+- The 13 EV-B13 rows map to Li et al. (2024) magnetic-biochar review (3), Jia et al. (2024) biochar antibiotic-removal review (3), and Conde-Cid et al. (2021) primary pine-bark/oak-ash/mussel-shell sulfonamide study (7).
+- Both review sources are retained as secondary synthesis/citation-discovery only; reported capacity ranges and regeneration examples are not treated as new primary measurements or standardized rankings.
+- Conde-Cid's low molar adsorption amounts, µmol/kg units, strongly unequal sorbent doses, source text discrepancies (<40 vs <45%; <10 vs <15%), desorption as a one-step reversibility test (not multi-cycle regeneration), and Kd/Freundlich constants distinct from qmax are retained.
+- No missing master evidence row or source-pinpoint defect identified.
