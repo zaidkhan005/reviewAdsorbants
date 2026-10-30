@@ -427,3 +427,31 @@ The broader repository `data/corpus-evidence.csv` was scanned for evidence rows 
 These reviews can be used for conceptual mapping/citation discovery only; their compiled values are not added as new experimental results.
 
 **Outcome:** No new eligible empirical graphene/CIP/TC study was found in the existing broad master evidence corpus beyond the primary studies already represented in the semester register. No candidate IDs or evidence records were duplicated. This is a repository cross-check, not proof that the entire published literature has been exhaustively searched.
+
+
+## 36. Three additional primary graphenic studies — 31 October 2026
+
+### SEM-048 / EV-SEM-044 — rGO/Pr6O11 for CIP (2026)
+- Panda et al., *Journal of Molecular Structure* 1365 (2026), article145993; DOI10.1016/j.molstruc.2026.145993. Official ScienceDirect abstract and indexed Methods/Conclusion snippets; full text access-gated.
+- Abstract: C0=10mg/L,pH6.6,298K,dose0.4g/L,time160min; removal88%, while Conclusion says88.3%. Langmuir fitted qm85.5mg/g; PSO kinetics; abstract ΔH°−14.23kJ/mol and ΔG°−6.02kJ/mol; four-cycle capacity retention85.8%.
+- Methods snippet: ethanol–water desorption14h, followed by3–4 rinses with0.1M HCl. Exact synthesis, qe, fit tables, matrix tests and costs unavailable. Keep as preview-level P2; do not capacity-rank.
+
+### SEM-049 / EV-SEM-045 — Alg-Cu@GO@MOF-525 for TC (2022)
+- Chen et al., *Nanomaterials* 12(17) (2022),2897; DOI10.3390/nano12172897; open PMC full text https://pmc.ncbi.nlm.nih.gov/articles/PMC9458214/.
+- Copper-crosslinked alginate/GO beads with in-situ MOF-525; recipe uses3g alginate+1.8g GO,0.3M CuSO4 crosslinking, then MOF growth with benzoic acid, ZrOCl2·8H2O, H4TCPP and DMF at353K/24h; activate393K.
+- Results include96.6% removal atpH7,54.6% within38min, and source-reported qe≈700mg/g at low dosage (exact qe condition not fully pinned). Sips fitted qm533.2mg/g at318K; Langmuir fitted qm501.1mg/g.
+- Major source caveats: stated normal dose0.5mg/mL at200mL conflicts dose series2–20mg; Methods C0 80–280mg/L conflicts Table3 80–240 and Table3 unit appears mg/mL. Low-dose qe≈700mg/g cannot be mass-balance checked without exact C0/dose/volume; no real-water, reuse, cost or energy tests.
+
+### SEM-050 / EV-SEM-046 — GO–TOPO:LevA DES membrane adsorber for TET (2026)
+- Lemaoui et al., *Advanced Composites and Hybrid Materials* 9, article260 (2026), published22 Apr2026; DOI10.1007/s42114-026-01808-5. Open-access full article and ESM2 DOCX/ESM3 XLSX inspected.
+- Composite uses GO with equimolar1:1 TOPO:levulinic acid DES. ESM recipe includes improved-Hummers GO (5g graphite,500mL97%H2SO4,30gKMnO4), washing and drying; 100mg GO anchored with3mL DES+3mL methanol, ultrasound1h, shake4h, stand overnight, vacuum-filter on Celgard and dry40°C/8h. Active layer≈46.8wt%GO/53.2wt%DES, areal loading≈124g/m².
+- Baseline SI batch setup10mg adsorbent/10mL TET, C0=10mg/L,3h,250rpm,25°C. Fig1b reports GO-DES qe22.7±0.6mg/g and E90.8±2.5%, but exact C0/V/m for that comparison is not clearly linked; SI baseline feed ceiling10mg/g, so hold until exact experiment denominator is reconciled. Langmuir fitted qmax323.6mg/g is separate.
+- Membrane test on prefiltered Abu Dhabi municipal wastewater (TOC148,COD349mg/L and major ions) deliberately spiked with TET and co-spiked drug mixtures. Reported TET at5mg/L qe17.3±0.5mg/g; multi-drug spiked matrix TET removal85.4±1.8%, qe16.9mg/g; at500/1000µg/L, removals97.8/95.4%. Gravity flow≈7.5mL/min, flux916.7LMH, pressure drop299.8Pa.
+- Six-cycle regeneration with0.1M NaOH (50mg membrane/30mL,200rpm/3h RT); GO-DES retains65.4±0.9%, pristine GO30.4±1.2%. Static/dynamic TOC leaching cumulatively below≈2%.
+- Process economics: active-layer estimate2.5–6.8USD/m², cradle-to-gate GWP14–59kgCO2-eq/m², normalized0.02–0.08kgCO2-eq/m³ using assumed2yr lifetime/≈800m³/m² at50LMH; NaOH regeneration adds1–3gCO2-eq/m³. Boundary is active layer only, not complete module/full life cycle; transport, module assembly and end-of-life incompletely included. No product yield.
+- This is the strongest current process-economics case, but batch qe denominator and cost boundary must remain explicit; real municipal wastewater was prefiltered and antibiotic-spiked, not native antibiotic-bearing influent. ANN was trained on synthetic TET-water only.
+
+### Access-limited hold
+- DOI10.1080/16583655.2026.2613597, citric-acid-crosslinked CMC/GO beads for TC: Taylor & Francis record identifies an exact TC/GO bead study, published online18 Jan2026, but full page retrieval was blocked and detailed methods/results could not be audited. Keep on a hold list, not in the active candidate/evidence count until more source material is available.
+
+Updated counts at this checkpoint: candidate register50 rows,49 distinct DOI-defined candidate records after excluding the SEM-041 alias; dedicated evidence45 rows; crosswalk/linkage50 rows; mechanism and feasibility matrices21 rows each; Zotero queue20 DOIs. Seventeen queue entries were checked against the five mounted BibTeX exports on31Oct; SEM-048/049/050 were added after that check and still need Zotero lookup. The manuscript remains19 cited works pending real keys, and none of the three new candidates is cited yet.
