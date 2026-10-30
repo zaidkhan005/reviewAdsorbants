@@ -25,7 +25,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 ### Broad antibiotic-adsorption review
 - `data/corpus-screening-register.csv`: **111 unique candidate records**.
 - `data/corpus-evidence.csv`: **505 unique evidence rows**. These are evidence findings, not papers or accepted references; provisional and staged rows remain visibly flagged.
-- `data/journal-quartile-audit.csv`: **41 journal records**.
+- `data/journal-quartile-audit.csv`: **45 journal metadata records** in the shared inventory (broader-review metadata only; never a semester-paper screening criterion).
 - The 2026-10-29 Better BibTeX processing queue has **164 entries**. The current audit reports 58 entries not yet in the screening register, 11 newly registered candidates DISC-069–DISC-079, and 16 provisional online/indexed evidence rows. None of these counts proves final inclusion or Q1 eligibility.
 - `data/primary-study-comparison-matrix.csv` is a focused 208-row subset covering 43 candidate IDs; it is not a completed matrix for all 505 evidence rows.
 - The broad review remains structured around the original processing–cost–performance continuum across eight material classes. `DISC-022` remains deferred in the historic broad-review register, not screened or excluded.
@@ -174,7 +174,7 @@ Current semester-paper evidence register: **46 active unique evidence rows** aft
 ## Core study comparison table
 
 - `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md` — 15-study comparison of target/material, operating context, observed endpoint, fitted parameter, recovery and evidence caveat. The SEM-038 N-rGO row is explicitly cross-referenced to master records EV-B10-004–EV-B10-009, not duplicated.
-- `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (27 rows, including the SEM-038 master-evidence cross-reference).
+- `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (28 rows, including the SEM-038 master-evidence cross-reference).
 - `manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md` — editable Mermaid source for the original scope/material-taxonomy figure, based on the approved scope proposal.
 - `manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md` — editable Mermaid source for the original preparation–adsorption–recovery–cost-boundary schematic.
 - `manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md` — editable Mermaid source for the conceptual CIP/TC–graphenic-surface interaction map, with evidence and inference limits.
@@ -186,8 +186,8 @@ Current semester-paper evidence register: **46 active unique evidence rows** aft
 - **SEM-048 / EV-SEM-044:** rGO/Pr6O11 for CIP; publisher-preview evidence only. The reported Langmuir q_m is fitted, not observed uptake.
 - **SEM-049 / EV-SEM-045:** Alg-Cu@GO@MOF-525 for TC; full open-access article. High reported capacity endpoints require reconciliation of conflicting dose and concentration details.
 - **SEM-050 / EV-SEM-046:** GO–TOPO:LevA DES membrane for TET; full article and supplements reviewed. It provides the strongest current active-layer cost/carbon, membrane, leaching and spiked-municipal-water evidence, but the batch qe denominator and life-cycle boundary remain caveated.
-- A 2026 citric-acid-crosslinked CMC/GO bead paper (DOI 10.1080/16583655.2026.2613597) remains on hold: the exact target is relevant, but the full text could not be retrieved and no detailed evidence was extracted.
+- **SEM-051 / EV-SEM-047:** the prior hold note saying that no detailed evidence had been extracted is superseded. Publisher-indexed article text has since been used for a preliminary evidence extraction, but a complete primary full-text/methods/tables audit is still unavailable; see the detailed source and cost caveat below.
 
 - SEM-050 is the strongest current cost-evidence candidate, but its USD 2.5–6.8/m² estimate is for active-layer material only; its 0.02–0.08 kg CO2-eq/m³ figure is a throughput-normalized footprint, not financial treatment cost. Full module and life-cycle boundaries remain incomplete.
 
-- SEM-051 / EV-SEM-047: 2026 citric-acid-crosslinked CMC/GO beads for TC. Publisher-indexed full article text reports an author-estimated USD1.95/g-TC adsorption cost using fitted qmax; condition and functional-unit caveats are material. DOI absent from five mounted BibTeX exports; no key assigned.
+- SEM-051 / EV-SEM-047: 2026 citric-acid-crosslinked CMC/GO beads for TC. Publisher-indexed article text supports preliminary extraction of the reported 94.93% removal at the stated batch conditions, fitted Langmuir qmax values, three-cycle desorption figures and an author-estimated USD1.95/g-TC using fitted qmax. This is not a complete full-text/table audit; the cost denominator and input assumptions are insufficiently documented for direct comparison with SEM-050 or a full treatment-cost claim. DOI absent from five mounted BibTeX exports; no key assigned.
