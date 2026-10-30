@@ -739,3 +739,16 @@ The approved semester scope includes GO, rGO, surface-functionalized GO/rGO, and
 **Mechanism, cost and lifetime:** Authors propose hydrophobic interaction, electrostatic interaction, ion exchange, hydrogen bonding and pore filling. The publisher explicitly states that PRB lifetime and cost were calculated. However, the numeric lifetime/cost outputs, cost basis, material quantities, replacement assumptions, design geometry and sensitivity analysis were not accessible. Therefore, report only that the authors performed lifetime/cost calculations; do not quote a number or call the design low-cost without examining the full calculation. Regeneration/reuse is not described in the accessible abstract/indexed record.
 
 **Manuscript disposition:** Retain as a high-value application study connecting GO-based composite adsorption to groundwater PRB design. Present the 100 mg/g abstract-stated maximum capacity at pH 7 as a source-reported capacity with model label unresolved; report PSO/Freundlich and 72 h equilibrium as stated. Discuss flow-through column/model evidence separately from batch adsorption. The cost/lifetime calculation is a distinctive feature, but numerical outputs and assumptions remain an explicit full-text follow-up.
+
+
+---
+
+## SEM-045 / EV-SEM-041 — Jahan et al. (2026), magnetic GO-supported cobalt MOF for TC
+
+Primary source: RSC/PMC full text, DOI 10.1039/d6ra02920e, *RSC Advances* 16(41) (2026), 49206–49219. m-GO/Co-MOF is built from spent Li-ion battery graphite-derived GO, Fe3O4 magnetic modification and Co/2-methylimidazole MOF. Preparation includes graphite purification, improved-Hummers oxidation, Fe salts/NaOH, Co-MOF in methanol, solvent washing and vacuum drying. No yield or cost/energy inventory.
+
+Batch conditions:20mL;250rpm;pH3–11;dose0.05–0.6g/L;C0 0.05–10mg/L;time1–60min;temperatures25/35/45°C. Abstract condition C0=0.2mg/L,dose0.1g/L,pH7,25°C gives98% removal; Fig.4 time text says~97% at20–30min. At this condition feed ceiling2mg/g and 98% implies~1.96mg/g. Table2 PSO fitted qe=19.5198mg/g is inconsistent and must not be treated as observed. Table3 Langmuir qm=74.18/127.71/185.87mg/g at25/35/45°C; 185.87mg/g exceeds100mg/g feed ceiling at max C0=10mg/L/dose0.1g/L. Methanol regeneration:10 cycles, removal about98→91%. No real-water, competitor, DOM or monetized cost/energy evidence.
+
+## SEM-046 / EV-SEM-042 — Tekle Tegie et al. (2026), ZrO2–Fe3O4/GO for CIP
+
+Primary source: AJOL PDF text, DOI 10.4314/bcse.v40i5.15. Modified-Hummers GO plus FeCl3/FeSO4, zirconium nitrate and NaOH co-precipitation, sonication, heating, washing/drying. 30-run CCD/RSM; dose0.1–0.5g/100mL, C0 10–50mg/L, time15–75min, pH5–9. Optimum C0=30mg/L,dose0.3g/100mL,pH7,45min,100mL; removal93.92%. Source qe=20.11mg/g cannot reconcile with feed ceiling10mg/g; 93.92% implies9.392mg/g. Langmuir qm=313.48mg/g is fitted. Real-effluent CIP8.37→2.01mg/L computes76.0%, not90.75%. Eight-cycle reuse uses water/acetone/methanol; abstract85.45%, body85.7%. No cost, yield or energy. AJOL issue metadata40(5) conflicts with PDF footer40(6). Zotero key pending.
