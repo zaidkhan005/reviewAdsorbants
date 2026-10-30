@@ -474,3 +474,15 @@ A targeted query of Section 3.6 in the official Springer full text confirms the 
 - NaOH regeneration contributes 1–3 g CO2-eq/m³.
 - The article does **not** provide financial cost per treated m³ or per mass of TET removed, nor a full module/full lifecycle TEA/LCA; product yield and detailed synthesis energy are absent.
 This is a useful quantified active-layer economics example, but cannot be presented as proof that the whole treatment system is low-cost. The unresolved batch qe=22.7 mg/g denominator remains quarantined.
+
+## 38. Reopened access-limited hold: SEM-051 / CMC–GO citric-acid-crosslinked beads for TC — 31 October 2026
+
+Saheed et al. (2026), *Journal of Taibah University for Science* 20(1), article 2613597, DOI 10.1080/16583655.2026.2613597. Publisher page: https://www.tandfonline.com/doi/full/10.1080/16583655.2026.2613597. Publisher-indexed full article text exposes methods, results and economic analysis; direct page fetch and downloadable table cells remain access-limited.
+
+- Material: citric-acid-crosslinked CMC/GO beads. GO by modified-Hummers oxidation (2g graphite,2g NaNO3,46mL conc. H2SO4,6g KMnO4,50°C/4h, water/H2O2 quench,5%HCl wash). Bead uses1g CMC,0.2g GO,0.5g citric acid,60°C/2h,1M NaOH hardening24h and40°C drying. Yield not reported.
+- Separate tests: C0=50–250mg/L (20mg beads/20mL,pH7,120min); pH2–12 atC0=200mg/L; time5–720min atC0=200mg/L,pH4; temperature25/40/60°C atC0=200mg/L,pH7. Method wording conflicts on variable bead dose.
+- Removal: pH70.01% at2 rising to97.34% at4; time44.80% at5min to94.93% at120min; concentration74.64% at50mg/L to60.08% at250mg/L; temperature68.60/79.95/90.75% at25/40/60°C.
+- Langmuir fitted qmax=267.11mg/g nonlinear and277.78mg/g linear; Hill fits best overall. Abstract qmax condition200mg/L neutral pH,5mg bead; Fig8/Table3 caption says20mg bead,pH7,2h. Fitted qmax is not observed qe.
+- Three-cycle desorption: water60.35→52.95%,0.1M HCl58.35→51.80%,1M NaOH92.90→83.90%; desorption efficiency is not capacity retention.
+- Section3.7 reports author-estimated USD1.95/g TC removed from chemical purchase+energy costs under Malaysian tariff; formula uses q=277.78mg/g (linear qmax). Table8 itemized values, price year and sensitivity are not visible. The example says1g TC removed from1L while tested feeds span50–250mg/L and the200mg/L test has0.2g TC/L; denominator requires reconciliation. The 94.93% time-study point at200mg/L,20mL,20mg bead,pH4,120min implies derived qe≈189.86mg/g, separate from fitted qmax. No actual wastewater or financial cost per m3.
+- DOI checked against all five mounted Library BibTeX exports on31Oct2026; no exact match; no key assigned.
