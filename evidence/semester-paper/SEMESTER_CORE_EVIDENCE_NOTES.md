@@ -752,3 +752,18 @@ Batch conditions:20mL;250rpm;pH3–11;dose0.05–0.6g/L;C0 0.05–10mg/L;time1�
 ## SEM-046 / EV-SEM-042 — Tekle Tegie et al. (2026), ZrO2–Fe3O4/GO for CIP
 
 Primary source: AJOL PDF text, DOI 10.4314/bcse.v40i5.15. Modified-Hummers GO plus FeCl3/FeSO4, zirconium nitrate and NaOH co-precipitation, sonication, heating, washing/drying. 30-run CCD/RSM; dose0.1–0.5g/100mL, C0 10–50mg/L, time15–75min, pH5–9. Optimum C0=30mg/L,dose0.3g/100mL,pH7,45min,100mL; removal93.92%. Source qe=20.11mg/g cannot reconcile with feed ceiling10mg/g; 93.92% implies9.392mg/g. Langmuir qm=313.48mg/g is fitted. Real-effluent CIP8.37→2.01mg/L computes76.0%, not90.75%. Eight-cycle reuse uses water/acetone/methanol; abstract85.45%, body85.7%. No cost, yield or energy. AJOL issue metadata40(5) conflicts with PDF footer40(6). Zotero key pending.
+
+
+---
+
+## SEM-047 / EV-SEM-043 — Amin et al. (2026), magnetic GO/NH2-UiO-66(Zr)/alginate for TC
+
+**Original paper:** *International Journal of Biological Macromolecules* 381(Pt 1) (2026), article 153894; DOI 10.1016/j.ijbiomac.2026.153894; PMID 42546939. Official publisher page: https://www.sciencedirect.com/science/article/pii/S0141813026038407.
+
+**Material:** GO/NH2-UiO-66(Zr)/SA@Fe3O4 magnetic porous hydrogel combining graphene oxide, amino-functionalized Zr-MOF, magnetite and sodium alginate. Publisher preview materials snippet names sodium alginate, 2-aminoterephthalic acid, ZrCl4, FeCl2·4H2O, Fe(III) salt, graphite, NH4OH, DMF and tetracycline hydrochloride. Full recipes, ratios, washing/drying, yield and preparation energy remain gated; do not invent them.
+
+**Abstract conditions/results:** RSM/CCD optimum pH5.5, contact44min, dose1.0g/L, initial TC10mg/L; reported removal98.5%. Abstract reports Sips as best equilibrium model and double-exponential kinetics; separately lists Langmuir fitted qm=161.4mg/g (not observed qe). Ten adsorption/desorption cycles retain >80% removal efficiency. River-water test with multiple interferents reports89.34% removal, but the sample/spiking basis and exact conditions require full text. No regeneration eluent or cost/energy inventory is accessible in the publisher preview.
+
+**Corrigendum:** Publisher corrigendum DOI10.1016/j.ijbiomac.2026.154444 directly refers to original DOI10.1016/j.ijbiomac.2026.153894. It says an erroneous Funding statement should be removed and that study results/conclusions are unchanged. PubMed's ErratumFor relation incorrectly points to DOI10.1016/j.ijbiomac.2026.154185 (PMID42636937), which is an unrelated polysaccharide-film paper. The ScienceDirect corrigendum page is authoritative for its relationship to the original adsorption study. Cite the original paper, and note the correction only if relevant to funding/declarations.
+
+**Use:** Provisional/abstract-level P2; not suitable for capacity ranking or detailed synthesis comparisons until the full text and supporting information are available. Search Zotero by original DOI and reconcile the actual Better BibTeX key before citation.
