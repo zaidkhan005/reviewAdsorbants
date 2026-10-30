@@ -58,6 +58,8 @@ The aim of this paper is to assess the adsorption behaviour and practical low-co
 
 ## 2. Scope, search strategy and evidence method
 
+The approved material taxonomy and eligibility gates are summarized in [Figure 1](SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md). The diagram distinguishes the two included graphene families from standalone non-graphene sorbents and keeps CIP and TC target identities separate.
+
 ### 2.1. Material and antibiotic eligibility
 
 The core scope comprises two material families and two target antibiotics. **Family A** includes graphene oxide (GO), reduced graphene oxide (rGO) and surface-functionalized GO/rGO derivatives, provided target-specific adsorption data for CIP and/or TC are available. **Family B** includes selected magnetic GO/rGO composites, chemically functionalized magnetic graphene, graphene–polymer/cellulose or immobilized graphene composites, and graphene–metal-oxide composites only when the adsorption contribution can be separated from catalytic or oxidative removal.
