@@ -13,6 +13,11 @@ This directory contains human-readable, source-linked extraction notes for the r
 
 - [2026-10-31 — original PDF batch integrity audit](../logs/2026-10-31-original-pdf-batch-integrity-audit.md) — confirms original Batches 01–20 evidence-row counts, documents five master-CSV field repairs, and records verified Library filename matches for Batches 03 and 08 (plus Batch 12's CNT PDF).
 
+## Provenance and integrity audit
+
+- [2026-10-31 — original PDF batch integrity audit](../logs/2026-10-31-original-pdf-batch-integrity-audit.md) — confirms the original Batches 01–20 notes, repairs five malformed evidence rows and verifies the complete 60-paper attachment-to-evidence mapping.
+- [Original PDF batch attachment crosswalk](../data/original-pdf-batch-attachment-crosswalk.csv) — 60 uploaded-paper records mapped to Library filenames, DOI, candidate IDs, source-batch evidence IDs and extraction notes.
+
 ## Previous PDF batches
 
 - [2026-10-25-batch-01](2026-10-25-batch-01.md)
