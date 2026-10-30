@@ -64,10 +64,10 @@ The Batch 12 MWCNT-E paper by Oliveira et al. (2024), DOI 10.1016/j.jclepro.2024
 ## Limits and remaining audit work
 
 - The original 20 batch notes preserve paper titles, DOIs, extracted results and PDF source pinpoints, but they do not consistently preserve the exact uploaded attachment filename for every PDF.
-- The attachment checks above confirm file availability and identity for Batch 03 and Batch 08 (plus one Batch 12 item), not all 60 batch PDFs. The exact filename-to-paper mapping for the remaining batches is still open and must be built from the Library attachments, not guessed.
+- The complete 60-paper filename-to-paper mapping is now recorded in `data/original-pdf-batch-attachment-crosswalk.csv`; the earlier Batch 03/08/12 subset listed above is retained as illustrative detail, not as the full extent of the completed mapping.
 - All 60 paper records have not yet been independently re-read in this continuation. A candidate having evidence rows, or a batch note saying “reviewed”, is not by itself proof that every possible evidence domain is complete.
 - The blank 300-slot `data/new-paper-upload-batch-tracker.csv` is a separate future-upload tracker introduced on 28 October. It is not the historical register for original Batches 01–20 and must not be used to infer that those batches were not processed.
-- No scientific result, inclusion decision, manuscript claim or quartile entry was changed in this audit. Only the five malformed master evidence rows were structurally repaired.
+- No scientific result, inclusion decision, manuscript claim or quartile entry was changed in this audit. Only the five malformed master evidence rows were structurally repaired; the subsequent 60-paper crosswalk adds provenance metadata without altering evidence.
 
 
 ## Complete original PDF attachment crosswalk — 2026-10-31
@@ -86,3 +86,15 @@ Validation:
 - Duplicate Library copies of some papers are listed in the filename field when confirmed. They do not represent additional studies or add evidence counts.
 
 This closes the original batch-level **attachment-to-evidence mapping**. It does not mean every original article has been independently re-read again in this continuation. The full-text extraction notes, 305 source-pinned rows and their caveats remain the scientific extraction record. The remaining substantive work is targeted paper-level completeness/claim QA, not locating the original 20 batches or recreating their evidence.
+
+
+## Post-crosswalk master evidence QA — 2026-10-31
+
+A further field-level audit of the 305 EV-B01–EV-B20 rows, after the five repairs, found:
+- 305/305 rows have the expected 15 columns.
+- Zero blank values in Evidence domain, Experimental design / conditions, Reported result, Value / units, Model / metric, Source location, Evidence status or Caveat / follow-up.
+- Zero missing recognizable PDF-page/table/figure/section source pinpoints.
+- One long Evidence domain label and one long source-location field are valid descriptive values, not shifted cells.
+- No further malformed row was identified. Two domain labels flagged by a simple unit-text heuristic (“High-concentration capacity” and “HWW adsorption case-study map”) were examined and are normal labels, not misplaced data.
+
+No further evidence-cell repairs were made in this pass.
