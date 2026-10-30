@@ -68,7 +68,7 @@ Updated existing records without creating a duplicate evidence ID:
 - `data/semester-remaining-work-register.csv`: source audit closed; citation selection/key remains pending.
 - `data/semester-paper-candidate-register.csv`: updated disposition and next action.
 - `data/semester-study-inclusion-shortlist.csv`: updated numeric-use rule and source caveats.
-- `README.md`: comparison count updated to 30 rows.
+- `README.md`: comparison count updated to 31 rows.
 
 ## 8. Citation status
 
