@@ -50,6 +50,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 ## Current semester-paper working files
 
 - `data/semester-remaining-work-register.csv` — 51-row candidate-specific remaining-work register, reconciled on 31 October 2026; see [the continuation reconciliation log](logs/2026-10-31-continuation-register-reconciliation.md).
+- `data/journal-quartile-audit.csv` — 2025 SJR/JCR audit, including category-specific checks for SEM-045–SEM-051; see [the 31 October semester journal-quartile audit](logs/2026-10-31-new-semester-journal-quartile-audit.md).
 - `data/semester-condition-labelled-comparison.csv` — a 28-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 46 active dedicated evidence records.
