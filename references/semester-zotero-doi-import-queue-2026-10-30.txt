@@ -1,9 +1,12 @@
 # Zotero DOI intake queue — semester graphene/CIP/TC manuscript
 # Prepared 30 October 2026 from the existing semester candidate register and evidence audits.
-# Each DOI below was checked against all five available Library BibTeX exports (173, 164, 164, 61 and 31 entries) and had no exact DOI match.
+# The original 13 DOIs below were checked against all five available Library BibTeX exports (173, 164, 164, 61 and 31 entries) and had no exact DOI match.
+# Two additional 2026 full-text candidates (SEM-045/046) were discovered after that check and have not yet been checked against those exports; search Zotero by DOI before adding.
 # This queue is metadata intake only. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
+10.1039/d6ra02920e           # SEM-045 — magnetic GO/Co-MOF for TC; kinetic fitted qe exceeds same-condition mass-balance ceiling; qm is fitted; 10-cycle reuse
+10.4314/bcse.v40i5.15        # SEM-046 — ZrO2-Fe3O4/GO for CIP; pharmaceutical-effluent test; qe and real-sample removal arithmetic conflicts; qm is fitted
 10.1371/journal.pone.0079254   # SEM-001 — GO/TC; source temperature-series inconsistency
 10.1016/j.jcis.2018.03.003    # SEM-006 — DTPA-functionalized magnetic GO; fitted kinetic qe only; SI incomplete
 10.1186/s11671-018-2814-9     # SEM-007 — MnFe2O4/rGO; observed TC uptake and HCl reuse; cycle-count mismatch
