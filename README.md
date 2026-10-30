@@ -161,7 +161,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 ## New semester candidate additions — 30 October 2026
 
 - SEM-045 / EV-SEM-041: 2026 magnetic GO-supported Co-MOF for tetracycline; full RSC/PMC text audited, kinetic qe mass-balance flag and 10-cycle methanol regeneration.
-- SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; AJOL primary PDF text extracted, pharmaceutical-effluent testing, qe and real-sample arithmetic conflicts.
+- SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; official AJOL PDF audited. All three Figure 5 qe values exceed the stated-condition feed-mass ceiling; Langmuir q_m is from the poorer-fitting model; real-effluent concentration pair computes 76.0%, not the reported 90.75%. AJOL Vol.40 No.5 metadata conflicts with an extracted PDF running footer marked 40(6).
 - Both are in the candidate/evidence pool and expanded 21-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
 
 
