@@ -68,3 +68,21 @@ The Batch 12 MWCNT-E paper by Oliveira et al. (2024), DOI 10.1016/j.jclepro.2024
 - All 60 paper records have not yet been independently re-read in this continuation. A candidate having evidence rows, or a batch note saying “reviewed”, is not by itself proof that every possible evidence domain is complete.
 - The blank 300-slot `data/new-paper-upload-batch-tracker.csv` is a separate future-upload tracker introduced on 28 October. It is not the historical register for original Batches 01–20 and must not be used to infer that those batches were not processed.
 - No scientific result, inclusion decision, manuscript claim or quartile entry was changed in this audit. Only the five malformed master evidence rows were structurally repaired.
+
+
+## Complete original PDF attachment crosswalk — 2026-10-31
+
+The file `data/original-pdf-batch-attachment-crosswalk.csv` now provides the paper-level mapping for all 60 paper records in original Batches 01–20. Each row records the batch and paper slot, candidate ID, title, DOI of the uploaded version, Library attachment filename(s), match status, source-batch master evidence IDs, evidence-row count, extraction-note path and disposition caveat.
+
+Validation:
+- 60 paper records mapped to 60 distinct batch slots.
+- 60/60 attachment identities matched by indexed Library PDF title/DOI evidence.
+- 305 original batch-specific evidence IDs mapped to the corresponding 60 paper records.
+- The total per-batch evidence counts in the crosswalk reconcile exactly to the canonical master table: B01 19, B02 20, B03 10, B04 19, B05 18, B06 17, B07 19, B08 18, B09 22, B10 15, B11 18, B12 5, B13 13, B14 15, B15 13, B16 15, B17 13, B18 12, B19 13 and B20 11.
+- All 305 evidence IDs are unique in the crosswalk; no evidence row is mapped twice.
+- The one paper with zero evidence rows is CORP-062 (Gillespie & Penny, 2022), which is explicitly documented as a full-text-confirmed unrelated exclusion in Batch 03. It has no adsorption evidence row by design.
+- Candidate DISC-026 is now linked to the Adu-Poku 2024 acid-activated coconut-husk/amoxicillin PDF in Batch 15.
+- Two similar Bioresource Technology PIIs have been distinguished: Batch 02 Jiao et al. (2024), DOI 10.1016/j.biortech.2024.130394, is `1-s2.0-S096085242400097X-main.pdf`; Batch 04 Na et al. (2024), DOI 10.1016/j.biortech.2023.130281, is `1-s2.0-S0960852423017091-main.pdf`. They are separate studies and separate attachments.
+- Duplicate Library copies of some papers are listed in the filename field when confirmed. They do not represent additional studies or add evidence counts.
+
+This closes the original batch-level **attachment-to-evidence mapping**. It does not mean every original article has been independently re-read again in this continuation. The full-text extraction notes, 305 source-pinned rows and their caveats remain the scientific extraction record. The remaining substantive work is targeted paper-level completeness/claim QA, not locating the original 20 batches or recreating their evidence.
