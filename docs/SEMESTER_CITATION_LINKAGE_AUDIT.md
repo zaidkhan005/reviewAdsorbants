@@ -76,3 +76,20 @@ On 31 October 2026, all 21 DOI strings were searched by exact DOI across the fiv
 **No exact DOI match was found for any of the 21 queued records.** This result does not establish that the records are absent from Zotero: items in collections not represented by these five exports may still exist. Search Zotero itself by exact DOI before adding metadata, to avoid duplicates. If an item is absent, add/verify metadata, export a fresh Better BibTeX file and use only the generated key. Do not guess or manually construct citekeys.
 
 The candidate-level linkage audit, main-corpus crosswalk and remaining-work register now carry the 31 October result for all 21 queued candidate IDs. The current manuscript's 19 existing cited works and their verified keys were not changed. Candidate/evidence records in the queue are not automatically eligible for citation and do not count toward the approximately 50-works-cited target until selected and actually cited.
+
+
+## 2026-10-31 latest complete Zotero My Library export check
+
+The user supplied `full ++ check again(1).bib`, identified as the latest complete Zotero My Library export. The file contains:
+
+- **173 BibTeX entries**
+- **173 unique citation keys**
+- **170 DOI fields**
+- **168 unique DOI values**
+- Two duplicate DOI groups: `10.1016/j/envres.2021.111091` (keys `ashiqCarbonbasedAdsorbentsFluoroquinolone2021a` and `ashiqCarbonbasedAdsorbentsFluoroquinolone2021b`); and `10.1016/j.ijbiomac.2024.133382` (keys `rostamiSurfaceModifiedChitosan2024a` and `rostamiSurfaceModifiedChitosan2024b`). These duplicate groups were recorded, not merged or deleted.
+
+All **21 DOI-queue records** were checked against the uploaded export by exact DOI and normalized title. **No exact DOI or normalized-title match was found for any of the 21.** A near-title result for SEM-019 is a different CMC-functionalized magnetic GO paper (DOI 10.1039/d5ra06621b), not the EDTA-functionalized candidate; it must not be linked to SEM-019.
+
+Separately, all **19 citation keys already used in the unified manuscript** are present in the supplied export. Thus the current bibliography is linked to the supplied Zotero export, and no new citekeys were identified for the 21 queued candidates. Do not change the 19 existing manuscript citations.
+
+The candidate-level citation linkage audit, main-corpus crosswalk, remaining-work register and intake queue now reflect this complete-library check. Add Zotero metadata only for candidate studies selected for manuscript inclusion, then export again and capture the actual Better BibTeX key. The 21 candidates are not an automatic import/citation list.
