@@ -239,3 +239,27 @@ The original uploaded Wiley PDF, `Journal of Chemistry - 2024 - Adu-Poku - Acid-
 GAP-003 is resolved for manuscript use as a confirmed concentration-window conflict plus missing kinetic-condition disclosure. Retain 245.9 ± 1.4 mg/g only as an author-reported, condition-incomplete kinetic result; exclude it from condition-matched quantitative rankings. Do **not** allege a mass-balance violation, and do not silently normalize the abstract/Methods concentration range to the Results range. The original discrepancy remains visible.
 
 Source pinpoints: Abstract PDF p. 1; Methods §§2.2–2.5 PDF pp. 3–4; Results §3.2.3 and Fig. 10 PDF p. 8; Fig. 11 and Fig. 12 PDF p. 9; kinetic/isotherm Tables 1–2 PDF p. 10.
+
+
+## P0 source-verification completion — Mohammed-Ridha & Abdul-Ahad (2014), CORP-019
+
+The original uploaded PDF `Mohammed-Ridha and Abdul-Ahad - 2023 - Adsorption of Levofloxacine Antibacterial from Contaminated Water by Non – Conventional Low Cost Nat.pdf` was retrieved from the Library and checked against the other duplicate copies mapped in the attachment crosswalk. The PDF was text-located and rendered; Table 2 and Table 3 were visually inspected.
+
+### Publication year
+- The article imprint on PDF p. 1 states *Journal of Engineering*, Number 12, Volume 20, December 2014. The same imprint appears on the subsequent pages. The 2023 string in the attachment filename/export title is not the article's publication year. Cite as Mohammed-Ridha & Abdul-Ahad (2014).
+
+### Kinetic mass-balance check — barley husk
+- Section 3.4, PDF p. 6 (printed p. 93), states a 2 L beaker filled with **1 L of 150 mg/L LEVX**; the sorbent is added after agitation starts. The dosage is calculated for target equilibrium concentration ratio `C_e/C_0 = 0.05`.
+- Section 4.3, PDF p. 7 (printed p. 94), identifies the amounts for the 1 L, 150 mg/L kinetic setup: activated carbon 20.745 g, barley husk **30.722 g**, eggshell 720 g. Figure 7, PDF p. 15 (printed p. 102), independently labels barley-husk `C_absorbent = 30.722 g/L` and `C_0 = 150 mg/L`.
+- For 1 L, initial LEVX mass is 150 mg. The target residual fraction is 0.05, so the maximum mass removed under the stated design is `150 × (1 − 0.05) = 142.5 mg`. Dividing by 30.722 g barley husk gives `142.5 / 30.722 = 4.64 mg/g`.
+- Table 3, PDF p. 12 (printed p. 99; rendered image checked), reports barley-husk PFO `q_e = 23.81 mg/g` (R²=0.7022) and PSO calculated `q_e = 6.87 mg/g` (R²=0.9966). The former is about 5.13 times and the latter about 1.48 times the 4.64 mg/g ceiling. They are kinetic model parameters, not direct observed capacities, and cannot be reconciled with the stated dose/target mass balance as reported. No corrected value is inferred.
+- Do not apply this kinetic ceiling to other sorbents or other tests; the finding here is specifically for the barley-husk 1 L kinetic setup.
+
+### Separate isotherm fitted-capacity issue
+- Section 3.3, PDF p. 5 (printed p. 92), states 100 mL tests with 25–150 mg/L initial LEVX and 0.5 g barley husks, pH 7 and 3 h. At the maximum 150 mg/L feed, the maximum loading available is `150 × 0.100 / 0.5 = 30 mg/g`.
+- Table 2, PDF p. 11 (printed p. 98; visually checked), reports barley-husk Langmuir `q_m = 125.735 mg/g` (R²=0.988). This is a fitted asymptote well above the largest loading experimentally accessible under the specified feed/dose conditions; it is not a demonstrated observed uptake. Exclude from observed-capacity rankings.
+
+### Disposition
+GAP-004 is resolved for manuscript use: cite the paper as 2014; exclude the two barley-husk kinetic fitted qe values from quantitative ranking due to the stated mass-balance ceiling; and keep the 125.735 mg/g q_m only as a model-fitted extrapolation with the 30 mg/g isotherm loading ceiling explicitly stated. No source values have been overwritten and no corrected capacities have been invented.
+
+Source pinpoints: Journal imprint PDF p. 1; kinetic setup §3.4 PDF p. 6; §4.3 PDF p. 7; Table 3 PDF p. 12; Figure 7 PDF p. 15; isotherm design §3.3 PDF p. 5; Table 2 PDF p. 11.
