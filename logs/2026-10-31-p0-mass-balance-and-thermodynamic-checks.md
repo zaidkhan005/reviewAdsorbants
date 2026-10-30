@@ -217,3 +217,25 @@ The original uploaded Bioresource Technology PDF `1-s2.0-S096085242400097X-main.
 GAP-002 is **resolved for manuscript use** as a confirmed quantitative inconsistency with low-feed kinetic and selectivity qe values quarantined; no corrected capacity is inferred. Preserve the Langmuir 67.89 mg/g only as a separate fitted isotherm parameter, not a measured uptake under the low-feed conditions. The article's Table 2 MBC comparator discrepancy (38.34 mg/g in Table 2 versus 38.84 mg/g in body/abstract) remains a separate unresolved source mismatch and is not silently harmonized.
 
 Source pinpoints: PDF p. 3 Eq. (2), definitions and §2.3; PDF p. 4 Fig. 3a caption and Table 1; PDF p. 5 Fig. 4a caption, §3.4 and Table 2/mixture discussion.
+
+
+## P0 source-verification completion — Adu-Poku et al. (2024), DISC-026 (2026-10-31 continuation)
+
+The original uploaded Wiley PDF, `Journal of Chemistry - 2024 - Adu-Poku - Acid-Activated Biochar for Efficient Elimination of Amoxicillin From Wastewater.pdf` (DOI 10.1155/2024/3648098), was retrieved from the Library and visually checked at the abstract, Methods, Figures 10–12 and Tables 1–2 (PDF pp. 1, 3–4, 6–10).
+
+### Confirmed concentration-window conflict
+- Abstract PDF p. 1 states the initial amoxicillin concentration was 0.5–2.5 mg/L.
+- Methods §2.5, PDF p. 3, repeats the initial concentration range 0.5–2.5 mg/L and states adsorbent doses of 2–20 mg. The same Methods section gives a separate typical batch example: 25 mg biochar in 50 mL of 50 mg/L amoxicillin, 6 h.
+- Results §3.2.3 and the page-8 Figure 10 caption instead specify a 20–70 mg/L initial-concentration series; Fig. 10 specifies 25 mg biochar, pH 7, 25 °C and 6 h. The plotted uptake increases from roughly 37 mg/g at 20 mg/L to about 136 mg/g at 70 mg/L.
+- Figure 11 (PDF p. 9) explicitly uses 50 mg/L amoxicillin, pH 7, 25 °C, 6 h and adsorbent doses 2–20 mg. The range conflict is therefore a source-internal reporting issue, not a transcription introduced by this project.
+
+### Kinetic result: no proven mass-balance violation
+- Figure 12 (PDF p. 9) gives PFO, PSO and Weber–Morris plots but its caption does not identify the kinetic experiment's C0, solution volume or biochar mass.
+- The Results text (PDF p. 7) reports an experimental equilibrium uptake `qe = 245.9 ± 1.4 mg/g`. Table 1 (PDF p. 10) gives PSO fitted `qe = 243.902 mg/g` (R²=0.999), PFO fitted qe = 0.496 mg/g (R²=0.100), and the Weber–Morris model parameters. Table 2 separately reports Langmuir fitted `qmax = 239.230 mg/g` (R²=0.995) from the isotherm analysis.
+- The previous 100 mg/g upper bound is valid only for the separate stated 25 mg / 50 mL / 50 mg/L example. The source does not say that this exact dose-volume-feed combination generated Figure 12. A hypothetical 10 mg adsorbent / 50 mL / 50 mg/L condition would permit up to 250 mg/g. Therefore the 245.9 mg/g kinetic result is **not proven** to violate mass balance.
+- Do not substitute the PFO fit, PSO fit, or Langmuir qmax for the reported experimental qe. They are distinct model outputs; their numerical proximity does not validate the missing kinetic condition.
+
+### Manuscript disposition
+GAP-003 is resolved for manuscript use as a confirmed concentration-window conflict plus missing kinetic-condition disclosure. Retain 245.9 ± 1.4 mg/g only as an author-reported, condition-incomplete kinetic result; exclude it from condition-matched quantitative rankings. Do **not** allege a mass-balance violation, and do not silently normalize the abstract/Methods concentration range to the Results range. The original discrepancy remains visible.
+
+Source pinpoints: Abstract PDF p. 1; Methods §§2.2–2.5 PDF pp. 3–4; Results §3.2.3 and Fig. 10 PDF p. 8; Fig. 11 and Fig. 12 PDF p. 9; kinetic/isotherm Tables 1–2 PDF p. 10.
