@@ -1,0 +1,30 @@
+# Zotero DOI intake queue — semester graphene/CIP/TC manuscript
+# Prepared 30 October 2026 from the existing semester candidate register and evidence audits.
+# Each DOI below was checked against all five available Library BibTeX exports (173, 164, 164, 61 and 31 entries) and had no exact DOI match.
+# This queue is metadata intake only. No PDF download or upload is requested.
+
+Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
+10.1371/journal.pone.0079254   # SEM-001 — GO/TC; source temperature-series inconsistency
+10.1016/j.jcis.2018.03.003    # SEM-006 — DTPA-functionalized magnetic GO; fitted kinetic qe only; SI incomplete
+10.1186/s11671-018-2814-9     # SEM-007 — MnFe2O4/rGO; observed TC uptake and HCl reuse; cycle-count mismatch
+10.1016/j.rineng.2023.101507  # SEM-012 — magnetic GO/CIP; real-water and RSM; very high dose/ultrasound energy unreported
+10.3389/fnano.2025.1578620    # SEM-015 — GO/LDH/CIP; use removal only; capacity/mass-balance conflict
+10.1016/j.dwt.2026.101889    # SEM-019 — EDTA-magnetic GO/TC; removal usable; fitted kinetic values inconsistent
+10.3390/toxics10020077        # SEM-027 — PAM-GO/alginate beads/CIP; fitted q_m only; no observed removal endpoint extracted
+10.1016/j.carbpol.2018.02.021 # SEM-042 — chitin/GO/CIP; column mass reported as physically impossible; batch evidence only
+
+Priority P2 — import after P1; use with explicit source-access caveats:
+10.1016/j.jhazmat.2014.03.063 # SEM-043 — GO/CIP; detailed methods/Table1 from non-publisher mirror
+10.1016/j.cej.2024.150484     # SEM-009 — GO/CIP aqueous vs synthetic urine; capacity model definition pending
+10.1016/j.jece.2023.110766    # SEM-011 — magnetic guar-gum-GO/CIP; mirror-only tables and dose inconsistency
+10.1016/j.molliq.2016.07.037  # SEM-025 — chitosan-grafted GO/CIP; abstract preview, fitted q_m only
+10.1016/j.cej.2013.06.072     # SEM-028 — GO/calcium-alginate/CIP fibres; separate removal and capacity endpoints
+
+How to use this queue:
+1. In Zotero, search each DOI first to avoid creating duplicates already present in an unexported collection.
+2. For missing records, use Zotero's Add Item by Identifier (magic-wand button) and paste the DOI. Metadata only; no PDFs are needed for this step.
+3. Preserve the candidate ID in the Zotero item note or tag, e.g. SEM-001, SEM-006. Do not alter Better BibTeX citekeys manually just to match a guessed key.
+4. Export the relevant Zotero collection with Better BibTeX to a fresh .bib file.
+5. Reconcile the new keys against DOI and update data/semester-bibtex-citation-linkage-audit.csv plus data/semester-main-corpus-crosswalk.csv before inserting any new in-text citation.
+
+Important: the candidates are proposed for selective manuscript use, not automatic inclusion. The evidence rules and source limitations are documented in data/semester-citation-expansion-shortlist.csv. Do not count a DOI in this queue as a cited work.
