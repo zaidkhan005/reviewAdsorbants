@@ -1,6 +1,6 @@
 # Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media
 
-**Unified working manuscript V1.** Prepared 30 October 2026. This draft integrates the approved Introduction/Scope and the current Results/Discussion synthesis. It contains 19 distinct cited works: 15 target-material primary-study records and four contextual works (two reviews and two solution-chemistry comparators). It is an evidence-led narrative synthesis, not a completed systematic review or PRISMA-compliant review. The source-access level and quantitative caveats remain visible throughout.
+**Unified working manuscript V1.** Prepared 31 October 2026. This draft integrates the approved Introduction/Scope and the current Results/Discussion synthesis. It contains 19 distinct cited works: 15 target-material primary-study records and four contextual works (two reviews and two solution-chemistry comparators). It is an evidence-led narrative synthesis, not a completed systematic review or PRISMA-compliant review. The source-access level and quantitative caveats remain visible throughout.
 
 **Reference source:** `references/semester-manuscript-cited-references.bib` (19 entries; exact keys checked against the user-supplied 173-entry Better BibTeX export on 30 October 2026). Final journal-style citation rendering remains pending selection of the target style.
 
