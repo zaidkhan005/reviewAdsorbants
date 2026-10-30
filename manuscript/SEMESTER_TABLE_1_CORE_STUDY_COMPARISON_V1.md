@@ -28,4 +28,4 @@
 4. Single-solute, multicomponent, trace-level, simulated-matrix, real-water and PRB/column results are separate contexts. GAC is only a benchmark.
 5. Several studies contain source-internal inconsistencies or incomplete access. Those caveats remain visible and prevent a universal capacity ranking.
 
-**Supporting source register:** `data/semester-condition-labelled-comparison.csv`; evidence records are pinned in `data/semester-manuscript-claim-evidence-audit.csv` and the master/semester evidence registers. This table covers the 15 primary-study records cited in the current manuscript, not the full 47-row candidate register.
+**Supporting source register:** `data/semester-condition-labelled-comparison.csv` includes the 14 study-specific semester rows plus a cross-referenced SEM-038 summary drawn from master records EV-B10-004–EV-B10-009 (the master evidence records are not duplicated). Evidence locations are pinned in `data/semester-manuscript-claim-evidence-audit.csv` and the master/semester evidence registers. This table covers the 15 primary-study records cited in the current manuscript, not the full 47-row candidate register.
