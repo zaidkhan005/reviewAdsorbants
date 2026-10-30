@@ -44,13 +44,13 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not count candidates/evidence rows as accepted references.
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
-- Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
+- Semester paper: journal quartiles are explicitly out of scope. Do not audit, rank, prioritise, include or exclude SEM candidates by SJR/JCR/CiteScore quartile. The shared journal-ranking audit is not an eligibility input for this workstream. Broad-review ranking rules remain separate.
 - The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register has 51 rows representing 50 DOI-defined studies after excluding the SEM-041 alias of SEM-026. The dedicated evidence extraction has 46 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 21 unique records. All 21 DOI strings were searched across the five mounted BibTeX exports on 31 October 2026 and no exact matches were found. This does not rule out Zotero items in unexported collections; search Zotero by DOI before adding metadata. No new citekeys are guessed. The approximately 50-work target and final integrated style/claim audit remain pending.
 
 ## Current semester-paper working files
 
 - `data/semester-remaining-work-register.csv` — 51-row candidate-specific remaining-work register, reconciled on 31 October 2026; see [the continuation reconciliation log](logs/2026-10-31-continuation-register-reconciliation.md).
-- `data/journal-quartile-audit.csv` — 2025 SJR/JCR audit, including category-specific checks for SEM-045–SEM-051; see [the 31 October semester journal-quartile audit](logs/2026-10-31-new-semester-journal-quartile-audit.md).
+- `data/journal-quartile-audit.csv` — shared journal metadata for the broader review only. Journal quartiles are not used in semester-paper screening; see [the scope clarification](logs/2026-10-31-semester-quartile-out-of-scope.md).
 - `data/semester-condition-labelled-comparison.csv` — a 28-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 46 active dedicated evidence records.
