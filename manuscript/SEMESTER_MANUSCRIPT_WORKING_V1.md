@@ -4,6 +4,16 @@
 
 **Reference source:** `references/semester-manuscript-cited-references.bib` (19 entries; exact keys checked against the user-supplied 173-entry Better BibTeX export on 30 October 2026). Final journal-style citation rendering remains pending selection of the target style.
 
+## Abstract (working draft)
+
+Graphene oxide (GO), reduced graphene oxide (rGO) and selected graphene-bearing composites have been investigated as adsorbents for removing ciprofloxacin (CIP) and tetracycline (TC) from aqueous media. Their practical value, however, depends on more than a high reported removal percentage or fitted adsorption capacity: preparation chemistry, separation, regeneration, water-matrix effects and reproducible process costs must also be considered. This paper assesses the adsorption evidence and low-cost potential of selected GO/rGO materials and magnetic, polymer/cellulose and other graphene-bearing composites for CIP and TC. A focused literature search and source-level audit were conducted using the project's recorded discovery searches and accessible publisher, biomedical-index and repository sources. Primary-study data were extracted with source locations and operating conditions, and observed uptake, model-fitted capacities, kinetic-model outputs, removal percentages and column results were treated as distinct endpoints. The current integrated synthesis discusses 15 target-material primary-study records and four contextual sources; it is a narrative evidence synthesis rather than a completed systematic review.
+
+Across the studies, graphene-based materials demonstrate adsorption under varied laboratory conditions, but differences in feed concentration, adsorbent dose, pH, contact time, temperature and matrix prevent a defensible universal capacity ranking. Proposed interactions include π–π association, pH-dependent electrostatic effects, hydrogen bonding and pore/transport contributions; in most studies their relative contributions are not independently quantified. Magnetic separation and immobilized formats can improve handling and recovery, but add synthesis, washing, drying and regeneration steps. Real-water evidence is limited and heterogeneous, while reported performance values sometimes contain unresolved mass-balance or source-internal inconsistencies. Most studies do not provide product yields, full reagent and energy inventories, regenerant recovery or comparable treatment-cost denominators. The available literature therefore supports the adsorption promise of selected graphene-based materials, but does not yet demonstrate that they are consistently low-cost in practical water treatment. Future studies should report complete mass balances, validated real-wastewater tests, adsorbent-loss and regeneration balances, and transparent techno-economic data per treated volume or mass of antibiotic removed.
+
+**Keywords:** ciprofloxacin; tetracycline; graphene oxide; reduced graphene oxide; magnetic graphene composites; antibiotic adsorption; regeneration; low-cost potential.
+
+
+
 ## 1. Introduction
 
 ### 1.1. Antibiotic adsorption as a separation process
