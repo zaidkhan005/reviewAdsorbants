@@ -523,3 +523,15 @@ Validated links:
 - **Reuse:** Mirror §4.5 says six adsorption/desorption cycles, 1% ethanol, 3 h at room temperature, followed by neutral-water washing and drying; text reports approximately 95% removal-efficiency retention after cycle six. Keep provisional until official Fig. 12 is verified.
 - **Practical caveat:** No normalized material/process cost, GO yield, energy or cost per CIP removed is supplied; synthesis requires concentrated H2SO4, KMnO4, iron salts, ammonia, washing and drying.
 - **Repository disposition:** Updated EV-SEM-010, readiness audit, SEM-011 candidate and inclusion rows, condition comparison, new claim audit RD-021, evidence notes and this log. Numeric-ranking status remains held; no new citation key or manuscript citation was inserted.
+
+
+## Official full-text and SI audit — SEM-012 / EV-SEM-032 (2026-10-30)
+
+- **Source access upgraded:** Official open-access ScienceDirect full text plus publisher SI `1-s2.0-S2590123023006345-mmc1.docx` retrieved and inspected. This supersedes the earlier partial publisher-snippet status.
+- **Method/conditions confirmed:** 30-run, four-factor CCD (dose 0.05–0.85 g, pH 3–11, C₀ 10–50 mg/L, contact 10–50 min); each run uses 15 mL solution and ultrasonic bath at laboratory temperature. CIP optimum: 0.55 g, 15 mg/L, pH 7, 33 min. Dose is 36.7 g/L. Ultrasound is also used in GO/Fe₃O₄ composite preparation.
+- **SI validation:** Table S2 confirms CIP experimental removal=96.39±3.3 (n=3), predicted=95.51%; Cep experimental=97.69±2.3 (n=3), predicted=97.20%. This confirms that 96.39% is an experimental optimum, not only a model prediction.
+- **Derived mass balance:** At C₀=15 mg/L and V=15 mL, initial CIP mass=0.225 mg; at 96.39% removal, removed mass=0.2168775 mg. With 0.55 g composite, calculated qe≈0.3943 mg/g. This value is derived from removal and source conditions, not source-reported qe/qmax.
+- **RSM quality:** Official SI Table S1: CIP R²=.9905, adjusted=.9817, predicted=.9523, F=111.81, p<.0001, lack-of-fit F=2.43, p=.16; Cep R²=.9940, adjusted=.9885, predicted=.9747, F=178.73, p<.0001, lack-of-fit F=.93, p=.56. No adsorption qmax or kinetic qe model is reported; do not conflate RSM response fit with Langmuir/PSO metrics.
+- **Real-water/reuse:** Table 5 CIP removal tap 94.12±2.2, river 91.66±1.8, lake 90.65±3.1, wastewater 89.96±2.3. §3.9 narrative says three repeats; Table 5 heading says n=5, unresolved. §3.10 states regeneration with 2 mL methanol + 10 mL DI water and stable removal through at least seven cycles.
+- **Practical caveat:** the ultrasonic bath's power/frequency/energy are not reported; ultrasound is used for synthesis and adsorption but is not an RSM factor, and no matched no-ultrasound or ultrasound-only control is described. No quantified cost, yield or energy analysis. A high 36.7 g/L adsorbent loading and acoustic energy gap constrain practical comparisons.
+- **Repository disposition:** Updated existing EV-SEM-032 (no duplicate evidence row), readiness audit, SEM-012 candidate and shortlist, condition comparison, new claim audit RD-022, notes and this log. No new manuscript citation key or manuscript citation inserted.
