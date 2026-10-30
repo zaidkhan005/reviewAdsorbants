@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
-- The current semester draft’s 15 in-text citation keys and 15-entry cited-reference subset were reconciled against the latest 173-entry export on 2026-10-30. The initial claim-to-evidence audit is now logged and maps all 15 cited works to source/evidence records. Reaching the approximately 50-work cited-reference target, expanding the manuscript and running the final post-expansion claim/style audit remain pending; use Zotero/Better BibTeX rather than guessed citation keys.
+- The Results/Discussion draft’s 15 citation keys remain reconciled against the 173-entry export. A separate Introduction/Scope draft adds four contextual sources with exact keys already present in that export; the curated working bibliography now has 19 entries across both files. The claim-to-evidence matrix maps 15 empirical study claims plus four contextual sources. Thirteen additional eligible candidates have a DOI intake queue, but none was present by DOI/title in the five exports checked and none has a verified key yet. The approximately 50-work target and final integrated style/claim audit remain pending.
 
 ## Current semester-paper working files
 
@@ -55,7 +55,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Citation readiness
 
-- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage across the three existing BibTeX exports.
+- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage, with 13 selected candidate DOIs marked absent from the five exports checked on 30 October 2026.
 - `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely. The 2026-10-30 continuation additionally checks five available BibTeX exports.
 
 ## 2026-10-30 continuation closeout
@@ -68,7 +68,9 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Current manuscript draft
 
+- `manuscript/SEMESTER_INTRODUCTION_AND_SCOPE_V1.md` — working Introduction and Scope draft with four contextual source keys; includes an editorial hold for the final reproducible search-method details.
 - `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` — source-cautious Results and Discussion working draft using 15 DOI-verified citation keys, explicit evidence-record tags and source-quality caveats; not submission-ready.
+- `data/semester-citation-expansion-shortlist.csv` and `references/semester-zotero-doi-import-queue-2026-10-30.txt` — 13 candidate DOIs prioritized for Zotero metadata reconciliation; no guessed citekeys.
 
 ## Repository map
 
