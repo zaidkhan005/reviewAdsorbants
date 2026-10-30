@@ -71,6 +71,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `manuscript/SEMESTER_INTRODUCTION_AND_SCOPE_V1.md` — working Introduction and Scope draft with four contextual source keys; includes an editorial hold for the final reproducible search-method details.
 - `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` — source-cautious Results and Discussion working draft using 15 DOI-verified citation keys, explicit evidence-record tags and source-quality caveats; not submission-ready.
 - `data/semester-citation-expansion-shortlist.csv` and `references/semester-zotero-doi-import-queue-2026-10-30.txt` — 13 candidate DOIs prioritized for Zotero metadata reconciliation; no guessed citekeys.
+- `data/semester-mechanism-evidence-matrix.csv` and `data/semester-practical-feasibility-matrix.csv` — evidence-weighted synthesis of the 15 currently discussed empirical studies. Mechanism grades distinguish measured/spectral evidence from author interpretation; cost and recovery gaps remain explicit.
 
 ## Repository map
 
