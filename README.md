@@ -175,3 +175,4 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - `data/semester-condition-labelled-comparison.csv` — condition-labelled machine-readable source for the study comparison (27 rows, including the SEM-038 master-evidence cross-reference).
 - `manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md` — editable Mermaid source for the original scope/material-taxonomy figure, based on the approved scope proposal.
 - `manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md` — editable Mermaid source for the original preparation–adsorption–recovery–cost-boundary schematic.
+- `manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md` — editable Mermaid source for the conceptual CIP/TC–graphenic-surface interaction map, with evidence and inference limits.
