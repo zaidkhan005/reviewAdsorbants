@@ -393,3 +393,16 @@ The original Springer PDF (`s11356-020-09267-1.pdf`, DOI 10.1007/s11356-020-0926
 - The cycle-wise qbed falls from 97.12 to 61.85 to 28.14 mg/g. The third cycle retains only about 29% of first-cycle capacity; do not describe the regeneration as high or stable reuse.
 
 **Disposition:** GAP-013 is resolved for manuscript use: cite Table 6's 187.11 mg/g cumulative value, flag the conclusion's 178.11 mg/g, and report the cycle-wise decline. Updated `EV-B19-006` and `GAP-013`.
+
+
+## P1 source verification — Liu et al. (2025), DISC-007
+
+The original Royal Society Open Science PDF (`rsos.250439.pdf`, DOI 10.1098/rsos.250439) was text-extracted and visually inspected, especially the regeneration, column and cost pages (PDF pp. 14–15).
+
+- **Cost equation:** §3.5 gives adsorption cost (US$/g CTC) = adsorbent cost (US$/g adsorbent) divided by adsorption capacity (mg/g) × 10⁻³. The paper lists sodium alginate US$8.36/kg, kaolin US$3.90/kg and CaCl2 US$10.59/kg.
+- **Electricity unit:** the article prints the electricity price as **0.0175 US$ g⁻¹**. This is dimensionally anomalous for an electricity tariff; the inspected section does not provide kWh consumption, equipment runtime, product yield or a detailed worksheet from which the unit or cost can be reconstructed. Do not silently change it to US$/kWh.
+- **Author-reported cost:** assuming four cycles, the paper reports 0.095 US$/g CTC for KN@Alg versus 0.15 US$/g for activated carbon. Treat these as narrow author-calculated estimates, not full TEA/LCA. Capital, labour, water, pumping, bead yield, column support, regeneration/eluent, regeneration-waste and end-of-life boundaries are not transparently included.
+- **Performance context:** the SPE/column tests use 5 mg/L CTC-spiked distilled/tap/river water; the column reports 93.6% removal over 20 bed volumes. This is useful spiked-matrix/continuous-flow evidence, but not proof of native trace-level wastewater performance.
+- **Reuse:** the article shows eluent-dependent decline across four regeneration cycles; a four-cycle cost assumption should remain explicit rather than treated as long-term stability.
+
+**Disposition:** GAP-014 remains P1. The electricity unit anomaly and narrow cost boundary are now confirmed directly from the published PDF. Updated `EV-B19-005` and `GAP-014`.
