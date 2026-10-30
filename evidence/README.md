@@ -9,6 +9,10 @@ This directory contains human-readable, source-linked extraction notes for the r
 
 - [2026-10-28 — Upload batches: DISC-037–DISC-068, 177 source-linked evidence rows](2026-10-28-upload-batches.md)
 
+## Provenance and integrity audit
+
+- [2026-10-31 — original PDF batch integrity audit](../logs/2026-10-31-original-pdf-batch-integrity-audit.md) — confirms original Batches 01–20 evidence-row counts, documents five master-CSV field repairs, and records verified Library filename matches for Batches 03 and 08 (plus Batch 12's CNT PDF).
+
 ## Previous PDF batches
 
 - [2026-10-25-batch-01](2026-10-25-batch-01.md)
