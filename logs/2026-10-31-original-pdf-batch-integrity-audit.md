@@ -225,3 +225,24 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Maged's “natural” bentonite is correctly described as laboratory-purified rather than wholly untreated. Batch qmax/observed uptake, salt inhibition and column qbed are separate metrics; the Table 6 three-cycle sum (187.11 mg/g) versus conclusion value (178.11 mg/g) discrepancy remains open.
 - Hamid's review is supporting literature only; its 88-paper narrative count and compiled capacities are not treated as a reproducible systematic search or new primary data.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 03 — clay review, primary mechanistic study and exclusion reconciled
+- The 10 EV-B03 rows map to Hacıosmanoğlu et al. (2022) clay review (5) and Wang et al. (2010) CIP–montmorillonite primary study (5); CORP-062 remains the full-text-confirmed unrelated exclusion.
+- The clay review's 82-paper review-method count, material taxonomy and capacity examples remain secondary. Supplementary Tables S1–S6 were not included; its quantitative examples require tracing to primary sources before numerical synthesis.
+- Wang's 330 mg/g Langmuir/reported capacity is distinguished from ~292 mg/g observed uptake at the cited 3,000 mg/L feed. The near-1:1 cation-release/CIP-uptake relationship, Ca²⁺ release and XRD/FTIR changes provide direct support for cation exchange under the tested high-concentration conditions.
+- The very high feed range and lack of real-water, competition, reuse or column tests are preserved. No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 08 — two primary studies and one real-effluent/fixed-bed study reconciled
+- The 18 EV-B08 rows map to Kar et al. (2025) activated wood-apple-shell carbon for ENF (6), Sompornpailin et al. (2024) hospital-effluent GAC/resistome study (6), and Al-sareji et al. (2024) banana-peel activated carbon (6).
+- Kar's no-external-N-doping recipe, 1.76 cm³/g micropore-volume anomaly, conflicting dose ranges, severe ΔG arithmetic/unit inconsistency, limited DNA-fluorescence assay and author-reported INR 239.22/kg cost boundary are retained. Its 81.47% after four cycles is not broad proof of water safety.
+- Sompornpailin's low-µg/L real secondary hospital effluent/fixed-bed outcomes are kept distinct from high-mg/L batch qmax. The paper's “SMZ” label is preserved pending confirmation; E. coli growth is not broad ecotoxicity clearance; ARG/ARB accumulation in used GAC is retained as a spent-media risk.
+- Al-sareji's amoxicillin is the antibiotic endpoint; carbamazepine remains a non-antibiotic comparator. Fitted Qmax, matrix-specific removal and seven-cycle decline are separate.
+- The two malformed master rows EV-B08-005 and EV-B08-006 were repaired in the evidence-domain column; no further missing row identified.
+
+### Batch 12 — primary MWCNT study, secondary review and adjacent membrane technology reconciled
+- The five EV-B12 rows map to Oliveira et al. (2024) eucalyptus-functionalized commercial MWCNTs (3), Yang et al. (2025) iron-modified-biochar review (1), and Yin et al. (2024) electroactive UiO-66/CNT membrane (1).
+- Oliveira's single/binary CIP/OFL uptake is retained in mmol/g; no unsupported unit conversion was made. Commercial CNT feedstock means “green” refers to functionalization, not the CNT precursor. No real wastewater, reuse, fixed-bed, leaching or LCA evidence is claimed.
+- Yang remains secondary-only; adsorption and catalytic degradation are not merged.
+- Yin is a primary adjacent membrane-rejection study, not an adsorption-capacity paper. Rejection %, permeability and electro-cleaning results are excluded from mg/g adsorption rankings.
+- The five-row allocation is intentional (3/1/1), not evidence of incomplete extraction. No missing master evidence row or source-pinpoint defect identified.
