@@ -361,3 +361,16 @@ DOI 10.4314/bcse.v40i5.15. AJOL article: https://www.ajol.info/index.php/bcse/ar
 - DOI 10.1007/s11356-019-07186-4: oxytetracycline study; exclude because OTC is not TC.
 
 The register now has 46 rows; SEM-041 remains an alias of SEM-026, so 45 DOI-defined candidate records after excluding that known alias. The dedicated evidence register has 41 records. These are not final included-study or PRISMA counts. The original 13 DOI queue entries retain their historical five-export check; SEM-045/046 require Zotero DOI lookup before metadata addition.
+
+
+## 34. Corrigendum-resolved provisional candidate — SEM-047 / EV-SEM-043 (30 October 2026)
+
+**Original study:** Amin et al., “A multifunctional magnetic graphene oxide/NH2-UiO-66(Zr)/sodium alginate nanocomposite for efficient tetracycline adsorption, antibacterial activity, and practical application in real water matrices.” *International Journal of Biological Macromolecules* 381(Pt 1) (2026), article 153894. DOI 10.1016/j.ijbiomac.2026.153894. Publisher page: https://www.sciencedirect.com/science/article/pii/S0141813026038407. PubMed PMID 42546939.
+
+**Abstract-level results:** The nanocomposite integrates GO, amino-functionalized UiO-66(Zr), Fe3O4 and sodium alginate hydrogel. RSM/CCD optimum: pH 5.5, contact 44 min, adsorbent dose 1.0 g/L, initial TC 10 mg/L; abstract reports 98.5% removal. It describes Sips as the best equilibrium model and double-exponential kinetics; separately reports Langmuir fitted q_m=161.4 mg/g. Ten-cycle regeneration is summarized as retaining >80% removal efficiency. A river-water test with coexisting interferents reports 89.34% TC removal. Full Methods, fit tables, river-water sample/spike basis, regeneration solvent, and cost/energy inventory remain access-gated; do not rank q_m or present the river result as raw-water performance until full text is audited.
+
+**Corrigendum resolution:** The publisher's ScienceDirect corrigendum page, DOI 10.1016/j.ijbiomac.2026.154444, explicitly refers to the original article DOI 10.1016/j.ijbiomac.2026.153894. It states that an erroneous Funding statement had been included and should be removed, and that results/conclusions are unchanged. This is a bibliographic/funding correction, not a new primary adsorption study. PubMed's corrigendum record PMID 42754488 incorrectly lists an `ErratumFor` relation to DOI 10.1016/j.ijbiomac.2026.154185; that DOI/PMID 42636937 is an unrelated polysaccharide-film article. Use the publisher direct link for correction provenance; do not use the erroneous PubMed cross-reference to reject the adsorption study.
+
+**Disposition:** Register as SEM-047 / EV-SEM-043, provisional/abstract-level P2. Add the original article DOI (not the corrigendum DOI) to Zotero metadata queue; no citekey assigned. Full text required before data-table integration.
+
+Updated current counts: 47 candidate-register rows (46 DOI-defined after excluding SEM-041 alias), 42 dedicated evidence records, 47 crosswalk/linkage rows, and 18 rows in each mechanism and feasibility matrix. These are not final included-study or PRISMA counts.
