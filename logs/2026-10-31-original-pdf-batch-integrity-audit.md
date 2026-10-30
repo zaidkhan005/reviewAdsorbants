@@ -304,3 +304,16 @@ The six initial candidates were located in Library, rendered and visually checke
 - **Zhang & Wu:** confirmed experimental values and dosing text, but the initial concentration before/after adding sorbent dispersion is ambiguous.
 
 The master evidence caveats, scientific gap register, and P0 calculation report were corrected to reflect these distinctions. Current triage counts: **5 P0 / 9 P1 / 5 P2**. The gap register is the canonical task list.
+
+
+## P1 source verification — Gopal & Mukherjee (2024), DISC-006
+
+The original RSC PDF (`d4ra01971g.pdf`) and official RSC supplementary information were checked. The SI was read from the publisher's ESI PDF (DOI 10.1039/D4RA01971G; official URL: https://www.rsc.org/suppdata/d4/ra/d4ra01971g/d4ra01971g1.pdf).
+
+- Main PDF §2.4 (PDF p. 3) specifies UV–vis measurement at 276 nm and reports LOD = 2.72 mg/L and LOQ = 8.24 mg/L. The official ESI S4 (pp. 5–6) says the calibration curve covers 2.72–40 mg/L with R² = 0.97.
+- The detailed result is 86.06% NOR removal from C0 = 20 mg/L after 300 min. The residual implied by that removal is 20 × (1 − 0.8606) = **2.788 mg/L**. This is just above the stated LOD/lower calibration endpoint but below the stated LOQ. The residual is nominally detectable, but its quantitative precision is not established by the stated LOQ. No validated dilution or alternative residual assay is described in the main PDF.
+- Sorbent loading is inconsistent across the paper: abstract reports sorbent concentration 2000 mg/L and dosage 0.15 g; Figs. 3–4 captions report 0.15 g/L; Methods §§2.4.1–2.4.2 report 0.30 g in 200 mL (= 1.5 g/L); §3.2 also mentions 0.15 g in a 20 mL test. This affects interpretation of the kinetic fitted qe values (PFO 107.339; PSO 200 mg/g in Table 1) and comparability.
+- The paper also explicitly reports 86.06% NOR removal but only 72.84% TOC removal after 300 min and identifies NOR transformation intermediates by LC–MS. It states adsorption and degradation both contribute to NOR disappearance. This is not a pure adsorption-only endpoint.
+- The Scenedesmus sp. assay reports 77% viability for treated NOR solution versus 36% for untreated control. That is a specific reduced-toxicity bioassay, not proof that all intermediates are harmless.
+
+**Disposition:** GAP-007 remains P1 and is now source-verified. Keep the 86.06% value as author-reported combined removal with LOQ and dose-basis caveats; do not describe it as a validated adsorption-only benchmark. Keep Table 1 kinetic fitted qe out of capacity ranking pending clarification. Updated `EV-B14-002`, `EV-B14-003`, `EV-B14-005` and `GAP-007` in the master evidence/gap registers.
