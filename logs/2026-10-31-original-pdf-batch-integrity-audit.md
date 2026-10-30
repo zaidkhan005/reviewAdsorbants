@@ -209,3 +209,19 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Mohammed-Ridha's PDF imprint (December 2014) overrides the filename's 2023 label. The 125.735 mg/g fitted barley-husk q_m and several kinetic q_e estimates exceed the simple mass-balance ceilings implied by stated feed/dose; they remain explicitly flagged, not accepted as measured capacities.
 - Hamdi's raw-versus-activated comparison preserves the high mg/L test range and the finding that activation is not necessarily beneficial. A single low CaCl2 desorption value is not treated as destruction or repeated regeneration; unusual EC values remain as printed pending source verification.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 18 — three review sources reconciled as secondary evidence
+- The 12 EV-B18 rows map to Nguyen et al. (2025) biochar-derived adsorbents review (5), Singh et al. (2026) TC-specific AC/biochar review (3), and Ajala et al. (2023) biomass/biochar antibiotic-adsorption review (4).
+- All three are correctly labelled review-level evidence. Their qmax examples, mechanism statements, and processing routes are not treated as new primary measurements or comparable rankings.
+- Nguyen's Table 3 BPA (bisphenol A) entry is explicitly recognized as a non-antibiotic; the exceptionally high TC examples remain secondary and require primary-source verification.
+- Singh's TC-focused search and missing PRISMA/count reporting are retained as method limitations; its 1357.5 mg/g example is flagged because the same cited source is said to fit Freundlich better than Langmuir.
+- Ajala's emphasis on COD versus target-specific antibiotic measurements, synthetic versus real water, and heterogeneous metrics remains contextual rather than a newly harmonized dataset.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 19 — two primary studies and one review reconciled
+- The 13 EV-B19 rows map to Liu et al. (2025) kaolin–alginate CTC beads (5), Maged et al. (2020) natural/purified and acid-activated bentonite for CIP (5), and Hamid et al. (2025) waste-based biochar review (3).
+- Liu's observed and fitted uptake, unequal-dose comparison, four-cycle reuse, 5 mg/L spiked water/20-bed-volume column results, and author cost estimate are separately represented. The unusual electricity-price unit (US$/g) remains flagged; this is not treated as a complete plant-level TEA/LCA.
+- Maged's “natural” bentonite is correctly described as laboratory-purified rather than wholly untreated. Batch qmax/observed uptake, salt inhibition and column qbed are separate metrics; the Table 6 three-cycle sum (187.11 mg/g) versus conclusion value (178.11 mg/g) discrepancy remains open.
+- Hamid's review is supporting literature only; its 88-paper narrative count and compiled capacities are not treated as a reproducible systematic search or new primary data.
+- No missing master evidence row or source-pinpoint defect identified.
