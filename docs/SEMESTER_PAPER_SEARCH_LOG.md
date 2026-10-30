@@ -342,3 +342,22 @@ The logged 28 October targeted discovery searches and 28–30 October source aud
 ## Unified manuscript checks
 
 The Introduction/Scope draft and Results/Discussion draft were combined into a single manuscript with Sections 1–6. The current 19 distinct in-text citation keys were checked against all 19 entries in `references/semester-manuscript-cited-references.bib`; no missing or orphaned entries were found. No new Zotero keys were created. The 13 DOI queue remains awaiting a fresh user Better BibTeX export before citation insertion.
+
+
+## 33. Supplementary targeted search and two full-text primary studies — 30 October 2026
+
+Search formulations included: `"magnetic graphene oxide" "cobalt MOF" tetracycline adsorption 2026`; `zirconium-modified magnetic graphene oxide ciprofloxacin adsorption 2026`; `"ZrO2-Fe3O4/GO" ciprofloxacin response surface methodology`; `magnetic graphene oxide ciprofloxacin dispersive solid phase extraction 2026`; and `graphene oxide NH2-UiO-66 sodium alginate tetracycline adsorption real water matrices 2026`.
+
+### SEM-045 / EV-SEM-041 — Jahan et al. (2026), magnetic GO-supported Co-MOF for TC
+DOI 10.1039/d6ra02920e, *RSC Advances* 16(41) (2026), 49206–49219. Official open-access primary text: https://pmc.ncbi.nlm.nih.gov/articles/PMC13494955/. Full methods, Figs 4–8 and Tables 2–3 reviewed. The composite uses spent Li-ion battery graphite-derived GO, Fe3O4 magnetic modification and cobalt/2-methylimidazole MOF. Preparation includes graphite purification, Hummers oxidation, Fe salts/NaOH, Co-MOF in methanol, multiple solvent washes and vacuum drying; no yield/energy/cost inventory. Abstract reports 98% removal at C0=0.2 mg/L, dose=0.1 g/L, pH7,25°C,250rpm; Fig.4 text says ~97% at 20–30min. Feed ceiling under that condition is 2 mg/g; 98% implies qe≈1.96mg/g, but Table2 PSO fitted qe=19.5198mg/g. Table3 Langmuir qm=185.87mg/g at45°C is fitted and exceeds the 100mg/g feed ceiling at max C0=10mg/L/dose0.1g/L. Ten methanol-regenerated cycles decrease ~98→91%. No real-water, competing-ion, DOM or monetized cost/energy evidence.
+
+### SEM-046 / EV-SEM-042 — Tekle Tegie et al. (2026), ZrO2–Fe3O4/GO for CIP
+DOI 10.4314/bcse.v40i5.15. AJOL article: https://www.ajol.info/index.php/bcse/article/view/318556; primary PDF text parsed. A 30-run CCD/RSM uses dose0.1–0.5g/100mL, C0 10–50mg/L, time15–75min, pH5–9. Optimum C0=30mg/L, dose0.3g/100mL, pH7,45min,100mL; removal93.92%. Source qe=20.11mg/g, but feed ceiling10mg/g and 93.92% implies9.392mg/g. Langmuir qm=313.48mg/g is fitted. Real effluent CIP8.37→2.01mg/L computes76.0%, not90.75%. Eight-cycle reuse uses DI water/acetone/methanol washes; abstract/body retention 85.45/85.7%. AJOL issue listing says40(5), PDF footers40(6); no cost/energy/yield.
+
+### Other leads held/excluded
+- DOI 10.1016/j.ijbiomac.2026.153894: magnetic GO/NH2-UiO-66(Zr)/alginate for TC held pending corrigendum/cross-reference resolution.
+- DOI 10.4108/eai.6-11-2025.2364334: analytical dispersive solid-phase extraction, not treatment adsorption; exclude.
+- DOI 10.1038/s41598-025-32230-4: SnO2/rGO visible-light photodegradation; exclude from adsorption-only evidence.
+- DOI 10.1007/s11356-019-07186-4: oxytetracycline study; exclude because OTC is not TC.
+
+The register now has 46 rows; SEM-041 remains an alias of SEM-026, so 45 DOI-defined candidate records after excluding that known alias. The dedicated evidence register has 41 records. These are not final included-study or PRISMA counts. The original 13 DOI queue entries retain their historical five-export check; SEM-045/046 require Zotero DOI lookup before metadata addition.
