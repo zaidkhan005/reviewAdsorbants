@@ -1,11 +1,13 @@
 # Zotero DOI intake queue — semester graphene/CIP/TC manuscript
 # Prepared 30 October 2026 from the existing semester candidate register and evidence audits.
-# All 16 DOIs below were searched by exact DOI across the five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries) on 31 October 2026; none had an exact match in those exports.
-# This does not rule out Zotero items in an unexported collection. Search Zotero by DOI before adding any metadata.
+# The 17 DOI entries that were in the queue on 31 October 2026 were searched by exact DOI across the five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries); none had an exact match in those exports.
+# Three newer DOIs (SEM-048/049/050) were added after that historical five-export check and have not yet been checked against those exports. Search Zotero by DOI before adding any metadata.
 # This queue is metadata intake only. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
 10.1039/d6ra02920e           # SEM-045 — magnetic GO/Co-MOF for TC; kinetic fitted qe exceeds same-condition mass-balance ceiling; qm is fitted; 10-cycle reuse
+10.3390/nano12172897         # SEM-049 — Alg-Cu@GO@MOF-525 for TC; full OA text; dose/C0 units and low-dose qe require resolution
+10.1007/s42114-026-01808-5   # SEM-050 — GO–TOPO:LevA DES membrane for TET; full article+ESM; active-layer cost/GWP and spiked MWW evidence; batch qe caveat
 10.4314/bcse.v40i5.15        # SEM-046 — ZrO2-Fe3O4/GO for CIP; pharmaceutical-effluent test; qe and real-sample removal arithmetic conflicts; qm is fitted
 10.1371/journal.pone.0079254   # SEM-001 — GO/TC; source temperature-series inconsistency
 10.1016/j.jcis.2018.03.003    # SEM-006 — DTPA-functionalized magnetic GO; fitted kinetic qe only; SI incomplete
@@ -17,6 +19,7 @@ Priority P1 — audited primary full text or author-hosted accepted manuscript; 
 10.1016/j.carbpol.2018.02.021 # SEM-042 — chitin/GO/CIP; column mass reported as physically impossible; batch evidence only
 
 Priority P2 — import after P1; use with explicit source-access caveats:
+10.1016/j.molstruc.2026.145993 # SEM-048 — rGO/Pr6O11 for CIP; publisher abstract only; q_m fitted; four-cycle capacity retention
 10.1016/j.jwpe.2026.110335 # SEM-030 — GO/[Ni(DMG)]n for CIP; publisher abstract only; comparative Langmuir qmax 117–159 mg/g but Freundlich/Temkin fit better; no reuse/cost evidence
 10.1016/j.ijbiomac.2026.153894 # SEM-047 — magnetic GO/NH2-UiO-66/alginate for TC; abstract-level only; river-water result and 10-cycle reuse; publisher corrigendum relationship checked
 10.1016/j.jhazmat.2014.03.063 # SEM-043 — GO/CIP; detailed methods/Table1 from non-publisher mirror
