@@ -187,3 +187,5 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - A 2026 citric-acid-crosslinked CMC/GO bead paper (DOI 10.1080/16583655.2026.2613597) remains on hold: the exact target is relevant, but the full text could not be retrieved and no detailed evidence was extracted.
 
 - SEM-050 is the strongest current cost-evidence candidate, but its USD 2.5–6.8/m² estimate is for active-layer material only; its 0.02–0.08 kg CO2-eq/m³ figure is a throughput-normalized footprint, not financial treatment cost. Full module and life-cycle boundaries remain incomplete.
+
+- SEM-051 / EV-SEM-047: 2026 citric-acid-crosslinked CMC/GO beads for TC. Publisher-indexed full article text reports an author-estimated USD1.95/g-TC adsorption cost using fitted qmax; condition and functional-unit caveats are material. DOI absent from five mounted BibTeX exports; no key assigned.
