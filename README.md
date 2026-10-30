@@ -176,3 +176,4 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - `manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md` — editable Mermaid source for the original scope/material-taxonomy figure, based on the approved scope proposal.
 - `manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md` — editable Mermaid source for the original preparation–adsorption–recovery–cost-boundary schematic.
 - `manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md` — editable Mermaid source for the conceptual CIP/TC–graphenic-surface interaction map, with evidence and inference limits.
+- `manuscript/SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md` — editable Mermaid source for the evidence-based performance–preparation–recovery–cost assessment framework.
