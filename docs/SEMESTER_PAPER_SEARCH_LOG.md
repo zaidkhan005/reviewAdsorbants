@@ -455,3 +455,13 @@ These reviews can be used for conceptual mapping/citation discovery only; their 
 - DOI10.1080/16583655.2026.2613597, citric-acid-crosslinked CMC/GO beads for TC: Taylor & Francis record identifies an exact TC/GO bead study, published online18 Jan2026, but full page retrieval was blocked and detailed methods/results could not be audited. Keep on a hold list, not in the active candidate/evidence count until more source material is available.
 
 Updated counts at this checkpoint: candidate register50 rows,49 distinct DOI-defined candidate records after excluding the SEM-041 alias; dedicated evidence45 rows; crosswalk/linkage50 rows; mechanism and feasibility matrices21 rows each; Zotero queue20 DOIs. Seventeen queue entries were checked against the five mounted BibTeX exports on31Oct; SEM-048/049/050 were added after that check and still need Zotero lookup. The manuscript remains19 cited works pending real keys, and none of the three new candidates is cited yet.
+
+## 37. Exact DOI cross-check for SEM-048/049/050 against mounted BibTeX exports — 31 October 2026
+
+The three new candidate DOI strings were searched across all five available mounted Library BibTeX exports: the 173-entry `full ++ check again.bib`, both 164-entry full-corpus exports, the 61-entry newer review corpus and the 31-entry older review corpus.
+
+- SEM-048: 10.1016/j.molstruc.2026.145993 — no exact DOI match in any of the five files.
+- SEM-049: 10.3390/nano12172897 — no exact DOI match in any of the five files.
+- SEM-050: 10.1007/s42114-026-01808-5 — no exact DOI match in any of the five files.
+
+This is a negative match in the five exported files, not proof that Zotero has no record in any unexported collection. Updated crosswalk, shortlist and citation-linkage rows to show the five-export search and left all three Better BibTeX keys blank. The queue contains **20 unique DOI records** with no duplicates. SEM-048 remains abstract/preview-only; SEM-049 and SEM-050 have primary full text, with the source-specific caveats in EV-SEM-045/046 and their shortlist rows.
