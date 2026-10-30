@@ -355,3 +355,17 @@ The uploaded file `unm bio 1.pdf` is the Research Square v1 preprint (DOI 10.212
 - The official Springer page is a subscription preview in this pass; complete published methods, Tables 2–4 and SI were not accessible. No claim is made that these details were retained or changed in peer review.
 
 **Disposition:** GAP-011 is partially reconciled. The journal abstract supports only the headline pH-4 capacities and the published-version diffusion assignment. Detailed preprint models, kinetic parameters, thermodynamics and conditions remain version-qualified. The screening register now identifies the published DOI for citation while retaining the preprint DOI as provenance.
+
+
+## P1 source verification — Liang et al. (2024), DISC-030
+
+The original *Carbon Research* PDF (`s44246-023-00094-w.pdf`, DOI 10.1007/s44246-023-00094-w) was retrieved from the Library, text-extracted for locating the passages, and visually rendered for Fig. 5/Fig. 6 on PDF p. 9.
+
+- **Isotherm condition:** Methods §2.4 (PDF p. 4) state 20 mL TC solution, 5–200 mg/L, 20 mg adsorbent, 24 h. At the highest feed concentration the maximum possible observed loading is 200 × 0.020 / 0.020 = **200 mg/g**.
+- **Fitted capacity:** Main text reports Langmuir qmax = 420.4 mg/g for NFO/BC. This is over 2.1 times the maximum loading accessible in the stated isotherm range. Fig. 5 shows experimental NFO/BC points reaching roughly 140 mg/g at 200 mg/L. Keep 420.4 mg/g as a fitted, extrapolated Langmuir asymptote—not measured or demonstrated working capacity. Detailed isotherm fits are in SI Table S1, not in the uploaded main PDF.
+- **Kinetic correction:** Methods §2.4 (PDF p. 4) state 20 mg adsorbent in 20 mL of 20 mg/L TC, giving a maximum loading of 20 mg/g. Fig. 6 visually shows NFO/BC uptake approaching about 18–19 mg/g, consistent with that ceiling. An earlier extraction note recorded approximately 64.49 mg/g; this is not supported by visual inspection of the plotted curve and is now withdrawn from the evidence record. Exact fit parameters are in SI Table S3 and remain unverified.
+- **Reuse:** PDF p. 8 states four adsorption–desorption cycles with deionized-water desorption; NFO/BC removal remains about 72% after the fourth cycle.
+- **Processing/cost:** the material is made by 700 °C biochar production followed by Ni/Fe salt addition, concentrated ammonia to pH≈11, 180 °C hydrothermal treatment for 12 h, centrifugation and repeated water/ethanol washing. Main PDF supplies no yield, reagent/washwater cost, Ni/Fe leaching assessment or LCA. Magnetic separation is a handling feature, not proof of sustainability.
+- Thermodynamic parameters are in SI Table S4; the SI was not included with the uploaded PDF and was not independently retrieved in this pass.
+
+**Disposition:** GAP-010 is partially resolved. The main-PDF capacity and kinetic conditions are now reconciled; the fitted qmax is explicitly extrapolative, and the kinetic graph is mass-balance-consistent. SI Tables S1/S3/S4 and a process inventory remain open. Updated `EV-B20-004` and `GAP-010`.
