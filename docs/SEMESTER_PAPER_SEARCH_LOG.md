@@ -374,3 +374,9 @@ The register now has 46 rows; SEM-041 remains an alias of SEM-026, so 45 DOI-def
 **Disposition:** Register as SEM-047 / EV-SEM-043, provisional/abstract-level P2. Add the original article DOI (not the corrigendum DOI) to Zotero metadata queue; no citekey assigned. Full text required before data-table integration.
 
 Updated current counts: 47 candidate-register rows (46 DOI-defined after excluding SEM-041 alias), 42 dedicated evidence records, 47 crosswalk/linkage rows, and 18 rows in each mechanism and feasibility matrix. These are not final included-study or PRISMA counts.
+
+### Better BibTeX lookup for the three supplementary 2026 DOIs — 31 October 2026
+
+The exact DOI strings for SEM-045 (10.1039/d6ra02920e), SEM-046 (10.4314/bcse.v40i5.15) and SEM-047 (10.1016/j.ijbiomac.2026.153894) were checked against all five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries). None had an exact DOI match in those five files. This is an export-level negative match only; it does not establish absence from Zotero collections that were not exported. Linkage and crosswalk rows are updated accordingly, with no Better BibTeX keys assigned. Search Zotero by DOI before adding any metadata, then provide a fresh export for key reconciliation.
+
+The updated intake queue therefore contains 16 unique DOI records: the original 13 and the three supplementary 2026 studies. SEM-045/046 are full-text audited; SEM-047 remains abstract-level and is classified P2 pending full-text access.
