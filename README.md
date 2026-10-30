@@ -51,7 +51,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 - `data/semester-condition-labelled-comparison.csv` — a 26-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
-- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 40 dedicated evidence records.
+- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 39 active dedicated evidence records.
 
 ## Citation readiness
 
@@ -68,7 +68,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Current manuscript draft
 
-- `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` — first source-cautious results/discussion draft using verified citation keys and explicit citation-key-pending markers.
+- `manuscript/SEMESTER_RESULTS_AND_DISCUSSION_V1.md` — source-cautious Results and Discussion working draft using 15 DOI-verified citation keys, explicit evidence-record tags and source-quality caveats; not submission-ready.
 
 ## Repository map
 
@@ -139,7 +139,7 @@ For newly downloaded papers being uploaded in batches of three across branched c
 
 The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Include selected graphene-based adsorbents and selected graphene-bearing composites, with CIP and TC as the two targets. “Green”, “sustainable”, and “waste-derived” are not defining themes. Low cost is assessed from reported preparation, reagent/energy burden, recovery, regeneration and real-water/application evidence; it is not inferred from material origin or high qmax.
 
-The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 40 unique records (verified 2026-10-30); reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
+The semester candidate register has 44 rows: 43 distinct candidate studies after excluding SEM-041 (duplicate alias of SEM-026); 42 have valid DOI strings and SEM-021 still needs DOI verification. The dedicated evidence CSV has 39 active unique records after the SEM-037 duplicate was consolidated into EV-SEM-040 (verified 2026-10-30); reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. No new paper download/upload is requested from the user at this stage.
 
 
-Current semester-paper evidence register: **40 unique evidence rows** (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
+Current semester-paper evidence register: **39 active unique evidence rows** after consolidation of the duplicate SEM-037 PRB record into EV-SEM-040 (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
