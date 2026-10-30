@@ -330,3 +330,15 @@ The original Elsevier PDF (`1-s2.0-S0926669025001955-main.pdf`) was retrieved fr
 - **Cost:** the main paper reports PCH preparation cost US$3.98/kg and treatment estimate US$7.64/kg CIP, but points to SI Table S4. The SI was not included with the supplied PDF and has not been independently audited. No yield or complete acid/washwater/energy/labour/scale/regeneration/spent-media/LCA boundary is established from the main text.
 
 **Disposition:** GAP-008 remains P1. The real-water endpoint is now classified as a COD/TOC/EEM proxy, not target-specific CIP removal. Qexp and Langmuir Qm are separately represented; the US$3.98/kg figure remains a narrow author-reported estimate. Updated `EV-B04-004`, `EV-B04-006`, `EV-B04-008` and `GAP-008`.
+
+
+## P1 source verification — Li et al. (2026), DISC-012
+
+The original ACS Omega PDF (`ao5c07456.pdf`, DOI 10.1021/acsomega.5c07456) was retrieved from the Library and rendered for visual inspection.
+
+- **Pore volume:** abstract on PDF p. 1 reports 276 cm³/g. Detailed text on PDF p. 5 reports QN7.5BC BET area 206.8825 m²/g, total pore volume 0.2951 cm³/g, and micropore volume 0.03822 cm³/g. After TC adsorption, the main text reports total pore volume 0.2532 cm³/g and micropore volume 0.01082 cm³/g. The abstract value is about 935 times the detailed value and is physically implausible as a specific pore volume; no correction/erratum was found in the inspected article. Use 0.2951 only as the detailed main-text value with the abstract discrepancy explicitly recorded.
+- **Preparation:** PDF p. 3 gives apple-branch biochar produced at 700 °C for 2 h under N2; 2 g BC is mixed with 15 mL 25 wt% ammonia and zirconia milling media, milled at 300 rpm for 24 h with periodic reversals/pauses. No material yield, milling energy, quantified unit production cost or LCA is reported in the main text; “cost-effective/sustainable” remains an author characterization rather than a quantified cost claim.
+- **Regeneration:** Methods §2.5 (PDF p. 3) states five consecutive regeneration cycles; Results §3.8 (PDF p. 9) reports six adsorption–desorption cycles. This plausibly means an initial cycle plus five reuse cycles, so it is not logged as a proven count contradiction. Reported removal falls from 95.6% in cycle 1 to 54.6% in cycle 2 and 40.6% by cycle 6. This is a major reuse weakness.
+- Official ACS SI listing confirms Fig. S8 contains cycle-wise regeneration data, but the direct SI PDF was not retrieved in this pass; the main-text endpoint values are already stated in the article.
+
+**Disposition:** GAP-009 remains P1. The gap register and master evidence now preserve the abstract/main-text pore-volume discrepancy, use the detailed value conditionally, and classify the regeneration decline as a substantial performance weakness. Updated `EV-B09-016`, `EV-B09-022` and `GAP-009`.
