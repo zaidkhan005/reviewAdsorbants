@@ -58,8 +58,8 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 ## Citation readiness
 
-- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level verified citation-key coverage, with 13 selected candidate DOIs marked absent from the five exports checked on 30 October 2026.
-- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely. The 2026-10-30 continuation additionally checks five available BibTeX exports.
+- `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level citation-key linkage; all 21 DOIs in the intake queue were checked against five mounted Better BibTeX exports on 31 October 2026, with no exact matches. See the expanded [citation-linkage audit](docs/SEMESTER_CITATION_LINKAGE_AUDIT.md).
+- `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md` — explains verified key matches and how to handle unmatched candidates safely. The 31 October 2026 addendum reconciles all 21 queued DOIs against the five available BibTeX exports; Zotero collections not represented by those exports still require an in-library DOI search.
 
 ## 2026-10-30 continuation closeout
 
