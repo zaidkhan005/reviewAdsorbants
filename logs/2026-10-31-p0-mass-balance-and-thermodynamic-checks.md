@@ -196,3 +196,24 @@ The original uploaded PDF was re-opened from the Library attachment `1-s2.0-S277
 GAP-001 is **resolved for manuscript use** as an unusable/quarantined thermodynamic parameter set, not as a corrected numeric result. The original source discrepancy remains documented; no table value has been silently altered. EV-B08-004 retains the source-reported values only in its audit description and explicitly excludes them from manuscript thermodynamic conclusions. The remaining condition-labelled removal result can be used with the dose discrepancy attached.
 
 Source pinpoints: original PDF pp. 1, 5–6, 8–11; Methods Eqs. (2)–(5); Fig. 6 dose/pH/time/temperature insets; Fig. 9(a); Table 4.
+
+
+## P0 source-verification completion — Jiao et al. (2024), DISC-010 (2026-10-31 continuation)
+
+The original uploaded Bioresource Technology PDF `1-s2.0-S096085242400097X-main.pdf` was retrieved from the Library and its rendered PDF pages 3–5 were visually inspected. Text extraction was used to locate passages; the figure captions, table and equation were checked against the rendered source.
+
+### Experimental equation and low-feed kinetic discrepancy
+- Methods §2.3, PDF p. 3, define `q_e = (C_0 - C_e) × V / w`, with C0 and Ce in mg/L, V in L and sorbent mass w in g. The same page describes the static adsorption experiment and states the OTC kinetic conditions in Fig. 3a caption.
+- Fig. 3a caption, PDF p. 4, specifies adsorbent = 0.5 g/L, OTC = 2 mg/L, 25 °C and pH 6.50 ± 0.1. The mass-balance ceiling is therefore `2 mg/L ÷ 0.5 g/L = 4 mg/g` (equivalently C0×V/w for any common test volume).
+- The adjacent Results text reports experimental OTC uptake around 12.07 mg/g; Table 1 gives MBC@MIPs fitted qe = 10.84 mg/g (pseudo-first-order) and 12.55 mg/g (pseudo-second-order). The same paragraph alternates units, labelling the experimental 12.07 once as mg/g and once as mg/L, and the fitted 12.55 once as mg/L although Table 1 labels capacity in mg/g. The article's own qe equation and figure-axis/table units do not reconcile these values with the caption's 4 mg/g ceiling. These low-feed kinetic capacities are therefore not accepted as verified uptake.
+- The separate isotherm experiment spans 1–200 mg/L. Table 2 reports MBC@MIPs Langmuir parameter 67.89 mg/g (R²=0.9821), and the body states an experimental value 60.19 mg/g at a separate concentration condition. These are a different experimental series and a fitted asymptote/condition-specific isotherm observation—not a corrected value for the low-feed Fig. 3 kinetic run.
+
+### Selectivity discrepancy
+- Fig. 4a caption, PDF p. 5, specifies 4 mg/L antibiotic feed, 0.5 g/L adsorbent and 25 °C. The maximum loading is 4/0.5 = **8 mg/g**.
+- The selectivity Results §3.4 reports 11.97 mg/g OTC uptake. This exceeds the 8 mg/g ceiling by 49.6%. The adjacent mixture experiment reports 6.10 mg/g OTC with competing antibiotics; that is a separate condition and is not a correction for the individual-selectivity test.
+- No alternate volume, actual weighed mass, feed concentration basis, or normalization correction is stated in the main PDF. Do not infer one.
+
+### Disposition
+GAP-002 is **resolved for manuscript use** as a confirmed quantitative inconsistency with low-feed kinetic and selectivity qe values quarantined; no corrected capacity is inferred. Preserve the Langmuir 67.89 mg/g only as a separate fitted isotherm parameter, not a measured uptake under the low-feed conditions. The article's Table 2 MBC comparator discrepancy (38.34 mg/g in Table 2 versus 38.84 mg/g in body/abstract) remains a separate unresolved source mismatch and is not silently harmonized.
+
+Source pinpoints: PDF p. 3 Eq. (2), definitions and §2.3; PDF p. 4 Fig. 3a caption and Table 1; PDF p. 5 Fig. 4a caption, §3.4 and Table 2/mixture discussion.
