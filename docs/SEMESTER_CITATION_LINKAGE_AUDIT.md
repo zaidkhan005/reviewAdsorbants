@@ -43,3 +43,19 @@ The three most recently source-audited candidates were checked against **five** 
 - `Antibiotic Adsorption Review — Full Corpus.bib` — 31 entries
 
 No exact DOI or normalized-title match was found for SEM-042 (10.1016/j.carbpol.2018.02.021), SEM-043 (10.1016/j.jhazmat.2014.03.063), or SEM-044 (10.1007/s00604-019-3563-x) in these five exports. Their rows in `data/semester-bibtex-citation-linkage-audit.csv` and `data/semester-main-corpus-crosswalk.csv` now record the absence and the required action. This result does not prove that the records are absent from every Zotero collection or an unexported collection; it only establishes that no Better BibTeX key can be verified from the five available exports. Do not invent citation keys. Locate/add each DOI-verified Zotero record, export Better BibTeX, and then update the linkage rows from the generated keys.
+
+
+## 2026-10-30 citation expansion continuation — working Introduction and DOI intake
+
+A new working Introduction/Scope draft adds four contextual sources whose keys already existed in the 173-entry Better BibTeX export:
+
+- Ahmed et al. (2015), DOI 10.1016/j.scitotenv.2015.05.130, key `ahmedAdsorptiveRemovalAntibiotics2015a` — review-level background/cost framework only.
+- Jiao et al. (2025), DOI 10.1016/j.jhazmat.2025.137566, key `jiaoCarbonNanomaterialsCoremoval2025` — review-level carbon nanomaterial/matrix/cost context only.
+- Wang et al. (2010), DOI 10.1016/j.jhazmat.2010.07.025, key `wangCationExchangeInteraction2010` — CIP speciation/cation-exchange comparator on montmorillonite; clay is outside core material scope.
+- Gu et al. (2007), DOI 10.1016/j.chemosphere.2006.08.028, key `guComplexationAntibioticTetracycline2007a` — TC/dissolved-humic-acid complexation; humic acid is not a solid adsorbent.
+
+These four contextual entries are now appended to `references/semester-manuscript-cited-references.bib`. The Results/Discussion file still has 15 distinct citation keys; the separate Introduction/Scope file has four additional keys, giving **19 distinct cited works across the two working drafts**. Four are context/review sources, not additional core graphene adsorption studies.
+
+A separate source-quality shortlist and DOI queue have been created for 13 additional semester candidates (SEM-001, 006, 007, 009, 011, 012, 015, 019, 025, 027, 028, 042 and 043). A direct DOI scan of all five available Library exports on 30 October 2026 found **no exact DOI match for any of the thirteen**. No BBT key has been invented. Use the DOI queue to search Zotero and import metadata only where missing; then export a fresh Better BibTeX file and update actual keys from that export before citing any of them.
+
+The claim-to-evidence matrix now includes CLM-16–CLM-19 for the four contextual sources, with explicit labels preventing their use as core empirical performance records. The introduction also marks the final reproducible search-method details as pending: exact search platforms, dates, strings, date limits, deduplication and screening flow must be reconciled before describing the work as a completed systematic review.
