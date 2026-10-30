@@ -81,13 +81,15 @@ The reported experimental qe range 80.58–90.21 mg/g is therefore compatible wi
 
 **Disposition:** not labelled a proven mass-balance violation. Retain experimental qe as source-reported with concentration-basis caveat; exclude very large fitted q_m from cross-paper capacity ranking pending clarification.
 
-## Overall result
+## Overall result — revised after full-PDF inspection
 
-- One clear arithmetic contradiction: Kar et al. thermodynamics.
-- Two direct condition-specific uptake/kinetic mass-balance flags: Jiao and Adu-Poku, subject to confirmation of the exact test conditions.
-- Two high fitted-capacity extrapolation concerns: Mohammed-Ridha and García-Criado; fitted asymptotes are not equivalent to observed uptake, but are weakly constrained by the stated loading range.
-- One ambiguous concentration/volume basis for N-rGO: not a proven violation; both plausible bases have been calculated.
-- No source value has been silently replaced or normalized.
+- **Kar:** one confirmed thermodynamic arithmetic/unit contradiction; no corrected parameters inferred.
+- **Jiao:** two condition-specific capacity inconsistencies confirmed against the printed figure captions and the article's own qe equation (11.97 mg/g versus 8 mg/g ceiling; kinetic values around 12 mg/g versus 4 mg/g ceiling).
+- **Mohammed-Ridha:** a separate kinetic-model mass-balance discrepancy confirmed from Section 4.3 and Table 3 (barley-husk fitted qe 23.81 and 6.87 mg/g versus 4.64 mg/g ceiling).
+- **Adu-Poku:** concentration-window conflict confirmed, but the initial 245.9 mg/g kinetic result is **not proven** to violate mass balance because Figure 12 omits its exact dose and a 10 mg dose under 50 mg/L × 50 mL would permit 250 mg/g.
+- **García-Criado:** the narrative >200,000 mg/g Langmuir claim conflicts with Table 2 (86.1–1000 mg/g); kinetic qe, isotherm points and fitted q_max are separate datasets/metrics.
+- **Zhang & Wu (N-rGO):** concentration/volume basis ambiguity remains; not a proven mass-balance violation.
+- No source value has been silently replaced or normalized. Earlier conditional assumptions are explicitly superseded by the source-verified findings below.
 
 
 ## Primary-PDF visual verification — Kar and Jiao
@@ -164,3 +166,10 @@ Visual inspection confirms:
 
 **Corrected verdict:** no proven mass-balance violation. Keep the experimental values with the concentration/volume-basis caveat; exclude fitted q_m from capacity rankings pending fit/basis verification.
 
+
+
+## Correction to the initial P0 triage
+
+After visually inspecting the original PDFs, the Adu-Poku mass-balance allegation was withdrawn: the Figure 12 kinetic dose is not stated, and a plausible 10 mg / 50 mL / 50 mg/L condition permits 250 mg/g. The 245.9 mg/g result remains condition-incomplete, not proven impossible. The N-rGO concentration basis also remains ambiguous rather than a proven violation and has been downgraded from P0 to P1.
+
+The current priority distribution is **5 P0, 9 P1 and 5 P2**. The P0 list now comprises Kar thermodynamics, Jiao OTC uptake, Adu-Poku concentration/kinetic-condition conflict, Mohammed-Ridha kinetic mass-balance discrepancy, and García-Criado narrative/table capacity mismatch. The detailed register is authoritative.
