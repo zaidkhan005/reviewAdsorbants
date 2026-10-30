@@ -17,21 +17,21 @@ Do not count evidence rows, candidate IDs, distinct studies, comparison rows and
 |---|---:|---|
 | Candidate records | 44 | IDs SEM-001 through SEM-044 |
 | Distinct study candidates | 43 | One record, SEM-041, is a duplicate alias of SEM-026 |
-| Dedicated semester evidence-extraction rows | 37 | One row each for the current 37 extracted candidate IDs |
-| Evidence-readiness rows | 37 | Matched to the 37 extraction rows |
-| Candidates without a dedicated semester extraction row | 7 | See breakdown below; several deliberately do not need a new row |
+| Dedicated semester evidence-extraction rows | 38 | One row each for the current 38 extracted candidate IDs |
+| Evidence-readiness rows | 38 | Matched to the 38 extraction rows |
+| Candidates without a dedicated semester extraction row | 6 | See breakdown below; several deliberately do not need a new row |
 | Condition-labelled comparison rows | 23 | Condition/metric comparison entries, not all 44 candidates |
 | Results/discussion claim-evidence audits | 22 | RD-001 through RD-022; these are claims, not 22 unique papers |
 | Existing Results & Discussion draft | V1, sections 3.1–3.6 | Evidence-led working draft; explicitly not submission-ready |
 | Citations in that draft | 15 | Their citation keys were reconciled against the user-supplied 173-entry export in the existing citation checkpoint |
 
-The 37 evidence rows do not mean 37 fully verified empirical papers. They include different source access levels, provisional empirical entries, condition-specific caveats and the theory-only SEM-013 record.
+The 38 evidence rows do not mean 38 fully verified empirical papers. They include different source access levels, provisional empirical entries, condition-specific caveats and the theory-only SEM-013 record.
 
-## The seven candidates without a dedicated semester extraction row
+## The six candidates without a dedicated semester extraction row
 
 | Candidate | Current decision | Further work |
 |---|---|---|
-| SEM-021 | Potential candidate; discovery metadata only | Verify DOI/citation identity, target and whether the study is adsorption-only and relevant to scope. |
+| SEM-021 | DOI/title now verified; primary publisher/PubMed abstracts support an in-scope empirical TDMGO/TC study | EV-SEM-038 added at abstract level. Full-text-dependent capacity and condition verification remains open; 1233 mg/g is Langmuir-fitted q_m at 313 K, not observed q_e. |
 | SEM-022 | Review article; background/context only | No empirical extraction row required. Use only to trace original primary papers; do not count it as a primary study. |
 | SEM-023 | Low-priority candidate; publication type/study detail unclear | Verify whether it is a full primary journal article or proceedings record, and whether target-specific original data exist. Include only if source evidence warrants it. |
 | SEM-035 | Needs clarification | Resolve tetracycline species, bibliographic identity and primary experimental method before deciding inclusion. |
@@ -39,7 +39,7 @@ The 37 evidence rows do not mean 37 fully verified empirical papers. They includ
 | SEM-038 | Reuses existing broad-corpus evidence | Link EV-B10-004–EV-B10-009 via `data/semester-main-corpus-crosswalk.csv`; do not create duplicate semester evidence rows. Preserve the dose/concentration mass-balance warning. |
 | SEM-041 | Duplicate alias of SEM-026 | No further study extraction. Keep alias for traceability only; cite/count the canonical study once. |
 
-Therefore there are **four genuinely open candidate-resolution items** (SEM-021, SEM-023, SEM-035, SEM-036), not seven missing empirical extractions.
+Therefore there are **three genuinely open candidate identity/scope items** (SEM-023, SEM-035, SEM-036). SEM-021's identity is resolved and it now has an abstract-level evidence row; its remaining full-text parameter validation is tracked as source-strengthening work, not metadata resolution.
 
 Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water” lead. **EV-SEM-035** is an evidence ID attached to candidate **SEM-013**, the 2024 theoretical DFT paper. These identifiers refer to different records.
 
@@ -54,8 +54,8 @@ Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Character
 ## Journal quartile / ranking work
 
 Current candidate-register status:
-- 41 candidate records explicitly say quartile not checked for this semester screen.
-- One additional record says “To be verified” (SEM-021).
+- 42 candidate records explicitly say quartile not checked for this semester screen.
+- SEM-021's identity/DOI is now verified, but its journal quartile remains unchecked like the other candidate records.
 - SEM-038 has an existing main-corpus signal of Q2 across five 2025 SJR categories, but publication-year/category and JCR eligibility have not been re-audited for this semester paper.
 - SEM-041 is a duplicate alias; ranking should be assigned once to canonical SEM-026.
 
