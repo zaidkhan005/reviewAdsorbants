@@ -47,25 +47,17 @@ The mixture result (6.10 mg/g) is a different condition and should not be substi
 
 ### GAP-003 — Adu-Poku et al. (2024), DISC-026, DOI 10.1155/2024/3648098
 
-The typical batch condition transcribed in EV-B15-006 is 25 mg sorbent in 50 mL at 50 mg/L:
-- Initial AMX mass = 50 mg/L × 0.050 L = 2.5 mg.
-- Sorbent mass = 0.025 g.
-- Maximum possible uptake = 2.5/0.025 = **100 mg/g**.
+The original PDF has conflicting concentration descriptions: the abstract and Methods state 0.5–2.5 mg/L for the initial-concentration study, while Results/Fig. 10 show 20–70 mg/L. Figure 10 uses 25 mg biochar and C0=20–70 mg/L; Figure 11 uses C0=50 mg/L and doses 2–20 mg. Figure 12 reports kinetic qe(exp)=245.9 ± 1.4 mg/g and PSO qe(cal)=243.902 mg/g, but its caption does not state C0, solution volume or adsorbent mass.
 
-Reported experimental kinetic qe = **245.9 ± 1.4 mg/g**, which is 2.459 times the ceiling. The Langmuir qmax = 239.230 mg/g is a fitted parameter and is not itself required to be below the single-condition ceiling, but the reported experimental qe must be reconciled with the actual kinetic test conditions. The abstract's 0.5–2.5 mg/L concentration range conflicts with Methods/Results 20–70 mg/L.
+The 100 mg/g ceiling from 25 mg/50 mL/50 mg/L applies to the separately described typical/pH condition only; it cannot be assigned automatically to Figure 12's kinetic run. For example, 10 mg adsorbent in 50 mL at 50 mg/L gives a 250 mg/g upper bound, so 245.9 mg/g is not proven impossible. This candidate remains open due to conflicting concentration ranges and missing kinetic conditions, not a confirmed mass-balance violation.
 
 **Disposition:** 245.9 mg/g quarantined as unresolved. The 100 mg/g ceiling applies only if the cited 25 mg/50 mL/50 mg/L condition is the same experiment that generated the kinetic qe.
 
 ### GAP-004 — Mohammed-Ridha & Abdul-Ahad (2014), CORP-019, DOI 10.31026/j.eng.2014.12.06
 
-Isotherm conditions transcribed in EV-B17-007: C0 max = 150 mg/L; V = 100 mL; barley-husk/activated-carbon mass = 0.5 g.
-- Initial LEVX mass = 150 × 0.100 = 15 mg.
-- Maximum possible uptake = 15/0.5 = **30 mg/g**.
-- Reported barley-husk Langmuir q_m = **125.735 mg/g**, 4.19 times that single-test loading ceiling.
+The isotherm condition is C0 max = 150 mg/L, V = 100 mL and barley-husk mass = 0.5 g, giving a maximum observed loading of **30 mg/g** at the top of the tested feed range. The reported barley-husk Langmuir q_m = **125.735 mg/g** is a fitted asymptote, not observed uptake; it is more than four times the largest loading available in the stated experiment and is weakly constrained.
 
-This does not mathematically prohibit a fitted asymptote from exceeding the maximum observed loading, but it means the fitted value is poorly constrained by the measured range and must not be described as measured uptake or a verified usable capacity.
-
-The separate 1 L kinetic setup in EV-B17-008 states 150 mg/L and doses of 30.722 g barley husk. At target Ce/C0 = 0.05, maximum removed mass is 142.5 mg, giving a ceiling of **4.64 mg/g**. Reported fitted qe values require checking against this stated setup.
+The separate kinetic setup in Section 4.3 states 1 L at 150 mg/L, target Ce/C0 = 0.05 and 30.722 g barley husk. Maximum removed mass is 142.5 mg, so the ceiling is **4.64 mg/g**. Table 3 reports fitted barley-husk qe values of 23.81 mg/g (PFO) and 6.87 mg/g (PSO), respectively about 5.13× and 1.48× this ceiling. These are model-fitted parameters and cannot be used as validated measured capacities without clarification.
 
 The PDF's internal imprint is December 2014. The filename's 2023 label is not the publication year.
 
@@ -73,14 +65,9 @@ The PDF's internal imprint is December 2014. The filename's 2023 label is not th
 
 ### GAP-005 — García-Criado et al. (2025), DISC-018, DOI 10.3390/antibiotics14040395
 
-The extraction records the main low-concentration protocol as 10 mL solution, 20 mg stevensite (2 g/L), and an isotherm range of 0.25–100 mg/L. If the upper concentration and same volume/dose apply:
-- Initial analyte mass at 100 mg/L = 1 mg.
-- Sorbent mass = 0.020 g.
-- Maximum possible loading at that point = **50 mg/g**.
+The original PDF distinguishes several experiments: kinetic Table 1 values (qe exp ≈0.983–1.575 mg/g), a separate isotherm series reported over 1–100 mg/L and plotted in Figure 6 (observed points roughly reach 30–40 mg/g), and fitted Langmuir q_max values in Table 2. Table 2 lists values from 86.1 to 1000 mg/g, whereas the narrative claims the Langmuir q_max for tetracyclines extends to over 200,000 mg/g. The narrative extreme is not supported by Table 2. The authors also state Freundlich fits are better (R² 0.817–0.968) than Langmuir fits (R² 0.755–0.908).
 
-Table 2 values around 1000 mg/g would be 20 times this maximum loading; the narrative value above 200,000 mg/g is more than 4,000 times the bound. These comparisons are conditional on the isotherm series using the same 10 mL/20 mg protocol; verify the exact isotherm volume and dose in the source before asserting a definitive violation.
-
-Experimental qe values around 0.983–1.575 mg/g are a separate metric and should not be conflated with the disputed fitted values. The paper also has concentration-unit and kinetic-time disagreements.
+Do not compare the kinetic qe values directly with the separate isotherm capacities. The Table 2 q_max values are fitted asymptotes and should not be presented as measured uptake; the >200,000 mg/g narrative claim should be excluded. The exact isotherm dose/volume basis and the cause of the prose/table discrepancy remain to be clarified.
 
 **Disposition:** extreme narrative qmax and Table 2 fitted values excluded from ranking. Use coherent observed uptake only with source-specific conditions and degradation caveat.
 
@@ -132,3 +119,48 @@ Both original main PDFs were located in the Library, materialized and rendered f
 
 - Kar original PDF `1-s2.0-S2772416625000786-main.pdf`: PDF pp. 4–5, 10–12; especially Eqs. 3–5, Table 4, Fig. 9, Table 5.
 - Jiao original PDF `1-s2.0-S096085242400097X-main.pdf`: PDF pp. 3–5; especially qe equation, Fig. 3/Table 1, Fig. 4a and selectivity text.
+
+
+## Additional primary-PDF verification — four remaining P0 cases
+
+### Adu-Poku et al. (2024), DOI 10.1155/2024/3648098
+
+The full PDF confirms:
+- Abstract and Methods state an initial-concentration range of 0.5–2.5 mg/L.
+- Results/Figure 10 instead plot 20–70 mg/L with 25 mg biochar; Figure 11 uses C0=50 mg/L and dosage 2–20 mg.
+- Figure 12/Table 1 report qe(exp)=245.9 ± 1.4 mg/g and PSO qe(cal)=243.902 mg/g, but Figure 12 does not state C0, V or sorbent mass.
+- The earlier 100 mg/g calculation assumed the typical 25 mg/50 mL/50 mg/L experiment applied to Figure 12, which is not established. A 10 mg dose in 50 mL at 50 mg/L allows up to 250 mg/g, so the reported value is **not proven impossible**.
+
+**Corrected verdict:** do not label 245.9 mg/g a mass-balance violation. Retain it as author-reported, with an incomplete kinetic-condition caveat. The concentration-window inconsistency is confirmed.
+
+### Mohammed-Ridha & Abdul-Ahad (2014), DOI 10.31026/j.eng.2014.12.06
+
+The full PDF confirms the kinetic design in Section 4.3: 1 L of 150 mg/L LEVX, target Ce/C0=0.05, barley-husk dose 30.722 g. Maximum mass removed = 150 mg × 0.95 = 142.5 mg; ceiling = 142.5/30.722 = **4.64 mg/g**. Table 3 on PDF p. 12 (printed p. 99) reports barley-husk fitted qe=23.81 mg/g (PFO) and 6.87 mg/g (PSO). Both exceed the ceiling, by about 5.13× and 1.48× respectively.
+
+The separate isotherm experiments use 100 mL and 0.5 g at feed concentrations up to 150 mg/L, giving 30 mg/g maximum tested loading. The 125.735 mg/g Langmuir q_m is a fitted asymptote, not observed uptake and not adequately demonstrated by the accessible isotherm loading.
+
+The issue is not the publication year: the original issue header shows December 2014, Volume 20, Number 12. The upload filename's 2023 is incorrect.
+
+**Verdict:** quarantine kinetic fitted qe values pending explanation of the mismatch; do not use 125.735 mg/g as a measured capacity; use 2014 bibliographic year.
+
+### García-Criado et al. (2025), DOI 10.3390/antibiotics14040395
+
+Visual inspection confirms:
+- Table 1 on PDF p. 8 presents the kinetic qe values, approximately 0.983–1.575 mg/g.
+- Figure 6 is a separate isotherm dataset over 1–100 mg/L, with measured points reaching roughly 30–40 mg/g.
+- Table 2 on PDF p. 9 lists Langmuir q_max values 86.1–1000 mg/g.
+- The adjacent narrative says q_max ranges to over 200,000 mg/g. That extreme is not supported by Table 2.
+- The paper states Freundlich fits are better overall (R² 0.817–0.968) than Langmuir (R² 0.755–0.908).
+
+**Corrected verdict:** the narrative extreme is a source discrepancy; do not use it. Do not compare kinetic qe to isotherm q_max. Keep fitted Langmuir values out of capacity rankings unless model and loading basis are independently resolved.
+
+### Zhang & Wu (2022), DOI 10.1002/jeq2.20415
+
+Visual inspection confirms:
+- Methods §2.3 on PDF p. 3: 80 mL antibiotic solution plus 20 mL N-rGO dispersion at 0.5 mg/L; hence 0.01 mg sorbent.
+- Figure 2a/Table 1 on PDF p. 5: C0=10 μg/L; qe(exp)=80.58–90.21 mg/g.
+- The stated pre-mix 80 mL feed gives an 80 mg/g upper bound; if the concentration is defined in the final 100 mL volume, the upper bound is 100 mg/g. The paper does not clarify this. Thus some values exceed one interpretation but all are within the other.
+- Table 2 on PDF p. 6 lists fitted Langmuir q_m values 561.80–1265.82 mg/g. These are fitted parameters, not measured qe.
+
+**Corrected verdict:** no proven mass-balance violation. Keep the experimental values with the concentration/volume-basis caveat; exclude fitted q_m from capacity rankings pending fit/basis verification.
+
