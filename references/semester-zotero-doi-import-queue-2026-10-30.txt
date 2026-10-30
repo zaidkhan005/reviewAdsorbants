@@ -5,6 +5,7 @@
 # This queue is metadata intake only. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
+10.1080/16583655.2026.2613597 # SEM-051 — citric-acid-crosslinked CMC/GO beads for TC; author USD1.95/g-TC cost uses fitted qmax; condition/functional-unit caveats; 3-cycle NaOH desorption
 10.1039/d6ra02920e           # SEM-045 — magnetic GO/Co-MOF for TC; kinetic fitted qe exceeds same-condition mass-balance ceiling; qm is fitted; 10-cycle reuse
 10.3390/nano12172897         # SEM-049 — Alg-Cu@GO@MOF-525 for TC; full OA text; dose/C0 units and low-dose qe require resolution
 10.1007/s42114-026-01808-5   # SEM-050 — GO–TOPO:LevA DES membrane for TET; full article+ESM; active-layer cost/GWP and spiked MWW evidence; batch qe caveat
