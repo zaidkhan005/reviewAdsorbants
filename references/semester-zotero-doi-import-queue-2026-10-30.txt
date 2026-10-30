@@ -1,7 +1,7 @@
 # Zotero DOI intake queue — semester graphene/CIP/TC manuscript
 # Prepared 30 October 2026 from the existing semester candidate register and evidence audits.
-# The original 13 DOIs below were checked against all five available Library BibTeX exports (173, 164, 164, 61 and 31 entries) and had no exact DOI match.
-# Three additional 2026 candidates (SEM-045/046/047) were discovered after that historical check and have not yet been checked against those exports; search Zotero by DOI before adding.
+# All 16 DOIs below were searched by exact DOI across the five mounted Library BibTeX exports (173, 164, 164, 61 and 31 entries) on 31 October 2026; none had an exact match in those exports.
+# This does not rule out Zotero items in an unexported collection. Search Zotero by DOI before adding any metadata.
 # This queue is metadata intake only. No PDF download or upload is requested.
 
 Priority P1 — audited primary full text or author-hosted accepted manuscript; import these first:
@@ -18,6 +18,7 @@ Priority P1 — audited primary full text or author-hosted accepted manuscript; 
 10.1016/j.carbpol.2018.02.021 # SEM-042 — chitin/GO/CIP; column mass reported as physically impossible; batch evidence only
 
 Priority P2 — import after P1; use with explicit source-access caveats:
+10.1016/j.ijbiomac.2026.153894 # SEM-047 — magnetic GO/NH2-UiO-66/alginate for TC; abstract-level only; river-water result and 10-cycle reuse; publisher corrigendum relationship checked
 10.1016/j.jhazmat.2014.03.063 # SEM-043 — GO/CIP; detailed methods/Table1 from non-publisher mirror
 10.1016/j.cej.2024.150484     # SEM-009 — GO/CIP aqueous vs synthetic urine; capacity model definition pending
 10.1016/j.jece.2023.110766    # SEM-011 — magnetic guar-gum-GO/CIP; mirror-only tables and dose inconsistency
