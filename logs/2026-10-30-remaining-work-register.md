@@ -31,7 +31,6 @@ The 38 evidence rows do not mean 38 fully verified empirical papers. They includ
 
 | Candidate | Current decision | Further work |
 |---|---|---|
-| SEM-021 | DOI/title now verified; primary publisher/PubMed abstracts support an in-scope empirical TDMGO/TC study | EV-SEM-038 added at abstract level. Full-text-dependent capacity and condition verification remains open; 1233 mg/g is Langmuir-fitted q_m at 313 K, not observed q_e. |
 | SEM-022 | Review article; background/context only | No empirical extraction row required. Use only to trace original primary papers; do not count it as a primary study. |
 | SEM-023 | Low-priority candidate; publication type/study detail unclear | Verify whether it is a full primary journal article or proceedings record, and whether target-specific original data exist. Include only if source evidence warrants it. |
 | SEM-035 | Needs clarification | Resolve tetracycline species, bibliographic identity and primary experimental method before deciding inclusion. |
@@ -45,8 +44,8 @@ Namespace warning: **SEM-035** is a candidate ID for the “Adsorption Character
 
 ## Existing evidence needing attention
 
-- **37/44 candidates** already have dedicated semester extraction and readiness rows.
-- **16 evidence records** are still at publisher-abstract, indexed-snippet or preview access level. One of these is SEM-013, which is theory-only; the other 15 are provisional empirical candidates. The candidate-level CSV specifies which records need source strengthening and which metrics must remain held.
+- **38/44 candidates** already have dedicated semester extraction and readiness rows.
+- **17 evidence records** are still at publisher-abstract, indexed-snippet or preview access level. One of these is SEM-013, which is theory-only; the other 16 are provisional empirical candidates, including SEM-021 (EV-SEM-038). The candidate-level CSV specifies which records need source strengthening and which metrics must remain held.
 - Other extracted candidates have primary full text or accepted-manuscript text, but still carry targeted caveats: missing conditions, uncertain figure readings, fitted-vs-observed metric separation, source-internal discrepancies, impossible column mass, or absent supplementary tables. Do not reopen completed extraction wholesale; follow the row-specific next action.
 - The condition-labelled comparison has **23 entries**. Expand it only where the source provides enough conditions and metric identity. Do not force every candidate into it, and do not make an unqualified capacity leaderboard.
 - The claim-evidence audit has **22 claims**. It must be reconciled against the final text after synthesis; do not treat the count as 22 studies.
