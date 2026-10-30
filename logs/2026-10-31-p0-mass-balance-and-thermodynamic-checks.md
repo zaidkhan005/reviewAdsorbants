@@ -101,3 +101,34 @@ The reported experimental qe range 80.58–90.21 mg/g is therefore compatible wi
 - Two high fitted-capacity extrapolation concerns: Mohammed-Ridha and García-Criado; fitted asymptotes are not equivalent to observed uptake, but are weakly constrained by the stated loading range.
 - One ambiguous concentration/volume basis for N-rGO: not a proven violation; both plausible bases have been calculated.
 - No source value has been silently replaced or normalized.
+
+
+## Primary-PDF visual verification — Kar and Jiao
+
+Both original main PDFs were located in the Library, materialized and rendered for visual inspection of the relevant pages. Text extraction was used as a locator; the rendered original tables/figure captions were used to confirm the printed conditions and values.
+
+### Kar et al. (2025): discrepancy confirmed
+
+- Table 4 on PDF p. 11 visibly prints ΔG° = −3825, −3879, −3916, −3970, −4032 and −4089 under a kJ/mol heading; ΔH° = −0.735; ΔS° = −0.107; R² = 0.992.
+- The Methods on PDF pp. 4–5 define ΔG° = −RT ln KC and ΔG° = ΔH° − TΔS°, and state ΔH° in kJ/mol and ΔS° in kJ/(mol K).
+- Recalculation under those explicit units gives +30.081 kJ/mol at 288 K and +32.756 kJ/mol at 313 K. This conflicts with both the sign and magnitude in the table. Merely interpreting the six ΔG values as J/mol would not reconcile them with the stated ΔH°/ΔS° pair.
+- PDF p. 11 also includes Fig. 9(a), whose plotted ΔG axis itself is around −3800 to −4100 and labelled kJ/mol. This corroborates that the problem is present in the paper's displayed thermodynamic output, not introduced by a CSV transcription.
+- Dose range mismatch is also present in the main PDF: abstract/Methods/Results report differing ranges and the optimum at 2 g/L. The main Methods state 0.45–1.5 g/L, while the optimized results use 2 g/L.
+- The synthesis method on PDF p. 4 says 33.372 g carbonized shell is activated in 50 mL of 85% (w/v) H3PO4 solution at 35 °C for 24 h. The cost table on PDF p. 12 reports 1.5 kg H3PO4 in a per-kilogram estimate without a transparent yield/scale bridge. Retain the author's INR 239.22/kg as a preliminary estimate, not a validated process cost.
+
+**Verdict:** the reported thermodynamic set is not usable; no corrected values are inferred. The reported 96.5% removal optimum can be cited only as author-reported with the dose-range discrepancy attached.
+
+### Jiao et al. (2024): two separate uptake discrepancies confirmed
+
+- Methods on PDF p. 3 define qe = (C0 − Ce)V/w and state the adsorbent dosage for the specificity assessment is 0.5 g/L.
+- Figure 4a caption on PDF p. 5 specifies 4 mg/L antibiotics and 0.5 g/L adsorbent. The selectivity text reports OTC uptake 11.97 mg/g. Under those printed conditions the absolute mass-balance ceiling is 4/0.5 = **8 mg/g**.
+- Figure 3a caption on PDF p. 4 specifies 2 mg/L OTC and 0.5 g/L adsorbent. The text refers to experimental uptake about 12.07 mg/g; Table 1 reports fitted qe values 10.84 mg/g (PFO) and 12.55 mg/g (PSO). The corresponding loading ceiling is 2/0.5 = **4 mg/g**.
+- The prose directly adjacent to Table 1 alternates between mg/g and mg/L for the 12.07/12.55 quantities, whereas Table 1 and graph axes label qe in mg/g. This is a source unit inconsistency, but the repeated values cannot be accepted as verified uptake under the figure-caption conditions.
+- Table 2's 67.89 mg/g Langmuir parameter is from a different isotherm series (1–200 mg/L); it is a fitted isotherm parameter and should not be conflated with the selectivity or kinetic uptake under the low-concentration conditions.
+
+**Verdict:** both the 11.97 mg/g selectivity uptake and the ≈12.07/12.55 mg/g kinetic results are excluded from verified quantitative rankings pending clarification of concentration, dosage, total volume or normalization. The 67.89 mg/g Langmuir fit remains a separately labelled fitted parameter, not an observed low-feed uptake.
+
+### Files/pages inspected
+
+- Kar original PDF `1-s2.0-S2772416625000786-main.pdf`: PDF pp. 4–5, 10–12; especially Eqs. 3–5, Table 4, Fig. 9, Table 5.
+- Jiao original PDF `1-s2.0-S096085242400097X-main.pdf`: PDF pp. 3–5; especially qe equation, Fig. 3/Table 1, Fig. 4a and selectivity text.
