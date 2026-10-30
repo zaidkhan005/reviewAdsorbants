@@ -796,3 +796,14 @@ Primary source: AJOL PDF text, DOI 10.4314/bcse.v40i5.15. Modified-Hummers GO pl
 **Recovery:** Three-cycle desorption: water60.35→52.95%,0.1M HCl58.35→51.80%,1M NaOH92.90→83.90%. Desorption efficiency, not capacity retention.
 
 **Use:** In-scope CMC/GO TC candidate; potentially useful monetized cost example, with qmax/model selection/dose/functional-unit caveats. No real wastewater or cost per m3. Key unassigned pending Zotero lookup/fresh export.
+
+
+### Mechanism/speciation audit addendum — 31 October 2026
+
+The article reports Fe₃O₄/GO pHₚzc=6.2 and a pH-dependent removal profile with an optimum around pH 7. It interprets this using a categorical rule that CIP is cationic below pH 7 and anionic above pH 7, then attributes the optimum to attraction between oppositely charged species. Do not repeat that interpretation as established speciation: ciprofloxacin has two relevant acid–base transitions (reported pKₐ values around 6.0–6.2 and 8.6–8.8), and the zwitterion is predominant around neutral pH. At pH 7, a negative net surface character inferred from pHₚzc does not prove attraction to a net-anionic CIP species. Localized carboxylate and piperazinium groups can still interact with sites, but the source has no direct binding-state spectroscopy, quantified interaction fractions, or matched controls that isolate electrostatic attraction.
+
+**Mechanism grade:** M1 — pH/surface-charge response is supportive, but mechanism attribution is interpretive and over-simplified. The measured pHₚzc and response curve support pH as a relevant factor; they do not establish a unique or dominant electrostatic mechanism.
+
+**Independent speciation checks consulted:** Vázquez et al. (2001), *Photochemistry and Photobiology*, DOI 10.1562/0031-8655(2001)073<0014:dbftot>2.0.co;2, reported pKₐ1=6.18±0.05 and pKₐ2=8.76±0.03. A 2025 *ACS Omega* experimental/DFT characterization gives pKₐ≈6.0 and 8.6 and identifies zwitterionic CIP as the main aqueous species at approximately pH 5–8.5 (DOI 10.1021/acsomega.5c06384). Neither new paper is inserted into the semester bibliography because neither appears in the checked 173-entry Zotero export and no Better BibTeX key is available. Their role here is a scientific mechanism QA cross-check, not an untracked manuscript citation.
+
+**Repository propagation:** The M1 qualification is recorded in `data/semester-mechanism-evidence-matrix.csv`, the `EV-SEM-032` row of the dedicated evidence extraction, the semester readiness audit, and the condition-labelled comparison. Keep the manuscript's general mechanism language conditional; do not attribute the disputed pH explanation to the main manuscript as a verified mechanism.
