@@ -194,3 +194,18 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Both review sources are retained as secondary synthesis/citation-discovery only; reported capacity ranges and regeneration examples are not treated as new primary measurements or standardized rankings.
 - Conde-Cid's low molar adsorption amounts, µmol/kg units, strongly unequal sorbent doses, source text discrepancies (<40 vs <45%; <10 vs <15%), desorption as a one-step reversibility test (not multi-cycle regeneration), and Kd/Freundlich constants distinct from qmax are retained.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 16 — two primary studies and one review reconciled
+- The 15 EV-B16 rows map to Míguez-González et al. (2023) primary forestry/agro-food sorbents (5), Cuevas et al. (2019) primary mineral/TCA sorption study (5), and Abd El-Monaem et al. (2022) chitosan-composite review (5).
+- Míguez-González's pine bark/oak ash/mussel shell retention and single CaCl2 release test are not described as wastewater column removal or repeated regeneration. The TMP/pine-bark fitted qmax exceeds the accessible mass-balance loading and remains excluded from ranking.
+- Cuevas's high-loading mg/L experiments, observed uptake, CEC-related fitted Cm values and mineral-specific mechanism interpretations are distinguished. No trace-level wastewater or column performance is claimed.
+- The chitosan review's compiled TC/CIP capacities and mixed adsorption/degradation endpoint are retained as secondary-only evidence; its 1111 mg/g MgO/chitosan/GO value and AMX/Cd redox pathway require primary-paper verification.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 17 — one systematic review and two primary studies reconciled
+- The 13 EV-B17 rows map to Mirizadeh et al. (2025) chitosan batch/dynamic systematic review (4), Mohammed-Ridha & Abdul-Ahad barley husk/eggshell/LEV primary study (4), and Hamdi et al. (2024) raw/activated Tunisian clay/TC primary study (5).
+- Mirizadeh's 74-study review flow and impact-factor exclusion criterion are recorded as review-method context; compiled batch and dynamic-column q0 values are not merged with primary batch qmax.
+- Mohammed-Ridha's PDF imprint (December 2014) overrides the filename's 2023 label. The 125.735 mg/g fitted barley-husk q_m and several kinetic q_e estimates exceed the simple mass-balance ceilings implied by stated feed/dose; they remain explicitly flagged, not accepted as measured capacities.
+- Hamdi's raw-versus-activated comparison preserves the high mg/L test range and the finding that activation is not necessarily beneficial. A single low CaCl2 desorption value is not treated as destruction or repeated regeneration; unusual EC values remain as printed pending source verification.
+- No missing master evidence row or source-pinpoint defect identified.
