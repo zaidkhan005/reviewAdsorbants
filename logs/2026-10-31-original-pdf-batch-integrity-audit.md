@@ -150,3 +150,18 @@ These are targeted note-to-register checks, not an independent second full-text 
 - The corrected Library attachment mapping distinguishes Jiao et al. (DOI 10.1016/j.biortech.2024.130394) from the separate Na et al. macadamia-biochar paper in Batch 04 (DOI 10.1016/j.biortech.2023.130281).
 - Jiao's Table/body capacity mismatch and 11.97 mg/g OTC result versus the stated mass-balance ceiling remain flagged; Mosaffa's abstract/body removal difference, high-feed capacity and conflicting regeneration-cycle claims remain distinct; Masrura's negative/unusable fitted capacities and urine-matrix/regeneration limitations remain explicit.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 04 — three primary studies reconciled
+- The 19 EV-B04 rows map to Du et al. (2025) cotton-husk phosphoric-acid-activated biochar (9), Na et al. (2024) pristine macadamia-nutshell biochar (4), and Zhou et al. (2024) sepiolite/montmorillonite microwave-regeneration study (6).
+- Du's observed Qe and fitted Qm values are separated; the abstract/Table 3 mismatch, COD/TOC-only real-water outcome (no target-specific CIP residual), unresolved regeneration-agent mapping and preliminary cost boundary remain explicit.
+- Na's four-antibiotic study preserves mmol/kg units and the high 8 g/L dose. Its DOI/file identity remains distinct from the B02 Jiao paper.
+- Zhou's observed uptake and fitted isotherm Qmax remain separate; regeneration ratio is not equated with desorbed TC mass, and no actual energy/cost or real-water validation is claimed.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 05 — primary studies and secondary review reconciled
+- The 18 EV-B05 rows map to Usama et al. (2025) waste-PET activated carbon (9), Fraiha et al. (2024) clay/pharmaceutical review (3), and Yaqubi et al. (2021) leached carbon-black waste/chitosan beads (6).
+- Usama's reported q/removal inconsistencies, missing SI parameters, Dxy/Ntx/SDN target-identity caveats, use-stage/end-of-life omissions in LCA and preliminary local cost model remain visible.
+- Fraiha is labelled secondary review, includes non-antibiotic pharmaceuticals and does not provide a reproducible systematic search method; its table values are not elevated to primary evidence.
+- Yaqubi's BET-area conflict, diluted-volume/dose ambiguity, poor fixed-bed model fit, residual-metal question and missing unit cost/regeneration evidence remain flagged.
+- No missing master evidence row or source-pinpoint defect identified.
