@@ -118,6 +118,8 @@ Low-cost potential is assessed from the preparation and treatment process rather
 
 ## 3. Results and discussion
 
+The condition-labelled evidence for the 15 primary-study records currently cited is summarized in [Working Table 1](SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md). The table keeps observed uptake, mass-balance-derived checks, fitted capacities and removal percentages distinct, and records source limitations rather than forcing a cross-study ranking.
+
 ## 3.1. Reported adsorption performance is condition-dependent, not a universal capacity leaderboard
 
 The evidence assembled so far does not support a single ranking of graphene-based adsorbents by one reported “capacity.” The available studies report different endpoints—observed equilibrium uptake (`q_e`), kinetic-model-fitted `q_e`, isotherm-fitted `q_{max}` or `q_m`, percentage removal, and reuse-cycle removal—under different initial concentrations, doses, pH values, contact times, temperatures and matrix compositions. These quantities answer different questions and cannot be placed in one numeric order without further harmonization. The condition-labelled working table therefore records these endpoints in separate fields rather than ranking them ([comparison table](../data/semester-condition-labelled-comparison.csv)).
