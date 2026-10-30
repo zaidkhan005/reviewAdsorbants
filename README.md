@@ -54,7 +54,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `data/journal-quartile-audit.csv` — shared journal metadata for the broader review only. Journal quartiles are not used in semester-paper screening; see [the scope clarification](logs/2026-10-31-semester-quartile-out-of-scope.md).
 - `data/semester-condition-labelled-comparison.csv` — a 28-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
-- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 46 active dedicated evidence records.
+- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for 47 rows: 46 dedicated evidence records plus one SEM-038 cross-reference to existing master-corpus evidence.
 
 ## Citation readiness
 
@@ -149,7 +149,7 @@ The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Inc
 The semester candidate register has **51 rows representing 50 DOI-defined studies**, after excluding SEM-041 as a duplicate alias of SEM-026. The dedicated evidence CSV has **46 active evidence records**; reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. Zotero metadata reconciliation and a fresh Better BibTeX export remain the next citation-workflow dependency.
 
 
-Current semester-paper evidence register: **46 active unique evidence rows** after consolidation of duplicate SEM-037 PRB evidence and addition of EV-SEM-041–047 (verified 31 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
+Current semester-paper evidence register: **46 active unique dedicated evidence rows** after consolidation of duplicate SEM-037 PRB evidence and addition of EV-SEM-041–047 (verified 31 October 2026). The readiness audit has 47 rows because SEM-038 reuses six existing master-corpus evidence IDs through a cross-reference, not a duplicate extraction. These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
 
 ## Semester manuscript — unified working draft
 
