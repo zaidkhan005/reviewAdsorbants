@@ -327,3 +327,18 @@ The semester evidence CSV now has **33 unique rows**, and the candidate register
 - EV-SEM-037 / SEM-033: rotating-field Fe3O4/rGO; >96% TCH removal at 2 A and >87% retained after four cycles. Power/field-free controls are not exposed in abstract.
 
 Current counts after the wave: 44 candidate-register rows, 37 dedicated evidence rows, and 44 crosswalk rows. SEM-041 is a duplicate alias of SEM-026; SEM-021's DOI metadata remains unresolved. No new user download/upload is required.
+
+## 32. Manuscript search-method consolidation — 30 October 2026
+
+The logged 28 October targeted discovery searches and 28–30 October source audits were translated into Section 2 of `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md`. The method is described accurately as a focused public-web discovery and source-verification exercise, not a systematic review.
+
+- 11 search formulations were transcribed from this log.
+- Platforms/source records explicitly named in the log: PubMed/PMC, RSC Publishing, Frontiers and ScienceDirect, plus publisher, biomedical-index, institutional and author-hosted sources.
+- The exact public-web discovery search-engine/platform name was not captured; Scopus and Web of Science searches are not documented as completed. No general date or language limit was recorded; several queries contain individual year terms/ranges.
+- Latest candidate-register snapshot: 44 rows, with SEM-041 designated alias of SEM-026 (43 DOI-defined records after excluding that known alias); unresolved metadata may still hide duplicates.
+- No formal PRISMA flow or reconciled counts for records retrieved, duplicates removed, title/abstract exclusions, full-text exclusions and final included papers are present. The manuscript therefore does not report such counts.
+- The current Results/Discussion synthesis discusses 15 target-material primary-study records with heterogeneous source-access levels, plus four contextual works in the Introduction (two reviews and two solution-chemistry comparators). These should not be conflated with a final screening-flow count.
+
+## Unified manuscript checks
+
+The Introduction/Scope draft and Results/Discussion draft were combined into a single manuscript with Sections 1–6. The current 19 distinct in-text citation keys were checked against all 19 entries in `references/semester-manuscript-cited-references.bib`; no missing or orphaned entries were found. No new Zotero keys were created. The 13 DOI queue remains awaiting a fresh user Better BibTeX export before citation insertion.
