@@ -165,3 +165,18 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Fraiha is labelled secondary review, includes non-antibiotic pharmaceuticals and does not provide a reproducible systematic search method; its table values are not elevated to primary evidence.
 - Yaqubi's BET-area conflict, diluted-volume/dose ambiguity, poor fixed-bed model fit, residual-metal question and missing unit cost/regeneration evidence remain flagged.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 07 — two primary studies and one review reconciled
+- The 19 EV-B07 rows map to Sumariva et al. (2024) clay honeycomb monoliths (5), Nugraha et al. (2025) hospital-wastewater adsorption review (5), and Sousa et al. (2026) brewery-residue biochar fixed-bed study (9).
+- Sumariva's powder, monolith/recirculation and temperature/light/air configurations are kept distinct; post-use thermal transformation is not labelled adsorption. No once-through trace-level pilot result is claimed.
+- Nugraha's HWW concentration ranges and treatment examples remain secondary evidence; the 10 mg/L spiked-HWW example is separated from ng/L occurrence examples, and municipal/hospital-connected effluent is not conflated with pure HWW.
+- Sousa's filtered/autoclaved real secondary WWTP effluent, controlled 20 μmol/L feeds, fixed-bed model outputs, experimental q_s, single/ternary mixtures, regeneration ratio above 100%, and process-LCA stage contributions are distinguished. The total environmental impacts are SI-dependent and no cradle-to-grave or spent-media result is claimed.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 09 — three primary studies reconciled
+- The 22 EV-B09 rows map to Alidadi et al. (2018) modified sawdust (7), García-Criado et al. (2025) purified stevensite (8), and Li et al. (2026) ball-milled/N-doped biochar (7).
+- Alidadi's 98.40% RSM output is correctly identified as predicted rather than measured validation; Freundlich is preferred by AIC; the 88% figure is water volume reclaimed, not TC desorption; single-stage regeneration and the 0.25 mg/L hospital-wastewater non-detect with absent LOD are preserved.
+- García-Criado's abstract/method concentration mismatch, likely kinetic unit typo, >200,000 mg/g narrative qmax versus Table 2 and experimental qe ~1–1.6 mg/g, possible degradation at extreme pH, and spiked-matrix design remain explicit. Implausible qmax values are held out of quantitative rankings.
+- Li's abstract pore-volume discrepancy (276 cm³/g vs detailed main text 0.2951 cm³/g) is retained with the detailed main-text value and the abstract error flagged; 155–400 mg/g Langmuir Qm remains fitted; six-cycle removal loss to 40.6% is correctly characterized as a major regeneration weakness.
+- No missing master evidence row or source-pinpoint defect identified.
