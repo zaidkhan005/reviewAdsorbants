@@ -44,3 +44,29 @@ After reconciling the manuscript and DOI queue, the expanded 21-DOI check was pr
 - The README citation-readiness summary
 
 Validation found all 21 queued candidate IDs in each of the three CSV registers, with no incorrect row widths and the same 31 October check date. All 21 remain without a verified key in the five mounted exports. The 19 already-cited manuscript works and their citation keys remain unchanged; Zotero in-library searches are still required because unexported collections may contain existing records.
+
+
+## Latest complete Zotero export comparison (31 October 2026)
+
+The user uploaded `full ++ check again(1).bib` as the latest complete My Library export. SHA-256 of the supplied file: `bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`.
+
+### Export integrity summary
+
+- 173 BibTeX entries and 173 unique citation keys.
+- 170 DOI fields and 168 unique DOI values.
+- Two duplicate DOI groups were detected and left untouched:
+  - `10.1016/j.envres.2021.111091`: `ashiqCarbonbasedAdsorbentsFluoroquinolone2021a` and `ashiqCarbonbasedAdsorbentsFluoroquinolone2021b`.
+  - `10.1016/j.ijbiomac.2024.133382`: `rostamiSurfaceModifiedChitosan2024a` and `rostamiSurfaceModifiedChitosan2024b`.
+
+### Semester citation matching
+
+- All 21 DOI-queue records were tested against the file by exact DOI and normalized title.
+- Result: **0/21 matched** by DOI; **0/21 matched** by normalized title.
+- All 19 existing citation keys in `references/semester-manuscript-cited-references.bib` were found in the uploaded export.
+- A high lexical-similarity result for SEM-019 was checked: the export item is a distinct 2025 CMC-functionalized magnetic GO/TC paper (DOI 10.1039/d5ra06621b), not the 2026 EDTA-functionalized candidate (DOI 10.1016/j.dwt.2026.101889). No crosswalk was created.
+- No citation key was assigned or guessed for any queued candidate. No manuscript citations were added or altered.
+- The candidate-level citation linkage CSV, main-corpus crosswalk, remaining-work register, DOI queue, citation audit document, manuscript citation-readiness paragraph and README were updated to reflect the latest export.
+
+### Action boundary
+
+The 21-item DOI list is a candidate metadata-intake queue, not a mandatory bulk import or a final inclusion list. Add metadata only for studies selected for manuscript use after considering evidence strength and scope. The existing 19 cited works remain confirmed against this export. No PDFs are requested.
