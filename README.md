@@ -33,8 +33,8 @@ This repository now contains **two related but separate workstreams**. Do not co
 ### Semester paper — approved separate scope
 - Title: **Assessing the Low-Cost Potential of Non-Conventional Engineered Adsorbents for Ciprofloxacin and Tetracycline Removal from Aqueous Media**.
 - Scope: selected graphene-based adsorbents (GO/rGO and functionalized derivatives) plus selected graphene-bearing composites; target antibiotics CIP and TC only. “Green” or “waste-derived” is not the defining theme. Low cost is assessed, not assumed.
-- `data/semester-paper-candidate-register.csv`: **44 candidate records**.
-- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **45 active dedicated evidence records** (latest check 31 October 2026). Reused master-corpus evidence remains cross-referenced, not duplicated.
+- `data/semester-paper-candidate-register.csv`: **51 candidate rows representing 50 DOI-defined works** (excluding the SEM-041 alias).
+- `evidence/semester-paper/SEMESTER_CORE_EVIDENCE_EXTRACTION.csv`: **46 active dedicated evidence records** (latest check 31 October 2026). Reused master-corpus evidence remains cross-referenced, not duplicated.
 - `data/semester-main-corpus-crosswalk.csv` maps the semester candidates to the master register and BibTeX queue. SEM-016↔CORP-024, SEM-032↔CORP-015, and SEM-038↔CORP-031 are confirmed master-corpus links; SEM-020 now has an exact-DOI BibTeX queue match; SEM-039 and SEM-040 also have source-linked evidence.
 - Target: approximately **50 distinct works actually cited**, subject to eligibility and evidence quality. This target is separate from the broad review's ~60/~150 planning targets.
 - The user has asked not to download or upload more papers at present. Continue from existing Library files, master evidence, and accessible source text; no new download request is active.
@@ -45,13 +45,13 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Keep SJR/JCR, publication year, category and quartile distinct; do not impose a Q1-only semester rule unless explicitly required.
-- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register now has 50 rows representing 49 DOI-defined studies after excluding the known SEM-041 alias of SEM-026. The dedicated evidence extraction has 45 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 20 unique original-study records: 17 were checked against the five mounted BibTeX exports on 31 October and had no match, while SEM-048/049/050 were added after that check and still require Zotero lookup. No new citekeys are guessed. The approximately 50-work target and final integrated style/claim audit remain pending.
+- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register has 51 rows representing 50 DOI-defined studies after excluding the SEM-041 alias of SEM-026. The dedicated evidence extraction has 46 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 21 unique records. All 21 DOI strings were searched across the five mounted BibTeX exports on 31 October 2026 and no exact matches were found. This does not rule out Zotero items in unexported collections; search Zotero by DOI before adding metadata. No new citekeys are guessed. The approximately 50-work target and final integrated style/claim audit remain pending.
 
 ## Current semester-paper working files
 
-- `data/semester-condition-labelled-comparison.csv` — a 26-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
-- `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 44-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
-- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 39 active dedicated evidence records.
+- `data/semester-condition-labelled-comparison.csv` — a 28-row condition-labelled comparison of selected empirical CIP/TC endpoints, with fitted and observed metrics separated and data-quality/cost caveats preserved.
+- `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
+- `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for all 46 active dedicated evidence records.
 
 ## Citation readiness
 
@@ -145,7 +145,7 @@ The scope is approved and locked in `docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`. Inc
 The semester candidate register has **51 rows representing 50 DOI-defined studies**, after excluding SEM-041 as a duplicate alias of SEM-026. The dedicated evidence CSV has **46 active evidence records**; reusable master-corpus evidence is linked in `data/semester-main-corpus-crosswalk.csv`. The approximate 50-reference target is counted as distinct works actually cited, not candidates or evidence rows. Zotero metadata reconciliation and a fresh Better BibTeX export remain the next citation-workflow dependency.
 
 
-Current semester-paper evidence register: **46 active unique evidence rows** after consolidation of the duplicate SEM-037 PRB record into EV-SEM-040 (verified 30 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
+Current semester-paper evidence register: **46 active unique evidence rows** after consolidation of duplicate SEM-037 PRB evidence and addition of EV-SEM-041–047 (verified 31 October 2026). These include provisional abstract-level entries and one DFT-only theory/context row, so they are not a count of accepted empirical studies or cited bibliography works.
 
 ## Semester manuscript — unified working draft
 
