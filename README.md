@@ -152,3 +152,10 @@ Current semester-paper evidence register: **39 active unique evidence rows** aft
 - `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md` — the single continuous semester-paper draft (Introduction, scope/search/evidence method, Results and Discussion, mechanism synthesis, practical feasibility and conclusions). It documents the 28 October focused discovery pass and 28–30 October source audits without claiming a systematic/PRISMA search.
 - `references/semester-manuscript-cited-references.bib` — 19 distinct references currently cited in the unified draft; contextual sources are distinguished from the 15 target-material primary-study records.
 - The separate Introduction/Scope and Results/Discussion files are retained as component drafts/source history. The unified manuscript is the current integration point.
+
+
+## New semester candidate additions — 30 October 2026
+
+- SEM-045 / EV-SEM-041: 2026 magnetic GO-supported Co-MOF for tetracycline; full RSC/PMC text audited, kinetic qe mass-balance flag and 10-cycle methanol regeneration.
+- SEM-046 / EV-SEM-042: 2026 ZrO2–Fe3O4/GO for ciprofloxacin; AJOL primary PDF text extracted, pharmaceutical-effluent testing, qe and real-sample arithmetic conflicts.
+- Both are in the candidate/evidence pool and expanded 15-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
