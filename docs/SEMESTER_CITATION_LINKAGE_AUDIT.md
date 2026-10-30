@@ -31,3 +31,15 @@ The older counts above remain a dated 29 October snapshot. The user has now supp
 **Candidate-level gaps remain.** For example, SEM-001 (Ghadim et al. 2013, DOI 10.1371/journal.pone.0079254) and SEM-015 (GO–ZnAlNi LDH/CIP, DOI 10.3389/fnano.2025.1578620) were checked against the new export and remain absent by DOI. Do not invent citation keys or cite either study in the manuscript until verified Zotero/Better BibTeX keys exist. The nine-record batch prepared on 29 October has been marked historical/superseded for current citation linkage; do not re-import it by default.
 
 The new export also contains two duplicate DOI groups elsewhere (`10.1016/j.envres.2021.111091` and `10.1016/j.ijbiomac.2024.133382`). Neither affects the 15 citations in the current semester manuscript. Audit those duplicate records separately before any merge/deletion so attachments and notes are not lost.
+
+## 2026-10-30 continuation addendum — SEM-042 to SEM-044
+
+The three most recently source-audited candidates were checked against **five** available Library BibTeX exports by exact DOI and normalized title:
+
+- `full ++ check again.bib` — 173 entries
+- `full ++.bib` — 164 entries
+- `full ++=.bib` — 164 entries
+- `Antibiotic Adsorption Review new — Full Corpus.bib` — 61 entries
+- `Antibiotic Adsorption Review — Full Corpus.bib` — 31 entries
+
+No exact DOI or normalized-title match was found for SEM-042 (10.1016/j.carbpol.2018.02.021), SEM-043 (10.1016/j.jhazmat.2014.03.063), or SEM-044 (10.1007/s00604-019-3563-x) in these five exports. Their rows in `data/semester-bibtex-citation-linkage-audit.csv` and `data/semester-main-corpus-crosswalk.csv` now record the absence and the required action. This result does not prove that the records are absent from every Zotero collection or an unexported collection; it only establishes that no Better BibTeX key can be verified from the five available exports. Do not invent citation keys. Locate/add each DOI-verified Zotero record, export Better BibTeX, and then update the linkage rows from the generated keys.
