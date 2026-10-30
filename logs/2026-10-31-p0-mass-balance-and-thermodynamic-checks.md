@@ -263,3 +263,27 @@ The original uploaded PDF `Mohammed-Ridha and Abdul-Ahad - 2023 - Adsorption of 
 GAP-004 is resolved for manuscript use: cite the paper as 2014; exclude the two barley-husk kinetic fitted qe values from quantitative ranking due to the stated mass-balance ceiling; and keep the 125.735 mg/g q_m only as a model-fitted extrapolation with the 30 mg/g isotherm loading ceiling explicitly stated. No source values have been overwritten and no corrected capacities have been invented.
 
 Source pinpoints: Journal imprint PDF p. 1; kinetic setup §3.4 PDF p. 6; §4.3 PDF p. 7; Table 3 PDF p. 12; Figure 7 PDF p. 15; isotherm design §3.3 PDF p. 5; Table 2 PDF p. 11.
+
+## P0 source-verification completion — García-Criado et al. (2025), DISC-018 (2026-10-31)
+
+Original PDF `antibiotics-14-00395-v2.pdf` was retrieved from the Library. Text passages were located and original rendered pages p. 6, p. 8 and p. 9 inspected; abstract/methods/equation/conclusion were separately checked in extracted full-text. No SI file was part of the inspected Library bundle.
+
+### 1) Kinetic experiment: unresolved concentration input, not a proven violation
+- Abstract p. 1 reports 5 mg/L for the headline removal condition.
+- General Methods §3.4 p. 18 state C0=2 mg/L, V=10 mL and ST=20 mg (2 g/L).
+- Kinetic Methods §2.2.1 p. 6 literally prints antibiotic concentration `2 mg mL−1` with 0.02 g adsorbent/10 mL. Do not call this a typo without author confirmation.
+- Eq. (2), §3.6 p. 19: `q_t=(C_0-C_e)V/m`, V=0.01 L and m=0.02 g. The maximum available q is 1 mg/g at 2 mg/L, 2.5 mg/g at 5 mg/L, and 1000 mg/g at 2 mg/mL. Table 1 p. 8 has experimental kinetic qe values 0.983–1.575 mg/g. If the actual kinetic C0 was 2 mg/L, some reported qe exceed the cap; if it was 5 mg/L, all fit within the cap; if 2 mg/mL, they are far below it. The source does not resolve which condition generated Table 1. The correct disposition is condition-incomplete; no mass-balance violation is established.
+
+### 2) Isotherm experiment: fitted qmax is extrapolated
+- Methods §3.4 p. 18 report isotherm C0=0.25–100 mg/L; Results §2.2.2 pp. 8–9 say 1–100 mg/L. Upper-end 100 mg/L with V=0.01 L and m=0.02 g gives max available experimental loading 50 mg/g.
+- Figure 6 p. 8 (original rendered image checked) shows experimental points generally below about 40 mg/g.
+- Table 2 p. 9 lists Langmuir qmax estimates 86.1–1000 mg/g. All exceed the 50 mg/g loading available at the maximum tested feed. These are fitted Langmuir asymptotes, not observed loading. The fit quality is also poorer: Langmuir R² 0.755–0.908, versus Freundlich 0.817–0.968. Exclude these qmax values from empirical capacity rankings; do not call them direct mass-balance violations.
+
+### 3) Extreme prose error
+- Results p. 9 states qmax >200,000 mg/g for tetracycline/TC; conclusion p. 20 says >200,000 mg/g for TGC.
+- Table 2 p. 9 actually lists TC=1000 mg/g and TGC=86.1 mg/g. Neither the extreme magnitude nor stable analyte attribution is supported by the table. Do not correct by guessing; quarantine the prose claim.
+
+### Disposition
+GAP-005 is resolved for manuscript use with explicit source caveats: remove the >200,000 mg/g claim; do not use fitted Langmuir qmax values for comparative capacity ranking; keep Figure 6 observed data as a separate isotherm evidence class; retain Table 1 kinetic qe only as source-reported and condition-incomplete. Underlying article discrepancy remains visible; no replacement values invented.
+
+Source pinpoints: PDF pp. 1, 6, 8–9, 18–20; Table 1, Fig. 6, Table 2, §§2.2.1, 2.2.2, 3.4, 3.6.
