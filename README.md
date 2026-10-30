@@ -97,6 +97,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `docs/REFERENCE_TARGET_PLAN.md` — planning funnel and coverage map for a defensible ~150-reference journal version
 - [`manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md`](manuscript/ORIGINAL_OUTLINE_AS_SUPPLIED.md) — normalized Markdown transcription of the supplied original PDF outline
 - [`manuscript/REVIEW_OUTLINE.md`](manuscript/REVIEW_OUTLINE.md) — current working outline; includes a standalone Section 4 on mechanisms of antibiotic adsorption
+- `data/original-pdf-batch-attachment-crosswalk.csv` maps all 60 PDF records supplied in original Batches 01–20 to Library filenames, candidate IDs, DOI, extracted evidence IDs and batch notes; see `logs/2026-10-31-original-pdf-batch-integrity-audit.md` for the integrity audit.
 - `logs/` — dated decisions, actions and unresolved questions
 
 ## Outline decision
