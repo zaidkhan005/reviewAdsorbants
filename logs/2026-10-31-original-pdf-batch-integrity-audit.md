@@ -137,3 +137,16 @@ These are targeted note-to-register checks, not an independent second full-text 
 - Atta et al.'s 2.47 mg/g fitted qmax is kept separate from percentage removal and the 5–120 g/L dose range; high dose is a practical limitation, not hidden behind the headline 99% removal.
 - Jiao et al.'s co-removal review remains review-only; its compilation is not added as new primary experimental measurements.
 - No missing master evidence row or source-pinpoint defect identified.
+
+
+### Batch 01 — three uploaded primary studies reconciled
+- The 19 EV-B01 rows map as Yao et al. Fe/N-co-doped biochar (6), Jaria et al. waste-derived GAC in municipal wastewater fixed beds (5), and Gao et al. KOH-activated dyeing-sludge biochar (8).
+- Antibiotic scope is correctly isolated: SMX is the antibiotic endpoint in Jaria et al.; CBZ/PAR are non-antibiotic pharmaceuticals. Yao's Cu(II) is retained as a co-contaminant, separate from CIP. Gao's four-antibiotic removal, fixed-bed, Fenton-regeneration and cost estimates are recorded with the paper's inconsistencies.
+- Fitted qmax, observed batch uptake and integrated column qtotal are kept distinct. The Gao cost figure is not treated as a complete comparable TEA.
+- No missing master evidence row or source-pinpoint defect identified.
+
+### Batch 02 — three uploaded primary studies reconciled
+- The 20 EV-B02 rows map as Jiao et al. molecularly imprinted magnetic biochar (6), Mosaffa et al. cellulose-char/chitosan-PEI beads (7), and Masrura et al. solvent-modified sewage-sludge biochar in diluted/spiked human urine (7).
+- The corrected Library attachment mapping distinguishes Jiao et al. (DOI 10.1016/j.biortech.2024.130394) from the separate Na et al. macadamia-biochar paper in Batch 04 (DOI 10.1016/j.biortech.2023.130281).
+- Jiao's Table/body capacity mismatch and 11.97 mg/g OTC result versus the stated mass-balance ceiling remain flagged; Mosaffa's abstract/body removal difference, high-feed capacity and conflicting regeneration-cycle claims remain distinct; Masrura's negative/unusable fitted capacities and urine-matrix/regeneration limitations remain explicit.
+- No missing master evidence row or source-pinpoint defect identified.
