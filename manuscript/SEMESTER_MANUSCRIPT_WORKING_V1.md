@@ -207,6 +207,8 @@ Kinetic and isotherm fits are descriptive models, not direct molecular evidence.
 
 ## 5. Practical feasibility: recovery advantages do not yet establish low total cost
 
+The evaluation logic used in this section is summarized in [Figure 4](SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md). The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
+
 The system boundary used to interpret preparation, separation and regeneration trade-offs is summarized in [Figure 2](SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md). It is a cross-study process map rather than a claim that every composite follows the same synthesis or regeneration route.
 
 The practical comparison is not simply magnetic versus non-magnetic. It is the balance between adsorbent manufacture, form factor, recovery, regeneration, matrix tolerance and the treatment of spent media or regenerant. The [practical-feasibility matrix](../data/semester-practical-feasibility-matrix.csv) separates what each cited study actually demonstrates from what remains uncosted or unverified.
