@@ -780,3 +780,19 @@ Primary source: AJOL PDF text, DOI 10.4314/bcse.v40i5.15. Modified-Hummers GO pl
 - Regeneration: 0.1 M NaOH; estimated additional 1–3 g CO₂-eq/m³ for typical micropollutant polishing regimes.
 - Not reported: product yield; detailed process energy; financial cost per m³; financial cost per mass TET removed; complete membrane-module costs; full end-of-life/transport/module assembly impacts. The stated boundary is the active layer based on GO, LevA, TOPO and NaOH production, not a complete system LCA or TEA.
 - Accordingly, this is the strongest present example of a quantified active-layer material-price and carbon-footprint estimate, but it must not be described as a complete low-cost treatment result. The separate batch Figure 1b qe=22.7±0.6 mg/g still lacks a fully pinned C0/V/m denominator; SI A.4 baseline is 10 mg adsorbent in 10 mL at 10 mg/L (10 mg total feed), whose ceiling is 10 mg/g. Do not attach the qe=22.7 value to that baseline unless the source confirms another run condition.
+
+---
+
+## SEM-051 / EV-SEM-047 — Saheed et al. (2026), citric-acid-crosslinked CMC/GO beads for TC
+
+**Source:** Publisher-indexed full article for *Journal of Taibah University for Science* 20(1), 2026, article2613597; DOI 10.1080/16583655.2026.2613597. Direct Taylor & Francis page access is blocked, but methods/results/economic-analysis snippets were retrieved.
+
+**Material and preparation:** Modified-Hummers GO from2g graphite/2g NaNO3/46mL concentrated H2SO4/6g KMnO4 at50°C/4h, water/H2O2 quench,5%HCl wash. Bead uses1g CMC,0.2g GO,0.5g citric acid; stir60°C/2h; drip into1M NaOH, harden24h, wash/dry40°C. No yield.
+
+**Condition-labelled adsorption:** Concentration50–250mg/L,20mg beads/20mL,pH7,120min; pH2–12 atC0=200mg/L; time5–720min atC0=200mg/L,pH4; temperature25/40/60°C atC0=200mg/L,pH7. Removal: concentration74.64→60.08%; pH70.01% at2→97.34% at4; time44.80% at5min→94.93% at120min; temperature68.60/79.95/90.75%. Keep tests separate.
+
+**Isotherm/cost:** Nonlinear/linear Langmuir qmax=267.11/277.78mg/g; Hill fits best. Abstract qmax condition200mg/L neutral pH,5mg bead differs from Fig8/Table3 caption20mg bead,pH7,2h. The94.93% time study at200mg/L,20mL,20mg bead,pH4,120min gives derived qe≈189.86mg/g. Section3.7 reports USD1.95/g TC removed using chemicals+energy/Malaysian tariff and linear Langmuir qmax277.78mg/g; detailed Table8 prices/year are not exposed. Example1g TC/L needs reconciliation with tested C0 up to250mg/L. Author-reported lab estimate, not validated full-system TEA.
+
+**Recovery:** Three-cycle desorption: water60.35→52.95%,0.1M HCl58.35→51.80%,1M NaOH92.90→83.90%. Desorption efficiency, not capacity retention.
+
+**Use:** In-scope CMC/GO TC candidate; potentially useful monetized cost example, with qmax/model selection/dose/functional-unit caveats. No real wastewater or cost per m3. Key unassigned pending Zotero lookup/fresh export.
