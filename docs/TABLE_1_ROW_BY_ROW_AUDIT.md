@@ -8,7 +8,7 @@
 
 This pass cross-checked the existing main-text Table 1 against the project’s condition-labelled comparison register, evidence-readiness audit, claim-evidence ledger, source-specific evidence records and manuscript passages. It reused the prior primary-source inspections and evidence pins; it was not a fresh re-opening of all 15 PDFs. SEM-038 remains linked to existing master records EV-B10-004–EV-B10-009 rather than being duplicated in the semester comparison CSV.
 
-**Result:** The 15 study records remain eligible for the main-text condition-labelled subset. No candidate selection, bibliography key, evidence ID, or source-level scientific hold was changed. The table was materially restructured into four focused tables: (1A) conditions, (1B) experimental endpoints, (1C) fitted-model outputs and (1D) recovery/matrix/process evidence. Table 1A now has 19 condition rows matched one-to-one to the 19 endpoint rows in Table 1B; Table 1C and 1D each provide 15 study-level summaries.
+**Result:** The 15 study records remain eligible for the main-text condition-labelled subset. No candidate selection, bibliography key, evidence ID, or source-level scientific hold was changed. The table was materially restructured into seven focused tables: (1A) study identity/material (15 studies), (1B) endpoint-specific conditions (19 rows), (1C) experimental endpoints (19 rows), (1D) isotherm-model outputs (15 rows), (1E) kinetic-model outputs (15 rows), (1F) recovery/reuse and water-matrix evidence (15 rows), and (1G) preparation burden and cost evidence (15 rows).
 
 ## Row-by-row findings
 
@@ -28,15 +28,15 @@ This pass cross-checked the existing main-text Table 1 against the project’s c
 | SEM-037 | **ABSTRACT/INDEXED-EXCERPT ONLY** | The 100 mg/g maximum at pH 7 is source-reported, but abstract attributes fit to Freundlich while indexed conclusion calls the maximum Langmuir. Batch/PRB numerical results, column details and calculated PRB costs are inaccessible. About 72 h to equilibrium is indexed. PRB lifetime is not a regeneration cycle. | No observed qe or breakthrough result is invented. Capacity/model attribution and unavailable cost results are confined to Tables 1D–1G. |
 | SEM-038 | **HOLD FROM QUANTITATIVE RANKING** | TC Table 1 qe 90.21 mg/g exceeds the strict feed ceiling 80 mg/g using 80 mL at 10 µg/L plus 20 mL N-rGO dispersion containing 0.01 mg sorbent. Figure 2c has a larger mismatch. TC qmax 662.25 mg/g is fitted; 1265.82 mg/g is for clindamycin, not TC. | Keep source-reported qe with an explicit hold; the headline CLI capacity is not placed in the TC column. |
 | SEM-039 | **QUALIFIED; CONDITION-INCOMPLETE** | Fig. 7 reports TC removal 82.1% but its caption does not state a figure-specific C0, pH or dose. After ten reuse cycles TC removal is 78.9%. PSO qe 84.8 mg/g and Langmuir qmax 454.6 mg/g are fitted. | Initial and tenth-cycle removal appear as distinct rows. No conditions are imported from separate factor tests. Model outputs are Tables 1D–1G only. |
-| SEM-040 | **QUALIFIED WITH SMALL MASS-BALANCE FLAG** | The main text's 190.3 µg/g is a seven-drug mean, not TC-specific. Official SI Table S2 reports TC-specific experimental qe 200.2202 µg/g; the stated 200 µg/L × 100 mL feed and 100 mg graphene imply a 200 µg/g ceiling. The excess is about 0.11%, consistent with a small rounding/measurement tolerance, but should remain visible. No conventional qmax is reported. | Added the TC-specific SI qe to Table 1A/1B and retained the seven-drug mean only as aggregate context in Panel B. |
+| SEM-040 | **QUALIFIED WITH SMALL MASS-BALANCE FLAG** | The main text's 190.3 µg/g is a seven-drug mean, not TC-specific. Official SI Table S2 reports TC-specific experimental qe 200.2202 µg/g; the stated 200 µg/L × 100 mL feed and 100 mg graphene imply a 200 µg/g ceiling. The excess is about 0.11%, consistent with a small rounding/measurement tolerance, but should remain visible. No conventional qmax is reported. | Placed the TC-specific SI qe in Table 1C and retained the seven-drug mean only as an aggregate note; it is not presented as TC-specific uptake or an isotherm fit. |
 
 ## Table layout changes applied
 
 1. Split study identity from condition sets, then separated the evidence into seven tables: study/material identity, conditions, experimental endpoints, isotherm fits, kinetic fits, recovery/matrix evidence, and preparation/cost evidence.
-2. Separated target, material, test context and endpoint qualification.
-3. Replaced the previous combined recovery-and-caveat field with distinct columns for recovery/reuse, water-matrix evidence, preparation/cost evidence and the remaining QA qualification in Panel B.
-4. Separated observed qe, derived qe, percentage removal, kinetic-model qe and isotherm qmax. Values are not combined unless a derived qe is calculated from the exact removal condition shown on that same row.
-5. Added the TC-specific SI result for SEM-040 (200.2202 µg/g) while keeping the 190.3 µg/g seven-drug mean labelled as aggregate.
+2. Separated target, material, study context, condition vector, endpoint value and endpoint qualification.
+3. Split preparation burden from monetized cost evidence and kept recovery/reuse separate from matrix-validation evidence.
+4. Separated observed qe, derived qe, percentage removal, kinetic-model qe and isotherm qmax; the TC-specific SEM-040 SI value is not combined with the seven-drug mean.
+5. Added the TC-specific SI result for SEM-040 (200.2202 µg/g); the seven-drug mean is retained only in narrative context, not as a TC endpoint.
 6. Preserved the 49-work selection and the source access levels. This is a table-presentation and source-register reconciliation, not a screening change.
 
 ## Final status
