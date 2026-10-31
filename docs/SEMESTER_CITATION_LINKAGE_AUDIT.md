@@ -93,3 +93,8 @@ All **21 DOI-queue records** were checked against the uploaded export by exact D
 Separately, all **19 citation keys already used in the unified manuscript** are present in the supplied export. Thus the current bibliography is linked to the supplied Zotero export, and no new citekeys were identified for the 21 queued candidates. Do not change the 19 existing manuscript citations.
 
 The candidate-level citation linkage audit, main-corpus crosswalk, remaining-work register and intake queue now reflect this complete-library check. Add Zotero metadata only for candidate studies selected for manuscript inclusion, then export again and capture the actual Better BibTeX key. The 21 candidates are not an automatic import/citation list.
+
+
+## Latest upload recheck — 31 October 2026
+
+The user uploaded `full ++ check again(2).bib`. Its SHA-256 (`bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`) is identical to the prior `full ++ check again(1).bib` export, so it is not a new bibliographic snapshot. Reconciliation against the frozen 50 candidate works found 15 exact DOI/key matches and 35 selected-study DOIs still absent from the export. All 19 existing manuscript keys (15 selected candidate keys plus four contextual keys) remain present. See [the latest export reconciliation log](../logs/2026-10-31-latest-bib-export-reconciliation.md) for the 15 matched keys, complete 35-DOI list and duplicate-DOI groups. Do not re-run this same-file audit unless a genuinely new export has a different SHA-256.
