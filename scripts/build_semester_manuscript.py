@@ -68,7 +68,7 @@ def main() -> None:
     prepared = OUT / 'rendered_manuscript.md'
     prepared.write_text(md, encoding='utf-8')
     common = [
-        pandoc, str(prepared), '--from=markdown+pipe_tables+raw_tex+tex_math_dollars+tex_math_single_backslash',
+        pandoc, str(prepared), '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
         '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
         '--resource-path=' + str(OUT), '--standalone',
         '-V', 'papersize:a4', '-V', 'geometry:margin=22mm',
