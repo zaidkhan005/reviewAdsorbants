@@ -277,7 +277,13 @@ Final bibliography rendering should follow the required university or journal st
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
-**Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 26 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
+\newpage
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
+**Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 28 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
 
 **Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F separates cycle metric from cycle value and qualification; Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
@@ -348,7 +354,9 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-032 | CIP | Author-reported qe | 807.54 mg/g |
 | SEM-033 | TCH | Removal | >96% |
 | SEM-033 | OFL | Removal | >96% |
-| SEM-034 | TC + CTC/OTC/DTC | TC removal | 94.1 / 93.91 / 93.94% |
+| SEM-034 | TC + CTC/OTC/DTC | TC removal (abstract / §3.2.2) | 94.1% |
+| SEM-034 | TC + CTC/OTC/DTC | TC removal (§3.2.4) | 93.91% |
+| SEM-034 | TC + CTC/OTC/DTC | TC removal (Conclusion) | 93.94% |
 | SEM-034 | TC + CTC/OTC/DTC | Derived TC qe | 1.252–1.255 mg/g |
 | SEM-037 | CIP / PRB | Observed qe or breakthrough | Not accessible |
 | SEM-038 | TC | Experimental qe (held) | 90.21 mg/g |
@@ -361,6 +369,7 @@ Final bibliography rendering should follow the required university or journal st
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
+
 ## Table 1D. Fitted isotherm-model outputs
 
 | Study ID | Model | Parameter | Value |
