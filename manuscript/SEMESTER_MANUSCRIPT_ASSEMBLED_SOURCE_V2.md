@@ -276,6 +276,8 @@ Final bibliography rendering should follow the required university or journal st
 
 **Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, water-matrix evidence, preparation burden and cost evidence. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
+\newpage
+
 ## Table 1A. Study identity, target and material family
 
 | Study | Target / system | Adsorbent | Study context |
