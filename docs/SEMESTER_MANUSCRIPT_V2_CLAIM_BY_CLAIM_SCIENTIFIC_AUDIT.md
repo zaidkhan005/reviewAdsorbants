@@ -160,7 +160,8 @@ The final paper should continue to use *low-cost potential* as a question being 
    - clarified the tested-feed versus illustrative-cost scenario and absent real-water/flow validation for SEM-051.
 2. Added claim records CLM-28 through CLM-46, extending the ledger across the 49-reference synthesis, mechanisms, feasibility, costs, ultrasound/RSM/GO-LDH claims and conceptual figures/tables.
 3. Updated S1 rows for SEM-012, SEM-015, SEM-024, SEM-026 and SEM-044, as well as SEM-045–SEM-051, so the source limits agree with the main manuscript and claim ledger.
-4. Rewrote the cost paragraph to acknowledge SEM-051's reported USD1.95/g-TC estimate and distinguish it from validated cost evidence.\n5. Added a conceptual figure/table audit group (CLM-46) and refined Figure 4's low-cost decision wording.
+4. Rewrote the cost paragraph to acknowledge SEM-051's reported USD1.95/g-TC estimate and distinguish it from validated cost evidence.
+5. Added a conceptual figure/table audit group (CLM-46) and refined Figure 4's low-cost decision wording.
 6. Left the active 49-reference selection unchanged. No screening, selection, Zotero merge or DOI-intake decisions were reopened.
 
 ## 12. Remaining work before submission
