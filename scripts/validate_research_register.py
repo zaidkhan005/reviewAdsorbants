@@ -75,9 +75,20 @@ def validate_screening() -> int:
         validate_year(row, "Year", path, line_no)
 
         link = (row.get("DOI or URL") or "").strip()
-        parsed = urlparse(link)
-        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
-            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL must be a full http(s) URL")
+        # Corpus records may store either a bare DOI or a full DOI/publisher URL.
+        # Some discovery records retain multiple semicolon-separated source links.
+        link_items = [item.strip() for item in link.split(";") if item.strip()]
+        if not link_items:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL is required")
+        for item in link_items:
+            parsed = urlparse(item)
+            is_url = parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+            is_doi = bool(re.match(r"^10\\.\\d{4,9}/\\S+$", item, flags=re.IGNORECASE))
+            if not (is_url or is_doi):
+                raise ValueError(
+                    f"{path.relative_to(ROOT)}:{line_no}: invalid DOI/URL entry {item!r}; "
+                    "expected a bare DOI or full http(s) URL"
+                )
 
         quartile = (row.get("Q1 quartile") or "").strip().upper()
         if quartile not in VALID_QUARTILES:
