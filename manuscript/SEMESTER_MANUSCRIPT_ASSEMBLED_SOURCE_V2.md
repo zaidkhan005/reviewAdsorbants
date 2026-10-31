@@ -58,7 +58,7 @@ The aim of this paper is to assess the adsorption behaviour and practical low-co
 
 ## 2. Scope, search strategy and evidence method
 
-The approved material taxonomy and eligibility gates are summarized in Figure 1.. The diagram distinguishes the two included graphene families from standalone non-graphene sorbents and keeps CIP and TC target identities separate.
+The approved material taxonomy and eligibility gates are summarized in Figure 1. The diagram distinguishes the two included graphene families from standalone non-graphene sorbents and keeps CIP and TC target identities separate.
 
 **Figure 1. Scope and material taxonomy**
 
@@ -205,7 +205,7 @@ Flow-through evidence should also be reported separately from batch adsorption. 
 
 ## 3.5. “Low-cost potential” remains a hypothesis until costs are normalized
 
-The process boundary used for the low-cost assessment is shown in Figure 2.. It consolidates alternative preparation, treatment, recovery and regeneration operations reported across the studies; it is not a single standardized synthesis or treatment protocol.
+The process boundary used for the low-cost assessment is shown in Figure 2. It consolidates alternative preparation, treatment, recovery and regeneration operations reported across the studies; it is not a single standardized synthesis or treatment protocol.
 
 **Figure 2. Preparation-to-recovery process boundary for graphene-based CIP/TC adsorbents**
 
@@ -419,7 +419,7 @@ Final bibliography rendering should follow the required university or journal st
 
 ## 4. Mechanistic interpretation: multiple interactions are plausible, but rarely isolated
 
-The evidence-weighted conceptual interaction map is shown in Figure 3.. Its arrows denote candidate influences; the relative contribution of each interaction remains material- and condition-dependent.
+The evidence-weighted conceptual interaction map is shown in Figure 3. Its arrows denote candidate influences; the relative contribution of each interaction remains material- and condition-dependent.
 
 **Figure 3. Candidate interaction pathways for CIP/TC adsorption on graphene-based surfaces**
 
@@ -498,7 +498,7 @@ Kinetic and isotherm fits are descriptive models, not direct molecular evidence.
 
 ## 5. Practical feasibility: recovery advantages do not yet establish low total cost
 
-The evaluation logic used in this section is summarized in Figure 4.. The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
+The evaluation logic used in this section is summarized in Figure 4. The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
 
 **Figure 4. Evidence framework for assessing practical low-cost potential**
 
