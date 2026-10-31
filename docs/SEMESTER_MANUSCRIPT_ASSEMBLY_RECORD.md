@@ -21,8 +21,8 @@
 ## Remaining production tasks
 
 1. Confirm the university or journal reference style; the current ACS Guide 2026 style is provisional. Use the curated 53-entry BibTeX source, not the legacy 19-entry V1 file.
-2. Complete the latest DOCX/PDF build incorporating the nine-table Table 1 layout, left-to-right Figure 2, concise Table 1C and the further-split Table 1F/G cells; inspect all rendered pages and confirm all nine tables are present.
-3. Verify embedded figure images and authored captions, including no footer collision, numbering and in-text cross-references, plus compact table-cell layout, in the latest DOCX/PDF.
+2. Complete the latest DOCX/PDF build incorporating the nine-table Table 1 layout, 28 endpoint rows, left-to-right Figure 2, split Table 1F/G cells, and explicit Word/PDF page breaks before Table 1A and Table 1D; inspect all rendered pages and confirm all nine tables are present.
+3. Verify embedded figure images and authored captions, including no footer collision, numbering and in-text cross-references, compact table-cell layout and non-orphaned Table 1A/1D headings, in the latest DOCX/PDF.
 4. Render Supplementary Table S1 separately in the required supplemental format.
 5. Complete author details, declarations, acknowledgements, funding/conflict/data availability statements and language proof.
 6. Keep all source caveats and study holds visible in the final copy.
