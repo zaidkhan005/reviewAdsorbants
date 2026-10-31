@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a Word/PDF draft of the semester manuscript from the repository source."""
 from __future__ import annotations
-import re, shutil, subprocess, sys
+import json, re, shutil, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,11 +37,13 @@ def main() -> None:
     if len(diagrams) != 4:
         raise SystemExit(f'Expected 4 Mermaid diagrams, found {len(diagrams)}')
     rendered = []
+    puppeteer_config = OUT / 'puppeteer-config.json'
+    puppeteer_config.write_text(json.dumps({'args': ['--no-sandbox', '--disable-setuid-sandbox']}), encoding='utf-8')
     for i, match in enumerate(diagrams, 1):
         src = FIG / f'figure_{i}.mmd'
         png = FIG / f'figure_{i}.png'
         src.write_text(match.group(1).strip() + '\n', encoding='utf-8')
-        run([mmdc, '-i', str(src), '-o', str(png), '-t', 'neutral', '-b', 'white', '-s', '2'])
+        run([mmdc, '-p', str(puppeteer_config), '-i', str(src), '-o', str(png), '-t', 'neutral', '-b', 'white', '-s', '2'])
         rendered.append(png)
     def replace_diagram(match: re.Match[str], idx: int) -> str:
         return f'![Figure {idx}](figures/figure_{idx}.png)'
@@ -61,7 +63,7 @@ def main() -> None:
     prepared = OUT / 'rendered_manuscript.md'
     prepared.write_text(md, encoding='utf-8')
     common = [
-        pandoc, str(prepared), '--from=markdown+pipe_tables+raw_tex+tex_math_dollars',
+        pandoc, str(prepared), '--from=markdown+pipe_tables+raw_tex+tex_math_dollars+tex_math_single_backslash',
         '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
         '--resource-path=' + str(OUT), '--standalone',
         '-V', 'papersize:a4', '-V', 'geometry:margin=22mm',
