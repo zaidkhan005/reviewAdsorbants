@@ -308,33 +308,53 @@ Final bibliography rendering should follow the required university or journal st
 
 **Scope.** This main-text evidence table covers 15 selected primary-study records from the active 49-work corpus. Its endpoints are separated into 19 condition-specific entries because some studies report independent experiments or conflicting source results. Table 1 is not a universal capacity ranking. Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Study conditions, experimental outcomes, model outputs and practical evidence are in separate tables. Each of the 19 endpoint rows in Table 1B is matched to its own condition row in Table 1A; the 20 min optimum and kinetic time-series protocols for SEM-010 are separate. NR = not reported or not available in the audited source record. “Derived qe” is calculated from the exact stated feed, volume, adsorbent mass and removal percentage; it is not a directly tabulated measurement. Fitted qmax/qm and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Study identity/material, condition sets, experimental outcomes, model outputs and practical evidence are in five separate tables. Table 1A lists the 15 studies once; each of the 19 endpoint rows in Table 1C is matched to its own row in Table 1B. The 20 min optimum and kinetic time-series protocols for SEM-010 are separate condition rows. NR = not reported or not available in the audited source record. “Derived qe” is calculated from the exact stated feed, volume, adsorbent mass and removal percentage; it is not a directly tabulated measurement. Fitted qmax/qm and kinetic qe are model outputs, not observed uptake.
 
-## Table 1A. Study identification and condition sets
+## Table 1A. Study identity, target and material family
 
-| Study | Target | Adsorbent | Test context | Initial concentration / mixture | Dose | pH | Temperature | Contact / equilibrium time |
-|---|---|---|---|---|---|---|---|---|
-| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
-| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
-| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute time course | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
-| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal test | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
-| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute kinetic test | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
-| Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series | 50 µmol/L (selected point) | 0.20 g/L | 4 | 25°C | 240 min protocol |
-| Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
-| Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
-| Zhu et al. (2015), SEM-020 | CIP | Graphene; GAC comparator | Abstract-level batch and matrix tests | NR | NR | pH effect tested; range NR | NR | Equilibrium within ≈3 min |
-| Hossain et al. (2026), SEM-029 | CIP | GO/PVA/calcium-alginate beads | Single-solute concentration test | 40 mg/L | 10 g/L | NR at this endpoint | 298 K | 150 min |
-| Shaha et al. (2026), SEM-031 | CIP-containing FQ mixtures | SGO | Binary / ternary / quaternary mixtures | Equimolar; high-concentration range | 0.20 g/L | 5 | 25°C | 240 min |
-| Li et al. (2025), SEM-032 | CIP | PGOT@GEL hydrogel | RSM validation | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | About 120 min; exact validation time NR |
-| Ding et al. (2026), SEM-033 | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; abstract/preview | 30 mg/L | 1.0 g/L | 5 for TCH; 7 for OFL | NR | NR |
-| Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Simultaneous four-tetracycline test | 0.2 mg/L TC | 0.15 g/L | 7 | 25°C | 30 s |
-| Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch plus groundwater PRB; abstract/indexed excerpts | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h to equilibrium |
-| Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Single-analyte kinetic test | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1°C | NR |
-| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen | Figure-specific C0 NR | Figure-specific dose NR | NR | NR | NR |
-| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | Reuse cycle 10 | Same screen/reuse protocol; endpoint feed basis NR | NR | NR | NR | After 10 cycles |
-| Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte trace mixture | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
+| Study | Target | Adsorbent | Study context |
+|---|---|---|---|
+| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal test |
+| Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series |
+| Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study |
+| Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum |
+| Zhu et al. (2015), SEM-020 | CIP | Graphene; GAC comparator | Abstract-level batch and matrix tests |
+| Hossain et al. (2026), SEM-029 | CIP | GO/PVA/calcium-alginate beads | Single-solute concentration test |
+| Shaha et al. (2026), SEM-031 | CIP-containing FQ mixtures | SGO | Binary / ternary / quaternary mixtures |
+| Li et al. (2025), SEM-032 | CIP | PGOT@GEL hydrogel | RSM validation |
+| Ding et al. (2026), SEM-033 | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; abstract/preview |
+| Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Simultaneous four-tetracycline test |
+| Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch plus groundwater PRB; abstract/indexed excerpts |
+| Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Single-analyte kinetic test |
+| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen |
+| Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte trace mixture |
 
-## Table 1B. Experimental/source-reported endpoints
+## Table 1B. Condition sets for the 19 experimental/source-reported endpoints
+
+| Study | Initial concentration / mixture | Dose | pH | Temperature | Contact / equilibrium time |
+|---|---|---|---|---|---|
+| Zhu et al. (2018), SEM-004 | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
+| Zhu et al. (2018), SEM-004 | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
+| Zhu et al. (2018), SEM-004 | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
+| Yasmin et al. (2024), SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
+| Yasmin et al. (2024), SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
+| Shaha et al. (2025), SEM-016 | 50 µmol/L (selected point) | 0.20 g/L | 4 | 25°C | 240 min protocol |
+| Dang et al. (2025), SEM-017 | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
+| Dipannita et al. (2025), SEM-018 | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
+| Zhu et al. (2015), SEM-020 | NR | NR | pH effect tested; range NR | NR | Equilibrium within ≈3 min |
+| Hossain et al. (2026), SEM-029 | 40 mg/L | 10 g/L | NR at this endpoint | 298 K | 150 min |
+| Shaha et al. (2026), SEM-031 | Equimolar; high-concentration range | 0.20 g/L | 5 | 25°C | 240 min |
+| Li et al. (2025), SEM-032 | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | About 120 min; exact validation time NR |
+| Ding et al. (2026), SEM-033 | 30 mg/L | 1.0 g/L | 5 for TCH; 7 for OFL | NR | NR |
+| Hossain et al. (2024), SEM-034 | 0.2 mg/L TC | 0.15 g/L | 7 | 25°C | 30 s |
+| Zhao et al. (2018), SEM-037 | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h to equilibrium |
+| Zhang & Wu (2022), SEM-038 | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1°C | NR |
+| Yao et al. (2017), SEM-039 | Figure-specific C0 NR | Figure-specific dose NR | NR | NR | NR |
+| Yao et al. (2017), SEM-039 | Same screen/reuse protocol; endpoint feed basis NR | NR | NR | NR | After 10 cycles |
+| Peng et al. (2016), SEM-040 | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
+
+## Table 1C. Experimental/source-reported endpoints
 
 | Study | Endpoint class | Endpoint value | Interpretation / qualification |
 |---|---|---|---|
@@ -358,7 +378,7 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-039 | Removal after reuse | 78.9% | After cycle 10; removal retention, not qe-capacity retention |
 | SEM-040 | Experimental qe (SI) | 200.2202 µg/g | TC-specific Table S2 value; ≈0.11% above the stated 200 µg/g feed ceiling; keep the small mass-balance flag |
 
-## Table 1C. Fitted isotherm and kinetic-model outputs
+## Table 1D. Fitted isotherm and kinetic-model outputs
 
 | Study | Isotherm-model output | Kinetic-model output |
 |---|---|---|
@@ -378,7 +398,7 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-039 | Langmuir qmax = 454.6 mg/g (conclusion rounds to 454.5) | PSO fitted qe = 84.8 mg/g |
 | SEM-040 | No conventional qmax reported; seven-drug mean qe = 190.3 µg/g is not TC-specific | TC SI: PFO qe = 198.8393; PSO qe = 200.6055 µg/g |
 
-## Table 1D. Recovery, matrix validation and process/cost evidence
+## Table 1E. Recovery, matrix validation and process/cost evidence
 
 | Study | Recovery / reuse | Water-matrix evidence | Preparation / cost evidence |
 |---|---|---|---|
