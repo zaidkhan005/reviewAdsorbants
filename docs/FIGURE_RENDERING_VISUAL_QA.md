@@ -39,3 +39,7 @@ The main-text Table 1 has seven components. To reduce cell density further, Tabl
 3. Confirm the university-required citation style. ACS Guide 2026 is only the current provisional build style.
 4. Render Supplementary Table S1 separately if the supervisor/university requires a separate supplement file.
 5. Complete language proof, authorship details, declarations, acknowledgements and submission checklist.
+
+## Compact Table 1 update (31 October 2026)
+
+The main-text comparison is now divided into nine focused tables: 15 study identities; 19 condition vectors; 26 endpoint metric/value rows; 24 isotherm fit/parameter rows; 17 kinetic rows; 15 recovery rows; 15 matrix-validation rows; 15 preparation rows; and 15 cost-evidence rows. Endpoint rows contain one metric/value, while detailed caveats are retained in study-specific notes. A PDF-only page break before Table 1A is restored so the first table heading is not orphaned.
