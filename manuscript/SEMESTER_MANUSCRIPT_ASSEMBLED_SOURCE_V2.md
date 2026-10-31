@@ -212,27 +212,13 @@ The process boundary used for the low-cost assessment is shown in Figure 2. It c
 *Conceptual process boundary for evaluating the practical and low-cost potential of selected graphene-based adsorbents. The flow consolidates alternative preparation, treatment, recovery and regeneration operations reported across the reviewed studies; it is not a single standardized synthesis or treatment protocol.*
 
 ```mermaid
-flowchart TB
-  subgraph PREP["1. Material preparation"]
-    direction LR
-    A["Graphenic feedstock<br/>or purchased GO/rGO"] --> B["GO formation / procurement<br/>oxidation, washing,<br/>neutralization and drying"] --> C["Surface modification / composite assembly<br/>functionalization or reduction; Fe3O4 addition;<br/>polymer/cellulose immobilization; selected metal/framework composites"]
-  end
-  subgraph TREAT["2. Aqueous treatment and separation"]
-    direction LR
-    D["Characterized adsorbent<br/>+ CIP and/or TC feed"] --> E["Adsorption operation"] --> F["Loaded adsorbent<br/>+ treated water"] --> G["Solid-liquid separation<br/>magnet; filtration/centrifugation;<br/>or physical recovery of immobilized forms"]
-  end
-  subgraph REC["3. Regeneration and material fate"]
-    direction LR
-    H["Regeneration / desorption"] --> I["Reuse in another cycle"]
-    H --> J["Spent adsorbent /<br/>unrecoverable material"]
-    H --> K["Concentrated regenerant<br/>requiring recovery or treatment"]
-  end
-  subgraph COST["4. Whole-process cost boundary"]
-    direction LR
-    L["Inventory across preparation, treatment and recovery:<br/>yield, reagents, water, energy, solvent use,<br/>adsorbent loss and cycle decline"] --> M["Normalize to a functional unit:<br/>cost per m3 treated and/or<br/>cost per mass CIP/TC removed"]
-  end
-  C --> D
-  G --> H
+flowchart LR
+  A["Material sourcing and GO formation<br/>Purchased GO/rGO or graphite oxidation;<br/>washing, neutralization and drying"] -->
+  B["Surface modification and assembly<br/>Reduction/functionalization; Fe3O4 addition;<br/>polymer/cellulose immobilization;<br/>selected metal/framework composites"] -->
+  C["Aqueous CIP/TC adsorption<br/>Characterize adsorbent; contact treatment feed;<br/>separate loaded sorbent and treated water"] -->
+  D["Recovery and regeneration<br/>Magnetic / filtration / physical recovery;<br/>desorption and reuse; spent sorbent;<br/>concentrated regenerant"] -->
+  E["Whole-process cost inventory<br/>Yield, reagents, water, energy, solvents,<br/>adsorbent loss and cycle decline"] -->
+  F["Normalize to a functional unit<br/>Cost per m3 treated and/or<br/>cost per mass CIP/TC removed"]
 ```
 
 
