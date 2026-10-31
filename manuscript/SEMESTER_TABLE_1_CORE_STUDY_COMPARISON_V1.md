@@ -1,6 +1,6 @@
-# Table 1. Condition-labelled comparison of the 15 target-material primary-study records currently cited
+# Table 1. Condition-labelled comparison of 15 selected target-material studies with the most usable condition-specific endpoints
 
-**Status:** Working table for integration into the semester manuscript. This is not a universal capacity ranking. Observed uptake, model-fitted capacities, kinetic-model outputs, mass-balance-derived checks and percentage removal are deliberately separated. Conditions are included only where the cited source supports them; missing details remain missing.
+**Status:** Main-text condition-labelled subset for the 49-reference manuscript. It is not the full selected-study coverage table or a universal capacity ranking. Supplementary Table S1 documents all 49 selected works. Observed uptake, model-fitted capacities, kinetic-model outputs, mass-balance-derived checks and percentage removal are deliberately separated. Conditions are included only where the cited source supports them; missing details remain missing.
 
 | Study | Target and material | Test context and selected conditions | Observed endpoint | Fitted/model endpoint (separate) | Recovery and principal caveat |
 |---|---|---|---|---|---|
