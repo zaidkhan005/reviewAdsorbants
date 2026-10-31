@@ -239,3 +239,8 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 ## Latest Zotero export recheck — 31 October 2026
 
 The newly uploaded `full ++ check again(2).bib` was byte-identical (SHA-256 `bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`) to the previous 173-entry export. The final semester 50 cross-match remains **15 exact DOI/key matches and 35 not found in the export**; all 19 existing manuscript citation keys are present. No citations or keys were invented. See `logs/2026-10-31-latest-bib-export-reconciliation.md` and `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md`. The remaining 35 must be checked by exact DOI inside Zotero; if present, resolve export scope; if absent, add metadata and regenerate Better BibTeX.
+
+
+## Latest selected-study citation linkage — 31 October 2026
+
+A new `Untitled.bib` upload (28 entries, 28 distinct DOI values) resolves 28 of the previously missing semester reference keys. The semester reference set now has **43/50 verified Better BibTeX keys**, with **7 remaining**. The selection register and citation-linkage audit have been refreshed; the DOI queue now contains only the remaining seven. See `logs/2026-10-31-untitled-bib-reconciliation.md`. 
