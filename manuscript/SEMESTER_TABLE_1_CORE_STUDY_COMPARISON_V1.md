@@ -8,8 +8,8 @@
 
 | Study | Target | Adsorbent | Study context |
 |---|---|---|---|
-| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm |
-| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal test |
+| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm and time-course tests |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal and kinetic tests |
 | Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series |
 | Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study |
 | Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum |
@@ -21,7 +21,7 @@
 | Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Simultaneous four-tetracycline test |
 | Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch plus groundwater PRB; abstract/indexed excerpts |
 | Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Single-analyte kinetic test |
-| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen |
+| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen and reuse tests |
 | Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte trace mixture |
 
 ## Table 1B. Condition sets for the 19 experimental/source-reported endpoints
