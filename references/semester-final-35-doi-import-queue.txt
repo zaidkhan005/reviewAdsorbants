@@ -1,0 +1,41 @@
+Semester-paper final 50 reference set — Zotero DOI lookup/import queue
+Date: 31 October 2026
+Scope: 35 of the 50 selected DOI-defined candidate works are not yet cited in the current manuscript.
+Before importing, search Zotero by exact DOI to avoid duplicates. Do not construct citation keys manually.
+After metadata verification/import, export Better BibTeX and update the citation-linkage register.
+
+SEM-001	10.1371/journal.pone.0079254	Adsorption properties of tetracycline onto graphene oxide: equilibrium, kinetic and thermodynamic studies
+SEM-002	10.1016/j.ecoenv.2017.08.019	A comprehensive adsorption study and modeling of antibiotics as a pharmaceutical waste by graphene oxide nanosheets
+SEM-003	10.1007/s11356-017-0596-8	Removal of fluoroquinolone from aqueous solution using graphene oxide: experimental and computational elucidation
+SEM-005	10.1016/j.matchemphys.2017.05.042	Adsorption behaviors of tetracycline on magnetic graphene oxide sponge
+SEM-006	10.1016/j.jcis.2018.03.003	Performance of magnetic graphene oxide/diethylenetriaminepentaacetic acid nanocomposite for the tetracycline and ciprofloxacin adsorption in single and binary systems
+SEM-007	10.1186/s11671-018-2814-9	Adsorption of Tetracycline with Reduced Graphene Oxide Decorated with MnFe2O4 Nanoparticles
+SEM-008	10.1016/j.apsusc.2019.01.036	The adsorption performance of tetracyclines on magnetic graphene oxide: A novel antibiotics absorbent
+SEM-009	10.1016/j.cej.2024.150484	Adsorption of ciprofloxacin from aqueous solution and fresh synthetic urine by graphene oxide: Conventional and statistical physics modeling approaches
+SEM-011	10.1016/j.jece.2023.110766	Adsorptive removal of ciprofloxacin from aqueous medium by magnetic guar gum grafted graphene oxide nano composite
+SEM-012	10.1016/j.rineng.2023.101507	Removal of ciprofloxacin and cephalexin antibiotics in water environment by magnetic graphene oxide nanocomposites; optimization using response surface methodology
+SEM-013	10.1016/j.chemphys.2024.112207	The adsorption of tetracycline, ciprofloxacin on reduced graphene oxide surfaces: Role of intermolecular interaction
+SEM-014	10.1016/j.molliq.2022.118837	A DFT theoretical and experimental study about tetracycline adsorption onto magnetic graphene oxide
+SEM-015	10.3389/fnano.2025.1578620	Graphene oxide/layered double hydroxide composite as highly efficient and recyclable adsorbent for removal of ciprofloxacin from aqueous phase
+SEM-019	10.1016/j.dwt.2026.101889	EDTA-functionalized magnetic graphene oxide for rapid and efficient removal of tetracycline from aqueous media
+SEM-021	10.1016/j.jcis.2017.01.075	Decontamination of tetracycline by thiourea-dioxide-reduced magnetic graphene oxide: Effects of pH, ionic strength, and humic acid concentration
+SEM-022	10.1016/j.jenvman.2020.111310	Application of graphene-based materials for removal of tetracyclines using adsorption and photocatalytic-degradation: A review
+SEM-023	10.1088/1742-6596/2779/1/012098	Adsorptive Removal of Ciprofloxacin from Aqueous Media with Graphene based Composites
+SEM-024	10.1016/j.jcis.2011.11.015	Adsorption and removal of tetracycline antibiotics from aqueous solution by graphene oxide
+SEM-025	10.1016/j.molliq.2016.07.037	Removal of ciprofloxacin from aqueous solution by a magnetic chitosan grafted graphene oxide composite
+SEM-026	10.1016/j.jcis.2016.08.068	Adsorptive removal of ciprofloxacin by sodium alginate/graphene oxide composite beads from aqueous solution
+SEM-027	10.3390/toxics10020077	Polyacrylamide Functionalized Graphene Oxide/Alginate Beads for Removing Ciprofloxacin Antibiotics
+SEM-028	10.1016/j.cej.2013.06.072	Adsorption of ciprofloxacin onto biocomposite fibers of graphene oxide/calcium alginate
+SEM-030	10.1016/j.jwpe.2026.110335	Tailored graphene oxide – [Ni(DMG)]n composites for enhanced adsorption of ciprofloxacin: Kinetic, Isothermal, and pH-dependent behavior
+SEM-035	10.16796/j.cnki.1000-3770.2025.09.007	Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water
+SEM-036	10.1038/s41598-025-19686-0	Removal of ciprofloxacin from water by graphene oxide-like carbon nanosheets derived from onion peel
+SEM-042	10.1016/j.carbpol.2018.02.021	Continuous flow adsorption of ciprofloxacin by using a nanostructured chitin/graphene oxide hybrid material
+SEM-043	10.1016/j.jhazmat.2014.03.063	Removal of sulfamethoxazole and ciprofloxacin from aqueous solutions by graphene oxide
+SEM-044	10.1007/s00604-019-3563-x	Chitosan-based sorbent for efficient removal and extraction of ciprofloxacin and norfloxacin from aqueous solutions
+SEM-045	10.1039/d6ra02920e	Fabrication of a magnetic graphene oxide-supported hexagonal cobalt MOF for fast and effective removal of tetracycline in water
+SEM-046	10.4314/bcse.v40i5.15	Optimization of ciprofloxacin adsorption onto zirconium-modified magnetic graphene oxide: Response surface methodology
+SEM-047	10.1016/j.ijbiomac.2026.153894	A multifunctional magnetic graphene oxide/NH2-UiO-66(Zr)/sodium alginate nanocomposite for efficient tetracycline adsorption, antibacterial activity, and practical application in real water matrices
+SEM-048	10.1016/j.molstruc.2026.145993	Interface-engineered reduced graphene oxide/Pr6O11 nanocomposite for high-performance ciprofloxacin adsorption: mechanistic and thermodynamic insights
+SEM-049	10.3390/nano12172897	Effective Removal of Tetracycline from Water Using Copper Alginate @ Graphene Oxide with In-Situ Grown MOF-525 Composite: Synthesis, Characterization and Adsorption Mechanisms
+SEM-050	10.1007/s42114-026-01808-5	Surface assembled graphene oxide–deep eutectic solvent based nanocomposite for multimodal adsorption-driven drug sequestration
+SEM-051	10.1080/16583655.2026.2613597	Citric acid crosslinked carboxymethyl cellulose/graphene oxide bead for adsorption of tetracycline from an aqueous system
