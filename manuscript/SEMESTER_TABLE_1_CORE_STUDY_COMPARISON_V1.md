@@ -2,7 +2,7 @@
 
 **Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 26 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, water-matrix evidence, preparation burden and cost evidence. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F separates cycle metric from cycle value and qualification; Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
 ## Table 1A. Study identity, target and material family
 
@@ -132,43 +132,43 @@
 
 ## Table 1F. Recovery and regeneration evidence
 
-| Study ID | Separation / recovery | Regeneration medium | Cycles | Reported cycle result |
-|---|---|---|---|---|
-| SEM-004 | NR | NR | NR | No multicycle reuse verified |
-| SEM-010 | NR | Methanol | 7 | 92% removal at cycle 7 |
-| SEM-016 | NR | DMF + 1 M HCl | 5 | 95.78% qe retention at cycle 5 |
-| SEM-017 | Magnetic | NR | 5 | Removal: 88.33% → 75.38% |
-| SEM-018 | Magnetic | Methanol | 10 | Removal: ≈96% → ≈92% |
-| SEM-020 | NR | NR | NR | No verified regeneration cycles |
-| SEM-029 | NR | NR | 4–5 claimed | Cycle mass balance incomplete |
-| SEM-031 | NR | DMF + 1 M HCl | 5 | >92% mixture performance after cycle 5 |
-| SEM-032 | NR | Methanol | 7 | ≈90.53% initial removal retained |
-| SEM-033 | NR | Not stated | 4 | >87% removal efficiency after 4 cycles |
-| SEM-034 | Magnetic | Methanol | Up to 8 | No TC-only cycle series |
-| SEM-037 | PRB configuration | NR | Not a batch cycle | PRB lifetime is not regeneration |
-| SEM-038 | NR | NR | Up to 8 | ≤25% capacity decline across system; not TC-specific |
-| SEM-039 | NR | 5 wt.% NaOH | 10 | TC removal: 82.1% → 78.9% |
-| SEM-040 | NR | NR | NR | No graphene reuse protocol identified |
+| Study ID | Separation / recovery | Regeneration medium | Cycles | Cycle metric | Cycle result | Qualification |
+|---|---|---|---:|---|---|---|
+| SEM-004 | NR | NR | NR | Reuse status | Not verified | No multicycle reuse evidence |
+| SEM-010 | NR | Methanol | 7 | Removal | 92% at cycle 7 | Not qe retention |
+| SEM-016 | NR | DMF + 1 M HCl | 5 | qe retention | 95.78% at cycle 5 | Separate desorption-release result |
+| SEM-017 | Magnetic | NR | 5 | Removal | 88.33% to 75.38% | Cycle 1 to cycle 5 |
+| SEM-018 | Magnetic | Methanol | 10 | Removal | About 96% to 92% | Not qe-capacity retention |
+| SEM-020 | NR | NR | NR | Reuse status | Not verified | No verified regeneration cycles |
+| SEM-029 | NR | NR | 4–5 claimed | Cycle balance | Incomplete | Cycle-level mass balance unavailable |
+| SEM-031 | NR | DMF + 1 M HCl | 5 | Mixture performance | Above 92% after cycle 5 | Mixture-level result |
+| SEM-032 | NR | Methanol | 7 | Removal retention | About 90.53% of initial removal | Not a qe-capacity metric |
+| SEM-033 | NR | Not stated | 4 | Removal | Above 87% after 4 cycles | Preview-level evidence |
+| SEM-034 | Magnetic | Methanol | Up to 8 | TC-specific cycle result | Not available | No TC-only cycle series |
+| SEM-037 | PRB configuration | NR | Not a batch cycle | PRB lifetime | Not reported | Not a regeneration-cycle metric |
+| SEM-038 | NR | NR | Up to 8 | Capacity decline | At most 25% | Across system; not TC-specific |
+| SEM-039 | NR | 5 wt.% NaOH | 10 | TC removal | 82.1% to 78.9% | Screen result vs cycle 10 |
+| SEM-040 | NR | NR | NR | Reuse status | Not identified | No graphene reuse protocol reported |
 
 ## Table 1G. Water-matrix validation
 
-| Study ID | Matrix / test water | Evidence or limitation |
-|---|---|---|
-| SEM-004 | Synthetic batch | No real-water validation reported |
-| SEM-010 | Synthetic batch | No real-water trial |
-| SEM-016 | Synthetic single-solute | No real-water trial |
-| SEM-017 | Synthetic batch | No real-water validation reported |
-| SEM-018 | Synthetic batch | No real-water experiment |
-| SEM-020 | Salts; 5 mg/L NOM; river/drinking-water sources | Effect sizes unavailable in accessible source |
-| SEM-029 | Synthetic batch | No real-water validation reported |
-| SEM-031 | FQ mixtures | Authors state real wastewater was not tested |
-| SEM-032 | Wastewater-labelled application samples | Real vs simulated-water description conflicts |
-| SEM-033 | Complex-water claim in preview | Matrix composition/details inaccessible |
-| SEM-034 | Four-tetracycline mixture | No real-water trial |
-| SEM-037 | Groundwater PRB application | Numeric breakthrough results inaccessible |
-| SEM-038 | Trace-level single/mixed-analyte tests | Includes simulated interferent tests; not a field wastewater trial |
-| SEM-039 | Synthetic antibiotic screen | No real-water validation reported |
-| SEM-040 | Synthetic seven-antibiotic mixture | Not untreated wastewater |
+| Study ID | Matrix / feed | Test type | Evidence / limitation |
+|---|---|---|---|
+| SEM-004 | Synthetic batch | Single-solute adsorption | No real-water validation reported |
+| SEM-010 | Synthetic batch | Single-solute batch | No real-water trial |
+| SEM-016 | Synthetic single-solute | Single-solute batch | No real-water trial |
+| SEM-017 | Synthetic batch | Single-solute batch | No real-water validation reported |
+| SEM-018 | Synthetic batch | Single-solute batch | No real-water experiment |
+| SEM-020 | Salts; 5 mg/L NOM; river/drinking-water sources | Matrix-effect and water-source tests | Effect sizes and full conditions unavailable in accessible source |
+| SEM-029 | Synthetic batch | Single-solute batch | No real-water validation reported |
+| SEM-031 | FQ mixtures | Multisolute batch | Authors state real wastewater was not tested |
+| SEM-032 | Wastewater-labelled application samples | RSM / matrix application | Real vs simulated-water description conflicts |
+| SEM-033 | Complex-water claim in preview | Preview-level matrix test | Matrix composition and details inaccessible |
+| SEM-034 | Four-tetracycline mixture | Multisolute batch | No real-water trial |
+| SEM-037 | Groundwater PRB application | Flow-through / PRB | Numeric breakthrough results inaccessible |
+| SEM-038 | Trace-level single/mixed-analyte feeds | Single/mixed-solute and interferent tests | Simulated interferents; not field wastewater validation |
+| SEM-039 | Synthetic antibiotic screen | Multisolute screen | No real-water validation reported |
+| SEM-040 | Synthetic seven-antibiotic mixture | Multisolute batch | Not untreated wastewater |
 
 ## Table 1H. Preparation burden
 
