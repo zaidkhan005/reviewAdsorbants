@@ -2,7 +2,7 @@
 
 **Scope.** This main-text evidence table covers 15 selected primary-study records from the active 49-work corpus. Its endpoints are separated into 19 condition-specific entries because some studies report independent experiments or conflicting source results. Table 1 is not a universal capacity ranking. Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Study conditions, experimental outcomes, model outputs and practical evidence are in separate tables. NR = not reported or not available in the audited source record. “Derived qe” is calculated from the exact stated feed, volume, adsorbent mass and removal percentage; it is not a directly tabulated measurement. Fitted qmax/qm and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Study conditions, experimental outcomes, model outputs and practical evidence are in separate tables. Each of the 19 endpoint rows in Table 1B is matched to its own condition row in Table 1A; the 20 min optimum and kinetic time-series protocols for SEM-010 are separate. NR = not reported or not available in the audited source record. “Derived qe” is calculated from the exact stated feed, volume, adsorbent mass and removal percentage; it is not a directly tabulated measurement. Fitted qmax/qm and kinetic qe are model outputs, not observed uptake.
 
 ## Table 1A. Study identification and condition sets
 
@@ -11,7 +11,8 @@
 | Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
 | Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
 | Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute time course | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
-| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum and kinetic test | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min; kinetic series |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal test | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute kinetic test | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
 | Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series | 50 µmol/L (selected point) | 0.20 g/L | 4 | 25°C | 240 min protocol |
 | Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
 | Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
@@ -104,6 +105,8 @@
 - **SEM-038:** Table 1 TC qe = 90.21 mg/g exceeds the strict 80 mg/g stated-feed ceiling. Figure 2c shows a larger feed-basis discrepancy. Keep both observed qe and fitted qmax out of quantitative ranking pending clarification.
 - **SEM-039:** Figure 7 lacks a figure-specific C0/pH/dose. Do not import conditions from separate factor experiments. Cycle-10 removal is not capacity retention.
 - **SEM-040:** Official SI Table S2 gives TC-specific experimental qe = 200.2202 µg/g. The 190.3 µg/g mean across seven antibiotics is not a TC-specific endpoint. Preserve the small 0.11% feed-ceiling flag.
+
+*Dose footnote for SEM-010:* Abstract/Fig. 3 and Results report 20 mg/L GO; the conclusion says 20 g/L (a 1000-fold discrepancy). The table displays the condition reported at the optimum in the abstract/figures and preserves the conflict in Table 1B and the study-specific holds.
 
 **Evidence boundary:** The condition-labelled comparison register provides the extracted records for 14 of these candidates. SEM-038 is linked to existing master evidence records EV-B10-004–EV-B10-009 and is not duplicated. The detailed readiness audit and evidence registers remain authoritative for source locations, access tiers and permitted uses.
 
