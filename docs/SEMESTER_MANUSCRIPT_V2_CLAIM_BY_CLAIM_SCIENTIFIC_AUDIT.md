@@ -115,7 +115,7 @@ The earlier-study paragraphs in Sections 3.6.1–3.6.3 have now been audited aga
 | Table 1 | **ROW-BY-ROW CROSS-CHECK COMPLETE; RESTRUCTURED** | Table 1A lists 15 study identities; Tables 1B and 1C each contain 19 matched condition/endpoint rows; Tables 1D–1G each contain 15 study-level rows separating isotherm fits, kinetic fits, recovery/matrix evidence and preparation/cost evidence. This is not a universal ranking or the full 49-study coverage list. |
 | Supplementary Table S1 | **UPDATED, 49 ROWS RETAINED** | The selected 49 remain unchanged. Recent updates include the RSM/water-matrix study, GO/LDH, early GO models, the GO-SA accepted-manuscript values, chitosan/MgO and SEM-045–051 caveats. S1 is a source-tier/allowed-use map, not a PRISMA flow table. |
 
-**Table 1 row-by-row audit:** All 15 included studies were reconciled against the existing condition-labelled extraction and readiness records. Five focused tables now separate the 15 study identities, 19 endpoint-condition rows, 19 experimental outcomes and study-level isotherm, kinetic, recovery/matrix and preparation/cost summaries. The audit retained all existing holds and added the TC-specific SEM-040 supplementary-information value (experimental qe = 200.2202 µg/g), while keeping the seven-drug mean (190.3 µg/g) in narrative context rather than presenting it as a TC-specific table endpoint. See `docs/TABLE_1_ROW_BY_ROW_AUDIT.md` for study-by-study decisions. The full integrated narrative, diagrams and Table 1 are assembled in `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md`.
+**Table 1 row-by-row audit:** All 15 included studies were reconciled against the existing condition-labelled extraction and readiness records. Seven focused tables now separate the 15 study identities, 19 endpoint-condition rows, 19 experimental outcomes and study-level isotherm, kinetic, recovery/matrix and preparation/cost summaries. The audit retained all existing holds and added the TC-specific SEM-040 supplementary-information value (experimental qe = 200.2202 µg/g), while keeping the seven-drug mean (190.3 µg/g) in narrative context rather than presenting it as a TC-specific table endpoint. See `docs/TABLE_1_ROW_BY_ROW_AUDIT.md` for study-by-study decisions. The full integrated narrative, diagrams and Table 1 are assembled in `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md`.
 
 **Production status:** The four editable Mermaid figure sources have been rendered through the reproducible manuscript builder and embedded as images in the DOCX/PDF output. The authored captions are now passed through once to avoid duplicate automatic labels. The first build's page review identified table packing and figure-caption duplication; the corrected build must still pass page-by-page visual QA. See docs/FIGURE_RENDERING_VISUAL_QA.md.
 
@@ -170,8 +170,8 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - Reconcile or explicitly quarantine all HOLD claims listed above; do not silently fix source values.
-- Complete any remaining sentence-level source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists; DOCX/PDF generation and rendered-page QA are still pending.
-- Re-render the corrected DOCX/PDF and check placed-size legibility, figure numbering, captions, in-text cross-references, table widths and pagination page by page.
+- Complete any remaining sentence-level source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the first DOCX/PDF build has been rendered and inspected. The replacement Figure 2 build is in progress; final page QA remains open.
+- Re-render the updated DOCX/PDF after the Figure 2 redraw and complete page-by-page visual QA of captions, cross-references, table widths, pagination and figure legibility. Then confirm the university-required citation style (the current ACS Guide 2026 style is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
 - Do not describe the paper as a systematic review or PRISMA-compliant review unless the missing reproducible search and screening counts are reconstructed.
@@ -179,7 +179,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 ## 13. Source-of-truth project files
 
 - Unified working manuscript V2: `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md`
-- Main-text condition-labelled Table 1 (four component tables): `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md`
+- Main-text condition-labelled Table 1 (seven component tables): `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md`
 - Integrated publication-facing Markdown assembly: `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md`
 - Assembly manifest: `docs/SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md`
 - 49-study Supplementary Table S1: `manuscript/SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md`
