@@ -98,3 +98,8 @@ The candidate-level citation linkage audit, main-corpus crosswalk, remaining-wor
 ## Latest upload recheck — 31 October 2026
 
 The user uploaded `full ++ check again(2).bib`. Its SHA-256 (`bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`) is identical to the prior `full ++ check again(1).bib` export, so it is not a new bibliographic snapshot. Reconciliation against the frozen 50 candidate works found 15 exact DOI/key matches and 35 selected-study DOIs still absent from the export. All 19 existing manuscript keys (15 selected candidate keys plus four contextual keys) remain present. See [the latest export reconciliation log](../logs/2026-10-31-latest-bib-export-reconciliation.md) for the 15 matched keys, complete 35-DOI list and duplicate-DOI groups. Do not re-run this same-file audit unless a genuinely new export has a different SHA-256.
+
+
+## 31 October 2026 — 28-entry Zotero export reconciliation
+
+The newly uploaded `Untitled.bib` contains 28 BibTeX entries with 28 unique keys and 28 unique DOI values. All 28 DOIs match previously unresolved selected semester candidates. Combined with the prior 15 exact DOI/key matches from the complete 173-entry export, **43/50 selected DOI-defined works now have verified Better BibTeX keys; 7 remain unmatched**. The candidate-selection and citation-linkage CSVs now record the 28 verified keys. The remaining seven DOI list is in `references/semester-final-35-doi-import-queue.txt`; it has been reduced to the seven unresolved candidates. See `logs/2026-10-31-untitled-bib-reconciliation.md` for the full key mapping and audit details. This file is a 28-entry subset export, not a complete My Library export.
