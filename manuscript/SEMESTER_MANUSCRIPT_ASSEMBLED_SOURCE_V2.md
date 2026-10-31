@@ -278,7 +278,7 @@ Final bibliography rendering should follow the required university or journal st
 
 **Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 28 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F separates cycle metric from cycle value and qualification; Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
 ## Table 1A. Study identity, target and material family
 
@@ -414,25 +414,45 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-040 | PFO (TC) | Fitted qe | 198.8393 µg/g |
 | SEM-040 | PSO (TC) | Fitted qe | 200.6055 µg/g |
 
-## Table 1F. Recovery and regeneration evidence
+## Table 1F(a). Recovery and regeneration method
 
-| Study ID | Separation / recovery | Regeneration medium | Cycles | Cycle metric | Cycle result | Qualification |
-|---|---|---|---:|---|---|---|
-| SEM-004 | NR | NR | NR | Reuse status | Not verified | No multicycle reuse evidence |
-| SEM-010 | NR | Methanol | 7 | Removal | 92% at cycle 7 | Not qe retention |
-| SEM-016 | NR | DMF + 1 M HCl | 5 | qe retention | 95.78% at cycle 5 | Separate desorption-release result |
-| SEM-017 | Magnetic | NR | 5 | Removal | 88.33% to 75.38% | Cycle 1 to cycle 5 |
-| SEM-018 | Magnetic | Methanol | 10 | Removal | About 96% to 92% | Not qe-capacity retention |
-| SEM-020 | NR | NR | NR | Reuse status | Not verified | No verified regeneration cycles |
-| SEM-029 | NR | NR | 4–5 claimed | Cycle balance | Incomplete | Cycle-level mass balance unavailable |
-| SEM-031 | NR | DMF + 1 M HCl | 5 | Mixture performance | Above 92% after cycle 5 | Mixture-level result |
-| SEM-032 | NR | Methanol | 7 | Removal retention | About 90.53% of initial removal | Not a qe-capacity metric |
-| SEM-033 | NR | Not stated | 4 | Removal | Above 87% after 4 cycles | Preview-level evidence |
-| SEM-034 | Magnetic | Methanol | Up to 8 | TC-specific cycle result | Not available | No TC-only cycle series |
-| SEM-037 | PRB configuration | NR | Not a batch cycle | PRB lifetime | Not reported | Not a regeneration-cycle metric |
-| SEM-038 | NR | NR | Up to 8 | Capacity decline | At most 25% | Across system; not TC-specific |
-| SEM-039 | NR | 5 wt.% NaOH | 10 | TC removal | 82.1% to 78.9% | Screen result vs cycle 10 |
-| SEM-040 | NR | NR | NR | Reuse status | Not identified | No graphene reuse protocol reported |
+| Study ID | Separation / recovery | Regeneration medium | Cycles |
+|---|---|---|---:|
+| SEM-004 | NR | NR | NR |
+| SEM-010 | NR | Methanol | 7 |
+| SEM-016 | NR | DMF + 1 M HCl | 5 |
+| SEM-017 | Magnetic | NR | 5 |
+| SEM-018 | Magnetic | Methanol | 10 |
+| SEM-020 | NR | NR | NR |
+| SEM-029 | NR | NR | 4–5 claimed |
+| SEM-031 | NR | DMF + 1 M HCl | 5 |
+| SEM-032 | NR | Methanol | 7 |
+| SEM-033 | NR | Not stated | 4 |
+| SEM-034 | Magnetic | Methanol | Up to 8 |
+| SEM-037 | PRB configuration | NR | Not a batch cycle |
+| SEM-038 | NR | NR | Up to 8 |
+| SEM-039 | NR | 5 wt.% NaOH | 10 |
+| SEM-040 | NR | NR | NR |
+
+## Table 1F(b). Cycle performance and qualification
+
+| Study ID | Cycle metric | Cycle result | Qualification |
+|---|---|---|---|
+| SEM-004 | Reuse status | Not verified | No multicycle reuse evidence |
+| SEM-010 | Removal | 92% at cycle 7 | Not qe retention |
+| SEM-016 | qe retention | 95.78% at cycle 5 | Separate desorption-release result |
+| SEM-017 | Removal | 88.33% to 75.38% | Cycle 1 to cycle 5 |
+| SEM-018 | Removal | About 96% to 92% | Not qe-capacity retention |
+| SEM-020 | Reuse status | Not verified | No verified regeneration cycles |
+| SEM-029 | Cycle balance | Incomplete | Cycle-level mass balance unavailable |
+| SEM-031 | Mixture performance | Above 92% after cycle 5 | Mixture-level result |
+| SEM-032 | Removal retention | About 90.53% of initial removal | Not a qe-capacity metric |
+| SEM-033 | Removal | Above 87% after 4 cycles | Preview-level evidence |
+| SEM-034 | TC-specific cycle result | Not available | No TC-only cycle series |
+| SEM-037 | PRB lifetime | Not reported | Not a regeneration-cycle metric |
+| SEM-038 | Capacity decline | At most 25% | Across system; not TC-specific |
+| SEM-039 | TC removal | 82.1% to 78.9% | Screen result vs cycle 10 |
+| SEM-040 | Reuse status | Not identified | No graphene reuse protocol reported |
 
 ## Table 1G. Water-matrix validation
 
@@ -453,6 +473,12 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-038 | Trace-level single/mixed-analyte feeds | Single/mixed-solute and interferent tests | Simulated interferents; not field wastewater validation |
 | SEM-039 | Synthetic antibiotic screen | Multisolute screen | No real-water validation reported |
 | SEM-040 | Synthetic seven-antibiotic mixture | Multisolute batch | Not untreated wastewater |
+
+\newpage
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Table 1H. Preparation burden
 
