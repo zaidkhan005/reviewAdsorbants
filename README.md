@@ -252,3 +252,8 @@ The newest `Untitled +.bib` export confirms **49 of the 50** distinct selected s
 
 
 SEM-035 DOI resolution note (31 Oct 2026): Zotero Add by Identifier returned Lookup Failed, but the DOI is valid and independently confirmed by the official *Technology of Water Treatment* journal page and EBSCO. Add manually in Zotero as a Journal Article; the Better BibTeX key remains pending until Zotero generates it. See the DOI queue and citation audit for complete metadata.
+
+
+## Final semester DOI intake closure — 31 October 2026
+
+All **50/50** distinct selected semester works now have verified Better BibTeX keys across the supplied exports. SEM-035 was added in `Untitled ++.bib` with key `AdsorptionCharacteristicsModified2025`. DOI lookup/import is complete; no further DOI searches or PDF downloads are required. The latest 41-entry export still has six duplicate DOI pairs for SEM-046–SEM-051, which should be merged in Zotero before final citation-key lock. The old DOI queue is now a cleanup/completion note. See the current DOI audit and `logs/2026-10-31-final-50-citation-linkage.md`.
