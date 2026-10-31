@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Semester paper: journal quartiles are explicitly out of scope. Do not audit, rank, prioritise, include or exclude SEM candidates by SJR/JCR/CiteScore quartile. The shared journal-ranking audit is not an eligibility input for this workstream. Broad-review ranking rules remain separate.
-- The unified manuscript still cites 19 distinct works (15 target-material primary-study records plus four contextual sources); all 19 keys match the 19-entry curated bibliography. The semester register has 51 rows representing 50 DOI-defined studies after excluding the SEM-041 alias of SEM-026. The dedicated evidence extraction has 46 records; candidate/evidence counts are not final inclusion counts. The Zotero DOI queue has 21 unique records. The latest complete My Library export (173 entries) was also checked by exact DOI and normalized title: none of the 21 queue records matched, while all 19 existing manuscript citation keys were present. Add metadata only for candidates selected for citation; do not guess keys. The approximately 50-work target and final integrated style/claim audit remain pending.
+- The semester paper now has an active 49-reference selection (candidate SEM-035 excluded by user decision; SEM-041 remains an alias of SEM-026). The unified V2 manuscript cites all 49 selected works plus four retained contextual sources, for 53 distinct citations. Supplementary Table S1 maps all 49 with source tiers and permitted quantitative use; Table 1 remains a narrower condition-labelled comparison subset. A consolidated 53-entry BibTeX artifact has been generated and verified. Final style rendering, claim-by-claim source-pin QA and submission formatting remain pending.
 
 ## Current semester-paper working files
 
@@ -61,8 +61,8 @@ This repository now contains **two related but separate workstreams**. Do not co
 
 - The semester candidate set is now **frozen at 50 distinct DOI-defined works**. The 51st register row, SEM-041, is a duplicate alias of SEM-026 and is not counted separately.
 - Final roles: **47 empirical primary-study references**, one theory/mechanism context study (SEM-013), one review/background reference (SEM-022), and one scope-boundary near-miss (SEM-036). The latter three are not all quantitative core studies.
-- **15/50** selected candidate works are already cited with verified keys; **35/50** still require exact-DOI Zotero lookup and genuine Better BibTeX keys. See `data/semester-final-50-reference-selection.csv` and `references/semester-final-35-doi-import-queue.txt`.
-- Four contextual references currently in the manuscript sit outside this 50-candidate pool. Keeping them yields 54 distinct bibliography works; the selected-study count remains 50.
+- **49/49** active selected works are integrated into the unified manuscript V2 with post-merge Better BibTeX keys. Candidate SEM-035 is excluded administratively. See `data/semester-final-49-reference-selection.csv` and `manuscript/SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md`.
+- Four contextual references from the original V1 manuscript remain outside the 49 selected works. Keeping them yields 53 distinct bibliography works; the active selected-study count remains 49.
 - No further candidate discovery is needed for the semester version. Preserve the source tiers, mass-balance holds, separate target antibiotics and metric distinctions. Do not apply journal-quartile screening to this paper.
 - Decision and next steps: `docs/SEMESTER_FINAL_50_REFERENCE_SELECTION_FREEZE.md`.
 
@@ -164,7 +164,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 ## Semester manuscript — unified working draft
 
 - `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md` — the single continuous semester-paper draft (Introduction, scope/search/evidence method, Results and Discussion, mechanism synthesis, practical feasibility and conclusions). It documents the 28 October focused discovery pass and 28–30 October source audits without claiming a systematic/PRISMA search.
-- `references/semester-manuscript-cited-references.bib` — 19 distinct references currently cited in the unified draft; contextual sources are distinguished from the 15 target-material primary-study records.
+- `references/semester-manuscript-cited-references.bib` — legacy 19-entry V1 subset; do not use for the expanded V2 manuscript. The consolidated 53-entry V2 BibTeX bibliography is delivered as `semester-manuscript-cited-references-49-selected-plus-4-context.bib`.
 - The separate Introduction/Scope and Results/Discussion files are retained as component drafts/source history. The unified manuscript is the current integration point.
 
 
@@ -270,3 +270,13 @@ The user elected to finalize the semester paper with **49 active reference works
 ## 49-reference manuscript integration — 31 October 2026
 
 The active semester bibliography is fixed at 49 selected works (SEM-035 excluded by user decision); four out-of-pool context references from the existing draft remain separately retained. Manuscript V2 expands Results/Discussion to use the remaining selected works with source-tier caveats. Supplementary Table S1 is the comprehensive selected-reference coverage register; Table 1 remains a narrower condition-labelled comparison subset. See `manuscript/SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md`. Final BibTeX union and journal/university-style rendering remain to be reconciled.
+
+
+## Final bibliography and manuscript V2 audit — 31 October 2026
+
+- The active manuscript selection is 49 studies (SEM-035 omitted at user direction); four contextual sources outside this set are retained, giving 53 distinct works cited.
+- Unified manuscript V2 contains 53 unique in-text citation keys: 49/49 selected keys plus all four contextual keys. No unexpected keys or missing active keys were detected.
+- Supplementary Table S1 has exactly 49 selected-study rows, with a current Better BibTeX key and permitted evidence use for each selected work.
+- Consolidated BibTeX attachment: semester-manuscript-cited-references-49-selected-plus-4-context.bib. It has 53 entries, 53 unique keys and 53 unique DOIs. SHA-256: 1409ccc252fac34e22069e5dfbe100b5f52623d7321643c22bd74321e984de2a.
+- The repository's references/semester-manuscript-cited-references.bib remains a historical 19-entry V1 snapshot and is not the bibliography for V2.
+- Citation-key reconciliation is complete. Final target-style rendering, end-to-end claim/source-pin QA, and submission formatting remain.
