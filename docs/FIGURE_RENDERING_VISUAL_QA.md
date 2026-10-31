@@ -17,9 +17,9 @@ The repository build workflow uses Mermaid CLI (`mmdc`) to render the four edita
 
 ## Figure 2 correction
 
-Figure 2 has been redrawn as a left-to-right workflow with six linked stages: material sourcing/GO formation; surface modification/assembly; aqueous CIP/TC adsorption; recovery/regeneration; whole-process cost inventory; and functional-unit normalization. The scientific boundary is unchanged: it consolidates alternative reported routes and is not a standardized synthesis or measured mass balance.
+Figure 2 has been redrawn as a compact left-to-right workflow: material sourcing/GO formation; surface modification/assembly; aqueous CIP/TC adsorption; recovery/regeneration; whole-process cost inventory; and functional-unit normalization. The scientific boundary is unchanged: it consolidates alternative reported routes and is not a standardized synthesis or measured mass balance.
 
-**Status:** The updated Mermaid source and assembled manuscript are committed. The refreshed DOCX/PDF build is in progress; final figure-placement status is pending visual review of that artifact.
+**Status:** The updated Mermaid source and assembled manuscript are committed. The left-to-right build was rendered and reviewed: Figure 2 sits within its page, and its caption remains attached without footer collision. A further final build is underway after the additional Table 1C–1E cell reduction/model-row split; its final page placement is pending.
 
 ## Content/claim safeguards
 
@@ -27,6 +27,10 @@ Figure 2 has been redrawn as a left-to-right workflow with six linked stages: ma
 - Figure 2 consolidates alternative preparation, treatment and recovery routes. It is not one standardized process or a measured mass balance.
 - Figure 3 depicts candidate, non-exclusive, condition-dependent mechanisms. It does not assign quantitative contribution or prove a unique binding pathway.
 - Figure 4 is a non-scoring decision framework. High adsorption performance alone does not demonstrate low cost.
+
+## Table layout refinements following first page review
+
+The main-text Table 1 has seven components. To reduce cell density further, Table 1C is limited to study ID, endpoint class and endpoint value; detailed study-specific caveats stay in the dedicated notes. Table 1D and 1E use separate rows for model type, parameter and fitted value rather than combining different fits in a single cell. Table 1F separates recovery/reuse from water-matrix evidence, and Table 1G separates preparation burden from cost evidence.
 
 ## Still required before submission
 
