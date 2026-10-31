@@ -56,6 +56,16 @@ This repository now contains **two related but separate workstreams**. Do not co
 - `data/semester-study-inclusion-shortlist.csv` — candidate-level disposition for the 51-row register (duplicate alias, context-only/review, provisional empirical, held quantitative metrics, and cross-linked master evidence clearly separated).
 - `data/semester-evidence-readiness-audit.csv` — metric, source-access, cost and regeneration QA for 47 rows: 46 dedicated evidence records plus one SEM-038 cross-reference to existing master-corpus evidence.
 
+
+## Semester-paper final 50-reference selection freeze — 31 October 2026
+
+- The semester candidate set is now **frozen at 50 distinct DOI-defined works**. The 51st register row, SEM-041, is a duplicate alias of SEM-026 and is not counted separately.
+- Final roles: **47 empirical primary-study references**, one theory/mechanism context study (SEM-013), one review/background reference (SEM-022), and one scope-boundary near-miss (SEM-036). The latter three are not all quantitative core studies.
+- **15/50** selected candidate works are already cited with verified keys; **35/50** still require exact-DOI Zotero lookup and genuine Better BibTeX keys. See `data/semester-final-50-reference-selection.csv` and `references/semester-final-35-doi-import-queue.txt`.
+- Four contextual references currently in the manuscript sit outside this 50-candidate pool. Keeping them yields 54 distinct bibliography works; the selected-study count remains 50.
+- No further candidate discovery is needed for the semester version. Preserve the source tiers, mass-balance holds, separate target antibiotics and metric distinctions. Do not apply journal-quartile screening to this paper.
+- Decision and next steps: `docs/SEMESTER_FINAL_50_REFERENCE_SELECTION_FREEZE.md`.
+
 ## Citation readiness
 
 - `data/semester-bibtex-citation-linkage-audit.csv` — candidate-level citation-key linkage; all 21 DOI-queue records were checked by DOI and normalized title against the latest complete 173-entry My Library export, with no matches. All 19 existing manuscript keys were confirmed present. See the expanded [citation-linkage audit](docs/SEMESTER_CITATION_LINKAGE_AUDIT.md).
