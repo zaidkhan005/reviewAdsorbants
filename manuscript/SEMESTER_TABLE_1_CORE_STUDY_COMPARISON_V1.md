@@ -90,7 +90,7 @@
 | SEM-037 | 100 mg/g maximum is abstract-reported; abstract says Freundlich, indexed conclusion says Langmuir |
 | SEM-038 | TC Langmuir qmax = 662.25 mg/g; headline 1265.82 mg/g belongs to clindamycin |
 | SEM-039 | Langmuir qmax = 454.6 mg/g (conclusion rounds to 454.5) |
-| SEM-040 | No conventional qmax reported; seven-drug mean qe = 190.3 µg/g is not TC-specific |
+| SEM-040 | No conventional isotherm qmax reported |
 
 ## Table 1E. Kinetic-model outputs
 
