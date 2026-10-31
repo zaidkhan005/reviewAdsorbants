@@ -33,9 +33,13 @@ The 34 records added to the selection use current, post-merge Better BibTeX keys
 
 Filename: semester-manuscript-cited-references-49-selected-plus-4-context.bib  
 SHA-256: 1409ccc252fac34e22069e5dfbe100b5f52623d7321643c22bd74321e984de2a  
-Entries: 53. The attachment is supplied alongside this audit in the conversation.
+Entries: 53. The curated BibTeX file is now also committed at the repository root under the same filename, alongside the conversation attachment.
 
 The repository's references/semester-manuscript-cited-references.bib is explicitly marked as the legacy V1 19-entry subset, not the V2 bibliography.
+
+## Repository reproducibility update
+
+The 53-entry curated BibTeX file has been committed to the repository root as `semester-manuscript-cited-references-49-selected-plus-4-context.bib`. It is now available alongside the manuscript and should be used for citation-style rendering. The older 19-entry V1 subset remains excluded from the V2 build.
 
 ## Remaining work
 
