@@ -1,38 +1,37 @@
-# Figure rendering and visual QA record
+# Figure rendering and manuscript-page QA record
 
-**Date:** 31 October 2026
+**Date:** 31 October 2026  
 **Project:** Semester manuscript V2 — Antibiotic Adsorption Review
 
-## Result
+## Rendering route
 
-All four conceptual figure sources were rendered to compact, manuscript-proportioned vector outputs and visually inspected. Each figure is available as SVG, PDF and 240 dpi PNG, with an editable Graphviz DOT representation. The original Mermaid Markdown source files in the repository were left unchanged and remain the project's primary editable figure sources.
+The repository build workflow uses Mermaid CLI (`mmdc`) to render the four editable Mermaid source blocks embedded in `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md` into PNG images. The images are inserted into both DOCX and PDF outputs by the Pandoc build script. The standalone Mermaid source files remain editable and are retained in the manuscript directory.
 
-The Mermaid CLI was not available in the rendering environment, so Graphviz was used as a fallback renderer. The compact layouts group related concepts into panels to reduce width and preserve legibility. No scientific meaning was added by the renderer.
+## First full build and visual findings
 
-## Render dimensions
+- Build workflow: `Build semester manuscript` (GitHub Actions run 41189830446; artifact created 31 October 2026).
+- First PDF: 31 A4 pages. First Word render: 40 pages.
+- Four figure blocks were embedded and the authored captions appeared once (no duplicate automatic figure labels).
+- Main-text Table 1 was divided into seven focused components: study identity, conditions, experimental endpoints, isotherm outputs, kinetic outputs, recovery/matrix evidence, and preparation/cost evidence.
+- Page review found a placement defect in the original vertical Figure 2: its caption touched the page footer in PDF and was split onto the next page in DOCX.
 
-Dimensions below are the Graphviz SVG page dimensions in points. A point is 1/72 inch.
+## Figure 2 correction
 
-| Figure | SVG width × height | Visual QA |
-|---|---:|---|
-| Figure 1 — scope taxonomy | 452 × 492 pt | Passed — scope families, eligibility gate, endpoints, exclusions and target-specificity guardrails legible |
-| Figure 2 — process/recovery/cost boundary | 495 × 642 pt | Passed — preparation and treatment columns; recovery and whole-process cost boundary legible |
-| Figure 3 — mechanism evidence schematic | 452 × 512 pt | Passed — solution chemistry and adsorbent features converge on candidate interactions and transport |
-| Figure 4 — performance/process/recovery/cost framework | 452 × 496 pt | Passed — four evaluation dimensions remain explicit within two grouped panels; no score/rank is implied |
+Figure 2 has been redrawn as a left-to-right workflow with six linked stages: material sourcing/GO formation; surface modification/assembly; aqueous CIP/TC adsorption; recovery/regeneration; whole-process cost inventory; and functional-unit normalization. The scientific boundary is unchanged: it consolidates alternative reported routes and is not a standardized synthesis or measured mass balance.
 
-## Content/claim safeguards retained
+**Status:** The updated Mermaid source and assembled manuscript are committed. The refreshed DOCX/PDF build is in progress; final figure-placement status is pending visual review of that artifact.
+
+## Content/claim safeguards
 
 - Figure 1 remains a scope and eligibility map, not a PRISMA flow diagram.
 - Figure 2 consolidates alternative preparation, treatment and recovery routes. It is not one standardized process or a measured mass balance.
 - Figure 3 depicts candidate, non-exclusive, condition-dependent mechanisms. It does not assign quantitative contribution or prove a unique binding pathway.
 - Figure 4 is a non-scoring decision framework. High adsorption performance alone does not demonstrate low cost.
 
-## Source and output files
-
-The four Mermaid source files remain in the manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md through manuscript/SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md files.
-
-The rendered SVG/PDF/PNG and DOT files, contact sheet, proposed captions and render manifest were delivered in the separate archive review_paper_figure_exports_2026-10-31.zip. The archive is an export artifact; it has not been committed as binary files to this repository.
-
 ## Still required before submission
 
-The figures have not yet been inserted into the assembled Word/PDF manuscript. Final page-layout QA must check their actual placed size, caption numbering, in-text cross-references, pagination and consistency with the university's required format. Bibliography-style rendering and final manuscript proof also remain pending.
+1. Inspect the refreshed Figure 2 placement in the final PDF and Word outputs; confirm that caption and footer do not overlap and the caption stays with the figure.
+2. Complete page-by-page review of the complete refreshed DOCX/PDF, including all table splits, figure captions, citation placement and references.
+3. Confirm the university-required citation style. ACS Guide 2026 is only the current provisional build style.
+4. Render Supplementary Table S1 separately if the supervisor/university requires a separate supplement file.
+5. Complete language proof, authorship details, declarations, acknowledgements and submission checklist.
