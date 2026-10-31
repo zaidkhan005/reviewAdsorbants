@@ -51,3 +51,8 @@ No automatic Zotero-to-GitHub synchronisation is configured or required. Manual 
 - Downloadable parsed reference inventory audit: keep the local file `bibtex_reference_inventory_audit.csv` as a working QA artifact; it is not a substitute for the Better BibTeX export.
 - After resolving duplicate Zotero items and metadata gaps, re-export the collection and refresh claim-to-key mappings. The target journal citation style remains to be chosen; final in-text citations and bibliography must be rendered through Zotero or the selected citation processor rather than typed by hand.
 - [First processing wave — DISC-069–DISC-079](../evidence/2026-10-29-bibtex-initial-screening.md) — 11 candidates registered, 16 provisional online-source evidence rows, and PDF/SI verification tasks.
+
+
+## Semester-paper bibliography — V2 (31 October 2026)
+
+The old semester-manuscript-cited-references.bib is the 19-entry V1 snapshot only. Do not use it as the final V2 bibliography. The expanded V2 draft cites 49 active selected works plus four retained contextual sources (53 distinct references). Its consolidated 53-entry Better BibTeX file is delivered in the conversation as semester-manuscript-cited-references-49-selected-plus-4-context.bib; verified with 53 unique keys and 53 unique DOI values (SHA-256 1409ccc252fac34e22069e5dfbe100b5f52623d7321643c22bd74321e984de2a). Use the delivered attachment for bibliography import/rendering after choosing the university or journal citation style.
