@@ -47,7 +47,7 @@ def main() -> None:
     for i, match in enumerate(diagrams, 1):
         src = FIG / f'figure_{i}.mmd'
         png = FIG / f'figure_{i}.png'
-        src.write_text(match.group(1).strip() + '\n', encoding='utf-8')
+        src.write_text(match.group(3).strip() + '\n', encoding='utf-8')
         run([mmdc, '-p', str(puppeteer_config), '-i', str(src), '-o', str(png), '-t', 'neutral', '-b', 'white', '-s', '2'])
         rendered.append(png)
     def replace_diagram(match: re.Match[str], idx: int) -> str:
