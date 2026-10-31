@@ -7,6 +7,7 @@ paper relevance, or whether a journal is genuinely Q1; those require source revi
 from __future__ import annotations
 
 import csv
+import re
 import sys
 from pathlib import Path
 from urllib.parse import urlparse
@@ -122,9 +123,18 @@ def validate_corpus_screening() -> int:
             raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: Paper title is required")
         validate_year(row, "Year", path, line_no)
         link = (row.get("DOI or URL") or "").strip()
-        parsed = urlparse(link)
-        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
-            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL must be a full http(s) URL")
+        link_items = [item.strip() for item in link.split(";") if item.strip()]
+        if not link_items:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL is required")
+        for item in link_items:
+            parsed = urlparse(item)
+            is_url = parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+            is_doi = bool(re.match(r"^10\.\d{4,9}/\S+$", item, flags=re.IGNORECASE))
+            if not (is_url or is_doi):
+                raise ValueError(
+                    f"{path.relative_to(ROOT)}:{line_no}: invalid DOI/URL entry {item!r}; "
+                    "expected a bare DOI or full http(s) URL"
+                )
         # This register stores a descriptive, source-qualified audit note rather than
         # a normalized current quartile enum. Values may record multiple SJR/JCR
         # categories, historical years, discontinued coverage, or "not audited"
