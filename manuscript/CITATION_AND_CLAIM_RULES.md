@@ -12,3 +12,7 @@ Before any manuscript claim is accepted:
 8. **Check Q1 status independently.** Record ranking source, year, category, quartile and supporting URL.
 9. **Check limitations.** Record missing real-water tests, regeneration cycles, column runs, energy/cost analysis and uncertainty.
 10. **Insert citation with Zotero.** Never rely on hand-typed bibliographic citations as the final reference-management workflow.
+
+## Active semester bibliography as of 31 October 2026
+
+Use only the 49 works in `data/semester-final-49-reference-selection.csv` for the selected semester candidate set. Candidate SEM-035 is excluded at the user's request for administrative/time reasons and must not be cited in the semester manuscript. Do not confuse this with evidence ID `EV-SEM-035`, which belongs to SEM-013 and remains valid. The active 49 includes context/boundary works that must not be treated as empirical adsorption tests or put into capacity-ranking tables. Four other contextual works may remain outside the selected set; if so, the final bibliography can total 53.
