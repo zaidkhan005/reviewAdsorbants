@@ -256,3 +256,8 @@ The citation-linkage audit found six candidate studies with exact DOI-to-Better 
 ## Results and discussion draft started — 29 October 2026
 
 The first source-cautious narrative draft is now saved at [SEMESTER_RESULTS_AND_DISCUSSION_V1.md](SEMESTER_RESULTS_AND_DISCUSSION_V1.md). It turns the extracted evidence into six connected discussion subsections while preserving measured qe, fitted qmax/qm, kinetic-model qe, removal percentages and flow-through metrics as separate endpoints. Six confirmed citation keys are used; nine citations remain explicitly pending rather than guessed. The next manuscript step is to resolve the remaining citation keys for the selected studies, then draft the methods/search and introduction around the stable included-study set.
+
+
+## Identifier clarification — 31 October 2026
+
+The active semester candidate set is now 49 and candidate SEM-035 has been administratively excluded at the user's request because of incomplete Zotero metadata. Do not cite that candidate in the semester manuscript. However, the existing evidence ID `EV-SEM-035` appearing in the table above refers to SEM-013, the DFT/theoretical rGO/CIP/TC mechanism study. That evidence row remains valid as theory/mechanism context. Candidate IDs and evidence IDs are separate namespaces; do not remove or relabel EV-SEM-035.
