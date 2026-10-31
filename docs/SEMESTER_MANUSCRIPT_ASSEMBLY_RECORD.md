@@ -20,7 +20,7 @@
 
 ## Remaining production tasks
 
-1. Apply the university or journal reference style once confirmed; use the curated 53-entry BibTeX source, not the legacy 19-entry V1 file.
+1. Confirm the university or journal reference style; the current ACS Guide 2026 style is provisional. Use the curated 53-entry BibTeX source, not the legacy 19-entry V1 file.
 2. Rebuild the DOCX/PDF from this source, then render and inspect every page; the initial build revealed duplicate figure captions and some table-width issues which the corrected build must resolve.
 3. Verify the embedded figure images and authored captions, including numbering and in-text cross-references, in the corrected DOCX/PDF.
 4. Render Supplementary Table S1 separately in the required supplemental format.
