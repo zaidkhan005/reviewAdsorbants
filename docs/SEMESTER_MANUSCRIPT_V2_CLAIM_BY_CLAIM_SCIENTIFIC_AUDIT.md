@@ -117,7 +117,7 @@ The earlier-study paragraphs in Sections 3.6.1–3.6.3 have now been audited aga
 
 **Table 1 row-by-row audit:** All 15 included studies were reconciled against the existing condition-labelled extraction and readiness records. Nineteen distinct endpoint entries are now separated in Panel A; the model/recovery/matrix/cost dimensions are in Panel B. The audit retained all existing holds and added the TC-specific SEM-040 supplementary-information value (experimental qe = 200.2202 µg/g), while keeping the seven-drug mean (190.3 µg/g) as aggregate context. See `docs/TABLE_1_ROW_BY_ROW_AUDIT.md` for study-by-study decisions.
 
-**Important production limitation:** The four figure sources are still editable Mermaid markdown. They have not yet been exported as publication-ready image files or inserted into a single rendered Word/PDF manuscript. The conceptual content is scientifically qualified; final graphic legibility, numbering, captions and in-text cross-reference proof remain part of submission formatting.
+**Production status:** The four editable Mermaid figure sources have now been rendered into compact SVG, vector PDF and 240 dpi PNG exports using a Graphviz fallback; the outputs were visually inspected. Original Mermaid files remain unchanged and editable. The exports have not yet been inserted into a single Word/PDF manuscript. Final placed-size legibility, numbering, captions, in-text cross-reference proof and pagination remain part of submission formatting. See docs/FIGURE_RENDERING_VISUAL_QA.md.
 
 ## 8. Cross-study high-risk holds to preserve
 
@@ -171,7 +171,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - Reconcile or explicitly quarantine all HOLD claims listed above; do not silently fix source values.
 - Complete any remaining sentence-level source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check.
-- Render the four editable Mermaid figure sources and check figure numbering, captions and in-text cross-references in a single Word/PDF manuscript.
+- Insert the rendered figure exports into the assembled Word/PDF manuscript and check placed-size legibility, figure numbering, captions, in-text cross-references and pagination.
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
 - Do not describe the paper as a systematic review or PRISMA-compliant review unless the missing reproducible search and screening counts are reconstructed.
