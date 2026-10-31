@@ -32,10 +32,15 @@ def main() -> None:
     md = re.sub(r'(?m)^\*\*Assembled working source V2[^\n]*\n?', '', md)
     md = re.sub(r'(?s)\n\*\*Consolidated bibliography:\*\*.*?(?=\n\n## Abstract)', '\n', md)
     # Convert each Mermaid diagram into a high-resolution PNG for DOCX/PDF portability.
-    pattern = re.compile(r'```mermaid\s*\n(.*?)\n```', re.S)
+    # Match the full authored figure block (title + caption + Mermaid source) so
+    # the image caption is not duplicated by Pandoc's automatic figure label.
+    pattern = re.compile(
+        r'\\*\\*(Figure \\d+\\.[^\\n]+)\\*\\*\\s*\\n\\n\\*([^\\n]+)\\*\\s*\\n\\n```mermaid\\s*\\n(.*?)\\n```',
+        re.S
+    )
     diagrams = list(pattern.finditer(md))
     if len(diagrams) != 4:
-        raise SystemExit(f'Expected 4 Mermaid diagrams, found {len(diagrams)}')
+        raise SystemExit(f'Expected 4 complete figure blocks, found {len(diagrams)}')
     rendered = []
     puppeteer_config = OUT / 'puppeteer-config.json'
     puppeteer_config.write_text(json.dumps({'args': ['--no-sandbox', '--disable-setuid-sandbox']}), encoding='utf-8')
@@ -46,7 +51,7 @@ def main() -> None:
         run([mmdc, '-p', str(puppeteer_config), '-i', str(src), '-o', str(png), '-t', 'neutral', '-b', 'white', '-s', '2'])
         rendered.append(png)
     def replace_diagram(match: re.Match[str], idx: int) -> str:
-        return f'![Figure {idx}](figures/figure_{idx}.png)'
+        return f'![{match.group(2).strip()}](figures/figure_{idx}.png)'
     pieces, cursor = [], 0
     for i, match in enumerate(diagrams, 1):
         pieces.append(md[cursor:match.start()])
