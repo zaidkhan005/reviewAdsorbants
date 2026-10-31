@@ -165,7 +165,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 - Both are in the candidate/evidence pool and expanded 21-DOI Zotero queue, not yet in the 19-work cited manuscript. No guessed citekeys.
 
 
-- SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract-level candidate with river-water and ten-cycle claims. Its publisher corrigendum is verified as a funding-statement-only correction; full paper remains access-gated.
+- SEM-047 / EV-SEM-043: 2026 magnetic GO/NH2-UiO-66(Zr)/alginate TC composite; abstract/article-preview candidate with river-water and ten-cycle claims. Publisher corrigendum DOI10.1016/j.ijbiomac.2026.154444 says the Funding statement should be removed entirely and does not alter results/conclusions. PubMed EFR metadata mislinks to unrelated DOI10.1016/j.ijbiomac.2026.154185; publisher cross-link is authoritative. Full Methods/results tables remain access-gated.
 
 - The Zotero DOI intake queue now contains21 unique original-study DOIs. Twenty-one DOIs are now in the queue; the 31 October five-export check found no exact matches for the new candidate DOIs. Search Zotero by DOI before metadata addition. SEM-047/SEM-048 remain abstract/preview-level candidates.
 
