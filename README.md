@@ -244,3 +244,8 @@ The newly uploaded `full ++ check again(2).bib` was byte-identical (SHA-256 `bc6
 ## Latest selected-study citation linkage — 31 October 2026
 
 A new `Untitled.bib` upload (28 entries, 28 distinct DOI values) resolves 28 of the previously missing semester reference keys. The semester reference set now has **43/50 verified Better BibTeX keys**, with **7 remaining**. The selection register and citation-linkage audit have been refreshed; the DOI queue now contains only the remaining seven. See `logs/2026-10-31-untitled-bib-reconciliation.md`. 
+
+
+## Semester reference linkage update — 31 October 2026
+
+The newest `Untitled +.bib` export confirms **49 of the 50** distinct selected semester works. The only unmatched DOI is SEM-035 (`10.16796/j.cnki.1000-3770.2025.09.007`). Note: the 40-entry export has 34 unique DOIs and six duplicate DOI pairs for SEM-046–SEM-051; merge duplicate Zotero items and regenerate Better BibTeX before final manuscript citation-key lock. See `logs/2026-10-31-untitled-plus-reconciliation.md` and the updated DOI queue.
