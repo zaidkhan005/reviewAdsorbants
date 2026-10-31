@@ -1,23 +1,9 @@
-# Final citation-metadata completion item — SEM-035
+# Semester DOI intake — closed for the active 49-reference paper
 
-Latest export checked: `Untitled +++.bib`  
-SHA-256: `8a0f3639dde9666ba7dfd651fa6c93ff8d2ad09b466f2cda3409ef9785546b71`
+The user elected on 31 October 2026 to exclude SEM-035 and proceed with the remaining **49 active references**. No DOI lookup or Zotero metadata repair remains outstanding for the semester paper.
 
-The six duplicate DOI pairs previously observed for SEM-046–SEM-051 are no longer present in this export: 35 entries, 34 DOI-bearing entries, 34 unique DOI values, **zero duplicate DOI groups**.
-
-The SEM-035 title is now present, but this exported Zotero record is incomplete. It contains only:
-- Title: Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water
-- Authors: Peng, Bo; Ouyang, Feng; Liu, Liao (only 3 of 6)
-- No DOI, journal, year, volume, issue or pages
-- Exported key `zotero-item-589` (fallback placeholder; **do not use as a citation key**)
-
-Complete the existing Zotero Journal Article record (do not create another duplicate):
-- DOI: `10.16796/j.cnki.1000-3770.2025.09.007`
-- Authors: Peng, Bo; Ouyang, Feng; Liu, Liao; Wang, Songtao; Tang, Chengrui; He, Yang
-- Journal: Technology of Water Treatment
-- Year: 2025
-- Volume: 51
-- Issue: 9
-- Pages: 41–47
-
-Then export Better BibTeX again. The DOI-matching task is effectively finished for the other 49 studies; only SEM-035 metadata completion and a proper generated key remain. No PDF download is required.
+- Active register: `data/semester-final-49-reference-selection.csv`
+- Decision: `docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md`
+- SEM-035 remains archived but is not cited or included in the semester bibliography.
+- The previous 50-row register remains as an audit trail with SEM-035 marked excluded.
+- The evidence ID `EV-SEM-035` is separate and belongs to SEM-013; do not delete or confuse it.
