@@ -177,6 +177,8 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 
 - **SEM-034 / EV-SEM-027:** the 31 October ESI audit confirmed the optimum point (3mg,30s,pH7,0.2ppm,25°C) and exposed main-text/ESI mismatches in pH and isotherm concentration ranges. TC removal is reported as94.1/93.91/93.94%; the derived qe is1.252–1.255mg/g against a1.333mg/g feed ceiling, close to PSO fitted qe1.2681mg/g. q_m remains separately model-fitted at60.24/62.50/64.10mg/g for30/40/50°C. Waste dry-cell graphite is an input to GO, but Aqua Regia, Hummers reagents and Co/Fe salts remain in the process; no real-water or normalized cost evidence. See [SEM-034 primary and ESI audit](logs/2026-10-31-sem034-main-and-esi-source-audit.md).
 
+- **SEM-006 / EV-SEM-008:** primary main-text audit completed 31 October 2026. DDMGO single-solute kinetics at C0=50mg/L,m/V=.09g/L,pH3,30°C yield PSO-fitted qe=294.12mg/g (TC) and111.73mg/g (CIP), both below the555.6mg/g feed ceiling; not measured qe/qmax. TC pH optimum≈3 vs CIP≈8. In binary tests, TC q_b/q_s falls to0.39–0.90 with CIP, while CIP remains near1.00 with TC. Four0.01M NaOH cycles keep removal above78%, but no TC-specific capacity retention. Freundlich fits better than Langmuir; SI Tables S1–S3 remain unavailable. No real-water or cost/energy inventory. See [SEM-006 source audit](logs/2026-10-31-sem006-ddmgo-main-text-source-audit.md).
+
 ## Core study comparison table
 
 - `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md` — 15-study comparison of target/material, operating context, observed endpoint, fitted parameter, recovery and evidence caveat. The SEM-038 N-rGO row is explicitly cross-referenced to master records EV-B10-004–EV-B10-009, not duplicated.
