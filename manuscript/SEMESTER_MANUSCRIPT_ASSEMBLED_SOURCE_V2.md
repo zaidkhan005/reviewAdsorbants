@@ -300,6 +300,8 @@ Final bibliography rendering should follow the required university or journal st
 | Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | Antibiotic screen and reuse |
 | Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte mixture |
 
+\newpage
+
 ## Table 1B. Conditions for the 19 experimental or test endpoints
 
 | Study ID | Initial concentration / feed | Dose | pH | Temperature | Contact / test time |
