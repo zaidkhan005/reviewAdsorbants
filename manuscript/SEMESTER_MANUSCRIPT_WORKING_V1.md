@@ -120,7 +120,7 @@ Low-cost potential is assessed from the preparation and treatment process rather
 
 ## 3. Results and discussion
 
-The 15 studies with the most condition-labelled endpoints in the current draft are summarized in [Working Table 1](SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md). Table 1 is split into (A) experimental/source-reported endpoints and (B) fitted models, recovery, matrix validation and preparation/cost evidence; separate experiments are shown in separate rows and conditions in separate columns. The broader 49-work coverage, including source tiers and permitted evidence uses, is provided in [Supplementary Table S1](SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md). Table 1 is a condition-labelled subset, not a ranking of all selected references.
+The 15 studies with the most condition-labelled endpoints in the current draft are summarized in [Working Table 1](SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md). Table 1 is split into five focused tables: (1A) study identity/material, (1B) endpoint-specific conditions, (1C) experimental endpoints, (1D) fitted-model outputs, and (1E) recovery/matrix/preparation-cost evidence. Separate experiments occupy separate rows. The broader 49-work coverage, including source tiers and permitted evidence uses, is provided in [Supplementary Table S1](SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md). Table 1 is a condition-labelled subset, not a ranking of all selected references.
 
 ## 3.1. Reported adsorption performance is condition-dependent, not a universal capacity leaderboard
 
