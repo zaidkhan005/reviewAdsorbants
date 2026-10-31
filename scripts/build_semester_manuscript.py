@@ -35,7 +35,7 @@ def main() -> None:
     # Match the full authored figure block (title + caption + Mermaid source) so
     # the image caption is not duplicated by Pandoc's automatic figure label.
     pattern = re.compile(
-        r'\\*\\*(Figure \\d+\\.[^\\n]+)\\*\\*\\s*\\n\\n\\*([^\\n]+)\\*\\s*\\n\\n```mermaid\\s*\\n(.*?)\\n```',
+        r'\*\*(Figure \d+\.[^\n]+)\*\*\s*\n\n\*([^\n]+)\*\s*\n\n```mermaid\s*\n(.*?)\n```',
         re.S
     )
     diagrams = list(pattern.finditer(md))
