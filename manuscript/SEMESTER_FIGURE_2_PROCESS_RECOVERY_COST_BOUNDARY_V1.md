@@ -4,46 +4,26 @@
 
 ```mermaid
 flowchart TB
-    A["Graphenic feedstock and precursor"] --> B["GO formation or procurement"]
-    B --> B1["Commercial GO / rGO"]
-    B --> B2["Graphite oxidation<br/>(Hummers or modified-Hummers routes)"]
-    B2 --> C["Washing, neutralization,<br/>separation and drying"]
-
-    B1 --> D["Surface modification /<br/>composite assembly"]
-    C --> D
-    D --> D1["Reduction or functionalization<br/>(e.g. sulfonation, N-doping)"]
-    D --> D2["Magnetic phase addition<br/>(e.g. Fe3O4)"]
-    D --> D3["Polymer/cellulose immobilization<br/>(fibers, beads, aerogels, hydrogels)"]
-    D --> D4["Selected metal-oxide or<br/>coordination-framework composites"]
-
-    D1 --> E["Characterized adsorbent"]
-    D2 --> E
-    D3 --> E
-    D4 --> E
-
-    E --> F["Aqueous treatment feed<br/>CIP and/or TC"]
-    F --> G["Adsorption operation"]
-    G --> H["Loaded adsorbent + treated water"]
-    H --> I["Solid–liquid separation"]
-    I --> I1["External magnet<br/>(magnetic composites)"]
-    I --> I2["Filtration / centrifugation<br/>(dispersed powders)"]
-    I --> I3["Physical recovery of<br/>fibers, beads or monoliths"]
-
-    I1 --> J["Regeneration / desorption"]
-    I2 --> J
-    I3 --> J
-    J --> J1["Reuse in another cycle"]
-    J --> J2["Spent adsorbent /<br/>unrecoverable material"]
-    J --> J3["Concentrated regenerant<br/>requiring recovery or treatment"]
-
-    K["Whole-process cost boundary"] --- B
-    K --- C
-    K --- D
-    K --- G
-    K --- I
-    K --- J
-    K --> L["Report: yield, reagents,<br/>water, energy, solvent use,<br/>adsorbent loss and cycle decline"]
-    L --> M["Normalize to a functional unit:<br/>cost per m³ treated and/or<br/>cost per mass CIP/TC removed"]
+  subgraph PREP["1. Material preparation"]
+    direction LR
+    A["Graphenic feedstock<br/>or purchased GO/rGO"] --> B["GO formation / procurement<br/>oxidation, washing,<br/>neutralization and drying"] --> C["Surface modification / composite assembly<br/>functionalization or reduction; Fe3O4 addition;<br/>polymer/cellulose immobilization; selected metal/framework composites"]
+  end
+  subgraph TREAT["2. Aqueous treatment and separation"]
+    direction LR
+    D["Characterized adsorbent<br/>+ CIP and/or TC feed"] --> E["Adsorption operation"] --> F["Loaded adsorbent<br/>+ treated water"] --> G["Solid-liquid separation<br/>magnet; filtration/centrifugation;<br/>or physical recovery of immobilized forms"]
+  end
+  subgraph REC["3. Regeneration and material fate"]
+    direction LR
+    H["Regeneration / desorption"] --> I["Reuse in another cycle"]
+    H --> J["Spent adsorbent /<br/>unrecoverable material"]
+    H --> K["Concentrated regenerant<br/>requiring recovery or treatment"]
+  end
+  subgraph COST["4. Whole-process cost boundary"]
+    direction LR
+    L["Inventory across preparation, treatment and recovery:<br/>yield, reagents, water, energy, solvent use,<br/>adsorbent loss and cycle decline"] --> M["Normalize to a functional unit:<br/>cost per m3 treated and/or<br/>cost per mass CIP/TC removed"]
+  end
+  C --> D
+  G --> H
 ```
 
 **Evidence anchors:** Graphite-derived GO and battery-carbon routes are reported by Yasmin et al. (2024) `\cite{yasminEfficientRemovalCiprofloxacin2024}`; sulfonated GO and DMF/HCl regeneration by Shaha et al. (2025) `\cite{shahaExploringAdsorptionEfficiency2025}`; magnetic GO/cellulose and magnetic recovery by Dang et al. (2025) and Dipannita et al. (2025) `\cite{dangIntegrationMagneticGraphene2025,dipannitaCarboxymethylcelluloseFunctionalizedMagnetic2025}`; GO/cellulose aerogel and alkaline regeneration by Yao et al. (2017) `\cite{yao3DAssemblyBased2017}`; hydrogel functionalization and methanol regeneration by Li et al. (2025) `\cite{liThreedimensionalGrapheneOxidebased2025}`; GO/polymer/alginate bead synthesis and its cost-basis discrepancy by Hossain et al. (2026) `\cite{hossainRemovalCiprofloxacinAqueous2026}`; and magnetic GO/Co–Fe recovery by Hossain et al. (2024) `\cite{hossainUltrafastSimultaneousRemoval2024}`.
