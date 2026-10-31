@@ -234,3 +234,8 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 
 - SEM-050 is the strongest current cost-evidence candidate, but its USD 2.5–6.8/m² estimate is for active-layer material only; its 0.02–0.08 kg CO2-eq/m³ figure is a throughput-normalized footprint, not financial treatment cost. Full module and life-cycle boundaries remain incomplete.
 
+
+
+## Latest Zotero export recheck — 31 October 2026
+
+The newly uploaded `full ++ check again(2).bib` was byte-identical (SHA-256 `bc65b1a50bfda09824e8ae8ebbdb4c64270b16108d7ad79abd7675358749ac20`) to the previous 173-entry export. The final semester 50 cross-match remains **15 exact DOI/key matches and 35 not found in the export**; all 19 existing manuscript citation keys are present. No citations or keys were invented. See `logs/2026-10-31-latest-bib-export-reconciliation.md` and `docs/SEMESTER_CITATION_LINKAGE_AUDIT.md`. The remaining 35 must be checked by exact DOI inside Zotero; if present, resolve export scope; if absent, add metadata and regenerate Better BibTeX.
