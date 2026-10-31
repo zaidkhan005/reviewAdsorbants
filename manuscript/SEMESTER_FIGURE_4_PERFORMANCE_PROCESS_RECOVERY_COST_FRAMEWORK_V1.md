@@ -41,7 +41,7 @@ flowchart TB
     F --> G["Comparable cost boundary<br/>and functional unit"]
     G --> G1["Cost per m³ treated"]
     G --> G2["Cost per mass CIP/TC removed"]
-    G --> H["Qualified conclusion:<br/>potential demonstrated,<br/>not demonstrated, or<br/>insufficient evidence"]
+    G --> H["Qualified conclusion on low-cost potential:<br/>supported, not supported,<br/>or insufficient evidence"]
 ```
 
 **Evidence anchors:** Endpoint conflicts and fitted/observed separation are visible in the battery-derived GO/CIP, sulfonated-GO/CIP and GO/alginate-bead studies `\cite{yasminEfficientRemovalCiprofloxacin2024,shahaExploringAdsorptionEfficiency2025,hossainRemovalCiprofloxacinAqueous2026}`. Magnetic recovery and cycle decline are reported in magnetic GO/cellulose and GO/Co–Fe systems `\cite{dangIntegrationMagneticGraphene2025,dipannitaCarboxymethylcelluloseFunctionalizedMagnetic2025,hossainUltrafastSimultaneousRemoval2024}`. Matrix, trace-mixture and flow-through evidence varies across N-rGO, graphene/GAC benchmarking and alginate/GO PRB work `\cite{zhangAdsorptionCharacteristicsNrGO2022,zhuCiprofloxacinAdsorptionGraphene2015a,zhaoSodiumAlginateGraphene2018}`.
