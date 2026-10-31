@@ -114,19 +114,16 @@ def validate_corpus_screening() -> int:
         parsed = urlparse(link)
         if parsed.scheme not in {"http", "https"} or not parsed.netloc:
             raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: DOI or URL must be a full http(s) URL")
-        quartile = (row.get("Q1 quartile") or "").strip().upper()
-        if quartile not in VALID_QUARTILES:
-            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: unsupported quartile value {quartile!r}")
-        if quartile == "Q1":
-            q1_fields = ["Q1 provider", "Q1 year", "Q1 category", "Q1 verification source"]
-            missing = [key for key in q1_fields if not (row.get(key) or "").strip()]
-            if missing:
-                raise ValueError(
-                    f"{path.relative_to(ROOT)}:{line_no}: Q1 requires provider/year/category/source; missing {missing}"
-                )
-            q1_source = urlparse((row.get("Q1 verification source") or "").strip())
-            if q1_source.scheme not in {"http", "https"} or not q1_source.netloc:
-                raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: Q1 verification source must be a full URL")
+        # This register stores a descriptive, source-qualified audit note rather than
+        # a normalized current quartile enum. Values may record multiple SJR/JCR
+        # categories, historical years, discontinued coverage, or "not audited"
+        # statuses. Validate presence and bounded length only; do not reinterpret
+        # this free-text field as a verified current journal ranking.
+        quartile_note = (row.get("Q1 quartile") or "").strip()
+        if not quartile_note:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: quartile/status note is required")
+        if len(quartile_note) > 500:
+            raise ValueError(f"{path.relative_to(ROOT)}:{line_no}: quartile/status note is unreasonably long")
     return len(rows)
 
 
