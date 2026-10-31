@@ -260,3 +260,8 @@ All **50/50** distinct selected semester works now have verified Better BibTeX k
 
 
 Correction to the 50/50 key-closure note: inspection of `Untitled +++.bib` shows 34 unique DOI-bearing candidate records and zero duplicate DOI groups, so the six duplicate DOI pairs have been resolved in this export. SEM-035 is present by title, but its record is incomplete (no DOI/journal/year/volume/issue/pages; only three authors), and `zotero-item-589` is a fallback placeholder, not an approved citation key. Current status: **49/50 properly DOI/key-verified; SEM-035 metadata completion and real Better BibTeX key remain**. See latest export inspection log and updated DOI queue.
+
+
+## Authoritative semester decision — 31 October 2026
+
+The user elected to finalize the semester paper with **49 active reference works**, excluding candidate SEM-035 for administrative/time reasons because its Zotero record remained incomplete. This is not a scientific rejection. The authoritative active set is `data/semester-final-49-reference-selection.csv`, frozen in `docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md`. The former 50-item freeze is superseded; its file remains as historical audit. Active composition: 46 empirical primary studies + SEM-013 theory context + SEM-022 review context + SEM-036 boundary context. Four contextual references outside this candidate set may remain, so total bibliography can be 53. Do not confuse excluded candidate SEM-035 with evidence ID EV-SEM-035, which belongs to SEM-013 and remains active. Next project phase: integrate citations across the manuscript using the active 49 keys and perform final bibliography reconciliation. No more DOI intake is required for the semester version.
