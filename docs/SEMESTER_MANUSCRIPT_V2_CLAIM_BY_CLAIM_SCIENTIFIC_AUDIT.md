@@ -189,3 +189,6 @@ The final paper should continue to use *low-cost potential* as a question being 
 - Citation/bibliography linkage audit: `docs/FINAL_SEMESTER_MANUSCRIPT_V2_BIBLIOGRAPHY_AUDIT.md`
 
 **Bottom line:** V2's main scientific position is sound as a cautious narrative synthesis. It is not yet submission-ready, and the flagged numerical holds must remain visible. The latest changes improve internal consistency and traceability without expanding or changing the selected 49-reference corpus.
+
+
+**Final table readability update:** The previous Table 1 process table cells have been split into distinct recovery, matrix, preparation and cost tables. Experimental endpoints are now represented as one metric/value per row (26 rows), linked to 19 test-condition rows and 15 study identity rows. Fit outputs retain separate model, parameter and value columns. The row-by-row scientific holds remain in the accompanying notes and audit; the restructuring did not change study selection or any reported numerical source value.
