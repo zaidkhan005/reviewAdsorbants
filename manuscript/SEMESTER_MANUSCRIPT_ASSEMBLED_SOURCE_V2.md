@@ -272,6 +272,50 @@ Final bibliography rendering should follow the required university or journal st
 
 
 
+## Table 1A. Study identity, target and material family
+
+| Study | Target | Adsorbent | Study context |
+|---|---|---|---|
+| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm and time-course tests |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal and kinetic tests |
+| Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series |
+| Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study |
+| Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum |
+| Zhu et al. (2015), SEM-020 | CIP | Graphene; GAC comparator | Abstract-level batch and matrix tests |
+| Hossain et al. (2026), SEM-029 | CIP | GO/PVA/calcium-alginate beads | Single-solute concentration test |
+| Shaha et al. (2026), SEM-031 | CIP-containing FQ mixtures | SGO | Binary / ternary / quaternary mixtures |
+| Li et al. (2025), SEM-032 | CIP | PGOT@GEL hydrogel | RSM validation |
+| Ding et al. (2026), SEM-033 | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; abstract/preview |
+| Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Simultaneous four-tetracycline test |
+| Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch plus groundwater PRB; abstract/indexed excerpts |
+| Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Single-analyte kinetic test |
+| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen and reuse tests |
+| Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte trace mixture |
+
+## Table 1B. Condition sets for the 19 experimental/source-reported endpoints
+
+| Study ID | Initial concentration / mixture | Dose | pH | Temperature | Contact / equilibrium time |
+|---|---|---|---|---|---|
+| SEM-004 | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
+| SEM-004 | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
+| SEM-004 | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
+| SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
+| SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
+| SEM-016 | 50 µmol/L (selected point) | 0.20 g/L | 4 | 25°C | 240 min protocol |
+| SEM-017 | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
+| SEM-018 | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
+| SEM-020 | NR | NR | pH effect tested; range NR | NR | Equilibrium within ≈3 min |
+| SEM-029 | 40 mg/L | 10 g/L | NR at this endpoint | 298 K | 150 min |
+| SEM-031 | Equimolar; high-concentration range | 0.20 g/L | 5 | 25°C | 240 min |
+| SEM-032 | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | About 120 min; exact validation time NR |
+| SEM-033 | 30 mg/L | 1.0 g/L | 5 for TCH; 7 for OFL | NR | NR |
+| SEM-034 | 0.2 mg/L TC | 0.15 g/L | 7 | 25°C | 30 s |
+| SEM-037 | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h to equilibrium |
+| SEM-038 | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1°C | NR |
+| SEM-039 | Figure-specific C0 NR | Figure-specific dose NR | NR | NR | NR |
+| SEM-039 | Same screen/reuse protocol; endpoint feed basis NR | NR | NR | NR | After 10 cycles |
+| SEM-040 | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
+
 ## Table 1C. Experimental/source-reported endpoints
 
 | Study ID | Endpoint class | Endpoint value |
