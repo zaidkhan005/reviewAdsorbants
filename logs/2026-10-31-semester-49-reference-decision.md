@@ -1,0 +1,3 @@
+# User decision — proceed with 49 references
+
+On 31 October 2026 the user elected to omit candidate SEM-035 from the active semester bibliography and use the remaining 49 selected works. This is an administrative/time-management exclusion because the Zotero record was incomplete, not a scientific rejection. Candidate SEM-035 remains archived. Do not confuse candidate SEM-035 with evidence ID EV-SEM-035, which belongs to SEM-013 and remains valid. The active composition is 46 empirical primary studies plus three context/boundary works. Four out-of-pool contextual references may remain, giving a possible final bibliography of 53. GitHub's active authority is data/semester-final-49-reference-selection.csv and docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md.
