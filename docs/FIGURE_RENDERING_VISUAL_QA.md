@@ -32,6 +32,10 @@ Figure 2 has been redrawn as a compact left-to-right workflow: material sourcing
 
 The main-text Table 1 has seven components. To reduce cell density further, Table 1C is limited to study ID, endpoint class and endpoint value; detailed study-specific caveats stay in the dedicated notes. Table 1D and 1E use separate rows for model type, parameter and fitted value rather than combining different fits in a single cell. Table 1F separates recovery/reuse from water-matrix evidence, and Table 1G separates preparation burden from cost evidence.
 
+## Latest full-page manuscript review
+
+The latest nine-table rendering (before the final page-break patch) produced a 30-page PDF and a 39-page DOCX when rendered through LibreOffice. The left-to-right Figure 2 fits within its page and its caption stays with the image. Table 1F and 1G are legible with the added columns, although some qualifications wrap over several lines. Two pagination issues were found: Table 1A began with two rows at the bottom of the preceding page, and the Table 1D heading was left at the foot of the prior page. Cross-format page breaks (LaTeX `\\newpage` for PDF and raw OpenXML page breaks for DOCX) have now been committed before both headings. The latest build must confirm that the breaks work in both outputs.
+
 ## Still required before submission
 
 1. Inspect the refreshed Figure 2 placement in the final PDF and Word outputs; confirm that caption and footer do not overlap and the caption stays with the figure.
