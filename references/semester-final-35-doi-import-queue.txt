@@ -1,24 +1,23 @@
-# Semester final-50 DOI intake — completed
+# Final citation-metadata completion item — SEM-035
 
-Latest export checked: `Untitled ++.bib`  
-SHA-256: `0eef0bb6f613a8511093b466d37ece07260bdc97dbd160dbeaea1c3c6b3816a8`
+Latest export checked: `Untitled +++.bib`  
+SHA-256: `8a0f3639dde9666ba7dfd651fa6c93ff8d2ad09b466f2cda3409ef9785546b71`
 
-**DOI matching is complete: 50/50 distinct selected semester works now have a verified Better BibTeX key across the supplied exports. No further DOI lookup/import is outstanding.**
+The six duplicate DOI pairs previously observed for SEM-046–SEM-051 are no longer present in this export: 35 entries, 34 DOI-bearing entries, 34 unique DOI values, **zero duplicate DOI groups**.
 
-SEM-035 is now present with the Zotero-generated key:
+The SEM-035 title is now present, but this exported Zotero record is incomplete. It contains only:
+- Title: Adsorption Characteristics of Modified Graphene Oxide on Tetracycline Antibiotics in Water
+- Authors: Peng, Bo; Ouyang, Feng; Liu, Liao (only 3 of 6)
+- No DOI, journal, year, volume, issue or pages
+- Exported key `zotero-item-589` (fallback placeholder; **do not use as a citation key**)
+
+Complete the existing Zotero Journal Article record (do not create another duplicate):
 - DOI: `10.16796/j.cnki.1000-3770.2025.09.007`
-- Key: `AdsorptionCharacteristicsModified2025`
+- Authors: Peng, Bo; Ouyang, Feng; Liu, Liao; Wang, Songtao; Tang, Chengrui; He, Yang
+- Journal: Technology of Water Treatment
+- Year: 2025
+- Volume: 51
+- Issue: 9
+- Pages: 41–47
 
-## Remaining data-cleanup item (not DOI intake)
-
-The latest `Untitled ++.bib` has 41 entries, 35 distinct DOI values, and six duplicate DOI pairs:
-- SEM-046 — `tekletegieOptimizationCiprofloxacinAdsorption2026a/b`
-- SEM-047 — `aminMultifunctionalMagneticGraphene2026a/b`
-- SEM-048 — `pandaInterfaceengineeredReducedGraphene2026a/b`
-- SEM-049 — `chenEffectiveRemovalTetracycline2022a/b`
-- SEM-050 — `lemaouiSurfaceAssembledGraphene2026a/b`
-- SEM-051 — `saheedCitricAcidCrosslinked2026a/b`
-
-Merge these duplicate Zotero records using Duplicate Items, preserving valid PDF attachments (especially for SEM-049 and SEM-050). Export Better BibTeX again after merging to establish the final surviving keys.
-
-Do not request or download any further PDFs for this DOI-intake stage.
+Then export Better BibTeX again. The DOI-matching task is effectively finished for the other 49 studies; only SEM-035 metadata completion and a proper generated key remain. No PDF download is required.
