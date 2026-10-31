@@ -257,3 +257,6 @@ SEM-035 DOI resolution note (31 Oct 2026): Zotero Add by Identifier returned Loo
 ## Final semester DOI intake closure — 31 October 2026
 
 All **50/50** distinct selected semester works now have verified Better BibTeX keys across the supplied exports. SEM-035 was added in `Untitled ++.bib` with key `AdsorptionCharacteristicsModified2025`. DOI lookup/import is complete; no further DOI searches or PDF downloads are required. The latest 41-entry export still has six duplicate DOI pairs for SEM-046–SEM-051, which should be merged in Zotero before final citation-key lock. The old DOI queue is now a cleanup/completion note. See the current DOI audit and `logs/2026-10-31-final-50-citation-linkage.md`.
+
+
+Correction to the 50/50 key-closure note: inspection of `Untitled +++.bib` shows 34 unique DOI-bearing candidate records and zero duplicate DOI groups, so the six duplicate DOI pairs have been resolved in this export. SEM-035 is present by title, but its record is incomplete (no DOI/journal/year/volume/issue/pages; only three authors), and `zotero-item-589` is a fallback placeholder, not an approved citation key. Current status: **49/50 properly DOI/key-verified; SEM-035 metadata completion and real Better BibTeX key remain**. See latest export inspection log and updated DOI queue.
