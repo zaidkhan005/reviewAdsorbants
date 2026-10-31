@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **45 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **46 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -104,7 +104,20 @@ The earlier-study paragraphs in Sections 3.6.1–3.6.3 have now been audited aga
 
 **Cost wording correction:** The manuscript no longer implies that no per-gram monetary estimate exists. It distinguishes the SEM-029 nominal bead price, SEM-050 active-layer USD/m² estimate, and SEM-051 author-reported USD/g-TC estimate. The defensible conclusion is that no independently reproducible *full-system* cost per m³ or per gram removed is established.
 
-## 7. Cross-study high-risk holds to preserve
+## 7. Conceptual figures and evidence tables: CLM-46
+
+| Artifact | Verdict | Scientific/visual interpretation |
+|---|---|---|
+| Figure 1 — scope taxonomy | **SUPPORTED** | Included material families, target-specificity rules and exclusions match §2.1. It correctly keeps standalone clays, polymers, CNTs, biochar and activated carbon outside the core material scope; reviews/context sources do not become primary adsorption evidence. |
+| Figure 2 — preparation-to-recovery boundary | **SUPPORTED AS A CONCEPTUAL BOUNDARY** | The figure consolidates alternative routes and identifies cost-bearing inputs, separation, regeneration and spent-stream management. Its caption correctly says this is not one standardized synthesis/treatment protocol or a measured mass balance. |
+| Figure 3 — mechanism schematic | **SUPPORTED AS A CANDIDATE-MECHANISM MAP** | The figure caption explicitly says candidate interactions are not universal or necessarily simultaneous. π–π, hydrogen bonding, electrostatic effects, metal/cation-mediated effects and pore/transport are represented as plausible pathways, not quantified force shares. This agrees with the mechanism evidence matrix. |
+| Figure 4 — low-cost evidence framework | **SUPPORTED AS A NON-SCORING FRAMEWORK** | It requires performance, preparation, recovery and matrix validation before a cost judgement and does not assign unsupported scores. Its final node was refined to “low-cost potential: supported, not supported, or insufficient evidence” to avoid implying that adsorption performance alone demonstrates low cost. |
+| Table 1 | **SUPPORTED AS A 15-STUDY CONDITION-LABELLED SUBSET** | Rows preserve condition vectors, observed vs fitted vs derived metrics, matrix type and source caveats. It is explicitly not a universal capacity ranking and is not the complete 49-study coverage list. |
+| Supplementary Table S1 | **UPDATED, 49 ROWS RETAINED** | The selected 49 remain unchanged. Recent updates include the RSM/water-matrix study, GO/LDH, early GO models, the GO-SA accepted-manuscript values, chitosan/MgO and SEM-045–051 caveats. S1 is a source-tier/allowed-use map, not a PRISMA flow table. |
+
+**Important production limitation:** The four figure sources are still editable Mermaid markdown. They have not yet been exported as publication-ready image files or inserted into a single rendered Word/PDF manuscript. The conceptual content is scientifically qualified; final graphic legibility, numbering, captions and in-text cross-reference proof remain part of submission formatting.
+
+## 8. Cross-study high-risk holds to preserve
 
 These are not all failures of the manuscript. They are the source discrepancies the manuscript must not silently repair or turn into headline performance claims.
 
@@ -116,7 +129,7 @@ These are not all failures of the manuscript. They are the source discrepancies 
 6. **SEM-029 (CLM-15):** the source's bead-price/cost estimate assumes a dose100-fold below a key experimental condition. The new first-loading ratio is a transparent arithmetic check, not a substitute for a real TEA.
 7. **SEM-015, SEM-045, SEM-049 and SEM-051 (CLM-45, 28, 32, 34):** fitted capacities, source caption/table conflicts, or author cost scenarios must not be relabelled as experimentally observed uptake or validated process economics.
 
-## 8. Mechanism audit
+## 9. Mechanism audit
 
 The manuscript's general mechanism narrative is appropriate when kept at the stated evidence strength:
 
@@ -128,7 +141,7 @@ The manuscript's general mechanism narrative is appropriate when kept at the sta
 
 The SEM-032 pH/surface-charge explanation remains graded M1: a relevant pH response is supported, but the paper's simplified CIP charge assignment around pH7 should not be repeated as established speciation or dominant attraction. The mechanism-evidence matrix remains authoritative for source-by-source grades.
 
-## 9. Cost and feasibility audit
+## 10. Cost and feasibility audit
 
 The manuscript's affordability conclusion is properly conservative. Three cost-related cases need distinct treatment:
 
@@ -138,29 +151,29 @@ The manuscript's affordability conclusion is properly conservative. Three cost-r
 
 The final paper should continue to use *low-cost potential* as a question being assessed, not as a demonstrated conclusion.
 
-## 10. Work completed in this audit pass
+## 11. Work completed in this audit pass
 
 1. Updated and corrected source-sensitive passages in the unified manuscript, including the SEM-026 accepted-manuscript table values and the SEM-051 per-gram author cost estimate:
    - added a transparent first-loading material-purchase ratio and its strict limitations for SEM-029;
    - added feed-ceiling and Methods/Figure caption conflicts for SEM-045;
    - added the unresolved pH6.6 provenance caveat for SEM-048;
    - clarified the tested-feed versus illustrative-cost scenario and absent real-water/flow validation for SEM-051.
-2. Added claim records CLM-28 through CLM-45, extending the ledger across the 49-reference synthesis, mechanisms, feasibility, costs and the ultrasound/RSM/GO-LDH claims.
+2. Added claim records CLM-28 through CLM-46, extending the ledger across the 49-reference synthesis, mechanisms, feasibility, costs, ultrasound/RSM/GO-LDH claims and conceptual figures/tables.
 3. Updated S1 rows for SEM-012, SEM-015, SEM-024, SEM-026 and SEM-044, as well as SEM-045–SEM-051, so the source limits agree with the main manuscript and claim ledger.
-4. Rewrote the cost paragraph to acknowledge SEM-051's reported USD1.95/g-TC estimate and distinguish it from validated cost evidence.
-5. Left the active 49-reference selection unchanged. No screening, selection, Zotero merge or DOI-intake decisions were reopened.
+4. Rewrote the cost paragraph to acknowledge SEM-051's reported USD1.95/g-TC estimate and distinguish it from validated cost evidence.\n5. Added a conceptual figure/table audit group (CLM-46) and refined Figure 4's low-cost decision wording.
+6. Left the active 49-reference selection unchanged. No screening, selection, Zotero merge or DOI-intake decisions were reopened.
 
-## 11. Remaining work before submission
+## 12. Remaining work before submission
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - Reconcile or explicitly quarantine all HOLD claims listed above; do not silently fix source values.
-- Complete any remaining sentence-level and table-row source-pin audit beyond the 45 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger.
+- Complete any remaining sentence-level and table-row source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger.
 - Render the four editable Mermaid figure sources and check figure numbering, captions and in-text cross-references in a single Word/PDF manuscript.
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
 - Do not describe the paper as a systematic review or PRISMA-compliant review unless the missing reproducible search and screening counts are reconstructed.
 
-## 12. Source-of-truth project files
+## 13. Source-of-truth project files
 
 - Unified working manuscript V2: `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md`
 - Main-text condition-labelled Table 1: `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md`
