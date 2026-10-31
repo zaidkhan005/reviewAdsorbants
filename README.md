@@ -173,6 +173,8 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 
 - A 31 October broad-corpus cross-check found no additional unregistered empirical graphene/CIP/TC study; three existing primary overlaps are already mapped to SEM-038, SEM-016 and SEM-032. Review-only matches were not counted as primary studies.
 
+- **SEM-039 / EV-SEM-015:** 2017 CNF/GO aerogel TC adsorption source QA completed 31 October 2026. Figure7 TC removal is82.1%, but the caption does not give a specific C0/pH/dose; keep it out of condition-matched ranking. PSO fitted qe84.8mg/g and Langmuir fitted qm454.6mg/g (454.5mg/g in conclusion) are separate model outputs. TC removal after ten cycles is78.9% vs82.1% initially. Preparation uses1000W stated-output ultrasound and48h freeze-drying; no normalized cost/LCA or real-water test is reported. See [SEM-039 source audit](logs/2026-10-31-sem039-cnfg-aerogel-source-audit.md).
+
 ## Core study comparison table
 
 - `manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md` — 15-study comparison of target/material, operating context, observed endpoint, fitted parameter, recovery and evidence caveat. The SEM-038 N-rGO row is explicitly cross-referenced to master records EV-B10-004–EV-B10-009, not duplicated.
