@@ -1,70 +1,83 @@
+# Table 1. Condition-labelled comparison of selected target-material studies
+
+**Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 26 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
+
+**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, water-matrix evidence, preparation burden and cost evidence. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
+
 ## Table 1A. Study identity, target and material family
 
-| Study | Target | Adsorbent | Study context |
+| Study | Target / system | Adsorbent | Study context |
 |---|---|---|---|
-| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute isotherm and time-course tests |
-| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute optimum removal and kinetic tests |
-| Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute concentration series |
-| Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute dose study |
-| Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute optimum |
-| Zhu et al. (2015), SEM-020 | CIP | Graphene; GAC comparator | Abstract-level batch and matrix tests |
-| Hossain et al. (2026), SEM-029 | CIP | GO/PVA/calcium-alginate beads | Single-solute concentration test |
-| Shaha et al. (2026), SEM-031 | CIP-containing FQ mixtures | SGO | Binary / ternary / quaternary mixtures |
+| Zhu et al. (2018), SEM-004 | TC | GO/calcium-alginate fibers | Single-solute batch |
+| Yasmin et al. (2024), SEM-010 | CIP | Zn–C battery-derived GO | Single-solute batch |
+| Shaha et al. (2025), SEM-016 | CIP | Sulfonated GO (SGO) | Single-solute batch |
+| Dang et al. (2025), SEM-017 | TC | Magnetic GO/fibrillated-cellulose | Single-solute batch |
+| Dipannita et al. (2025), SEM-018 | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute batch |
+| Zhu et al. (2015), SEM-020 | CIP | Graphene; GAC comparator | Batch and matrix tests; abstract-level |
+| Hossain et al. (2026), SEM-029 | CIP | GO/PVA/calcium-alginate beads | Single-solute batch |
+| Shaha et al. (2026), SEM-031 | CIP-containing FQ mixtures | SGO | Binary/ternary/quaternary mixtures |
 | Li et al. (2025), SEM-032 | CIP | PGOT@GEL hydrogel | RSM validation |
-| Ding et al. (2026), SEM-033 | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; abstract/preview |
-| Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Simultaneous four-tetracycline test |
-| Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch plus groundwater PRB; abstract/indexed excerpts |
-| Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Single-analyte kinetic test |
-| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | 21-antibiotic screen and reuse tests |
-| Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte trace mixture |
+| Ding et al. (2026), SEM-033 | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; preview-level |
+| Hossain et al. (2024), SEM-034 | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Four-tetracycline mixture |
+| Zhao et al. (2018), SEM-037 | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch and groundwater PRB |
+| Zhang & Wu (2022), SEM-038 | TC | Nitrogen-doped rGO (N-rGO) | Trace-level single-analyte test |
+| Yao et al. (2017), SEM-039 | TC | CNF/GO hybrid aerogel | Antibiotic screen and reuse |
+| Peng et al. (2016), SEM-040 | TC within seven-drug mixture | Graphene | Synthetic seven-analyte mixture |
 
-## Table 1B. Condition sets for the 19 experimental/source-reported endpoints
+## Table 1B. Conditions for the 19 experimental or test endpoints
 
-| Study ID | Initial concentration / mixture | Dose | pH | Temperature | Contact / equilibrium time |
+| Study ID | Initial concentration / feed | Dose | pH | Temperature | Contact / test time |
 |---|---|---|---|---|---|
 | SEM-004 | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
 | SEM-004 | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
 | SEM-004 | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
 | SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
 | SEM-010 | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
-| SEM-016 | 50 µmol/L (selected point) | 0.20 g/L | 4 | 25°C | 240 min protocol |
+| SEM-016 | 50 µmol/L | 0.20 g/L | 4 | 25°C | 240 min |
 | SEM-017 | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
 | SEM-018 | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
-| SEM-020 | NR | NR | pH effect tested; range NR | NR | Equilibrium within ≈3 min |
-| SEM-029 | 40 mg/L | 10 g/L | NR at this endpoint | 298 K | 150 min |
-| SEM-031 | Equimolar; high-concentration range | 0.20 g/L | 5 | 25°C | 240 min |
-| SEM-032 | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | About 120 min; exact validation time NR |
+| SEM-020 | NR | NR | pH effect; range NR | NR | Equilibrium ≈3 min |
+| SEM-029 | 40 mg/L | 10 g/L | NR | 298 K | 150 min |
+| SEM-031 | Equimolar FQ mixture | 0.20 g/L | 5 | 25°C | 240 min |
+| SEM-032 | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | ≈120 min; exact validation time NR |
 | SEM-033 | 30 mg/L | 1.0 g/L | 5 for TCH; 7 for OFL | NR | NR |
 | SEM-034 | 0.2 mg/L TC | 0.15 g/L | 7 | 25°C | 30 s |
-| SEM-037 | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h to equilibrium |
+| SEM-037 | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h |
 | SEM-038 | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1°C | NR |
-| SEM-039 | Figure-specific C0 NR | Figure-specific dose NR | NR | NR | NR |
-| SEM-039 | Same screen/reuse protocol; endpoint feed basis NR | NR | NR | NR | After 10 cycles |
+| SEM-039 | Figure 7 C0 NR | Figure 7 dose NR | NR | NR | NR |
+| SEM-039 | Reuse endpoint feed NR | NR | NR | NR | After 10 cycles |
 | SEM-040 | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
 
-## Table 1C. Experimental/source-reported endpoints
+## Table 1C. Experimental and source-reported endpoints
 
-| Study ID | Endpoint class | Endpoint value |
-|---|---|---|
-| SEM-004 | Observed qe | 17.6 mg/g |
-| SEM-004 | Observed qe | 65.4 mg/g |
-| SEM-004 | Observed qe | 56.8 mg/g |
-| SEM-010 | Removal; derived qe | 99%; qe ≈ 99 mg/g |
-| SEM-010 | Experimental kinetic qe | 78.82 mg/g |
-| SEM-016 | Experimental qe | 237.12 µmol/g |
-| SEM-017 | Observed qe | 93.36 ± 3.85 mg/g |
-| SEM-018 | Removal; derived qe | 96.04%; qe = 19.208 mg/g |
-| SEM-020 | Qualitative endpoint | Equilibrium within ≈3 min |
-| SEM-029 | Removal; derived qe | 89.82%; qe = 3.5928 mg/g |
-| SEM-031 | Total-mixture qe | 81.70 / 79.90 / 78.92 mg/g |
-| SEM-032 | Author-reported qe | 807.54 mg/g |
-| SEM-033 | Removal | >96% for TCH and OFL |
-| SEM-034 | Removal; derived qe | 94.1 / 93.91 / 93.94%; qe ≈ 1.252–1.255 mg/g |
-| SEM-037 | No verified observed endpoint | NR |
-| SEM-038 | Experimental qe (held) | 90.21 mg/g |
-| SEM-039 | Removal | 82.1% |
-| SEM-039 | Removal after reuse | 78.9% |
-| SEM-040 | Experimental qe (SI) | 200.2202 µg/g |
+| Study ID | Target / system | Metric | Value |
+|---|---|---|---|
+| SEM-004 | TC | Observed qe | 17.6 mg/g |
+| SEM-004 | TC | Observed qe | 65.4 mg/g |
+| SEM-004 | TC | Observed qe | 56.8 mg/g |
+| SEM-010 | CIP | Removal | 99% |
+| SEM-010 | CIP | Derived qe | ≈99 mg/g |
+| SEM-010 | CIP | Experimental kinetic qe | 78.82 mg/g |
+| SEM-016 | CIP | Experimental qe | 237.12 µmol/g |
+| SEM-017 | TC | Observed qe | 93.36 ± 3.85 mg/g |
+| SEM-018 | TC | Removal | 96.04% |
+| SEM-018 | TC | Derived qe | 19.208 mg/g |
+| SEM-020 | CIP | Equilibrium time | ≈3 min |
+| SEM-029 | CIP | Removal | 89.82% |
+| SEM-029 | CIP | Derived qe | 3.5928 mg/g |
+| SEM-031 | Binary FQ mixture | Total-mixture qe | 81.70 mg/g |
+| SEM-031 | Ternary FQ mixture | Total-mixture qe | 79.90 mg/g |
+| SEM-031 | Quaternary FQ mixture | Total-mixture qe | 78.92 mg/g |
+| SEM-032 | CIP | Author-reported qe | 807.54 mg/g |
+| SEM-033 | TCH | Removal | >96% |
+| SEM-033 | OFL | Removal | >96% |
+| SEM-034 | TC + CTC/OTC/DTC | TC removal | 94.1 / 93.91 / 93.94% |
+| SEM-034 | TC + CTC/OTC/DTC | Derived TC qe | 1.252–1.255 mg/g |
+| SEM-037 | CIP / PRB | Observed qe or breakthrough | Not accessible |
+| SEM-038 | TC | Experimental qe (held) | 90.21 mg/g |
+| SEM-039 | TC | Screen removal | 82.1% |
+| SEM-039 | TC | Cycle-10 removal | 78.9% |
+| SEM-040 | TC in seven-drug mixture | Experimental qe (SI) | 200.2202 µg/g |
 
 ## Table 1D. Fitted isotherm-model outputs
 
@@ -73,103 +86,144 @@
 | SEM-004 | Langmuir | qmax | 131.57 mg/g |
 | SEM-004 | Langmuir | R² | 0.9938 |
 | SEM-004 | Freundlich | R² | 0.9986 |
-| SEM-010 | Langmuir | qmax, 30–50°C | 419.62–441.44 mg/g |
+| SEM-010 | Langmuir | qmax (30–50°C) | 419.62–441.44 mg/g |
 | SEM-016 | Langmuir | qmax | 1000 µmol/g (331.35 mg/g) |
 | SEM-017 | Sips | qmax | 130.11 mg/g |
 | SEM-017 | Langmuir | qmax | 107.06 mg/g |
-| SEM-018 | Linear Langmuir | qmax, 50°C | 54.73 mg/g |
-| SEM-018 | Nonlinear Langmuir | qmax, 50°C | 48.47 mg/g |
+| SEM-018 | Linear Langmuir | qmax (50°C) | 54.73 mg/g |
+| SEM-018 | Nonlinear Langmuir | qmax (50°C) | 48.47 mg/g |
 | SEM-020 | Langmuir | qmax | 323 mg/g |
 | SEM-029 | Linear Langmuir | qmax | 8.210 mg/g |
 | SEM-029 | Nonlinear Langmuir | qmax | 10.14 mg/g |
-| SEM-031 | Langmuir, binary mixture | qmax | 370.37 mg/g |
-| SEM-031 | Langmuir, ternary mixture | qmax | 357.14 mg/g |
-| SEM-031 | Langmuir, quaternary mixture | qmax | 333.33 mg/g |
+| SEM-031 | Langmuir (binary FQ mixture) | qmax | 370.37 mg/g |
+| SEM-031 | Langmuir (ternary FQ mixture) | qmax | 357.14 mg/g |
+| SEM-031 | Langmuir (quaternary FQ mixture) | qmax | 333.33 mg/g |
 | SEM-032 | Langmuir | qmax | 821.24 mg/g |
 | SEM-033 | Langmuir | Numerical qmax | NR |
-| SEM-034 | Langmuir, 30°C | qmax (TC) | 60.24 mg/g |
-| SEM-034 | Langmuir, 40°C | qmax (TC) | 62.50 mg/g |
-| SEM-034 | Langmuir, 50°C | qmax (TC) | 64.10 mg/g |
-| SEM-037 | Model attribution unresolved | Reported maximum | 100 mg/g (abstract) |
+| SEM-034 | Langmuir (30°C) | qmax (TC) | 60.24 mg/g |
+| SEM-034 | Langmuir (40°C) | qmax (TC) | 62.50 mg/g |
+| SEM-034 | Langmuir (50°C) | qmax (TC) | 64.10 mg/g |
+| SEM-037 | Unresolved attribution | Reported maximum | 100 mg/g (abstract) |
 | SEM-038 | Langmuir | qmax (TC) | 662.25 mg/g |
 | SEM-039 | Langmuir | qmax | 454.6 mg/g |
 | SEM-040 | Isotherm capacity | Conventional qmax | NR |
 
 ## Table 1E. Kinetic-model outputs
 
-| Study ID | Kinetic model | Parameter | Value |
+| Study ID | Model | Parameter | Value |
 |---|---|---|---|
-| SEM-004 | PFO | fitted qe | 40.93 mg/g |
-| SEM-004 | PSO | fitted qe | 62.50 mg/g |
-| SEM-010 | PSO | fitted qe | 79.36 mg/g |
-| SEM-016 | PSO | fitted qe series | NR in summary register |
-| SEM-017 | PSO | fitted qe | 87.74 mg/g |
-| SEM-018 | Linear PSO | fitted qe | 19.50 mg/g |
-| SEM-020 | PSO | fitted qe | NR in accessible source |
-| SEM-029 | Nonlinear PSO | fitted qe | 4.458 mg/g |
-| SEM-031 | Mixture kinetic model | fitted output | Mixture-specific; not CIP-specific |
+| SEM-004 | PFO | Fitted qe | 40.93 mg/g |
+| SEM-004 | PSO | Fitted qe | 62.50 mg/g |
+| SEM-010 | PSO | Fitted qe | 79.36 mg/g |
+| SEM-016 | PSO | Fitted qe series | Not available in summary register |
+| SEM-017 | PSO | Fitted qe | 87.74 mg/g |
+| SEM-018 | Linear PSO | Fitted qe | 19.50 mg/g |
+| SEM-020 | PSO | Fitted qe | NR in accessible source |
+| SEM-029 | Nonlinear PSO | Fitted qe | 4.458 mg/g |
+| SEM-031 | Mixture kinetic model | Fitted output | Mixture-specific; not CIP-specific |
 | SEM-032 | Kinetic comparison | Numeric endpoint | Not used here |
-| SEM-033 | PSO | fitted qe | NR in accessible preview |
-| SEM-034 | PSO (TC) | fitted qe | 1.2681 mg/g |
-| SEM-037 | PSO | fitted qe | Parameters inaccessible |
-| SEM-038 | Kinetic fits (TC) | fitted qe values | 93.13 / 92.84 mg/g |
-| SEM-039 | PSO | fitted qe | 84.8 mg/g |
-| SEM-040 | PFO (TC) | fitted qe | 198.8393 µg/g |
-| SEM-040 | PSO (TC) | fitted qe | 200.6055 µg/g |
-## Table 1F. Recovery/reuse and water-matrix evidence
+| SEM-033 | PSO | Fitted qe | NR in accessible preview |
+| SEM-034 | PSO (TC) | Fitted qe | 1.2681 mg/g |
+| SEM-037 | PSO | Fitted qe | Parameters inaccessible |
+| SEM-038 | Kinetic fits (TC) | Fitted qe | 93.13 / 92.84 mg/g |
+| SEM-039 | PSO | Fitted qe | 84.8 mg/g |
+| SEM-040 | PFO (TC) | Fitted qe | 198.8393 µg/g |
+| SEM-040 | PSO (TC) | Fitted qe | 200.6055 µg/g |
 
-| Study ID | Recovery / reuse | Water-matrix evidence |
+## Table 1F. Recovery and regeneration evidence
+
+| Study ID | Separation / recovery | Regeneration medium | Cycles | Reported cycle result |
+|---|---|---|---|---|
+| SEM-004 | NR | NR | NR | No multicycle reuse verified |
+| SEM-010 | NR | Methanol | 7 | 92% removal at cycle 7 |
+| SEM-016 | NR | DMF + 1 M HCl | 5 | 95.78% qe retention at cycle 5 |
+| SEM-017 | Magnetic | NR | 5 | Removal: 88.33% → 75.38% |
+| SEM-018 | Magnetic | Methanol | 10 | Removal: ≈96% → ≈92% |
+| SEM-020 | NR | NR | NR | No verified regeneration cycles |
+| SEM-029 | NR | NR | 4–5 claimed | Cycle mass balance incomplete |
+| SEM-031 | NR | DMF + 1 M HCl | 5 | >92% mixture performance after cycle 5 |
+| SEM-032 | NR | Methanol | 7 | ≈90.53% initial removal retained |
+| SEM-033 | NR | Not stated | 4 | >87% removal efficiency after 4 cycles |
+| SEM-034 | Magnetic | Methanol | Up to 8 | No TC-only cycle series |
+| SEM-037 | PRB configuration | NR | Not a batch cycle | PRB lifetime is not regeneration |
+| SEM-038 | NR | NR | Up to 8 | ≤25% capacity decline across system; not TC-specific |
+| SEM-039 | NR | 5 wt.% NaOH | 10 | TC removal: 82.1% → 78.9% |
+| SEM-040 | NR | NR | NR | No graphene reuse protocol identified |
+
+## Table 1G. Water-matrix validation
+
+| Study ID | Matrix / test water | Evidence or limitation |
 |---|---|---|
-| SEM-004 | No multicycle reuse verified | Synthetic batch only |
-| SEM-010 | Methanol; 7 cycles; 92% removal at cycle 7 | No real-water trial |
-| SEM-016 | DMF + 1 M HCl; fifth-cycle qe retention = 95.78% | Synthetic single-solute; no real water |
-| SEM-017 | Magnetic recovery; removal 88.33% to 75.38% over 5 cycles | Synthetic batch only |
-| SEM-018 | Magnetic recovery; methanol; 10 cycles; removal ≈96% to ≈92% | No real-water experiment |
-| SEM-020 | No verified regeneration cycles | Salts, 5 mg/L NOM and river/drinking-water sources; effect sizes unavailable |
-| SEM-029 | Authors claim 4–5 cycles; cycle mass balance incomplete | Synthetic water only |
-| SEM-031 | DMF + 1 M HCl; >92% mixture performance after 5 cycles | Authors state no real-wastewater samples tested |
-| SEM-032 | Methanol; 7 cycles; ≈90.53% initial removal retained | Real vs simulated wastewater description conflicts |
-| SEM-033 | >87% removal efficiency after 4 cycles; eluent unavailable | Complex-water claim in preview; matrix details inaccessible |
-| SEM-034 | Magnetic recovery; methanol; up to 8 rounds; no TC-only cycle series | No real-water test |
-| SEM-037 | No batch regeneration metric verified; PRB lifetime is distinct | Groundwater PRB application described; numeric breakthrough results inaccessible |
-| SEM-038 | Up to 8 cycles; ≤25% capacity decline stated across system, not TC-specific | Trace-level single/mixed-analyte and simulated-interferent tests |
-| SEM-039 | 5 wt.% NaOH; 10 cycles; TC removal 82.1% to 78.9% | No real-water trial |
-| SEM-040 | No graphene reuse protocol identified | Synthetic seven-antibiotic mixture; not untreated wastewater |
+| SEM-004 | Synthetic batch | No real-water validation reported |
+| SEM-010 | Synthetic batch | No real-water trial |
+| SEM-016 | Synthetic single-solute | No real-water trial |
+| SEM-017 | Synthetic batch | No real-water validation reported |
+| SEM-018 | Synthetic batch | No real-water experiment |
+| SEM-020 | Salts; 5 mg/L NOM; river/drinking-water sources | Effect sizes unavailable in accessible source |
+| SEM-029 | Synthetic batch | No real-water validation reported |
+| SEM-031 | FQ mixtures | Authors state real wastewater was not tested |
+| SEM-032 | Wastewater-labelled application samples | Real vs simulated-water description conflicts |
+| SEM-033 | Complex-water claim in preview | Matrix composition/details inaccessible |
+| SEM-034 | Four-tetracycline mixture | No real-water trial |
+| SEM-037 | Groundwater PRB application | Numeric breakthrough results inaccessible |
+| SEM-038 | Trace-level single/mixed-analyte tests | Includes simulated interferent tests; not a field wastewater trial |
+| SEM-039 | Synthetic antibiotic screen | No real-water validation reported |
+| SEM-040 | Synthetic seven-antibiotic mixture | Not untreated wastewater |
 
-## Table 1G. Preparation burden and cost evidence
+## Table 1H. Preparation burden
 
-| Study ID | Preparation burden | Cost evidence |
+| Study ID | Precursor / feedstock | Key processing steps | Energy / drying note |
+|---|---|---|---|
+| SEM-004 | GO + calcium alginate | Fiber formation | Freeze-drying; energy/yield not quantified |
+| SEM-010 | Spent Zn–C battery carbon | Acid pretreatment; GO oxidation | Energy/yield not quantified |
+| SEM-016 | Graphitic carbon / GO precursor | Modified-Hummers oxidation; sulfonation; solvent washing | Energy/yield not quantified |
+| SEM-017 | GO + fibrillated cellulose | Acid/alkali treatment; magnetite formation | 48 h freeze-drying |
+| SEM-018 | Waste Li-ion battery graphite | Purification; GO oxidation; Fe3O4/CMC functionalization | Vacuum drying; energy not quantified |
+| SEM-020 | Graphene | Preparation details inaccessible in audited abstract | NR |
+| SEM-029 | GO + PVA + alginate | Bead formation and curing | Yield/energy not reconciled |
+| SEM-031 | Sulfonated GO | Hummers oxidation; sulfonation; solvent washing | Energy/yield not quantified |
+| SEM-032 | GO precursor | P-doping; TETA grafting; hydrogel functionalization | Energy/yield not quantified |
+| SEM-033 | Fe3O4/rGO | Rotating-field system configuration | Power/equipment details unavailable |
+| SEM-034 | Waste dry-cell graphite | GO oxidation; Co/Fe salts; methanol treatment | Energy/yield not quantified |
+| SEM-037 | Alginate/GO beads | Preparation details access-gated | Not available |
+| SEM-038 | GO precursor | N-doping with ammonia; hydrothermal treatment | Energy/yield not quantified |
+| SEM-039 | CNF/GO | Ultrasonication | 1000 W; 48 h freeze-drying |
+| SEM-040 | Graphene | Synthesis referred to earlier work | Yield not reported in this article |
+
+## Table 1I. Cost evidence
+
+| Study ID | Reported price / cost | Cost-evidence limitation |
 |---|---|---|
-| SEM-004 | GO precursor and alginate fiber formation; freeze-drying used | No monetized cost, yield or energy inventory |
-| SEM-010 | Spent Zn–C battery carbon; acid pretreatment and oxidant-based GO synthesis | No product-yield, reagent-cost, washing-waste or energy inventory |
-| SEM-016 | Modified-Hummers GO followed by sulfonation and solvent washing | No monetized cost; DMF/HCl recovery and disposal uncosted |
-| SEM-017 | Strong-acid/alkali cellulose processing, magnetite formation and 48 h freeze-drying | No quantified cost, product yield or process-energy inventory |
-| SEM-018 | Waste Li-ion battery graphite purification, GO oxidation, Fe3O4/CMC functionalization and vacuum drying | No full cost or energy inventory; methanol recovery/handling uncosted |
-| SEM-020 | Graphene preparation details not exposed in accessible abstract | Manufacturing and recovery costs unavailable |
-| SEM-029 | GO/PVA/alginate bead preparation and curing; material yield/energy not reconciled | Author price USD 10–30/kg; price scenario assumes dose 100× below a key experimental condition |
-| SEM-031 | Hummers oxidation, sulfonation and solvent washing for SGO | No cost per mass removed; DMF/HCl recovery and disposal uncosted |
-| SEM-032 | Multi-step GO oxidation, phosphorus doping, TETA grafting and hydrogel functionalization | No quantified cost, yield, chemical-recovery or energy inventory |
-| SEM-033 | Rotating-field Fe3O4/rGO configuration; power and equipment details unavailable | No cost inventory; 2 A excitation current alone does not quantify energy |
-| SEM-034 | Waste dry-cell graphite to GO; Aqua Regia/Hummers chemistry and Co/Fe salts; methanol treatment | No monetized cost, yield, energy or solvent recovery inventory |
-| SEM-037 | Alginate/GO PRB bead preparation details are access-gated | Authors state PRB cost calculated, but numerical assumptions and outcomes unavailable |
-| SEM-038 | Strong-acid/oxidant GO synthesis and ammonia-assisted hydrothermal N-doping | No yield, reagent-recovery, energy or treatment-cost denominator |
-| SEM-039 | CNF/GO preparation, 1000 W sonication and 48 h freeze-drying | No cost inventory; NaOH, energy and freeze-drying burden unpriced |
-| SEM-040 | Graphene synthesis cited to earlier work; current article does not give a manufacturing yield | No graphene cost, energy or normalized removal-cost inventory |
+| SEM-004 | Not reported | No monetary cost or yield/energy inventory |
+| SEM-010 | Not reported | Waste precursor does not establish low total cost |
+| SEM-016 | Not reported | DMF/HCl recovery and disposal unpriced |
+| SEM-017 | Not reported | Product yield and process energy not quantified |
+| SEM-018 | Not reported | No full cost/energy or solvent-recovery inventory |
+| SEM-020 | Not reported | Manufacturing and recovery costs unavailable |
+| SEM-029 | USD 10–30/kg (bead price) | Price scenario assumes 0.1 g/L vs 10 g/L key experimental dose |
+| SEM-031 | Not reported | No cost per mass removed; DMF/HCl recovery uncosted |
+| SEM-032 | Not reported | No quantified cost, yield or energy inventory |
+| SEM-033 | Not reported | 2 A excitation current is not an energy or cost metric |
+| SEM-034 | Not reported | No monetized cost, yield or solvent-recovery inventory |
+| SEM-037 | Cost calculation claimed by authors | Numeric assumptions and outcome inaccessible |
+| SEM-038 | Not reported | No normalized treatment-cost denominator |
+| SEM-039 | Not reported | Sonication, NaOH and freeze-drying unpriced |
+| SEM-040 | Not reported | No graphene cost/yield/energy inventory |
 
 ## Table 1 notes and study-specific holds
 
-- **SEM-010:** The abstract/Fig. 3 removal (99%) and kinetic Table 4 experimental qe (78.82 mg/g) are not consistent on the stated batch basis. The conclusion also says 20 g/L where other source locations say 20 mg/L. The table does not average or correct these source values.
-- **SEM-016:** Experimental qe/removal pairs disagree across concentration, temperature and dose series. The fitted Langmuir qmax is a separate isotherm output. Keep this study out of a clean quantitative ranking.
-- **SEM-018:** The 19.208 mg/g qe is derived from removal. It is not a directly tabulated qe. Removal across methanol-regeneration cycles is not qe-capacity retention.
-- **SEM-029:** The experimental dose is 10 g/L, 100× the 0.1 g/L price-scenario assumption. Method text also alternates between 50 and 55 mL. The low-cost claim remains unvalidated.
-- **SEM-031:** Total-mixture qe/qmax values are not attributable to isolated CIP. Authors state that real wastewater was not tested.
-- **SEM-032:** Validation volume is not available in the main extracted source; the real/simulated wastewater label conflicts. Do not merge the separate pH test with the RSM validation.
-- **SEM-034:** TC is co-adsorbed with CTC/OTC/DTC. Three source locations give different TC removal values. The derived qe remains below the feed ceiling but is not a directly tabulated qe.
-- **SEM-037:** The 100 mg/g source-reported maximum has inconsistent Freundlich/Langmuir attribution in abstract versus indexed conclusion. Numerical PRB breakthrough and economic values remain inaccessible.
-- **SEM-038:** Table 1 TC qe = 90.21 mg/g exceeds the strict 80 mg/g stated-feed ceiling. Figure 2c shows a larger feed-basis discrepancy. Keep both observed qe and fitted qmax out of quantitative ranking pending clarification.
-- **SEM-039:** Figure 7 lacks a figure-specific C0/pH/dose. Do not import conditions from separate factor experiments. Cycle-10 removal is not capacity retention.
-- **SEM-040:** Official SI Table S2 gives TC-specific experimental qe = 200.2202 µg/g. The 190.3 µg/g mean across seven antibiotics is not a TC-specific endpoint. Preserve the small 0.11% feed-ceiling flag.
+- **SEM-010:** The abstract/Fig. 3 removal (99%) and kinetic Table 4 experimental qe (78.82 mg/g) are inconsistent on the stated batch basis. The conclusion also says 20 g/L where other source locations say 20 mg/L (a 1000-fold discrepancy). Table 1B uses the optimum condition reported in the abstract/figures and retains the conflict here.
+- **SEM-016:** Experimental qe/removal pairs disagree across concentration, temperature and dose series. The fitted Langmuir qmax is separate. Keep the study out of a clean quantitative ranking.
+- **SEM-018:** The 19.208 mg/g qe is derived from the 96.04% removal result. It is not directly tabulated. Cycle removal is not qe-capacity retention.
+- **SEM-029:** The experimental dose is 10 g/L, 100× the 0.1 g/L price-scenario assumption. Methods also alternate between 50 and 55 mL. The low-cost claim remains unvalidated.
+- **SEM-031:** Binary, ternary and quaternary qe values are total-mixture uptake, not isolated-CIP capacity. Authors state that real wastewater was not tested.
+- **SEM-032:** The RSM-validation solution volume is unavailable for mass-balance verification; the real/simulated wastewater description conflicts.
+- **SEM-034:** TC is co-adsorbed with CTC/OTC/DTC. Three source locations give different removal values. The derived qe is below the feed ceiling but is not directly tabulated.
+- **SEM-037:** The 100 mg/g source-reported maximum has inconsistent Freundlich/Langmuir attribution between abstract and indexed conclusion. Numeric PRB breakthrough and economic values remain inaccessible.
+- **SEM-038:** Table 1 TC qe = 90.21 mg/g exceeds the strict 80 mg/g stated-feed ceiling. Figure 2c has a larger feed-basis discrepancy. Keep observed qe and fitted qmax out of quantitative ranking pending clarification.
+- **SEM-039:** Figure 7 lacks figure-specific C0/pH/dose. Do not import conditions from separate factor tests. Cycle-10 removal is not capacity retention.
+- **SEM-040:** Official SI Table S2 gives TC-specific experimental qe = 200.2202 µg/g. The 190.3 µg/g mean across seven antibiotics is not a TC-specific endpoint. The SI value is about 0.11% above the stated feed ceiling; preserve this small mass-balance flag.
 
-*Dose footnote for SEM-010:* Abstract/Fig. 3 and Results report 20 mg/L GO; the conclusion says 20 g/L (a 1000-fold discrepancy). The table displays the condition reported at the optimum in the abstract/figures and preserves the conflict in Table 1B and the study-specific holds.
+*SEM-010 dose footnote:* Abstract/Fig. 3 and Results report 20 mg/L GO; the conclusion says 20 g/L. The 20 mg/L value is displayed for the optimum condition while the conflict remains visible above.
 
-**Evidence boundary:** The condition-labelled comparison register provides the extracted records for 14 of these candidates. SEM-038 is linked to existing master evidence records EV-B10-004–EV-B10-009 and is not duplicated. The detailed readiness audit and evidence registers remain authoritative for source locations, access tiers and permitted uses.
+**Evidence boundary:** The condition-labelled comparison register provides extracted records for 14 candidates. SEM-038 remains linked to master evidence records EV-B10-004–EV-B10-009 and is not duplicated. The evidence-readiness and claim-evidence registers remain authoritative for source locations, access tiers and permitted uses.
