@@ -185,7 +185,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 
 ## Additional studies screened — 31 October 2026
 
-- **SEM-048 / EV-SEM-044:** rGO/Pr6O11 for CIP; publisher-preview evidence only. The reported Langmuir q_m is fitted, not observed uptake.
+- **SEM-048 / EV-SEM-044:** rGO/Pr6O11 for CIP; publisher preview now exposes synthesis and batch-method snippets. Optimum removal is 88.0% in abstract vs 88.3% in conclusion at C0=10mg/L, dose0.4g/L, pH6.6, 298K, 160min; calculated qe≈22.0–22.075mg/g, feed ceiling25mg/g. Langmuir q_m=85.5mg/g is fitted; ethanol-water/0.1M HCl regeneration reports85.8% capacity retention after4 cycles. pH optimum6.6 is not among explicitly listed pH test points2,4,8,10; full Results tables remain access-gated.
 - **SEM-049 / EV-SEM-045:** Alg-Cu@GO@MOF-525 for TC; full open-access article. High reported capacity endpoints require reconciliation of conflicting dose and concentration details.
 - **SEM-050 / EV-SEM-046:** GO–TOPO:LevA DES membrane for TET; full article and supplements reviewed. It provides the strongest current active-layer cost/carbon, membrane, leaching and spiked-municipal-water evidence, but the batch qe denominator and life-cycle boundary remain caveated.
 - **SEM-051 / EV-SEM-047:** the prior hold note saying that no detailed evidence had been extracted is superseded. Publisher-indexed article text has since been used for a preliminary evidence extraction, but a complete primary full-text/methods/tables audit is still unavailable; see the detailed source and cost caveat below.
