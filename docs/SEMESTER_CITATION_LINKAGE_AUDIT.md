@@ -103,3 +103,8 @@ The user uploaded `full ++ check again(2).bib`. Its SHA-256 (`bc65b1a50bfda09824
 ## 31 October 2026 — 28-entry Zotero export reconciliation
 
 The newly uploaded `Untitled.bib` contains 28 BibTeX entries with 28 unique keys and 28 unique DOI values. All 28 DOIs match previously unresolved selected semester candidates. Combined with the prior 15 exact DOI/key matches from the complete 173-entry export, **43/50 selected DOI-defined works now have verified Better BibTeX keys; 7 remain unmatched**. The candidate-selection and citation-linkage CSVs now record the 28 verified keys. The remaining seven DOI list is in `references/semester-final-35-doi-import-queue.txt`; it has been reduced to the seven unresolved candidates. See `logs/2026-10-31-untitled-bib-reconciliation.md` for the full key mapping and audit details. This file is a 28-entry subset export, not a complete My Library export.
+
+
+## 31 October 2026 — Untitled +.bib reconciliation
+
+The newest `Untitled +.bib` contains 40 BibTeX entries, 40 unique keys, 40 DOI-bearing entries and 34 distinct DOI values. All 34 DOIs match selected semester candidates. Together with the earlier 15 and 28 matched candidates (with overlap correctly deduplicated), **49/50 DOI-defined semester works are now matched; SEM-035 (10.16796/j.cnki.1000-3770.2025.09.007) remains absent**. The export also contains six duplicate DOI pairs for SEM-046–SEM-051, so the surviving keys must be re-exported after Zotero Duplicate Items merges. For SEM-049 and SEM-050, preserve both PDF attachments if useful. The current remaining DOI file lists SEM-035 and the duplicate-cleanup instruction. See `logs/2026-10-31-untitled-plus-reconciliation.md`.
