@@ -270,13 +270,6 @@ The selected set also includes context-only records that must not be counted as 
 
 Final bibliography rendering should follow the required university or journal style once that style is specified. The current in-text citation notation is a working source-linked drafting format, not the finished formatted bibliography.
 
-
-
-\newpage
-
-```{=openxml}
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
 \newpage
 
 ```{=openxml}
