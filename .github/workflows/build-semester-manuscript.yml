@@ -1,0 +1,42 @@
+name: Build semester manuscript
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md'
+      - 'manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md'
+      - 'semester-manuscript-cited-references-49-selected-plus-4-context.bib'
+      - 'references/american-chemical-society-2026.csl'
+      - 'scripts/build_semester_manuscript.py'
+      - '.github/workflows/build-semester-manuscript.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+      - name: Install document and rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra fonts-dejavu
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Mermaid CLI
+        run: npm install --global @mermaid-js/mermaid-cli
+      - name: Build Word and PDF
+        run: python3 scripts/build_semester_manuscript.py
+      - name: Upload manuscript outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: semester-manuscript-v2-acs-draft
+          path: build/semester-manuscript/
+          if-no-files-found: error
+          retention-days: 30
