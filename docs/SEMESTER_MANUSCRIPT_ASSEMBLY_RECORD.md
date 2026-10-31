@@ -30,3 +30,6 @@
 ## Final Table 1 layout
 
 Table 1 contains nine focused components. Endpoint metrics are separated into individual rows; process evidence is split into recovery, matrix, preparation and cost tables. Detailed qualifications remain in the study-specific notes rather than being repeated inside each data cell.
+
+
+Table 1C now contains 28 metric/value rows because the three conflicting SEM-034 removal values (abstract/§3.2.2, §3.2.4 and conclusion) are shown separately.
