@@ -249,3 +249,6 @@ A new `Untitled.bib` upload (28 entries, 28 distinct DOI values) resolves 28 of 
 ## Semester reference linkage update — 31 October 2026
 
 The newest `Untitled +.bib` export confirms **49 of the 50** distinct selected semester works. The only unmatched DOI is SEM-035 (`10.16796/j.cnki.1000-3770.2025.09.007`). Note: the 40-entry export has 34 unique DOIs and six duplicate DOI pairs for SEM-046–SEM-051; merge duplicate Zotero items and regenerate Better BibTeX before final manuscript citation-key lock. See `logs/2026-10-31-untitled-plus-reconciliation.md` and the updated DOI queue.
+
+
+SEM-035 DOI resolution note (31 Oct 2026): Zotero Add by Identifier returned Lookup Failed, but the DOI is valid and independently confirmed by the official *Technology of Water Treatment* journal page and EBSCO. Add manually in Zotero as a Journal Article; the Better BibTeX key remains pending until Zotero generates it. See the DOI queue and citation audit for complete metadata.
