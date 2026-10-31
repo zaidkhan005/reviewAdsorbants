@@ -276,6 +276,8 @@ Final bibliography rendering should follow the required university or journal st
 
 **Reading rule.** Table 1A identifies the material and target once per study. Table 1B gives the condition vector for each endpoint row in Table 1C; the study ID links the corresponding rows. Tables 1D and 1E separate isotherm-fit outputs from kinetic-model outputs. Tables 1F and 1G separate recovery, matrix validation, preparation burden and cost evidence. NR = not reported or not available in the audited source record. “Derived qe” is calculated from the exact stated feed, volume, adsorbent mass and removal percentage; it is not a directly tabulated measurement. Fitted qmax/qm and kinetic qe are model outputs, not observed uptake.
 
+\newpage
+
 ## Table 1A. Study identity, target and material family
 
 | Study | Target | Adsorbent | Study context |
