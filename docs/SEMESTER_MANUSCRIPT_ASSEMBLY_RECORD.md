@@ -26,3 +26,7 @@
 4. Render Supplementary Table S1 separately in the required supplemental format.
 5. Complete author details, declarations, acknowledgements, funding/conflict/data availability statements and language proof.
 6. Keep all source caveats and study holds visible in the final copy.
+
+## Final Table 1 layout
+
+Table 1 contains nine focused components. Endpoint metrics are separated into individual rows; process evidence is split into recovery, matrix, preparation and cost tables. Detailed qualifications remain in the study-specific notes rather than being repeated inside each data cell.
