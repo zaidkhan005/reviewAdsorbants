@@ -83,7 +83,7 @@ def validate_screening() -> int:
         for item in link_items:
             parsed = urlparse(item)
             is_url = parsed.scheme in {"http", "https"} and bool(parsed.netloc)
-            is_doi = bool(re.match(r"^10\\.\\d{4,9}/\\S+$", item, flags=re.IGNORECASE))
+            is_doi = bool(re.match(r"^10\.\d{4,9}/\S+$", item, flags=re.IGNORECASE))
             if not (is_url or is_doi):
                 raise ValueError(
                     f"{path.relative_to(ROOT)}:{line_no}: invalid DOI/URL entry {item!r}; "
