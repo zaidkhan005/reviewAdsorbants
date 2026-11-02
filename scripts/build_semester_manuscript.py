@@ -37,7 +37,7 @@ def build_supplementary_s1(pandoc: str) -> None:
             'study': cells[0],
             'title': cells[1],
             'target': cells[2],
-            'material': cells[3],
+            'material': re.split(r';\s*(?:Empirical primary study|Theory/mechanism context only|Review/background context only|Scope-boundary near-miss)', cells[3], maxsplit=1)[0].strip(),
             'source': cells[4],
             'guardrail': cells[5],
             'key': citation_match.group(1),
