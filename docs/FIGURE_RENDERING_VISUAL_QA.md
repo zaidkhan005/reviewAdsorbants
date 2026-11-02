@@ -19,7 +19,7 @@ The repository build workflow uses Mermaid CLI (`mmdc`) to render the four edita
 
 Figure 2 has been redrawn as a compact left-to-right workflow: material sourcing/GO formation; surface modification/assembly; aqueous CIP/TC adsorption; recovery/regeneration; whole-process cost inventory; and functional-unit normalization. The scientific boundary is unchanged: it consolidates alternative reported routes and is not a standardized synthesis or measured mass balance.
 
-**Status:** The updated Mermaid source and assembled manuscript are committed. The left-to-right build was rendered and reviewed: Figure 2 sits within its page, and its caption remains attached without footer collision. A further final build is underway after the additional Table 1C–1E cell reduction/model-row split; its final page placement is pending.
+**Status:** The updated Mermaid source and assembled manuscript are committed. The left-to-right build was rendered and reviewed: Figure 2 sits within its page, and its caption remains attached without footer collision.
 
 ## Content/claim safeguards
 
@@ -34,15 +34,24 @@ The main-text Table 1 has seven components. To reduce cell density further, Tabl
 
 ## Latest full-page manuscript review
 
-The latest nine-table rendering (before the final page-break patch) produced a 30-page PDF and a 39-page DOCX when rendered through LibreOffice. The left-to-right Figure 2 fits within its page and its caption stays with the image. Table 1F and 1G are legible with the added columns, although some qualifications wrap over several lines. Two pagination issues were found: Table 1A began with two rows at the bottom of the preceding page, and the Table 1D heading was left at the foot of the prior page. Cross-format page breaks (LaTeX `\\newpage` for PDF and raw OpenXML page breaks for DOCX) have now been committed before both headings. The latest build must confirm that the breaks work in both outputs.
+The earlier nine-table rendering identified orphaned headings and split comparison tables. The final 2 November build adds explicit page-flow controls: PDF Tables 1A, 1B and 1C start on clean pages; Word Tables 1A, 1B and 1C each start on their own page. Table 1F is split into 1F(a) and 1F(b), reducing the qualification-column width problem. The final build and visual verification details are recorded below.
+
+## Final production verification — 2 November 2026
+
+- GitHub Actions run `41428502613` completed successfully from commit `85bd3cda83e6f4f8032292e3aa4187e01ef11170`; artifact ID `13133751051` (SHA-256 digest `6900102c8b8daead65d312aa89f142d61da7a8fa1d3b5c62ccc2e0ddccc1cc83`).
+- PDF output: 31 A4 pages. Word output: 39 pages when rendered through LibreOffice.
+- PDF table sequence: Table 1A page 15; 1B page 16; 1C page 17; 1D page 18; 1F(a)/(b) pages 19–20; 1H page 21; 1I pages 21–22.
+- Word comparison layout: scope/reading note remains with the preceding narrative; Tables 1A, 1B and 1C start on pages 19, 20 and 21 respectively. The 28-row endpoint table fits on one page in both formats.
+- Targeted visual inspection found no clipped or overlapping content in the revised comparison pages. Figure 2 remains within its page with its authored caption attached. All four figure panels and all ten visible Table 1 panels are in the artifact.
+- PDF preflight: openable, text-searchable, unencrypted, no XFA, 31 A4 pages.
+- DOCX accessibility audit: zero high- or medium-severity findings; 53 low-severity findings are raw DOI URLs used as bibliography link text.
 
 ## Still required before submission
 
-1. Inspect the refreshed Figure 2 placement in the final PDF and Word outputs; confirm that caption and footer do not overlap and the caption stays with the figure.
-2. Complete page-by-page review of the complete refreshed DOCX/PDF, including all table splits, figure captions, citation placement and references.
-3. Confirm the university-required citation style. ACS Guide 2026 is only the current provisional build style.
-4. Render Supplementary Table S1 separately if the supervisor/university requires a separate supplement file.
-5. Complete language proof, authorship details, declarations, acknowledgements and submission checklist.
+1. Confirm the university-required citation style. ACS Guide 2026 remains provisional.
+2. Render Supplementary Table S1 separately if the supervisor/university requires a separate supplement file.
+3. Complete remaining sentence-level source-pin proof, language editing, author details, declarations, acknowledgements, funding/conflict/data availability statements and the submission checklist.
+4. Keep all source caveats and study holds visible in the final copy.
 
 ## Compact Table 1 update (31 October 2026)
 
