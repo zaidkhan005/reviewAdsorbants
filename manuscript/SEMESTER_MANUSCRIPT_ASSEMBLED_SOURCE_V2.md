@@ -280,6 +280,9 @@ Final bibliography rendering should follow the required university or journal st
 
 **Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 ## Table 1A. Study identity, target and material family
 
 | Study | Target / system | Adsorbent | Study context |
@@ -302,6 +305,9 @@ Final bibliography rendering should follow the required university or journal st
 
 \newpage
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 ## Table 1B. Conditions for the 19 experimental or test endpoints
 
 | Study ID | Initial concentration / feed | Dose | pH | Temperature | Contact / test time |
@@ -328,6 +334,9 @@ Final bibliography rendering should follow the required university or journal st
 
 \newpage
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 ## Table 1C. Experimental and source-reported endpoints
 
 | Study ID | Target / system | Metric | Value |
