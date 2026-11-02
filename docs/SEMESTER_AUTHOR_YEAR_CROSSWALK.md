@@ -18,7 +18,7 @@
 | SEM-010 | Yasmin et al. (2024) | `yasminEfficientRemovalCiprofloxacin2024` |
 | SEM-011 | Saya et al. (2023) | `sayaAdsorptiveRemovalCiprofloxacin2023` |
 | SEM-012 | Alishiri et al. (2023) | `alishiriRemovalCiprofloxacinCephalexin2023` |
-| SEM-013 | Ngoc Tri et al. (2024) | `ngoctriAdsorptionTetracyclineCiprofloxacin2024` |
+| SEM-013 | Nguyen et al. (2024) | `ngoctriAdsorptionTetracyclineCiprofloxacin2024` |
 | SEM-014 | Da Silva Bruckmann et al. (2022) | `dasilvabruckmannDFTTheoreticalExperimental2022` |
 | SEM-015 | Sikri et al. (2025) | `sikriGrapheneOxideLayered2025` |
 | SEM-016 | Shaha et al. (2025) | `shahaExploringAdsorptionEfficiency2025` |
