@@ -62,5 +62,17 @@ The publication-facing manuscript now identifies studies by author and year rath
 - DOCX accessibility audit: zero high- and medium-severity findings; 53 low-severity flags are raw DOI URLs used as bibliography hyperlink display text.
 - Scientific values, evidence qualifications, the 49-work selection and the four contextual citations were not changed by the naming revision.
 
-The manuscript remains a working draft. Citation-style confirmation, separate Supplementary Table S1 rendering if required, author/declaration fields, language proof and the final sentence-level source-pin check remain outstanding.
+The manuscript remains a working draft. Citation-style confirmation, author/declaration fields, language proof and the final sentence-level source-pin check remain outstanding. Supplementary Table S1 has now been rendered as a separate Word/PDF pair; see the QA record below.
+
+
+## Standalone Supplementary Table S1 — 2 November 2026
+
+- The 49 selected-study records are now available as a separate editable Word document and searchable A4 PDF.
+- Part A is a compact three-column author–year coverage index. Part B provides each article title, target, material family/role, source tier, and permitted evidence/numeric guardrail as distinct labelled fields. This avoids overloading wide table cells with paragraph-length content.
+- Study records use author–year labels; ACS-numbered citations and the 49-item bibliography are retained provisionally. Internal SEM/EV-SEM identifiers are not exposed in the S1 reader render.
+- Word output: 26 A4 pages. PDF output: 20 A4 pages. Long notes may continue across pages, but headings and the initial metadata block are kept together; index rows do not split across pages in Word.
+- PDF preflight: openable, searchable, unencrypted, no XFA. Visual render inspection completed for all pages.
+- S1 DOCX accessibility audit: 0 high, 0 medium, 49 low findings. All low findings are DOI hyperlinks displayed as raw DOI URLs in the bibliography.
+- Values, source-access tiers, evidence guardrails and selected-work membership were carried over; no scientific values or reference-selection decisions were changed.
+- Successful GitHub Actions run: 41488999074, commit 93360238f3a0edbc15add6d8d89060b061913a90. Artifact ID 13164305624; digest sha256:17fcad92f88bb37f1cc204666de26aa260dae89882279c78b597fae8823fe5d5.
 
