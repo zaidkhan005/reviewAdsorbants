@@ -28,6 +28,15 @@ def main() -> None:
         shutil.rmtree(OUT)
     FIG.mkdir(parents=True)
     md = SOURCE.read_text(encoding='utf-8')
+    # Keep internal evidence-traceability annotations in the repository source and
+    # audit ledgers, but do not expose them in the reader-facing manuscript render.
+    md = re.sub(r'\\s*\\[evidence:[^\\]]+\\]', '', md)
+    md = re.sub(
+        r'Existing source-linked evidence remains in CORP-031 / EV-B10-004–EV-B10-009; do not re-extract it as a duplicate\\.\\s*',
+        '',
+        md,
+    )
+    md = re.sub(r'\\bCite with (?:the verified key )?(?=\\\\cite\\{)', '', md)
     # Remove repository-production metadata from the reader-facing manuscript copy.
     md = re.sub(r'(?m)^\*\*Assembled working source V2[^\n]*\n?', '', md)
     md = re.sub(r'(?s)\n\*\*Consolidated bibliography:\*\*.*?(?=\n\n## Abstract)', '\n', md)
