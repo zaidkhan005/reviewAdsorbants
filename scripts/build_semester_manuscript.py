@@ -99,6 +99,17 @@ def build_supplementary_s1(pandoc: str) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     source_md = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.md'
     source_md.write_text('\n'.join(md), encoding='utf-8')
+    # Keep each study heading with its title and first metadata lines in the PDF.
+    # Long evidence notes may still continue across pages where necessary.
+    pdf_md = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE_PDF.md'
+    pdf_text = re.sub(
+        r'(?m)^(### \d+\.)',
+        lambda match: '\\Needspace{9\\baselineskip}\n' + match.group(1),
+        '\n'.join(md),
+    )
+    pdf_md.write_text(pdf_text, encoding='utf-8')
+    pdf_header = OUT / 's1_pdf_header.tex'
+    pdf_header.write_text('\\usepackage{needspace}\n', encoding='utf-8')
     common = [
         '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
         '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
@@ -109,7 +120,7 @@ def build_supplementary_s1(pandoc: str) -> None:
     docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.docx'
     pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.pdf'
     run([pandoc, str(source_md)] + common + ['--to=docx', '-o', str(docx)])
-    run([pandoc, str(source_md)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
+    run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
     print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
 
 def main() -> None:
