@@ -2,27 +2,27 @@
 
 **Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 28 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the study ID linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the author–year label linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
 
 ## Table 1A. Study identity, target and material family
 
 | Study | Target / system | Adsorbent | Study context |
 |---|---|---|---|
-| Zhu et al. (2018), Zhu et al. (2018) | TC | GO/calcium-alginate fibers | Single-solute batch |
-| Yasmin et al. (2024), Yasmin et al. (2024) | CIP | Zn–C battery-derived GO | Single-solute batch |
-| Shaha et al. (2025), Shaha et al. (2025) | CIP | Sulfonated GO (SGO) | Single-solute batch |
-| Dang et al. (2025), Dang et al. (2025) | TC | Magnetic GO/fibrillated-cellulose | Single-solute batch |
-| Dipannita et al. (2025), Dipannita et al. (2025) | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute batch |
-| Zhu et al. (2015), Zhu et al. (2015) | CIP | Graphene; GAC comparator | Batch and matrix tests; abstract-level |
-| Hossain et al. (2026), Hossain et al. (2026) | CIP | GO/PVA/calcium-alginate beads | Single-solute batch |
-| Shaha et al. (2026), Shaha et al. (2026) | CIP-containing FQ mixtures | SGO | Binary/ternary/quaternary mixtures |
-| Li et al. (2025), Li et al. (2025) | CIP | PGOT@GEL hydrogel | RSM validation |
-| Ding et al. (2026), Ding et al. (2026) | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; preview-level |
-| Hossain et al. (2024), Hossain et al. (2024) | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Four-tetracycline mixture |
-| Zhao et al. (2018), Zhao et al. (2018) | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch and groundwater PRB |
-| Zhang & Wu (2022), Zhang & Wu (2022) | TC | Nitrogen-doped rGO (N-rGO) | Trace-level single-analyte test |
-| Yao et al. (2017), Yao et al. (2017) | TC | CNF/GO hybrid aerogel | Antibiotic screen and reuse |
-| Peng et al. (2016), Peng et al. (2016) | TC within seven-drug mixture | Graphene | Synthetic seven-analyte mixture |
+| Zhu et al. (2018) | TC | GO/calcium-alginate fibers | Single-solute batch |
+| Yasmin et al. (2024) | CIP | Zn–C battery-derived GO | Single-solute batch |
+| Shaha et al. (2025) | CIP | Sulfonated GO (SGO) | Single-solute batch |
+| Dang et al. (2025) | TC | Magnetic GO/fibrillated-cellulose | Single-solute batch |
+| Dipannita et al. (2025) | TC | CMC-functionalized magnetic GO/Fe3O4 | Single-solute batch |
+| Zhu et al. (2015) | CIP | Graphene; GAC comparator | Batch and matrix tests; abstract-level |
+| Hossain et al. (2026) | CIP | GO/PVA/calcium-alginate beads | Single-solute batch |
+| Shaha et al. (2026) | CIP-containing FQ mixtures | SGO | Binary/ternary/quaternary mixtures |
+| Li et al. (2025) | CIP | PGOT@GEL hydrogel | RSM validation |
+| Ding et al. (2026) | TCH; OFL separate | Rotating-field Fe3O4/rGO | Separate single-analyte tests; preview-level |
+| Hossain et al. (2024) | TC with CTC/OTC/DTC | GO/Co–Fe magnetic composite | Four-tetracycline mixture |
+| Zhao et al. (2018) | CIP | Sodium-alginate/GO hydrogel beads; PRB | Batch and groundwater PRB |
+| Zhang & Wu (2022) | TC | Nitrogen-doped rGO (N-rGO) | Trace-level single-analyte test |
+| Yao et al. (2017) | TC | CNF/GO hybrid aerogel | Antibiotic screen and reuse |
+| Peng et al. (2016) | TC within seven-drug mixture | Graphene | Synthetic seven-analyte mixture |
 
 ## Table 1B. Conditions for the 19 experimental or test endpoints
 
@@ -50,7 +50,7 @@
 
 ## Table 1C. Experimental and source-reported endpoints
 
-| Study ID | Target / system | Metric | Value |
+| Study (author–year) | Target / system | Metric | Value |
 |---|---|---|---|
 | Zhu et al. (2018) | TC | Observed qe | 17.6 mg/g |
 | Zhu et al. (2018) | TC | Observed qe | 65.4 mg/g |
@@ -83,7 +83,7 @@
 
 ## Table 1D. Fitted isotherm-model outputs
 
-| Study ID | Model | Parameter | Value |
+| Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
 | Zhu et al. (2018) | Langmuir | qmax | 131.57 mg/g |
 | Zhu et al. (2018) | Langmuir | R² | 0.9938 |
@@ -112,7 +112,7 @@
 
 ## Table 1E. Kinetic-model outputs
 
-| Study ID | Model | Parameter | Value |
+| Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
 | Zhu et al. (2018) | PFO | Fitted qe | 40.93 mg/g |
 | Zhu et al. (2018) | PSO | Fitted qe | 62.50 mg/g |
@@ -134,7 +134,7 @@
 
 ## Table 1F(a). Recovery and regeneration method
 
-| Study ID | Separation / recovery | Regeneration medium | Cycles |
+| Study (author–year) | Separation / recovery | Regeneration medium | Cycles |
 |---|---|---|---:|
 | Zhu et al. (2018) | NR | NR | NR |
 | Yasmin et al. (2024) | NR | Methanol | 7 |
@@ -154,7 +154,7 @@
 
 ## Table 1F(b). Cycle performance and qualification
 
-| Study ID | Cycle metric | Cycle result | Qualification |
+| Study (author–year) | Cycle metric | Cycle result | Qualification |
 |---|---|---|---|
 | Zhu et al. (2018) | Reuse status | Not verified | No multicycle reuse evidence |
 | Yasmin et al. (2024) | Removal | 92% at cycle 7 | Not qe retention |
@@ -174,7 +174,7 @@
 
 ## Table 1G. Water-matrix validation
 
-| Study ID | Matrix / feed | Test type | Evidence / limitation |
+| Study (author–year) | Matrix / feed | Test type | Evidence / limitation |
 |---|---|---|---|
 | Zhu et al. (2018) | Synthetic batch | Single-solute adsorption | No real-water validation reported |
 | Yasmin et al. (2024) | Synthetic batch | Single-solute batch | No real-water trial |
@@ -194,7 +194,7 @@
 
 ## Table 1H. Preparation burden
 
-| Study ID | Precursor / feedstock | Key processing steps | Energy / drying note |
+| Study (author–year) | Precursor / feedstock | Key processing steps | Energy / drying note |
 |---|---|---|---|
 | Zhu et al. (2018) | GO + calcium alginate | Fiber formation | Freeze-drying; energy/yield not quantified |
 | Yasmin et al. (2024) | Spent Zn–C battery carbon | Acid pretreatment; GO oxidation | Energy/yield not quantified |
@@ -214,7 +214,7 @@
 
 ## Table 1I. Cost evidence
 
-| Study ID | Reported price / cost | Cost-evidence limitation |
+| Study (author–year) | Reported price / cost | Cost-evidence limitation |
 |---|---|---|
 | Zhu et al. (2018) | Not reported | No monetary cost or yield/energy inventory |
 | Yasmin et al. (2024) | Not reported | Waste precursor does not establish low total cost |
