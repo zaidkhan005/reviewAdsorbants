@@ -79,6 +79,10 @@ This repository now contains **two related but separate workstreams**. Do not co
 - No exact DOI or normalized-title match for SEM-042, SEM-043 or SEM-044 was found in any of five available Library BibTeX exports (173, 164, 164, 61 and 31 entries). These candidates are not citation-ready; no keys were guessed.
 - See [the 30 October closeout log](logs/2026-10-30-sem-042-044-and-citation-closeout.md) for source decisions, counts and repository updates.
 
+## Latest semester-manuscript production checkpoint — 2 November 2026
+
+The final production build and targeted pagination QA passed on 2 November 2026. GitHub Actions run **41428502613** built source commit `85bd3cda83e6f4f8032292e3aa4187e01ef11170`; the artifact is `13133751051`. The rendered outputs are a 31-page A4 PDF and a 39-page DOCX. Table 1A–1C now start cleanly on separate pages; Table 1C's 28 endpoint rows fit together, and the recovery component is split into readable 1F(a)/(b) panels. The current artifact remains a working draft: citation style confirmation, any separately required Supplementary Table S1 file, remaining sentence-level source-pin proof, and submission declarations/language proof are still open. See [the dated production and pagination QA log](logs/2026-11-02-final-production-build-and-pagination-qa.md).
+
 ## Current manuscript draft
 
 - `manuscript/SEMESTER_INTRODUCTION_AND_SCOPE_V1.md` — working Introduction and Scope draft with four contextual source keys; includes an editorial hold for the final reproducible search-method details.
