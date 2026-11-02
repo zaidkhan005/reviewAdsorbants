@@ -326,6 +326,8 @@ Final bibliography rendering should follow the required university or journal st
 | SEM-039 | Reuse endpoint feed NR | NR | NR | NR | After 10 cycles |
 | SEM-040 | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
 
+\newpage
+
 ## Table 1C. Experimental and source-reported endpoints
 
 | Study ID | Target / system | Metric | Value |
