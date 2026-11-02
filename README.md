@@ -284,3 +284,10 @@ The active semester bibliography is fixed at 49 selected works (SEM-035 excluded
 - Consolidated BibTeX attachment: semester-manuscript-cited-references-49-selected-plus-4-context.bib. It has 53 entries, 53 unique keys and 53 unique DOIs. SHA-256: 1409ccc252fac34e22069e5dfbe100b5f52623d7321643c22bd74321e984de2a.
 - The repository's references/semester-manuscript-cited-references.bib remains a historical 19-entry V1 snapshot and is not the bibliography for V2.
 - Citation-key reconciliation is complete. Final target-style rendering, end-to-end claim/source-pin QA, and submission formatting remain.
+
+
+## Final reader-facing author–year labels — 2 November 2026
+
+The semester manuscript and its 49-work Supplementary Table S1 identify studies by author and year rather than internal candidate IDs. Table 1 panels use the same labels. The internal SEM-### to author–year to BibTeX-key mapping is preserved in docs/SEMESTER_AUTHOR_YEAR_CROSSWALK.md.
+
+The final naming/layout build is recorded in logs/2026-11-02-author-year-label-and-final-rebuild-qa.md. GitHub Actions run 41438565195 succeeded, producing a 31-page PDF and a 39-page Word document. ACS-numbered in-text citation formatting remains provisional pending AMU/supervisor confirmation.
