@@ -120,6 +120,51 @@ def build_supplementary_s1(pandoc: str) -> None:
     docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.docx'
     pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.pdf'
     run([pandoc, str(source_md)] + common + ['--to=docx', '-o', str(docx)])
+    # Set the Word supplement to A4 and prevent individual index rows splitting
+    # across pages. Mark the compact index header for automatic repetition.
+    docx_tmp = docx.with_suffix('.tmp.docx')
+    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+    w = '{' + ns['w'] + '}'
+    with zipfile.ZipFile(docx, 'r') as source_zip, zipfile.ZipFile(docx_tmp, 'w', zipfile.ZIP_DEFLATED) as output_zip:
+        for item in source_zip.infolist():
+            payload = source_zip.read(item.filename)
+            if item.filename == 'word/document.xml':
+                root = ET.fromstring(payload)
+                for sect in root.findall('.//w:sectPr', ns):
+                    pg = sect.find('./w:pgSz', ns)
+                    if pg is None:
+                        pg = ET.SubElement(sect, w + 'pgSz')
+                    pg.set(w + 'w', '11906')
+                    pg.set(w + 'h', '16838')
+                    pg.attrib.pop(w + 'orient', None)
+                found_index = False
+                for table in root.findall('.//w:tbl', ns):
+                    header = table.find('./w:tr', ns)
+                    if header is None:
+                        continue
+                    cells = header.findall('./w:tc', ns)
+                    labels = [''.join(node.itertext()).strip() for node in cells]
+                    if labels[:3] == ['Study (author–year)', 'Target', 'Material family / role']:
+                        found_index = True
+                        for row_idx, row in enumerate(table.findall('./w:tr', ns)):
+                            trpr = row.find('./w:trPr', ns)
+                            if trpr is None:
+                                trpr = ET.Element(w + 'trPr')
+                                row.insert(0, trpr)
+                            if row_idx == 0:
+                                repeat = trpr.find('./w:tblHeader', ns)
+                                if repeat is None:
+                                    repeat = ET.SubElement(trpr, w + 'tblHeader')
+                                repeat.set(w + 'val', 'true')
+                            cant = trpr.find('./w:cantSplit', ns)
+                            if cant is None:
+                                ET.SubElement(trpr, w + 'cantSplit')
+                        break
+                if not found_index:
+                    raise SystemExit('Could not identify the S1 author-year index table for pagination controls.')
+                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+            output_zip.writestr(item, payload)
+    docx_tmp.replace(docx)
     run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
     print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
 
