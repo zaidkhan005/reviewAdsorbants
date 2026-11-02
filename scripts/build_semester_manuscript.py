@@ -47,7 +47,7 @@ def build_supplementary_s1(pandoc: str) -> None:
     labels = [row['study'] for row in data_rows]
     if len(set(labels)) != 49:
         raise SystemExit('Duplicate author-year labels detected in S1.')
-    if any(re.search(r'\\b(?:SEM|EV-SEM)-\\d{3}\\b', ' '.join(row.values())) for row in data_rows):
+    if any(re.search(r'\b(?:SEM|EV-SEM)-\d{3}\b', ' '.join(row.values())) for row in data_rows):
         raise SystemExit('Internal evidence identifiers found in reader-facing S1 data.')
 
     md = [
