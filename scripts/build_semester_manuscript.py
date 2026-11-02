@@ -76,11 +76,62 @@ def main() -> None:
         return '[' + '; '.join('@' + x for x in keys) + ']'
     md = cite_pattern.sub(cvt, md)
     # Word uses the explicit OpenXML page-break paragraphs; PDF uses LaTeX
-    # \\newpage commands. Keep one page-break mechanism per output to prevent
+    # \newpage commands. Keep one page-break mechanism per output to prevent
     # accidental blank pages in the DOCX.
     prepared_docx = OUT / 'rendered_manuscript_docx.md'
     prepared_pdf = OUT / 'rendered_manuscript_pdf.md'
-    md_docx = re.sub(r'(?m)^\\\\newpage\\s*    # Keep a concise build manifest next to the outputs.
+    md_docx = re.sub(r'(?m)^\\newpage\s*$', '', md)
+    md_pdf = re.sub(r'(?s)\x60{3}{=openxml}.*?\x60{3}', '', md)
+    prepared_docx.write_text(md_docx, encoding='utf-8')
+    prepared_pdf.write_text(md_pdf, encoding='utf-8')
+    common = [
+        '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
+        '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
+        '--resource-path=' + str(OUT), '--standalone',
+        '-V', 'papersize:a4', '-V', 'geometry:margin=22mm',
+        '-V', 'fontsize:10pt', '-V', 'mainfont:DejaVu Serif',
+        '-V', 'sansfont:DejaVu Sans', '-V', 'monofont:DejaVu Sans Mono',
+    ]
+    docx = OUT / 'SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx'
+    pdf = OUT / 'SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf'
+    run([pandoc, str(prepared_docx)] + common + ['--to=docx', '-o', str(docx)])
+    run([pandoc, str(prepared_pdf)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
+    # Keep the condition-dense Table 1B readable but compact enough to remain
+    # on one Word page after changing study labels to author-year format.
+    docx_tmp = docx.with_suffix('.tmp.docx')
+    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+    w = '{' + ns['w'] + '}'
+    found_conditions_table = False
+    with zipfile.ZipFile(docx, 'r') as source_zip, zipfile.ZipFile(docx_tmp, 'w', zipfile.ZIP_DEFLATED) as output_zip:
+        for item in source_zip.infolist():
+            payload = source_zip.read(item.filename)
+            if item.filename == 'word/document.xml':
+                root = ET.fromstring(payload)
+                for table in root.findall('.//w:tbl', ns):
+                    header = table.find('./w:tr', ns)
+                    if header is None:
+                        continue
+                    header_cells = header.findall('./w:tc', ns)
+                    header_text = [''.join(node.itertext()) for node in header_cells]
+                    if 'Initial concentration / feed' in header_text and 'Contact / test time' in header_text:
+                        for run_node in table.findall('.//w:r', ns):
+                            rpr = run_node.find('./w:rPr', ns)
+                            if rpr is None:
+                                rpr = ET.Element(w + 'rPr')
+                                run_node.insert(0, rpr)
+                            for prop in ('sz', 'szCs'):
+                                size = rpr.find('./w:' + prop, ns)
+                                if size is None:
+                                    size = ET.SubElement(rpr, w + prop)
+                                size.set(w + 'val', '18')  # 9 pt
+                        found_conditions_table = True
+                        break
+                if not found_conditions_table:
+                    raise SystemExit('Could not identify Table 1B for compact Word styling.')
+                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+            output_zip.writestr(item, payload)
+    docx_tmp.replace(docx)
+    # Keep a concise build manifest next to the outputs.
     (OUT / 'BUILD_INFO.txt').write_text(
         'Working manuscript V2 build\n'
         'Citation style: ACS Guide 2026 (provisional; confirm against AMU/supervisor requirements)\n'
