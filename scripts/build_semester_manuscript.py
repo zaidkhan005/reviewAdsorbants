@@ -80,7 +80,14 @@ def main() -> None:
     # accidental blank pages in the DOCX.
     prepared_docx = OUT / 'rendered_manuscript_docx.md'
     prepared_pdf = OUT / 'rendered_manuscript_pdf.md'
-    md_docx = re.sub(r'(?m)^\\newpage\s*    md_pdf = re.sub(r'(?s)\x60{3}{=openxml}.*?\x60{3}', '', md)
+    md_docx = re.sub(r'(?m)^\\newpage\s*$', '', md)
+    # Table 1D follows the full-page Table 1C. This OpenXML break caused an
+    # additional blank Word page, so remove it in DOCX only; PDF is unchanged.
+    md_docx = re.sub(
+        r'(?s)\n\x60{3}{=openxml}\s*<w:p><w:r><w:br w:type="page"/></w:r></w:p>\s*\x60{3}\s*(?=## Table 1D\. Fitted isotherm-model outputs)',
+        '\n',
+        md_docx,
+    )
     prepared_docx.write_text(md_docx, encoding='utf-8')
     prepared_pdf.write_text(md_pdf, encoding='utf-8')
     common = [
