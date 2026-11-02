@@ -56,3 +56,15 @@ The earlier nine-table rendering identified orphaned headings and split comparis
 ## Compact Table 1 update (31 October 2026)
 
 The main-text comparison is now divided into nine focused tables: 15 study identities; 19 condition vectors; 26 endpoint metric/value rows; 24 isotherm fit/parameter rows; 17 kinetic rows; 15 recovery rows; 15 matrix-validation rows; 15 preparation rows; and 15 cost-evidence rows. Endpoint rows contain one metric/value, while detailed caveats are retained in study-specific notes. A PDF-only page break before Table 1A is restored so the first table heading is not orphaned.
+
+## Author–year labels and final Word/PDF verification — 2 November 2026
+
+- The exported 49-row Supplementary Table S1 and every study-linked Table 1 panel use author–year labels; the internal candidate-to-citation-key mapping is retained in docs/SEMESTER_AUTHOR_YEAR_CROSSWALK.md.
+- Reader-facing exports contain no candidate IDs (SEM-###), evidence IDs (EV-SEM-###), CORP-031 or editorial “Cite with” instructions.
+- Final GitHub Actions build: run 41438565195 (success), source commit f3df2c2c3868a30fb9720e287d7836731d3edb9a, artifact ID 13138200918, digest sha256:cc6ce7cac4ac6f6bb060ce549b61f3b1d8a14c3a26758809da8726c3336ea0ee.
+- Final output: PDF 31 A4 pages; Word 39 pages.
+- Word Table 1B fits all 19 condition rows on one page at 9 pt; Table 1C fits all 28 endpoint rows on one page; the redundant Word page break before Table 1D is removed, so Table 1D starts on page 22 without a blank page. PDF table pagination remains unchanged.
+- PDF preflight passed (openable, text-searchable, unencrypted, no XFA). DOCX audit found zero high- or medium-severity issues; 53 low-severity findings are DOI links displayed as raw URLs.
+- The corrected Nguyen et al. (2024) bibliography metadata and author–year label are consistent with the publisher byline.
+- No scientific values or source caveats were changed in this formatting pass.
+
