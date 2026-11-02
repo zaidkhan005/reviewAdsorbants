@@ -291,3 +291,8 @@ The active semester bibliography is fixed at 49 selected works (SEM-035 excluded
 The semester manuscript and its 49-work Supplementary Table S1 identify studies by author and year rather than internal candidate IDs. Table 1 panels use the same labels. The internal SEM-### to author–year to BibTeX-key mapping is preserved in docs/SEMESTER_AUTHOR_YEAR_CROSSWALK.md.
 
 The final naming/layout build is recorded in logs/2026-11-02-author-year-label-and-final-rebuild-qa.md. GitHub Actions run 41438565195 succeeded, producing a 31-page PDF and a 39-page Word document. ACS-numbered in-text citation formatting remains provisional pending AMU/supervisor confirmation.
+
+
+## Standalone Supplementary Table S1 — 2 November 2026
+
+The 49-study evidence-coverage register is available as separate reader-facing Word and PDF outputs in the successful GitHub Actions artifact for run [41488999074](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41488999074). Part A is a compact author–year index; Part B separates titles, target, material family/role, source tier and numeric guardrails into labelled fields. Internal SEM/EV-SEM identifiers remain in the private project crosswalk and registers, not in the exported S1. See the appended S1 QA section in docs/SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md.
