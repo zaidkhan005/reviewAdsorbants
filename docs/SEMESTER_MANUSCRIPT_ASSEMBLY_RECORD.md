@@ -21,11 +21,17 @@
 ## Remaining production tasks
 
 1. Confirm the university or journal reference style; the current ACS Guide 2026 style is provisional. Use the curated 53-entry BibTeX source, not the legacy 19-entry V1 file.
-2. Complete the latest DOCX/PDF build incorporating the ten-panel Table 1 layout (nine lettered components, with 1F split into 1F(a)/(b)), 28 endpoint rows, left-to-right Figure 2, and explicit Word/PDF page breaks before Table 1A, Table 1D and Table 1H; inspect all rendered pages and confirm every panel is present.
-3. Verify embedded figure images and authored captions, including no footer collision, numbering and in-text cross-references, compact table-cell layout, non-orphaned table headings and readable 1F(a)/(b) columns, in the latest DOCX/PDF.
-4. Render Supplementary Table S1 separately in the required supplemental format.
-5. Complete author details, declarations, acknowledgements, funding/conflict/data availability statements and language proof.
-6. Keep all source caveats and study holds visible in the final copy.
+2. Render Supplementary Table S1 separately in the required supplemental format.
+3. Complete author details, declarations, acknowledgements, funding/conflict/data availability statements and language proof.
+4. Complete the remaining sentence-level claim/source-pin proof and final submission checklist; preserve all source caveats and study holds.
+
+## Latest successful production build — 2 November 2026
+
+- GitHub Actions run: `41428502613` — success.
+- Source commit: `85bd3cda83e6f4f8032292e3aa4187e01ef11170`.
+- Artifact ID: `13133751051`; artifact digest: `sha256:6900102c8b8daead65d312aa89f142d61da7a8fa1d3b5c62ccc2e0ddccc1cc83`.
+- Rendered output: 31-page A4 PDF and 39-page Word document.
+- The build is still a draft using ACS Guide 2026 provisionally; the required AMU/supervisor style has not yet been confirmed.
 
 ## Final Table 1 layout
 
