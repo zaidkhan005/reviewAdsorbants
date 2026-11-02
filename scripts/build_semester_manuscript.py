@@ -320,21 +320,6 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-, para_text):
-                        continue
-                    for linked in paragraphs[idx:idx + 5]:
-                        ppr = linked.find('./w:pPr', ns)
-                        if ppr is None:
-                            ppr = ET.Element(w + 'pPr')
-                            linked.insert(0, ppr)
-                        keep = ppr.find('./w:keepNext', ns)
-                        if keep is None:
-                            ET.SubElement(ppr, w + 'keepNext')
-                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
-            output_zip.writestr(item, payload)
-    docx_tmp.replace(docx)
-    run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
-    print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
 
 def main() -> None:
     for p in (SOURCE, BIB, CSL):
