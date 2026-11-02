@@ -11,10 +11,106 @@ BIB = ROOT / 'semester-manuscript-cited-references-49-selected-plus-4-context.bi
 CSL = ROOT / 'references' / 'american-chemical-society-2026.csl'
 OUT = ROOT / 'build' / 'semester-manuscript'
 FIG = OUT / 'figures'
+S1_SOURCE = ROOT / 'manuscript' / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md'
 
 def run(cmd: list[str]) -> None:
     print('+', ' '.join(cmd), flush=True)
     subprocess.run(cmd, check=True, cwd=ROOT)
+
+
+def build_supplementary_s1(pandoc: str) -> None:
+    """Build a separate S1 file with a concise index and study-wise evidence notes."""
+    if not S1_SOURCE.exists():
+        raise SystemExit(f'Missing required supplement source: {S1_SOURCE.relative_to(ROOT)}')
+    source_lines = S1_SOURCE.read_text(encoding='utf-8').splitlines()
+    data_rows = []
+    for line in source_lines:
+        if not line.startswith('|') or line.startswith('|---'):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip('|').split('|')]
+        if len(cells) != 7 or cells[0] in ('Study (author–year)', 'Study'):
+            continue
+        citation_match = re.search(r'\\cite\{([^}]+)\}', cells[6])
+        if not citation_match:
+            raise SystemExit(f'Missing citation key for S1 row: {cells[0]}')
+        data_rows.append({
+            'study': cells[0],
+            'title': cells[1],
+            'target': cells[2],
+            'material': cells[3],
+            'source': cells[4],
+            'guardrail': cells[5],
+            'key': citation_match.group(1),
+        })
+    if len(data_rows) != 49:
+        raise SystemExit(f'Expected 49 selected studies in S1, found {len(data_rows)}')
+    labels = [row['study'] for row in data_rows]
+    if len(set(labels)) != 49:
+        raise SystemExit('Duplicate author-year labels detected in S1.')
+    if any(re.search(r'\\b(?:SEM|EV-SEM)-\\d{3}\\b', ' '.join(row.values())) for row in data_rows):
+        raise SystemExit('Internal evidence identifiers found in reader-facing S1 data.')
+
+    md = [
+        '# Supplementary Table S1. Evidence coverage of the 49 selected references',
+        '',
+        '**Purpose.** This supplementary register documents the source basis and permitted evidential use of each selected reference. It is an evidence-coverage register, not a quantitative ranking. Abstract-only, preview-only, mirror-derived and internally inconsistent values are retained with explicit qualifications rather than promoted to comparable observed capacities.',
+        '',
+        '**How to read this file.** Part A provides a compact index. Part B records article titles, source-access tiers and study-specific numeric guardrails as separate labelled fields, rather than placing full paragraphs inside wide table cells. Author–year names are the reader-facing identifiers; project IDs remain in the internal audit crosswalk.',
+        '',
+        '## Part A. Selected-reference coverage index',
+        '',
+        '| Study (author–year) | Target | Material family / role |',
+        '|---|---|---|',
+    ]
+    for row in data_rows:
+        md.append(f"| {row['study']} | {row['target']} | {row['material']} |")
+    md.extend([
+        '',
+        '## Part B. Study-by-study source and evidence notes',
+        '',
+    ])
+    for idx, row in enumerate(data_rows, 1):
+        md.extend([
+            f"### {idx}. {row['study']}",
+            '',
+            f"*{row['title']}*",
+            '',
+            f"**Target:** {row['target']}",
+            '',
+            f"**Material family / role:** {row['material']}",
+            '',
+            f"**Source tier:** {row['source']}",
+            '',
+            f"**Permitted evidence use / numeric guardrail:** {row['guardrail']}",
+            '',
+            f"**Citation:** [@{row['key']}]",
+            '',
+        ])
+    md.extend([
+        '## Interpretation rules',
+        '',
+        '1. Source-reported observed qe, mass-balance-derived uptake, kinetic-model-fitted qe, fitted isotherm qmax/qm, removal percentage and column metrics are different endpoints. Do not merge or rank them without a valid common basis.',
+        '2. Ciprofloxacin (CIP) is not pooled with norfloxacin or ofloxacin. Tetracycline (TC) is not pooled with chlortetracycline, oxytetracycline or doxycycline.',
+        '3. Nguyen et al. (2024) is theory-only; Minale et al. (2020) is review/background only; Ghahremani et al. (2025) is an empirical scope-boundary near-miss and is not part of the core GO/rGO performance comparison.',
+        '4. One candidate was omitted from the active 49-work set for administrative/time reasons. This was not a scientific rejection.',
+        '5. Full candidate-level source notes, evidence IDs and detailed cautions remain in the internal project registers. They are intentionally not reproduced as reader-facing study identifiers.',
+        '',
+    ])
+    OUT.mkdir(parents=True, exist_ok=True)
+    source_md = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.md'
+    source_md.write_text('\n'.join(md), encoding='utf-8')
+    common = [
+        '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
+        '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
+        '--standalone', '-V', 'papersize:a4', '-V', 'geometry:margin=18mm',
+        '-V', 'fontsize:9.5pt', '-V', 'mainfont:DejaVu Serif',
+        '-V', 'sansfont:DejaVu Sans', '-V', 'monofont:DejaVu Sans Mono',
+    ]
+    docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.docx'
+    pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.pdf'
+    run([pandoc, str(source_md)] + common + ['--to=docx', '-o', str(docx)])
+    run([pandoc, str(source_md)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
+    print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
 
 def main() -> None:
     for p in (SOURCE, BIB, CSL):
@@ -148,6 +244,7 @@ def main() -> None:
         'DOCX/PDF require manual full-page visual review before submission.\n',
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
+    build_supplementary_s1(pandoc)
 
 if __name__ == '__main__':
     main()
