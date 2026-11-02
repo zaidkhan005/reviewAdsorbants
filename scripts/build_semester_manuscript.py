@@ -168,7 +168,18 @@ def build_supplementary_s1(pandoc: str) -> None:
                 paragraphs = body.findall('./w:p', ns) if body is not None else []
                 for idx, paragraph in enumerate(paragraphs):
                     para_text = ''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)).strip()
-                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)            output_zip.writestr(item, payload)
+                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)$', para_text):
+                        continue
+                    for linked in paragraphs[idx:idx + 5]:
+                        ppr = linked.find('./w:pPr', ns)
+                        if ppr is None:
+                            ppr = ET.Element(w + 'pPr')
+                            linked.insert(0, ppr)
+                        keep = ppr.find('./w:keepNext', ns)
+                        if keep is None:
+                            ET.SubElement(ppr, w + 'keepNext')
+                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+            output_zip.writestr(item, payload)
     docx_tmp.replace(docx)
     run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
     print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
