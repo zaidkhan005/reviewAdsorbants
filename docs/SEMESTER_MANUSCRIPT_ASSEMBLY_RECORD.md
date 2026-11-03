@@ -9,18 +9,18 @@
 - Four editable Mermaid diagrams embedded at their relevant locations in Sections 2, 3, 4 and 5.
 - Revised Table 1 inserted after the Results and Discussion section as nine lettered components, with recovery/regeneration component 1F displayed as two compact four-column panels (1F(a): separation, regenerant and cycle count; 1F(b): cycle metric, result and qualification). The result is ten visible table panels. Water-matrix evidence remains separately divided into feed, test type and limitation.
 - Supplementary Table S1 remains a separate 49-work supplement and is linked from the main text.
-- The verified 53-entry BibTeX file remains the citation source; citation-style conversion is not applied in this source assembly.
+- The verified 54-entry BibTeX file remains the citation source; it contains 49 selected works, four topical/contextual references, and one separately identified PRISMA 2020 reporting-guideline reference.
 
 ## Verified scope and citation status
 
-- 49 selected works plus four retained contextual references = 53 unique cited works.
+- 49 selected works plus four topical/contextual references plus one methods/reporting-guideline reference = 54 unique cited references.
 - 53 unique citation keys and 53 unique DOI values verified in the bibliography audit.
 - SEM-035 remains excluded by user decision; no screening or selection decision was reopened.
 - Narrative/focused search scope is preserved; this is not relabelled as systematic or PRISMA-compliant.
 
 ## Remaining production tasks
 
-1. Confirm the university or journal reference style; the current ACS Guide 2026 style is provisional. Use the curated 53-entry BibTeX source, not the legacy 19-entry V1 file.
+1. Confirm the university or journal reference style; the current ACS Guide 2026 style is provisional. Use the curated 54-entry BibTeX source, not the legacy 19-entry V1 file.
 2. Render Supplementary Table S1 separately in the required supplemental format.
 3. Complete author details, declarations, acknowledgements, funding/conflict/data availability statements and language proof.
 4. Complete the remaining sentence-level claim/source-pin proof and final submission checklist; preserve all source caveats and study holds.

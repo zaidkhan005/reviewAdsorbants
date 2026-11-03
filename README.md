@@ -45,7 +45,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - Do not rank fitted qmax against observed qe, model-fitted qe, removal percentage, or column metrics as though they were the same quantity.
 - Treat cost as unproven when no comparable process-cost inventory is reported.
 - Semester paper: journal quartiles are explicitly out of scope. Do not audit, rank, prioritise, include or exclude SEM candidates by SJR/JCR/CiteScore quartile. The shared journal-ranking audit is not an eligibility input for this workstream. Broad-review ranking rules remain separate.
-- The semester paper now has an active 49-reference selection (candidate SEM-035 excluded by user decision; SEM-041 remains an alias of SEM-026). The unified V2 manuscript cites all 49 selected works plus four retained contextual sources, for 53 distinct citations. Supplementary Table S1 maps all 49 with source tiers and permitted quantitative use; Table 1 remains a narrower condition-labelled comparison subset. A consolidated 53-entry BibTeX artifact has been generated and verified. Final style rendering, claim-by-claim source-pin QA and submission formatting remain pending.
+- The semester paper now has an active 49-reference selection (candidate SEM-035 excluded by user decision; SEM-041 remains an alias of SEM-026). The unified V2 manuscript cites 49 selected works, four topical/contextual references outside the selected set, and one PRISMA 2020 reporting-guideline reference (54 distinct references total). Supplementary Table S1 maps all 49 selected works; Table 1 remains a narrower condition-labelled comparison subset. The consolidated BibTeX artifact contains 54 entries, including the separately identified methods/reporting reference. Final style rendering, claim-by-claim source-pin QA and submission formatting remain pending.
 
 ## Current semester-paper working files
 
@@ -168,7 +168,7 @@ Current semester-paper evidence register: **46 active unique dedicated evidence 
 ## Semester manuscript — unified working draft
 
 - `manuscript/SEMESTER_MANUSCRIPT_WORKING_V1.md` — the single continuous semester-paper draft (Introduction, scope/search/evidence method, Results and Discussion, mechanism synthesis, practical feasibility and conclusions). It documents the 28 October focused discovery pass and 28–30 October source audits without claiming a systematic/PRISMA search.
-- `references/semester-manuscript-cited-references.bib` — legacy 19-entry V1 subset; do not use for the expanded V2 manuscript. The consolidated 53-entry V2 BibTeX bibliography is delivered as `semester-manuscript-cited-references-49-selected-plus-4-context.bib`.
+- `references/semester-manuscript-cited-references.bib` — legacy 19-entry V1 subset; do not use for the expanded V2 manuscript. The consolidated 54-entry V2 BibTeX bibliography is delivered as `semester-manuscript-cited-references-49-selected-plus-4-context.bib`.
 - The separate Introduction/Scope and Results/Discussion files are retained as component drafts/source history. The unified manuscript is the current integration point.
 
 
@@ -281,7 +281,7 @@ The active semester bibliography is fixed at 49 selected works (SEM-035 excluded
 - The active manuscript selection is 49 studies (SEM-035 omitted at user direction); four contextual sources outside this set are retained, giving 53 distinct works cited.
 - Unified manuscript V2 contains 53 unique in-text citation keys: 49/49 selected keys plus all four contextual keys. No unexpected keys or missing active keys were detected.
 - Supplementary Table S1 has exactly 49 selected-study rows, with a current Better BibTeX key and permitted evidence use for each selected work.
-- Consolidated BibTeX attachment: semester-manuscript-cited-references-49-selected-plus-4-context.bib. It has 53 entries, 53 unique keys and 53 unique DOIs. SHA-256: 1409ccc252fac34e22069e5dfbe100b5f52623d7321643c22bd74321e984de2a.
+- Consolidated BibTeX attachment: semester-manuscript-cited-references-49-selected-plus-4-context.bib. It has 54 entries, 54 unique keys and 54 unique DOIs. The additional entry is Page et al. (2021), cited solely for the PRISMA 2020 reporting guidance; it is not part of the selected adsorption-study set.
 - The repository's references/semester-manuscript-cited-references.bib remains a historical 19-entry V1 snapshot and is not the bibliography for V2.
 - Citation-key reconciliation is complete. Final target-style rendering, end-to-end claim/source-pin QA, and submission formatting remain.
 
