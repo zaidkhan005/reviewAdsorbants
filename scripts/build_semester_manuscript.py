@@ -209,7 +209,7 @@ def main() -> None:
     )
     md_pdf = md_pdf.replace(figure2_image.group(0), fixed_figure2, 1)
     figure2_header_tex = OUT / 'figure2_float_header.tex'
-    figure2_header_tex.write_text('\\usepackage{float}\n\\usepackage{etoolbox}\n\\AtBeginEnvironment{CSLReferences}{\\small}\n', encoding='utf-8')
+    figure2_header_tex.write_text('\\usepackage{float}\n\\usepackage{etoolbox}\n\\AtBeginEnvironment{CSLReferences}{\\fontsize{8.5pt}{9.6pt}\\selectfont}\n', encoding='utf-8')
     prepared_docx.write_text(md_docx, encoding='utf-8')
     prepared_pdf.write_text(md_pdf, encoding='utf-8')
     common = [
@@ -302,7 +302,7 @@ def main() -> None:
                             size = rpr.find('./w:' + prop, ns)
                             if size is None:
                                 size = ET.SubElement(rpr, w + prop)
-                            size.set(w + 'val', '18')  # 9 pt, references only
+                            size.set(w + 'val', '17')  # 8.5 pt, references only
                 if bibliography_paragraphs == 0:
                     raise SystemExit('Could not identify the bibliography block for compact styling.')
 
