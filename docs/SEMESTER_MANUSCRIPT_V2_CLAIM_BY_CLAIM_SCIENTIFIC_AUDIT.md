@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **89 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **92 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 89 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 92 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -420,3 +420,24 @@ The three-study synthesis in CLM-45 has been split into CLM-87–CLM-89. The act
 The older bundled CLM-45 remains as an overview and now points to the individual CLM-87–89 records. The exact DOI-matched Better BibTeX keys are: alishiriRemovalCiprofloxacinCephalexin2023; sikriGrapheneOxideLayered2025; ceylanTailoredGrapheneOxide2026.
 
 **Current claim-audit total:** 89 unique groups, CLM-01–CLM-89. The frozen 49-study set and 53-entry bibliography are unchanged.
+
+
+## Source-pin continuation pass — theory, review and material-scope boundary — 3 November 2026
+
+The three roles previously grouped in CLM-41 have now been separated into CLM-90–CLM-92. This distinguishes theoretical surface modelling, secondary review evidence and an empirical material that falls outside the approved GO/rGO definition. The active ledger now contains **92 unique claim groups**.
+
+| Claim | Study | Source pin | Permitted use and qualification |
+|---|---|---|---|
+| CLM-90 | Nguyen et al. (2024), DFT rGO surface models for CIP and TC | Official ScienceDirect publisher preview and indexed methodological snippets; Gaussian 09/PBEPBE/6-31G(d,p) computational methods. | Theory-only. The study models CIP/TC interaction with pristine and Ca²⁺-supported rGO surfaces; no experimentally manufactured adsorbent, aqueous batch test, observed qe, removal, kinetic study or measured capacity is reported. Use only as computational mechanism context; calculated interaction energies are not experimental adsorption performance. |
+| CLM-91 | Minale et al. (2020), review of graphene-based materials for tetracycline removal | Official PubMed record and publisher metadata. | Review/background only. Use for field mapping and discovery of older primary papers, and for distinguishing adsorption from photocatalytic degradation. It is not a new primary evidence row or independent replication. Quantitative claims must be traced to the original study and its own conditions. |
+| CLM-92 | Ghahremani et al. (2025), onion-peel-derived GO-like carbon nanosheets for CIP | Official Scientific Reports full text; material preparation and characterization sections. | Empirical scope-boundary near-miss. The authors identify the product as biomass-derived GO-like carbon nanosheets (CNSs) made by pyrolysis and ultrasonic exfoliation, not analytically verified GO/rGO or a selected graphene-bearing composite. Retain only as a clearly labelled near-miss illustrating the broader biomass-carbon field; exclude from core GO/rGO tables, rankings and selected-study evidence count. The exclusion is based on material identity/scope, not a judgment that the experiment is invalid. |
+
+### Role and scope rules reaffirmed
+
+- A DFT calculation on a modelled rGO surface is computational mechanism context, not an aqueous adsorption experiment.
+- A review can map literature and support conceptual framing, but its compiled numerical values must be checked against the original primary articles before quantitative use.
+- A carbon nanosheet described as GO-like is not automatically GO or rGO. Material identity must satisfy the approved scope before entering the core performance synthesis.
+
+No selected-reference membership, source value, reader-facing manuscript wording or bibliography entry changed in this pass. The older CLM-41 remains as a role/scope overview and now points to the individual CLM-90–92 records.
+
+**Current claim-audit total:** 92 unique groups, CLM-01–CLM-92. The frozen selected set remains 49 works and the bibliography remains 53 entries.
