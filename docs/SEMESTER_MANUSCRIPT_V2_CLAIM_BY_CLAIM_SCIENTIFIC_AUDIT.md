@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **52 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **61 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -198,7 +198,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 The successful build is [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154), source commit `6c6cc26c058fdf4ea113f944553ad9c87121d133`, artifact `13214429824`. The generated PDF is 47-page A4, searchable and unencrypted. The DOCX has explicit A4 portrait geometry with 22 mm margins; its LibreOffice render produced 58 A4 pages. All PDF and DOCX-render pages were visually inspected with no clipping, overlap, broken figures, or missing table content. A dedicated References heading is present in both formats.
 
-The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 52 currently audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.
+The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 61 currently audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.
 
 
 ## User-supplied full-text audit — 3 November 2026
@@ -242,3 +242,40 @@ The eight legacy placeholder citation keys in CLM-20–27 are now reconciled aga
 - Publisher/abstract source locations for the remaining records are kept in the individual CLM-48–52 source-pin fields. The source-access tier is not upgraded where full text was unavailable.
 
 **Effect on manuscript:** the current reader-facing Section 3.6.1 wording already preserves these endpoint and access qualifications. No manuscript prose, citation callout, numerical value, selection decision or bibliography entry was changed in this pass. The next source-pin pass should continue by disaggregating the multi-paper magnetic-derivative and polymer/immobilization bundles in Sections 3.6.2–3.6.3, rather than repeating completed extractions.
+
+
+## Source-pin continuation pass — magnetic and chemically modified GO/rGO — 3 November 2026
+
+The Section 3.6.2 magnetic-derivative bundle has now been separated into nine source-specific records (CLM-53–CLM-61). This expands traceability from **52 to 61 claim groups**; it does not add, remove or reclassify any selected paper.
+
+| Claim | Study | Source tier / pinpoint | Allowed use and qualification |
+|---|---|---|---|
+| CLM-53 | Yu et al. (2017), magnetic GO sponge | Official ScienceDirect abstract/preview, Crossref DOI metadata and ORCID listing; full Methods/tables access-gated. | The reported 473 mg/g is an author-described capacity, but the preview does not classify it as observed q_e or fitted q_max and provides no complete condition vector. Keep qualitative only. A third-party index's “withdrawn” label is unverified; no official publisher retraction notice or Crossref update relation was found. Do not call the paper retracted. |
+| CLM-54 | Li et al. (2018), DTPA-functionalized magnetic GO | University-hosted primary 10-page PDF: §§2.2, 2.4 and 3.2–3.9, printed pp. 151–158, including kinetic, pH, binary and ion tests; SI Tables S1–S3 unavailable. | TC and CIP PSO q_e values (294.12 and 111.73 mg/g) are fitted kinetic outputs, not measured q_e or q_max. Keep analytes separate. Freundlich is reported as the better isotherm fit; binary competition is asymmetric. Four-cycle NaOH removal >78% is not cycle-resolved TC capacity retention. No real wastewater or normalized cost evidence. |
+| CLM-55 | Bao et al. (2018), MnFe₂O₄-decorated rGO | Official PMC/Springer full-text HTML and original 8-page PDF: Methods; Fig. 4; Table 1; Fig. 5/Table 2; Fig. 6. | The ~41 mg/g condition-specific TC uptake is below the 60 mg/g feed ceiling. The 53.6 mg/g pH maximum is from a separate test. Langmuir q_m=870–1326 mg/g is fitted extrapolation and Freundlich has higher R². Preserve the acid-elution cycle-count discrepancy (Methods say three; Fig. 6 displays four post-initial values). |
+| CLM-56 | Miao et al. (2019), magnetic GO for TC-HCl, OTC and CTC | Official ScienceDirect abstract/Highlights and selected snippets; full Methods/tables access-gated. | Qualitative model and pH results only: PSO and Freundlich are reported as better fits; TC-HCl/OTC pH optimum near 3.3 and CTC differs. No numerical primary capacity or full condition vector is visible. The 141.44 mg/g value appears in a secondary review, not the accessible primary preview; do not present it as primary evidence. |
+| CLM-57 | Saya et al. (2023), magnetic guar-gum/GO/Fe₃O₄ for CIP | Official ScienceDirect and author-posted SSRN abstracts; detailed conditions/tables from third-party Scribd mirror because SSRN PDF delivery was unavailable. | 555.56 mg/g is a mirror-derived Langmuir-fitted q_max, not observed q_e. R²=.9915 in Table 2 conflicts with .9989 in prose. Baseline dose 0.5 g/L conflicts with a stated dose-response optimum of 5 g/L; isotherm dose remains unpinned. Six-cycle ~95% adsorption efficiency is not capacity retention. Hold from quantitative ranking. |
+| CLM-58 | Da Silva Bruckmann et al. (2022), magnetic GO·Fe₃O₄ for TC | Official ScienceDirect abstract/Highlights and DFT/conclusion snippets; ResearchGate indicates no full text. Partial conditions visible: 1:1 ratio, 50 mg adsorbent, C₀=1000 mg/L, pH 7, 293 K. | 531.93 mg/g is an author-reported maximum with unresolved metric class; actual volume, residual concentration and contact time are absent. At least 26.6 mL would be required at 100% removal for the implied adsorbed mass. DFT binding energy/spin data are theoretical, not uptake. Do not label Langmuir q_max or rank. |
+| CLM-59 | Lily et al. (2026), EDTA-functionalized magnetic GO for TC | Primary full-text indexed copy: Methods §2, printed pp. 2–4; Fig. 3 p. 7; Table 2/Fig. 4 p. 8; Table 3 p. 9; Fig. 6 p. 10. Authors state raw data cannot be shared. | 93.23% removal at C₀=.2 mg/L, 20 mL, dose .1 g/L, pH 5, 5 min and 25 °C implies derived q_e≈1.865 mg/g (feed ceiling 2 mg/g). PFO/PSO fitted q_e values conflict strongly with this mass balance; 25 °C Langmuir fit is weak. Eight-cycle efficiency 94→90.50% is not capacity retention. No native wastewater or independently reproduced cost. |
+| CLM-60 | Yang et al. (2017), thiourea-dioxide-reduced magnetic GO for TC | Official ScienceDirect abstract/Materials/Characterization/Conclusion snippets and PubMed record; full primary text unavailable. Secondary reviews have inconsistent/misassigned supporting reference details. | 1233 mg/g at 313 K is a primary-abstract Langmuir-fitted q_m, not observed q_e. Primary isotherm range/dose/volume/statistics unavailable. Do not attach a secondary 10 mg/L/70 g/L condition vector to the q_m. Use qualitative pH/NaCl/humic-acid context only. |
+| CLM-61 | Wang et al. (2016), magnetic chitosan-grafted GO for CIP | Official ScienceDirect abstract/Highlights and selected snippets; ResearchGate record says no full text; detailed Methods/tables unavailable. | 282.9 mg/g is Langmuir-fitted q_m, not measured q_e. The preview reports PSO kinetics and ~72% initial adsorption capacity after four uses, but exact conditions, fit statistics, regenerant and per-cycle values are absent. Do not rank as a condition-matched result or infer process affordability. |
+
+### Verified citation linkage
+
+The post-merge `Untitled +++.bib` DOI-matched export confirms the following Better BibTeX keys for the nine records. These exact keys are now present in CLM-53–61 and should not be regenerated from author names:
+
+| Candidate | Better BibTeX key |
+|---|---|
+| SEM-005 | `yuAdsorptionBehaviorsTetracycline2017` |
+| SEM-006 | `liPerformanceMagneticGraphene2018` |
+| SEM-007 | `baoAdsorptionTetracyclineReduced2018` |
+| SEM-008 | `miaoAdsorptionPerformanceTetracyclines2019` |
+| SEM-011 | `sayaAdsorptiveRemovalCiprofloxacin2023` |
+| SEM-014 | `dasilvabruckmannDFTTheoreticalExperimental2022` |
+| SEM-019 | `lilyEDTAfunctionalizedMagneticGraphene2026` |
+| SEM-021 | `yangDecontaminationTetracyclineThioureadioxidereducted2017` |
+| SEM-025 | `wangRemovalCiprofloxacinAqueous2016` |
+
+The candidate register has been updated with the six previously unstated keys for SEM-005, SEM-006, SEM-008, SEM-011, SEM-014 and SEM-021. Existing verified keys for SEM-007, SEM-019 and SEM-025 were preserved. This is key reconciliation only; it does not upgrade source access or quantitative eligibility.
+
+**Effect on manuscript:** no main-text prose, source values, selection decision or bibliography entry was changed in this pass. The reader-facing Section 3.6.2 already distinguishes fitted capacity, observed uptake and cycle efficiency; this audit adds record-level traceability and preserves access-tier limits. The next source-pin pass should disaggregate the polymer/immobilization bundle in Section 3.6.3 (CLM-39), then the multi-source claims in mechanism/process/cost sections.
