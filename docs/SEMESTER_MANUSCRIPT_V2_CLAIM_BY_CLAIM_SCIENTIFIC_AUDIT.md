@@ -405,7 +405,7 @@ Six additional preparation/recovery examples from the CLM-43 process-feasibility
 
 The candidate-specific citation keys are already present in the DOI-matched Better BibTeX crosswalk and in the CLM-81–86 entries. No manuscript text, selection decision, source value or bibliography membership was changed by this pass.
 
-**Current audit total:** 86 claim groups. The selected 49-reference set and 53-entry bibliography remain unchanged.
+**Checkpoint at 86 groups (3 November 2026):** At this stage, the selected 49-reference set and 53-entry bibliography remained unchanged.
 
 ## Source-pin continuation pass — newer engineered CIP composites — 3 November 2026
 
@@ -419,7 +419,7 @@ The three-study synthesis in CLM-45 has been split into CLM-87–CLM-89. The act
 
 The older bundled CLM-45 remains as an overview and now points to the individual CLM-87–89 records. The exact DOI-matched Better BibTeX keys are: alishiriRemovalCiprofloxacinCephalexin2023; sikriGrapheneOxideLayered2025; ceylanTailoredGrapheneOxide2026.
 
-**Current claim-audit total:** 89 unique groups, CLM-01–CLM-89. The frozen 49-study set and 53-entry bibliography are unchanged.
+**Checkpoint at 89 groups (3 November 2026):** The frozen 49-study set and 53-entry bibliography were unchanged.
 
 
 ## Source-pin continuation pass — theory, review and material-scope boundary — 3 November 2026
