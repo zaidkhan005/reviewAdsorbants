@@ -1,3 +1,9 @@
+> **HISTORICAL / SUPERSEDED — DO NOT USE FOR THE CURRENT SEMESTER MANUSCRIPT V2.**
+>
+> This ledger records the earlier biochar-focused draft and its 2026-10-29 seed claims. The active manuscript is the GO/rGO-focused V2. Its authoritative 94-claim source and citation ledger is [`data/semester-manuscript-claim-evidence-audit.csv`](../data/semester-manuscript-claim-evidence-audit.csv), supported by the [current claim-by-claim audit](../docs/SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md) and [manuscript file index](../docs/SEMESTER_MANUSCRIPT_FILE_INDEX.md). Preserve this file only as historical project provenance; do not use its old “citation pending” checklist to describe current V2 citation status.
+>
+> **Current V2 citation status (3 November 2026):** 94 claim groups; 49 selected studies; 53 bibliography entries; all 53 in-text citation keys resolve; zero missing and zero unused bibliography keys.
+
 # Claim-to-source and citation-key audit ledger
 
 **Purpose:** Keep every manuscript claim traceable from its location in prose or a table to a repository evidence ID, the original source location, the exact Zotero item / Better BibTeX citation key, and the final in-text citation and bibliography entry.
