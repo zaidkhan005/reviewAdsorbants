@@ -88,6 +88,7 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - **Visual QA:** all 59 DOCX page renders were contact-sheet reviewed; the corrected SEM-010 paragraph and dense comparison/table-note pages were inspected at full size. No clipped text, overlaps, broken figures or missing table content were observed. The PDF's 48-page layout was previously reviewed and its extracted text matches the regenerated PDF exactly.
 - **Content controls:** Table 1 remains a 15-study condition-labelled subset; Table 3 and the frozen selection each retain 49 selected works. The bibliography remains 53 unique references (49 selected + four contextual), with all 53 cited keys linked.
 - **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor confirmation. This is a formatted working draft, not a submission-ready final.
+- Detailed correction record: [Word equation formatting and final build QA log](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
 
 ## 8. User-supplied full-text audit — 3 November 2026
 
