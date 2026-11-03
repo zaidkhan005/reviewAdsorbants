@@ -56,7 +56,7 @@ The aim of this paper is to assess the adsorption behaviour and practical low-co
 4. Which proposed adsorption mechanisms are supported by primary experimental evidence and which remain author interpretations or model-based hypotheses.
 5. Whether studies provide reproducible evidence on chemical inputs, preparation energy, yield, regeneration, waste handling and normalized cost—or merely describe the material as economical or low-cost.
 
-## 2. Scope, search strategy and evidence method
+## 2. Scope and methods
 
 The approved material taxonomy and eligibility gates are summarized in Figure 1. The diagram distinguishes the two included graphene families from standalone non-graphene sorbents and keeps CIP and TC target identities separate.
 
@@ -121,11 +121,11 @@ A focused, iterative literature search was undertaken to identify original studi
 
 Relevant records were located through public web searches and by checking PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect and other publisher or biomedical-index sources. Institutional- and author-hosted copies were consulted where available. These are the sources identifiable in the retained search record, but the record does not map every query to a specific platform. It also does not document a completed search of Scopus or Web of Science. Some queries included publication-year terms to locate recent studies, but no consistent publication-date or language restriction can be confirmed. Search terms were refined as relevant material types and gaps in the evidence became clearer. The approach is therefore a focused narrative search, not an exhaustive search of bibliographic databases.
 
-### 2.3. Study selection, deduplication and source-access hierarchy
+### 2.3. Study selection, deduplication and source availability
 
 Titles, abstracts and accessible full texts were assessed against the material, antibiotic, aqueous-system and adsorption-specific criteria in Section 2.1. Studies were included in the empirical comparison only when they used an eligible graphene-based material, reported a result specific to CIP and/or TC, and provided enough experimental detail to interpret that result. Where a paper examined several antibiotics, only separable CIP- or TC-specific findings were considered. Reviews, theoretical papers and other contextual sources were used for background or mechanistic discussion, not as substitutes for empirical adsorption measurements.
 
-The final literature set comprised **49 selected works**: 46 empirical primary studies and three works used for theory, review or scope-boundary context. Four additional contextual references are cited outside this set. Duplicate records were identified by matching titles and DOIs. One duplicate entry for **Fei et al. (2016)** was consolidated, leaving 50 distinct DOI-defined works from the 51 entries in the retained shortlist. One further candidate was not retained because of the time and administrative limits of this paper; this was not a scientific exclusion. The final selection therefore contains 49 distinct works. These counts describe the retained shortlist and selected literature, not the total number of records retrieved during searching.
+The final literature set comprised **49 selected works**: 46 empirical primary studies and three works used for theory, review or scope-boundary context. Four additional contextual references are cited outside this set. Duplicate records were identified by matching titles and DOIs. One duplicate entry for **Fei et al. (2016)** was consolidated, leaving 50 distinct DOI-defined works from the 51 candidate records considered. One further candidate was not carried into the final set because of administrative and time constraints; it was not rejected on scientific grounds. The final selection therefore contains 49 distinct works. These counts describe the records considered for selection and the final literature set; they are not the total number of records retrieved during searching.
 
 The availability of source text varied. Full articles were used where accessible; information from abstracts, previews, indexed excerpts and author- or institution-hosted copies was limited to what could be checked in those sources. Unavailable experimental details were not inferred, and source inconsistencies were retained as qualifications. **Table 1** presents a condition-labelled subset of **15 studies** for which the operating conditions are sufficiently clear for comparison, while **Supplementary Table S1** describes the source basis and permitted use of all 49 selected works.
 
@@ -133,11 +133,11 @@ The availability of source text varied. Full articles were used where accessible
 
 **Figure 2. Documented deduplication and selection of the reviewed literature (PRISMA-informed; not PRISMA 2020-compliant).**
 
-*Summary of the documented deduplication and selection stages. The 51 entries are from the retained shortlist, not the total number of records retrieved by the searches. Per-source retrieval yields and complete screening and exclusion counts were not available; the figure is therefore not a PRISMA 2020 flow diagram.*
+*Summary of the documented deduplication and selection stages. The 51 candidate records shown here are the records considered for selection, not the total number retrieved by the searches. Per-source retrieval yields and complete screening and exclusion counts were not available; the figure is therefore not a PRISMA 2020 flow diagram.*
 
 ```mermaid
 flowchart LR
-    A["Focused literature search<br/>Per-source retrieval counts unavailable"] --> B["Study-selection shortlist<br/>51 candidate entries"]
+    A["Focused literature search<br/>Per-source retrieval counts unavailable"] --> B["Candidate records considered<br/>51 records"]
     B --> C["50 unique DOI-defined works<br/>Duplicate record for Fei et al. (2016) consolidated<br/>1 duplicate removed"]
     C --> D["49 selected works<br/>1 candidate not retained for administrative reasons<br/>(not a scientific exclusion)<br/>46 empirical primary + 3 context/boundary works"]
     D --> E["Table 1<br/>15-study condition-labelled subset"]
