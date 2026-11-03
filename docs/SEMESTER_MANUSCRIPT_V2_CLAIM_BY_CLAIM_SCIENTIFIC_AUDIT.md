@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **72 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **75 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 72 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 75 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -336,3 +336,26 @@ The multi-paper mechanism synthesis (CLM-42) has been expanded into seven study-
 - Lower source-access levels retain lower mechanism grades; an abstract-only source is not upgraded to direct evidence.
 
 The exact DOI-to-Better-BibTeX keys used for CLM-66–72 are already in the consolidated crosswalk and manuscript bibliography. No manuscript prose, source values, selection decision or bibliography entry was changed in this pass. The next audit segment should disaggregate the monetary examples in CLM-44 and the associated process-feasibility sources in CLM-43, keeping USD/g, USD/m², carbon-footprint intensity and cost-per-treated-volume as different functional units.
+
+
+## Source-pin continuation pass — monetary cost and environmental-denominator claims — 3 November 2026
+
+The three monetary examples previously bundled in CLM-44 have been separated into individual source claims (CLM-73–CLM-75). The central safeguard is functional-unit separation: USD/kg of adsorbent, derived USD/kg of antibiotic captured, USD/m² active-layer material, kg CO₂-eq/m², normalized kg CO₂-eq/m³ and author-reported USD/g removed are not interchangeable financial measures.
+
+| Claim | Study | Source pin | Allowed use and qualification |
+|---|---|---|---|
+| CLM-73 | Hossain et al. (2026), GO/PVA/calcium-alginate beads for CIP | Official RSC/PMC full text: synthesis §§2.2–2.4; cost/practicality §3.10, Tables 2–3 and Figs. 18–19; §3.11, Table 4/Figs. 20–21; §3.13. | The paper gives bead price USD 10–30/kg, but applies 0.1 g/L in the cost calculation while a key experimental test uses 10 g/L (100-fold higher). Derived first-charge material ratios are approximately USD 1,399–4,196/kg CIP captured using observed q_e=7.15 mg/g and USD 986–2,959/kg using fitted Langmuir q_max=10.14 mg/g. These are screening calculations, not source-reported lifecycle cost or a full treatment denominator. |
+| CLM-74 | Lemaoui et al. (2026), GO–TOPO:LevA membrane for TET | User-supplied primary Springer PDF and SI; official Springer cost/lifecycle text reports material assumptions, composition, areal loading and throughput scenario. | Active-layer material estimate is USD 2.5–6.8/m². Active-layer cradle-to-gate GWP is 14–59 kg CO₂-eq/m²; conversion to ~0.02–0.08 kg CO₂-eq/m³ assumes two years of service and ~800 m³/m² throughput, and NaOH regeneration adds ~1–3 g CO₂-eq/m³. This is a carbon footprint, not financial cost per m³ or per mass TET removed. Full module, replacement, transport, end-of-life and complete TEA are not included. |
+| CLM-75 | Saheed et al. (2026), CMC/GO beads for TC | User-supplied primary Taylor & Francis PDF (25 pp.); economic estimate/Table 8 and corresponding isotherm/batch conditions reviewed 3 Nov 2026. | The article reports USD 0.541/g bead and an author estimate of USD 1.95/g TC removed. The estimate uses linear Langmuir q_max=277.78 mg/g although Hill is the best-fitting model, and illustrates 1 g/L TC when tested C₀ only reaches 250 mg/L. Itemized prices, price year, yield and calculation worksheet are not recovered. Retain as author-reported scenario, not independently reproduced full-system TEA. |
+
+### Interpretation boundary
+
+- Bead purchase cost per kg and material-only cost per kg antibiotic captured are not the same as lifetime operating cost.
+- An areal USD/m² active-layer estimate cannot be presented as financial USD/m³ without module replacement, support, energy, pretreatment, recovery, regeneration and end-of-life accounting.
+- kg CO₂-eq/m² or kg CO₂-eq/m³ is an environmental footprint, not a monetary treatment cost.
+- Author-reported USD/g removed values remain dependent on the selected isotherm, feed concentration, sorbent dose, energy/tariff assumptions and price-year transparency.
+- No reviewed example yet provides an independently reproducible, full-system financial cost per m³ treated and per mass of antibiotic removed on a common boundary.
+
+Exact DOI-matched Better BibTeX keys for SEM-029, SEM-050 and SEM-051 are recorded in the candidate register and CLM-73–75. No bibliography entry or citation callout was changed by this pass.
+
+**Effect on manuscript:** the existing reader-facing conclusion—that the evidence supports process-burden comparison but does not establish consistently low-cost operation—remains unchanged. The next source-pin pass should continue with selected preparation/recovery/matrix examples from CLM-43, where source-specific evidence is already recorded in the feasibility matrix.
