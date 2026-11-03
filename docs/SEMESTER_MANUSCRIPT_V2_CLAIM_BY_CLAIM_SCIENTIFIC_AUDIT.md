@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **80 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **86 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 80 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 86 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -381,3 +381,28 @@ The preparation/recovery and water-matrix synthesis (CLM-43) has been expanded i
 - SEM-045 uses ultrapure DI water; SEM-039’s cited TC removal condition is incomplete; SEM-050 uses 0.45 µm prefiltered and deliberately spiked municipal wastewater; SEM-046 reports one pharmaceutical-effluent sample whose removal arithmetic conflicts with the reported percentage. These are not interchangeable matrix-validation tiers.
 
 The source-specific Better BibTeX keys already exist in the manuscript citation crosswalk and are used in CLM-76–80. No manuscript prose, source value, reference membership or bibliography entry was changed in this pass. The next continuation should focus on remaining preparation/recovery examples and the cross-study environmental/process-boundary synthesis in CLM-43, while avoiding duplicate extraction for SEM-050 and SEM-051 already covered by their individual claims.
+
+
+## Source-pin continuation pass — remaining preparation and reuse examples — 3 November 2026
+
+Six additional preparation/recovery examples from the CLM-43 process-feasibility synthesis are now recorded individually as CLM-81–CLM-86. The active claim ledger contains **86 unique claim groups**.
+
+| Claim | Study | Source pin | Allowed use and retained limitation |
+|---|---|---|---|
+| CLM-81 | Dipannita et al. (2025), CMC-functionalized magnetic GO/Fe₃O₄ for TC | Official RSC full text: Materials §§2.3–2.6 (printed pp. 35220–35222); Results §§3.2.1–3.2.4; Fig. 4/Table 2/Table 3; Table 4/Fig. 7/§3.2.8. | CMC-functionalized magnetic GO preparation includes heat treatment and long vacuum drying; magnetic separation is demonstrated. Ten methanol cycles decrease removal from ~96% to ~92%, not a cycle-resolved q_e capacity-retention series. Synthetic water only; methanol recovery/disposal, product yield, energy and full cost are unreported. |
+| CLM-82 | Hossain et al. (2026), GO/PVA/calcium-alginate beads for CIP | Official RSC/PMC full text: preparation §§2.2–2.4 and practicality/cost sections §3.10–3.13. | Beads are recovered by batch filtration/centrifugation; continuous-flow or magnetic recovery is not established. Authors describe 4–5 cycles with <25% capacity loss, but a fully matched cycle-by-cycle mass balance is not pinned. The 0.1 g/L cost dose differs 100-fold from a key 10 g/L experiment; economic implications are separately recorded in CLM-73. |
+| CLM-83 | Shaha et al. (2026), sulfonated GO in mixed fluoroquinolone systems | Official open-access ScienceDirect full article and supplement: Methods §2, Tables 1–5 and Figs. 2–12; mixture/regeneration sections. | DMF + 1 M HCl yields >97% release within 10 min and >92% capacity retention over five cycles at the mixture level. It is not CIP-specific. The article explicitly says real wastewater was not tested. Strong-acid/oxidant oxidation, sulfonation, ethanol/ether washing and solvent handling are not costed. |
+| CLM-84 | Li et al. (2025), PGOT@GEL hydrogel for CIP | Existing Library primary PDF, printed pp. 4–12; §2.6 refers to supporting information. | Multi-step phosphorus doping, TETA grafting, EDC/NHS coupling, β-cyclodextrin acrylation and hydrogel polymerization are documented. Seven methanol cycles retain about 90.53% of initial removal as reported; preserve the source's metric wording. Figure and prose disagree on whether the wastewater matrix is simulated or real. No quantified synthesis cost, yield, energy or normalized treatment cost. |
+| CLM-85 | Hossain et al. (2024), waste-battery GO/Co–Fe magnetic composite for TC | Official RSC/PMC full text: graphite recovery, improved-Hummers and Co–Fe preparation; §§2.1–2.4, §3.2 and reuse §3.2.7. | Aqua-regia cleaning, acid/oxidant GO preparation, Co/Fe salts, pH adjustment, heating, washing and drying precede magnetic separation. Methanol reuse over up to eight rounds gives an overall removal decline of ~95%→90%; no TC-specific per-cycle capacity-retention series is tabulated. Synthetic water only; no process yield, energy or normalized cost inventory. |
+| CLM-86 | Zhang and Wu (2022), N-rGO for trace antibiotics | User-supplied Wiley PDF: Methods §2.3, synthesis/characterization, Figs. 2–3, Tables 1–2, matrix and regeneration sections; existing master evidence EV-B10-004–009 reused. | Strong-acid/oxidant GO preparation, 100 W ultrasonication and ammonia-assisted hydrothermal N-doping at 180 °C for 24 h are documented. Regeneration uses 0.1 M HCl/0.1 M NaOH and DI washing; an overall ≤25% capacity decline is stated across antibiotics after up to eight cycles, not TC-specific. Ion/HA tests are simulated matrices; HA 10 mg/L reduces uptake up to 30%. The TC feed-volume/dose mass-balance problem remains; no yield, reagent recovery, energy or cost denominator is reported. |
+
+### Reuse and matrix rules reaffirmed
+
+- Removal efficiency after reuse is not capacity retention. Desorption efficiency is not adsorption capacity retention.
+- A cycle-retention figure for a mixed-antibiotic experiment must not be assigned to CIP or TC individually unless the source reports target-specific values.
+- Simulated ions/humic-acid tests and synthetic wastewater tests are not native real-water validation.
+- Immobilization, magnetic separation and monolithic recovery can improve handling but do not establish lower overall cost without process yield, energy, consumable/reagent, regeneration and loss balances.
+
+The candidate-specific citation keys are already present in the DOI-matched Better BibTeX crosswalk and in the CLM-81–86 entries. No manuscript text, selection decision, source value or bibliography membership was changed by this pass.
+
+**Current audit total:** 86 claim groups. The selected 49-reference set and 53-entry bibliography remain unchanged.
