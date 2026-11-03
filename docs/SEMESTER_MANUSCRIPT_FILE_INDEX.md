@@ -79,16 +79,15 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 ## 7. Latest verified output — 3 November 2026
 
-- Source commit: `6c6cc26c058fdf4ea113f944553ad9c87121d133`.
-- Successful GitHub Actions run: [41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154).
-- Artifact ID: `13214429824`; artifact name: `semester-manuscript-v2-acs-draft`; SHA-256: `6367e4365c9024290ab5545f25146a19c9082fca4186954fe0060f335f90e4a7`; retention expiry: 3 December 2026 at 08:22 UTC.
-- Output files: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`.
-- PDF preflight: 47 A4 pages, searchable, unencrypted.
-- DOCX page geometry: explicit A4 portrait, 22 mm margins. LibreOffice render used for visual QA: 58 A4 pages (pagination can differ by Word/LibreOffice version).
-- Both outputs contain a dedicated **References** heading. Table 1 and Table 3 begin on fresh pages.
-- All PDF pages and all rendered DOCX pages were visually inspected; no clipped text, overlap, broken figure or missing table content was found.
-- The 53-entry bibliography is 49 selected works plus four contextual works. Citation-key linkage is complete for all 53 cited works.
-
+- **Successful build:** [GitHub Actions run 41682709331](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41682709331).
+- **Source commit:** `60cffe8f58724b2755de53ca4236708896d459cd`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13253501547`; SHA-256 `00ab783d2479efc1d2e86413927fcb0a997d04441a00ea1ad690b0b69d62ad73`; created 3 November 2026 and expires 3 December 2026 at 17:19 UTC.
+- **Output files:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`.
+- **Pagination and preflight:** PDF has 48 searchable, unencrypted A4 pages. DOCX has explicit A4 portrait geometry with 22 mm margins; LibreOffice rendering produces 59 pages.
+- **Word equation correction:** the DOCX preparation step now normalizes ten double-escaped inline-math spans in the SEM-010 passages. The generated DOCX contains 308 native Office Math objects and no literal inline-math delimiters in its document XML. The PDF source and extracted PDF text are unchanged from successful run 41680138826.
+- **Visual QA:** all 59 DOCX page renders were contact-sheet reviewed; the corrected SEM-010 paragraph and dense comparison/table-note pages were inspected at full size. No clipped text, overlaps, broken figures or missing table content were observed. The PDF's 48-page layout was previously reviewed and its extracted text matches the regenerated PDF exactly.
+- **Content controls:** Table 1 remains a 15-study condition-labelled subset; Table 3 and the frozen selection each retain 49 selected works. The bibliography remains 53 unique references (49 selected + four contextual), with all 53 cited keys linked.
+- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor confirmation. This is a formatted working draft, not a submission-ready final.
 
 ## 8. User-supplied full-text audit — 3 November 2026
 
