@@ -54,9 +54,9 @@ def build_supplementary_s1(pandoc: str) -> None:
     md = [
         '# Supplementary Table S1. Evidence coverage of the 49 selected references',
         '',
-        '**Purpose.** This supplementary register documents the source basis and permitted evidential use of each selected reference. It is an evidence-coverage register, not a quantitative ranking. Abstract-only, preview-only, mirror-derived and internally inconsistent values are retained with explicit qualifications rather than promoted to comparable observed capacities.',
+        '**Purpose.** This supplement summarizes the source basis and appropriate evidential use of the 49 works discussed in the review. It is intended to support interpretation of the literature and is not a quantitative ranking. Findings available only from abstracts, previews or hosted copies, as well as values affected by source inconsistencies, are presented with appropriate qualifications.',
         '',
-        '**How to read this file.** Part A provides a compact index. Part B records article titles, source-access tiers and study-specific numeric guardrails as separate labelled fields, rather than placing full paragraphs inside wide table cells. Author–year names are the reader-facing identifiers; project IDs remain in the internal audit crosswalk.',
+        '**How to read this file.** Part A provides a compact index. Part B gives each study’s title, the type of source available and the qualifications needed to interpret its findings. These details are presented in separate labelled fields for ease of reference.',
         '',
         '## Part A. Selected-reference coverage index',
         '',
@@ -92,9 +92,7 @@ def build_supplementary_s1(pandoc: str) -> None:
         '',
         '1. Source-reported observed qe, mass-balance-derived uptake, kinetic-model-fitted qe, fitted isotherm qmax/qm, removal percentage and column metrics are different endpoints. Do not merge or rank them without a valid common basis.',
         '2. Ciprofloxacin (CIP) is not pooled with norfloxacin or ofloxacin. Tetracycline (TC) is not pooled with chlortetracycline, oxytetracycline or doxycycline.',
-        '3. Nguyen et al. (2024) is theory-only; Minale et al. (2020) is review/background only; Ghahremani et al. (2025) is an empirical scope-boundary near-miss and is not part of the core GO/rGO performance comparison.',
-        '4. One candidate was omitted from the active 49-work set for administrative/time reasons. This was not a scientific rejection.',
-        '5. Full candidate-level source notes, evidence IDs and detailed cautions remain in the internal project registers. They are intentionally not reproduced as reader-facing study identifiers.',
+        '3. Theoretical, review and scope-related references provide context only and should not be interpreted as primary quantitative evidence of GO/rGO adsorption performance.',
         '',
     ])
     OUT.mkdir(parents=True, exist_ok=True)
