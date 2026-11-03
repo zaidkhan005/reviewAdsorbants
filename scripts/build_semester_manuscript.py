@@ -12,6 +12,7 @@ CSL = ROOT / 'references' / 'american-chemical-society-2026.csl'
 OUT = ROOT / 'build' / 'semester-manuscript'
 FIG = OUT / 'figures'
 S1_SOURCE = ROOT / 'manuscript' / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md'
+S2_SOURCE = ROOT / 'manuscript' / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.md'
 
 def run(cmd: list[str]) -> None:
     print('+', ' '.join(cmd), flush=True)
@@ -184,6 +185,42 @@ def build_supplementary_s1(pandoc: str) -> None:
     run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
     print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
 
+
+def build_supplementary_s2(pandoc: str) -> None:
+    """Build the separately numbered literature-search supplement."""
+    if not S2_SOURCE.exists():
+        raise SystemExit(f'Missing required supplement source: {S2_SOURCE.relative_to(ROOT)}')
+    common = [
+        '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
+        '--standalone', '-V', 'papersize:a4', '-V', 'geometry:margin=20mm',
+        '-V', 'fontsize:10pt', '-V', 'mainfont:DejaVu Serif',
+        '-V', 'sansfont:DejaVu Sans', '-V', 'monofont:DejaVu Sans Mono',
+    ]
+    docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.docx'
+    pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.pdf'
+    run([pandoc, str(S2_SOURCE)] + common + ['--to=docx', '-o', str(docx)])
+    # Set the Word supplement to A4 so Word and PDF use the same page size.
+    docx_tmp = docx.with_suffix('.tmp.docx')
+    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+    w = '{' + ns['w'] + '}'
+    with zipfile.ZipFile(docx, 'r') as source_zip, zipfile.ZipFile(docx_tmp, 'w', zipfile.ZIP_DEFLATED) as output_zip:
+        for item in source_zip.infolist():
+            payload = source_zip.read(item.filename)
+            if item.filename == 'word/document.xml':
+                root = ET.fromstring(payload)
+                for sect in root.findall('.//w:sectPr', ns):
+                    pg = sect.find('./w:pgSz', ns)
+                    if pg is None:
+                        pg = ET.SubElement(sect, w + 'pgSz')
+                    pg.set(w + 'w', '11906')
+                    pg.set(w + 'h', '16838')
+                    pg.attrib.pop(w + 'orient', None)
+                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+            output_zip.writestr(item, payload)
+    docx_tmp.replace(docx)
+    run([pandoc, str(S2_SOURCE)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
+    print(f'Supplementary S2 built: {docx}, {pdf}', flush=True)
+
 def main() -> None:
     for p in (SOURCE, BIB, CSL):
         if not p.exists():
@@ -317,6 +354,7 @@ def main() -> None:
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
     build_supplementary_s1(pandoc)
+    build_supplementary_s2(pandoc)
 
 if __name__ == '__main__':
     main()

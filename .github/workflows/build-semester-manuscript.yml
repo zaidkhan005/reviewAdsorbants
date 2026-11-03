@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md'
+      - 'manuscript/SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.md'
       - 'manuscript/SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md'
       - 'semester-manuscript-cited-references-49-selected-plus-4-context.bib'
       - 'references/american-chemical-society-2026.csl'
