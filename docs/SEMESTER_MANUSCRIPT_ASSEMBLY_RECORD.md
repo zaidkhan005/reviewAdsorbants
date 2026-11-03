@@ -321,3 +321,14 @@ A final reader-facing check was completed for SEM-010, SEM-038, SEM-046, SEM-050
 - SEM-051: USD 1.95/g remains an author estimate with model/feed assumptions; 0.1 M versus 1.0 M regeneration discrepancy and 83.9% desorption-efficiency metric remain explicit.
 
 See the [critical scientific-hold visibility log](../logs/2026-11-03-critical-hold-visibility-check.md). This check documents unresolved source limitations; it does not resolve them.
+
+
+## Controlled language-editing pass — 4 November 2026
+
+A language-editing pass has been applied to the canonical assembled manuscript V2. It covers the abstract, Introduction, Scope and methods, Results and discussion, Mechanistic interpretation, Practical feasibility, and Conclusions. The pass improves sentence structure, grammar, clarity, and consistency and standardizes common spelling variants to American English for the provisional ACS-style working draft.
+
+No source tables, claim-ledger rows, candidate selection, bibliography records, or citation keys were edited. The 94-claim ledger remains intact; all 53 distinct citation keys remain present in the manuscript and resolve to the 53-entry bibliography; all 49 selected studies remain unchanged; and all 94 claim rows retain citation coverage in their declared manuscript section/range. The empty-base math-fragment scan remains clear.
+
+The language changes were deliberately conservative: numerical endpoints, conditions, units, source tiers, equations, limitations, and unresolved holds were preserved. See the [4 November language-editing log](../logs/2026-11-04-language-editing-pass.md).
+
+A new Word/PDF production build has been triggered by the latest manuscript source commit. Production sign-off for this language-edited version remains pending a successful build and visual QA of the refreshed DOCX/PDF renders.
