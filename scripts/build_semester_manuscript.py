@@ -321,6 +321,25 @@ def main() -> None:
         md_docx,
     )
     md_pdf = re.sub(r'(?s)\x60{3}{=openxml}.*?\x60{3}', '', md)
+    # Keep Figure 2 in the methodological position where it is introduced.
+    # Otherwise LaTeX may float this tall diagram past the start of Sections 2.4–2.5.
+    figure2_image = re.search(
+        r'!\[(Summary of the documented deduplication and selection stages\.[^\]]+)\]\(figures/figure_2\.png\)',
+        md_pdf,
+    )
+    if not figure2_image:
+        raise SystemExit('Could not locate the rendered Figure 2 image for fixed PDF placement.')
+    figure2_caption = figure2_image.group(1)
+    fixed_figure2 = (
+        r'\begin{figure}[H]' + '\n'
+        r'\centering' + '\n'
+        r'\includegraphics[width=0.96\linewidth]{figures/figure_2.png}' + '\n'
+        r'\caption{' + figure2_caption + '}' + '\n'
+        r'\end{figure}'
+    )
+    md_pdf = md_pdf.replace(figure2_image.group(0), fixed_figure2, 1)
+    figure2_header_tex = OUT / 'figure2_float_header.tex'
+    figure2_header_tex.write_text('\\usepackage{float}\n', encoding='utf-8')
     prepared_docx.write_text(md_docx, encoding='utf-8')
     prepared_pdf.write_text(md_pdf, encoding='utf-8')
     common = [
@@ -334,7 +353,7 @@ def main() -> None:
     docx = OUT / 'SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx'
     pdf = OUT / 'SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf'
     run([pandoc, str(prepared_docx)] + common + ['--to=docx', '-o', str(docx)])
-    run([pandoc, str(prepared_pdf)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
+    run([pandoc, str(prepared_pdf)] + common + ['--include-in-header', str(figure2_header_tex), '--pdf-engine=xelatex', '-o', str(pdf)])
     # Keep the condition-dense Table 1B readable but compact enough to remain
     # on one Word page after changing study labels to author-year format.
     docx_tmp = docx.with_suffix('.tmp.docx')
