@@ -236,3 +236,16 @@ Five selected papers (SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051) were re-au
 - **QA:** All 47 PDF and 59 DOCX pages were rendered and visually contact-sheet reviewed; the final bibliography pages and updated Table 3 entries were inspected at full size. All 53 manuscript citation keys resolve to the 53-entry consolidated bibliography; Table 3 and the frozen selection each retain 49 selected works.
 
 The citation style remains a provisional ACS 2026 build pending the supervisor/AMU requirement. This remains a working manuscript draft, not a submission-ready final.
+
+
+## Corrected Word equation build and output QA — 3 November 2026
+
+The latest Word/PDF production run is [GitHub Actions run 41682709331](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41682709331), completed successfully from source commit `60cffe8f58724b2755de53ca4236708896d459cd`. Artifact ID: `13253501547`; SHA-256: `00ab783d2479efc1d2e86413927fcb0a997d04441a00ea1ad690b0b69d62ad73`.
+
+A cross-format QA check had found that ten double-escaped inline-math spans in the SEM-010 explanation were visible as literal delimiters in the DOCX, even though the PDF rendered them as equations. The DOCX-only build stage now normalizes those spans before Pandoc conversion. The corrected Word file contains 308 native Office Math objects and no literal inline-math delimiters in the document XML. No PDF source, scientific data, evidence grade, selection decision or citation was changed.
+
+The regenerated PDF is 48-page A4, searchable and unencrypted. Its extracted text matches the preceding successful 48-page PDF. The corrected DOCX renders to 59 A4 pages with 22 mm margins; all 59 page images were contact-sheet reviewed, and the revised SEM-010 paragraph and the dense table/notes/reference pages were inspected at full size. No visible clipping, overlap, broken figure or missing table content was found.
+
+The selected 49-reference set and 53-entry bibliography remain unchanged. SEM-010's 99% removal, experimental kinetic `qe=78.82 mg/g`, PSO-fitted `qe=79.36 mg/g`, separate Langmuir `qm`, inferred-but-unconfirmed ~25 mg/L dose possibility and 20 mg/L versus 20 g/L source conflict remain separately qualified.
+
+**Production status:** corrected DOCX/PDF build passed. **Submission status:** still a working manuscript; AMU/supervisor citation style confirmation, remaining sentence-level source-pin coverage, language editing, author declarations and institutional checklist are outstanding. See [the detailed Word equation and build QA log](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
