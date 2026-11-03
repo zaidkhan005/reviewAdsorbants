@@ -125,3 +125,21 @@ Page et al. (2021), the PRISMA 2020 reporting-guideline paper, is added as a met
 - PDF preflight: all three PDFs openable, searchable, unencrypted and without XFA. Section-sign (`§`) leakage remains zero.
 - DOCX accessibility audit: zero high/medium findings. Low findings: 54 in manuscript and 49 in S1, all DOI hyperlinks displayed as raw URLs; S2 has no findings.
 - No extracted numerical values, source-access tiers, study-selection decisions or scientific conclusions were altered by adding the diagram.
+
+
+## Reader-facing methodology and Figure 2 consistency revision — 3 November 2026
+
+The manuscript's Methods section and standalone search supplement were revised to read as publication-facing scientific prose rather than an account of the project workflow. Date-stamped statements about when searches were logged or rerun were removed. Search concepts, sources consulted, the iterative nature of the search, and the limitations of the retained search documentation remain stated. The 14 representative query formulations remain available in Supplementary Table S2; the supplement no longer presents them as a dated activity log.
+
+Figure 2 now uses the same reader-facing author–year convention as the main manuscript. The internal candidate identifiers for the duplicate and administratively omitted candidate were removed. The duplicate is identified as **Fei et al. (2016)**. The figure and Section 2.3 distinguish the 51 candidate records considered for selection from the total number retrieved by searching; the latter is unavailable. The flow retains the 50 unique DOI-defined works and 49 selected works, including 46 empirical primary studies and three theory, review or scope-boundary roles. Four additional contextual references remain outside the selected set.
+
+The methods now explain the focused narrative search, study eligibility and selection, source availability, data extraction, endpoint separation, mechanistic-evidence limitations and the basis for assessing low-cost potential. No formal systematic-review or PRISMA 2020-compliance claim is made. The selection-flow diagram remains explicitly PRISMA-informed only.
+
+Figure 2 is fixed at its authored position in the PDF build so that it appears after Section 2.3 and before Section 2.4; the Word version retains the same reading order. The diagram and its full caption appear together on PDF page 6 and Word page 7.
+
+- Successful GitHub Actions build: [41580995762](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41580995762).
+- Source commit: `a8e58697d3bce10c5412d080a9492db6f948f840`.
+- Artifact ID: `13206246434`; digest: `sha256:f11fc14b466f2851f7aea82bf55d1a31a08fcbba3016cb74b486aaffbc94f3a4`.
+- Main manuscript: 41-page editable Word and 32-page searchable A4 PDF. Supplementary Table S1: 26-page Word and 20-page searchable A4 PDF. Supplementary Table S2: one-page Word and one-page searchable A4 PDF.
+- Main and S2 PDFs are openable, searchable, unencrypted and have no XFA. The final PDF text confirms that Figure 2 precedes Section 2.4; the flow diagram contains no internal candidate/evidence IDs, and the revised Methods/S2 text contains no date-stamped search-log chronology.
+- No extracted numerical adsorption values, source-access tiers, study inclusion decisions, scientific conclusions or bibliography records were changed by this editorial revision.
