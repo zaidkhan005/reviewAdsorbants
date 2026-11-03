@@ -1,8 +1,8 @@
 # Semester manuscript — source and version index
 
-**Index updated:** 3 November 2026  
+**Index updated:** 4 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Latest successful manuscript build source commit:** `d85ff06254dbb1a718e60769c7db87a47026d921` (manuscript source and build script; later HEAD `491bd3fc014139d1443304d34de021e35dcdd664` updates evidence ledgers only).  
+**Latest successful manuscript build source commit:** `ef2b1de98fe4d25c1a05a02bda11d504296e558d` (4 November language-edited DOCX/PDF build; later documentation-only commits do not change the built manuscript source).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -82,7 +82,7 @@ Zotero remains the reference manager; the repository bibliography is the manuscr
 | GitHub Actions build workflow | [build-semester-manuscript.yml](../.github/workflows/build-semester-manuscript.yml) |
 | Manuscript assembly record | [SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md](SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md) |
 | Claim-by-claim scientific audit | [SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md](SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md) |
-| Latest successful integrated build run | [GitHub Actions run 41676514098](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41676514098) — artifact ID `13251351229`; 47-page PDF and 59-page DOCX |
+| Latest successful integrated build run | [GitHub Actions run 41718042264](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41718042264) — artifact ID `13270582585`; 48-page PDF and 60-page DOCX |
 
 The successful Actions run above produced the integrated DOCX and PDF in its workflow artifact. These generated binary files are not stored as source files in the repository; use the run's **Artifacts** section to download them. The artifact follows GitHub Actions retention and expires after the retention window.
 
@@ -93,23 +93,26 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - Treat SEMESTER_MANUSCRIPT_WORKING_V1.md, SEMESTER_INTRODUCTION_AND_SCOPE_V1.md, SEMESTER_RESULTS_AND_DISCUSSION_V1.md, and the standalone Table 1 comparison V1 as earlier working versions, not as the latest assembled manuscript.
 - Earlier build/audit records may mention the old S1/S2 arrangement. The 3 November 2026 status update in the assembly record supersedes those production details.
 
-## 7. Latest verified output — 3 November 2026
+## 7. Latest verified output — 4 November 2026
 
-- **Successful build:** [GitHub Actions run 41691972025](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41691972025) — completed successfully.
-- **Source commit:** `a7ae064028cee61bfaefa81705148b53f7eae56f`.
-- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13258235067`; SHA-256 `c9c8516f8b3de049eb98527ed921b1d95db0e65516d15aa3fd916790ac412721`; created 3 November 2026 and expires 3 December 2026 at 18:16:53 UTC.
-- **Output files:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`.
-- **PDF pagination/preflight:** 48 searchable A4 pages, unencrypted. A4 portrait geometry with 22 mm margins.
-- **DOCX pagination/render:** A4 portrait with 22 mm margins; LibreOffice rendering produces 58 pages. The PDF and DOCX render have different pagination; the DOCX page count refers to the independent LibreOffice render.
-- **Formula rendering correction:** standalone empty-base subscript/superscript fragments in the assembled source (for example, NH₂, Fe₃O₄, Pr₆O₁₁, COO⁻ and cm³) were replaced with complete chemical math expressions. The final DOCX contains 312 native Office Math objects, zero literal `\\(`/`\\)` delimiters and no replacement-square character in its document XML. The previously affected formula pages (DOCX render pp. 17, 30, 32–34) were reinspected at full size; the empty placeholder squares are gone.
-- **Visual QA:** contact sheets for all 58 DOCX-render pages and all 48 PDF pages were reviewed. Key formula pages and the integration-edited prose/table pages were opened at full size. No obvious clipping, broken table content, missing figures or overlapping elements was seen in the reviewed renders.
-- **Content controls:** Table 2 remains a 15-study condition-labelled comparison subset; Table 3 and the frozen selection each retain 49 selected works. The bibliography remains 53 unique references (49 selected + four contextual), with all 53 manuscript citation keys resolved.
-- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor confirmation. This is a formatted working draft, not a submission-ready final.
-- **Detailed QA records:** [94-claim manuscript integration audit](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md); [Word equation/build QA](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
+- **Successful build:** [GitHub Actions run 41718042264](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41718042264).
+- **Build source commit:** `ef2b1de98fe4d25c1a05a02bda11d504296e558d`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13270582585`; SHA-256 `97a1ac75e8ea008bdb52db46c65844e9600975705c770580b9a0bad99517f538`; verified present and unexpired on 4 November 2026; expiry 3 December 2026.
+- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `6c324b976cdd0d7f777f3852cc1e3eec841e0fabb68aa2a79f9af4d430520526`.
+- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 48 searchable, unencrypted A4 pages; SHA-256 `9b14bb583f729368f11d95a705acc26b021dd3bd1fda1b278f41f27e75dbfaa2`.
+- **Formula and bibliography pagination QA:** 315 native Office Math objects; zero replacement-square/invalid-glyph paragraphs; zero literal inline-math delimiters; all 53 Word bibliography paragraphs protected with keep-lines-together. Reference 46 (`NH2-UiO-66(Zr)`) remains intact on Word page 60; page 59 ends after reference 45.
+- **Content/citation integrity:** 94 claim IDs; 49 selected works; 53 in-text citation keys and 53 bibliography entries; zero missing or unused citation keys.
+- **Visual QA:** contact sheets for all 60 Word-render pages and all 48 PDF pages were reviewed; dense/changed pages were also inspected at full size. The precise inspection scope and findings are recorded in the final QA log.
+- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor or target-journal confirmation. This remains a working draft, not a submission-ready final.
+- **Detailed records:** [final language-edited build QA](../logs/2026-11-04-language-edited-final-build-qa.md); [language-editing pass](../logs/2026-11-04-language-editing-pass.md).
 
 ## 8. User-supplied full-text audit — 3 November 2026
 
 [Open the six-PDF full-text audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md). Five uploads map to selected studies SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051. The sixth is a separate optional Kabir et al. (2024) GrGO/TC article (DOI 10.1021/acssusresmgt.4c00181), not SEM-010 and not included in the frozen 49.
 - [SEM-010 uploaded-PDF re-audit (3 November 2026)](../logs/2026-11-03-SEM-010-uploaded-pdf-reaudit.md) — direct PDF cross-check and conditional dose-basis mass-balance note.
+
+## 9. Submission readiness
+
+[Open the 4 November submission-readiness checkpoint](SEMESTER_MANUSCRIPT_SUBMISSION_READINESS_CHECKLIST.md). It separates completed production and citation checks from the author, declaration, AMU/supervisor and target-format decisions still outstanding.
 
 > **Historical file note:** `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md` is the superseded biochar-focused ledger from 29 October 2026. The active source of truth for V2 is `data/semester-manuscript-claim-evidence-audit.csv`.
