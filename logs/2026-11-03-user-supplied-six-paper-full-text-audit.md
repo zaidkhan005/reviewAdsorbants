@@ -40,3 +40,13 @@ Time test: C0=200 mg/L, 20 mL, 20 mg beads, pH 4, 120 min; removal 94.93%, deriv
 ## Selection control
 
 The five existing studies remain in the selected 49. The 53-entry bibliography and citation keys remain unchanged. Kabir et al. is not assigned a SEM ID and remains outside the selection pending a separate inclusion decision. SEM-010 is a different paper; its previously documented removal/uptake and dose-unit discrepancy is not resolved by these uploads.
+
+
+## Build and validation record — 3 November 2026
+
+- Latest successful manuscript build: GitHub Actions run [41676514098](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41676514098), artifact ID `13251351229`, source/build commit `d85ff06254dbb1a718e60769c7db87a47026d921`.
+- PDF: 47 A4 pages. DOCX: 59 pages. Bibliography uses 8.5 pt in both outputs to avoid a lone final PDF reference page.
+- PDF and DOCX were rendered for visual review; pagination and the last bibliography pages were checked. Table 3 contains 49 rows; the selected-reference set contains 49; the consolidated bibliography contains 53 entries and all 53 cited keys resolve.
+- Current main HEAD after evidence-register validation is `491bd3fc014139d1443304d34de021e35dcdd664`; this post-build commit changed the evidence and remaining-work registers, not the manuscript or build inputs.
+
+**SEM-010 identity check:** its register entry is the 2024 Heliyon study “Efficient removal of ciprofloxacin from aqueous solution using Zn-C battery derived graphene oxide enhanced by hydrogen bonding, electrostatic and π-π interaction” (DOI `10.1016/j.heliyon.2024.e33317`). None of the six uploaded PDFs maps to this paper. The separate Kabir et al. (2024) DOI `10.1021/acssusresmgt.4c00181` remains an unselected potential additional source, not SEM-010.
