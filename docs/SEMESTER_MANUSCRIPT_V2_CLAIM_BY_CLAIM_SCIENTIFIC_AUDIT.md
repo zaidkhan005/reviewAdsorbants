@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **92 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **94 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 92 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 94 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -441,3 +441,15 @@ The three roles previously grouped in CLM-41 have now been separated into CLM-90
 No selected-reference membership, source value, reader-facing manuscript wording or bibliography entry changed in this pass. The older CLM-41 remains as a role/scope overview and now points to the individual CLM-90–92 records.
 
 **Current claim-audit total:** 92 unique groups, CLM-01–CLM-92. The frozen selected set remains 49 works and the bibliography remains 53 entries.
+
+
+## Source-pin continuation pass — chitin/GO flow-through and MgO/chitosan/GO sorbents — 3 November 2026
+
+The two-study source bundle in CLM-40 has now been separated into CLM-93 and CLM-94. The active claim ledger contains **94 unique claim groups**.
+
+| Claim | Study | Source pin | Permitted use and retained qualification |
+|---|---|---|---|
+| CLM-93 | González et al. (2018), chitin/GO hybrid for CIP | Authors' institutional CONICET repository accepted manuscript: Methods §2.2 and §§2.4.1–2.4.2; batch isotherm and column/real-water sections. Final ScienceDirect publisher preview confirms Sips as best overall and real-water assessment, but not a corrected column mass. | Batch tests use 10 mg sorbent in 2 mL at pH 6.30, 25 °C and 120 rpm over C₀=4–850 mg/L. Sips is the best overall fit; secondary Langmuir q_m=282±11 mg/g for nano-GO and 73±3 mg/g for Chi:nGO 3:1 are fitted parameters, not observed q_e. The accepted manuscript states 100 g packed into a 1 cm-ID column with 1.5 cm bed height (bed volume≈1.178 cm³; implied density≈84.9 g/cm³), physically impossible. Quarantine Thomas/Yoon–Nelson q₀/τ and dynamic metrics pending corrected packing mass or author clarification; do not guess 100 mg. Real-water samples were spiked. |
+| CLM-94 | Nazraz et al. (2019), MgO/chitosan/GO nanosheets for separate CIP and norfloxacin tests | Official Springer Nature article page, PubMed abstract and publisher-hosted previews of Figs. 1–5; full Methods, numerical tables and figure captions remain subscription-gated. | Abstract reports Langmuir-fitted q_max=1111 mg/g for CIP and 1000 mg/g for norfloxacin separately, plus PSO kinetics and equilibrium times >120 min for CIP and >150 min for NOR. Previewed Langmuir regressions and pH maximum near 7 do not expose full conditions or secure analyte-to-panel mapping. Keep the analytes separate and label 1111 mg/g as fitted q_max, not observed q_e; no finite-feed mass balance, regeneration or quantified cost can be verified from preview-only evidence. |
+
+**Current claim-audit total:** 94 unique groups, CLM-01–CLM-94. The frozen selection remains 49 works and the bibliography remains 53 entries. The grouped CLM-40 record now points to CLM-93–94 rather than serving as the only source trace.
