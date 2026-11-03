@@ -62,7 +62,7 @@ This repository now contains **two related but separate workstreams**. Do not co
 - The semester candidate set is now **frozen at 50 distinct DOI-defined works**. The 51st register row, SEM-041, is a duplicate alias of SEM-026 and is not counted separately.
 - Final roles: **47 empirical primary-study references**, one theory/mechanism context study (SEM-013), one review/background reference (SEM-022), and one scope-boundary near-miss (SEM-036). The latter three are not all quantitative core studies.
 - **49/49** active selected works are integrated into the unified manuscript V2 with post-merge Better BibTeX keys. Candidate SEM-035 is excluded administratively. See `data/semester-final-49-reference-selection.csv` and `manuscript/SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md`.
-- Four contextual references from the original V1 manuscript remain outside the 49 selected works. Keeping them yields 53 distinct bibliography works; the active selected-study count remains 49.
+- Four topical/contextual references remain outside the 49 selected works, and the PRISMA 2020 reporting guideline adds one methods citation. The current bibliography therefore contains 54 distinct references; the active selected-study count remains 49.
 - No further candidate discovery is needed for the semester version. Preserve the source tiers, mass-balance holds, separate target antibiotics and metric distinctions. Do not apply journal-quartile screening to this paper.
 - Decision and next steps: `docs/SEMESTER_FINAL_50_REFERENCE_SELECTION_FREEZE.md`.
 
@@ -268,7 +268,7 @@ Correction to the 50/50 key-closure note: inspection of `Untitled +++.bib` shows
 
 ## Authoritative semester decision — 31 October 2026
 
-The user elected to finalize the semester paper with **49 active reference works**, excluding candidate SEM-035 for administrative/time reasons because its Zotero record remained incomplete. This is not a scientific rejection. The authoritative active set is `data/semester-final-49-reference-selection.csv`, frozen in `docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md`. The former 50-item freeze is superseded; its file remains as historical audit. Active composition: 46 empirical primary studies + SEM-013 theory context + SEM-022 review context + SEM-036 boundary context. Four contextual references outside this candidate set may remain, so total bibliography can be 53. Do not confuse excluded candidate SEM-035 with evidence ID EV-SEM-035, which belongs to SEM-013 and remains active. Next project phase: integrate citations across the manuscript using the active 49 keys and perform final bibliography reconciliation. No more DOI intake is required for the semester version.
+The user elected to finalize the semester paper with **49 active reference works**, excluding candidate SEM-035 for administrative/time reasons because its Zotero record remained incomplete. This is not a scientific rejection. The authoritative active set is `data/semester-final-49-reference-selection.csv`, frozen in `docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md`. The former 50-item freeze is superseded; its file remains as historical audit. Active composition: 46 empirical primary studies + SEM-013 theory context + SEM-022 review context + SEM-036 boundary context. Four contextual references outside this candidate set remain, and one PRISMA 2020 reporting-guideline citation is added; total bibliography is 54. Do not confuse excluded candidate SEM-035 with evidence ID EV-SEM-035, which belongs to SEM-013 and remains active. Next project phase: integrate citations across the manuscript using the active 49 keys and perform final bibliography reconciliation. No more DOI intake is required for the semester version.
 
 
 ## 49-reference manuscript integration — 31 October 2026
@@ -278,8 +278,8 @@ The active semester bibliography is fixed at 49 selected works (SEM-035 excluded
 
 ## Final bibliography and manuscript V2 audit — 31 October 2026
 
-- The active manuscript selection is 49 studies (SEM-035 omitted at user direction); four contextual sources outside this set are retained, giving 53 distinct works cited.
-- Unified manuscript V2 contains 53 unique in-text citation keys: 49/49 selected keys plus all four contextual keys. No unexpected keys or missing active keys were detected.
+- The active manuscript selection is 49 studies (SEM-035 omitted at user direction); four contextual sources outside this set are retained, plus one PRISMA 2020 reporting-guideline citation, giving 54 distinct works cited.
+- Unified manuscript V2 contains 54 unique in-text citation keys: 49 selected keys, four topical/contextual keys, and one PRISMA 2020 reporting-guideline key. No unexpected keys or missing active keys were detected.
 - Supplementary Table S1 has exactly 49 selected-study rows, with a current Better BibTeX key and permitted evidence use for each selected work.
 - Consolidated BibTeX attachment: semester-manuscript-cited-references-49-selected-plus-4-context.bib. It has 54 entries, 54 unique keys and 54 unique DOIs. The additional entry is Page et al. (2021), cited solely for the PRISMA 2020 reporting guidance; it is not part of the selected adsorption-study set.
 - The repository's references/semester-manuscript-cited-references.bib remains a historical 19-entry V1 snapshot and is not the bibliography for V2.
