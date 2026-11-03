@@ -92,16 +92,17 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 ## 7. Latest verified output — 3 November 2026
 
-- **Successful build:** [GitHub Actions run 41682709331](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41682709331).
-- **Source commit:** `60cffe8f58724b2755de53ca4236708896d459cd`.
-- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13253501547`; SHA-256 `00ab783d2479efc1d2e86413927fcb0a997d04441a00ea1ad690b0b69d62ad73`; created 3 November 2026 and expires 3 December 2026 at 17:19 UTC.
+- **Successful build:** [GitHub Actions run 41691972025](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41691972025) — completed successfully.
+- **Source commit:** `a7ae064028cee61bfaefa81705148b53f7eae56f`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13258235067`; SHA-256 `c9c8516f8b3de049eb98527ed921b1d95db0e65516d15aa3fd916790ac412721`; created 3 November 2026 and expires 3 December 2026 at 18:16:53 UTC.
 - **Output files:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`.
-- **Pagination and preflight:** PDF has 48 searchable, unencrypted A4 pages. DOCX has explicit A4 portrait geometry with 22 mm margins; LibreOffice rendering produces 59 pages.
-- **Word equation correction:** the DOCX preparation step now normalizes ten double-escaped inline-math spans in the SEM-010 passages. The generated DOCX contains 308 native Office Math objects and no literal inline-math delimiters in its document XML. The PDF source and extracted PDF text are unchanged from successful run 41680138826.
-- **Visual QA:** all 59 DOCX page renders were contact-sheet reviewed; the corrected SEM-010 paragraph and dense comparison/table-note pages were inspected at full size. No clipped text, overlaps, broken figures or missing table content were observed. The PDF's 48-page layout was previously reviewed and its extracted text matches the regenerated PDF exactly.
-- **Content controls:** Table 1 remains a 15-study condition-labelled subset; Table 3 and the frozen selection each retain 49 selected works. The bibliography remains 53 unique references (49 selected + four contextual), with all 53 cited keys linked.
+- **PDF pagination/preflight:** 48 searchable A4 pages, unencrypted. A4 portrait geometry with 22 mm margins.
+- **DOCX pagination/render:** A4 portrait with 22 mm margins; LibreOffice rendering produces 58 pages. The PDF and DOCX render have different pagination; the DOCX page count refers to the independent LibreOffice render.
+- **Formula rendering correction:** standalone empty-base subscript/superscript fragments in the assembled source (for example, NH₂, Fe₃O₄, Pr₆O₁₁, COO⁻ and cm³) were replaced with complete chemical math expressions. The final DOCX contains 312 native Office Math objects, zero literal `\\(`/`\\)` delimiters and no replacement-square character in its document XML. The previously affected formula pages (DOCX render pp. 17, 30, 32–34) were reinspected at full size; the empty placeholder squares are gone.
+- **Visual QA:** contact sheets for all 58 DOCX-render pages and all 48 PDF pages were reviewed. Key formula pages and the integration-edited prose/table pages were opened at full size. No obvious clipping, broken table content, missing figures or overlapping elements was seen in the reviewed renders.
+- **Content controls:** Table 2 remains a 15-study condition-labelled comparison subset; Table 3 and the frozen selection each retain 49 selected works. The bibliography remains 53 unique references (49 selected + four contextual), with all 53 manuscript citation keys resolved.
 - **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor confirmation. This is a formatted working draft, not a submission-ready final.
-- Detailed correction record: [Word equation formatting and final build QA log](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
+- **Detailed QA records:** [94-claim manuscript integration audit](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md); [Word equation/build QA](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
 
 ## 8. User-supplied full-text audit — 3 November 2026
 
