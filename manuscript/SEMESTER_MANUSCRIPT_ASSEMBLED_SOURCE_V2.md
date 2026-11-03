@@ -135,19 +135,32 @@ This is a focused literature review, not a systematic review. The documented can
 
 **Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).**
 
-*The flow reports only verified selection-register counts. Database retrieval totals and intervening PRISMA screening/eligibility counts were not retained and are therefore not inferred. The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.*
+*PRISMA-informed summary of the documented candidate-list and selection stages. The 51 entries are shortlist rows, not all records retrieved through the public-web search. One duplicate alias leaves 50 unique works; the administrative omission leaves 49 selected works. Table 1 is a 15-study subset, and four contextual references sit outside the selection. Source-level retrieval totals and formal screening/eligibility counts were not recorded; this is not a PRISMA 2020-compliant flow diagram.*
 
 ```mermaid
 flowchart TB
-    A["Focused public-web discovery and later targeted source checks<br/>Records retrieved per source: not captured"] --> B["Study-inclusion shortlist<br/>51 candidate entries"]
-    B --> C["Known duplicate DOI alias consolidated<br/>SEM-041 merged with SEM-026<br/>1 duplicate alias"]
-    C --> D["50 unique DOI-defined works"]
-    D --> E["Not retained in active semester set<br/>1 work: SEM-035<br/>Administrative/time decision — not scientific rejection"]
-    D --> F["Active semester selection<br/>49 distinct works<br/>46 empirical primary studies + 3 context/boundary roles"]
-    F --> G["Condition-labelled comparison<br/>15 studies in Table 1"]
-    F --> H["Evidence coverage of all selected works<br/>Supplementary Table S1 (49 works)"]
-    A -.-> I["Not recorded for full PRISMA accounting:<br/>records retrieved by source; title/abstract exclusions;<br/>reports sought/not retrieved; full-text exclusions by reason"]
-    F -.-> J["Four additional contextual references<br/>cited outside the active 49-work selection"]
+    subgraph Identification["Documented candidate-list stage"]
+        direction LR
+        A["Focused public-web search<br/>Source-level retrieval totals not recorded"] --> B["Study-inclusion shortlist<br/>51 candidate entries"]
+    end
+    subgraph Selection["Deduplication and active selection"]
+        direction LR
+        C["One duplicate DOI alias<br/>SEM-041 merged with SEM-026"] --> D["50 unique DOI-defined works"]
+        D --> E["1 work not retained<br/>SEM-035: administrative/time decision"]
+        D --> F["49 selected works<br/>46 empirical primary studies<br/>3 context/boundary roles"]
+    end
+    subgraph Outputs["Selected-set outputs"]
+        direction LR
+        G["Table 1<br/>15-study condition-labelled subset"]
+        H["Supplementary Table S1<br/>Evidence coverage of 49 works"]
+        I["4 additional contextual references<br/>outside the 49-work selection"]
+    end
+    B --> C
+    F --> G
+    F --> H
+    F -.-> I
+    J["Not recorded for PRISMA accounting:<br/>records retrieved per source; title/abstract exclusions;<br/>reports sought/not retrieved; full-text exclusions by reason"]
+    B -.-> J
 ```
 
 ### 2.4. Data extraction and critical evidence assessment
