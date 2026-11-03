@@ -31,3 +31,20 @@ An initial invalid build-script edit failed at syntax validation before artifact
 - SEM-010 retains the reported 99% removal, experimental kinetic `qe=78.82 mg/g`, PSO-fitted `qe=79.36 mg/g`, separate Langmuir `qm`, and the unresolved 20 mg/L versus 20 g/L source conflict. The ~25 mg/L alternative remains a derived possibility only; no source value was silently corrected.
 - ACS Guide 2026 is still provisional pending AMU/supervisor confirmation. Scientific source-pin coverage, language editing, author declarations and the institutional submission checklist remain outstanding.
 
+
+
+## Follow-up correction after full-manuscript integration — 3 November 2026
+
+The first Word math correction above addressed the earlier SEM-010 double-escaped inline expressions. The subsequent full-manuscript integration introduced other formula groups that were written as standalone empty-base subscript/superscript fragments (e.g., `\(_2\)`, `\(_4\)`, `\(_n\)`, `\(^3\)`, `\(^{-}\)`). LibreOffice displayed square placeholders for these fragments in the first integrated DOCX render.
+
+The assembled Markdown source was corrected to use complete expressions for MnFe₂O₄, TiO₂, NH₂, Fe₃O₄, Pr₆O₁₁, cm³, CO₂ and COO⁻. A post-edit scan found zero remaining empty-base fragments.
+
+**Authoritative latest production build:** [GitHub Actions run 41691972025](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41691972025), source commit `a7ae064028cee61bfaefa81705148b53f7eae56f`, successful. Artifact `semester-manuscript-v2-acs-draft`, ID `13258235067`, SHA-256 `c9c8516f8b3de049eb98527ed921b1d95db0e65516d15aa3fd916790ac412721`, expires 3 December 2026.
+
+- PDF: 48 searchable, unencrypted A4 pages.
+- DOCX: A4 portrait, 22 mm margins; LibreOffice rendering yields 58 pages.
+- Document XML: 312 native Office Math objects; no literal inline-math delimiters and no replacement-square character.
+- The formerly affected DOCX render pages 17, 30, 32, 33 and 34 were inspected at full size after correction. Contact sheets of all 58 DOCX-render pages and all 48 PDF pages were visually reviewed.
+- No obvious clipping, overlap, broken table or missing figure was seen in the reviewed pages.
+
+The 58-page DOCX render and 48-page PDF have different pagination because they are separate rendering paths. Both outputs remain working-draft production files; ACS 2026 is provisional pending AMU/supervisor confirmation and final editorial/institutional sign-off remains outstanding.
