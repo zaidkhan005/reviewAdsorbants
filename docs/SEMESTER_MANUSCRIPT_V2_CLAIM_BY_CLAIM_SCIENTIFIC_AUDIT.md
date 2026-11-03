@@ -440,7 +440,7 @@ The three roles previously grouped in CLM-41 have now been separated into CLM-90
 
 No selected-reference membership, source value, reader-facing manuscript wording or bibliography entry changed in this pass. The older CLM-41 remains as a role/scope overview and now points to the individual CLM-90–92 records.
 
-**Current claim-audit total:** 92 unique groups, CLM-01–CLM-92. The frozen selected set remains 49 works and the bibliography remains 53 entries.
+**Claim-audit milestone at this tranche:** 92 unique groups, CLM-01–CLM-92. The ledger was subsequently extended by CLM-93–CLM-94; the current total is 94. The frozen selected set remains 49 works and the bibliography remains 53 entries.
 
 
 ## Source-pin continuation pass — chitin/GO flow-through and MgO/chitosan/GO sorbents — 3 November 2026
