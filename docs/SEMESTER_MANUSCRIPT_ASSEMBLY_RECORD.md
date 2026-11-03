@@ -265,3 +265,12 @@ The final integrity sweep on 3 November 2026 confirms:
 No manuscript prose, numerical source values, study selection, or bibliography membership was modified by these audit/register updates. The latest validated Word/PDF production artifact remains run [41682709331](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41682709331); no rebuild was triggered because the manuscript source and production inputs were not changed.
 
 **Remaining before institutional submission sign-off:** confirm the citation style required by AMU/the supervisor (ACS 2026 remains provisional); complete the remaining sentence-level source-pin and editorial coverage beyond the current claim groups; perform final language editing; confirm author details, acknowledgements, funding, conflict-of-interest and data-availability declarations; and complete the AMU submission checklist. Existing scientific holds—including SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051—must remain visible and must not be silently corrected.
+
+
+## Claim-ledger CSV repair and final coverage verification — 3 November 2026
+
+The claim/evidence CSV had two structural defects: CLM-08 lacked a final closing quote, and CLM-46 contained an 11-field row in a 10-column schema. Both were repaired without changing any scientific content. Blank separator lines were removed.
+
+Read-back verification now confirms 94 claim rows with 10 columns each, CLM-01–CLM-94 contiguous and unique, zero malformed rows, and zero unbalanced quote lines. The 53 distinct source keys in the claim ledger all match the bibliography and are all cited in the assembled manuscript. The bibliography contains 53 distinct entries, all cited; no missing or unused entries were found. The frozen reference selection remains 49 unique rows.
+
+The repair affected only the evidence ledger. Manuscript prose, production source, citations and numerical results were not changed, so no Word/PDF rebuild was triggered. The [CSV integrity repair log](../logs/2026-11-03-claim-ledger-csv-integrity-repair.md) is linked from the file index.
