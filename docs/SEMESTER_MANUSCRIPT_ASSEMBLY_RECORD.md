@@ -1,3 +1,18 @@
+## Status update — 3 November 2026
+
+The production manuscript has since been revised and rebuilt. This update supersedes the earlier standalone-supplement arrangement described below.
+
+- **Canonical manuscript source:** manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md.
+- **Current integrated table numbering:** Table 1 = literature search strategy and sources (parts 1A–1B); Table 2 = the 15-study condition-labelled comparison (parts 2A–2I); Table 3 = evidence coverage for all 49 selected references.
+- **Current table sources:** manuscript/SEMESTER_TABLE_1_SEARCH_STRATEGY_SOURCE.md and manuscript/SEMESTER_TABLE_3_EVIDENCE_COVERAGE_SOURCE.md. The Table 2 panels are maintained in the assembled V2 manuscript source; SEMESTER_TABLE_1_CORE_STUDY_COMPARISON_V1.md is the earlier standalone V1 comparison source and is retained as historical context.
+- The former standalone S1 and S2 Markdown source files were removed after their content was integrated into Tables 3 and 1, respectively. There are no separate supplementary-table deliverables in the current manuscript build.
+- **Build generator:** scripts/build_semester_manuscript.py; **workflow:** .github/workflows/build-semester-manuscript.yml.
+- **Successful integrated build:** GitHub Actions run [41593950973](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41593950973), source commit 8ad688e1b355c932ff1e3f60a442fc939ade9197, artifact ID 13211670732.
+- The generated DOCX and PDF are stored in that Actions artifact rather than committed as binary files to the repository. The artifact has the normal GitHub Actions retention period.
+
+See [SEMESTER_MANUSCRIPT_FILE_INDEX.md](SEMESTER_MANUSCRIPT_FILE_INDEX.md) for the current source-of-truth links and version map.
+
+---
 # Manuscript assembly record
 
 **Assembly source:** `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md`
