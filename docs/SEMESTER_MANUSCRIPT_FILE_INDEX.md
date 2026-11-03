@@ -93,3 +93,4 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 ## 8. User-supplied full-text audit — 3 November 2026
 
 [Open the six-PDF full-text audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md). Five uploads map to selected studies SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051. The sixth is a separate optional Kabir et al. (2024) GrGO/TC article (DOI 10.1021/acssusresmgt.4c00181), not SEM-010 and not included in the frozen 49.
+- [SEM-010 uploaded-PDF re-audit (3 November 2026)](../logs/2026-11-03-SEM-010-uploaded-pdf-reaudit.md) — direct PDF cross-check and conditional dose-basis mass-balance note.
