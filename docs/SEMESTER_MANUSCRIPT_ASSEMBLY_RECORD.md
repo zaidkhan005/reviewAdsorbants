@@ -274,3 +274,19 @@ The claim/evidence CSV had two structural defects: CLM-08 lacked a final closing
 Read-back verification now confirms 94 claim rows with 10 columns each, CLM-01–CLM-94 contiguous and unique, zero malformed rows, and zero unbalanced quote lines. The 53 distinct source keys in the claim ledger all match the bibliography and are all cited in the assembled manuscript. The bibliography contains 53 distinct entries, all cited; no missing or unused entries were found. The frozen reference selection remains 49 unique rows.
 
 The repair affected only the evidence ledger. Manuscript prose, production source, citations and numerical results were not changed, so no Word/PDF rebuild was triggered. The [CSV integrity repair log](../logs/2026-11-03-claim-ledger-csv-integrity-repair.md) is linked from the file index.
+
+
+## Final 94-claim manuscript integration audit — 3 November 2026
+
+The latest integration pass compared all 94 claim-ledger records with the reader-facing manuscript. Each of the 53 distinct source keys now appears in its declared manuscript section/range; all 53 manuscript citation keys resolve to the 53-entry bibliography, with no missing or unused entries. The 49-study frozen selection is unchanged.
+
+Targeted manuscript updates:
+- Consolidated Section 3.6.4 and removed duplicated Jahan/Tekle magnetic-composite text.
+- Added source-specific mechanistic qualifications/citations for Jahan, Lemaoui and Saheed in §4.3, and cited the DFT-only rGO model study with the correct theory-only limitation in §4.5.
+- Added source citations and process-boundary examples across §§5.1–5.3, including battery-derived GO, magnetic recovery/reuse, N-rGO, alginate/MOF beads, multi-water tests, chitin/GO column hold and membrane matrix qualifications.
+- Added Lemaoui's active-layer cost source directly to §5.4, keeping USD/m² and carbon-footprint metrics separate from financial cost per m³.
+- Corrected legacy claim-ledger section labels CLM-20–CLM-27 to their actual §3.6.1–3.6.3 locations.
+
+Automated check: 94 claim rows; 53/53 keys present in their declared manuscript section/range; 53 bibliography entries and 53 cited keys; zero missing/unused citation keys; 49 unique selected references. The full findings and exact scope limits are in the [final 94-claim integration audit log](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md).
+
+These are reader-facing manuscript-source edits, so GitHub Actions run [41690681789](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41690681789) is rebuilding the Word/PDF outputs. Production sign-off remains pending artifact/pagination verification.
