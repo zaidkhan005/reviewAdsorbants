@@ -308,3 +308,16 @@ The final 94-claim integration manuscript was rebuilt after correcting the Word 
 Download copies of this verified build were generated in the current working session as `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT_integrated.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT_integrated.pdf`. The repository file index points to this build as the latest verified output.
 
 **Status:** production build and visual QA completed for this working draft. Not final submission approval: ACS 2026 remains provisional pending AMU/supervisor confirmation; final language edit, author/funding/conflict/data-availability declarations and the AMU submission checklist remain outstanding.
+
+
+## Critical scientific-hold visibility check — 3 November 2026
+
+A final reader-facing check was completed for SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051. All five holds remain explicit; none was promoted into an unqualified observed capacity, condition-matched ranking, verified native real-water result or full-system low-cost claim.
+
+- SEM-010: 99% removal, experimental (q_e=78.82) mg/g and PSO-fitted (q_e=79.36) mg/g remain separate; 20 mg/L versus 20 g/L and the unverified ~25.1 mg/L dose-basis possibility remain qualified.
+- SEM-038: TC feed ceiling versus 90.21 mg/g remains held; 1,265.82 mg/g is explicitly assigned to CLI, while TC Langmuir (q_m=662.25) mg/g remains fitted.
+- SEM-046: 8.37→2.01 mg/L gives 76.0% calculated removal versus 90.75% source-reported; body/abstract reuse percentage discrepancy remains.
+- SEM-050: prefiltered-and-spiked municipal wastewater is not called native wastewater; powder (q_e=22.7pm0.6) mg/g remains quarantined; USD/m² active-layer estimate and kg CO₂-eq footprint remain separate from financial cost per m³.
+- SEM-051: USD 1.95/g remains an author estimate with model/feed assumptions; 0.1 M versus 1.0 M regeneration discrepancy and 83.9% desorption-efficiency metric remain explicit.
+
+See the [critical scientific-hold visibility log](../logs/2026-11-03-critical-hold-visibility-check.md). This check documents unresolved source limitations; it does not resolve them.
