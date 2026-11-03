@@ -54,9 +54,9 @@ def build_table_3_content() -> str:
     md = [
         '\\newpage',
         '',
-        '\`\`\`{=openxml}',
+        '```{=openxml}',
         '<w:p><w:r><w:br w:type="page"/></w:r></w:p>',
-        '\`\`\`',
+        '```',
         '',
         '## Table 3. Evidence coverage of the 49 selected references',
         '',
@@ -318,9 +318,9 @@ def main() -> None:
         'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
         'Five Mermaid diagrams converted to embedded PNG images.\n'
         'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
-        'DOCX page geometry: A4 portrait with 22 mm margins.\\n'
-        'PDF page geometry: A4 portrait with 22 mm margins.\\n'
-        'A dedicated References heading is included in both outputs.\\n'
+        'DOCX page geometry: A4 portrait with 22 mm margins.\n'
+        'PDF page geometry: A4 portrait with 22 mm margins.\n'
+        'A dedicated References heading is included in both outputs.\n'
         'DOCX/PDF require manual full-page visual review before submission.\n',
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
