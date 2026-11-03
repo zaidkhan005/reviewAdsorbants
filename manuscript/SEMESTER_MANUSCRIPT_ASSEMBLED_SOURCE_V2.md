@@ -133,16 +133,19 @@ The review discusses **49 selected works**, comprising 46 empirical primary stud
 
 *The review discusses 49 selected works, including 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Table 1 presents 15 primary studies with condition-labelled data; Supplementary Table S1 covers all 49 selected works.*
 
-\`\`\`mermaid
-flowchart TB
-    A["Focused literature search<br/>GO, rGO and graphene-bearing composites<br/>for CIP and TC adsorption in water"]
-    A --> B["Study assessment<br/>Material suitability<br/>Antibiotic-specific adsorption results<br/>Experimental conditions and source quality"]
-    B --> C["49 selected works<br/>46 empirical primary studies<br/>3 theory, review or scope-related sources"]
-    C --> D["Table 1<br/>15 primary studies<br/>with condition-labelled data"]
-    C --> E["Supplementary Table S1<br/>Source and evidence notes<br/>for all 49 selected works"]
-    F["4 additional references<br/>Background and aqueous<br/>solution chemistry"]
+```mermaid
+flowchart LR
+    A["Focused literature search<br/>GO, rGO and selected graphene composites<br/>for CIP and TC in water"]
+    B["Study assessment<br/>Eligible material and target<br/>Adsorption-specific results<br/>Reported conditions"]
+    C["49 selected works<br/>46 empirical primary studies<br/>3 contextual sources"]
+    D["Table 1<br/>15 primary studies<br/>condition-labelled comparison"]
+    E["Supplementary Table S1<br/>Evidence notes for<br/>all 49 selected works"]
+    F["4 further references<br/>Background and aqueous<br/>solution chemistry"]
+    A --> B --> C
+    C --> D
+    C --> E
     F -.-> C
-\`\`\`
+```
 
 ### 2.4. Data extraction and critical evidence assessment
 
