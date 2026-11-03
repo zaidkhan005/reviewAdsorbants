@@ -2,7 +2,7 @@
 
 **Index updated:** 3 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Build snapshot:** generated from the latest source commit on `main`; see the linked successful Actions run below.  
+**Build source commit:** `6c6cc26c058fdf4ea113f944553ad9c87121d133` (latest successful build; subsequent main commits update audit/index records only).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -66,7 +66,7 @@ Zotero remains the reference manager; the repository bibliography is the manuscr
 | GitHub Actions build workflow | [build-semester-manuscript.yml](../.github/workflows/build-semester-manuscript.yml) |
 | Manuscript assembly record | [SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md](SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md) |
 | Claim-by-claim scientific audit | [SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md](SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md) |
-| Successful integrated build run | [GitHub Actions run 41593950973](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41593950973) |
+| Latest successful integrated build run | [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154) |
 
 The successful Actions run above produced the integrated DOCX and PDF in its workflow artifact. These generated binary files are not stored as source files in the repository; use the run's **Artifacts** section to download them. The artifact follows GitHub Actions retention and expires after the retention window.
 
@@ -76,3 +76,15 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - Use the Table 1 and Table 3 source files above for changes to their integrated content. Table 2 is currently maintained within the assembled V2 manuscript; the standalone Table 1 comparison file is the earlier V1 record.
 - Treat SEMESTER_MANUSCRIPT_WORKING_V1.md, SEMESTER_INTRODUCTION_AND_SCOPE_V1.md, SEMESTER_RESULTS_AND_DISCUSSION_V1.md, and the standalone Table 1 comparison V1 as earlier working versions, not as the latest assembled manuscript.
 - Earlier build/audit records may mention the old S1/S2 arrangement. The 3 November 2026 status update in the assembly record supersedes those production details.
+
+## 7. Latest verified output — 3 November 2026
+
+- Source commit: `6c6cc26c058fdf4ea113f944553ad9c87121d133`.
+- Successful GitHub Actions run: [41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154).
+- Artifact ID: `13214429824`; artifact name: `semester-manuscript-v2-acs-draft`; SHA-256: `6367e4365c9024290ab5545f25146a19c9082fca4186954fe0060f335f90e4a7`; retention expiry: 3 December 2026 at 08:22 UTC.
+- Output files: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`.
+- PDF preflight: 47 A4 pages, searchable, unencrypted.
+- DOCX page geometry: explicit A4 portrait, 22 mm margins. LibreOffice render used for visual QA: 58 A4 pages (pagination can differ by Word/LibreOffice version).
+- Both outputs contain a dedicated **References** heading. Table 1 and Table 3 begin on fresh pages.
+- All PDF pages and all rendered DOCX pages were visually inspected; no clipped text, overlap, broken figure or missing table content was found.
+- The 53-entry bibliography is 49 selected works plus four contextual works. Citation-key linkage is complete for all 53 cited works.

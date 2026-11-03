@@ -169,9 +169,9 @@ The final paper should continue to use *low-cost potential* as a question being 
 ## 12. Remaining work before submission
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
-- Reconcile or explicitly quarantine all HOLD claims listed above; do not silently fix source values.
+- HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
 - Complete any remaining sentence-level source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
-- Complete page-by-page visual QA of the current DOCX/PDF build, especially the new page breaks before Table 1A/1D, the 28-row endpoint table, the split recovery/matrix cells, captions, cross-references, table widths and figure legibility. Then confirm the university-required citation style (the current ACS Guide 2026 style is provisional).
+- **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
 - Do not describe the paper as a systematic review or PRISMA-compliant review unless the missing reproducible search and screening counts are reconstructed.
@@ -192,3 +192,10 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 
 **Final table readability update:** The previous seven-column recovery table has been split into two four-column panels: recovery method/cycle count and cycle metric/result/qualification. Matrix, preparation and cost evidence remain separate. Experimental endpoints are now represented as one metric/value per row (28 rows), linked to 19 test-condition rows and 15 study identity rows. Fit outputs retain separate model, parameter and value columns. The row-by-row scientific holds remain in the accompanying notes and audit; the restructuring did not change study selection or any reported numerical source value.
+
+
+## Final production QA — 3 November 2026
+
+The successful build is [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154), source commit `6c6cc26c058fdf4ea113f944553ad9c87121d133`, artifact `13214429824`. The generated PDF is 47-page A4, searchable and unencrypted. The DOCX has explicit A4 portrait geometry with 22 mm margins; its LibreOffice render produced 58 A4 pages. All PDF and DOCX-render pages were visually inspected with no clipping, overlap, broken figures, or missing table content. A dedicated References heading is present in both formats.
+
+The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 46 audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.

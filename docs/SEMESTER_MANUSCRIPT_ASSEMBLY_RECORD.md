@@ -179,3 +179,44 @@ The reader-facing manuscript source no longer contains internal study/evidence i
 - Visual review: Figure 2 appears after the selection discussion and before Section 2.4 in both manuscript formats; the diagram, caption and surrounding text are legible and consistent.
 - Reader-facing text check: no internal study/evidence identifiers or internal selection-process explanations remain in the manuscript or S1 output.
 - Citation style remains ACS Guide 2026 provisionally, pending confirmation of AMU or supervisor requirements.
+
+
+## Final pre-submission production pass — 3 November 2026
+
+The manuscript was rebuilt after correcting Word page geometry and pagination controls. These changes affect production only; no adsorption values, evidence tiers, study-selection decisions or scientific conclusions were modified.
+
+### Production corrections
+
+- The Word build now writes explicit A4 portrait page dimensions (11906 × 16838 twips) and 22 mm margins. This prevents Word from falling back to US Letter where the DOCX section geometry was previously unspecified.
+- Table 1 now begins on a new page. Table 3 also begins on a new page. Continuation pages retain table headers.
+- A dedicated **References** heading is included in both the DOCX and PDF.
+- The version index now records the current successful build and the corrected bibliography count (49 selected + four contextual = 53 unique references).
+- The remaining-work register and citation-linkage audit now reflect the completed manuscript-level citation reconciliation.
+
+### Citation reconciliation
+
+- All **49 selected references** have verified Better BibTeX keys in the frozen selection register.
+- All 49 selected keys are present in the consolidated 53-entry bibliography.
+- The assembled manuscript contains 53 unique citation keys; all 53 resolve to bibliography entries. There are no missing or unused keys.
+- This is a repository-level V2 linkage check, not an exhaustive audit of every live Zotero collection, attachment or note.
+
+### Latest successful build and visual QA
+
+- Successful GitHub Actions run: [41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154).
+- Build source commit: `6c6cc26c058fdf4ea113f944553ad9c87121d133`.
+- Artifact ID: `13214429824`; digest: `sha256:6367e4365c9024290ab5545f25146a19c9082fca4186954fe0060f335f90e4a7`; retention expires 3 December 2026 at 08:22 UTC.
+- PDF: 47 pages, A4, searchable, unencrypted.
+- DOCX: explicit A4 geometry with 22 mm margins; LibreOffice visual render produced 58 A4 pages.
+- All 47 PDF pages and all 58 DOCX-render pages were visually inspected. No clipping, overlapping objects, corrupted formulas, broken diagrams or missing table content was observed. Dense comparison tables remain legible and use separate fields for conditions, endpoints, model outputs, recovery, matrix evidence and cost caveats.
+- Table 1 and Table 3 start on separate pages. The References heading is present. The Table 3 index and all 49 study-level evidence notes are present.
+
+### Items still preventing a submission-ready freeze
+
+- The current citation style remains ACS Guide 2026 provisionally; AMU/supervisor requirements must be confirmed before a final style conversion.
+- The remaining sentence-level source-pin audit beyond the 46 current claim groups is not complete.
+- HOLD/PROVISIONAL values remain explicitly qualified or excluded from cross-study rankings. In particular, SEM-010 and SEM-038 retain unresolved source/mass-balance conflicts; SEM-050 and SEM-051 retain cost/data-basis qualifications. These are not silently “corrected.”
+- Full text/SI for SEM-047 and SEM-048 and additional cost-itemization details for SEM-051 remain desirable source improvements, not grounds to invent missing values.
+- Final author details, acknowledgements, funding, conflict-of-interest and data-availability statements, language edit and AMU submission checklist still require author/supervisor confirmation.
+- The manuscript must continue to be described as a focused narrative evidence synthesis, not as a completed systematic review or PRISMA-compliant review.
+
+**Production QA status:** complete for the 3 November 2026 build. **Scientific and institutional submission sign-off:** still pending the items above.
