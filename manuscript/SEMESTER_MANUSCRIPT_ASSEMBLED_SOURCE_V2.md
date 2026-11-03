@@ -129,7 +129,25 @@ Records were screened against the material, antibiotic, aqueous-system and adsor
 
 Source access varied across studies. Evidence was checked against accessible primary full texts where available, publisher abstracts or previews, PubMed/PMC records, indexed full-text excerpts, institutional or author-hosted manuscripts, and, in a limited number of cases, third-party mirrors. Abstract-only, preview-only and mirror-limited sources are assigned narrower evidential uses and explicit qualifications; unavailable details remain unresolved rather than being inferred. **Table 1** presents a condition-labelled subset of **15 studies** with the most usable operating-condition data, while **Supplementary Table S1** records the source basis and permitted evidence use for all 49 selected works.
 
-This is a focused literature review, not a systematic review. No formal PRISMA flow diagram is presented because the project does not contain reconciled counts of records retrieved by source, duplicates removed, title/abstract exclusions, full-text exclusions by reason and final included records. The 49-work selection should therefore not be interpreted as a PRISMA screening-flow total.
+This is a focused literature review, not a systematic review. The documented candidate/selection shortlist contains **51 candidate entries**. Consolidating the one known duplicate DOI alias (SEM-041, which is the same work as SEM-026) leaves **50 unique DOI-defined works**. SEM-035 was not carried into the active semester set for administrative/time reasons, rather than scientific rejection, leaving **49 distinct selected works**. These are candidate-register and selection counts; they are not the total number of records retrieved from all public-web sources.
+
+**Figure 2** provides a PRISMA-informed summary of these documented shortlist and selection stages. It is **not a PRISMA 2020-compliant flow diagram**. The retained search record does not provide reconciled counts of records retrieved by each source, records screened at title/abstract stage, reports sought or not retrieved, full-text reports assessed, or exclusions by reason. Those missing stages are identified as unrecorded rather than estimated. PRISMA 2020 recommends reporting the flow of records through identification, screening and eligibility, with the numbers and reasons for exclusions where available (Page et al., 2021) \\cite{pagePRISMA2020Statement2021}. Accordingly, no formal PRISMA-compliance or systematic-review claim is made.
+
+```mermaid
+flowchart TB
+    A["Focused public-web discovery and later targeted source checks<br/>Records retrieved per source: not captured"] --> B["Study-inclusion shortlist<br/>51 candidate entries"]
+    B --> C["Known duplicate DOI alias consolidated<br/>SEM-041 merged with SEM-026<br/>1 duplicate alias"]
+    C --> D["50 unique DOI-defined works"]
+    D --> E["Not retained in active semester set<br/>1 work: SEM-035<br/>Administrative/time decision — not scientific rejection"]
+    D --> F["Active semester selection<br/>49 distinct works<br/>46 empirical primary studies + 3 context/boundary roles"]
+    F --> G["Condition-labelled comparison<br/>15 studies in Table 1"]
+    F --> H["Evidence coverage of all selected works<br/>Supplementary Table S1 (49 works)"]
+    A -.-> I["Not recorded for full PRISMA accounting:<br/>records retrieved by source; title/abstract exclusions;<br/>reports sought/not retrieved; full-text exclusions by reason"]
+    F -.-> J["Four additional contextual references<br/>cited outside the active 49-work selection"]
+```
+
+**Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).** The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.
+
 
 ### 2.4. Data extraction and critical evidence assessment
 
@@ -187,9 +205,9 @@ Flow-through evidence should also be reported separately from batch adsorption. 
 
 ## 3.5. “Low-cost potential” remains a hypothesis until costs are normalized
 
-The process boundary used for the low-cost assessment is shown in Figure 2. It consolidates alternative preparation, treatment, recovery and regeneration operations reported across the studies; it is not a single standardized synthesis or treatment protocol.
+The process boundary used for the low-cost assessment is shown in Figure 3. It consolidates alternative preparation, treatment, recovery and regeneration operations reported across the studies; it is not a single standardized synthesis or treatment protocol.
 
-**Figure 2. Preparation-to-recovery process boundary for graphene-based CIP/TC adsorbents**
+**Figure 3. Preparation-to-recovery process boundary for graphene-based CIP/TC adsorbents**
 
 *Conceptual process boundary for evaluating the practical and low-cost potential of selected graphene-based adsorbents. The flow consolidates alternative preparation, treatment, recovery and regeneration operations reported across the reviewed studies; it is not a single standardized synthesis or treatment protocol.*
 
@@ -532,9 +550,9 @@ Final bibliography rendering should follow the required university or journal st
 
 ## 4. Mechanistic interpretation: multiple interactions are plausible, but rarely isolated
 
-The evidence-weighted conceptual interaction map is shown in Figure 3. Its arrows denote candidate influences; the relative contribution of each interaction remains material- and condition-dependent.
+The evidence-weighted conceptual interaction map is shown in Figure 4. Its arrows denote candidate influences; the relative contribution of each interaction remains material- and condition-dependent.
 
-**Figure 3. Candidate interaction pathways for CIP/TC adsorption on graphene-based surfaces**
+**Figure 4. Candidate interaction pathways for CIP/TC adsorption on graphene-based surfaces**
 
 *Evidence-weighted conceptual schematic of candidate interactions and transport processes in CIP/TC adsorption on GO/rGO and selected graphene-bearing composites. The diagram is not an atomistic structure and does not imply that all pathways act simultaneously or are present in every material.*
 
@@ -611,9 +629,9 @@ Kinetic and isotherm fits are descriptive models, not direct molecular evidence.
 
 ## 5. Practical feasibility: recovery advantages do not yet establish low total cost
 
-The evaluation logic used in this section is summarized in Figure 4. The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
+The evaluation logic used in this section is summarized in Figure 5. The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
 
-**Figure 4. Evidence framework for assessing practical low-cost potential**
+**Figure 5. Evidence framework for assessing practical low-cost potential**
 
 *Four linked evidence dimensions for assessing whether a graphene-based CIP/TC adsorbent has practical low-cost potential. The framework is qualitative and evidence-led; no composite receives a score or rank unless comparable data support it.*
 
