@@ -620,7 +620,7 @@ Kinetic and isotherm fits are descriptive models, not direct molecular evidence.
 
 ## 5. Practical feasibility: recovery advantages do not yet establish low total cost
 
-The evaluation logic used in this section is summarized in Figure 5. The framework does not assign unsupported scores; it requires performance, preparation, recovery and matrix evidence to converge before a low-cost conclusion is made.
+Figure 5 summarizes the factors considered when assessing low-cost potential, including adsorption performance, preparation requirements, recovery and evidence from different water matrices.
 
 **Figure 5. Evidence framework for assessing practical low-cost potential**
 
