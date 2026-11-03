@@ -90,7 +90,7 @@ def build_supplementary_s1(pandoc: str) -> None:
     md.extend([
         '## Interpretation rules',
         '',
-        '1. Source-reported observed qe, mass-balance-derived uptake, kinetic-model-fitted qe, fitted isotherm qmax/qm, removal percentage and column metrics are different endpoints. Do not merge or rank them without a valid common basis.',
+        '1. Source-reported observed \\(q_e\\), mass-balance-derived uptake, kinetic-model-fitted \\(q_e\\), fitted isotherm \\(q_{\\max}/q_m\\), removal percentage and column metrics are different endpoints. Do not merge or rank them without a valid common basis.',
         '2. Ciprofloxacin (CIP) is not pooled with norfloxacin or ofloxacin. Tetracycline (TC) is not pooled with chlortetracycline, oxytetracycline or doxycycline.',
         '3. Theoretical, review and scope-related references provide context only and should not be interpreted as primary quantitative evidence of GO/rGO adsorption performance.',
         '',
