@@ -1,31 +1,33 @@
-# Supplementary Table S2. Literature-search sources and query formulations
+# Supplementary Table S2. Search sources and representative query formulations
 
-**Purpose.** This supplement preserves the query formulations that were recorded during focused public-web discovery for the semester review. It documents the actual logged search terms and the limitations of the search record; it is not a claim of exhaustive database coverage or a reproducible systematic-review search.
+**Purpose.** This supplement lists the search strings preserved in the literature-search record and describes the sources used to locate and verify relevant papers. The search was focused and iterative. The available record is not sufficient to reconstruct an exhaustive database search or to claim a systematic-review search.
 
-## Part A. Core focused-web query formulations logged on 28 October 2026
+## Part A. Representative search formulations
 
-1. **S2-01.** `("graphene oxide" OR "reduced graphene oxide") AND ciprofloxacin AND tetracycline AND adsorption AND ("magnetic graphene composite")`
-2. **S2-02.** `graphene oxide adsorption ciprofloxacin aqueous solution primary study DOI`
-3. **S2-03.** `magnetic graphene oxide tetracycline adsorption primary study DOI`
-4. **S2-04.** `reduced graphene oxide tetracycline ciprofloxacin adsorption 2024 study`
-5. **S2-05.** `graphene polymer composite ciprofloxacin adsorption aqueous primary research`
-6. **S2-06.** `sulfonated graphene oxide ciprofloxacin adsorption 2025`
-7. **S2-07.** `graphene oxide ciprofloxacin adsorption real water wastewater study`
-8. **S2-08.** `tetracycline magnetic graphene oxide composite adsorption regeneration column study`
-9. **S2-09.** `site:PubMed.gov graphene oxide ciprofloxacin adsorption`
-10. **S2-10.** `site:PubMed.gov tetracycline graphene oxide adsorption`
-11. **S2-11.** `graphene-based tetracycline ciprofloxacin adsorption primary research 2017–2026`
+The following queries combine graphene-based material terms with the target antibiotics and adsorption-related concepts:
 
-## Part B. Later targeted query formulations logged on 31 October 2026
+1. `("graphene oxide" OR "reduced graphene oxide") AND ciprofloxacin AND tetracycline AND adsorption AND ("magnetic graphene composite")`
+2. `graphene oxide adsorption ciprofloxacin aqueous solution primary study DOI`
+3. `magnetic graphene oxide tetracycline adsorption primary study DOI`
+4. `reduced graphene oxide tetracycline ciprofloxacin adsorption 2024 study`
+5. `graphene polymer composite ciprofloxacin adsorption aqueous primary research`
+6. `sulfonated graphene oxide ciprofloxacin adsorption 2025`
+7. `graphene oxide ciprofloxacin adsorption real water wastewater study`
+8. `tetracycline magnetic graphene oxide composite adsorption regeneration column study`
 
-12. **S2-12.** `2026 graphene oxide adsorption ciprofloxacin water adsorbent magnetic composite`
-13. **S2-13.** `2026 tetracycline adsorption graphene oxide composite magnetic MOF water adsorption`
-14. **S2-14.** `2025 graphene oxide reduced graphene oxide ciprofloxacin tetracycline adsorption aqueous primary study`
+More targeted formulations were used to locate records in biomedical indexes and recent studies:
 
-A further targeted pass on 30–31 October 2026 examined magnetic GO/Co-MOF materials for TC, ZrO2–Fe3O4/GO composites for CIP, and GO/[Ni(DMG)]n composites for CIP. The available log preserves these topics and the three 31 October formulations above, but does not preserve an exact query string for every search in that later pass.
+9. `site:PubMed.gov graphene oxide ciprofloxacin adsorption`
+10. `site:PubMed.gov tetracycline graphene oxide adsorption`
+11. `graphene-based tetracycline ciprofloxacin adsorption primary research 2017–2026`
+12. `2026 graphene oxide adsorption ciprofloxacin water adsorbent magnetic composite`
+13. `2026 tetracycline adsorption graphene oxide composite magnetic MOF water adsorption`
+14. `2025 graphene oxide reduced graphene oxide ciprofloxacin tetracycline adsorption aqueous primary study`
 
-## Part C. Sources consulted and search-record limitations
+Additional searches considered magnetic GO/Co-MOF composites for TC, ZrO2–Fe3O4/GO composites for CIP, and GO/[Ni(DMG)]n composites for CIP. The retained notes do not preserve the exact query string for every targeted search.
 
-The project search and verification records identify material from PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect, other publisher records and biomedical indexes, and accessible institutional- or author-hosted copies. These are the sources represented in the records consulted or verified; the log does not establish that every query was executed independently on every named platform. The exact general search-engine/platform used for initial public-web discovery was not captured.
+## Part B. Sources consulted and limitations of the search record
 
-No completed Scopus or Web of Science search is documented. No general publication-date or language restriction was recorded. Year terms appearing in individual query formulations are topical terms and should not be interpreted as a uniform date limit. The search was iterative and focused, with later searches responding to gaps in the emerging evidence set. Candidate discovery and source verification continued after 28 October 2026, as described in Section 2.2 of the main manuscript.
+Relevant records were located or checked through PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect, other publisher and biomedical-index records, and accessible institutional- or author-hosted copies. These are the sources identifiable in the retained research record; this does not mean that every query was run on every platform. The general web-search service used for each discovery query was not consistently recorded.
+
+The available documentation does not establish that Scopus or Web of Science was searched. Year terms in some queries were used to locate recent studies, not to impose a uniform publication-date limit. No consistent date or language restriction can be confirmed. Search terms were refined as relevant material types and gaps in the evidence became clearer. The search should therefore be understood as focused and iterative, rather than exhaustive or systematic.
