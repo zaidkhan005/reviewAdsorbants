@@ -177,10 +177,10 @@ def main() -> None:
     prepared_docx = OUT / 'rendered_manuscript_docx.md'
     prepared_pdf = OUT / 'rendered_manuscript_pdf.md'
     md_docx = re.sub(r'(?m)^\\newpage\s*$', '', md)
-    # Table 1D follows the full-page Table 1C. This OpenXML break caused an
+    # Table 2D follows the full-page Table 2C. This OpenXML break caused an
     # additional blank Word page, so remove it in DOCX only; PDF is unchanged.
     md_docx = re.sub(
-        r'(?s)\n\x60{3}{=openxml}\s*<w:p><w:r><w:br w:type="page"/></w:r></w:p>\s*\x60{3}\s*(?=## Table 1D\. Fitted isotherm-model outputs)',
+        r'(?s)\n\x60{3}{=openxml}\s*<w:p><w:r><w:br w:type="page"/></w:r></w:p>\s*\x60{3}\s*(?=## Table 2D\. Fitted isotherm-model outputs)',
         '\n',
         md_docx,
     )
@@ -249,7 +249,50 @@ def main() -> None:
                         found_conditions_table = True
                         break
                 if not found_conditions_table:
-                    raise SystemExit('Could not identify Table 1B for compact Word styling.')
+                    raise SystemExit('Could not identify Table 2B for compact Word styling.')
+
+                # Keep each Table 3 study heading with its title and opening
+                # metadata so no numbered study label is stranded at a page end.
+                body = root.find('./w:body', ns)
+                paragraphs = body.findall('./w:p', ns) if body is not None else []
+                linked_study_blocks = 0
+                for idx, paragraph in enumerate(paragraphs):
+                    para_text = ''.join(
+                        node.text or '' for node in paragraph.findall('.//w:t', ns)
+                    ).strip()
+                    if not re.match(r'^\\d{1,2}\\.\\s+.+\\(\\d{4}\\)
+            output_zip.writestr(item, payload)
+    docx_tmp.replace(docx)
+    # Keep a concise build manifest next to the outputs.
+    (OUT / 'BUILD_INFO.txt').write_text(
+        'Working manuscript V2 build\n'
+        'Citation style: ACS Guide 2026 (provisional; confirm against AMU/supervisor requirements)\n'
+        'Source: manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md\n'
+        'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
+        'Five Mermaid diagrams converted to embedded PNG images.\n'
+        'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
+        'DOCX/PDF require manual full-page visual review before submission.\n',
+        encoding='utf-8')
+    print('Build complete:', docx, pdf, flush=True)
+
+if __name__ == '__main__':
+    main()
+, para_text):
+                        continue
+                    linked_study_blocks += 1
+                    # Heading, article title, target, adsorbent and source tier.
+                    for linked in paragraphs[idx:idx + 5]:
+                        ppr = linked.find('./w:pPr', ns)
+                        if ppr is None:
+                            ppr = ET.Element(w + 'pPr')
+                            linked.insert(0, ppr)
+                        keep = ppr.find('./w:keepNext', ns)
+                        if keep is None:
+                            ET.SubElement(ppr, w + 'keepNext')
+                if linked_study_blocks != 49:
+                    raise SystemExit(
+                        f'Expected to paginate 49 Table 3 study blocks, found {linked_study_blocks}.'
+                    )
                 payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
             output_zip.writestr(item, payload)
     docx_tmp.replace(docx)
