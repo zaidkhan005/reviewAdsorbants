@@ -53,3 +53,22 @@ The manuscript-source edits triggered GitHub Actions rebuild run [41690681789](h
 ## Next work
 
 After the build completes, verify the generated DOCX/PDF pagination and the edited Section 3.6.4, 4.3–4.5 and 5.1–5.4 pages. Then continue final scientific holds and editorial/institutional sign-off: supervisor/AMU citation-style confirmation, language editing, authorship/funding/conflict/data-availability declarations and the institutional submission checklist.
+
+
+## Production follow-up — formula correction and verified replacement artifact
+
+The first integrated build (run 41690681789, source commit `589f25164655dd700d1ac54adc388acf2a835451`) completed successfully, but visual inspection of its DOCX render found square placeholders for chemical notation written as standalone empty-base subscript/superscript fragments. The generated PDF did not show this defect.
+
+The source was corrected at commit `a7ae064028cee61bfaefa81705148b53f7eae56f`: chemical groups such as MnFe₂O₄, TiO₂, NH₂, Fe₃O₄, Pr₆O₁₁, CO₂ and COO⁻ are now complete math expressions. A source scan confirms zero remaining empty-base fragments.
+
+The replacement build [41691972025](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41691972025) completed successfully and uploaded artifact `semester-manuscript-v2-acs-draft`, ID `13258235067` (SHA-256 `c9c8516f8b3de049eb98527ed921b1d95db0e65516d15aa3fd916790ac412721`; expires 3 December 2026).
+
+### Final artifact QA
+
+- **PDF:** 48 searchable A4 pages, unencrypted.
+- **DOCX:** A4 portrait with 22 mm margins; LibreOffice render is 58 pages. DOCX pagination differs from the independently generated PDF page count.
+- **Word equations:** final DOCX XML contains 312 native Office Math objects, zero literal inline-math delimiters and no replacement-square character. The previously affected DOCX render pages (17, 30 and 32–34) were inspected at full size after correction; the empty placeholder squares are gone.
+- **Visual pagination:** contact sheets for all 58 DOCX-render pages and all 48 PDF pages were reviewed. Integration-edited prose/table pages and affected formula pages were inspected at full size. No obvious clipped text, overlapping objects, broken figures or missing table content was seen in the reviewed pages.
+- **Content reconciliation:** the 94-claim ledger, 49-study frozen selection, 53-entry bibliography and zero-missing/zero-unused citation mapping remain unchanged.
+
+This verifies the integrated working outputs, not final institutional submission readiness. ACS 2026 remains provisional until AMU/supervisor requirements are confirmed; final language editing, author declarations and institutional checklist remain outstanding.
