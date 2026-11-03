@@ -135,7 +135,7 @@ The availability of source text varied. Full articles were used where accessible
 
 *Summary of the documented deduplication and selection stages. The 51 entries are from the retained shortlist, not the total number of records retrieved by the searches. Per-source retrieval yields and complete screening and exclusion counts were not available; the figure is therefore not a PRISMA 2020 flow diagram.*
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
     A["Focused literature search<br/>Per-source retrieval counts unavailable"] --> B["Study-selection shortlist<br/>51 candidate entries"]
     B --> C["50 unique DOI-defined works<br/>Duplicate record for Fei et al. (2016) consolidated<br/>1 duplicate removed"]
@@ -144,19 +144,19 @@ flowchart LR
     D --> F["Supplementary Table S1<br/>Evidence coverage of all 49 selected works"]
     D -.-> G["4 additional contextual references<br/>outside the selected 49"]
     B -.-> H["Not available for complete PRISMA accounting:<br/>per-source retrieval totals; title/abstract screening counts;<br/>reports sought/not retrieved; full-text exclusions by reason"]
-\`\`\`
+```
 
 ### 2.4. Data extraction and critical evidence assessment
 
 Information was extracted from each selected study using a structured record. Where reported, this included the material composition and preparation method; target antibiotic; water matrix; initial concentration; adsorbent dose and solution volume; pH; contact or equilibrium time; temperature; competing solutes; adsorption measurements; kinetic and isotherm results; mechanistic observations; regeneration and reuse; and process- or cost-related information. For numerical results, the relevant page, section, table, figure or equation was noted whenever it could be located. Missing conditions, unavailable supporting information and inconsistencies within a source were recorded as limitations rather than filled by assumption.
 
-Different adsorption endpoints were kept separate. These included experimentally observed uptake, uptake calculated from a reported mass balance, kinetic-model-fitted uptake, fitted isotherm capacity, percentage removal and column or breakthrough measures. They were not pooled or ranked unless their definitions and experimental conditions were sufficiently comparable. Mechanistic claims were assessed in light of the evidence used to support them: spectroscopy and surface characterization, controlled pH or competition tests, microscopy or probe experiments, computational calculations and author interpretation provide different levels of evidence. A pseudo-second-order fit alone does not establish chemisorption, a Langmuir fit alone does not prove a homogeneous monolayer, and a calculated interaction energy does not quantify the co### 2.5. Quantitative synthesis and low-cost assessment
+Different adsorption endpoints were kept separate. These included experimentally observed uptake, uptake calculated from a reported mass balance, kinetic-model-fitted uptake, fitted isotherm capacity, percentage removal and column or breakthrough measures. They were not pooled or ranked unless their definitions and experimental conditions were sufficiently comparable. Mechanistic claims were assessed in light of the evidence used to support them: spectroscopy and surface characterization, controlled pH or competition tests, microscopy or probe experiments, computational calculations and author interpretation provide different levels of evidence. A pseudo-second-order fit alone does not establish chemisorption, a Langmuir fit alone does not prove a homogeneous monolayer, and a calculated interaction energy does not quantify the contribution of a binding interaction in water.
+
+### 2.5. Quantitative synthesis and low-cost assessment
 
 The results were synthesized descriptively and compared with the experimental conditions attached to each reported value. Observed equilibrium uptake (\(q_e\)), time-specific uptake (\(q_t\)), mass-balance-derived uptake, kinetic-model-fitted uptake, fitted isotherm capacity (\(q_{\max}\) or \(q_m\)), percentage removal and column or breakthrough measures were treated as separate endpoints. No universal capacity ranking was constructed from these different measures. Single-solute experiments were distinguished from multicomponent tests, and synthetic water, synthetic urine, spiked natural water and real wastewater were not treated as equivalent. Results were interpreted in relation to initial concentration, adsorbent dose, pH, contact time, temperature and matrix composition.
 
 Low-cost potential was assessed from the preparation and operation of each adsorbent rather than inferred from its precursor, reported capacity or magnetic response. Relevant factors included precursor and reagent requirements, product yield, energy demand, washing and neutralization, water use, solid–liquid separation and recovery losses, regeneration chemicals, solvent recovery, waste handling and adsorbent replacement. A meaningful cost comparison also requires a stated currency and price year, a defined process boundary and a denominator such as cost per volume treated or mass of antibiotic removed. Where these details were missing or inconsistent, the economic evidence was described as unreported or uncertain rather than converted into an unsupported cost estimate.
-her than estimating a price without support.
-
 
 
 ## 3. Results and discussion
