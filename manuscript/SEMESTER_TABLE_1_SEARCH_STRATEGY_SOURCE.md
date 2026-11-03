@@ -1,3 +1,9 @@
+\newpage
+
+\`\`\`{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+\`\`\`
+
 ## Table 1. Search strategy and sources
 
 The searches below were used to identify primary studies of graphene-based adsorbents for ciprofloxacin (CIP) and tetracycline (TC) removal from aqueous media. The queries combine adsorbent identity, target antibiotic and adsorption or treatment concepts.

@@ -2,7 +2,7 @@
 
 **Index updated:** 3 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Build snapshot:** 8ad688e1b355c932ff1e3f60a442fc939ade9197  
+**Build snapshot:** generated from the latest source commit on `main`; see the linked successful Actions run below.  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -51,7 +51,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 
 | Purpose | Current source |
 |---|---|
-| Consolidated manuscript bibliography (49 selected + 4 contextual + 1 reporting-guideline reference) | [semester-manuscript-cited-references-49-selected-plus-4-context.bib](../semester-manuscript-cited-references-49-selected-plus-4-context.bib) |
+| Consolidated manuscript bibliography (49 selected + 4 contextual references; 53 unique works) | [semester-manuscript-cited-references-49-selected-plus-4-context.bib](../semester-manuscript-cited-references-49-selected-plus-4-context.bib) |
 | ACS 2026 citation style file | [american-chemical-society-2026.csl](../references/american-chemical-society-2026.csl) |
 | Citation-linkage audit | [SEMESTER_CITATION_LINKAGE_AUDIT.md](SEMESTER_CITATION_LINKAGE_AUDIT.md) |
 | Bibliography audit | [FINAL_SEMESTER_MANUSCRIPT_V2_BIBLIOGRAPHY_AUDIT.md](FINAL_SEMESTER_MANUSCRIPT_V2_BIBLIOGRAPHY_AUDIT.md) |

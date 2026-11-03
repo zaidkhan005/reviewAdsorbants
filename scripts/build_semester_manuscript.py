@@ -52,6 +52,12 @@ def build_table_3_content() -> str:
         raise SystemExit('Internal evidence identifiers found in reader-facing Table 3 data.')
 
     md = [
+        '\\newpage',
+        '',
+        '\`\`\`{=openxml}',
+        '<w:p><w:r><w:br w:type="page"/></w:r></w:p>',
+        '\`\`\`',
+        '',
         '## Table 3. Evidence coverage of the 49 selected references',
         '',
         'Table 3 records the target antibiotic, adsorbent and study role for each selected work, followed by source-tier and evidence-use notes. It is a coverage register, not a quantitative ranking. Abstract-only, preview-only, repository-hosted and internally inconsistent results retain their source qualifications.',
@@ -208,7 +214,7 @@ def main() -> None:
     prepared_pdf.write_text(md_pdf, encoding='utf-8')
     common = [
         '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
-        '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
+        '--citeproc', '-M', 'reference-section-title=References', f'--bibliography={BIB}', f'--csl={CSL}',
         '--resource-path=' + str(OUT), '--standalone',
         '-V', 'papersize:a4', '-V', 'geometry:margin=22mm',
         '-V', 'fontsize:10pt', '-V', 'mainfont:DejaVu Serif',
@@ -274,6 +280,33 @@ def main() -> None:
                     raise SystemExit(
                         f'Expected to paginate 49 Table 3 study blocks, found {linked_study_blocks}.'
                     )
+
+                # Set explicit A4 page geometry for Word. Pandoc's papersize
+                # variable controls LaTeX/PDF but does not reliably set DOCX
+                # section dimensions; without pgSz, Word may default to Letter.
+                sect_pr = body.find('./w:sectPr', ns) if body is not None else None
+                if sect_pr is None:
+                    sect_pr = ET.Element(w + 'sectPr')
+                    body.append(sect_pr)
+                for tag in ('pgSz', 'pgMar'):
+                    for existing in sect_pr.findall('./w:' + tag, ns):
+                        sect_pr.remove(existing)
+                page_size = ET.Element(w + 'pgSz', {
+                    w + 'w': '11906',  # A4 width, twips
+                    w + 'h': '16838',  # A4 height, twips
+                    w + 'orient': 'portrait',
+                })
+                page_margins = ET.Element(w + 'pgMar', {
+                    w + 'top': '1247',     # 22 mm
+                    w + 'right': '1247',
+                    w + 'bottom': '1247',
+                    w + 'left': '1247',
+                    w + 'header': '708',
+                    w + 'footer': '708',
+                    w + 'gutter': '0',
+                })
+                sect_pr.insert(0, page_size)
+                sect_pr.insert(1, page_margins)
                 payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
             output_zip.writestr(item, payload)
     docx_tmp.replace(docx)
@@ -285,6 +318,9 @@ def main() -> None:
         'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
         'Five Mermaid diagrams converted to embedded PNG images.\n'
         'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
+        'DOCX page geometry: A4 portrait with 22 mm margins.\\n'
+        'PDF page geometry: A4 portrait with 22 mm margins.\\n'
+        'A dedicated References heading is included in both outputs.\\n'
         'DOCX/PDF require manual full-page visual review before submission.\n',
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
