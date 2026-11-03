@@ -71,8 +71,8 @@
 | Li et al. (2025) | CIP | Author-reported qe | 807.54 mg/g |
 | Ding et al. (2026) | TCH | Removal | >96% |
 | Ding et al. (2026) | OFL | Removal | >96% |
-| Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (abstract / §3.2.2) | 94.1% |
-| Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (§3.2.4) | 93.91% |
+| Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (abstract / Section 3.2.2) | 94.1% |
+| Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (Section 3.2.4) | 93.91% |
 | Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (Conclusion) | 93.94% |
 | Hossain et al. (2024) | TC + CTC/OTC/DTC | Derived TC qe | 1.252–1.255 mg/g |
 | Zhao et al. (2018) | CIP / PRB | Observed qe or breakthrough | Not accessible |
