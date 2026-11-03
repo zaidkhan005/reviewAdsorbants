@@ -301,3 +301,8 @@ The 49-study evidence-coverage register is available as separate reader-facing W
 ## Section-reference wording cleanup — 3 November 2026
 
 All reader-facing § shorthand was replaced with the explicit word **Section** in the manuscript, Table 1 and standalone Supplementary Table S1, retaining the source-paper section numbers. No scientific content changed. The corrected export build is GitHub Actions run [41569093216](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41569093216).
+
+
+## Methods refinement and Supplementary Table S2 — 3 November 2026
+
+Sections 2.2–2.4 were shortened and the complete logged search formulations were moved into a separate one-page A4 Supplementary Table S2 (Word/PDF). S2 records 11 core query formulations from 28 October 2026 and three later formulations from 31 October 2026, with clear caveats about missing platform attribution and incomplete preservation of some later exact queries. The main text remains explicit that the review is focused, not systematic or PRISMA-compliant. Successful production build: [GitHub Actions run 41571976064](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41571976064). See docs/SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md for output and QA details.

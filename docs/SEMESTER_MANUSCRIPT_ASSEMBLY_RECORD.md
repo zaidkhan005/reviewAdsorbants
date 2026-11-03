@@ -87,3 +87,18 @@ The section sign (§), previously used as conventional shorthand when identifyin
 - Artifact ID: `13200661552`; digest: `sha256:bab349c81c50ca92f8b14205feaf353e2665f80ca642f5a951fd3936d56e8ad1`.
 - Final manuscript PDF: 31-page searchable A4. Final S1 PDF: 20-page searchable A4. DOCX page-image renders were inspected after the text substitution; no clipping or overlapping objects were found.
 - No numerical values, evidence-tier decisions, study inclusion/exclusion, scientific conclusions or bibliography entries were changed.
+
+## Methods refinement and standalone search-strategy supplement — 3 November 2026
+
+Sections 2.2–2.4 were shortened and made more publication-facing. The detailed historical candidate-register counts were removed from the main text; the section now reports the active 49-reference set, the four contextual references, the 15-study condition-labelled comparison subset, the source-access hierarchy, and the absence of a reconciled PRISMA-style record flow. Extraction and critical-appraisal fields remain explicit, including the distinction between observed, calculated and fitted adsorption endpoints and the limitations of mechanistic inference from model fit alone.
+
+The 11 query formulations logged on 28 October 2026 and three later formulations logged on 31 October 2026 were moved to **Supplementary Table S2**. S2 also records the limitations of the search log: the general public-web discovery platform was not preserved, query-to-platform attribution is unavailable, no Scopus or Web of Science search is documented, and some later 30–31 October searches are retained only as topic summaries because exact strings were not recorded.
+
+- Main-text Section 2.2 points to Supplementary Table S2; S1 remains the 49-reference evidence-coverage supplement.
+- S2 contains 14 numbered query formulations: 11 logged on 28 October and 3 logged on 31 October 2026.
+- Manuscript Word/PDF: 39-page editable Word and 31-page A4 PDF. S1 Word/PDF: 26-page Word and 20-page A4 PDF. S2 Word/PDF: one page each, A4.
+- PDF preflight: all three PDFs are openable, searchable, unencrypted and have no XFA.
+- DOCX accessibility audit: zero high- and medium-severity findings across all three files. Low-severity findings are 53 in the manuscript and 49 in S1 (DOI hyperlinks displayed as raw URLs); S2 has none.
+- Reader-facing `§` count remains zero in manuscript, S1 and S2 DOCX/PDF outputs.
+- No scientific values, source tiers, caveats, reference-selection decisions or claims were changed by the methods reorganization.
+- Successful GitHub Actions run: [41571976064](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41571976064). Source commit: `18fece36a03a20c5f2fdbb8165d285a9e2a213e8`. Artifact ID: `13201751961`; digest: `sha256:fc464d9bbf8052b4a042eef5984ebc8d9042be5893687f7baf20a9e2e074d544`.
