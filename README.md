@@ -306,3 +306,8 @@ All reader-facing § shorthand was replaced with the explicit word **Section** i
 ## Methods refinement and Supplementary Table S2 — 3 November 2026
 
 Sections 2.2–2.4 were shortened and the complete logged search formulations were moved into a separate one-page A4 Supplementary Table S2 (Word/PDF). S2 records 11 core query formulations from 28 October 2026 and three later formulations from 31 October 2026, with clear caveats about missing platform attribution and incomplete preservation of some later exact queries. The main text remains explicit that the review is focused, not systematic or PRISMA-compliant. Successful production build: [GitHub Actions run 41571976064](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41571976064). See docs/SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md for output and QA details.
+
+
+## PRISMA-informed selection flow — 3 November 2026
+
+Figure 2 now presents the verified candidate-shortlist/selection arithmetic (51 shortlist entries → 50 unique DOI-defined works after one alias consolidation → 49 active selected works after one administrative/time omission). It also shows the 15-study Table 1 subset, 49-work S1 coverage and four contextual references outside the selected set. This is explicitly **PRISMA-informed, not PRISMA 2020-compliant**: source-level retrieval totals and several screening/eligibility counts were not preserved and are marked as unrecorded, not estimated. Page et al. (2021) adds one methods/reporting citation, bringing the bibliography to 54 (49 selected + 4 topical/context + 1 reporting guideline). Successful build: [GitHub Actions run 41577292915](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41577292915).

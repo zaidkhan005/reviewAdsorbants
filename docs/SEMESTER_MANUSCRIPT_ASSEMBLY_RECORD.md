@@ -102,3 +102,26 @@ The 11 query formulations logged on 28 October 2026 and three later formulations
 - Reader-facing `§` count remains zero in manuscript, S1 and S2 DOCX/PDF outputs.
 - No scientific values, source tiers, caveats, reference-selection decisions or claims were changed by the methods reorganization.
 - Successful GitHub Actions run: [41571976064](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41571976064). Source commit: `18fece36a03a20c5f2fdbb8165d285a9e2a213e8`. Artifact ID: `13201751961`; digest: `sha256:fc464d9bbf8052b4a042eef5984ebc8d9042be5893687f7baf20a9e2e074d544`.
+
+## PRISMA-informed selection flow diagram — 3 November 2026
+
+Figure 2 has been added to the main manuscript as a **PRISMA-informed selection flow**, not a PRISMA 2020-compliant flow diagram. It documents only the verified candidate-list and selection stages:
+
+- The authoritative study-inclusion shortlist contains 51 candidate entries (`data/semester-study-inclusion-shortlist.csv`). These are shortlist rows, not all records retrieved by the public-web search.
+- One known duplicate DOI alias was consolidated: SEM-041 is the same DOI-defined work as SEM-026. This leaves 50 unique DOI-defined works.
+- SEM-035 was not carried into the active semester set for administrative/time reasons, not scientific rejection; 49 distinct works remain selected.
+- The active 49 comprise 46 empirical primary studies and three context/boundary roles. Table 1 is a 15-study condition-labelled subset; S1 covers all 49. Four additional topical/contextual references sit outside the selected 49.
+- The source log does not preserve per-source retrieval totals, title/abstract screening/exclusion counts, reports sought/not retrieved, or full-text exclusion reasons. Those boxes are marked as not recorded rather than estimated. The 51 shortlist entries are not presented as the total search yield.
+
+Page et al. (2021), the PRISMA 2020 reporting-guideline paper, is added as a methods citation only. The bibliography now contains 54 distinct references: 49 selected works + four topical/contextual references + one reporting-guideline reference. Later figure numbering is shifted consistently: preparation-to-recovery is Figure 3, interaction pathways Figure 4, and the low-cost evidence framework Figure 5.
+
+### Final outputs and QA
+
+- Successful build: [GitHub Actions run 41577292915](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41577292915), source commit `d8548b04878dc3b54d9b097daac6af04925560fd`.
+- Artifact ID `13204476413`; digest `sha256:6a6f52d0848444bfb100d782aed8cd1037754fe8f19499335f5328d0c283e4a1`.
+- Main manuscript: 40-page editable DOCX; 32-page searchable A4 PDF.
+- Supplementary Table S1: 26-page DOCX; 20-page searchable A4 PDF. Supplementary Table S2: one-page DOCX and one-page searchable A4 PDF.
+- The Figure 2 image and caption appear together on PDF page 6 and Word page 7; figure 3–5 numbering and in-text references were checked. Full 32-page PDF and 40-page Word renders were reviewed; no clipped text, overlap or broken table layout was identified.
+- PDF preflight: all three PDFs openable, searchable, unencrypted and without XFA. Section-sign (`§`) leakage remains zero.
+- DOCX accessibility audit: zero high/medium findings. Low findings: 54 in manuscript and 49 in S1, all DOI hyperlinks displayed as raw URLs; S2 has no findings.
+- No extracted numerical values, source-access tiers, study-selection decisions or scientific conclusions were altered by adding the diagram.
