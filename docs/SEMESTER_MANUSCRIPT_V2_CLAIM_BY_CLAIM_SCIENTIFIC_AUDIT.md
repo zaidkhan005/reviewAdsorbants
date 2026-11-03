@@ -123,7 +123,7 @@ The earlier-study paragraphs in Sections 3.6.1–3.6.3 have now been audited aga
 
 These are not all failures of the manuscript. They are the source discrepancies the manuscript must not silently repair or turn into headline performance claims.
 
-1. **SEM-010 (CLM-04):** 99% CIP removal on the stated 40mL basis implies about99mg/g, while Table4 experimental kinetic qe is78.82mg/g; the conclusion also says20g/L where other source locations say20mg/L. Keep on hold.
+1. **SEM-010 (CLM-04):** 99% CIP removal at 2mg/L,40mL and a stated GO dose20mg/L implies qe≈99mg/g; Table4 experimental kinetic qe=78.82mg/g and PSO-fit qe=79.36mg/g. Combining99% with qe78.82 implies≈1.005mg GO/40mL (=25.1mg/L), suggesting a possible unreported weighed-dose basis; exact flask mass is absent. Conclusion's20g/L conflicts with20mg/L elsewhere. Keep on hold; do not silently reconcile.
 2. **SEM-016 (CLM-06):** SGO experimental qe and prose removal do not reconcile across concentration, temperature and dose series. Keep measured values and prose distinct; fitted q_m is a separate isotherm result.
 3. **SEM-038 (CLM-07):** N-rGO TC qe is above the strict finite-feed ceiling at the stated 80mL feed basis; Figure2c shows a larger mismatch. Do not use its q_e or q_m in quantitative ranking pending author clarification.
 4. **SEM-032 (CLM-05):** PGOT@GEL validation qe=807.54mg/g lacks solution volume in the main paper; the matrix is described inconsistently as real vs simulated real wastewater. It can remain a reported validation result only with that caveat.
