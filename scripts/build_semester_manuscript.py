@@ -281,8 +281,8 @@ def main() -> None:
         re.S
     )
     diagrams = list(pattern.finditer(md))
-    if len(diagrams) != 4:
-        raise SystemExit(f'Expected 4 complete figure blocks, found {len(diagrams)}')
+    if len(diagrams) != 5:
+        raise SystemExit(f'Expected 5 complete figure blocks, found {len(diagrams)}')
     rendered = []
     puppeteer_config = OUT / 'puppeteer-config.json'
     puppeteer_config.write_text(json.dumps({'args': ['--no-sandbox', '--disable-setuid-sandbox']}), encoding='utf-8')
@@ -376,7 +376,7 @@ def main() -> None:
         'Citation style: ACS Guide 2026 (provisional; confirm against AMU/supervisor requirements)\n'
         'Source: manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md\n'
         'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
-        'Four Mermaid diagrams converted to embedded PNG images.\n'
+        'Five Mermaid diagrams converted to embedded PNG images.\n'
         'DOCX/PDF require manual full-page visual review before submission.\n',
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
