@@ -1,6 +1,8 @@
-# Table 1. Search strategy and sources
+## Table 1. Search strategy and sources
 
 The searches below were used to identify primary studies of graphene-based adsorbents for ciprofloxacin (CIP) and tetracycline (TC) removal from aqueous media. The queries combine adsorbent identity, target antibiotic and adsorption or treatment concepts.
+
+### Table 1A. Search query strings
 
 | Search ID | Search focus | Search string |
 |---|---|---|
@@ -21,7 +23,7 @@ The searches below were used to identify primary studies of graphene-based adsor
 
 Additional targeted searches examined magnetic GO/Co-MOF composites for TC, ZrO₂–Fe₃O₄/GO composites for CIP, and GO/[Ni(DMG)]ₙ composites for CIP. Search wording was varied for these targeted follow-up searches rather than treated as one fixed query.
 
-**Sources searched and coverage boundaries**
+### Table 1B. Sources searched and coverage boundaries
 
 | Source channel | Use in study identification | Coverage note |
 |---|---|---|
