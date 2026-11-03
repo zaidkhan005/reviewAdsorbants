@@ -218,7 +218,7 @@ def main() -> None:
     pdf = OUT / 'SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf'
     run([pandoc, str(prepared_docx)] + common + ['--to=docx', '-o', str(docx)])
     run([pandoc, str(prepared_pdf)] + common + ['--include-in-header', str(figure2_header_tex), '--pdf-engine=xelatex', '-o', str(pdf)])
-    # Keep the condition-dense Table 1B readable but compact enough to remain
+    # Keep the condition-dense Table 2B readable but compact enough to remain
     # on one Word page after changing study labels to author-year format.
     docx_tmp = docx.with_suffix('.tmp.docx')
     ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
@@ -257,27 +257,8 @@ def main() -> None:
                 paragraphs = body.findall('./w:p', ns) if body is not None else []
                 linked_study_blocks = 0
                 for idx, paragraph in enumerate(paragraphs):
-                    para_text = ''.join(
-                        node.text or '' for node in paragraph.findall('.//w:t', ns)
-                    ).strip()
-                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)
-            output_zip.writestr(item, payload)
-    docx_tmp.replace(docx)
-    # Keep a concise build manifest next to the outputs.
-    (OUT / 'BUILD_INFO.txt').write_text(
-        'Working manuscript V2 build\n'
-        'Citation style: ACS Guide 2026 (provisional; confirm against AMU/supervisor requirements)\n'
-        'Source: manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md\n'
-        'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
-        'Five Mermaid diagrams converted to embedded PNG images.\n'
-        'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
-        'DOCX/PDF require manual full-page visual review before submission.\n',
-        encoding='utf-8')
-    print('Build complete:', docx, pdf, flush=True)
-
-if __name__ == '__main__':
-    main()
-, para_text):
+                    para_text = ''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)).strip()
+                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)$', para_text):
                         continue
                     linked_study_blocks += 1
                     # Heading, article title, target, adsorbent and source tier.
