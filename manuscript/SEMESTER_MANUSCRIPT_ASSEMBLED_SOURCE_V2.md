@@ -146,7 +146,9 @@ flowchart TB
     F -.-> J["Four additional contextual references<br/>cited outside the active 49-work selection"]
 ```
 
-**Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).** The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.
+**Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).**
+
+*The flow reports only verified selection-register counts. Database retrieval totals and intervening PRISMA screening/eligibility counts were not retained and are therefore not inferred. The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.*
 
 
 ### 2.4. Data extraction and critical evidence assessment
