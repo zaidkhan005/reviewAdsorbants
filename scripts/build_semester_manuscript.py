@@ -322,7 +322,7 @@ def main() -> None:
     # Keep Figure 2 in the methodological position where it is introduced.
     # Otherwise LaTeX may float this tall diagram past the start of Sections 2.4–2.5.
     figure2_image = re.search(
-        r'!\[(The review discusses 49 selected works,[^\]]+)\]\(figures/figure_2\.png\)',
+        r'!\[([^\]]+)\]\(figures/figure_2\.png\)',
         md_pdf,
     )
     if not figure2_image:
