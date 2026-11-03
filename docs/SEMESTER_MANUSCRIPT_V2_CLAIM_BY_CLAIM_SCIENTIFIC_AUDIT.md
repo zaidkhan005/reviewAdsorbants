@@ -199,3 +199,18 @@ The final paper should continue to use *low-cost potential* as a question being 
 The successful build is [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154), source commit `6c6cc26c058fdf4ea113f944553ad9c87121d133`, artifact `13214429824`. The generated PDF is 47-page A4, searchable and unencrypted. The DOCX has explicit A4 portrait geometry with 22 mm margins; its LibreOffice render produced 58 A4 pages. All PDF and DOCX-render pages were visually inspected with no clipping, overlap, broken figures, or missing table content. A dedicated References heading is present in both formats.
 
 The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 46 audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.
+
+
+## User-supplied full-text audit — 3 November 2026
+
+Five selected sources were re-audited from primary PDFs supplied in this conversation: SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051. Full details and file-to-study mapping are in the [six-PDF audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md). Their reader-facing evidence notes were integrated into Table 3 and the main V2 Results/Discussion, mechanism, preparation, recovery and matrix discussion.
+
+- SEM-038: the full Wiley text confirms, rather than resolves, the TC finite-feed mass-balance conflict; TC qe/qm remain excluded from rankings.
+- SEM-047: Table 5 experimental qe=9.89 mg/g and Sips is the best isotherm fit; the river-water result lacks a stated initial TC spike/baseline and the ten-cycle values are removal/desorption efficiencies.
+- SEM-048: observed CIP qe values and four-cycle 85.8% capacity retention are verified; tap-water comparison is not wastewater validation.
+- SEM-050: membrane performance in prefiltered/spiked MWW, six-cycle regeneration, leaching and active-layer estimates are verified; powder-batch qe remains held.
+- SEM-051: full Methods/model/desorption/economic sections are verified; dose, temperature and regenerant conflicts remain, as does the limited basis of the author cost estimate.
+
+A sixth upload is Kabir et al. (2024), DOI 10.1021/acssusresmgt.4c00181. It is a separate GrGO/TC study, not SEM-010, and remains outside the active candidate register, frozen 49-reference set and 53-entry bibliography pending a separate inclusion decision. Its trace-feed removal implies derived qe≈0.56 mg/g, while its Langmuir qm=22.85 mg/g has poor R²=.59 compared with Freundlich R²=.992. Waste-derived feedstock and plant reduction do not establish full process cost.
+
+No additions/removals were made to the 49-reference selection, the 53-entry bibliography/citation keys remain unchanged, and SEM-010's pre-existing removal/uptake and dosage-unit discrepancy remains unresolved.
