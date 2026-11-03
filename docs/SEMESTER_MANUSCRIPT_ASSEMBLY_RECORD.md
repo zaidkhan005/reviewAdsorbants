@@ -249,3 +249,19 @@ The regenerated PDF is 48-page A4, searchable and unencrypted. Its extracted tex
 The selected 49-reference set and 53-entry bibliography remain unchanged. SEM-010's 99% removal, experimental kinetic `qe=78.82 mg/g`, PSO-fitted `qe=79.36 mg/g`, separate Langmuir `qm`, inferred-but-unconfirmed ~25 mg/L dose possibility and 20 mg/L versus 20 g/L source conflict remain separately qualified.
 
 **Production status:** corrected DOCX/PDF build passed. **Submission status:** still a working manuscript; AMU/supervisor citation style confirmation, remaining sentence-level source-pin coverage, language editing, author declarations and institutional checklist are outstanding. See [the detailed Word equation and build QA log](../logs/2026-11-03-word-equation-formatting-and-build-qa.md).
+
+
+## Claim-ledger continuation checkpoint — 3 November 2026
+
+The claim-by-claim source audit has been extended to **94 unique groups (CLM-01–CLM-94)**. This includes separate source records for older GO baselines, magnetic derivatives, polymer/immobilized formats, mechanistic evidence, preparation/recovery/reuse, monetary-cost denominators, newer engineered CIP composites, theory/review/scope-boundary roles, and the chitin/GO flow-through and MgO/chitosan/GO preview sources. Dated tranche logs are indexed in [the manuscript file index](SEMESTER_MANUSCRIPT_FILE_INDEX.md).
+
+The final integrity sweep on 3 November 2026 confirms:
+- 94 claim IDs, unique and contiguous from CLM-01 to CLM-94, with no missing or duplicate IDs.
+- 49 selected-reference rows, all unique; selection membership unchanged.
+- 53 distinct bibliography entries and 53 distinct manuscript citation keys; zero missing citation keys and zero unused bibliography entries.
+- DOI-matched Better BibTeX keys are recorded in the candidate register for all newly audited candidates checked in this pass.
+- The claim-by-claim audit document states the same current total, 94.
+
+No manuscript prose, numerical source values, study selection, or bibliography membership was modified by these audit/register updates. The latest validated Word/PDF production artifact remains run [41682709331](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41682709331); no rebuild was triggered because the manuscript source and production inputs were not changed.
+
+**Remaining before institutional submission sign-off:** confirm the citation style required by AMU/the supervisor (ACS 2026 remains provisional); complete the remaining sentence-level source-pin and editorial coverage beyond the current claim groups; perform final language editing; confirm author details, acknowledgements, funding, conflict-of-interest and data-availability declarations; and complete the AMU submission checklist. Existing scientific holds—including SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051—must remain visible and must not be silently corrected.
