@@ -48,7 +48,7 @@ The language pass was targeted rather than a scientific re-audit. No claim was n
 
 ## Production
 
-The latest source edit triggered GitHub Actions. The replacement DOCX/PDF build and visual verification are pending at the time this log is created. Do not treat the language-edited source as a verified production artifact until the build succeeds and the updated Word/PDF renders are inspected.
+The language-edited source has now been rebuilt successfully. The final verified artifact, page counts, hashes, Word pagination correction and visual QA findings are recorded in the [final language-edited build QA log](2026-11-04-language-edited-final-build-qa.md).
 
 ## Remaining editorial work
 
@@ -56,3 +56,8 @@ The latest source edit triggered GitHub Actions. The replacement DOCX/PDF build 
 - Supervisor/AMU confirmation of citation style and formatting requirements.
 - Author information, acknowledgements, funding, conflict-of-interest and data-availability declarations.
 - Institutional submission checklist and final submission-format QA.
+
+
+## Final production checkpoint
+
+The final bibliography correction and Word bibliography paragraph-pagination guard are complete. See [2026-11-04 final language-edited build and QA](2026-11-04-language-edited-final-build-qa.md) for the successful Actions run, artifact ID and digest, DOCX/PDF hashes, 60/48-page counts, zero-placeholder formula QA, citation/claim reconciliation, and the page-59/60 reference-boundary check.
