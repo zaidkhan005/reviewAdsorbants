@@ -133,6 +133,10 @@ This is a focused literature review, not a systematic review. The documented can
 
 **Figure 2** provides a PRISMA-informed summary of these documented shortlist and selection stages. It is **not a PRISMA 2020-compliant flow diagram**. The retained search record does not provide reconciled counts of records retrieved by each source, records screened at title/abstract stage, reports sought or not retrieved, full-text reports assessed, or exclusions by reason. Those missing stages are identified as unrecorded rather than estimated. PRISMA 2020 recommends reporting the flow of records through identification, screening and eligibility, with the numbers and reasons for exclusions where available (Page et al., 2021) \\cite{pagePRISMA2020Statement2021}. Accordingly, no formal PRISMA-compliance or systematic-review claim is made.
 
+**Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).**
+
+*The flow reports only verified selection-register counts. Database retrieval totals and intervening PRISMA screening/eligibility counts were not retained and are therefore not inferred. The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.*
+
 ```mermaid
 flowchart TB
     A["Focused public-web discovery and later targeted source checks<br/>Records retrieved per source: not captured"] --> B["Study-inclusion shortlist<br/>51 candidate entries"]
@@ -145,11 +149,6 @@ flowchart TB
     A -.-> I["Not recorded for full PRISMA accounting:<br/>records retrieved by source; title/abstract exclusions;<br/>reports sought/not retrieved; full-text exclusions by reason"]
     F -.-> J["Four additional contextual references<br/>cited outside the active 49-work selection"]
 ```
-
-**Figure 2. Documented candidate-list deduplication and active-set selection (PRISMA-informed; not a PRISMA 2020-compliant flow diagram).**
-
-*The flow reports only verified selection-register counts. Database retrieval totals and intervening PRISMA screening/eligibility counts were not retained and are therefore not inferred. The 51 entries are candidate-shortlist rows, not all records retrieved through the search. The 15-study comparison is a subset of the 49 selected works; four additional contextual references sit outside that selection.*
-
 
 ### 2.4. Data extraction and critical evidence assessment
 
