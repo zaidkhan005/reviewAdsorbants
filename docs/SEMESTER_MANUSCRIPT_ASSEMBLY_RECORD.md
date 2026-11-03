@@ -290,3 +290,21 @@ Targeted manuscript updates:
 Automated check: 94 claim rows; 53/53 keys present in their declared manuscript section/range; 53 bibliography entries and 53 cited keys; zero missing/unused citation keys; 49 unique selected references. The full findings and exact scope limits are in the [final 94-claim integration audit log](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md).
 
 These are reader-facing manuscript-source edits, so GitHub Actions run [41690681789](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41690681789) is rebuilding the Word/PDF outputs. Production sign-off remains pending artifact/pagination verification.
+
+
+## Latest corrected production artifact — 3 November 2026
+
+The final 94-claim integration manuscript was rebuilt after correcting the Word rendering of standalone chemical subscripts/superscripts. The earlier integrated build had displayed square placeholders in several formula groups in the editable DOCX; the source now uses complete chemical expressions.
+
+- **Successful build:** [GitHub Actions run 41691972025](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41691972025).
+- **Source commit:** `a7ae064028cee61bfaefa81705148b53f7eae56f`.
+- **Artifact ID:** `13258235067`; artifact SHA-256 `c9c8516f8b3de049eb98527ed921b1d95db0e65516d15aa3fd916790ac412721`; expires 3 December 2026.
+- **PDF:** 48 searchable, unencrypted A4 pages.
+- **DOCX:** A4 portrait with 22 mm margins; independent LibreOffice render produced 58 pages.
+- **Formula QA:** final DOCX XML contains 312 native Office Math objects, zero literal inline-math delimiters and zero replacement-square characters. Previously affected formula pages (DOCX render pp. 17, 30, 32–34) were inspected at full size after correction; placeholders are gone.
+- **Pagination QA:** contact sheets for all 58 DOCX-render pages and all 48 PDF pages were reviewed; affected formula pages and integration-edited sections were inspected at full size. No obvious clipping, overlapping objects, broken figures or missing table content was seen in the reviewed pages. The DOCX and PDF have different pagination because the DOCX count is from a separate LibreOffice render.
+- **Citation/content integrity remains:** 94 unique claim groups; 49 selected studies; 53 bibliography entries and 53 manuscript citation keys; zero missing or unused citation keys.
+
+Download copies of this verified build were generated in the current working session as `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT_integrated.docx` and `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT_integrated.pdf`. The repository file index points to this build as the latest verified output.
+
+**Status:** production build and visual QA completed for this working draft. Not final submission approval: ACS 2026 remains provisional pending AMU/supervisor confirmation; final language edit, author/funding/conflict/data-availability declarations and the AMU submission checklist remain outstanding.
