@@ -113,17 +113,19 @@ A study is eligible for the core evidence synthesis when it is an original resea
 
 ### 2.2. Literature identification and search strategy
 
-A focused literature search was conducted to identify original studies of graphene oxide (GO), reduced graphene oxide (rGO) and graphene-bearing composites used to adsorb ciprofloxacin (CIP) or tetracycline (TC) from water. Search terms combined material names, including magnetic graphene and graphene composites, with the antibiotic names and terms related to adsorption, removal, equilibrium, kinetics, regeneration and treatment of real water. The search formulations are listed in **Supplementary Table S2**.
+A focused literature search was conducted to identify original studies of graphene oxide (GO), reduced graphene oxide (rGO) and graphene-bearing composites used to adsorb ciprofloxacin (CIP) or tetracycline (TC) from water. Search terms combined material names, including magnetic graphene and graphene composites, with the antibiotic names and terms related to adsorption, removal, equilibrium, kinetics, regeneration and treatment of real water. The search formulations are listed in **Table 1**.
 
 Relevant studies were located through public web searches and searches of PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect and other publisher websites and biomedical indexes. Institutional- and author-hosted copies were also consulted where available. Scopus and Web of Science were not searched. No fixed publication-date or language limits were applied. The search was focused rather than exhaustive, and the findings are therefore discussed as a narrative review.
+
+<!-- TABLE_1_SEARCH_STRATEGY -->
 
 ### 2.3. Study selection and source availability
 
 Titles and abstracts were assessed against the material, antibiotic, aqueous-system and adsorption criteria described in Section 2.1. Full texts were examined when available. Studies were included in the empirical comparison when they used an eligible graphene-based material, reported an adsorption result specific to CIP and/or TC, and provided sufficient experimental detail for interpretation. For studies involving several antibiotics, only separable CIP- or TC-specific results were considered. Reviews, theoretical papers and other contextual sources were used for background or mechanistic discussion, not as substitutes for experimental adsorption results.
 
-The review discusses **49 selected works**, comprising 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Source availability varied between studies. Where the full article was available, the reported methods, results and supporting data were examined. Where only an abstract, preview, indexed excerpt or hosted manuscript was accessible, the discussion was limited to information available in that source. Missing details were not inferred, and inconsistencies within individual papers were retained as qualifications.
+The review discusses **49 selected works**, comprising 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Source availability varied between studies. The selected-reference index and study-level source qualifications are summarized in Table 3. Where the full article was available, the reported methods, results and supporting data were examined. Where only an abstract, preview, indexed excerpt or hosted manuscript was accessible, the discussion was limited to information available in that source. Missing details were not inferred, and inconsistencies within individual papers were retained as qualifications.
 
-**Figure 2** outlines the focused search and eligibility assessment and shows how the selected literature is organized in the main comparison and supplementary evidence summary.
+**Figure 2** outlines the focused search and eligibility assessment and shows how the selected literature is organized in the main comparison and selected-reference evidence coverage.
 
 **Figure 2. Overview of literature identification and evidence organization.**
 
@@ -134,8 +136,8 @@ flowchart LR
     A["Focused literature search<br/>GO, rGO and selected graphene composites<br/>for CIP and TC in water"]
     B["Eligibility assessment<br/>Eligible material and target<br/>Adsorption-specific results<br/>Reported conditions"]
     C["49 selected works<br/>46 empirical primary studies<br/>3 contextual sources"]
-    D["Table 1<br/>15 primary studies<br/>condition-labelled comparison"]
-    E["Supplementary Table S1<br/>Evidence notes for<br/>all 49 selected works"]
+    D["Table 2<br/>15 primary studies<br/>condition-labelled comparison"]
+    E["Table 3<br/>Evidence notes for<br/>all 49 selected works"]
     F["4 further references<br/>Background and aqueous<br/>solution chemistry"]
     A --> B --> C
     C --> D
@@ -158,11 +160,11 @@ Low-cost potential was assessed from the preparation and operation of each adsor
 
 ## 3. Results and discussion
 
-The 15 studies with the most condition-labelled endpoints are presented in **Table 1**, which separates study conditions, experimental endpoints, fitted-model outputs and practical feasibility evidence. Separate experiments are listed independently; observed, derived and model-fitted values are not combined. **Supplementary Table S1** provides evidence notes for all 49 selected works. Table 1 is a condition-labelled subset, not a ranking of the selected literature.
+The 15 studies with the most condition-labelled endpoints are presented in **Table 2**, which separates study conditions, experimental endpoints, fitted-model outputs and practical feasibility evidence. Separate experiments are listed independently; observed, derived and model-fitted values are not combined. **Table 3** provides evidence notes for all 49 selected works. Table 2 is a condition-labelled subset, not a ranking of the selected literature.
 
 ## 3.1. Reported adsorption performance is condition-dependent, not a universal capacity leaderboard
 
-The available evidence does not support a single ranking of graphene-based adsorbents by one reported “capacity.” The available studies report different endpoints—observed equilibrium uptake (\(q_e\)), kinetic-model-fitted \(q_e\), isotherm-fitted \(q_{\max}\) or \(q_m\), percentage removal, and reuse-cycle removal—under different initial concentrations, doses, pH values, contact times, temperatures and matrix compositions. These quantities answer different questions and cannot be placed in one numeric order without further harmonization. Table 1 therefore reports the endpoints separately rather than ranking the materials.
+The available evidence does not support a single ranking of graphene-based adsorbents by one reported “capacity.” The available studies report different endpoints—observed equilibrium uptake (\(q_e\)), kinetic-model-fitted \(q_e\), isotherm-fitted \(q_{\max}\) or \(q_m\), percentage removal, and reuse-cycle removal—under different initial concentrations, doses, pH values, contact times, temperatures and matrix compositions. These quantities answer different questions and cannot be placed in one numeric order without further harmonization. Table 2 therefore reports the endpoints separately rather than ranking the materials.
 
 For tetracycline (TC), the graphene oxide/calcium-alginate fiber study reports observed \(q_e = 17.6\) mg/g at an initial concentration of 10 mg/L and \(q_e = 65.4\) mg/g at 60 mg/L; both values came from separate 25 °C, 5-hour equilibrium tests at a dose of 0.50 g/L. Its Langmuir-fitted \(q_{\max} = 131.6\) mg/g is a separate model parameter, not the measured uptake under either feed condition. The authors also report a highest removal of 56.8% at pH 6 in a separate pH test using 50 mg/L TC; that percentage should not be paired with the two \(q_e\) values as though all three results came from the same experiment. The model-fit comparison needs an explicit caveat: the reported Freundlich \(R^2 = .9986\) is slightly higher than the Langmuir \(R^2 = .9938\), even though the paper highlights the Langmuir \(q_{\max}\). Present 131.6 mg/g only as the source-reported Langmuir-fitted parameter, not as an unqualified best-fit capacity. \cite{zhuAdsorptionTetracyclineAntibiotics2018}
 
@@ -223,7 +225,7 @@ Accordingly, the term *low-cost potential* should be assessed as a multi-criteri
 
 ## 3.6. Further studies illustrate the range of graphene-based adsorbents
 
-The 49 selected references are summarized in Supplementary Table S1, including the adsorbent type, target antibiotic, source-access tier and permitted quantitative use. This wider coverage should not be confused with 49 equally condition-complete adsorption experiments: some records support condition-labelled uptake or removal, while others can only support qualitative design, matrix, mechanism or scope context.
+The 49 selected references are summarized in Table 3, including the adsorbent type, target antibiotic, source-access tier and permitted quantitative use. This wider coverage should not be confused with 49 equally condition-complete adsorption experiments: some records support condition-labelled uptake or removal, while others can only support qualitative design, matrix, mechanism or scope context.
 
 ### 3.6.1. Graphene oxide baselines show target- and model-dependent behaviour
 
@@ -263,14 +265,14 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 
 \newpage
 
-**Table 1.** The comparison covers 15 primary studies and reports 19 experimental conditions with 28 separately identified endpoints. It is intended to show how results depend on experimental conditions, not to rank the adsorbents by a single capacity value. Supplementary Table S1 summarizes the evidence available for all 49 selected works.
+**Table 2.** The comparison covers 15 primary studies and reports 19 experimental conditions with 28 separately identified endpoints. It is intended to show how results depend on experimental conditions, not to rank the adsorbents by a single capacity value. Table 3 summarizes the evidence available for all 49 selected works.
 
-**Guide to the table.** Table 1 A identifies the studies, target antibiotics and adsorbents. Table 1B lists the conditions for each experiment, and the author–year labels link these conditions to the results in Table 1C. Tables 1D and 1E present fitted isotherm and kinetic parameters, respectively. Tables 1F(a) and 1F(b) summarize separation, regeneration and reuse; Table 1G describes water-matrix tests; and Tables 1H and 1I summarize preparation and cost information. NR indicates that a value was not reported or could not be obtained from the available article. Mass-balance-derived uptake is identified separately from uptake reported directly by the authors; fitted isotherm and kinetic parameters are model outputs, not observed uptake.
+**Guide to the table.** Table 2 A identifies the studies, target antibiotics and adsorbents. Table 2B lists the conditions for each experiment, and the author–year labels link these conditions to the results in Table 2C. Tables 2D and 2E present fitted isotherm and kinetic parameters, respectively. Tables 2F(a) and 2F(b) summarize separation, regeneration and reuse; Table 2G describes water-matrix tests; and Tables 2H and 2I summarize preparation and cost information. NR indicates that a value was not reported or could not be obtained from the available article. Mass-balance-derived uptake is identified separately from uptake reported directly by the authors; fitted isotherm and kinetic parameters are model outputs, not observed uptake.
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
-## Table 1 A. Study identity, target and adsorbent type
+## Table 2 A. Study identity, target and adsorbent type
 
 | Study | Target / system | Adsorbent | Study context |
 |---|---|---|---|
@@ -295,7 +297,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
-## Table 1B. Conditions for the 19 experimental or test endpoints
+## Table 2B. Conditions for the 19 experimental or test endpoints
 
 | Study (author–year) | Initial concentration / feed | Dose | pH | Temperature | Contact / test time |
 |---|---|---|---|---|---|
@@ -324,7 +326,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
-## Table 1C. Experimental and source-reported endpoints
+## Table 2C. Experimental and source-reported endpoints
 
 | Study (author–year) | Target / system | Metric | Value |
 |---|---|---|---|
@@ -363,7 +365,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-## Table 1D. Fitted isotherm-model outputs
+## Table 2D. Fitted isotherm-model outputs
 
 | Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
@@ -392,7 +394,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Yao et al. (2017) | Langmuir | \(q_{\max}\) | 454.6 mg/g |
 | Peng et al. (2016) | Isotherm capacity | Conventional \(q_{\max}\) | NR |
 
-## Table 1E. Kinetic-model outputs
+## Table 2E. Kinetic-model outputs
 
 | Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
@@ -414,7 +416,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Peng et al. (2016) | PFO (TC) | Fitted \(q_e\) | 198.8393 µg/g |
 | Peng et al. (2016) | PSO (TC) | Fitted \(q_e\) | 200.6055 µg/g |
 
-## Table 1F(a). Recovery and regeneration method
+## Table 2F(a). Recovery and regeneration method
 
 | Study (author–year) | Separation / recovery | Regeneration medium | Cycles |
 |---|---|---|---:|
@@ -434,7 +436,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Yao et al. (2017) | NR | 5 wt.% NaOH | 10 |
 | Peng et al. (2016) | NR | NR | NR |
 
-## Table 1F(b). Cycle performance and qualification
+## Table 2F(b). Cycle performance and qualification
 
 | Study (author–year) | Cycle metric | Cycle result | Qualification |
 |---|---|---|---|
@@ -454,7 +456,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Yao et al. (2017) | TC removal | 82.1% to 78.9% | Screen result vs cycle 10 |
 | Peng et al. (2016) | Reuse status | Not identified | No graphene reuse protocol reported |
 
-## Table 1G. Water-matrix validation
+## Table 2G. Water-matrix validation
 
 | Study (author–year) | Matrix / feed | Test type | Evidence / limitation |
 |---|---|---|---|
@@ -480,7 +482,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-## Table 1H. Preparation burden
+## Table 2H. Preparation burden
 
 | Study (author–year) | Precursor / feedstock | Key processing steps | Energy / drying note |
 |---|---|---|---|
@@ -500,7 +502,7 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Yao et al. (2017) | CNF/GO | Ultrasonication | 1000 W; 48 h freeze-drying |
 | Peng et al. (2016) | Graphene | Synthesis referred to earlier work | Yield not reported in this article |
 
-## Table 1I. Cost evidence
+## Table 2I. Cost evidence
 
 | Study (author–year) | Reported price / cost | Cost-evidence limitation |
 |---|---|---|
@@ -520,9 +522,9 @@ Evidence from real wastewater and continuous-flow systems remains limited. Simil
 | Yao et al. (2017) | Not reported | Sonication, NaOH and freeze-drying unpriced |
 | Peng et al. (2016) | Not reported | No graphene cost/yield/energy inventory |
 
-## Table 1. Notes on selected study results
+## Table 2. Notes on selected study results
 
-- **Yasmin et al. (2024):** The paper reports 99% CIP removal in the abstract and Figure 3, whereas kinetic Table 4 gives an experimental uptake of 78.82 mg/g. These values do not reconcile on the stated batch basis. The conclusion also gives the GO dose as 20 g/L, while the abstract, methods, figure captions and results report 20 mg/L. Table 1B follows the conditions given in the abstract and figures; both discrepancies are noted here.
+- **Yasmin et al. (2024):** The paper reports 99% CIP removal in the abstract and Figure 3, whereas kinetic Table 4 gives an experimental uptake of 78.82 mg/g. These values do not reconcile on the stated batch basis. The conclusion also gives the GO dose as 20 g/L, while the abstract, methods, figure captions and results report 20 mg/L. Table 2B follows the conditions given in the abstract and figures; both discrepancies are noted here.
 - **Shaha et al. (2025):** The reported uptake and removal values do not consistently reconcile across the concentration, temperature and dose experiments. The fitted Langmuir capacity is a separate model output and is not treated as an observed uptake value.
 - **Dipannita et al. (2025):** The value of 19.208 mg/g is calculated from the reported removal percentage and is not directly tabulated by the authors. Removal during reuse cycles is not interpreted as retention of adsorption capacity.
 - **Hossain et al. (2026):** The experimental adsorbent dose is 10 g/L, whereas the price scenario assumes 0.1 g/L. The methods also refer to both 50 and 55 mL solution volumes. These differences limit the interpretation of the reported cost estimate.
@@ -705,6 +707,6 @@ Future studies should, at minimum, (i) report complete mass balances and reconci
 
 Until those data are available, the most defensible comparison is not a declaration of one universally superior or cheapest adsorbent, but a transparent account of what each material demonstrates, under which conditions, with what recovery burden and with what unresolved cost evidence.
 
-
+<!-- TABLE_3_EVIDENCE_COVERAGE -->
 
 ---
