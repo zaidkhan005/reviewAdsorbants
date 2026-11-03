@@ -76,3 +76,14 @@ The manuscript remains a working draft. Citation-style confirmation, author/decl
 - Values, source-access tiers, evidence guardrails and selected-work membership were carried over; no scientific values or reference-selection decisions were changed.
 - Successful GitHub Actions run: 41488999074, commit 93360238f3a0edbc15add6d8d89060b061913a90. Artifact ID 13164305624; digest sha256:17fcad92f88bb37f1cc204666de26aa260dae89882279c78b597fae8823fe5d5.
 
+
+## Reader-facing section-reference wording cleanup — 3 November 2026
+
+The section sign (§), previously used as conventional shorthand when identifying sections of cited source papers, has been replaced with the explicit word **Section** throughout the assembled manuscript, Table 1 source and standalone Supplementary Table S1 source. All article section numbers and citations are retained. This is an editorial readability change only.
+
+- Replaced 13 occurrences in the assembled manuscript source, 2 in Table 1 source, and 2 in S1 source (17 total source occurrences).
+- Export checks: zero section-sign characters in manuscript DOCX/PDF and S1 DOCX/PDF. Source-paper section pointers are now written as, e.g., `Section 3.3.6`.
+- Successful GitHub Actions run: [41569093216](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41569093216) — success; commit `072b0fdc8c1f0b1bfeb54316649c5882ab5e3333`.
+- Artifact ID: `13200661552`; digest: `sha256:bab349c81c50ca92f8b14205feaf353e2665f80ca642f5a951fd3936d56e8ad1`.
+- Final manuscript PDF: 31-page searchable A4. Final S1 PDF: 20-page searchable A4. DOCX page-image renders were inspected after the text substitution; no clipping or overlapping objects were found.
+- No numerical values, evidence-tier decisions, study inclusion/exclusion, scientific conclusions or bibliography entries were changed.

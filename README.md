@@ -296,3 +296,8 @@ The final naming/layout build is recorded in logs/2026-11-02-author-year-label-a
 ## Standalone Supplementary Table S1 — 2 November 2026
 
 The 49-study evidence-coverage register is available as separate reader-facing Word and PDF outputs in the successful GitHub Actions artifact for run [41488999074](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41488999074). Part A is a compact author–year index; Part B separates titles, target, material family/role, source tier and numeric guardrails into labelled fields. Internal SEM/EV-SEM identifiers remain in the private project crosswalk and registers, not in the exported S1. See the appended S1 QA section in docs/SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md.
+
+
+## Section-reference wording cleanup — 3 November 2026
+
+All reader-facing § shorthand was replaced with the explicit word **Section** in the manuscript, Table 1 and standalone Supplementary Table S1, retaining the source-paper section numbers. No scientific content changed. The corrected export build is GitHub Actions run [41569093216](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41569093216).
