@@ -117,34 +117,32 @@ A record is eligible for the core evidence synthesis only when it is an original
 
 ### 2.2. Literature identification and search strategy
 
-A focused, iterative literature search was undertaken to identify original studies of graphene oxide (GO), reduced graphene oxide (rGO) and graphene-bearing composites used to adsorb ciprofloxacin (CIP) or tetracycline (TC) from water. Search terms combined material names and related terms, including magnetic graphene and graphene composites, with the antibiotic names and adsorption-related concepts such as removal, equilibrium, kinetics, regeneration and real-water testing. Representative search formulations are provided in **Supplementary Table S2**.
+A focused literature search was conducted to identify original studies of graphene oxide (GO), reduced graphene oxide (rGO) and graphene-bearing composites used to adsorb ciprofloxacin (CIP) or tetracycline (TC) from water. Search terms combined material names, including magnetic graphene and graphene composites, with the antibiotic names and terms related to adsorption, removal, equilibrium, kinetics, regeneration and treatment of real water. The search formulations are listed in **Supplementary Table S2**.
 
-Relevant records were located through public web searches and by checking PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect and other publisher or biomedical-index sources. Institutional- and author-hosted copies were consulted where available. These are the sources identifiable in the retained search record, but the record does not map every query to a specific platform. It also does not document a completed search of Scopus or Web of Science. Some queries included publication-year terms to locate recent studies, but no consistent publication-date or language restriction can be confirmed. Search terms were refined as relevant material types and gaps in the evidence became clearer. The approach is therefore a focused narrative search, not an exhaustive search of bibliographic databases.
+Relevant studies were located through public web searches and searches of PubMed/PubMed Central (PMC), RSC Publishing, Frontiers, ScienceDirect and other publisher websites and biomedical indexes. Institutional- and author-hosted copies were also consulted where available. Scopus and Web of Science were not searched. No fixed publication-date or language limits were applied. The search was focused rather than exhaustive, and the findings are therefore discussed as a narrative review.
 
-### 2.3. Study selection, deduplication and source availability
+### 2.3. Study selection and source availability
 
-Titles, abstracts and accessible full texts were assessed against the material, antibiotic, aqueous-system and adsorption-specific criteria in Section 2.1. Studies were included in the empirical comparison only when they used an eligible graphene-based material, reported a result specific to CIP and/or TC, and provided enough experimental detail to interpret that result. Where a paper examined several antibiotics, only separable CIP- or TC-specific findings were considered. Reviews, theoretical papers and other contextual sources were used for background or mechanistic discussion, not as substitutes for empirical adsorption measurements.
+Titles and abstracts were assessed against the material, antibiotic, aqueous-system and adsorption criteria described in Section 2.1. Full texts were examined when available. Studies were included in the empirical comparison when they used an eligible graphene-based material, reported an adsorption result specific to CIP and/or TC, and provided sufficient experimental detail for interpretation. For studies involving several antibiotics, only separable CIP- or TC-specific results were considered. Reviews, theoretical papers and other contextual sources were used for background or mechanistic discussion, not as substitutes for experimental adsorption results.
 
-The final literature set comprised **49 selected works**: 46 empirical primary studies and three works used for theory, review or scope-boundary context. Four additional contextual references are cited outside this set. Duplicate records were identified by matching titles and DOIs. One duplicate entry for **Fei et al. (2016)** was consolidated, leaving 50 distinct DOI-defined works from the 51 candidate records considered. One further candidate was not carried into the final set because of administrative and time constraints; it was not rejected on scientific grounds. The final selection therefore contains 49 distinct works. These counts describe the records considered for selection and the final literature set; they are not the total number of records retrieved during searching.
+The review discusses **49 selected works**, comprising 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Source availability varied between studies. Where the full article was available, the reported methods, results and supporting data were examined. Where only an abstract, preview, indexed excerpt or hosted manuscript was accessible, the discussion was limited to information available in that source. Missing details were not inferred, and inconsistencies within individual papers were retained as qualifications.
 
-The availability of source text varied. Full articles were used where accessible; information from abstracts, previews, indexed excerpts and author- or institution-hosted copies was limited to what could be checked in those sources. Unavailable experimental details were not inferred, and source inconsistencies were retained as qualifications. **Table 1** presents a condition-labelled subset of **15 studies** for which the operating conditions are sufficiently clear for comparison, while **Supplementary Table S1** describes the source basis and permitted use of all 49 selected works.
+**Figure 2** gives an overview of the literature considered and how the evidence is presented. **Table 1** compares 15 primary studies for which the reported operating conditions allow a condition-labelled comparison. **Supplementary Table S1** provides source and evidence notes for all 49 selected works.
 
-**Figure 2** summarizes the documented deduplication and selection steps. It is a PRISMA-informed presentation, but **not a PRISMA 2020-compliant flow diagram**. The retained search documentation does not provide per-source retrieval totals, title/abstract screening counts, reports sought or not retrieved, or full-text exclusions by reason. These values are therefore not estimated. PRISMA 2020 recommends reporting the flow of records through identification, screening and eligibility, including the numbers and reasons for exclusions where available (Page et al., 2021) \cite{pagePRISMA2020Statement2021}. This paper is presented as a focused narrative review and does not claim systematic-review status or PRISMA compliance.
+**Figure 2. Overview of the literature and evidence considered in this review.**
 
-**Figure 2. Documented deduplication and selection of the reviewed literature (PRISMA-informed; not PRISMA 2020-compliant).**
+*The review discusses 49 selected works, including 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Table 1 presents 15 primary studies with condition-labelled data; Supplementary Table S1 covers all 49 selected works.*
 
-*Summary of the documented deduplication and selection stages. The 51 candidate records shown here are the records considered for selection, not the total number retrieved by the searches. Per-source retrieval yields and complete screening and exclusion counts were not available; the figure is therefore not a PRISMA 2020 flow diagram.*
-
-```mermaid
-flowchart LR
-    A["Focused literature search<br/>Per-source retrieval counts unavailable"] --> B["Candidate records considered<br/>51 records"]
-    B --> C["50 unique DOI-defined works<br/>Duplicate record for Fei et al. (2016) consolidated<br/>1 duplicate removed"]
-    C --> D["49 selected works<br/>1 candidate not retained for administrative reasons<br/>(not a scientific exclusion)<br/>46 empirical primary + 3 context/boundary works"]
-    D --> E["Table 1<br/>15-study condition-labelled subset"]
-    D --> F["Supplementary Table S1<br/>Evidence coverage of all 49 selected works"]
-    D -.-> G["4 additional contextual references<br/>outside the selected 49"]
-    B -.-> H["Not available for complete PRISMA accounting:<br/>per-source retrieval totals; title/abstract screening counts;<br/>reports sought/not retrieved; full-text exclusions by reason"]
-```
+\`\`\`mermaid
+flowchart TB
+    A["Focused literature search<br/>GO, rGO and graphene-bearing composites<br/>for CIP and TC adsorption in water"]
+    A --> B["Study assessment<br/>Material suitability<br/>Antibiotic-specific adsorption results<br/>Experimental conditions and source quality"]
+    B --> C["49 selected works<br/>46 empirical primary studies<br/>3 theory, review or scope-related sources"]
+    C --> D["Table 1<br/>15 primary studies<br/>with condition-labelled data"]
+    C --> E["Supplementary Table S1<br/>Source and evidence notes<br/>for all 49 selected works"]
+    F["4 additional references<br/>Background and aqueous<br/>solution chemistry"]
+    F -.-> C
+\`\`\`
 
 ### 2.4. Data extraction and critical evidence assessment
 
