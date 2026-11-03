@@ -54,6 +54,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Claim-ledger CSV integrity repair log | [2026-11-03 claim-ledger CSV integrity repair](../logs/2026-11-03-claim-ledger-csv-integrity-repair.md) |
 | Final 94-claim manuscript integration audit | [2026-11-03 final 94-claim manuscript integration audit](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md) |
 | Critical scientific-hold visibility check | [2026-11-03 critical hold visibility check](../logs/2026-11-03-critical-hold-visibility-check.md) |
+| Language-editing pass | [2026-11-04 manuscript language-editing pass](../logs/2026-11-04-language-editing-pass.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
