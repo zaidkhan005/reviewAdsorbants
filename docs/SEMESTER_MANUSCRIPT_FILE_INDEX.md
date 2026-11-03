@@ -2,7 +2,7 @@
 
 **Index updated:** 3 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Build source commit:** `6c6cc26c058fdf4ea113f944553ad9c87121d133` (latest successful build; subsequent main commits update audit/index records only).  
+**Latest successful manuscript build source commit:** `d85ff06254dbb1a718e60769c7db87a47026d921` (manuscript source and build script; later HEAD `491bd3fc014139d1443304d34de021e35dcdd664` updates evidence ledgers only).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -66,7 +66,7 @@ Zotero remains the reference manager; the repository bibliography is the manuscr
 | GitHub Actions build workflow | [build-semester-manuscript.yml](../.github/workflows/build-semester-manuscript.yml) |
 | Manuscript assembly record | [SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md](SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md) |
 | Claim-by-claim scientific audit | [SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md](SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md) |
-| Latest successful integrated build run | [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154) |
+| Latest successful integrated build run | [GitHub Actions run 41676514098](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41676514098) — artifact ID `13251351229`; 47-page PDF and 59-page DOCX |
 
 The successful Actions run above produced the integrated DOCX and PDF in its workflow artifact. These generated binary files are not stored as source files in the repository; use the run's **Artifacts** section to download them. The artifact follows GitHub Actions retention and expires after the retention window.
 
