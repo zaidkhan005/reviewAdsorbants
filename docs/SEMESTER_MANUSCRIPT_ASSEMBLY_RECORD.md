@@ -332,3 +332,18 @@ No source tables, claim-ledger rows, candidate selection, bibliography records, 
 The language changes were deliberately conservative: numerical endpoints, conditions, units, source tiers, equations, limitations, and unresolved holds were preserved. See the [4 November language-editing log](../logs/2026-11-04-language-editing-pass.md).
 
 A new Word/PDF production build has been triggered by the latest manuscript source commit. Production sign-off for this language-edited version remains pending a successful build and visual QA of the refreshed DOCX/PDF renders.
+
+
+## Final language-edited build and pagination QA — 4 November 2026
+
+The language-edited manuscript has been rebuilt after correcting the Amin et al. bibliography title rendering and adding Word bibliography paragraph keep-lines formatting.
+
+- **Successful build:** [GitHub Actions run 41718042264](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41718042264).
+- **Source commit:** `ef2b1de98fe4d25c1a05a02bda11d504296e558d`.
+- **Artifact ID:** `13270582585`; artifact SHA-256 `97a1ac75e8ea008bdb52db46c65844e9600975705c770580b9a0bad99517f538`.
+- **PDF:** 48 searchable, unencrypted A4 pages.
+- **DOCX:** 60 A4 pages; 315 native Office Math objects; zero replacement glyphs and zero literal inline-math delimiters.
+- **Bibliography pagination:** each of the 53 DOCX bibliography entries is protected with keep-lines-together. Reference 46 (`NH2-UiO-66(Zr)`) now remains intact on Word page 60; Word page 59 ends after reference 45.
+- **Integrity:** 94 claim IDs, 49 selected works, 53 in-text citation keys and 53 bibliography entries; no missing or unused citation keys.
+
+DOCX/PDF hashes, final visual checks, the exact bibliography correction and the remaining submission caveats are recorded in the [final language-edited build QA log](../logs/2026-11-04-language-edited-final-build-qa.md). The manuscript remains a working draft pending AMU/supervisor citation-style confirmation and required author/institutional declarations.
