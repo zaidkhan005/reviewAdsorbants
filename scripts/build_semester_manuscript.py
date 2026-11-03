@@ -333,7 +333,7 @@ def main() -> None:
     fixed_figure2 = (
         r'\begin{figure}[H]' + '\n'
         r'\centering' + '\n'
-        r'\includegraphics[width=0.96\linewidth]{figures/figure_2.png}' + '\n'
+        r'\includegraphics[width=0.96\linewidth]{' + str(FIG / 'figure_2.png') + '}' + '\n'
         r'\caption{' + figure2_caption + '}' + '\n'
         r'\end{figure}'
     )
