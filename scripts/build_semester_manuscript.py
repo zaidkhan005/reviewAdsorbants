@@ -60,7 +60,7 @@ def build_supplementary_s1(pandoc: str) -> None:
         '',
         '## Part A. Selected-reference coverage index',
         '',
-        '| Study (author–year) | Target | Material family / role |',
+        '| Study (author–year) | Target | Adsorbent / study role |',
         '|---|---|---|',
     ]
     for row in data_rows:
@@ -78,7 +78,7 @@ def build_supplementary_s1(pandoc: str) -> None:
             '',
             f"**Target:** {row['target']}",
             '',
-            f"**Material family / role:** {row['material']}",
+            f"**Adsorbent / study role:** {row['material']}",
             '',
             f"**Source tier:** {row['source']}",
             '',
@@ -143,7 +143,7 @@ def build_supplementary_s1(pandoc: str) -> None:
                         continue
                     cells = header.findall('./w:tc', ns)
                     labels = [''.join(node.itertext()).strip() for node in cells]
-                    if labels[:3] == ['Study (author–year)', 'Target', 'Material family / role']:
+                    if labels[:3] == ['Study (author–year)', 'Target', 'Adsorbent / study role']:
                         found_index = True
                         for row_idx, row in enumerate(table.findall('./w:tr', ns)):
                             trpr = row.find('./w:trPr', ns)

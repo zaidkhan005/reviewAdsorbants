@@ -2,9 +2,9 @@
 
 **Scope.** This main-text comparison covers 15 selected primary studies from the active 49-work corpus. The condition and endpoint tables contain 19 experimental/test conditions and 28 separately labelled endpoints. Table 1 is not a universal capacity ranking; Supplementary Table S1 covers all 49 selected works.
 
-**Reading rule.** Table 1A identifies each study once. Table 1B records test conditions, with the author–year label linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived qe is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted qmax and kinetic qe are model outputs, not observed uptake.
+**Reading rule.** Table 1 A identifies each study once. Table 1B records test conditions, with the author–year label linking each condition to Table 1C. Tables 1D–1I separate isotherm models, kinetic models, recovery/reuse, matrix validation, preparation burden and cost evidence. Table 1F(a) records separation/recovery method, regenerant and cycle count; Table 1F(b) records the cycle metric, result and qualification. Table 1G separates feed, test type and validation limitation. NR = not reported or not available in the audited source record. A derived \(q_e\) is calculated from the exact mass balance and is not a source-tabulated measurement. Fitted \(q_{\max}\) and kinetic \(q_e\) are model outputs, not observed uptake.
 
-## Table 1A. Study identity, target and material family
+## Table 1 A. Study identity, target and adsorbent type
 
 | Study | Target / system | Adsorbent | Study context |
 |---|---|---|---|
@@ -28,23 +28,23 @@
 
 | Study (author–year) | Initial concentration / feed | Dose | pH | Temperature | Contact / test time |
 |---|---|---|---|---|---|
-| Zhu et al. (2018) | 10 mg/L | 0.50 g/L | NR | 25°C | 5 h |
-| Zhu et al. (2018) | 60 mg/L | 0.50 g/L | NR | 25°C | 5 h |
+| Zhu et al. (2018) | 10 mg/L | 0.50 g/L | NR | 25 °C | 5 h |
+| Zhu et al. (2018) | 60 mg/L | 0.50 g/L | NR | 25 °C | 5 h |
 | Zhu et al. (2018) | 50 mg/L | 0.50 g/L | NR | NR | 15 h |
-| Yasmin et al. (2024) | 2 mg/L | 20 mg/L* | 5.7 | 30°C | 20 min |
-| Yasmin et al. (2024) | 2 mg/L | 20 mg/L* | 5.7 | 30°C | Kinetic time series |
-| Shaha et al. (2025) | 50 µmol/L | 0.20 g/L | 4 | 25°C | 240 min |
+| Yasmin et al. (2024) | 2 mg/L | 20 mg/L* | 5.7 | 30 °C | 20 min |
+| Yasmin et al. (2024) | 2 mg/L | 20 mg/L* | 5.7 | 30 °C | Kinetic time series |
+| Shaha et al. (2025) | 50 µmol/L | 0.20 g/L | 4 | 25 °C | 240 min |
 | Dang et al. (2025) | 70 mg/L | 0.50 g/L | 5 | NR | 960 min |
-| Dipannita et al. (2025) | 2 mg/L | 0.10 g/L | 5 | 25°C | 25 min |
+| Dipannita et al. (2025) | 2 mg/L | 0.10 g/L | 5 | 25 °C | 25 min |
 | Zhu et al. (2015) | NR | NR | pH effect; range NR | NR | Equilibrium ≈3 min |
 | Hossain et al. (2026) | 40 mg/L | 10 g/L | NR | 298 K | 150 min |
-| Shaha et al. (2026) | Equimolar FQ mixture | 0.20 g/L | 5 | 25°C | 240 min |
+| Shaha et al. (2026) | Equimolar FQ mixture | 0.20 g/L | 5 | 25 °C | 240 min |
 | Li et al. (2025) | 296.52 mg/L | 5.08 mg; volume NR | 6.70 | 298.88 K | ≈120 min; exact validation time NR |
 | Ding et al. (2026) | 30 mg/L | 1.0 g/L | 5 for TCH; 7 for OFL | NR | NR |
-| Hossain et al. (2024) | 0.2 mg/L TC | 0.15 g/L | 7 | 25°C | 30 s |
+| Hossain et al. (2024) | 0.2 mg/L TC | 0.15 g/L | 7 | 25 °C | 30 s |
 | Zhao et al. (2018) | Influent range NR | NR | Maximum reported at pH 7 | NR | ≈72 h |
-| Zhang & Wu (2022) | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1°C | NR |
-| Yao et al. (2017) | Figure 7 C0 NR | Figure 7 dose NR | NR | NR | NR |
+| Zhang & Wu (2022) | 10 µg/L in 80 mL feed | 0.01 mg in 20 mL dispersion | NR | 25 ± 1 °C | NR |
+| Yao et al. (2017) | Figure 7 \(C_0\) NR | Figure 7 dose NR | NR | NR | NR |
 | Yao et al. (2017) | Reuse endpoint feed NR | NR | NR | NR | After 10 cycles |
 | Peng et al. (2016) | 200 µg/L per drug | 1.0 g/L | 7 | 298 K | ≈2.5 h |
 
@@ -52,85 +52,85 @@
 
 | Study (author–year) | Target / system | Metric | Value |
 |---|---|---|---|
-| Zhu et al. (2018) | TC | Observed qe | 17.6 mg/g |
-| Zhu et al. (2018) | TC | Observed qe | 65.4 mg/g |
-| Zhu et al. (2018) | TC | Observed qe | 56.8 mg/g |
+| Zhu et al. (2018) | TC | Observed \(q_e\) | 17.6 mg/g |
+| Zhu et al. (2018) | TC | Observed \(q_e\) | 65.4 mg/g |
+| Zhu et al. (2018) | TC | Observed \(q_e\) | 56.8 mg/g |
 | Yasmin et al. (2024) | CIP | Removal | 99% |
-| Yasmin et al. (2024) | CIP | Derived qe | ≈99 mg/g |
-| Yasmin et al. (2024) | CIP | Experimental kinetic qe | 78.82 mg/g |
-| Shaha et al. (2025) | CIP | Experimental qe | 237.12 µmol/g |
-| Dang et al. (2025) | TC | Observed qe | 93.36 ± 3.85 mg/g |
+| Yasmin et al. (2024) | CIP | Derived \(q_e\) | ≈99 mg/g |
+| Yasmin et al. (2024) | CIP | Experimental kinetic \(q_e\) | 78.82 mg/g |
+| Shaha et al. (2025) | CIP | Experimental \(q_e\) | 237.12 µmol/g |
+| Dang et al. (2025) | TC | Observed \(q_e\) | 93.36 ± 3.85 mg/g |
 | Dipannita et al. (2025) | TC | Removal | 96.04% |
-| Dipannita et al. (2025) | TC | Derived qe | 19.208 mg/g |
+| Dipannita et al. (2025) | TC | Derived \(q_e\) | 19.208 mg/g |
 | Zhu et al. (2015) | CIP | Equilibrium time | ≈3 min |
 | Hossain et al. (2026) | CIP | Removal | 89.82% |
-| Hossain et al. (2026) | CIP | Derived qe | 3.5928 mg/g |
-| Shaha et al. (2026) | Binary FQ mixture | Total-mixture qe | 81.70 mg/g |
-| Shaha et al. (2026) | Ternary FQ mixture | Total-mixture qe | 79.90 mg/g |
-| Shaha et al. (2026) | Quaternary FQ mixture | Total-mixture qe | 78.92 mg/g |
-| Li et al. (2025) | CIP | Author-reported qe | 807.54 mg/g |
+| Hossain et al. (2026) | CIP | Derived \(q_e\) | 3.5928 mg/g |
+| Shaha et al. (2026) | Binary FQ mixture | Total-mixture \(q_e\) | 81.70 mg/g |
+| Shaha et al. (2026) | Ternary FQ mixture | Total-mixture \(q_e\) | 79.90 mg/g |
+| Shaha et al. (2026) | Quaternary FQ mixture | Total-mixture \(q_e\) | 78.92 mg/g |
+| Li et al. (2025) | CIP | Author-reported \(q_e\) | 807.54 mg/g |
 | Ding et al. (2026) | TCH | Removal | >96% |
 | Ding et al. (2026) | OFL | Removal | >96% |
 | Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (abstract / Section 3.2.2) | 94.1% |
 | Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (Section 3.2.4) | 93.91% |
 | Hossain et al. (2024) | TC + CTC/OTC/DTC | TC removal (Conclusion) | 93.94% |
-| Hossain et al. (2024) | TC + CTC/OTC/DTC | Derived TC qe | 1.252–1.255 mg/g |
-| Zhao et al. (2018) | CIP / PRB | Observed qe or breakthrough | Not accessible |
-| Zhang & Wu (2022) | TC | Experimental qe (held) | 90.21 mg/g |
+| Hossain et al. (2024) | TC + CTC/OTC/DTC | Derived TC \(q_e\) | 1.252–1.255 mg/g |
+| Zhao et al. (2018) | CIP / PRB | Observed \(q_e\) or breakthrough | Not accessible |
+| Zhang & Wu (2022) | TC | Experimental \(q_e\) (held) | 90.21 mg/g |
 | Yao et al. (2017) | TC | Screen removal | 82.1% |
 | Yao et al. (2017) | TC | Cycle-10 removal | 78.9% |
-| Peng et al. (2016) | TC in seven-drug mixture | Experimental qe (SI) | 200.2202 µg/g |
+| Peng et al. (2016) | TC in seven-drug mixture | Experimental \(q_e\) (SI) | 200.2202 µg/g |
 
 ## Table 1D. Fitted isotherm-model outputs
 
 | Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
-| Zhu et al. (2018) | Langmuir | qmax | 131.57 mg/g |
-| Zhu et al. (2018) | Langmuir | R² | 0.9938 |
-| Zhu et al. (2018) | Freundlich | R² | 0.9986 |
-| Yasmin et al. (2024) | Langmuir | qmax (30–50°C) | 419.62–441.44 mg/g |
-| Shaha et al. (2025) | Langmuir | qmax | 1000 µmol/g (331.35 mg/g) |
-| Dang et al. (2025) | Sips | qmax | 130.11 mg/g |
-| Dang et al. (2025) | Langmuir | qmax | 107.06 mg/g |
-| Dipannita et al. (2025) | Linear Langmuir | qmax (50°C) | 54.73 mg/g |
-| Dipannita et al. (2025) | Nonlinear Langmuir | qmax (50°C) | 48.47 mg/g |
-| Zhu et al. (2015) | Langmuir | qmax | 323 mg/g |
-| Hossain et al. (2026) | Linear Langmuir | qmax | 8.210 mg/g |
-| Hossain et al. (2026) | Nonlinear Langmuir | qmax | 10.14 mg/g |
-| Shaha et al. (2026) | Langmuir (binary FQ mixture) | qmax | 370.37 mg/g |
-| Shaha et al. (2026) | Langmuir (ternary FQ mixture) | qmax | 357.14 mg/g |
-| Shaha et al. (2026) | Langmuir (quaternary FQ mixture) | qmax | 333.33 mg/g |
-| Li et al. (2025) | Langmuir | qmax | 821.24 mg/g |
-| Ding et al. (2026) | Langmuir | Numerical qmax | NR |
-| Hossain et al. (2024) | Langmuir (30°C) | qmax (TC) | 60.24 mg/g |
-| Hossain et al. (2024) | Langmuir (40°C) | qmax (TC) | 62.50 mg/g |
-| Hossain et al. (2024) | Langmuir (50°C) | qmax (TC) | 64.10 mg/g |
+| Zhu et al. (2018) | Langmuir | \(q_{\max}\) | 131.57 mg/g |
+| Zhu et al. (2018) | Langmuir | \(R^2\) | 0.9938 |
+| Zhu et al. (2018) | Freundlich | \(R^2\) | 0.9986 |
+| Yasmin et al. (2024) | Langmuir | \(q_{\max}\) (30–50 °C) | 419.62–441.44 mg/g |
+| Shaha et al. (2025) | Langmuir | \(q_{\max}\) | 1000 µmol/g (331.35 mg/g) |
+| Dang et al. (2025) | Sips | \(q_{\max}\) | 130.11 mg/g |
+| Dang et al. (2025) | Langmuir | \(q_{\max}\) | 107.06 mg/g |
+| Dipannita et al. (2025) | Linear Langmuir | \(q_{\max}\) (50 °C) | 54.73 mg/g |
+| Dipannita et al. (2025) | Nonlinear Langmuir | \(q_{\max}\) (50 °C) | 48.47 mg/g |
+| Zhu et al. (2015) | Langmuir | \(q_{\max}\) | 323 mg/g |
+| Hossain et al. (2026) | Linear Langmuir | \(q_{\max}\) | 8.210 mg/g |
+| Hossain et al. (2026) | Nonlinear Langmuir | \(q_{\max}\) | 10.14 mg/g |
+| Shaha et al. (2026) | Langmuir (binary FQ mixture) | \(q_{\max}\) | 370.37 mg/g |
+| Shaha et al. (2026) | Langmuir (ternary FQ mixture) | \(q_{\max}\) | 357.14 mg/g |
+| Shaha et al. (2026) | Langmuir (quaternary FQ mixture) | \(q_{\max}\) | 333.33 mg/g |
+| Li et al. (2025) | Langmuir | \(q_{\max}\) | 821.24 mg/g |
+| Ding et al. (2026) | Langmuir | Numerical \(q_{\max}\) | NR |
+| Hossain et al. (2024) | Langmuir (30 °C) | \(q_{\max}\) (TC) | 60.24 mg/g |
+| Hossain et al. (2024) | Langmuir (40 °C) | \(q_{\max}\) (TC) | 62.50 mg/g |
+| Hossain et al. (2024) | Langmuir (50 °C) | \(q_{\max}\) (TC) | 64.10 mg/g |
 | Zhao et al. (2018) | Unresolved attribution | Reported maximum | 100 mg/g (abstract) |
-| Zhang & Wu (2022) | Langmuir | qmax (TC) | 662.25 mg/g |
-| Yao et al. (2017) | Langmuir | qmax | 454.6 mg/g |
-| Peng et al. (2016) | Isotherm capacity | Conventional qmax | NR |
+| Zhang & Wu (2022) | Langmuir | \(q_{\max}\) (TC) | 662.25 mg/g |
+| Yao et al. (2017) | Langmuir | \(q_{\max}\) | 454.6 mg/g |
+| Peng et al. (2016) | Isotherm capacity | Conventional \(q_{\max}\) | NR |
 
 ## Table 1E. Kinetic-model outputs
 
 | Study (author–year) | Model | Parameter | Value |
 |---|---|---|---|
-| Zhu et al. (2018) | PFO | Fitted qe | 40.93 mg/g |
-| Zhu et al. (2018) | PSO | Fitted qe | 62.50 mg/g |
-| Yasmin et al. (2024) | PSO | Fitted qe | 79.36 mg/g |
-| Shaha et al. (2025) | PSO | Fitted qe series | Not available in summary register |
-| Dang et al. (2025) | PSO | Fitted qe | 87.74 mg/g |
-| Dipannita et al. (2025) | Linear PSO | Fitted qe | 19.50 mg/g |
-| Zhu et al. (2015) | PSO | Fitted qe | NR in accessible source |
-| Hossain et al. (2026) | Nonlinear PSO | Fitted qe | 4.458 mg/g |
+| Zhu et al. (2018) | PFO | Fitted \(q_e\) | 40.93 mg/g |
+| Zhu et al. (2018) | PSO | Fitted \(q_e\) | 62.50 mg/g |
+| Yasmin et al. (2024) | PSO | Fitted \(q_e\) | 79.36 mg/g |
+| Shaha et al. (2025) | PSO | Fitted \(q_e\) series | Not available in summary register |
+| Dang et al. (2025) | PSO | Fitted \(q_e\) | 87.74 mg/g |
+| Dipannita et al. (2025) | Linear PSO | Fitted \(q_e\) | 19.50 mg/g |
+| Zhu et al. (2015) | PSO | Fitted \(q_e\) | NR in accessible source |
+| Hossain et al. (2026) | Nonlinear PSO | Fitted \(q_e\) | 4.458 mg/g |
 | Shaha et al. (2026) | Mixture kinetic model | Fitted output | Mixture-specific; not CIP-specific |
 | Li et al. (2025) | Kinetic comparison | Numeric endpoint | Not used here |
-| Ding et al. (2026) | PSO | Fitted qe | NR in accessible preview |
-| Hossain et al. (2024) | PSO (TC) | Fitted qe | 1.2681 mg/g |
-| Zhao et al. (2018) | PSO | Fitted qe | Parameters inaccessible |
-| Zhang & Wu (2022) | Kinetic fits (TC) | Fitted qe | 93.13 / 92.84 mg/g |
-| Yao et al. (2017) | PSO | Fitted qe | 84.8 mg/g |
-| Peng et al. (2016) | PFO (TC) | Fitted qe | 198.8393 µg/g |
-| Peng et al. (2016) | PSO (TC) | Fitted qe | 200.6055 µg/g |
+| Ding et al. (2026) | PSO | Fitted \(q_e\) | NR in accessible preview |
+| Hossain et al. (2024) | PSO (TC) | Fitted \(q_e\) | 1.2681 mg/g |
+| Zhao et al. (2018) | PSO | Fitted \(q_e\) | Parameters inaccessible |
+| Zhang & Wu (2022) | Kinetic fits (TC) | Fitted \(q_e\) | 93.13 / 92.84 mg/g |
+| Yao et al. (2017) | PSO | Fitted \(q_e\) | 84.8 mg/g |
+| Peng et al. (2016) | PFO (TC) | Fitted \(q_e\) | 198.8393 µg/g |
+| Peng et al. (2016) | PSO (TC) | Fitted \(q_e\) | 200.6055 µg/g |
 
 ## Table 1F(a). Recovery and regeneration method
 
@@ -157,14 +157,14 @@
 | Study (author–year) | Cycle metric | Cycle result | Qualification |
 |---|---|---|---|
 | Zhu et al. (2018) | Reuse status | Not verified | No multicycle reuse evidence |
-| Yasmin et al. (2024) | Removal | 92% at cycle 7 | Not qe retention |
-| Shaha et al. (2025) | qe retention | 95.78% at cycle 5 | Separate desorption-release result |
+| Yasmin et al. (2024) | Removal | 92% at cycle 7 | Not \(q_e\) retention |
+| Shaha et al. (2025) | \(q_e\) retention | 95.78% at cycle 5 | Separate desorption-release result |
 | Dang et al. (2025) | Removal | 88.33% to 75.38% | Cycle 1 to cycle 5 |
-| Dipannita et al. (2025) | Removal | About 96% to 92% | Not qe-capacity retention |
+| Dipannita et al. (2025) | Removal | About 96% to 92% | Not \(q_e\)-capacity retention |
 | Zhu et al. (2015) | Reuse status | Not verified | No verified regeneration cycles |
 | Hossain et al. (2026) | Cycle balance | Incomplete | Cycle-level mass balance unavailable |
 | Shaha et al. (2026) | Mixture performance | Above 92% after cycle 5 | Mixture-level result |
-| Li et al. (2025) | Removal retention | About 90.53% of initial removal | Not a qe-capacity metric |
+| Li et al. (2025) | Removal retention | About 90.53% of initial removal | Not a \(q_e\)-capacity metric |
 | Ding et al. (2026) | Removal | Above 87% after 4 cycles | Preview-level evidence |
 | Hossain et al. (2024) | TC-specific cycle result | Not available | No TC-only cycle series |
 | Zhao et al. (2018) | PRB lifetime | Not reported | Not a regeneration-cycle metric |
@@ -234,17 +234,17 @@
 
 ## Table 1 notes and study-specific holds
 
-- **Yasmin et al. (2024):** The abstract/Fig. 3 removal (99%) and kinetic Table 4 experimental qe (78.82 mg/g) are inconsistent on the stated batch basis. The conclusion also says 20 g/L where other source locations say 20 mg/L (a 1000-fold discrepancy). Table 1B uses the optimum condition reported in the abstract/figures and retains the conflict here.
-- **Shaha et al. (2025):** Experimental qe/removal pairs disagree across concentration, temperature and dose series. The fitted Langmuir qmax is separate. Keep the study out of a clean quantitative ranking.
-- **Dipannita et al. (2025):** The 19.208 mg/g qe is derived from the 96.04% removal result. It is not directly tabulated. Cycle removal is not qe-capacity retention.
+- **Yasmin et al. (2024):** The abstract/Fig. 3 removal (99%) and kinetic Table 4 experimental \(q_e\) (78.82 mg/g) are inconsistent on the stated batch basis. The conclusion also says 20 g/L where other source locations say 20 mg/L (a 1000-fold discrepancy). Table 1B uses the optimum condition reported in the abstract/figures and retains the conflict here.
+- **Shaha et al. (2025):** Experimental \(q_e\)/removal pairs disagree across concentration, temperature and dose series. The fitted Langmuir \(q_{\max}\) is separate. Keep the study out of a clean quantitative ranking.
+- **Dipannita et al. (2025):** The 19.208 mg/g \(q_e\) is derived from the 96.04% removal result. It is not directly tabulated. Cycle removal is not \(q_e\)-capacity retention.
 - **Hossain et al. (2026):** The experimental dose is 10 g/L, 100× the 0.1 g/L price-scenario assumption. Methods also alternate between 50 and 55 mL. The low-cost claim remains unvalidated.
-- **Shaha et al. (2026):** Binary, ternary and quaternary qe values are total-mixture uptake, not isolated-CIP capacity. Authors state that real wastewater was not tested.
+- **Shaha et al. (2026):** Binary, ternary and quaternary \(q_e\) values are total-mixture uptake, not isolated-CIP capacity. Authors state that real wastewater was not tested.
 - **Li et al. (2025):** The RSM-validation solution volume is unavailable for mass-balance verification; the real/simulated wastewater description conflicts.
-- **Hossain et al. (2024):** TC is co-adsorbed with CTC/OTC/DTC. Three source locations give different removal values. The derived qe is below the feed ceiling but is not directly tabulated.
+- **Hossain et al. (2024):** TC is co-adsorbed with CTC/OTC/DTC. Three source locations give different removal values. The derived \(q_e\) is below the feed ceiling but is not directly tabulated.
 - **Zhao et al. (2018):** The 100 mg/g source-reported maximum has inconsistent Freundlich/Langmuir attribution between abstract and indexed conclusion. Numeric PRB breakthrough and economic values remain inaccessible.
-- **Zhang & Wu (2022):** Table 1 TC qe = 90.21 mg/g exceeds the strict 80 mg/g stated-feed ceiling. Figure 2c has a larger feed-basis discrepancy. Keep observed qe and fitted qmax out of quantitative ranking pending clarification.
-- **Yao et al. (2017):** Figure 7 lacks figure-specific C0/pH/dose. Do not import conditions from separate factor tests. Cycle-10 removal is not capacity retention.
-- **Peng et al. (2016):** Official SI Table S2 gives TC-specific experimental qe = 200.2202 µg/g. The 190.3 µg/g mean across seven antibiotics is not a TC-specific endpoint. The SI value is about 0.11% above the stated feed ceiling; preserve this small mass-balance flag.
+- **Zhang & Wu (2022):** Table 1 TC \(q_e = 90.21\) mg/g exceeds the strict 80 mg/g stated-feed ceiling. Figure 2c has a larger feed-basis discrepancy. Keep observed \(q_e\) and fitted \(q_{\max}\) out of quantitative ranking pending clarification.
+- **Yao et al. (2017):** Figure 7 lacks figure-specific \(C_0\)/pH/dose. Do not import conditions from separate factor tests. Cycle-10 removal is not capacity retention.
+- **Peng et al. (2016):** Official SI Table S2 gives TC-specific experimental \(q_e = 200.2202\) µg/g. The 190.3 µg/g mean across seven antibiotics is not a TC-specific endpoint. The SI value is about 0.11% above the stated feed ceiling; preserve this small mass-balance flag.
 
 *Yasmin et al. (2024) dose footnote:* Abstract/Fig. 3 and Results report 20 mg/L GO; the conclusion says 20 g/L. The 20 mg/L value is displayed for the optimum condition while the conflict remains visible above.
 

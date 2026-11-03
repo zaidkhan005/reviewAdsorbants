@@ -1,20 +1,18 @@
-# Figure 1. Scope and material taxonomy
+# Figure 1. Scope and adsorbents considered
 
-**Figure caption:** Scope and eligibility boundaries for the evidence synthesis of ciprofloxacin (CIP) and tetracycline (TC) adsorption by selected graphene-based adsorbents and graphene-bearing composites.
+**Figure caption:** Adsorbents considered and eligibility boundaries for the evidence synthesis of ciprofloxacin (CIP) and tetracycline (TC) adsorption.
 
 ```mermaid
 flowchart TB
-    A["Review question<br/>Aqueous adsorption of CIP and TC"] --> B["Family A<br/>Graphene-based adsorbents"]
-    A --> C["Family B<br/>Selected graphene-bearing composites"]
+    A["Review question<br/>Aqueous adsorption of CIP and TC"] --> B["Adsorbents considered"]
 
     B --> B1["Graphene oxide (GO)"]
     B --> B2["Reduced graphene oxide (rGO)"]
     B --> B3["Surface-functionalized GO/rGO"]
-
-    C --> C1["Magnetic GO/rGO composites"]
-    C --> C2["Chemically functionalized magnetic graphene"]
-    C --> C3["Graphene–polymer/cellulose<br/>or immobilized graphene"]
-    C --> C4["Selected graphene–metal-oxide<br/>composites, where adsorption<br/>is separable from catalysis"]
+    B --> B4["Magnetic GO/rGO composites"]
+    B --> B5["Chemically functionalized magnetic graphene"]
+    B --> B6["Graphene–polymer/cellulose<br/>and immobilized graphene composites"]
+    B --> B7["Selected graphene–metal-oxide composites<br/>where adsorption is separable from catalysis"]
 
     A --> D["Eligibility gate"]
     D --> D1["Original research study"]
@@ -28,8 +26,8 @@ flowchart TB
     D4 --> E
 
     E --> F["Compare condition-labelled<br/>observed and modelled endpoints"]
-    F --> F1["Observed qₑ / qₜ"]
-    F --> F2["Fitted qmax / qm<br/>and kinetic-model qe"]
+    F --> F1["Observed equilibrium and<br/>time-specific uptake"]
+    F --> F2["Fitted maximum capacities<br/>and kinetic-model uptake"]
     F --> F3["Removal percentage"]
     F --> F4["Column / breakthrough data"]
 
@@ -44,4 +42,4 @@ flowchart TB
 
 **Source and design note:** Author-generated taxonomy based on the approved scope proposal (`docs/SEMESTER_PAPER_SCOPE_PROPOSAL.md`). The eligibility gate is conjunctive: a candidate must satisfy the original-study, material, aqueous target-specificity, adsorption-separation and interpretability requirements. Reviews may support background or citation discovery but do not provide primary-study values in the core comparison.
 
-**Interpretation note:** Family B does not automatically include every novel hybrid. Each graphene-bearing composite is assessed individually; a standalone MOF, mineral or polymer remains outside the core. The figure is a scope map, not a claim that every candidate in the screening register is finally included.
+**Interpretation note:** Each graphene-bearing composite is considered individually. A standalone MOF, mineral or polymer remains outside the core scope unless it contains an eligible graphene-based adsorbent. The figure is a scope map, not a claim that every screened study is included.
