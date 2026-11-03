@@ -47,6 +47,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Mechanism source-pin continuation log | [2026-11-03 mechanism source-pin pass](../logs/2026-11-03-mechanism-source-pin-pass.md) |
 | Cost-denominator source-pin continuation log | [2026-11-03 cost-denominator source-pin pass](../logs/2026-11-03-cost-denominator-source-pin-pass.md) |
 | Preparation/recovery source-pin continuation log | [2026-11-03 preparation/recovery source-pin pass](../logs/2026-11-03-preparation-recovery-matrix-source-pin-pass.md) |
+| Remaining preparation/reuse source-pin continuation log | [2026-11-03 remaining preparation/reuse source-pin pass](../logs/2026-11-03-remaining-preparation-reuse-source-pin-pass.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
 | Practical-feasibility matrix | [semester-practical-feasibility-matrix.csv](../data/semester-practical-feasibility-matrix.csv) |
