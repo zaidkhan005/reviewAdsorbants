@@ -220,3 +220,8 @@ The manuscript was rebuilt after correcting Word page geometry and pagination co
 - The manuscript must continue to be described as a focused narrative evidence synthesis, not as a completed systematic review or PRISMA-compliant review.
 
 **Production QA status:** complete for the 3 November 2026 build. **Scientific and institutional submission sign-off:** still pending the items above.
+
+
+## User-supplied full-text evidence update — 3 November 2026
+
+Five selected papers (SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051) were re-audited from the user's newly uploaded primary PDFs. Their source tiers and endpoint distinctions have been updated in Table 3 and the reader-facing V2 manuscript. The sixth upload is a separate Kabir et al. (2024) GrGO/TC paper, not SEM-010; it remains unselected pending a separate inclusion decision. The frozen 49-reference set, 53-entry bibliography and citation keys are unchanged. See [the six-PDF audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md).
