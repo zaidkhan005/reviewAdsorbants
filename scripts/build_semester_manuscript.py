@@ -11,19 +11,19 @@ BIB = ROOT / 'semester-manuscript-cited-references-49-selected-plus-4-context.bi
 CSL = ROOT / 'references' / 'american-chemical-society-2026.csl'
 OUT = ROOT / 'build' / 'semester-manuscript'
 FIG = OUT / 'figures'
-S1_SOURCE = ROOT / 'manuscript' / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_49_REFERENCE_COVERAGE.md'
-S2_SOURCE = ROOT / 'manuscript' / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.md'
+TABLE1_SOURCE = ROOT / 'manuscript' / 'SEMESTER_TABLE_1_SEARCH_STRATEGY_SOURCE.md'
+TABLE3_SOURCE = ROOT / 'manuscript' / 'SEMESTER_TABLE_3_EVIDENCE_COVERAGE_SOURCE.md'
 
 def run(cmd: list[str]) -> None:
     print('+', ' '.join(cmd), flush=True)
     subprocess.run(cmd, check=True, cwd=ROOT)
 
 
-def build_supplementary_s1(pandoc: str) -> None:
-    """Build a separate S1 file with a concise index and study-wise evidence notes."""
-    if not S1_SOURCE.exists():
-        raise SystemExit(f'Missing required supplement source: {S1_SOURCE.relative_to(ROOT)}')
-    source_lines = S1_SOURCE.read_text(encoding='utf-8').splitlines()
+def build_table_3_content() -> str:
+    """Assemble Table 3's compact index and study-level evidence notes."""
+    if not TABLE3_SOURCE.exists():
+        raise SystemExit(f'Missing Table 3 source: {TABLE3_SOURCE.relative_to(ROOT)}')
+    source_lines = TABLE3_SOURCE.read_text(encoding='utf-8').splitlines()
     data_rows = []
     for line in source_lines:
         if not line.startswith('|') or line.startswith('|---'):
@@ -33,32 +33,30 @@ def build_supplementary_s1(pandoc: str) -> None:
             continue
         citation_match = re.search(r'\\cite\{([^}]+)\}', cells[6])
         if not citation_match:
-            raise SystemExit(f'Missing citation key for S1 row: {cells[0]}')
+            raise SystemExit(f'Missing citation key for Table 3 row: {cells[0]}')
         data_rows.append({
             'study': cells[0],
             'title': cells[1],
             'target': cells[2],
             'material': re.split(r';\s*(?:Empirical primary study|Theory/mechanism context only|Review/background context only|Scope-boundary near-miss)', cells[3], maxsplit=1)[0].strip(),
             'source': cells[4],
-            'guardrail': cells[5],
+            'evidence': cells[5],
             'key': citation_match.group(1),
         })
     if len(data_rows) != 49:
-        raise SystemExit(f'Expected 49 selected studies in S1, found {len(data_rows)}')
+        raise SystemExit(f'Expected 49 selected references in Table 3, found {len(data_rows)}')
     labels = [row['study'] for row in data_rows]
     if len(set(labels)) != 49:
-        raise SystemExit('Duplicate author-year labels detected in S1.')
+        raise SystemExit('Duplicate author-year labels detected in Table 3.')
     if any(re.search(r'\b(?:SEM|EV-SEM)-\d{3}\b', ' '.join(row.values())) for row in data_rows):
-        raise SystemExit('Internal evidence identifiers found in reader-facing S1 data.')
+        raise SystemExit('Internal evidence identifiers found in reader-facing Table 3 data.')
 
     md = [
-        '# Supplementary Table S1. Evidence coverage of the 49 selected references',
+        '## Table 3. Evidence coverage of the 49 selected references',
         '',
-        '**Purpose.** This supplement summarizes the source basis and appropriate evidential use of the 49 works discussed in the review. It is intended to support interpretation of the literature and is not a quantitative ranking. Findings available only from abstracts, previews or hosted copies, as well as values affected by source inconsistencies, are presented with appropriate qualifications.',
+        'Table 3 records the target antibiotic, adsorbent and study role for each selected work, followed by source-tier and evidence-use notes. It is a coverage register, not a quantitative ranking. Abstract-only, preview-only, repository-hosted and internally inconsistent results retain their source qualifications.',
         '',
-        '**How to read this file.** Part A provides a compact index. Part B gives each study’s title, the type of source available and the qualifications needed to interpret its findings. These details are presented in separate labelled fields for ease of reference.',
-        '',
-        '## Part A. Selected-reference coverage index',
+        '### Table 3A. Selected-reference index',
         '',
         '| Study (author–year) | Target | Adsorbent / study role |',
         '|---|---|---|',
@@ -67,12 +65,14 @@ def build_supplementary_s1(pandoc: str) -> None:
         md.append(f"| {row['study']} | {row['target']} | {row['material']} |")
     md.extend([
         '',
-        '## Part B. Study-by-study source and evidence notes',
+        '### Study-level source and evidence notes',
+        '',
+        'The notes below separate source availability from the permitted use of each result. Numerical endpoints are retained as reported or explicitly identified as derived; fitted parameters, observed uptake and removal percentages are not interchangeable.',
         '',
     ])
     for idx, row in enumerate(data_rows, 1):
         md.extend([
-            f"### {idx}. {row['study']}",
+            f"**{idx}. {row['study']}**",
             '',
             f"*{row['title']}*",
             '',
@@ -82,169 +82,28 @@ def build_supplementary_s1(pandoc: str) -> None:
             '',
             f"**Source tier:** {row['source']}",
             '',
-            f"**Permitted evidence use / numeric guardrail:** {row['guardrail']}",
+            f"**Evidence and qualification:** {row['evidence']}",
             '',
             f"**Citation:** [@{row['key']}]",
             '',
         ])
     md.extend([
-        '## Interpretation rules',
+        '### Interpretation rules for Table 3',
         '',
         '1. Source-reported observed \\(q_e\\), mass-balance-derived uptake, kinetic-model-fitted \\(q_e\\), fitted isotherm \\(q_{\\max}/q_m\\), removal percentage and column metrics are different endpoints. Do not merge or rank them without a valid common basis.',
         '2. Ciprofloxacin (CIP) is not pooled with norfloxacin or ofloxacin. Tetracycline (TC) is not pooled with chlortetracycline, oxytetracycline or doxycycline.',
         '3. Theoretical, review and scope-related references provide context only and should not be interpreted as primary quantitative evidence of GO/rGO adsorption performance.',
         '',
     ])
-    OUT.mkdir(parents=True, exist_ok=True)
-    source_md = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.md'
-    source_md.write_text('\n'.join(md), encoding='utf-8')
-    # Keep each study heading with its title and first metadata lines in the PDF.
-    # Long evidence notes may still continue across pages where necessary.
-    pdf_md = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE_PDF.md'
-    pdf_text = re.sub(
-        r'(?m)^(### \d+\.)',
-        lambda match: '\\Needspace{15\\baselineskip}\n' + match.group(1),
-        '\n'.join(md),
-    )
-    pdf_md.write_text(pdf_text, encoding='utf-8')
-    pdf_header = OUT / 's1_pdf_header.tex'
-    pdf_header.write_text('\\usepackage{needspace}\n', encoding='utf-8')
-    common = [
-        '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
-        '--citeproc', f'--bibliography={BIB}', f'--csl={CSL}',
-        '--standalone', '-V', 'papersize:a4', '-V', 'geometry:margin=18mm',
-        '-V', 'fontsize:9.5pt', '-V', 'mainfont:DejaVu Serif',
-        '-V', 'sansfont:DejaVu Sans', '-V', 'monofont:DejaVu Sans Mono',
-    ]
-    docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.docx'
-    pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S1_EVIDENCE_COVERAGE.pdf'
-    run([pandoc, str(source_md)] + common + ['--to=docx', '-o', str(docx)])
-    # Set the Word supplement to A4 and prevent individual index rows splitting
-    # across pages. Mark the compact index header for automatic repetition.
-    docx_tmp = docx.with_suffix('.tmp.docx')
-    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
-    w = '{' + ns['w'] + '}'
-    with zipfile.ZipFile(docx, 'r') as source_zip, zipfile.ZipFile(docx_tmp, 'w', zipfile.ZIP_DEFLATED) as output_zip:
-        for item in source_zip.infolist():
-            payload = source_zip.read(item.filename)
-            if item.filename == 'word/document.xml':
-                root = ET.fromstring(payload)
-                for sect in root.findall('.//w:sectPr', ns):
-                    pg = sect.find('./w:pgSz', ns)
-                    if pg is None:
-                        pg = ET.SubElement(sect, w + 'pgSz')
-                    pg.set(w + 'w', '11906')
-                    pg.set(w + 'h', '16838')
-                    pg.attrib.pop(w + 'orient', None)
-                found_index = False
-                for table in root.findall('.//w:tbl', ns):
-                    header = table.find('./w:tr', ns)
-                    if header is None:
-                        continue
-                    cells = header.findall('./w:tc', ns)
-                    labels = [''.join(node.itertext()).strip() for node in cells]
-                    if labels[:3] == ['Study (author–year)', 'Target', 'Adsorbent / study role']:
-                        found_index = True
-                        for row_idx, row in enumerate(table.findall('./w:tr', ns)):
-                            trpr = row.find('./w:trPr', ns)
-                            if trpr is None:
-                                trpr = ET.Element(w + 'trPr')
-                                row.insert(0, trpr)
-                            if row_idx == 0:
-                                repeat = trpr.find('./w:tblHeader', ns)
-                                if repeat is None:
-                                    repeat = ET.SubElement(trpr, w + 'tblHeader')
-                                repeat.set(w + 'val', 'true')
-                            cant = trpr.find('./w:cantSplit', ns)
-                            if cant is None:
-                                ET.SubElement(trpr, w + 'cantSplit')
-                        break
-                if not found_index:
-                    raise SystemExit('Could not identify the S1 author-year index table for pagination controls.')
-                # Keep each study heading with its article title and first four
-                # labelled fields in Word; longer evidence-note paragraphs may flow.
-                body = root.find('./w:body', ns)
-                paragraphs = body.findall('./w:p', ns) if body is not None else []
-                for idx, paragraph in enumerate(paragraphs):
-                    para_text = ''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)).strip()
-                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)$', para_text):
-                        continue
-                    for linked in paragraphs[idx:idx + 5]:
-                        ppr = linked.find('./w:pPr', ns)
-                        if ppr is None:
-                            ppr = ET.Element(w + 'pPr')
-                            linked.insert(0, ppr)
-                        keep = ppr.find('./w:keepNext', ns)
-                        if keep is None:
-                            ET.SubElement(ppr, w + 'keepNext')
-                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
-            output_zip.writestr(item, payload)
-    docx_tmp.replace(docx)
-    run([pandoc, str(pdf_md)] + common + ['--include-in-header', str(pdf_header), '--pdf-engine=xelatex', '-o', str(pdf)])
-    print(f'Supplementary S1 built from {len(data_rows)} selected-study records: {docx}, {pdf}', flush=True)
+    return '\n'.join(md)
 
 
-def build_supplementary_s2(pandoc: str) -> None:
-    """Build the separately numbered literature-search supplement."""
-    if not S2_SOURCE.exists():
-        raise SystemExit(f'Missing required supplement source: {S2_SOURCE.relative_to(ROOT)}')
-    common = [
-        '--from=markdown+pipe_tables+raw_tex+raw_attribute+tex_math_dollars+tex_math_single_backslash',
-        '--standalone', '-V', 'papersize:a4', '-V', 'geometry:margin=20mm',
-        '-V', 'fontsize:10pt', '-V', 'mainfont:DejaVu Serif',
-        '-V', 'sansfont:DejaVu Sans', '-V', 'monofont:DejaVu Sans Mono',
-    ]
-    docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.docx'
-    pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.pdf'
-    run([pandoc, str(S2_SOURCE)] + common + ['--to=docx', '-o', str(docx)])
-    # Set the Word supplement to A4 and align its body typography/margins
-    # with the one-page PDF render.
-    docx_tmp = docx.with_suffix('.tmp.docx')
-    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
-    w = '{' + ns['w'] + '}'
-    with zipfile.ZipFile(docx, 'r') as source_zip, zipfile.ZipFile(docx_tmp, 'w', zipfile.ZIP_DEFLATED) as output_zip:
-        for item in source_zip.infolist():
-            payload = source_zip.read(item.filename)
-            if item.filename == 'word/document.xml':
-                root = ET.fromstring(payload)
-                for sect in root.findall('.//w:sectPr', ns):
-                    pg = sect.find('./w:pgSz', ns)
-                    if pg is None:
-                        pg = ET.SubElement(sect, w + 'pgSz')
-                    pg.set(w + 'w', '11906')
-                    pg.set(w + 'h', '16838')
-                    pg.attrib.pop(w + 'orient', None)
-                    margins = sect.find('./w:pgMar', ns)
-                    if margins is None:
-                        margins = ET.SubElement(sect, w + 'pgMar')
-                    for side in ('top', 'right', 'bottom', 'left'):
-                        margins.set(w + side, '1134')  # 20 mm
-                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
-            elif item.filename == 'word/styles.xml':
-                root = ET.fromstring(payload)
-                defaults = root.find('./w:docDefaults/w:rPrDefault/w:rPr', ns)
-                if defaults is not None:
-                    for tag in ('sz', 'szCs'):
-                        size = defaults.find('./w:' + tag, ns)
-                        if size is None:
-                            size = ET.SubElement(defaults, w + tag)
-                        size.set(w + 'val', '20')  # 10 pt body text
-                for style_id, spacing_value in (('BodyText', '60'), ('Compact', '20')):
-                    style = root.find(f"./w:style[@w:styleId='{style_id}']", ns)
-                    if style is not None:
-                        ppr = style.find('./w:pPr', ns)
-                        if ppr is None:
-                            ppr = ET.SubElement(style, w + 'pPr')
-                        spacing = ppr.find('./w:spacing', ns)
-                        if spacing is None:
-                            spacing = ET.SubElement(ppr, w + 'spacing')
-                        spacing.set(w + 'before', spacing_value)
-                        spacing.set(w + 'after', spacing_value)
-                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
-            output_zip.writestr(item, payload)
-    docx_tmp.replace(docx)
-    run([pandoc, str(S2_SOURCE)] + common + ['--pdf-engine=xelatex', '-o', str(pdf)])
-    print(f'Supplementary S2 built: {docx}, {pdf}', flush=True)
+def load_table_1_content() -> str:
+    """Load the literature-search strategy table inserted into the manuscript."""
+    if not TABLE1_SOURCE.exists():
+        raise SystemExit(f'Missing Table 1 source: {TABLE1_SOURCE.relative_to(ROOT)}')
+    return TABLE1_SOURCE.read_text(encoding='utf-8').strip()
+
 
 def main() -> None:
     for p in (SOURCE, BIB, CSL):
@@ -259,6 +118,13 @@ def main() -> None:
         shutil.rmtree(OUT)
     FIG.mkdir(parents=True)
     md = SOURCE.read_text(encoding='utf-8')
+    for marker, content in (
+        ('<!-- TABLE_1_SEARCH_STRATEGY -->', load_table_1_content()),
+        ('<!-- TABLE_3_EVIDENCE_COVERAGE -->', build_table_3_content()),
+    ):
+        if md.count(marker) != 1:
+            raise SystemExit(f'Expected one manuscript insertion marker: {marker}')
+        md = md.replace(marker, content)
     # Keep internal evidence-traceability annotations in the repository source and
     # audit ledgers, but do not expose them in the reader-facing manuscript render.
     md = re.sub(r'\s*\[evidence:[^\]]+\]', '', md)
@@ -394,11 +260,10 @@ def main() -> None:
         'Source: manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md\n'
         'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
         'Five Mermaid diagrams converted to embedded PNG images.\n'
+        'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
         'DOCX/PDF require manual full-page visual review before submission.\n',
         encoding='utf-8')
     print('Build complete:', docx, pdf, flush=True)
-    build_supplementary_s1(pandoc)
-    build_supplementary_s2(pandoc)
 
 if __name__ == '__main__':
     main()
