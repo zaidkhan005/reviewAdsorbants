@@ -260,7 +260,7 @@ def main() -> None:
                     para_text = ''.join(
                         node.text or '' for node in paragraph.findall('.//w:t', ns)
                     ).strip()
-                    if not re.match(r'^\\d{1,2}\\.\\s+.+\\(\\d{4}\\)
+                    if not re.match(r'^\d{1,2}\.\s+.+\(\d{4}\)
             output_zip.writestr(item, payload)
     docx_tmp.replace(docx)
     # Keep a concise build manifest next to the outputs.
