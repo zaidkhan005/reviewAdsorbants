@@ -142,7 +142,7 @@ flowchart LR
     A --> B --> C
     C --> D
     C --> E
-    F -.-> C
+
 ```
 
 ### 2.4. Data extraction and critical evidence assessment
