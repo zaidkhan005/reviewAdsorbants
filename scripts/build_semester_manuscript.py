@@ -306,6 +306,16 @@ def main() -> None:
                     if not references_started:
                         continue
                     bibliography_paragraphs += 1
+                    # Keep each reference entry together on one page. Without
+                    # w:keepLines, a long title can split at the page boundary,
+                    # leaving the continuation isolated at the top of the next page.
+                    ppr = paragraph.find('./w:pPr', ns)
+                    if ppr is None:
+                        ppr = ET.Element(w + 'pPr')
+                        paragraph.insert(0, ppr)
+                    keep_lines = ppr.find('./w:keepLines', ns)
+                    if keep_lines is None:
+                        ET.SubElement(ppr, w + 'keepLines')
                     for run_node in paragraph.findall('.//w:r', ns):
                         rpr = run_node.find('./w:rPr', ns)
                         if rpr is None:
