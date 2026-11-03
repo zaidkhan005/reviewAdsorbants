@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **65 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **72 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 65 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 72 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -311,3 +311,28 @@ The post-merge DOI-matched `Untitled +++.bib` export confirms these exact Better
 - No main-text wording, study selection, numeric value or citation callout was modified in this source-pin pass.
 
 The next continuation should split the remaining grouped source claims in Sections 4–5 (mechanism, preparation, recovery, matrix and cost synthesis) into source-specific records where needed, while keeping the existing endpoint and process-boundary caveats.
+
+
+## Source-pin continuation pass — mechanistic claims in Sections 4.1–4.5 — 3 November 2026
+
+The multi-paper mechanism synthesis (CLM-42) has been expanded into seven study-specific source records (CLM-66–CLM-72). The purpose is to distinguish what is directly characterized or experimentally tested from what remains an author-proposed molecular interpretation. The active ledger now contains **72 unique claim groups**.
+
+| Claim | Study | Source evidence | Supported interpretation and limits |
+|---|---|---|---|
+| CLM-66 | Yasmin et al. (2024), battery-derived GO/CIP | Primary Heliyon/PMC full text: GO characterization/FTIR, DFT calculations, pH response; pHpzc≈2.0. | Characterization, computed interactions and pH-dependent removal support a multi-pathway hypothesis (electrostatic, hydrogen bonding, π–π), not a unique dominant bond. This does not resolve the 99% removal versus kinetic q_e discrepancy or 20 mg/L versus 20 g/L dose conflict. |
+| CLM-67 | Shaha et al. (2025), sulfonated GO/CIP | Original ACS Omega PDF: FTIR/EDX/SEM, DFT, pHpzc≈2.5, pH and cation-response tests; Methods pp. 40818–40819, Figures 4–7/Table 1 pp. 40821–40822, Fig. 10/Table 2 pp. 40824–40825, reuse pp. 40829–40830. | Multiple methods support plausible surface/solution-chemistry effects. D–R energy is model-dependent, not direct bond spectroscopy; cation trends do not uniquely prove aggregation or outer-sphere binding. Existing q_e/removal inconsistencies remain. |
+| CLM-68 | Dang et al. (2025), magnetic GO/fibrillated cellulose for TC | Primary full text: Methods §§2.3–2.8, Results §§3.2.1–3.2.6, Tables 1–2, Figs. 7–12; before/after FTIR/XPS. | Spectral shifts and pH response support altered surface environments and plausible hydrogen bonding/π–π/electrostatic interactions. They do not quantify force fractions. PSO/Sips fits do not prove chemisorption or a single-site mechanism. |
+| CLM-69 | Zhang and Wu (2022), N-rGO for trace antibiotics | User-supplied Wiley PDF: Methods §2.3, XPS N 1s characterization, Figs. 2–3, Tables 1–2, ion/humic-acid/competition and regeneration sections; existing master evidence EV-B10-004–009 reused. | XPS directly establishes pyridinic/pyrrolic/graphitic N and the source tests matrix response. It does not identify one molecular binding geometry or quantify each force. The TC feed-volume/dose and fitted-capacity anomalies remain unresolved; do not rank capacity from the mechanistic tests. |
+| CLM-70 | Jahan et al. (2026), magnetic GO/Co-MOF for TC | Official RSC/PMC full text: Methods §§2.2/3.1.5 and Results §§3.2.4–3.2.9; FTIR, pHpzc=3.0, TC pKa values 3.3/7.7/9.7 and pH 6–8 optimum. | The data make hydrogen bonding, π–π association, Co/Fe coordination and pore filling plausible, but there is no post-adsorption spectrum or interaction-specific control to establish coordination. pH/pHpzc does not prove net-charge attraction for zwitterionic TC. PSO R²=1 is not proof of chemisorption; isotherm C₀ caption/Methods mismatch also limits q_m provenance. |
+| CLM-71 | Lemaoui et al. (2026), GO–TOPO:LevA membrane for TET | User-supplied primary Springer PDF and SI; FTIR/XPS, DFT/MD, statistical-physics model, spiked municipal-wastewater membrane tests and leaching. | FTIR/XPS supports DES anchoring; DFT/MD and the two-energy model support a heterogeneous interface hypothesis. Computational energies are model-derived, not measured bond energies. Powder q_e=22.7 mg/g/E=90.8% remains unclear against the SI feed ceiling; ANN was trained on synthetic water. |
+| CLM-72 | Saheed et al. (2026), CMC/GO beads for TC | User-supplied Taylor & Francis PDF; before/after FTIR, pHpzc≈6.02, pH response and transport-model analysis. | FTIR changes, pH response and pHpzc support the involvement of oxygenated groups/surface charge; time-series/Weber–Morris/Boyd analysis suggests multiple transport steps. No force fractions or unique mechanism are established. Hill fitting is not molecular mechanism, and PSO fitting is not proof of chemisorption. |
+
+### Mechanism interpretation rule reaffirmed
+
+- Characterization of the prepared adsorbent (e.g., XPS nitrogen speciation, pHpzc, SEM/XRD/BET) is not by itself direct evidence of an adsorbed-state bond.
+- Before/after FTIR/XPS changes and pH/speciation response support interaction hypotheses but usually do not quantify the contribution of each pathway.
+- DFT/MD values, D–R energy parameters and isotherm/kinetic fits remain model outputs; they must not be described as direct measurements of binding energies or proof of chemisorption.
+- Magnetic separation is an operational recovery function, not a molecular adsorption mechanism.
+- Lower source-access levels retain lower mechanism grades; an abstract-only source is not upgraded to direct evidence.
+
+The exact DOI-to-Better-BibTeX keys used for CLM-66–72 are already in the consolidated crosswalk and manuscript bibliography. No manuscript prose, source values, selection decision or bibliography entry was changed in this pass. The next audit segment should disaggregate the monetary examples in CLM-44 and the associated process-feasibility sources in CLM-43, keeping USD/g, USD/m², carbon-footprint intensity and cost-per-treated-volume as different functional units.
