@@ -225,3 +225,14 @@ The manuscript was rebuilt after correcting Word page geometry and pagination co
 ## User-supplied full-text evidence update — 3 November 2026
 
 Five selected papers (SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051) were re-audited from the user's newly uploaded primary PDFs. Their source tiers and endpoint distinctions have been updated in Table 3 and the reader-facing V2 manuscript. The sixth upload is a separate Kabir et al. (2024) GrGO/TC paper, not SEM-010; it remains unselected pending a separate inclusion decision. The frozen 49-reference set, 53-entry bibliography and citation keys are unchanged. See [the six-PDF audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md).
+
+
+## Latest integrated build after six-PDF audit — 3 November 2026
+
+- **GitHub Actions run:** [41676514098](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41676514098) — successful.
+- **Source/build commit:** `d85ff06254dbb1a718e60769c7db87a47026d921`; the subsequent evidence-ledger-only commit is `491bd3fc014139d1443304d34de021e35dcdd664`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13251351229`, created 3 November 2026; normal 30-day retention (expires 3 December 2026).
+- **Rendered outputs:** A4 PDF, 47 pages; DOCX, 59 pages. Bibliography text was tightened to 8.5 pt in both outputs to remove the single-reference PDF orphan; the final PDF page now holds references 34–53. Word's final page contains references 47–53.
+- **QA:** All 47 PDF and 59 DOCX pages were rendered and visually contact-sheet reviewed; the final bibliography pages and updated Table 3 entries were inspected at full size. All 53 manuscript citation keys resolve to the 53-entry consolidated bibliography; Table 3 and the frozen selection each retain 49 selected works.
+
+The citation style remains a provisional ACS 2026 build pending the supervisor/AMU requirement. This remains a working manuscript draft, not a submission-ready final.
