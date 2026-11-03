@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **46 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **52 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -198,7 +198,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 The successful build is [GitHub Actions run 41602499154](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41602499154), source commit `6c6cc26c058fdf4ea113f944553ad9c87121d133`, artifact `13214429824`. The generated PDF is 47-page A4, searchable and unencrypted. The DOCX has explicit A4 portrait geometry with 22 mm margins; its LibreOffice render produced 58 A4 pages. All PDF and DOCX-render pages were visually inspected with no clipping, overlap, broken figures, or missing table content. A dedicated References heading is present in both formats.
 
-The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 46 audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.
+The final V2 bibliography reconciliation is complete: 49 selected works plus four contextual works, 53 unique citation keys, 53 matching bibliography entries, no missing or unused keys. The remaining work is scientific source-pin coverage beyond the 52 currently audited claim groups, explicit preservation of unresolved source caveats, confirmation of AMU/supervisor citation style, language and declaration completion, and the university submission checklist. Production QA is closed; scientific/institutional submission sign-off is not.
 
 
 ## User-supplied full-text audit — 3 November 2026
@@ -214,3 +214,31 @@ Five selected sources were re-audited from primary PDFs supplied in this convers
 A sixth upload is Kabir et al. (2024), DOI 10.1021/acssusresmgt.4c00181. It is a separate GrGO/TC study, not SEM-010, and remains outside the active candidate register, frozen 49-reference set and 53-entry bibliography pending a separate inclusion decision. Its trace-feed removal implies derived qe≈0.56 mg/g, while its Langmuir qm=22.85 mg/g has poor R²=.59 compared with Freundlich R²=.992. Waste-derived feedstock and plant reduction do not establish full process cost.
 
 No additions/removals were made to the 49-reference selection, the 53-entry bibliography/citation keys remain unchanged, and SEM-010's pre-existing removal/uptake and dosage-unit discrepancy remains unresolved.
+
+
+## Source-pin continuation pass — older GO baselines in Section 3.6.1 — 3 November 2026
+
+The active claim ledger has been expanded from 46 to **52 claim groups** by separating the six study-specific claims previously bundled in the older-GO baseline synthesis. This adds traceability; it does not add or remove a paper, alter a numerical result, or broaden the approved scope.
+
+### New individually pinned claims
+
+| Claim | Study | Source tier and pinpoint | Permitted use / retained qualification |
+|---|---|---|---|
+| CLM-47 | Ghadim et al. (2013), GO/TC | Official PLOS ONE full-text HTML: Methods §§2.2–3; kinetic Fig. 5/Table 1; isotherm Fig. 6/Table 2; thermodynamic Table 3; release Results/Conclusion. | Langmuir and D–R q_m values remain fitted outputs. The isotherm table has three temperatures (298/303/308 K), while a Results sentence and the separate thermodynamic series mention five; do not infer missing Table 2 fits. Kinetic and isotherm temperature series are distinct. Table 1's k_2 heading conflicts with the equation's unit definition. Release up to 99.8% is not multicycle regeneration. |
+| CLM-48 | Gao et al. (2012), GO/TC | Official ScienceDirect abstract, Highlights and selected publisher snippets; PubMed abstract cross-check; full Methods/tables/SI unavailable. | 313 mg/g is retained only as an abstract-reported theoretical Langmuir q_max, not observed q_e. Abstract/Highlights disagree on whether Temkin or Freundlich is the second model. No complete operating-condition vector is available. |
+| CLM-49 | Rostamian and Behnejad (2018), GO nanosheets | Official ScienceDirect abstract/Highlights and PubMed abstract; no full-text PDF located in the current source set. | The abstract's ordinal fitted-capacity order is CPN ≫ DCN > TCN; 173.4 mg/g is the CPN headline, not a TC value. No numerical TC capacity is exposed. Retain as qualitative target-dependence context only. |
+| CLM-50 | Yadav et al. (2018), GO/fluoroquinolones | Author-uploaded primary full text: Methods, Table 2 CIP isotherm parameters, Table 4 kinetic fits and pH/dose/concentration/time Results. Official PubMed erratum record (DOI 10.1007/s11356-018-1381-z). | Keep CIP, NOR and OFL separate. q_max=18.65 mg/g and kinetic q_e values 9.25/1.22 mg/g are fitted parameters, not observed uptake. The official erratum explicitly replaces original Figs. 10–13; use corrected plots only. |
+| CLM-51 | Da Silva Bruckmann et al. (2024), GO/CIP in aqueous solution and synthetic urine | Official ScienceDirect abstract/Highlights/selected snippets and PubMed metadata; full Methods/tables unavailable. | The author-reported maxima (354.24 mg/g aqueous, 291.39 mg/g fresh synthetic urine) retain unresolved endpoint/model provenance. Treat synthetic urine as a simulated matrix, not real urine or wastewater, and do not condition-rank these maxima. |
+| CLM-52 | Chen et al. (2015), GO/CIP and GO/SMX | Official ScienceDirect/PubMed abstract for headline claims; detailed Methods/Results/Table 1 transcription comes from a non-publisher DockSci mirror of the in-press manuscript. | Keep CIP and SMX separate. 379 mg/g is Langmuir S_max, while the mirror-derived Freundlich fit has higher R²; kinetic fitted q_e is not q_max or observed q_e. Detailed numerical claims retain the third-party-mirror provenance pending a publisher/author copy. |
+
+### Citation-linkage reconciliation
+
+The eight legacy placeholder citation keys in CLM-20–27 are now reconciled against the final post-merge `Untitled +++.bib` Better BibTeX export. Exact verified keys are recorded in `data/semester-manuscript-claim-evidence-audit.csv` for SEM-003, SEM-011, SEM-014, SEM-021, SEM-001, SEM-027, SEM-028 and SEM-026. The candidate register's previous "key not verified" notes for SEM-001, SEM-003, SEM-009 and SEM-024 were also corrected. No key was inferred from an author name; each key is sourced from the DOI-matched export crosswalk.
+
+### Verification references and limits
+
+- Ghadim et al. publisher HTML directly identifies Table 1, Fig. 5, Fig. 6, Table 2 and Table 3, and its isotherm section states the model temperature range and reported q_m values: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0079254
+- The official PubMed erratum says original Figs. 10–13 are replaced: https://pubmed.ncbi.nlm.nih.gov/29460240/
+- Publisher/abstract source locations for the remaining records are kept in the individual CLM-48–52 source-pin fields. The source-access tier is not upgraded where full text was unavailable.
+
+**Effect on manuscript:** the current reader-facing Section 3.6.1 wording already preserves these endpoint and access qualifications. No manuscript prose, citation callout, numerical value, selection decision or bibliography entry was changed in this pass. The next source-pin pass should continue by disaggregating the multi-paper magnetic-derivative and polymer/immobilization bundles in Sections 3.6.2–3.6.3, rather than repeating completed extractions.
