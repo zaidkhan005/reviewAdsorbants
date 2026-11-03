@@ -199,7 +199,8 @@ def build_supplementary_s2(pandoc: str) -> None:
     docx = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.docx'
     pdf = OUT / 'SEMESTER_SUPPLEMENTARY_TABLE_S2_SEARCH_STRATEGY.pdf'
     run([pandoc, str(S2_SOURCE)] + common + ['--to=docx', '-o', str(docx)])
-    # Set the Word supplement to A4 so Word and PDF use the same page size.
+    # Set the Word supplement to A4 and align its body typography/margins
+    # with the one-page PDF render.
     docx_tmp = docx.with_suffix('.tmp.docx')
     ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
     w = '{' + ns['w'] + '}'
@@ -215,6 +216,32 @@ def build_supplementary_s2(pandoc: str) -> None:
                     pg.set(w + 'w', '11906')
                     pg.set(w + 'h', '16838')
                     pg.attrib.pop(w + 'orient', None)
+                    margins = sect.find('./w:pgMar', ns)
+                    if margins is None:
+                        margins = ET.SubElement(sect, w + 'pgMar')
+                    for side in ('top', 'right', 'bottom', 'left'):
+                        margins.set(w + side, '1134')  # 20 mm
+                payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+            elif item.filename == 'word/styles.xml':
+                root = ET.fromstring(payload)
+                defaults = root.find('./w:docDefaults/w:rPrDefault/w:rPr', ns)
+                if defaults is not None:
+                    for tag in ('sz', 'szCs'):
+                        size = defaults.find('./w:' + tag, ns)
+                        if size is None:
+                            size = ET.SubElement(defaults, w + tag)
+                        size.set(w + 'val', '20')  # 10 pt body text
+                for style_id, spacing_value in (('BodyText', '60'), ('Compact', '20')):
+                    style = root.find(f"./w:style[@w:styleId='{style_id}']", ns)
+                    if style is not None:
+                        ppr = style.find('./w:pPr', ns)
+                        if ppr is None:
+                            ppr = ET.SubElement(style, w + 'pPr')
+                        spacing = ppr.find('./w:spacing', ns)
+                        if spacing is None:
+                            spacing = ET.SubElement(ppr, w + 'spacing')
+                        spacing.set(w + 'before', spacing_value)
+                        spacing.set(w + 'after', spacing_value)
                 payload = ET.tostring(root, encoding='utf-8', xml_declaration=True)
             output_zip.writestr(item, payload)
     docx_tmp.replace(docx)
