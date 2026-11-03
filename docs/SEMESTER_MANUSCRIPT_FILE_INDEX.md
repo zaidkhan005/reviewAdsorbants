@@ -50,6 +50,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Remaining preparation/reuse source-pin continuation log | [2026-11-03 remaining preparation/reuse source-pin pass](../logs/2026-11-03-remaining-preparation-reuse-source-pin-pass.md) |
 | Newer engineered CIP composite source-pin continuation log | [2026-11-03 newer CIP composite source-pin pass](../logs/2026-11-03-newer-cip-composites-source-pin-pass.md) |
 | Theory/review/scope-boundary source-pin continuation log | [2026-11-03 theory/review/scope-boundary source-pin pass](../logs/2026-11-03-theory-review-scope-boundary-source-pin-pass.md) |
+| Chitin/GO and MgO/chitosan/GO source-pin continuation log | [2026-11-03 chitin/GO and MgO/chitosan/GO source-pin pass](../logs/2026-11-03-chitin-go-and-mgo-chitosan-source-pin-pass.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
 | Practical-feasibility matrix | [semester-practical-feasibility-matrix.csv](../data/semester-practical-feasibility-matrix.csv) |
