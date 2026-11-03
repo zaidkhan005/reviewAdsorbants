@@ -44,6 +44,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Claim-by-claim source-pin continuation log | [2026-11-03 older GO-baseline source-pin pass](../logs/2026-11-03-older-go-baseline-source-pin-pass.md) |
 | Magnetic GO/rGO source-pin continuation log | [2026-11-03 magnetic GO/rGO source-pin pass](../logs/2026-11-03-magnetic-go-baseline-source-pin-pass.md) |
 | Polymer/immobilized GO source-pin continuation log | [2026-11-03 polymer/immobilized GO source-pin pass](../logs/2026-11-03-polymer-immobilized-go-source-pin-pass.md) |
+| Mechanism source-pin continuation log | [2026-11-03 mechanism source-pin pass](../logs/2026-11-03-mechanism-source-pin-pass.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
 | Practical-feasibility matrix | [semester-practical-feasibility-matrix.csv](../data/semester-practical-feasibility-matrix.csv) |
