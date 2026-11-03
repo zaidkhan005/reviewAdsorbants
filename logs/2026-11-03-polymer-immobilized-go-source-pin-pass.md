@@ -20,7 +20,7 @@ This pass continues the V2 audit of the polymer/alginate bundle in Section 3.6.3
 
 ### CLM-63 — Fei et al. (2016), DOI 10.1016/j.jcis.2016.08.068
 
-- **Key:** `feiAdsorptiveRemovalCiprofloxacin2024`.
+- **Key:** `feiAdsorptiveRemovalCiprofloxacin2016`.
 - **Source:** official ScienceDirect/PubMed abstract; detailed tables transcribed from a third-party-hosted author-accepted manuscript, not publisher-hosted full text.
 - **Pins:** accepted-manuscript §§2.2–2.4; Table 2 kinetics; Table 3 isotherms; §3.4 pH and ionic strength.
 - **Audit:** Table 2 experimental kinetic qe=25.86 mg/g (GO-SA hydrogel) and22.59 mg/g (aerogel); PSO fitted qe=25.38/22.68 mg/g; Table 3 Langmuir fitted qmax=86.12/55.55 mg/g. These are different endpoints. Kinetic test: C0=50mg/L,50mL,15mg GO-SA,298K,180rpm. Isotherm series:10–150mg/L,15mg dry GO-SA/50mL,298K,180rpm,128h. Exact GO:SA ratio is not explicitly disclosed.
@@ -48,7 +48,7 @@ The DOI-matched post-merge Better BibTeX export confirms these exact keys, and t
 | Candidate | Verified Better BibTeX key |
 |---|---|
 | SEM-023 | `padmajaAdsorptiveRemovalCiprofloxacin2024` |
-| SEM-026 | `feiAdsorptiveRemovalCiprofloxacin2024` |
+| SEM-026 | `feiAdsorptiveRemovalCiprofloxacin2016` |
 | SEM-027 | `choiPolyacrylamideFunctionalizedGraphene2022` |
 | SEM-028 | `wuAdsorptionCiprofloxacinBiocomposite2013` |
 
