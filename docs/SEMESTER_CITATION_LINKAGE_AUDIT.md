@@ -128,3 +128,16 @@ The newest file contains 35 BibTeX entries, 35 unique keys, 34 DOI-bearing entri
 ## 31 October 2026 — final active set reduced to 49 by user decision
 
 The user explicitly chose to skip candidate SEM-035 and proceed with the remaining **49 distinct works**. This is an administrative/time-management exclusion because the Zotero record was incomplete; it is not a scientific quality judgment. SEM-035 remains in the archived candidate register but is marked excluded from the active semester manuscript, citation set and bibliography. The authoritative active register is `data/semester-final-49-reference-selection.csv`; see `docs/SEMESTER_FINAL_49_REFERENCE_SELECTION_FREEZE.md`. The former 50-reference freeze is superseded. Active-set composition is 46 empirical primary studies plus SEM-013 theory context, SEM-022 review context and SEM-036 scope-boundary context. Four other manuscript context references remain outside the active 49, giving a possible final bibliography of 53 distinct items. Important ID collision: `EV-SEM-035` is evidence for SEM-013 and remains valid; it is not candidate SEM-035.
+
+
+## Final V2 citation reconciliation — 3 November 2026
+
+The current V2 citation set has been reconciled against the frozen selection register and consolidated manuscript bibliography:
+
+- All **49 selected references** have a non-empty verified Better BibTeX key in `data/semester-final-49-reference-selection.csv`.
+- All 49 selected keys are present in the consolidated 53-entry bibliography; no selected key is missing.
+- The assembled V2 manuscript contains **53 unique citation keys**, and all 53 resolve to the 53 bibliography entries. There are no missing or unused keys.
+- The 53 works comprise 49 selected references and four additional contextual references. This current V2 set does not include a separate PRISMA reporting-guideline reference; older notes describing a 54-entry set are superseded.
+- The 3 November 2026 `data/semester-remaining-work-register.csv` citation-readiness fields for the 49 selected records now reflect this completed manuscript-level linkage check. Historical candidate-level export-gap notes remain useful as dated provenance, but they do not override the frozen V2 bibliography.
+
+This is a repository-level manuscript citation reconciliation. It confirms the keys used by this V2 build; it is not a claim that every record, attachment or collection in the live Zotero library has been exhaustively audited.
