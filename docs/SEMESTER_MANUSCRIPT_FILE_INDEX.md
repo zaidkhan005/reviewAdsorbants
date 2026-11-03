@@ -52,6 +52,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Theory/review/scope-boundary source-pin continuation log | [2026-11-03 theory/review/scope-boundary source-pin pass](../logs/2026-11-03-theory-review-scope-boundary-source-pin-pass.md) |
 | Chitin/GO and MgO/chitosan/GO source-pin continuation log | [2026-11-03 chitin/GO and MgO/chitosan/GO source-pin pass](../logs/2026-11-03-chitin-go-and-mgo-chitosan-source-pin-pass.md) |
 | Claim-ledger CSV integrity repair log | [2026-11-03 claim-ledger CSV integrity repair](../logs/2026-11-03-claim-ledger-csv-integrity-repair.md) |
+| Final 94-claim manuscript integration audit | [2026-11-03 final 94-claim manuscript integration audit](../logs/2026-11-03-final-94-claim-manuscript-integration-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
