@@ -125,11 +125,11 @@ Titles and abstracts were assessed against the material, antibiotic, aqueous-sys
 
 The review discusses **49 selected works**, comprising 46 empirical primary studies and three sources used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. Source availability varied between studies. Where the full article was available, the reported methods, results and supporting data were examined. Where only an abstract, preview, indexed excerpt or hosted manuscript was accessible, the discussion was limited to information available in that source. Missing details were not inferred, and inconsistencies within individual papers were retained as qualifications.
 
-**Figure 2** summarizes the literature considered in this review and how it is used in the analysis. The review discusses 49 works: 46 empirical primary studies and three publications used for theoretical, review or scope-related context. Four additional references provide background on antibiotic adsorption and aqueous solution chemistry. **Table 1** compares 15 primary studies for which the reported operating conditions support a condition-labelled comparison, while **Supplementary Table S1** summarizes the evidence available for all 49 works.
+**Figure 2** outlines the focused search and eligibility assessment and shows how the selected literature is organized in the main comparison and supplementary evidence summary.
 
 **Figure 2. Overview of literature identification and evidence organization.**
 
-*The diagram summarizes the focused search, application of the eligibility criteria and organization of the literature discussed in the review. Four additional background references are shown separately.*
+*Overview of literature identification and evidence organization. The diagram summarizes the focused search, application of the eligibility criteria and organization of the literature discussed in the review. Four additional background references are shown separately.*
 
 ```mermaid
 flowchart LR
