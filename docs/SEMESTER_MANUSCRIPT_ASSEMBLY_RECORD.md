@@ -143,3 +143,24 @@ Figure 2 is fixed at its authored position in the PDF build so that it appears a
 - Main manuscript: 41-page editable Word and 32-page searchable A4 PDF. Supplementary Table S1: 26-page Word and 20-page searchable A4 PDF. Supplementary Table S2: one-page Word and one-page searchable A4 PDF.
 - Main and S2 PDFs are openable, searchable, unencrypted and have no XFA. The final PDF text confirms that Figure 2 precedes Section 2.4; the flow diagram contains no internal candidate/evidence IDs, and the revised Methods/S2 text contains no date-stamped search-log chronology.
 - No extracted numerical adsorption values, source-access tiers, study inclusion decisions, scientific conclusions or bibliography records were changed by this editorial revision.
+
+
+## Figure 2 and study-selection wording refinement — 3 November 2026
+
+The Figure 2 introduction has been shortened to avoid repeating the study-selection totals immediately after they are stated in Section 2.3. Its caption now identifies the figure as an overview of literature identification and evidence organization. The diagram shows the focused literature search, eligibility assessment, the 49 works discussed in the review (46 empirical primary studies and three contextual publications), the 15-study comparison in Table 1, the 49-work evidence summary in Supplementary Table S1, and four additional background references.
+
+Section 2.3 describes title/abstract assessment, examination of available full texts, application of the stated eligibility criteria, and variation in source availability in conventional academic prose. The figure is an overview of the available selection information; it does not imply a complete PRISMA flow or supply search-result totals that were not preserved.
+
+The reader-facing manuscript source no longer contains internal study/evidence identifiers or inline evidence-ledger annotations. The S1 build text presents the purpose, study notes and interpretation rules without internal project-management explanations. Scientific qualifications, study counts, source-access limitations and citation keys were retained.
+
+### Successful production build and verification
+
+- GitHub Actions run: [41585076559](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41585076559) — success.
+- Source commit: `081037f8adee72767888b498eacdb0a026f916e0`.
+- Artifact ID: `13207467919`; digest: `sha256:2778b99f8e7ff1160773018c0dbd68ce03de5c22fc16ff4b2083888a65a802db`.
+- Main manuscript: 39-page editable Word document and 31-page searchable A4 PDF.
+- Supplementary Table S1: 26-page Word document and 20-page searchable A4 PDF.
+- PDF preflight: main manuscript and S1 PDFs openable, searchable and unencrypted.
+- Visual review: Figure 2 appears after the selection discussion and before Section 2.4 in both manuscript formats; the diagram, caption and surrounding text are legible and consistent.
+- Reader-facing text check: no internal study/evidence identifiers or internal selection-process explanations remain in the manuscript or S1 output.
+- Citation style remains ACS Guide 2026 provisionally, pending confirmation of AMU or supervisor requirements.
