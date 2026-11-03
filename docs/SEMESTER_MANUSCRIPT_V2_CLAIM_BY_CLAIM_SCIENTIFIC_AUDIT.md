@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **86 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **89 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 86 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 89 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -406,3 +406,17 @@ Six additional preparation/recovery examples from the CLM-43 process-feasibility
 The candidate-specific citation keys are already present in the DOI-matched Better BibTeX crosswalk and in the CLM-81–86 entries. No manuscript text, selection decision, source value or bibliography membership was changed by this pass.
 
 **Current audit total:** 86 claim groups. The selected 49-reference set and 53-entry bibliography remain unchanged.
+
+## Source-pin continuation pass — newer engineered CIP composites — 3 November 2026
+
+The three-study synthesis in CLM-45 has been split into CLM-87–CLM-89. The active ledger now contains **89 unique claim groups**. This is source-traceability work only; no reference selection, bibliography membership, main-text wording or numerical source result was changed.
+
+| Claim | Study | Source pin | Permitted use and retained qualification |
+|---|---|---|---|
+| CLM-87 | Alishiri et al. (2023), magnetic GO for CIP/cephalexin | Official open-access ScienceDirect full text and official SI (mmc1.docx): Methods §§2.2–2.6, Results §§3.3/3.5/3.7/3.9–3.10, Tables 2–5, Figs. 2–5, SI Tables S1–S2. | SI Table S2 validates 96.39±3.3% CIP removal (n=3) at C₀=15 mg/L, 0.55 g composite/15 mL, pH 7 and 33 min. This is a high dose (36.7 g/L); q_e≈0.394 mg/g is calculated, not directly reported. Real-water removals are reported for tap, river, lake and wastewater, but Table 5 gives n=5 while §3.9 says triplicate. Seven methanol/water regeneration cycles are reported; ultrasound energy is unreported. Use as a validated RSM/real-water removal example, not a high-capacity or low-cost result. |
+| CLM-88 | Sikri et al. (2025), GO/layered-double-hydroxide for CIP | Official open-access Frontiers full text: Methods §2.5; Results §§3.2.1–3.5; Tables 1–3 and Fig. 7. | Removal of 84.84% at C₀=1 mg/L, dose=10 mg/L, pH 7 and 60 min is usable conditionally. The mass balance gives derived q_e≈84.84 mg/g and 100 mg/g feed ceiling. Prose 97.43 mg/g, PFO-fitted 106.96 mg/g and Table 3 106.9 mg/g conflict; the latter values exceed the same-condition ceiling if assigned to this test. Freundlich is preferred; reuse removal falls 80.4%→27% by cycle 5. Report removal only; hold capacities and do not claim real-water performance or quantified cost. |
+| CLM-89 | Ceylan and Hızal (2026), GO/[Ni(DMG)]ₙ for CIP | Official ScienceDirect preview: abstract, Highlights, Chemicals, Characterization and Conclusions snippets; full Methods/tables remain access-gated. | Preview reports three formulations with BET areas 0.43/0.73/2.40 m²/g and comparative Langmuir q_max values 117–159 mg/g. These are model outputs, formulation mapping is unavailable, and Freundlich/Temkin are said to fit better. PSO is the preferred kinetic model. No complete batch vector, observed q_e, model statistics, leaching, real-water, regeneration or cost record is accessible. Use as qualitative/preview-level context only. |
+
+The older bundled CLM-45 remains as an overview and now points to the individual CLM-87–89 records. The exact DOI-matched Better BibTeX keys are: alishiriRemovalCiprofloxacinCephalexin2023; sikriGrapheneOxideLayered2025; ceylanTailoredGrapheneOxide2026.
+
+**Current claim-audit total:** 89 unique groups, CLM-01–CLM-89. The frozen 49-study set and 53-entry bibliography are unchanged.
