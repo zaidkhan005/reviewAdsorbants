@@ -209,7 +209,7 @@ def main() -> None:
     )
     md_pdf = md_pdf.replace(figure2_image.group(0), fixed_figure2, 1)
     figure2_header_tex = OUT / 'figure2_float_header.tex'
-    figure2_header_tex.write_text('\\usepackage{float}\n', encoding='utf-8')
+    figure2_header_tex.write_text('\\usepackage{float}\n\\usepackage{etoolbox}\n\\AtBeginEnvironment{CSLReferences}{\\small}\n', encoding='utf-8')
     prepared_docx.write_text(md_docx, encoding='utf-8')
     prepared_pdf.write_text(md_pdf, encoding='utf-8')
     common = [
@@ -280,6 +280,31 @@ def main() -> None:
                     raise SystemExit(
                         f'Expected to paginate 49 Table 3 study blocks, found {linked_study_blocks}.'
                     )
+
+                # Compact bibliography entries slightly to avoid a single-reference
+                # orphan page. Keep the same typeface and citation content.
+                references_started = False
+                bibliography_paragraphs = 0
+                for paragraph in paragraphs:
+                    para_text = ''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)).strip()
+                    if para_text == 'References':
+                        references_started = True
+                        continue
+                    if not references_started:
+                        continue
+                    bibliography_paragraphs += 1
+                    for run_node in paragraph.findall('.//w:r', ns):
+                        rpr = run_node.find('./w:rPr', ns)
+                        if rpr is None:
+                            rpr = ET.Element(w + 'rPr')
+                            run_node.insert(0, rpr)
+                        for prop in ('sz', 'szCs'):
+                            size = rpr.find('./w:' + prop, ns)
+                            if size is None:
+                                size = ET.SubElement(rpr, w + prop)
+                            size.set(w + 'val', '18')  # 9 pt, references only
+                if bibliography_paragraphs == 0:
+                    raise SystemExit('Could not identify the bibliography block for compact styling.')
 
                 # Set explicit A4 page geometry for Word. Pandoc's papersize
                 # variable controls LaTeX/PDF but does not reliably set DOCX
