@@ -17,7 +17,7 @@ The central argument of V2 is scientifically defensible **when the source-tier a
 
 **No broad claim that graphene-based adsorbents are universally superior or already low-cost is supported, and V2 does not make that claim.** The most serious problems are local: source-internal mass-balance contradictions, fitted values that exceed finite-feed ceilings, access-gated claims and author cost scenarios whose assumptions do not match the experiments. These have to remain explicitly qualified or held from quantitative comparison.
 
-This audit now covers **61 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
+This audit now covers **65 claim groups** in the active claim-evidence ledger, including the expanded earlier-study paragraphs in Sections 3.6.1–3.6.3. A claim group may cover more than one related sentence or numerical endpoint; it is not a separate claim ID for every sentence in the manuscript. Detailed source-pin notes and required treatment are in `data/semester-manuscript-claim-evidence-audit.csv`.
 
 ## 2. Audit basis and limits
 
@@ -170,7 +170,7 @@ The final paper should continue to use *low-cost potential* as a question being 
 
 - Obtain full text and SI for SEM-047 and SEM-048 if possible; retrieve complete accessible tables/price basis for SEM-051. Until then, retain provisional/partial status.
 - HOLD/PROVISIONAL claims remain explicitly qualified or excluded from cross-study rankings; do not silently fix source values. SEM-010, SEM-038, SEM-050 and SEM-051 retain their documented source/data-basis caveats.
-- Complete any remaining sentence-level source-pin audit beyond the 46 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
+- Complete any remaining sentence-level source-pin audit beyond the 65 current claim groups, especially older studies whose keys, errata, or publisher-access level are still unresolved in the ledger. Table 1's 15 included records have now had a separate row-by-row cross-check. An integrated Markdown assembly exists and the initial multi-panel DOCX/PDF has been rendered and inspected. Figure 2 now fits. The latest build includes cross-format page breaks before Tables 1A, 1D and 1H and must pass a final page review.
 - **Page-by-page visual QA is complete for the 3 November 2026 build** (47-page A4 PDF and 58-page A4 LibreOffice render of the DOCX). Table 1 and Table 3 begin on fresh pages; all rendered pages were inspected with no clipping, overlap, broken figures or missing table content. The university-required citation style remains to be confirmed (ACS Guide 2026 is provisional).
 - Recheck the 49 selected + 4 contextual bibliography in the university's required style; citation-key linkage is complete but style rendering is not.
 - Complete language editing, author details, acknowledgements, funding/conflict/data availability statements and any university submission checklist.
@@ -279,3 +279,35 @@ The post-merge `Untitled +++.bib` DOI-matched export confirms the following Bett
 The candidate register has been updated with the six previously unstated keys for SEM-005, SEM-006, SEM-008, SEM-011, SEM-014 and SEM-021. Existing verified keys for SEM-007, SEM-019 and SEM-025 were preserved. This is key reconciliation only; it does not upgrade source access or quantitative eligibility.
 
 **Effect on manuscript:** no main-text prose, source values, selection decision or bibliography entry was changed in this pass. The reader-facing Section 3.6.2 already distinguishes fitted capacity, observed uptake and cycle efficiency; this audit adds record-level traceability and preserves access-tier limits. The next source-pin pass should disaggregate the polymer/immobilization bundle in Section 3.6.3 (CLM-39), then the multi-source claims in mechanism/process/cost sections.
+
+
+## Source-pin continuation pass — polymer/immobilized GO formats — 3 November 2026
+
+The Section 3.6.3 polymer/alginate bundle has now been split into four source-specific claims (CLM-62–CLM-65), extending the active ledger from **61 to 65 unique claim groups**. This adds traceability without changing the manuscript text, measured values, source tiers or frozen reference selection.
+
+| Claim | Study | Source tier / pinpoint | Allowed use and qualification |
+|---|---|---|---|
+| CLM-62 | Padmaja and Sri Chandana (2024), GO and GO–TiO₂ for CIP | Official IOP proceedings record and open-access 13-page PDF; §§3.1–3.3, §4.2/Fig. 4, Table 1, §4.4/Table 2, §4.5/Fig. 7 and Conclusions. | The condition-labelled 20-minute removal result (34% GO; 31.5% GO–TiO₂ at C₀=10 mg/L, 1 g/L, neutral pH) may be retained. Source-labelled q_e, Langmuir Q₀ and kinetic fits remain held because Table 1/Fig. 4/time-series disagree. The study is a conference proceeding, not a full journal research article; no real-water, regeneration or quantified cost evidence is established. |
+| CLM-63 | Fei et al. (2016), GO–sodium alginate hydrogel and aerogel for CIP | Official ScienceDirect/PubMed abstract; detailed kinetic/isotherm tables transcribed from a third-party-hosted author-accepted manuscript copy, not publisher-hosted full text. | Table 2 experimental kinetic q_e=25.86 mg/g (GO-SA hydrogel) and 22.59 mg/g (aerogel) must remain separate from fitted PSO q_e and Table 3 Langmuir q_max=86.12/55.55 mg/g. Isotherm and kinetic conditions differ and are stated separately. The exact GO:SA ratio is not explicit. No regeneration cycles, real water or cost evidence. |
+| CLM-64 | Choi and Choi (2022), GO/calcium-alginate/PAM beads for CIP | Official MDPI/PMC full text: §§2.1–2.4, Figs. 1–6, Tables 1–3 and Conclusion. | Langmuir q_m=6.846 mg/g is fitted; no directly tabulated observed q_e/removal result is available. Preserve the source’s 55 mL liquid in a 50 mL conical tube conflict and the q_e equation’s unclear mL-to-L conversion. TGA stability is not regeneration. No real-water or quantified cost evidence. |
+| CLM-65 | Wu et al. (2013), wet-spun GO/calcium-alginate fibres for CIP | Official ScienceDirect abstract, Highlights, Introduction, Chemicals/Reagents and characterization snippets; full Methods/tables are access-gated. | Retain 78.9% removal at 2 g/L and 6 wt.% GO separately from 39.06 mg/g capacity at equilibrium concentration 60 mg/L and 6 wt.% GO. The preview does not prove they are the same experiment or expose paired C₀, volume and temperature. 39.06 mg/g is not fitted q_max. No regeneration, real-water or cost evidence is accessible. |
+
+### Verified citation linkage
+
+The post-merge DOI-matched `Untitled +++.bib` export confirms these exact Better BibTeX keys, now recorded in CLM-62–65 and the candidate register:
+
+| Candidate | Better BibTeX key |
+|---|---|
+| SEM-023 | `padmajaAdsorptiveRemovalCiprofloxacin2024` |
+| SEM-026 | `feiAdsorptiveRemovalCiprofloxacin2016` |
+| SEM-027 | `choiPolyacrylamideFunctionalizedGraphene2022` |
+| SEM-028 | `wuAdsorptionCiprofloxacinBiocomposite2013` |
+
+### Integrity and next step
+
+- Claim ledger: **65 unique groups**, CLM-01–CLM-65.
+- Selected set: **49 works**, unchanged.
+- Consolidated bibliography: **53 entries**, unchanged.
+- No main-text wording, study selection, numeric value or citation callout was modified in this source-pin pass.
+
+The next continuation should split the remaining grouped source claims in Sections 4–5 (mechanism, preparation, recovery, matrix and cost synthesis) into source-specific records where needed, while keeping the existing endpoint and process-boundary caveats.
