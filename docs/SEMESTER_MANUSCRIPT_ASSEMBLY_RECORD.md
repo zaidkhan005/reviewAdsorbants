@@ -1,3 +1,19 @@
+## Current authoritative status — 4 November 2026
+
+This section supersedes all older reference counts, build IDs, artifact details and submission-status statements in the chronological history below. Earlier entries are retained as historical records.
+
+- Canonical manuscript: `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md`.
+- Current bibliography: 49 selected works + 11 contextual references = 60 records; 60 unique in-text citation keys and 60 unique DOIs; zero missing or unused citation keys.
+- Evidence controls: 94 claim groups; frozen selection of 49 studies; 15-study condition-labelled comparison. The scientific holds remain explicit.
+- Final successful production build: [Actions run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686), source commit `82e47d1c85912159858a4b0d053e3048fe8c4395`, artifact ID `13290473226`.
+- Artifact SHA-256: `6a99f2576d777d5a2b6cf9cf8f4631f49f93be7dcbdb8610c105d4dada5cf82c`.
+- Output: 60-page A4 DOCX and 50-page searchable A4 PDF. DOCX SHA-256: `9645308ac946ef009b88a22a99bbd7af9fff80dbd3592006b53d4d28c814015c`; PDF SHA-256: `eeb830df8877aaa85205f2f9d3da3662be0d807a12142028e9c444cde2db9a7a`.
+- Output QA: 315 native Office Math objects; 60 bibliography paragraphs kept together; 5 figures with descriptive alt text; all 13 tables have header rows; 0 high/medium and 60 low Word accessibility findings (raw DOI display URLs only). PDF has 57 outlines and 86 annotations; it is searchable/bookmarked but not tagged.
+- The current QA, the Ge et al. publisher DOI correction, and all visual/preflight details are in [the final 60-reference build log](../logs/2026-11-04-final-60-reference-build-qa.md).
+- The manuscript remains a working draft pending author details/declarations, AMU/supervisor target-format confirmation and institutional sign-off. See the [submission-readiness checklist](SEMESTER_MANUSCRIPT_SUBMISSION_READINESS_CHECKLIST.md).
+
+---
+
 ## Status update — 3 November 2026
 
 The production manuscript has since been revised and rebuilt. This update supersedes the earlier standalone-supplement arrangement described below.
