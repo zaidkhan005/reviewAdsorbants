@@ -185,8 +185,8 @@ def main() -> None:
     md_docx = re.sub(r'(?m)^\\newpage\s*$', '', md)
     # The assembled source contains double-escaped inline-math spans in the
     # SEM-010 dose-basis explanation. Pandoc treats the extra backslashes as
-    # literal text in DOCX, so normalize delimiters and TeX commands inside
-    # those spans to create native Word equations. The PDF source is unchanged.
+    # literal text in both formats, so normalize delimiters and TeX commands
+    # before building either DOCX or PDF.
     double_escaped_math = re.compile(r'\\\\\((.*?)\\\\\)', re.S)
     def normalize_docx_math(match: re.Match[str]) -> str:
         inner = match.group(1).replace('\\\\', '\\')
@@ -204,6 +204,11 @@ def main() -> None:
         md_docx,
     )
     md_pdf = re.sub(r'(?s)\x60{3}{=openxml}.*?\x60{3}', '', md)
+    md_pdf, pdf_normalized_math_count = double_escaped_math.subn(normalize_docx_math, md_pdf)
+    if pdf_normalized_math_count != 10 or re.search(r'\\\\\(', md_pdf):
+        raise SystemExit(
+            f'Expected to normalize 10 double-escaped inline-math spans in PDF source; found {pdf_normalized_math_count}.'
+        )
     # Keep Figure 2 in the methodological position where it is introduced.
     # Otherwise LaTeX may float this tall diagram past the start of Sections 2.4–2.5.
     figure2_image = re.search(
