@@ -9,16 +9,18 @@ The canonical manuscript source remains `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLE
 ## Authoritative production snapshot
 
 - Branch: `main`.
-- Latest successful build: [GitHub Actions run 41784649185](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41784649185).
-- Build source commit: `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7`.
-- Artifact: `semester-manuscript-v2-acs-draft`, ID `13301131061`; SHA-256 `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
-- DOCX: 60 A4 pages; SHA-256 `cf178346ab26d67aa9ee9ded47fcd814e8b5671324f6a0cc599f3e0018e346a1`.
-- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `3590896aea1ed7e8ba325b36e6824cf1004941eceb8aa25de8cc3332c23d8cf6`.
+- Latest successful build: [GitHub Actions run 41786667974](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41786667974).
+- Build source commit: `82d6e76df2c9c2c4729482a31ff2930482f8d70e`.
+- Artifact: `semester-manuscript-v2-acs-draft`, ID `13302025655`; SHA-256 `439b3ff431b430e17532f806019180e1b903acbb7a8d7e46b4df11f2255274e1`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
+- DOCX: 60 A4 pages; SHA-256 `36422875dc9505b73ec88b0b2fba796b41e9acf0e2ee3b71166198b01cd1fddf`.
+- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `a2d61bef6ee6398f18743ab778e5575ca700e0f54154962010d7080d4c0617ef`.
 - Integrity totals: 94 claim groups; 49 selected works; 11 contextual references; 60 bibliography entries and 60 unique in-text citation keys; 60 unique DOI values; zero missing or unused keys.
 - The Word and PDF pipelines both normalize the ten intentional inline-math spans in the Yasmin dose-basis discussion. Page 9 of the final PDF was inspected and shows correctly typeset equations; no literal escaped delimiters remain.
 - Word pagination: the Shaha et al. (2025) kinetic-table value uses the defined `NR` notation so the row remains together. Table 2 retains separate panels for conditions, measured/modelled endpoints, regeneration, matrices, preparation and cost evidence.
 - The Word build applies numbered-reference hanging indents and tab stops. The consolidated bibliography has short-journal fields for all 60 records across 40 journal titles.
-- The final source-level proofread is recorded in [the 4 November final proofread QA](../logs/2026-11-04-final-proofread-qa.md). It preserves the frozen 49-study selection, 15-study comparison and 94-claim ledger.
+- CASSI audit: exact publication records were confirmed for 30 of 40 distinct journal titles in accessible CASSI results. Chemical Engineering Journal is consistently formatted as `Chem. Eng. J. (Amsterdam, Neth.)` in both article records; Environmental Pollution uses `Environ. Pollut. (Oxford, U. K.)`. Ten short forms remain provisional pending direct title/ISSN lookup in the interactive CASSI tool. See [CASSI and AMU-format audit](../logs/2026-11-04-cassi-and-amu-format-audit.md).
+- AMU format: the public Chemistry undergraduate page lists syllabus/curriculum resources but no applicable BSc semester-review template or citation-style rule. ACS remains a working format pending department/supervisor confirmation.
+- The final source-level proofread and CASSI corrections are recorded in [the 4 November final proofread QA](../logs/2026-11-04-final-proofread-qa.md) and [CASSI/AMU-format audit](../logs/2026-11-04-cassi-and-amu-format-audit.md).
 - Accessibility: the previous structure audit found 0 high, 0 medium and 60 low DOCX findings; all low findings were raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
 - The PDF remains untagged and must not be described as PDF/UA-conformant.
 
@@ -34,7 +36,7 @@ The original 60-reference production record is in [the 4 November final-build QA
 | Claim-ledger integration | **Complete for 94 recorded claim groups** | Do not treat this count as a replacement for the documented source-level qualifications and holds. |
 | Scientific caveats and critical holds | **Preserved; not all resolved** | Keep SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 qualifications visible. Do not silently normalize unresolved source conflicts. |
 | Language editing | **Final source-level proofread complete** | After the AMU/journal template is confirmed and applied, make a final destination-specific read-through for pagination, voice and instructions. |
-| Citation style and target format | **Provisionally formatted in ACS numeric style** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. The 40 distinct short journal titles are CASSI-style but have not all been individually certified; verify them against CASSI and the target requirements. |
+| Citation style and target format | **ACS numeric style applied; institutional requirement unconfirmed** | CASSI exact records have been confirmed for 30 of 40 journal titles; ten remain provisional pending direct title/ISSN lookup. Confirm the required citation style, target template and short-journal forms with the AMU Department of Chemistry/supervisor. |
 | Author list and affiliations | **Missing from manuscript** | Confirm every author, order, institutional affiliation at the time the work was carried out, corresponding author, and approved contact details. Do not infer authorship from supervision or project assistance. |
 | Acknowledgements | **Not present** | Confirm whether any non-author contribution or facility support should be acknowledged; obtain permission where appropriate. |
 | Funding statement | **Not present** | Confirm whether any grant, institutional, departmental, scholarship or other financial support supported the work. Include grant identifiers if applicable. |
