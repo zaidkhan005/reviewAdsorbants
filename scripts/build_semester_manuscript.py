@@ -316,6 +316,29 @@ def main() -> None:
                     keep_lines = ppr.find('./w:keepLines', ns)
                     if keep_lines is None:
                         ET.SubElement(ppr, w + 'keepLines')
+
+                    # ACS numbered references: keep the reference number in the
+                    # left margin and align all wrapped lines with the entry text.
+                    # Pandoc's CSL output supplies a tab after "(n)"; the explicit
+                    # tab stop and hanging indent make DOCX match the PDF's flush
+                    # numbered bibliography layout.
+                    indent = ppr.find('./w:ind', ns)
+                    if indent is None:
+                        indent = ET.SubElement(ppr, w + 'ind')
+                    indent.set(w + 'left', '720')       # 0.5 in text block
+                    indent.set(w + 'hanging', '720')    # number hangs in margin
+
+                    tabs = ppr.find('./w:tabs', ns)
+                    if tabs is None:
+                        tabs = ET.SubElement(ppr, w + 'tabs')
+                    for old_tab in list(tabs):
+                        if old_tab.get(w + 'pos') == '720':
+                            tabs.remove(old_tab)
+                    ET.SubElement(tabs, w + 'tab', {
+                        w + 'val': 'left',
+                        w + 'pos': '720',
+                    })
+
                     for run_node in paragraph.findall('.//w:r', ns):
                         rpr = run_node.find('./w:rPr', ns)
                         if rpr is None:
