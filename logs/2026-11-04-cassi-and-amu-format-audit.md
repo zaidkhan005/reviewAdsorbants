@@ -41,7 +41,7 @@ The active bibliography contains 60 records covering 40 distinct full journal ti
 | Scientific Reports | Sci. Rep. | Exact match |
 | Separation and Purification Technology | Sep. Purif. Technol. | Exact match |
 
-The two corrected records are distinguished by CASSI's geographic qualifier as well as their ISSN. The active BibTeX record for Chemical Engineering Journal already carries ISSN 1385-8947; its shortjournal is now `Chem. Eng. J. (Amsterdam, Neth.)`. Environmental Pollution now carries ISSN 0269-7491 and shortjournal `Environ. Pollut. (Oxford, U. K.)`. The full journal field remains the canonical publication title in both records.
+The corrected records are distinguished by CASSI's geographic qualifier as well as their ISSN. Both active Chemical Engineering Journal articles now use `Chem. Eng. J. (Amsterdam, Neth.)`; both carry ISSN 1385-8947. Environmental Pollution carries ISSN 0269-7491 and shortjournal `Environ. Pollut. (Oxford, U. K.)`. The full journal fields remain the canonical publication titles in all records.
 
 The CASSI form for Journal of Physics: Conference Series uses `J. Phys.:Conf. Ser.` (without a space after the colon); that punctuation was retained rather than substituting a house-style alternative.
 
@@ -78,7 +78,7 @@ The two shortjournal corrections preserve the same full journal titles, article 
 - 60 unique DOI values;
 - zero missing or unused in-text citation keys.
 
-The active manuscript build is regenerated after the two corrections. Its final artifact/run and output hashes are recorded in the production file index and readiness checklist.
+The active manuscript build was regenerated after the first correction; a final consistency pass then applied the same CASSI form to the second Chemical Engineering Journal article. The successful build triggered by that final change, its artifact and output hashes are recorded in the production file index and readiness checklist once verified.
 
 ## Primary sources
 
