@@ -96,7 +96,7 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - Treat SEMESTER_MANUSCRIPT_WORKING_V1.md, SEMESTER_INTRODUCTION_AND_SCOPE_V1.md, SEMESTER_RESULTS_AND_DISCUSSION_V1.md, and the standalone Table 1 comparison V1 as earlier working versions, not as the latest assembled manuscript.
 - Earlier build/audit records may mention the old S1/S2 arrangement. The 3 November 2026 status update in the assembly record supersedes those production details.
 
-## 7. Previous verified output — 4 November 2026 (53-entry iteration; superseded by the 60-entry source revision pending rebuild)
+## 7. Previous verified output — 4 November 2026 (53-entry iteration; superseded by the final 60-reference build)
 
 - **Successful build:** [GitHub Actions run 41718042264](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41718042264).
 - **Build source commit:** `ef2b1de98fe4d25c1a05a02bda11d504296e558d`.
@@ -106,7 +106,7 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - **Formula and bibliography pagination QA:** 315 native Office Math objects; zero replacement-square/invalid-glyph paragraphs; zero literal inline-math delimiters; all 53 Word bibliography paragraphs protected with keep-lines-together. Reference 46 (`NH2-UiO-66(Zr)`) remains intact on Word page 60; page 59 ends after reference 45.
 - **Content/citation integrity:** 94 claim IDs; 49 selected works; 53 in-text citation keys and 53 bibliography entries; zero missing or unused citation keys.
 - **Visual QA:** contact sheets for all 60 Word-render pages and all 48 PDF pages were reviewed; dense/changed pages were also inspected at full size. The precise inspection scope and findings are recorded in the final QA log.
-- **Status:** this binary artifact verifies the 53-entry language-edited iteration only. It is retained as the prior production reference and does not contain the seven contextual citations now present in the current manuscript source. The 60-entry source revision requires a new build and QA.
+- **Status:** this binary artifact verifies the earlier 53-entry language-edited iteration only. It is retained as historical production evidence and is superseded by the successful 60-reference build in Section 9.
 - **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor or target-journal confirmation. The manuscript remains a working draft, not a submission-ready final.
 - **Detailed records:** [final language-edited build QA](../logs/2026-11-04-language-edited-final-build-qa.md); [language-editing pass](../logs/2026-11-04-language-editing-pass.md).
 
