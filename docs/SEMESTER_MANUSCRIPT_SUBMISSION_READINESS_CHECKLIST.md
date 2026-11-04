@@ -65,3 +65,16 @@ The public AMU Research & Development Cell page located during this checkpoint l
 6. Rebuild and rerun the final format-specific QA; retain the current successful artifact as the prior verified version.
 
 **Current disposition:** technically produced and internally reconciled working draft; not yet submission-ready. The blockers are author/institution decisions and target-specific formatting, not a failed production build.
+
+## Accessibility and artifact-handoff audit — 4 November 2026
+
+A separate [accessibility and artifact-integrity audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) was completed on the current build.
+
+- DOCX accessibility audit: 0 high, 0 medium, 53 low findings. All 53 low findings are visible raw DOI URLs in the bibliography.
+- All five embedded figures have descriptive alt text; all 13 tables have their first row marked as a table header.
+- DOCX core properties (title, subject, author and keywords) remain blank pending author metadata.
+- PDF: 48 searchable A4 pages, 57 outline/bookmark entries and 76 link/annotation entries; openable, unencrypted and without XFA.
+- The PDF catalog has no tagged-PDF structure tree. It is searchable and bookmarked, but should not be described as fully tagged or PDF/UA-conformant. A tagged-PDF step is needed only if required by the destination or accessibility needs.
+- The loose PDF mismatch was corrected by extracting the PDF from the verified Actions ZIP. Final DOCX, PDF and ZIP hashes now match the recorded build values.
+
+This audit made no changes to the manuscript source, scientific content or citations.
