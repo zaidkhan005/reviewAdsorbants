@@ -9,15 +9,19 @@ The canonical manuscript source remains `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLE
 ## Authoritative production snapshot
 
 - Branch: `main`.
-- Latest successful build: [GitHub Actions run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686).
-- Build source commit: `82e47d1c85912159858a4b0d053e3048fe8c4395`.
-- Artifact: `semester-manuscript-v2-acs-draft`, ID `13290473226`; SHA-256 `6a99f2576d777d5a2b6cf9cf8f4631f49f93be7dcbdb8610c105d4dada5cf82c`. The artifact was verified present and unexpired on 4 November 2026.
-- DOCX: 60 A4 pages; SHA-256 `9645308ac946ef009b88a22a99bbd7af9fff80dbd3592006b53d4d28c814015c`.
-- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `eeb830df8877aaa85205f2f9d3da3662be0d807a12142028e9c444cde2db9a7a`.
-- Integrity totals: 94 claim groups; 49 selected studies; 60 bibliography entries and 60 in-text citation keys; zero missing or unused keys; 60 unique DOIs.
-- Current integrated structure: Tables 1–3 are in the main manuscript. The former separate S1/S2 arrangement is not part of the current build.
+- Latest successful build: [GitHub Actions run 41772042785](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41772042785).
+- Build source commit: `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8`.
+- Artifact: `semester-manuscript-v2-acs-draft`, ID `13295043105`; SHA-256 `5cd7300858a95091ba66d684fd408e1862978c813dd4e1bfade039f92f64d428`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
+- DOCX: 60 A4 pages; SHA-256 `4a7ac9592245f156810144804842b686f7a85bf6980b78fbbd13fb3654c2b26f`.
+- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `677942f682f0464ced04685e5cc39ed085676fc1e81d8ea055f92ca93af91795`.
+- Integrity totals: 94 claim groups; 49 selected works; 11 contextual references; 60 bibliography entries and 60 unique in-text citation keys; 60 unique DOI values; zero missing or unused keys.
+- The Word build applies numbered-reference hanging indents and tab stops. The consolidated bibliography contains short-journal fields for all 60 records across 40 journal titles. The ACS bibliography/layout refinement QA is recorded in [the 4 November refinement log](../logs/2026-11-04-acs-bibliography-layout-refinement.md).
+- Accessibility: 0 high, 0 medium and 60 low DOCX findings; all 60 low findings are raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
+- The PDF has 57 outline entries and 83 annotations/links, no forms or attachments, and remains untagged. Do not describe it as PDF/UA-conformant.
+- The frozen 49-study selection, 15-study condition-labelled comparison and 94-claim ledger are unchanged. Critical source holds remain visible.
 
-The current build and page-layout results are detailed in [the final 60-reference build QA log](../logs/2026-11-04-final-60-reference-build-qa.md).
+The original 60-reference build record is retained in [the 4 November production QA log](../logs/2026-11-04-final-60-reference-build-qa.md). The latest ACS formatting refinement is documented separately in [the ACS bibliography/layout QA log](../logs/2026-11-04-acs-bibliography-layout-refinement.md).
+
 
 ## Readiness matrix
 
@@ -28,7 +32,7 @@ The current build and page-layout results are detailed in [the final 60-referenc
 | Claim-ledger integration | **Complete for 94 recorded claim groups** | Do not treat this count as a replacement for the documented source-level qualifications and holds. |
 | Scientific caveats and critical holds | **Preserved; not all resolved** | Keep SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 qualifications visible. Do not silently normalize unresolved source conflicts. |
 | Language editing | **Controlled edit complete** | A final human proofread for voice, transitions, and correctness remains advisable after the target template is applied. |
-| Citation style and target format | **Pending** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. ACS Guide 2026 is provisional only. |
+| Citation style and target format | **Provisionally formatted in ACS numeric style** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. The short journal names have not yet been individually certified against CASSI for all 40 distinct titles; verify them against the target requirements. |
 | Author list and affiliations | **Missing from manuscript** | Confirm every author, order, institutional affiliation at the time the work was carried out, corresponding author, and approved contact details. Do not infer authorship from supervision or project assistance. |
 | Acknowledgements | **Not present** | Confirm whether any non-author contribution or facility support should be acknowledged; obtain permission where appropriate. |
 | Funding statement | **Not present** | Confirm whether any grant, institutional, departmental, scholarship or other financial support supported the work. Include grant identifiers if applicable. |
