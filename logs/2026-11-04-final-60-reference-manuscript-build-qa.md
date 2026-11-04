@@ -10,7 +10,7 @@
 - **Artifact SHA-256:** `f0774f13e8b1125807700ca7f7cd847e3d5447b838c14b451b81d505e0631132`.
 - **Artifact size:** 1,922,726 bytes; verified present and unexpired on 4 November 2026.
 - **DOCX SHA-256:** `1472d96d224f8a0e1b3ba5e448208f988d3dd8b7f25ecef941f682bde086ea97`.
-- **PDF SHA-256:** `5b3e40cf66f467c000558101d6cacbe41e0388094d8e9bb97d52db6a0aceaf24`.
+- **PDF SHA-256:** `5b3e40cf66f467c000558101d6cacbe41e0388094d8e9bb97d52a78ef64a88ce`.
 
 ## Current manuscript scope and citation reconciliation
 
