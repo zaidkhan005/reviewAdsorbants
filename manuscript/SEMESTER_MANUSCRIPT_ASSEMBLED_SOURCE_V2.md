@@ -432,7 +432,7 @@ Evidence from real wastewater and continuous-flow systems is still limited. Simi
 | Zhu et al. (2018) | PFO | Fitted \(q_e\) | 40.93 mg/g |
 | Zhu et al. (2018) | PSO | Fitted \(q_e\) | 62.50 mg/g |
 | Yasmin et al. (2024) | PSO | Fitted \(q_e\) | 79.36 mg/g |
-| Shaha et al. (2025) | PSO | Fitted \(q_e\) series | Not reported in the available source |
+| Shaha et al. (2025) | PSO | Fitted \\(q_e\\) series | NR |
 | Dang et al. (2025) | PSO | Fitted \(q_e\) | 87.74 mg/g |
 | Dipannita et al. (2025) | Linear PSO | Fitted \(q_e\) | 19.50 mg/g |
 | Zhu et al. (2015) | PSO | Fitted \(q_e\) | NR in accessible source |
