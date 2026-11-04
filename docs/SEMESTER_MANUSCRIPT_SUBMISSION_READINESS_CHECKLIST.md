@@ -9,20 +9,20 @@ The canonical manuscript source remains `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLE
 ## Authoritative production snapshot
 
 - Branch: `main`.
-- Latest successful build: [GitHub Actions run 41781818385](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41781818385).
-- Build source commit: `9b66056e68bacff4c664de1db7c3f7492c73d40c`.
-- Artifact: `semester-manuscript-v2-acs-draft`, ID `13299198981`; SHA-256 `25e1bca7dfae75bad2d98d6fd93c38d324ebe701ad8b3ca951b5b882b411036c`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
-- DOCX: 60 A4 pages; SHA-256 `f7e6ce272e0555ef08aec18b905dbbeb83d1cf5a478119ef20e34d0b08db36d7`.
-- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `3e5c32b86174bcd241575cef5eeb5cdfa342194339dd8432470e92bbca95db16`.
+- Latest successful build: [GitHub Actions run 41784649185](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41784649185).
+- Build source commit: `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7`.
+- Artifact: `semester-manuscript-v2-acs-draft`, ID `13301131061`; SHA-256 `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
+- DOCX: 60 A4 pages; SHA-256 `cf178346ab26d67aa9ee9ded47fcd814e8b5671324f6a0cc599f3e0018e346a1`.
+- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `3590896aea1ed7e8ba325b36e6824cf1004941eceb8aa25de8cc3332c23d8cf6`.
 - Integrity totals: 94 claim groups; 49 selected works; 11 contextual references; 60 bibliography entries and 60 unique in-text citation keys; 60 unique DOI values; zero missing or unused keys.
+- The Word and PDF pipelines both normalize the ten intentional inline-math spans in the Yasmin dose-basis discussion. Page 9 of the final PDF was inspected and shows correctly typeset equations; no literal escaped delimiters remain.
+- Word pagination: the Shaha et al. (2025) kinetic-table value uses the defined `NR` notation so the row remains together. Table 2 retains separate panels for conditions, measured/modelled endpoints, regeneration, matrices, preparation and cost evidence.
 - The Word build applies numbered-reference hanging indents and tab stops. The consolidated bibliography has short-journal fields for all 60 records across 40 journal titles.
-- The latest editorial pass clarifies technical abbreviations and kinetic/mechanistic model names at first use. See [the final terminology/editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md).
-- Table layout was checked against the user's preference for concise cells and separate evidence fields; the 49 selected-reference evidence notes render as labelled study notes rather than oversized narrative cells. See [table-readability audit](../logs/2026-11-04-table-readability-audit.md).
+- The final source-level proofread is recorded in [the 4 November final proofread QA](../logs/2026-11-04-final-proofread-qa.md). It preserves the frozen 49-study selection, 15-study comparison and 94-claim ledger.
 - Accessibility: the previous structure audit found 0 high, 0 medium and 60 low DOCX findings; all low findings were raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
 - The PDF remains untagged and must not be described as PDF/UA-conformant.
-- The frozen 49-study selection, 15-study condition-labelled comparison and 94-claim ledger are unchanged. Critical source holds remain visible.
 
-The original 60-reference production record is in [the 4 November final-build QA log](../logs/2026-11-04-final-60-reference-build-qa.md); the latest bibliography, layout and terminology refinements are documented in their linked dated QA logs.
+The original 60-reference production record is in [the 4 November final-build QA log](../logs/2026-11-04-final-60-reference-build-qa.md); bibliography, layout, table-readability, terminology and proofread refinements are documented in their linked dated QA logs.
 
 
 ## Readiness matrix
@@ -33,7 +33,7 @@ The original 60-reference production record is in [the 4 November final-build QA
 | Citation linkage and bibliography reconciliation | **Complete for the current 60-entry build** | Re-run the linkage check after any reference or citation edit. |
 | Claim-ledger integration | **Complete for 94 recorded claim groups** | Do not treat this count as a replacement for the documented source-level qualifications and holds. |
 | Scientific caveats and critical holds | **Preserved; not all resolved** | Keep SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 qualifications visible. Do not silently normalize unresolved source conflicts. |
-| Language editing | **Controlled edit complete** | A final human proofread for voice, transitions, and correctness remains advisable after the target template is applied. |
+| Language editing | **Final source-level proofread complete** | After the AMU/journal template is confirmed and applied, make a final destination-specific read-through for pagination, voice and instructions. |
 | Citation style and target format | **Provisionally formatted in ACS numeric style** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. The 40 distinct short journal titles are CASSI-style but have not all been individually certified; verify them against CASSI and the target requirements. |
 | Author list and affiliations | **Missing from manuscript** | Confirm every author, order, institutional affiliation at the time the work was carried out, corresponding author, and approved contact details. Do not infer authorship from supervision or project assistance. |
 | Acknowledgements | **Not present** | Confirm whether any non-author contribution or facility support should be acknowledged; obtain permission where appropriate. |
@@ -85,20 +85,21 @@ A separate [accessibility and artifact-integrity audit](../logs/2026-11-04-submi
 
 This audit made no changes to the manuscript source, scientific content or citations.
 
-## Final 60-reference build — 4 November 2026
+## Final proofread 60-reference build — 4 November 2026
 
-The 60-reference manuscript has been built successfully and the resulting DOCX/PDF have been independently checked. This supersedes the 53-entry language-edited artifact and the earlier intermediate 60-reference build. The active bibliography input is `semester-manuscript-cited-references-49-selected-plus-11-context.bib`.
+The final source-level proofread, paragraph restructuring, table pagination correction and PDF/Word equation-rendering correction are included in the successful production output.
 
-- Successful build: [GitHub Actions run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686); artifact ID `13290473226`.
-- Build SHA-256: `6a99f2576d777d5a2b6cf9cf8f4631f49f93be7dcbdb8610c105d4dada5cf82c`.
-- Output: 60-page editable A4 DOCX and 50-page searchable A4 PDF; checksums and complete preflight findings are recorded in the [final 60-reference build QA log](../logs/2026-11-04-final-60-reference-build-qa.md).
-- Citation linkage: 60 manuscript keys, 60 BibTeX records and 60 unique DOIs; zero missing or unused keys.
-- Accessibility: 0 high, 0 medium, 60 low DOCX findings; all low findings are raw DOI URLs used as bibliography hyperlinks. Five figures have descriptive alt text; all 13 tables have header-row markup. The searchable PDF is not tagged and is not PDF/UA-conformant.
+- Successful build: [GitHub Actions run 41784649185](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41784649185); artifact ID `13301131061`.
+- Source commit: `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7`.
+- Artifact SHA-256: `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`.
+- Output: 60-page editable A4 DOCX and 50-page searchable A4 PDF; checksums and proofread findings are recorded in the [final proofread QA log](../logs/2026-11-04-final-proofread-qa.md).
+- Citation linkage: 60 manuscript keys, 60 bibliography records and 60 unique DOIs; zero missing or unused keys.
+- The ten intentional inline-math spans are rendered correctly in both formats. Table 2E's Shaha et al. (2025) unavailable kinetic result is marked NR, preventing an orphaned continuation on the following page.
 - The seven contextual references remain outside the frozen 49-study set. The 15-study condition-labelled comparison and 94-claim ledger are unchanged.
+- Accessibility: the DOCX structural audit remains at 0 high, 0 medium and 60 low hyperlink-display findings. The PDF is searchable but untagged and not PDF/UA-conformant.
 
-The earlier 53-entry accessibility and handoff log applies only to that previous iteration. The final build QA log records the corrected DOI for Ge et al. against the publisher PDF and the current file hashes.
+The preceding 60-reference expansion build and its bibliography QA are retained as historical production evidence. The latest source of truth is this proofread build and its dated QA record.
 
-No selected-study membership or scientific evidence values were changed by the seven-reference expansion.
 
 ## Final 60-reference accessibility and artifact-handoff status
 
