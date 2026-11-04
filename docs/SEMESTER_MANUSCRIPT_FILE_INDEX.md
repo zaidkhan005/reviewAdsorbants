@@ -2,7 +2,7 @@
 
 **Index updated:** 4 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Latest successful manuscript build source commit:** `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8` (4 November ACS bibliography/Word-layout refinement; manuscript prose and scientific evidence unchanged).  
+**Latest successful manuscript build source commit:** `9b66056e68bacff4c664de1db7c3f7492c73d40c` (4 November technical terminology/model-definition pass; scientific evidence unchanged).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -59,6 +59,7 @@ The assembled manuscript source is authoritative for figure order, numbering, pl
 | Contextual reference expansion to 60 works | [2026-11-04 seven-reference contextual expansion](../logs/2026-11-04-contextual-reference-expansion.md) |
 | ACS bibliography and Word-layout refinement | [2026-11-04 ACS bibliography/layout QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md) |
 | Final table-readability audit | [2026-11-04 table-readability audit](../logs/2026-11-04-table-readability-audit.md) |
+| Final technical terminology/editorial QA | [2026-11-04 terminology and editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md) |
 | Final 60-reference build and QA | [2026-11-04 final 60-reference build QA](../logs/2026-11-04-final-60-reference-build-qa.md) |
 | Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
@@ -119,18 +120,19 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 ## 9. Latest ACS-refined output — 4 November 2026 (60 references)
 
-- **Successful build:** [GitHub Actions run 41772042785](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41772042785).
-- **Build source commit:** `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8`.
-- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13295043105`; SHA-256 `5cd7300858a95091ba66d684fd408e1862978c813dd4e1bfade039f92f64d428`; verified present and unexpired; expiry 4 December 2026.
-- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `4a7ac9592245f156810144804842b686f7a85bf6980b78fbbd13fb3654c2b26f`.
-- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `677942f682f0464ced04685e5cc39ed085676fc1e81d8ea055f92ca93af91795`.
+- **Successful build:** [GitHub Actions run 41781818385](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41781818385).
+- **Build source commit:** `9b66056e68bacff4c664de1db7c3f7492c73d40c`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13299198981`; SHA-256 `25e1bca7dfae75bad2d98d6fd93c38d324ebe701ad8b3ca951b5b882b411036c`; verified present and unexpired; expiry 4 December 2026.
+- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `f7e6ce272e0555ef08aec18b905dbbeb83d1cf5a478119ef20e34d0b08db36d7`.
+- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `3e5c32b86174bcd241575cef5eeb5cdfa342194339dd8432470e92bbca95db16`.
 - **Bibliography:** 60 records (49 selected + 11 contextual); 60 citation keys and 60 unique DOI values; zero missing or unused citation keys. Short-journal fields are present for all 60 records across 40 journal titles.
-- **Word layout:** numbered references use a hanging indent and explicit tab stop; each reference paragraph remains intact. The 60-page Word render was reviewed, and the final bibliography pages were inspected at full size.
-- **PDF/layout:** 50 searchable A4 pages, 57 outline entries and 83 annotations/links. The PDF has no tagged-PDF structure tree and is not PDF/UA-conformant.
-- **Accessibility:** 0 high, 0 medium and 60 low DOCX audit findings; the low findings are raw DOI URLs used as hyperlink display text. Five figures retain descriptive alt text and all 13 tables retain header-row markup.
+- **Word layout:** numbered references use hanging indents and tab stops; each reference paragraph remains intact. The Word output independently renders to 60 A4 pages.
+- **PDF/layout:** 50 searchable A4 pages. It has no tagged-PDF structure tree and is not PDF/UA-conformant.
+- **Accessibility:** the preceding document-structure audit found 0 high, 0 medium and 60 low DOCX findings; all low findings were DOI hyperlink display text. The terminology pass did not alter document structure.
 - **Scientific integrity:** 94 claim groups; 49 selected works; 15-study condition-labelled comparison; existing holds for SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 preserved.
-- **ACS qualification:** ACS numeric/superscript citation format and consistent journal short forms are applied. The short forms are CASSI-style; item-by-item CASSI verification for all 40 journal titles remains a final target-format check. AMU/supervisor style confirmation is still pending.
-- **Detailed record:** [ACS bibliography and Word-layout refinement QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md), alongside the [60-reference production QA](../logs/2026-11-04-final-60-reference-build-qa.md).
+- **Terminology:** first-use definitions added for technical terms and model abbreviations including SMX, EDTA, FITC, FTIR, XPS, MD, PFO/PSO and D–R. See [the final terminology/editorial QA log](../logs/2026-11-04-final-terminology-editorial-qa.md).
+- **ACS qualification:** ACS numeric/superscript citations and consistent short journal forms are applied. The 40 distinct short journal titles are CASSI-style; full individual verification and AMU/supervisor confirmation remain outstanding.
+- **Detailed records:** [ACS bibliography and Word-layout refinement QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md), [table-readability audit](../logs/2026-11-04-table-readability-audit.md), and [final terminology/editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md).
 
 
 ## 10. Submission readiness
