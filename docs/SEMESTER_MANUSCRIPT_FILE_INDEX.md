@@ -148,6 +148,6 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 | Purpose | Current source |
 |---|---|
-| Comprehensive beginner-to-seminar study guide | [SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md](../study-guides/SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md) — 16 chapters covering the fundamentals, all 15 detailed comparison studies, the 49 selected works, all five manuscript figures, quantitative qualifications, 60 defence questions, glossary and revision plan. |
+| Comprehensive beginner-to-seminar study guide | [SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md](../study-guides/SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md) — a beginner chemistry primer covering atoms, covalent bonds, σ/π bonds, aromaticity, π–π association, hydrogen bonding, electrostatics, pH/pKa, van der Waals forces, hydrophobic effects, coordination, adsorption types, pores, mass transfer and analytical techniques, followed by 16 manuscript chapters, all 15 detailed comparison studies, the 49 selected works, all five manuscript figures, quantitative qualifications, 60 defence questions, glossary and revision plan. |
 
 > **Historical file note:** `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md` is the superseded biochar-focused ledger from 29 October 2026. The active source of truth for V2 is `data/semester-manuscript-claim-evidence-audit.csv`.
