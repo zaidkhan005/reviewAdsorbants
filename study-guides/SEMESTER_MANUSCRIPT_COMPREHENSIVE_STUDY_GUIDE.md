@@ -39,6 +39,223 @@ The guide follows the final manuscript's terminology and its evidence qualificat
 
 ---
 
+
+
+## Chemistry from absolute zero — read this before Chapter 1
+
+This foundation chapter assumes that you have never studied adsorption mechanisms before. Its purpose is to make the words used later in the manuscript understandable. Do not rush through it: when an examiner asks about π–π association, hydrogen bonding or electrostatic attraction, you should be able to explain the idea using ordinary language first, and then connect it to the antibiotic and the adsorbent.
+
+**Check yourself:** Can you explain why this foundation chapter comes before the study-by-study discussion? Which three words in the title of this section tell you that it is designed for a beginner?
+
+### F.1 Atoms, electrons and molecules
+
+All ordinary matter is made of atoms. An atom has a small, dense nucleus containing protons and neutrons, with electrons occupying regions around the nucleus called orbitals. An orbital is a mathematical description of where an electron is likely to be found; it is not a tiny planet travelling on a fixed circular track. The outer, or valence, electrons are especially important in chemistry because they determine how atoms bond and interact.  
+**Check yourself:** What are the three main subatomic particles? Which particles are in the nucleus? Why are valence electrons important when two atoms form a bond?
+
+A **molecule** is a group of atoms held together by chemical bonds. Water, H₂O, is a small molecule: one oxygen atom is bonded to two hydrogen atoms. Ciprofloxacin and tetracycline are much larger molecules with many carbon, hydrogen, nitrogen and oxygen atoms. Their shapes, bonds, chargeable groups and electron distributions help determine how they behave in water and near a solid surface.  
+**Check yourself:** What makes a collection of bonded atoms a molecule? Which elements occur in CIP and TC? Why does molecular structure matter for adsorption?
+
+A **chemical bond** is an arrangement that holds atoms together. In a covalent bond, atoms share electron density. In an ionic interaction, oppositely charged ions attract one another. There are also weaker intermolecular forces between separate molecules or between a molecule and a surface. Adsorption commonly involves several such non-covalent interactions at once; the antibiotic does not necessarily form a new covalent bond to the adsorbent.  
+**Check yourself:** What is the difference between a covalent bond and an attraction between two separate molecules? Does every adsorption event require a new chemical bond to form?
+
+### F.2 Single, double and triple bonds: the starting point for π chemistry
+
+A **single covalent bond** between two atoms is usually a sigma (σ) bond. Its electron density is concentrated along the line joining the two nuclei. A **double bond** consists of one sigma bond and one pi (π) bond. A **triple bond** contains one sigma bond and two pi bonds. The sigma bond provides the main connection along the internuclear axis; the pi bond adds electron density in regions on either side of that axis.  
+**Check yourself:** What type of bond is present in every ordinary double bond? What additional bond is added when a single bond becomes a double bond? What does the π symbol refer to?
+
+In a simple picture of a carbon–carbon double bond, the π electron density lies above and below the plane containing the two carbon nuclei. It is useful to picture a cloud of electron density rather than a solid bar or a separate little object. In molecules with several alternating single and double bonds, neighbouring p orbitals can overlap and allow some π electron density to be spread across several atoms. This spreading is called **delocalisation**.  
+**Check yourself:** Where is the π electron density located relative to a double bond? What does delocalisation mean? Why is it more accurate to picture electron density than to imagine a rigid physical loop?
+
+### F.3 What are aromatic rings and conjugated systems?
+
+An **aromatic ring** is a special cyclic, conjugated arrangement of atoms with delocalised π electrons. Benzene is the standard introductory example. It contains six carbon atoms in a hexagonal ring; its six π electrons are delocalised around the ring rather than belonging to three completely isolated double bonds. In structural drawings, benzene is often shown as a hexagon with alternating double bonds or with a circle inside. Both drawings represent the delocalised aromatic system.  
+**Check yourself:** What is an aromatic ring? How many carbon atoms are in benzene? What does the circle inside a benzene hexagon represent?
+
+A **conjugated system** has adjacent p orbitals that can overlap, allowing π electrons to be delocalised across more than one bond or atom. A molecule can contain conjugated regions without every part of it being aromatic. Aromaticity is a more specific electronic property; do not use the words *aromatic* and *conjugated* as perfect synonyms. CIP and TC contain extended ring systems with conjugated regions that can participate in interactions with carbon-based surfaces.  
+**Check yourself:** How is conjugation related to π-electron delocalisation? Why is every aromatic system conjugated, while not every conjugated system is necessarily aromatic? Why does this matter for CIP and TC?
+
+Graphene contains a broad, connected network of sp²-bonded carbon atoms. Each carbon forms three sigma bonds in a roughly trigonal planar arrangement and contributes a p orbital to the extended π-electron system. The resulting material has delocalised π electrons across its graphitic domains. A large graphene sheet can therefore be thought of as an extended aromatic carbon surface, although an entire graphene sheet is not simply one ordinary benzene molecule.  
+**Check yourself:** What does sp² mean in this context? How many sigma bonds does each ideal graphene carbon form? Why should you not describe a graphene sheet as one giant benzene molecule?
+
+### F.4 So, what exactly are π–π interactions?
+
+**π–π interactions** (often called π–π stacking or π–π association) are non-covalent attractions or favourable associations between regions containing delocalised π electrons, commonly aromatic rings. In this manuscript, the idea is that an aromatic or conjugated region of CIP or TC can associate with an sp²-rich region of GO/rGO. The interaction is not a new π bond joining the antibiotic to graphene. It is an intermolecular association arising from a combination of electronic effects, including electrostatic contributions and London dispersion forces.  
+**Check yourself:** Define π–π interaction in one sentence. Does it create a new covalent bond between CIP and graphene? Which parts of the antibiotic and the adsorbent can participate?
+
+There is more than one possible geometry. In a face-to-face arrangement, two aromatic surfaces lie approximately parallel; in a parallel-displaced arrangement, one ring is shifted sideways relative to the other; in an edge-to-face arrangement, the edge of one aromatic system points toward the face of another. Researchers sometimes use the word *stacking* as a convenient umbrella term, but the actual geometry depends on molecular structure, substituents, solvent and surface.  
+**Check yourself:** Name two possible geometries of aromatic association. Does “π–π stacking” always mean two perfectly flat rings directly on top of each other?
+
+A simple mental picture is a flat, carbon-rich graphene patch approaching a flat aromatic region of an antibiotic. Their electron distributions can interact favourably, so the molecule may spend more time near that surface than it would in the surrounding water. This is a useful conceptual model, not a photograph of the molecule on the surface. A real molecule may tilt, rotate, interact through only part of its ring system, or make several contacts at once.  
+**Check yourself:** What is the simple mental picture of π–π association on graphene? Why should you not assume the antibiotic lies perfectly flat across the surface?
+
+Why can this matter for the manuscript? Graphene and rGO retain larger sp²-rich regions than heavily oxidised GO in many preparations. CIP and TC have conjugated ring systems. This makes π–π association chemically plausible. However, GO also has oxygen-containing groups; the antibiotic is charged or partly charged depending on pH; and water, ions and other solutes compete for the surface. Thus π–π association is one candidate contribution, not an automatic explanation for every high removal percentage.  
+**Check yourself:** Why is π–π association plausible for CIP/TC on GO/rGO? What other factors mean that it cannot automatically be declared the dominant mechanism?
+
+### F.5 Hydrogen bonding: the interaction involving O, N and H
+
+A **hydrogen bond** is an attractive, directional interaction involving a hydrogen atom that is covalently bonded to an electronegative atom—commonly oxygen or nitrogen—and a lone pair on another electronegative atom. The first group is called the hydrogen-bond donor; the atom providing the lone pair is called the hydrogen-bond acceptor. In simplified notation, one may write O–H···O or N–H···O. The dotted line represents the hydrogen bond; it is not the same as the ordinary covalent O–H or N–H bond.  
+**Check yourself:** What is a hydrogen-bond donor? What is an acceptor? In O–H···O, which O–H is covalent and which dotted interaction is the hydrogen bond?
+
+GO has surface groups such as hydroxyl (–OH), carboxyl (–COOH/–COO⁻ depending on pH) and epoxide groups. CIP and TC contain oxygen and nitrogen atoms, and some forms contain N–H or O–H groups. These groups can provide hydrogen-bond donors or acceptors depending on their exact protonation and chemical environment. Hydrogen bonding can therefore help an antibiotic associate with an oxygenated GO surface or with a functionalised composite.  
+**Check yourself:** Name three oxygen-containing groups found on GO. Which atoms in antibiotics can participate in hydrogen bonding? Why does the exact protonation state matter?
+
+Water itself forms extensive hydrogen bonds. An antibiotic and a GO surface are both surrounded by water molecules in an aqueous experiment. For a hydrogen bond to form between the antibiotic and the surface, some interactions with surrounding water must be reorganised or displaced. Therefore, seeing an –OH group on GO and an oxygen atom on an antibiotic makes hydrogen bonding possible, but does not by itself prove that this interaction dominates adsorption.  
+**Check yourself:** Why does water complicate hydrogen bonding at an adsorbent surface? Why is the presence of donor and acceptor groups evidence of possibility rather than proof of dominance?
+
+### F.6 Electrostatic attraction and repulsion: what charge has to do with adsorption
+
+An **electric charge** can be positive or negative. Opposite charges attract; like charges repel. An ionic or polar group on an antibiotic may interact with charged groups on an adsorbent surface. This is an electrostatic interaction. The direction and strength of the effect depend on the charge of the antibiotic at that pH, the charge of the surface, the distance between them and the surrounding solution.  
+**Check yourself:** What happens between opposite charges? What happens between like charges? Why must you know the charge of both the antibiotic and the adsorbent before predicting electrostatic attraction?
+
+Many molecules have groups that can gain or lose a hydrogen ion (H⁺), which is called a **proton** in acid–base chemistry. When a group gains H⁺ it is protonated; when it loses H⁺ it is deprotonated. A carboxylic acid group can be written as –COOH when protonated and –COO⁻ when deprotonated. An amine may be neutral as –NH₂ and positively charged when protonated as –NH₃⁺. These changes affect the molecule's overall charge and its local interaction sites.  
+**Check yourself:** What is protonation? What is deprotonation? How does –COOH differ in charge from –COO⁻? How can an amine become positively charged?
+
+**pH** describes how acidic or basic a solution is. A lower pH means a greater hydrogen-ion activity; a higher pH means a lower hydrogen-ion activity. Changing pH can change the protonation state of CIP and TC and can also change the protonation of GO's surface groups. So pH can affect both sides of the adsorption interaction simultaneously.  
+**Check yourself:** What does lower pH mean in terms of H⁺? Which two participants in the adsorption system can have their charge changed by pH?
+
+A **pKa** is a characteristic value for an ionisable group and describes the pH region in which its protonated and deprotonated forms are present in comparable amounts. For a simple acidic group HA ⇌ H⁺ + A⁻, when pH is one unit above its pKa, the deprotonated form is favoured by about ten to one; when pH is one unit below pKa, the protonated form is favoured by about ten to one. This is an approximate teaching rule for one simple ionisation step. CIP and TC have multiple ionisable groups, so their full speciation can be more complicated.  
+**Check yourself:** What does pKa tell you? If pH is about one unit above the pKa of a simple acid, which form is favoured? Why should you not apply a one-step rule blindly to a multi-ionisable antibiotic?
+
+Some molecules can have both a positive and a negative charge at different sites while having an overall net charge of zero. Such a form is called a **zwitterion**. Net charge zero does not mean that the molecule has no charged regions; the positive and negative sites may still interact locally with surfaces, ions and water. Antibiotics with both acidic and basic groups can show cationic, zwitterionic and anionic forms as pH changes.  
+**Check yourself:** What is a zwitterion? Does net charge zero mean the molecule has no positive or negative region? Why is this distinction important for adsorption?
+
+The adsorbent surface also has a charge state. The **point of zero charge (pHₚzc)** is the pH at which the measured net surface charge is approximately zero under the particular measurement conditions. Below or above pHₚzc, the surface may tend toward positive or negative net charge, respectively, depending on the material and definition used. The exact surface can still contain different local groups and patches, so pHₚzc is a helpful guide rather than a complete map of every site.  
+**Check yourself:** What is pHₚzc? What does it help you infer? Why does one pHₚzc value not mean every atom on the surface has the same charge?
+
+This gives a practical way to reason about electrostatics. If an antibiotic form is positively charged and a surface is net negative, attraction may be favourable. If both are net negative, repulsion may be possible. But the prediction is only a starting hypothesis: local charges, hydrogen bonding, aromatic association, ionic screening and competition can alter the outcome. The manuscript therefore interprets pH trends alongside material-specific evidence rather than using pH alone to declare a mechanism.  
+**Check yourself:** What is the simplest predicted interaction between a cationic antibiotic and a negatively charged surface? Name three reasons the real adsorption result may be more complicated.
+
+### F.7 Salts, ions and ionic strength: why water is not chemically empty
+
+Pure water in a laboratory bottle is not the same as natural wastewater. Water may contain dissolved salts, metal ions, bicarbonate, chloride, sulfate, calcium, magnesium, dissolved organic matter and other compounds. These components can compete for sites, change pH, alter the surface charge environment, or associate with the antibiotic. They can therefore increase or decrease measured adsorption.  
+**Check yourself:** Name four kinds of components that may be present in wastewater besides the target antibiotic. How could they affect an adsorption experiment?
+
+**Ionic strength** is a measure of the total concentration of ions in solution, weighted by their charges. Dissolved ions create an ionic atmosphere around charged molecules and surfaces. This can screen electrostatic interactions: the apparent attraction or repulsion between two charged partners may become weaker over distance because other ions partially shield their charges. Specific ions can also compete for sites or form bridges, so salt effects are not always a simple universal decrease.  
+**Check yourself:** What is ionic strength at a conceptual level? What does charge screening mean? Why could calcium or magnesium have effects beyond merely increasing the salt concentration?
+
+**Natural organic matter (NOM)** includes diverse organic substances from soils, plants, microbes and decaying biological material. Humic substances are one familiar fraction. NOM may coat an adsorbent, block access to sites, compete for adsorption, or associate with antibiotics in solution. This is why a result from a simple antibiotic-in-water solution cannot automatically predict performance in real wastewater.  
+**Check yourself:** What is NOM? Give two ways NOM might alter adsorption. Why is a simulated matrix test not automatically the same thing as testing actual wastewater?
+
+### F.8 Other common interactions: van der Waals, hydrophobic effects and coordination
+
+**Van der Waals forces** are a broad family of non-covalent interactions between atoms and molecules. One important contribution is London dispersion: momentary fluctuations in electron density can create temporary dipoles that induce correlated dipoles nearby. Dispersion occurs between all atoms and molecules, although its importance varies. It contributes to the attractive association between large, easily polarised surfaces and molecules, including aromatic systems.  
+**Check yourself:** What is a temporary dipole? Do dispersion forces occur only between aromatic molecules? Why can they matter for a large graphene surface?
+
+The **hydrophobic effect** describes the tendency of non-polar surfaces or molecular regions to associate in water because this can reduce the amount of ordered water that must surround them. It is not best understood as a special strong bond between two hydrophobic groups; it is strongly related to how water behaves around non-polar regions. Aromatic regions of antibiotics may contribute to such effects near graphitic surfaces, but the molecule's charged and polar groups also matter.  
+**Check yourself:** What does hydrophobic mean? Why is the hydrophobic effect not simply a new covalent bond or a conventional strong attraction between two non-polar groups?
+
+A **metal coordination interaction** occurs when a metal ion accepts electron density from a ligand atom, commonly an atom with a lone pair such as oxygen or nitrogen. A **cation bridge** is a related idea in which a positively charged ion can associate with negatively charged groups on two different species, potentially linking them. These interactions may be relevant to some metal-containing composites or multicomponent water systems, but they must be supported by the specific study rather than assumed because a metal is present.  
+**Check yourself:** What is a ligand? Which atoms can provide lone pairs for coordination? What would it mean for a calcium or iron ion to bridge an antibiotic and a surface?
+
+Be careful with calcium-alginate materials. Calcium ions can cross-link alginate chains into a gel-like network; this is often described using the “egg-box” model. That explains how the bead or hydrogel is held together. It does not, without additional evidence, prove that calcium directly binds the antibiotic to GO. Structural cross-linking of the adsorbent and adsorption of the pollutant are different claims.  
+**Check yourself:** What does calcium do in calcium-alginate gel formation? Why is that not automatically evidence for a calcium bridge between TC and graphene?
+
+### F.9 Physical adsorption and chemical adsorption
+
+**Physisorption** (physical adsorption) is adsorption dominated by non-covalent forces such as dispersion, electrostatic interactions and hydrogen bonding. It often has a degree of reversibility because the adsorbed molecule is not necessarily joined to the surface by a new strong chemical bond. This does not mean every physical adsorption process is instantly reversible; the real behaviour depends on the system and conditions.  
+**Check yourself:** What kinds of forces can contribute to physisorption? Does physical adsorption always mean that desorption is effortless?
+
+**Chemisorption** (chemical adsorption) involves stronger, more specific chemical interactions, such as formation of a chemical bond or coordination-type attachment to a surface. The boundary between physical and chemical contributions can be complex in real materials. A high adsorption capacity, a good pseudo-second-order kinetic fit, or a change in one spectrum does not by itself prove chemisorption. A mechanistic claim should use multiple independent lines of evidence.  
+**Check yourself:** How does chemisorption differ from physisorption? Why does a pseudo-second-order fit not automatically prove chemical bond formation?
+
+GO/rGO adsorption systems may involve mixed contributions. An antibiotic can experience π-associated interactions with graphitic regions, hydrogen bonding with oxygenated groups, electrostatic effects depending on charge, dispersion forces and physical retention within accessible structures. Different contributions may matter at different pH values or in different composites. This mixed picture is why the manuscript uses wording such as “candidate mechanisms” and “may contribute” instead of assigning one universal mechanism.  
+**Check yourself:** Give three mechanisms that may operate at the same time. Why is a multi-mechanism explanation more realistic than forcing every result into a single category?
+
+### F.10 What makes an adsorbent surface useful?
+
+**Surface area** is the amount of surface available per unit mass, often reported in square metres per gram (m²/g). A larger accessible surface area can provide more places for molecules to interact. But a high BET surface area does not automatically guarantee high antibiotic adsorption: the surface must be accessible to the molecule, chemically compatible, and available in the water conditions of the experiment. Some measured micropore area may not be readily accessible to a relatively bulky antibiotic.  
+**Check yourself:** What unit is commonly used for specific surface area? Why is high surface area alone not a sufficient predictor of adsorption performance?
+
+**Pores** are openings or spaces within a solid. They are commonly classified by width as micropores (below 2 nm), mesopores (2–50 nm) and macropores (above 50 nm). These are conventional size categories. Pores may provide internal surface area and pathways to adsorption sites, but narrow pores can exclude large molecules or slow their transport. An antibiotic's size, shape, hydration shell and orientation all affect accessibility.  
+**Check yourself:** What are the conventional pore-size ranges for micro-, meso- and macropores? Why might a very narrow pore not be useful for a hydrated antibiotic molecule?
+
+A surface may have several kinds of **functional groups**. A functional group is a recognizable arrangement of atoms that gives part of a molecule or material characteristic chemical behaviour. On GO, common examples are hydroxyl, carboxyl and epoxide groups. On modified graphene materials, additional sulfonate, amine, nitrogen-containing or other groups may be introduced. These groups alter hydrophilicity, acidity/basicity, surface charge and possible interactions.  
+**Check yourself:** Define functional group. Name three GO functional groups and two types of added groups used in modified materials in the manuscript.
+
+**Wettability** describes how readily a liquid spreads over or contacts a surface. Oxygen-rich GO is generally more hydrophilic than highly graphitic carbon because oxygenated groups interact favourably with water. More graphitic rGO regions can be less hydrophilic. This affects how the material disperses, how water accesses its surface and how it behaves during separation. Good dispersion can improve contact in a flask, but very fine dispersed particles may be difficult to recover after treatment.  
+**Check yourself:** What is the difference between hydrophilic and hydrophobic? Why can easier dispersion be both an advantage during adsorption and a challenge during recovery?
+
+### F.11 How does the antibiotic get to the adsorption site?
+
+**Mass transfer** means movement of a substance from one place to another. Before an antibiotic can bind to a site deep inside a particle or network, it may need to travel from the well-mixed bulk water to the outside of the adsorbent, cross a thin liquid layer near the surface, and then move through pores or a polymer network. These transport steps can limit how quickly adsorption appears to occur.  
+**Check yourself:** What does mass transfer mean? Why can a molecule be attracted to a surface but still take time to reach an adsorption site?
+
+The **external film** is the thin liquid boundary layer near the solid surface. A molecule must cross it to reach the adsorbent. Faster mixing often makes this layer thinner and can improve transport, although excessive mixing may create other practical issues. The next step may be diffusion through pores or a network inside the particle, often called intraparticle diffusion. Particle size, pore structure and tortuosity influence this step.  
+**Check yourself:** What is the external film? How can stirring affect it? What is intraparticle diffusion, and which material properties can influence it?
+
+A simple way to remember the sequence is: bulk solution → liquid film → accessible surface or pore → adsorption site. The sequence is useful for understanding why contact time, mixing and particle size are reported in the manuscript. It also explains why a kinetic curve is not just a property of the chemical bond: observed speed can be influenced by transport and experimental design.  
+**Check yourself:** Recite the transport sequence in order. Why should a kinetic model not be interpreted as a direct photograph of the molecular mechanism?
+
+### F.12 How do scientists examine the material and its interactions?
+
+**FTIR spectroscopy** measures how a sample absorbs infrared radiation associated with molecular vibrations. Different bonds and functional groups can produce characteristic absorption bands. Comparing spectra before and after adsorption may show shifts or changes that are consistent with a changed chemical environment. FTIR helps identify functional groups, but a band shift alone does not tell you the exact percentage contribution of one mechanism.  
+**Check yourself:** What physical phenomenon does FTIR measure? What can a before/after FTIR comparison suggest? What can it not quantify by itself?
+
+**X-ray photoelectron spectroscopy (XPS)** uses X-rays to measure the energies of electrons emitted from a material's surface. It helps identify which elements are present near the surface and the chemical environments of those elements. For nitrogen-doped carbon, XPS may distinguish types of nitrogen environments, but identifying pyridinic, pyrrolic or graphitic nitrogen does not by itself reveal one unique antibiotic-binding geometry.  
+**Check yourself:** What kind of information does XPS provide? Why is it called a surface-sensitive technique? Why does a nitrogen peak not by itself prove a particular CIP binding configuration?
+
+**Scanning electron microscopy (SEM)** produces images of surface morphology using an electron beam. It can show whether a material looks sheet-like, aggregated, fibrous, bead-like or porous at the observed scale. SEM images do not directly measure molecular binding energy or prove that an antibiotic occupies a particular site.  
+**Check yourself:** What does SEM help you see? Why can an SEM image of a porous aerogel not alone prove the pore-filling mechanism?
+
+**BET analysis** is a method commonly used to estimate specific surface area from gas adsorption data. Pore-size analysis may be reported alongside it. These measurements help describe the physical texture of a material, but gas-accessible surface area under measurement conditions is not always identical to the surface that hydrated antibiotic molecules can access in water.  
+**Check yourself:** What property does BET commonly estimate? Why might BET surface area differ from the effective adsorption area available to an antibiotic in water?
+
+**Zeta potential** is an electrokinetic measure related to the electrical potential near the slipping plane of particles dispersed in a liquid. It is often used as an indicator of colloidal surface-charge behaviour and dispersion stability. It is not identical to a direct measurement of the charge on every surface group, but it can help interpret how pH changes the behaviour of a dispersed adsorbent.  
+**Check yourself:** What is zeta potential used to assess? Why should it not be described as the exact charge of every atom on the surface?
+
+**Density functional theory (DFT)** is a computational quantum-chemistry approach used to calculate electronic structure and compare possible molecular configurations or interaction energies within a chosen model. It can help test whether a proposed arrangement is theoretically plausible. However, a calculation on a simplified model does not automatically reproduce the full complexity of an aqueous experiment containing ions, water, surface defects and multiple competing molecules.  
+**Check yourself:** What does DFT calculate at a broad level? What can a favourable calculated interaction support? Why is it not equivalent to direct experimental proof in wastewater?
+
+### F.13 Bringing the basic chemistry back to CIP, TC and GO/rGO
+
+CIP and TC are different antibiotics, but both contain ring systems and heteroatoms. Ring systems create regions with characteristic shapes and electron distributions; heteroatoms such as nitrogen and oxygen can carry lone pairs, become protonated or participate in hydrogen bonding and coordination. Their ionisable groups mean that pH can alter charge and hydration. The exact balance of these features is different for CIP and TC, so a result for one cannot simply be transferred to the other.  
+**Check yourself:** What are heteroatoms in an organic molecule? Name two common heteroatoms in CIP and TC. Why should their adsorption behaviours be compared rather than assumed to be identical?
+
+GO presents both graphitic regions and oxygen-containing functional groups. rGO often has more restored sp² character than GO, while still retaining some oxygen groups. A graphene-based composite adds other components—such as alginate, cellulose, PVA, carboxymethyl cellulose or Fe₃O₄—that can alter structure, dispersion, strength, accessibility or separation. Each component may have a different purpose; not every component is itself the main antibiotic-binding site.  
+**Check yourself:** What two broad surface features coexist on GO? What can rGO change? In a composite, why must you distinguish the adsorption function from the structural or separation function?
+
+Use the following as a mechanism checklist rather than a claim that all mechanisms occur in every study:
+
+| Candidate contribution | Beginner's explanation | What to look for in a study |
+|---|---|---|
+| π–π association | Aromatic/conjugated regions associate with graphitic regions | Ring structures, sp² domains, molecular modelling or complementary spectroscopy |
+| Electrostatic effect | Charged antibiotic and charged surface attract or repel | Antibiotic speciation, pH, pHₚzc, zeta potential, salt effects |
+| Hydrogen bonding | An O–H or N–H donor interacts with an O/N acceptor | Available donor/acceptor groups and compatible spectroscopic evidence |
+| Dispersion / van der Waals | Fluctuating electron distributions create weak attractions | Close contact between molecule and surface; often part of a combined interaction |
+| Hydrophobic / solvophobic effect | Non-polar regions associate in water as water is reorganised | Molecular polarity, solvent conditions and surface wettability |
+| Coordination / cation bridging | Metal ions may link or coordinate to suitable molecular groups | Metal identity, speciation and direct supporting evidence |
+| Pore filling / confinement | Molecules enter accessible pores or networks | Pore dimensions, molecular size, pore accessibility and transport evidence |
+
+**Check yourself:** Pick any two rows and explain them without using jargon. Which evidence would you need before claiming that one contribution dominates in a specific study?
+
+### F.14 A quick mental model to use during the seminar
+
+~~~mermaid
+flowchart TD
+    A[Antibiotic molecule in water] --> B[Its structure and charge]
+    B --> B1[Conjugated / aromatic ring regions]
+    B --> B2[O and N atoms; donor / acceptor sites]
+    B --> B3[Ionisable groups; charge changes with pH]
+    C[GO / rGO / composite surface] --> C1[sp2 graphitic domains]
+    C --> C2[Oxygenated or added functional groups]
+    C --> C3[Surface charge and accessible pores]
+    B1 --> D[Possible surface associations]
+    C1 --> D
+    B2 --> E[Hydrogen bonding / coordination possibilities]
+    C2 --> E
+    B3 --> F[Electrostatic attraction or repulsion]
+    C3 --> F
+    D --> G[Observed adsorption depends on all contributions]
+    E --> G
+    F --> G
+    H[Water, salts and natural organic matter] --> G
+    I[Mixing, particle size and pore transport] --> G
+~~~
+
+The central reasoning is that molecular structure tells you which interactions are possible; pH and water composition determine which charge states and competitors are present; the material's surface chemistry and pore structure determine which sites are available; and transport determines how quickly the antibiotic reaches those sites. The observed adsorption result is the combined outcome of these factors, not a direct measurement of one isolated force.  
+**Check yourself:** Explain the complete chain from molecular structure to observed adsorption. Why is it unsafe to interpret a removal percentage as proof of a single molecular mechanism?
+
+
 # 1. Understand the research problem before the chemistry
 
 ## 1.1 What problem is the paper trying to address?
