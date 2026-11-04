@@ -17,7 +17,7 @@ The canonical manuscript source remains `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLE
 - Integrity totals: 94 claim groups; 49 selected studies; 60 bibliography entries and 60 in-text citation keys; zero missing or unused keys; 60 unique DOIs.
 - Current integrated structure: Tables 1–3 are in the main manuscript. The former separate S1/S2 arrangement is not part of the current build.
 
-The build and page-layout results are detailed in [the final language-edited build QA log](../logs/2026-11-04-language-edited-final-build-qa.md).
+The current build and page-layout results are detailed in [the final 60-reference build QA log](../logs/2026-11-04-final-60-reference-build-qa.md).
 
 ## Readiness matrix
 
@@ -66,7 +66,7 @@ The public AMU Research & Development Cell page located during this checkpoint l
 
 **Current disposition:** technically produced and internally reconciled working draft; not yet submission-ready. The blockers are author/institution decisions and target-specific formatting, not a failed production build.
 
-## Accessibility and artifact-handoff audit — 4 November 2026
+## Initial accessibility and artifact-handoff audit — 4 November 2026 (53-reference iteration; superseded)
 
 A separate [accessibility and artifact-integrity audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) was completed on the current build.
 
@@ -93,3 +93,14 @@ The 60-reference manuscript has been built successfully and the resulting DOCX/P
 The earlier 53-entry accessibility and handoff log applies only to that previous iteration. The final build QA log records the corrected DOI for Ge et al. against the publisher PDF and the current file hashes.
 
 No selected-study membership or scientific evidence values were changed by the seven-reference expansion.
+
+## Final 60-reference accessibility and artifact-handoff status
+
+The current build is covered by the [final 60-reference build QA log](../logs/2026-11-04-final-60-reference-build-qa.md). The prior 53-reference accessibility audit above is retained as historical evidence only.
+
+- Current Word file: 60 pages; 0 high-severity, 0 medium-severity and 60 low-severity accessibility findings. All 60 low findings are raw DOI URLs used as bibliography link display text.
+- All five figures have descriptive alt text. All 13 tables have their first row marked as a table header. All 60 bibliography entries are kept together in Word page layout.
+- Current PDF: 50 searchable A4 pages; 57 outline/bookmark entries; 86 annotations/links; no forms or attachments; no encryption or XFA.
+- The PDF is not tagged and should not be described as PDF/UA-conformant. A tagged-PDF conversion remains conditional on institutional, journal or reader accessibility requirements.
+- The final artifact and DOCX/PDF hashes are reconciled to Actions run 41762141686. The earlier loose-file mismatch note refers only to the 53-entry iteration.
+
