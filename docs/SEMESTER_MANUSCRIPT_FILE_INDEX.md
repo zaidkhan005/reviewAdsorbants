@@ -56,6 +56,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Critical scientific-hold visibility check | [2026-11-03 critical hold visibility check](../logs/2026-11-03-critical-hold-visibility-check.md) |
 | Language-editing pass | [2026-11-04 manuscript language-editing pass](../logs/2026-11-04-language-editing-pass.md) |
 | Final language-edited build QA | [2026-11-04 final language-edited build and QA](../logs/2026-11-04-language-edited-final-build-qa.md) |
+| Contextual reference expansion to 60 works | [2026-11-04 seven-reference contextual expansion](../logs/2026-11-04-contextual-reference-expansion.md) |
 | Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
@@ -68,7 +69,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 
 | Purpose | Current source |
 |---|---|
-| Consolidated manuscript bibliography (49 selected + 4 contextual references; 53 unique works) | [semester-manuscript-cited-references-49-selected-plus-4-context.bib](../semester-manuscript-cited-references-49-selected-plus-4-context.bib) |
+| Consolidated manuscript bibliography (49 selected + 11 contextual references; 60 unique works) | [semester-manuscript-cited-references-49-selected-plus-11-context.bib](../semester-manuscript-cited-references-49-selected-plus-11-context.bib) |
 | ACS 2026 citation style file | [american-chemical-society-2026.csl](../references/american-chemical-society-2026.csl) |
 | Citation-linkage audit | [SEMESTER_CITATION_LINKAGE_AUDIT.md](SEMESTER_CITATION_LINKAGE_AUDIT.md) |
 | Bibliography audit | [FINAL_SEMESTER_MANUSCRIPT_V2_BIBLIOGRAPHY_AUDIT.md](FINAL_SEMESTER_MANUSCRIPT_V2_BIBLIOGRAPHY_AUDIT.md) |
@@ -94,7 +95,7 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - Treat SEMESTER_MANUSCRIPT_WORKING_V1.md, SEMESTER_INTRODUCTION_AND_SCOPE_V1.md, SEMESTER_RESULTS_AND_DISCUSSION_V1.md, and the standalone Table 1 comparison V1 as earlier working versions, not as the latest assembled manuscript.
 - Earlier build/audit records may mention the old S1/S2 arrangement. The 3 November 2026 status update in the assembly record supersedes those production details.
 
-## 7. Latest verified output — 4 November 2026
+## 7. Previous verified output — 4 November 2026 (53-entry iteration; superseded by the 60-entry source revision pending rebuild)
 
 - **Successful build:** [GitHub Actions run 41718042264](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41718042264).
 - **Build source commit:** `ef2b1de98fe4d25c1a05a02bda11d504296e558d`.
@@ -104,13 +105,20 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 - **Formula and bibliography pagination QA:** 315 native Office Math objects; zero replacement-square/invalid-glyph paragraphs; zero literal inline-math delimiters; all 53 Word bibliography paragraphs protected with keep-lines-together. Reference 46 (`NH2-UiO-66(Zr)`) remains intact on Word page 60; page 59 ends after reference 45.
 - **Content/citation integrity:** 94 claim IDs; 49 selected works; 53 in-text citation keys and 53 bibliography entries; zero missing or unused citation keys.
 - **Visual QA:** contact sheets for all 60 Word-render pages and all 48 PDF pages were reviewed; dense/changed pages were also inspected at full size. The precise inspection scope and findings are recorded in the final QA log.
-- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor or target-journal confirmation. This remains a working draft, not a submission-ready final.
+- **Status:** this binary artifact verifies the 53-entry language-edited iteration only. It is retained as the prior production reference and does not contain the seven contextual citations now present in the current manuscript source. The 60-entry source revision requires a new build and QA.
+- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor or target-journal confirmation. The manuscript remains a working draft, not a submission-ready final.
 - **Detailed records:** [final language-edited build QA](../logs/2026-11-04-language-edited-final-build-qa.md); [language-editing pass](../logs/2026-11-04-language-editing-pass.md).
 
 ## 8. User-supplied full-text audit — 3 November 2026
 
 [Open the six-PDF full-text audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md). Five uploads map to selected studies SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051. The sixth is a separate optional Kabir et al. (2024) GrGO/TC article (DOI 10.1021/acssusresmgt.4c00181), not SEM-010 and not included in the frozen 49.
 - [SEM-010 uploaded-PDF re-audit (3 November 2026)](../logs/2026-11-03-SEM-010-uploaded-pdf-reaudit.md) — direct PDF cross-check and conditional dose-basis mass-balance note.
+
+## 9. Current 60-reference source revision — 4 November 2026
+
+The current manuscript source and bibliography have been expanded to **60 cited works** (49 selected + 11 contextual). Seven new contextual citations are integrated without changing the frozen 49-study selection. The source-level linkage check reports 60 unique cited keys, 60 bibliography entries and 60 unique DOIs, with no missing or unused keys. The 60-entry bibliography input is linked in Section 4; rationale and bounded use are in the [contextual reference expansion log](../logs/2026-11-04-contextual-reference-expansion.md).
+
+**Production status:** new build and output QA are pending. Use the previous 53-entry artifact only as a historical prior build until the 60-entry build succeeds.
 
 ## 9. Submission readiness
 
