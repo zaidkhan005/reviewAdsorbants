@@ -2,7 +2,7 @@
 
 **Index updated:** 4 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Latest successful manuscript build source commit:** `9b66056e68bacff4c664de1db7c3f7492c73d40c` (4 November technical terminology/model-definition pass; scientific evidence unchanged).  
+**Latest successful manuscript build source commit:** `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7` (4 November final proofread and PDF/Word equation-rendering correction; scientific evidence unchanged).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -60,6 +60,7 @@ The assembled manuscript source is authoritative for figure order, numbering, pl
 | ACS bibliography and Word-layout refinement | [2026-11-04 ACS bibliography/layout QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md) |
 | Final table-readability audit | [2026-11-04 table-readability audit](../logs/2026-11-04-table-readability-audit.md) |
 | Final technical terminology/editorial QA | [2026-11-04 terminology and editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md) |
+| Final manuscript proofread and production QA | [2026-11-04 final proofread QA](../logs/2026-11-04-final-proofread-qa.md) |
 | Final 60-reference build and QA | [2026-11-04 final 60-reference build QA](../logs/2026-11-04-final-60-reference-build-qa.md) |
 | Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
@@ -120,19 +121,21 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 ## 9. Latest ACS-refined output — 4 November 2026 (60 references)
 
-- **Successful build:** [GitHub Actions run 41781818385](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41781818385).
-- **Build source commit:** `9b66056e68bacff4c664de1db7c3f7492c73d40c`.
-- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13299198981`; SHA-256 `25e1bca7dfae75bad2d98d6fd93c38d324ebe701ad8b3ca951b5b882b411036c`; verified present and unexpired; expiry 4 December 2026.
-- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `f7e6ce272e0555ef08aec18b905dbbeb83d1cf5a478119ef20e34d0b08db36d7`.
-- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `3e5c32b86174bcd241575cef5eeb5cdfa342194339dd8432470e92bbca95db16`.
+- **Successful build:** [GitHub Actions run 41784649185](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41784649185).
+- **Build source commit:** `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13301131061`; SHA-256 `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`; verified present and unexpired; expiry 4 December 2026.
+- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `cf178346ab26d67aa9ee9ded47fcd814e8b5671324f6a0cc599f3e0018e346a1`.
+- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `3590896aea1ed7e8ba325b36e6824cf1004941eceb8aa25de8cc3332c23d8cf6`.
 - **Bibliography:** 60 records (49 selected + 11 contextual); 60 citation keys and 60 unique DOI values; zero missing or unused citation keys. Short-journal fields are present for all 60 records across 40 journal titles.
+- **Word/PDF math:** the ten intentional inline-math spans are normalized for both outputs; page 9 of the PDF was inspected and contains correctly typeset equations, not literal escape characters.
+- **Table pagination:** Table 2E uses the defined `NR` notation for the unavailable Shaha et al. (2025) kinetic value; the row stays intact in the Word render. Table 2 panels and separate evidence fields remain in place.
 - **Word layout:** numbered references use hanging indents and tab stops; each reference paragraph remains intact. The Word output independently renders to 60 A4 pages.
-- **PDF/layout:** 50 searchable A4 pages. It has no tagged-PDF structure tree and is not PDF/UA-conformant.
-- **Accessibility:** the preceding document-structure audit found 0 high, 0 medium and 60 low DOCX findings; all low findings were DOI hyperlink display text. The terminology pass did not alter document structure.
+- **PDF/layout:** 50 searchable A4 pages, 57 outline entries and 83 annotations. The PDF has no tagged-PDF structure tree and is not PDF/UA-conformant.
+- **Accessibility:** 0 high, 0 medium and 60 low DOCX findings; the low findings are raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
 - **Scientific integrity:** 94 claim groups; 49 selected works; 15-study condition-labelled comparison; existing holds for SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 preserved.
-- **Terminology:** first-use definitions added for technical terms and model abbreviations including SMX, EDTA, FITC, FTIR, XPS, MD, PFO/PSO and D–R. See [the final terminology/editorial QA log](../logs/2026-11-04-final-terminology-editorial-qa.md).
+- **Editorial pass:** long study summaries separated, duplicate Panda et al. results consolidated, first-use terminology checked, and the Table 2 Yasmin note shortened while retaining the full mass-balance discussion in Section 3.1.
 - **ACS qualification:** ACS numeric/superscript citations and consistent short journal forms are applied. The 40 distinct short journal titles are CASSI-style; full individual verification and AMU/supervisor confirmation remain outstanding.
-- **Detailed records:** [ACS bibliography and Word-layout refinement QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md), [table-readability audit](../logs/2026-11-04-table-readability-audit.md), and [final terminology/editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md).
+- **Detailed records:** [final proofread and production QA](../logs/2026-11-04-final-proofread-qa.md), [ACS bibliography and Word-layout refinement QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md), [table-readability audit](../logs/2026-11-04-table-readability-audit.md), and [final terminology/editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md).
 
 
 ## 10. Submission readiness
