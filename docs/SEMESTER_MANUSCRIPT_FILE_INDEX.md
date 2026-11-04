@@ -56,6 +56,7 @@ The assembled manuscript source remains the canonical placement/caption source f
 | Critical scientific-hold visibility check | [2026-11-03 critical hold visibility check](../logs/2026-11-03-critical-hold-visibility-check.md) |
 | Language-editing pass | [2026-11-04 manuscript language-editing pass](../logs/2026-11-04-language-editing-pass.md) |
 | Final language-edited build QA | [2026-11-04 final language-edited build and QA](../logs/2026-11-04-language-edited-final-build-qa.md) |
+| Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
 | Results/discussion claim-to-evidence audit | [semester-results-discussion-claim-evidence-audit.csv](../data/semester-results-discussion-claim-evidence-audit.csv) |
 | Mechanism-evidence matrix | [semester-mechanism-evidence-matrix.csv](../data/semester-mechanism-evidence-matrix.csv) |
