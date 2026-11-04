@@ -78,3 +78,15 @@ A separate [accessibility and artifact-integrity audit](../logs/2026-11-04-submi
 - The loose PDF mismatch was corrected by extracting the PDF from the verified Actions ZIP. Final DOCX, PDF and ZIP hashes now match the recorded build values.
 
 This audit made no changes to the manuscript source, scientific content or citations.
+
+## 60-reference source revision — 4 November 2026
+
+The bibliography and reader-facing manuscript source have now been expanded from 53 to **60 references**: 49 selected works plus 11 contextual references. The seven added sources are used only for methodological, production-cost, life-cycle and treatment-system context. They do not alter the 49-study evidence selection or the 15-study condition-labelled comparison.
+
+- Linkage pre-build check: 60 unique manuscript citation keys; 60 unique BibTeX records; 60 unique DOI values; zero missing and zero unused keys.
+- The former 53-entry bibliography remains a historical input for the prior successful artifact. The active bibliography input is now `semester-manuscript-cited-references-49-selected-plus-11-context.bib`.
+- New build and full output QA are pending. Until the new build succeeds, the prior DOCX/PDF must be treated as the 53-reference version, not as the latest 60-reference manuscript.
+- The prior accessibility audit (53 raw-DOI low-severity findings) also applies only to the old 53-entry DOCX. Re-run accessibility checks on the new 60-entry DOCX after the build.
+- Expansion rationale and the seven added sources are documented in the [contextual reference expansion log](../logs/2026-11-04-contextual-reference-expansion.md).
+
+No selected-study membership or scientific evidence values were changed.
