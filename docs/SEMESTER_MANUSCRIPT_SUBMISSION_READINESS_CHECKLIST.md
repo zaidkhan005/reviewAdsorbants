@@ -9,18 +9,20 @@ The canonical manuscript source remains `manuscript/SEMESTER_MANUSCRIPT_ASSEMBLE
 ## Authoritative production snapshot
 
 - Branch: `main`.
-- Latest successful build: [GitHub Actions run 41772042785](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41772042785).
-- Build source commit: `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8`.
-- Artifact: `semester-manuscript-v2-acs-draft`, ID `13295043105`; SHA-256 `5cd7300858a95091ba66d684fd408e1862978c813dd4e1bfade039f92f64d428`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
-- DOCX: 60 A4 pages; SHA-256 `4a7ac9592245f156810144804842b686f7a85bf6980b78fbbd13fb3654c2b26f`.
-- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `677942f682f0464ced04685e5cc39ed085676fc1e81d8ea055f92ca93af91795`.
+- Latest successful build: [GitHub Actions run 41781818385](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41781818385).
+- Build source commit: `9b66056e68bacff4c664de1db7c3f7492c73d40c`.
+- Artifact: `semester-manuscript-v2-acs-draft`, ID `13299198981`; SHA-256 `25e1bca7dfae75bad2d98d6fd93c38d324ebe701ad8b3ca951b5b882b411036c`. Verified present and unexpired on 4 November 2026; expiry 4 December 2026.
+- DOCX: 60 A4 pages; SHA-256 `f7e6ce272e0555ef08aec18b905dbbeb83d1cf5a478119ef20e34d0b08db36d7`.
+- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `3e5c32b86174bcd241575cef5eeb5cdfa342194339dd8432470e92bbca95db16`.
 - Integrity totals: 94 claim groups; 49 selected works; 11 contextual references; 60 bibliography entries and 60 unique in-text citation keys; 60 unique DOI values; zero missing or unused keys.
-- The Word build applies numbered-reference hanging indents and tab stops. The consolidated bibliography contains short-journal fields for all 60 records across 40 journal titles. The ACS bibliography/layout refinement QA is recorded in [the 4 November refinement log](../logs/2026-11-04-acs-bibliography-layout-refinement.md).
-- Accessibility: 0 high, 0 medium and 60 low DOCX findings; all 60 low findings are raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
-- The PDF has 57 outline entries and 83 annotations/links, no forms or attachments, and remains untagged. Do not describe it as PDF/UA-conformant.
+- The Word build applies numbered-reference hanging indents and tab stops. The consolidated bibliography has short-journal fields for all 60 records across 40 journal titles.
+- The latest editorial pass clarifies technical abbreviations and kinetic/mechanistic model names at first use. See [the final terminology/editorial QA](../logs/2026-11-04-final-terminology-editorial-qa.md).
+- Table layout was checked against the user's preference for concise cells and separate evidence fields; the 49 selected-reference evidence notes render as labelled study notes rather than oversized narrative cells. See [table-readability audit](../logs/2026-11-04-table-readability-audit.md).
+- Accessibility: the previous structure audit found 0 high, 0 medium and 60 low DOCX findings; all low findings were raw DOI hyperlink display text. Five figures have descriptive alt text and all 13 tables have marked header rows.
+- The PDF remains untagged and must not be described as PDF/UA-conformant.
 - The frozen 49-study selection, 15-study condition-labelled comparison and 94-claim ledger are unchanged. Critical source holds remain visible.
 
-The original 60-reference build record is retained in [the 4 November production QA log](../logs/2026-11-04-final-60-reference-build-qa.md). The latest ACS formatting refinement is documented separately in [the ACS bibliography/layout QA log](../logs/2026-11-04-acs-bibliography-layout-refinement.md).
+The original 60-reference production record is in [the 4 November final-build QA log](../logs/2026-11-04-final-60-reference-build-qa.md); the latest bibliography, layout and terminology refinements are documented in their linked dated QA logs.
 
 
 ## Readiness matrix
@@ -32,7 +34,7 @@ The original 60-reference build record is retained in [the 4 November production
 | Claim-ledger integration | **Complete for 94 recorded claim groups** | Do not treat this count as a replacement for the documented source-level qualifications and holds. |
 | Scientific caveats and critical holds | **Preserved; not all resolved** | Keep SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 qualifications visible. Do not silently normalize unresolved source conflicts. |
 | Language editing | **Controlled edit complete** | A final human proofread for voice, transitions, and correctness remains advisable after the target template is applied. |
-| Citation style and target format | **Provisionally formatted in ACS numeric style** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. The short journal names have not yet been individually certified against CASSI for all 40 distinct titles; verify them against the target requirements. |
+| Citation style and target format | **Provisionally formatted in ACS numeric style** | Confirm whether this is an AMU semester submission, a journal submission, or both. For a journal, select the target journal and follow its current author instructions. The 40 distinct short journal titles are CASSI-style but have not all been individually certified; verify them against CASSI and the target requirements. |
 | Author list and affiliations | **Missing from manuscript** | Confirm every author, order, institutional affiliation at the time the work was carried out, corresponding author, and approved contact details. Do not infer authorship from supervision or project assistance. |
 | Acknowledgements | **Not present** | Confirm whether any non-author contribution or facility support should be acknowledged; obtain permission where appropriate. |
 | Funding statement | **Not present** | Confirm whether any grant, institutional, departmental, scholarship or other financial support supported the work. Include grant identifiers if applicable. |
