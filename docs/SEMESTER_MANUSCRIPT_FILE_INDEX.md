@@ -2,7 +2,7 @@
 
 **Index updated:** 4 November 2026  
 **Repository:** [zaidkhan005/reviewAdsorbants](https://github.com/zaidkhan005/reviewAdsorbants)  
-**Latest successful manuscript build source commit:** `82e47d1c85912159858a4b0d053e3048fe8c4395` (4 November 60-reference DOCX/PDF build; later documentation-only commits do not change the built manuscript source).  
+**Latest successful manuscript build source commit:** `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8` (4 November ACS bibliography/Word-layout refinement; manuscript prose and scientific evidence unchanged).  
 **Branch:** main
 
 GitHub is the project's source of truth. The links below point to current source files on main, unless a historical version is explicitly identified.
@@ -57,6 +57,7 @@ The assembled manuscript source is authoritative for figure order, numbering, pl
 | Language-editing pass | [2026-11-04 manuscript language-editing pass](../logs/2026-11-04-language-editing-pass.md) |
 | Final language-edited build QA | [2026-11-04 final language-edited build and QA](../logs/2026-11-04-language-edited-final-build-qa.md) |
 | Contextual reference expansion to 60 works | [2026-11-04 seven-reference contextual expansion](../logs/2026-11-04-contextual-reference-expansion.md) |
+| ACS bibliography and Word-layout refinement | [2026-11-04 ACS bibliography/layout QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md) |
 | Final 60-reference build and QA | [2026-11-04 final 60-reference build QA](../logs/2026-11-04-final-60-reference-build-qa.md) |
 | Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
@@ -85,7 +86,7 @@ Zotero remains the reference manager; the repository bibliography is the manuscr
 | GitHub Actions build workflow | [build-semester-manuscript.yml](../.github/workflows/build-semester-manuscript.yml) |
 | Manuscript assembly record | [SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md](SEMESTER_MANUSCRIPT_ASSEMBLY_RECORD.md) |
 | Claim-by-claim scientific audit | [SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md](SEMESTER_MANUSCRIPT_V2_CLAIM_BY_CLAIM_SCIENTIFIC_AUDIT.md) |
-| Latest successful integrated build run | [GitHub Actions run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686) — artifact ID `13290473226`; 50-page PDF and 60-page DOCX |
+| Latest successful integrated build run | [GitHub Actions run 41772042785](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41772042785) — artifact ID `13295043105`; ACS-refined 50-page PDF and 60-page DOCX |
 
 The successful Actions run above produced the integrated DOCX and PDF in its workflow artifact. These generated binary files are not stored as source files in the repository; use the run's **Artifacts** section to download them. The artifact follows GitHub Actions retention and expires after the retention window.
 
@@ -115,18 +116,21 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 [Open the six-PDF full-text audit log](../logs/2026-11-03-user-supplied-six-paper-full-text-audit.md). Five uploads map to selected studies SEM-038, SEM-047, SEM-048, SEM-050 and SEM-051. The sixth is a separate optional Kabir et al. (2024) GrGO/TC article (DOI 10.1021/acssusresmgt.4c00181), not SEM-010 and not included in the frozen 49.
 - [SEM-010 uploaded-PDF re-audit (3 November 2026)](../logs/2026-11-03-SEM-010-uploaded-pdf-reaudit.md) — direct PDF cross-check and conditional dose-basis mass-balance note.
 
-## 9. Latest verified output — 4 November 2026 (60 references)
+## 9. Latest ACS-refined output — 4 November 2026 (60 references)
 
-- **Successful build:** [GitHub Actions run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686).
-- **Build source commit:** `82e47d1c85912159858a4b0d053e3048fe8c4395`.
-- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13290473226`; SHA-256 `6a99f2576d777d5a2b6cf9cf8f4631f49f93be7dcbdb8610c105d4dada5cf82c`; verified present and unexpired; expiry 4 December 2026.
-- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `9645308ac946ef009b88a22a99bbd7af9fff80dbd3592006b53d4d28c814015c`.
-- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `eeb830df8877aaa85205f2f9d3da3662be0d807a12142028e9c444cde2db9a7a`.
-- **Content/citation integrity:** 94 unique claim groups; 49 selected works; 11 contextual references; 60 bibliography entries and 60 unique in-text citation keys; zero missing or unused keys.
-- **Output/accessibility QA:** 5 figures with descriptive alt text; 13 tables with marked header rows; 0 high and 0 medium DOCX accessibility findings (60 low raw-DOI hyperlink findings); PDF has 57 outline entries and 86 annotations, no forms or attachments. The PDF is searchable/bookmarked but has no tagged-PDF structure tree.
-- **Visual QA:** contact sheets reviewed across all 60 Word-render pages and all 50 PDF pages; dense/changed/critical pages were also opened at full size. The final QA log records the render-equivalence check and exact inspection scope.
-- **Citation style:** ACS Guide 2026 remains provisional pending AMU/supervisor or target-journal confirmation. This is a working draft, not a submission-ready final.
-- **Detailed records:** [final 60-reference build QA](../logs/2026-11-04-final-60-reference-build-qa.md); [60-reference contextual expansion](../logs/2026-11-04-contextual-reference-expansion.md); [language-editing pass](../logs/2026-11-04-language-editing-pass.md).
+- **Successful build:** [GitHub Actions run 41772042785](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41772042785).
+- **Build source commit:** `24f87ecf4a3d343f9bce9ee85ab44eb5b0874bd8`.
+- **Artifact:** `semester-manuscript-v2-acs-draft`, ID `13295043105`; SHA-256 `5cd7300858a95091ba66d684fd408e1862978c813dd4e1bfade039f92f64d428`; verified present and unexpired; expiry 4 December 2026.
+- **DOCX:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `4a7ac9592245f156810144804842b686f7a85bf6980b78fbbd13fb3654c2b26f`.
+- **PDF:** `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `677942f682f0464ced04685e5cc39ed085676fc1e81d8ea055f92ca93af91795`.
+- **Bibliography:** 60 records (49 selected + 11 contextual); 60 citation keys and 60 unique DOI values; zero missing or unused citation keys. Short-journal fields are present for all 60 records across 40 journal titles.
+- **Word layout:** numbered references use a hanging indent and explicit tab stop; each reference paragraph remains intact. The 60-page Word render was reviewed, and the final bibliography pages were inspected at full size.
+- **PDF/layout:** 50 searchable A4 pages, 57 outline entries and 83 annotations/links. The PDF has no tagged-PDF structure tree and is not PDF/UA-conformant.
+- **Accessibility:** 0 high, 0 medium and 60 low DOCX audit findings; the low findings are raw DOI URLs used as hyperlink display text. Five figures retain descriptive alt text and all 13 tables retain header-row markup.
+- **Scientific integrity:** 94 claim groups; 49 selected works; 15-study condition-labelled comparison; existing holds for SEM-010, SEM-038, SEM-046, SEM-050 and SEM-051 preserved.
+- **ACS qualification:** ACS numeric/superscript citation format and consistent journal short forms are applied. The short forms are CASSI-style; item-by-item CASSI verification for all 40 journal titles remains a final target-format check. AMU/supervisor style confirmation is still pending.
+- **Detailed record:** [ACS bibliography and Word-layout refinement QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md), alongside the [60-reference production QA](../logs/2026-11-04-final-60-reference-build-qa.md).
+
 
 ## 10. Submission readiness
 
