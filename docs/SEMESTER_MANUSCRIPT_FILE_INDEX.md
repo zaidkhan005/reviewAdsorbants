@@ -23,13 +23,13 @@ GitHub is the project's source of truth. The links below point to current source
 
 | Figure | Source file |
 |---|---|
-| Figure 1 — scope and adsorbents considered | [SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md](../manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md) |
-| Figure 2 — process, recovery and cost boundary | [SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md](../manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md) |
-| Figure 3 — mechanism evidence schematic | [SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md](../manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md) |
-| Figure 4 — performance, process, recovery and cost framework | [SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md](../manuscript/SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md) |
+| Figure 1 — scope and eligibility boundaries | [SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md](../manuscript/SEMESTER_FIGURE_1_SCOPE_TAXONOMY_V1.md) |
+| Figure 2 — literature identification and PRISMA-informed selection overview | Embedded in [the assembled V2 manuscript](../manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md) |
+| Figure 3 — process, recovery and cost boundary | [SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md](../manuscript/SEMESTER_FIGURE_2_PROCESS_RECOVERY_COST_BOUNDARY_V1.md) |
+| Figure 4 — mechanism evidence schematic | [SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md](../manuscript/SEMESTER_FIGURE_3_MECHANISM_EVIDENCE_SCHEMATIC_V1.md) |
+| Figure 5 — performance, process, recovery and cost framework | [SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md](../manuscript/SEMESTER_FIGURE_4_PERFORMANCE_PROCESS_RECOVERY_COST_FRAMEWORK_V1.md) |
 
-The assembled manuscript source remains the canonical placement/caption source for figures in the final manuscript.
-
+The assembled manuscript source is authoritative for figure order, numbering, placement and captions. Historical filenames for Figures 3–5 retain their earlier numbering.
 ## 3. Evidence database and comparison data
 
 | Purpose | Current source |
