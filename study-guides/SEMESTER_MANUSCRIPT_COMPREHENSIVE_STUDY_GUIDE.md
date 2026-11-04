@@ -1612,6 +1612,29 @@ The materials are scientifically promising, but capacity data alone cannot estab
 - **Techno-economic analysis:** Evaluation combining technical performance with process economics and explicit cost boundaries.
 - **Uptake:** Amount of contaminant transferred to the adsorbent under the stated calculation basis.
 
+- **Aromatic ring:** A cyclic, conjugated arrangement with delocalised π electrons; benzene is the standard example.
+- **BET analysis:** A gas-adsorption method commonly used to estimate specific surface area.
+- **Chemisorption:** Adsorption involving stronger, more specific chemical interactions, such as chemical-bond or coordination-type attachment.
+- **Conjugation:** Overlap of adjacent p orbitals that allows π electrons to delocalise across several atoms.
+- **Coordination:** An interaction in which a ligand donates electron density to a metal centre.
+- **DFT:** Density functional theory, a computational quantum-chemistry method used to model electronic structure and interaction energies.
+- **Dispersion (London) forces:** Attractions arising from correlated, temporary fluctuations in electron density.
+- **Donor (hydrogen-bond donor):** A group bearing a hydrogen attached to an electronegative atom, which can participate in a hydrogen bond.
+- **Electrostatic interaction:** Attraction or repulsion between electrically charged regions.
+- **FTIR:** Fourier-transform infrared spectroscopy; measures infrared absorption associated with molecular vibrations.
+- **Hydrogen-bond acceptor:** An atom, commonly oxygen or nitrogen, with an available lone pair that can interact with a hydrogen-bond donor.
+- **Hydrogen-bond donor:** A group such as O–H or N–H that supplies the hydrogen involved in a hydrogen bond.
+- **Hydrophobic effect:** The tendency of non-polar regions to associate in water as the surrounding water structure is reorganised.
+- **Ionic strength:** A measure of the total ionic concentration in solution, weighted by ion charge; it influences electrostatic screening.
+- **Lone pair:** A pair of valence electrons not shared in a covalent bond, often relevant to hydrogen bonding and coordination.
+- **Physisorption:** Adsorption dominated by non-covalent forces such as dispersion, electrostatics and hydrogen bonding.
+- **π bond:** A covalent-bonding component formed by sideways overlap of p orbitals; in a simple double bond it is paired with one sigma bond.
+- **π–π association / stacking:** Non-covalent association between aromatic or conjugated π-electron systems; not a new covalent bond joining the two species.
+- **Sigma (σ) bond:** A covalent bond with electron density concentrated along the internuclear axis.
+- **sp² hybridisation:** A bonding arrangement in which an atom uses three approximately coplanar hybrid orbitals and retains a p orbital that can contribute to π bonding.
+- **Zeta potential:** An electrokinetic potential near the slipping plane of particles in suspension, often used to assess colloidal charge behaviour and stability.
+- **Zwitterion:** A molecular form with both positive and negative formal charges but an overall net charge of zero.
+
 **Check yourself:** Can you define the 15 most important terms without reading? Which abbreviations refer to other antibiotic molecules and therefore should not be merged with CIP or TC?
 
 ## 15.4 A seven-session study plan
