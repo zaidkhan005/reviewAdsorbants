@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'manuscript' / 'SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md'
-BIB = ROOT / 'semester-manuscript-cited-references-49-selected-plus-4-context.bib'
+BIB = ROOT / 'semester-manuscript-cited-references-49-selected-plus-11-context.bib'
 CSL = ROOT / 'references' / 'american-chemical-society-2026.csl'
 OUT = ROOT / 'build' / 'semester-manuscript'
 FIG = OUT / 'figures'
@@ -363,7 +363,7 @@ def main() -> None:
         'Working manuscript V2 build\n'
         'Citation style: ACS Guide 2026 (provisional; confirm against AMU/supervisor requirements)\n'
         'Source: manuscript/SEMESTER_MANUSCRIPT_ASSEMBLED_SOURCE_V2.md\n'
-        'Bibliography: semester-manuscript-cited-references-49-selected-plus-4-context.bib\n'
+        'Bibliography: semester-manuscript-cited-references-49-selected-plus-11-context.bib\n'
         'Five Mermaid diagrams converted to embedded PNG images.\n'
         'Tables 1, 2 and 3 are integrated into the single manuscript DOCX/PDF.\n'
         'DOCX page geometry: A4 portrait with 22 mm margins.\n'
