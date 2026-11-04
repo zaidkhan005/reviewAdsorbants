@@ -32,18 +32,18 @@ No study was added to or removed from the selected set. No evidence value, exper
 
 ## Final successful production build
 
-- **GitHub Actions run:** [41784649185](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41784649185)
-- **Source commit:** `a98bb2f66f763455941e4e6fc3d973dc56f9d0f7`
-- **Artifact ID:** `13301131061`
+- **Latest successful bibliography/production build:** [GitHub Actions run 41786667974](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41786667974)
+- **Build source commit:** `82d6e76df2c9c2c4729482a31ff2930482f8d70e`
+- **Artifact ID:** `13302025655`
 - **Artifact name:** `semester-manuscript-v2-acs-draft`
-- **Artifact SHA-256:** `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`
+- **Artifact SHA-256:** `439b3ff431b430e17532f806019180e1b903acbb7a8d7e46b4df11f2255274e1`
 - **Artifact expiry:** 4 December 2026
 
 ### Generated files
 
-- DOCX: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `cf178346ab26d67aa9ee9ded47fcd814e8b5671324f6a0cc599f3e0018e346a1`.
-- PDF: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `3590896aea1ed7e8ba325b36e6824cf1004941eceb8aa25de8cc3332c23d8cf6`.
-- ZIP package SHA-256: `49852e5e1bbe0bd44c9f326de8e6b5304c29c23a6d67ba35d3b3338e53021c94`.
+- DOCX: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.docx`; 60 A4 pages; SHA-256 `36422875dc9505b73ec88b0b2fba796b41e9acf0e2ee3b71166198b01cd1fddf`.
+- PDF: `SEMESTER_MANUSCRIPT_V2_ACS_DRAFT.pdf`; 50 searchable, unencrypted A4 pages; SHA-256 `a2d61bef6ee6398f18743ab778e5575ca700e0f54154962010d7080d4c0617ef`.
+- ZIP package SHA-256: `439b3ff431b430e17532f806019180e1b903acbb7a8d7e46b4df11f2255274e1`.
 
 ## Visual and technical QA
 
@@ -59,8 +59,8 @@ No study was added to or removed from the selected set. No evidence value, exper
 
 ## Remaining qualifications and submission blockers
 
-- ACS numbered/superscript references and short journal names are used as the working bibliography style. The short forms are CASSI-style, but item-by-item verification of all 40 journal titles against CASSI remains a final reference-polishing task.
-- AMU/Department of Chemistry and supervisor confirmation of the required citation style and submission template remains outstanding.
+- ACS numbered/superscript references remain the working bibliography style, pending AMU/supervisor confirmation. The CASSI audit found exact publication records for 30 of 40 distinct journal titles. Two abbreviations were corrected and are applied consistently to every corresponding article record. Ten short forms remain provisional because exact CASSI records were not located in the accessible result set; this does not prove that the titles are absent from CASSI. See `logs/2026-11-04-cassi-and-amu-format-audit.md`.
+- AMU's public Department of Chemistry page lists B.Sc. Chemistry syllabus/curriculum information but no applicable semester-review manuscript style or citation rule. Department/supervisor confirmation remains outstanding.
 - Author names/order, affiliations, corresponding author, acknowledgements, funding, competing-interest, data-availability and any required author-contribution declarations still require author confirmation.
 - This is a proofread working draft, not an institutionally approved submission final. The PDF should not be described as PDF/UA-conformant.
 
