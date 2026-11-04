@@ -1,6 +1,10 @@
-# Final 60-reference manuscript build and QA — 4 November 2026
+# Intermediate 60-reference manuscript build and QA — 4 November 2026 (superseded)
 
-## Authoritative build
+## Historical intermediate build
+
+This successful intermediate build (run 41761643515) was superseded after a bibliographic DOI was corrected against the publisher record. The current authoritative build is [run 41762141686](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41762141686); use [the final 60-reference build QA log](2026-11-04-final-60-reference-build-qa.md) and the file index for current artifact IDs and hashes.
+
+## Intermediate build details
 
 - **GitHub Actions run:** [41761643515 — successful](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41761643515)
 - **Run/build-head commit:** `997ee0fe6f528dd815170d971f9be70b3b5e3c9d` (final workflow configuration; includes the 60-reference manuscript source and bibliography-path update).
@@ -74,4 +78,4 @@ The PDF is searchable and bookmarked but does not contain a tagged-PDF structure
 
 ## Supersession
 
-This 60-reference build supersedes the 4 November 53-reference artifact documented in [the earlier language-edited build QA log](2026-11-04-language-edited-final-build-qa.md). Use Actions run 41761643515 and the hashes above for the current working files.
+This intermediate 60-reference build superseded the 53-reference artifact, but it was itself superseded by run 41762141686 after the Ge et al. DOI was checked against the publisher PDF. Do not use this artifact for the current handoff.
