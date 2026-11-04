@@ -72,13 +72,26 @@ The AMU Research and Development Cell page lists procedures for research-project
 
 ## Bibliography integrity after the two CASSI corrections
 
-The two shortjournal corrections preserve the same full journal titles, article records, DOI values and citation keys. The expected final integrity check remains:
+The CASSI shortjournal corrections preserve the full journal titles, article metadata, DOI values and citation keys. Chemical Engineering Journal has two affected article records; both now use the exact CASSI form. Environmental Pollution has one affected record. The final integrity check is:
 - 60 bibliography records;
 - 60 unique citation keys;
 - 60 unique DOI values;
 - zero missing or unused in-text citation keys.
 
-The active manuscript build was regenerated after the first correction; a final consistency pass then applied the same CASSI form to the second Chemical Engineering Journal article. The successful build triggered by that final change, its artifact and output hashes are recorded in the production file index and readiness checklist once verified.
+The final manuscript build was regenerated after all bibliography corrections. The second Chemical Engineering Journal article uses the same CASSI-qualified form as the first.
+
+
+## Final successful build after CASSI corrections
+
+- GitHub Actions run: [41786667974](https://github.com/zaidkhan005/reviewAdsorbants/actions/runs/41786667974)
+- Source commit: `82d6e76df2c9c2c4729482a31ff2930482f8d70e`
+- Artifact ID: `13302025655`; SHA-256 `439b3ff431b430e17532f806019180e1b903acbb7a8d7e46b4df11f2255274e1`; expiry 4 December 2026.
+- DOCX: 60 A4 pages; SHA-256 `36422875dc9505b73ec88b0b2fba796b41e9acf0e2ee3b71166198b01cd1fddf`.
+- PDF: 50 searchable, unencrypted A4 pages; SHA-256 `a2d61bef6ee6398f18743ab778e5575ca700e0f54154962010d7080d4c0617ef`.
+- Bibliography integrity: 60 BibTeX records, 60 unique keys, 60 cited keys, 60 DOI fields and 60 unique DOI values; zero missing and zero unused citation keys.
+- Full-journal consistency: all records sharing a full journal title now share the same shortjournal form across the 40 titles.
+- Final DOCX pages 59–60 and PDF pages 49–50 were inspected at full size. The two CASSI-qualified titles wrap cleanly; reference entries remain intact and numbered sequentially through 60.
+- PDF page 9 was reinspected for the correctly typeset Yasmin equations. DOCX pages 23–24 were reinspected for the no-split Shaha kinetic row.
 
 ## Primary sources
 
