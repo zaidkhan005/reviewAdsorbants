@@ -58,6 +58,7 @@ The assembled manuscript source is authoritative for figure order, numbering, pl
 | Final language-edited build QA | [2026-11-04 final language-edited build and QA](../logs/2026-11-04-language-edited-final-build-qa.md) |
 | Contextual reference expansion to 60 works | [2026-11-04 seven-reference contextual expansion](../logs/2026-11-04-contextual-reference-expansion.md) |
 | ACS bibliography and Word-layout refinement | [2026-11-04 ACS bibliography/layout QA](../logs/2026-11-04-acs-bibliography-layout-refinement.md) |
+| Final table-readability audit | [2026-11-04 table-readability audit](../logs/2026-11-04-table-readability-audit.md) |
 | Final 60-reference build and QA | [2026-11-04 final 60-reference build QA](../logs/2026-11-04-final-60-reference-build-qa.md) |
 | Submission accessibility and artifact-integrity audit | [2026-11-04 accessibility and handoff audit](../logs/2026-11-04-submission-accessibility-handoff-audit.md) |
 | 94-claim ledger integrity sweep | [2026-11-03 claim-ledger integrity sweep](../logs/2026-11-03-claim-ledger-integrity-sweep.md) |
