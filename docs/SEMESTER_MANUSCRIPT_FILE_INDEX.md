@@ -144,4 +144,10 @@ The successful Actions run above produced the integrated DOCX and PDF in its wor
 
 [Open the 4 November submission-readiness checkpoint](SEMESTER_MANUSCRIPT_SUBMISSION_READINESS_CHECKLIST.md). The remaining items are author/affiliation and declaration details, destination-specific formatting confirmation, and institutional/supervisor sign-off.
 
+## 11. Study guide and seminar preparation
+
+| Purpose | Current source |
+|---|---|
+| Comprehensive beginner-to-seminar study guide | [SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md](../study-guides/SEMESTER_MANUSCRIPT_COMPREHENSIVE_STUDY_GUIDE.md) — 16 chapters covering the fundamentals, all 15 detailed comparison studies, the 49 selected works, all five manuscript figures, quantitative qualifications, 60 defence questions, glossary and revision plan. |
+
 > **Historical file note:** `manuscript/CLAIM_TO_SOURCE_CITATION_LEDGER.md` is the superseded biochar-focused ledger from 29 October 2026. The active source of truth for V2 is `data/semester-manuscript-claim-evidence-audit.csv`.
